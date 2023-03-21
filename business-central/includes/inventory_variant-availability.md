@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 09/21/2022
 ms.author: edupont
-ms.openlocfilehash: 1ed4346dbdcbd6fc4eb5b3cde677498c9f3b5ea6
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9608317"
 ---
 When you open the **Item Availability by Variant** page from a document line, then you can insert a variant in the document line by selecting the line with the variant that you want to insert and then choosing the OK button. If you've only used the page to view availability and don't want to insert a variant, then close the page without choosing the OK button.
 

@@ -1,23 +1,17 @@
 ---
 title: Record and Adjust Resource Usage and Prices
-description: Describes how you can record the resource usage or consumption associated with a job, to keep track and manage costs, prices, and work types.
+description: 'Describes how you can record the resource usage or consumption associated with a job, to keep track and manage costs, prices, and work types.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: project management, capacity, staff
-ms.search.form: 201,206, 207, 271, 493
+ms.search.keywords: 'project management, capacity, staff'
+ms.search.form: '201,206, 207, 271, 493'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9e2d8b51381e3fd89f9fab423485fc52cee46071
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517375"
 ---
-# <a name="use-resources-for-jobs"></a>Use Resources for Jobs
+# Use Resources for Jobs
 
 You record the usage of resources in the job journal to keep track of costs, prices, and the work types that are linked to jobs. For more information, see [Record Usage for Jobs](projects-how-record-job-usage.md).
 
@@ -26,17 +20,17 @@ You record the usage of resources in the job journal to keep track of costs, pri
 
 You can also post the usage of a resource in a resource journal. Entries posted in a resource journal have no effect on the general ledger.
 
-## <a name="to-assign-resources-to-jobs"></a>To assign resources to jobs
+## To assign resources to jobs
 
 You assign resources to jobs by creating job planning lines for the job. For more information, see [Create Jobs](projects-how-create-jobs.md).
 
-## <a name="to-record-resource-usage-for-a-job"></a>To record resource usage for a job
+## To record resource usage for a job
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.
 2. Open a relevant job journal batch, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. When the journal is complete, choose the **Post** action.
 
-## <a name="to-adjust-resource-prices"></a>To adjust resource prices
+## To adjust resource prices
 
 If you want to change costs or prices for a large number of resources, you can use a batch job.  
 
@@ -46,7 +40,7 @@ If you want to change costs or prices for a large number of resources, you can u
 > [!NOTE]  
 > This batch job does not create or adjust alternate costs or prices for resources. It only changes the contents of the field on the resource card for the **Adjust Field** field that you selected in the batch job. The adjustment will take effect immediately for resources, so check your adjustment factors before you run the batch job.
 
-## <a name="to-get-resource-price-change-suggestions-based-on-existing-alternate-prices"></a>To get resource price change suggestions based on existing alternate prices
+## To get resource price change suggestions based on existing alternate prices
 
 If you have already set up alternate resource price for some resources, you can use a batch job to set up multiple alternate resource prices.
 
@@ -55,7 +49,7 @@ If you have already set up alternate resource price for some resources, you can 
 3. Choose the **OK** button.  
 4. When the batch job is finished, the **Resource Price Changes** page shows the results of the batch job.
 
-## <a name="to-get-resource-price-change-suggestions-based-on-standard-prices"></a>To get resource price change suggestions based on standard prices
+## To get resource price change suggestions based on standard prices
 
 If you want to set up multiple alternate resource prices based on the standard prices on the resource cards, you can use a batch job.  
 
@@ -64,7 +58,7 @@ If you want to set up multiple alternate resource prices based on the standard p
 3. Choose the **OK** button.  
 4. When the batch job is finished, open the **Resource Price Changes** page to see the results of the batch job.
 
-## <a name="to-get-resource-price-change-suggestions-based-on-alternate-prices"></a>To get resource price change suggestions based on alternate prices
+## To get resource price change suggestions based on alternate prices
 
 If you have already set up alternate resource price for some resources, you can use a batch job to set up multiple alternate resource prices.
 
@@ -73,7 +67,7 @@ If you have already set up alternate resource price for some resources, you can 
 3. Choose the **OK** button.  
 4. When the batch job is finished, open the **Resource Price Changes** page to see the results of the batch job.
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Project Management](projects-manage-projects.md)  
 [Finance](finance.md)  

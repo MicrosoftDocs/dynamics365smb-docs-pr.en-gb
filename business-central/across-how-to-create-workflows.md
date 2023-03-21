@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 11/11/2022
 ms.author: bholtorf
-ms.openlocfilehash: 0d84da534c754ba7b0f6d1de97b61634ff743ddc
-ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9763275"
 ---
-# <a name="create-workflows-to-connect-tasks-in-business-processes"></a>Create Workflows to Connect Tasks in Business Processes
+# Create Workflows to Connect Tasks in Business Processes
 
 You can create workflows that connect tasks in business processes that are performed by different users. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps.  
 
@@ -47,7 +41,7 @@ The workflow is divided into three sections:
 
 For both events and responses, the options are system-defined. New ones must be added through the development of an extension.
 
-## <a name="to-create-a-workflow"></a>To create a workflow
+## To create a workflow
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, then choose the related link.  
 2. Choose the **New** action. The **Workflow** page opens.  
@@ -117,7 +111,7 @@ For both events and responses, the options are system-defined. New ones must be 
 > [!TIP]  
 > To see relations between tables used in workflows, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, then enter **Workflow – Table Relations**.  
 
-## <a name="example-of-creating-a-new-workflow-using-existing-events"></a>Example of creating a new workflow using existing events
+## Example of creating a new workflow using existing events
 
 In the following example, a new workflow is made to approve changes to the name of en existing vendor:
 
@@ -176,9 +170,9 @@ The following illustration provides an overview of the result of this procedure.
 
 Next, test the workflow by opening an existing vendor card and changing their name. Verify that an approval request is sent after changing the vendor name.
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-workflows/)
+## See related [Microsoft training](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)  
 [Set Up Approval Users](across-how-to-set-up-approval-users.md)  

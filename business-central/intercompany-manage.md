@@ -1,23 +1,17 @@
 ---
 title: Managing intercompany transactions
-description: With the Intercompany functionality, you can simplify business processes and transactions between companies within the same organisation.
+description: 'With the Intercompany functionality, you can simplify business processes and transactions between companies within the same organisation.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
+ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: 605
 ms.date: 08/11/2021
 ms.author: edupont
-ms.openlocfilehash: 356a484df2445dac39c02b9341cb9a0660a07467
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511656"
 ---
-# <a name="managing-intercompany-transactions"></a>Managing Intercompany Transactions
+# Managing Intercompany Transactions
 
 The intercompany transactions capabilities are designed for users who control more than one legal business entity and have set up multiple companies to separate the accounting functions of each of these entities. This broad description applies to many users, especially those operating in international markets or regions with widely disparate business cultures and regulatory environments.
 
@@ -32,7 +26,7 @@ There are four main benefits to the Intercompany functionality:
 - Complete audit trail and full visibility into business activities and transaction histories  
 - Efficient, cost-effective transactions with affiliate and subsidiary companies  
 
-## <a name="streamlining-the-flow-of-business-activities"></a>Streamlining the Flow of Business Activities  
+## Streamlining the Flow of Business Activities  
 
 Intercompany transactions lets you distribute sales and purchasing documents, as well as General Journal entries to all of your satellite offices, sales offices, or subsidiary companies, from within the program. Savings of time and increased efficiencies result throughout the organisation as you eliminate redundant data entry and the sending, receiving, printing, and archiving of the sales and purchasing documents on paper.  
 
@@ -71,7 +65,7 @@ The following table describes a sequence of tasks, with links to the articles th
 |Organise and process incoming and outgoing transactions that you exchange with your intercompany partners.|[Manage the Intercompany Inbox and Outbox](intercompany-how-manage-intercompany-inbox.md)|
 |Use intercompany transactions to distribute costs between partner companies.|[Allocate Costs to Intercompany Partners](intercompany-allocate-costs.md)|
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  

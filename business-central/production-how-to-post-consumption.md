@@ -1,31 +1,25 @@
 ---
 title: Batch Post Consumption
-description: If the flushing method is Manual, you must post the components manually, using a consumption journal.
+description: 'If the flushing method is Manual, you must post the components manually, using a consumption journal.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000846, 99000850
+ms.search.form: '99000846, 99000850'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 09129dc65ad61e632d7b5f5e3d22b47ae32d95bd
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516725"
 ---
-# <a name="batch-post-production-consumption"></a>Batch Post Production Consumption
+# Batch Post Production Consumption
 
 If the flushing method is **Manual**, you must post the components manually, using a consumption journal.  
 
 >[!NOTE]
-> If you have placed a check mark in the **Require Pick** field on the location card to indicate that the location requires inventory pick processing, then you do not need to use this batch job. [!INCLUDE[prod_short](includes/prod_short.md)] will handle consumption when you post the inventory pick. For more information, see [Pick for Production in Basic Warehouse Configurations](warehouse-how-to-pick-for-production.md#pick-for-production-in-basic-warehouse-configurations).  
+> If you have placed a check mark in the **Require Pick** field on the location card to indicate that the location requires inventory pick processing, then you do not need to use this batch job. [!INCLUDE[prod_short](includes/prod_short.md)] will handle consumption when you post the inventory pick. For more information, see [Pick for Production in Basic Warehouse Configurations](warehouse-how-to-pick-for-production.md).  
 
 You can also set up [!INCLUDE[prod_short](includes/prod_short.md)] to automatically post (*flush*) components when you start or finish production orders. For more information, see [Enable Flushing of Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md).
 
-## <a name="to-post-consumption-for-one-or-more-production-order-lines"></a>To post consumption for one or more production order lines
+## To post consumption for one or more production order lines
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Consumption Journal**, and then choose the related link.  
 2. Fill in the fields with the production order data and the consumption data. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -37,7 +31,7 @@ You can also set up [!INCLUDE[prod_short](includes/prod_short.md)] to automatica
 
 3. Choose the **Post** action to post the consumption. The related inventories are reduced.
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Manufacturing](production-manage-manufacturing.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  

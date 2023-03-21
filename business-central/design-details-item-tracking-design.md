@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: design, item, tracking, tracing
+ms.search.keywords: 'design, item, tracking, tracing'
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 626d22b4a45035698862c727547b332c898508af
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141340"
 ---
-# <a name="design-details-item-tracking-design"></a>Design Details: Item Tracking Design
+# Design Details: Item Tracking Design
 
 Item tracking in [!INCLUDE[prod_short](includes/prod_short.md)] started with [!INCLUDE [navnow_md](includes/navnow_md.md)]. The item tracking functionality is in a separate object structure with intricate links to posted documents and item ledger entries, and it is integrated with the reservation system, which handles reservation, order tracking, and action messaging. For more information, see [Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md) in the Supply Planning design details.  
 
@@ -39,7 +33,7 @@ Codeunit 22, **Item Jnl. – Post Line**, now splits the posting according to th
 
 For more information, see [Design Details: Item Tracking Posting Structure](design-details-item-tracking-posting-structure.md).  
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Design Details: Item Tracking](design-details-item-tracking.md)
 

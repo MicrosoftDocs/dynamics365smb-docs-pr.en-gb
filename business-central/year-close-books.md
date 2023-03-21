@@ -1,28 +1,22 @@
 ---
 title: Overview of the Tasks for Closing the Books
-description: Learn about the process of closing the books for a fiscal year or period, and what happens after you close at the end of a year.
+description: 'Learn about the process of closing the books for a fiscal year or period, and what happens after you close at the end of a year.'
 author: jswymer
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
 m.search.form: 100
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 2c959f3c3c0aad3a44ea2ebfa60aed395720f562
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511899"
 ---
-# <a name="closing-the-books"></a>Closing the Books
+# Closing the Books
 After you ensure that all your accounts are up-to-date, and you allocate costs and income, then you can close the books for a fiscal year or period.
 
 You are not required to close a year, but doing so will make working in the system easier for you because you will be able to take advantage of the convenient filtering options provided. You also do not have to worry about losing details of transactions when you close because all details are retained, even after you close the year.
 
-## <a name="closing-book-process"></a>Closing Book Process
+## Closing Book Process
 The process for closing the book includes these main tasks:
 
 1. Closing the accounting period.
@@ -44,14 +38,14 @@ The process for closing the book includes these main tasks:
 
     For more information, see [Post Year-End Closing Entry](year-how-post-year-end-close-entry.md).
 
-## <a name="what-happens-when-you-close"></a>What Happens When You Close
+## What Happens When You Close
 When you close at the end of the year, the system moves your earnings from calculated earnings to the Retained Earnings account. The system also marks the fiscal year as "closed," and marks all subsequent entries for the closed year as "prior year entries."
 
 The system then generates a closing entry, but it does not post the entry automatically. You are given the opportunity to make the offsetting equity account entry or entries, which allows you to decide how to allocate your closing entry. For example, if your company has several divisions, you can let the system generate a single closing entry for all the divisions, and you can then make an offsetting entry for each division's equity account.
 
 You can post in a previous fiscal year, even after the income statement accounts have been closed, if you run the Close Income Statement batch job again afterward.
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

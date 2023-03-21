@@ -3,13 +3,8 @@ author: rubenseishima
 ms.topic: include
 ms.date: 06/30/2022
 ms.author: a-reishima
-ms.openlocfilehash: c77d21222c7ac2fe2ddcfe4cfa129c6959afa441
-ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "9144424"
 ---
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
 2. Open the card for the vendor.
 3. Choose the **Bank Accounts** action.

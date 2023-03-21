@@ -7,17 +7,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online payment
-ms.search.forms: 1060, 1061, 1062
+ms.search.forms: '1060, 1061, 1062'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5b2ae63fea8f6ad477478eff6d876a0779d165ee
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530521"
 ---
-# <a name="enable-customer-payments-through-payment-services"></a>Enable Customer Payments Through Payment Services
+# Enable Customer Payments Through Payment Services
 
 As an alternative to collecting payments through bank transfer or credit cards, your customers can pay you through their account with payment services, such as PayPal or WorldPay.  
 
@@ -25,7 +19,7 @@ After you enable a payment service in [!INCLUDE[prod_short](includes/prod_short.
 
 The PayPal Payments Standard and WorldPay Payments Standard extensions are installed in [!INCLUDE[prod_short](includes/prod_short.md)], and are ready for you to enable.  
 
-## <a name="to-enable-a-payment-service-in-prod_short"></a>To enable a payment service in [!INCLUDE[prod_short](includes/prod_short.md)]
+## To enable a payment service in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Services**, and then choose the related link.  
 2. On the **Payment Services** page, choose the **New** action.  
@@ -34,7 +28,7 @@ The PayPal Payments Standard and WorldPay Payments Standard extensions are insta
 5. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 6. Close the page.  
 
-## <a name="to-select-a-payment-service-on-a-sales-invoice"></a>To select a payment service on a sales invoice
+## To select a payment service on a sales invoice
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
 2. Open the sales invoice that you want to pay by using the payment service.  
@@ -43,9 +37,9 @@ The PayPal Payments Standard and WorldPay Payments Standard extensions are insta
     > [!NOTE]  
     > The **Payment Service** field is available only if you've enabled the payment service.  
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/cash-management-dynamics-365-business-central/)
+## See related [Microsoft training](/training/modules/cash-management-dynamics-365-business-central/)
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Setting Up Sales](sales-setup-sales.md)  
 [Sales](sales-manage-sales.md)  

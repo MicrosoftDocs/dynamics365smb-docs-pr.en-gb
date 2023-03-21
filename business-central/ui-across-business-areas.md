@@ -8,14 +8,8 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 12/01/2022
 ms.custom: bap-template
-ms.openlocfilehash: c9f17c81e3cb2fcd57fef536e9c910416bdb1643
-ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "9822499"
 ---
-# <a name="general-business-functionality"></a>General Business Functionality
+# General Business Functionality
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides dedicated functionality for typical business areas, such as finance and sales. For more information, see [Business Functionality](across-business-functionality.md).
 
@@ -51,7 +45,7 @@ The following table lists these general business areas with links to articles th
 | Set up data exchange definitions so you can send and receive electronic documents. |[Exchanging Data Electronically](across-data-exchange.md) |
 | Use online maps to find locations and directions to customers, vendors, and addresses in general. | [Use Online Maps to Find Locations and Directions](across-online-maps.md) |
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Administration](admin-setup-and-administration.md)  

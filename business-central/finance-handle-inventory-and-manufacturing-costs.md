@@ -1,22 +1,16 @@
 ---
 title: Handle Inventory and Manufacturing Costs
-description: Learn how a number of fields, pages, and reports are aimed at users who directly or indirectly manage the cost of items or operations.
+description: 'Learn how a number of fields, pages, and reports are aimed at users who directly or indirectly manage the cost of items or operations.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: b911692aa899eac88b74322e21454c87659a75a8
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605577"
 ---
-# <a name="handling-inventory-and-manufacturing-costs"></a>Handling Inventory and Manufacturing Costs
+# Handling Inventory and Manufacturing Costs
 
 Although much of the cost accounting functionality is expressed in underlying processes with no user interaction, such as entry application and automatic cost adjustment, a number of fields, pages, and reports are aimed at users who directly or indirectly manage the cost of items or operations.  
 
@@ -35,7 +29,7 @@ Although much of the cost accounting functionality is expressed in underlying pr
 |Manually undo an item application or reapply item ledger entries created by application.|[Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Use the **Applies-from Entry** field in the item journal to manually create a fixed application between an inbound transaction and the original outbound transaction.|[Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Manage Inventory Costs](finance-manage-inventory-costs.md)
 [Design Details: Inventory Costing](design-details-inventory-costing.md)

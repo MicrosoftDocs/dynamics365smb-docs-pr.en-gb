@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: c391e7d6492a722de10801212ccd04a532f8a971
-ms.sourcegitcommit: 521735f8e27d8bff2d2dfbe94d240c09dcdaec29
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8419656"
 ---
 As companies operate in more countries/regions, it becomes essential that they are able to trade and report financial information in more than one currency. The local currency (LCY) is defined in the **General Ledger Setup** page as described in the article [Understanding the General Ledger and the Chart of Accounts](../finance-general-ledger.md). Once the local currency (LCY) has been defined, it will be represented as a blank currency, so when the **Currency** field is blank, it means that the currency is LCY.  
 

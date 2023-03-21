@@ -6,20 +6,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5832, 99000802, 99000820
+ms.search.form: '5832, 99000802, 99000820'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 2897ed44eb9df8e0bc8f6a4f6a83a9e18175ecc7
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516751"
 ---
-# <a name="post-capacities"></a>Post Capacities
+# Post Capacities
 In the capacity journal, you post consumed capacities that are not assigned to the production order. For example, maintenance work must be assigned to capacity, but not to a production order.  
 
-## <a name="to-post-capacities"></a>To post capacities  
+## To post capacities  
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Capacity Journals**, and then choose the related link.  
 2.  Fill in the **Posting Date** and **Document No.** fields.  
 3.  In the **Type** field, enter the type of the capacity, either **Machine Centre** or **Work Centre**, that you are posting.  
@@ -27,14 +21,14 @@ In the capacity journal, you post consumed capacities that are not assigned to t
 5.  Enter the relevant data in the other fields, such as **Starting Time**, **Ending Time**, **Quantity**, and **Scrap**.  
 6.  Choose the **Post** action to post the capacities.  
 
-## <a name="to-view-work-center-ledger-entries"></a>To view work centre ledger entries  
+## To view work centre ledger entries  
 In the **Work Centre Card** and **Machine Centre Card** pages, you can view the posted capacities as a result of finished production orders.    
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Centres**, and then choose the related link.  
 2.  Open the relevant **Work Centre** card from the list, and then choose the **Capacity Ledger Entries** action.  
 
 The **Capacity Ledger Entries** page displays the posted entries from the work centre in the order they were posted.   
 
-## <a name="see-also"></a>See Also  
+## See Also  
 [Manufacturing](production-manage-manufacturing.md)    
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Planning](production-planning.md)      

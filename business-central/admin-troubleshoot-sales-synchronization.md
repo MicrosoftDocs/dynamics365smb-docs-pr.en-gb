@@ -1,22 +1,16 @@
 ---
 title: Troubleshooting Synchronisation Errors
-description: This topic provides some guidance for identifying, troubleshooting and resolving Synchronisation errors.
+description: 'This topic provides some guidance for identifying, troubleshooting and resolving Synchronisation errors.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: a7490c896daabd05ef0b0bb7d125e15963d83320
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381493"
 ---
-# <a name="troubleshooting-synchronization-errors"></a>Troubleshooting Synchronisation Errors
+# Troubleshooting Synchronisation Errors
 
 
 There are lots of moving parts involved in integrating [!INCLUDE[prod_short](includes/prod_short.md)] with [!INCLUDE[prod_short](includes/cds_long_md.md)], and sometimes things go wrong. This topic points out some of the typical errors that occur and gives some pointers for how to fix them.
@@ -38,7 +32,7 @@ The following are some tools on the Integration Synchronisation Errors page that
 * The **Delete Entries Older than 7 Days** and the **Delete All Entries** actions will clean up the list. Typically, you use these actions after you have resolved the cause of an error that affects many records. Use caution, however. These actions might delete errors that are still relevant.
 * The **Show Error Call Stack** action shows information that can help identify the cause of the error. If you can't resolve the error yourself and you decide to submit a support request, include the information in the support request.
 
-## <a name="see-also"></a>See Also
+## See Also
 [Integrating with Microsoft Dataverse](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Setting Up User Accounts for Integrating with Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)  
 [Set Up a Connection to Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)  

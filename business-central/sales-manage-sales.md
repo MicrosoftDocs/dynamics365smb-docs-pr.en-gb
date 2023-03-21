@@ -1,23 +1,17 @@
 ---
 title: Overview of Tasks to Manage Sales
-description: Read all about how to use Business Central's services to manage your customers' sales activities with sales invoices, orders, quotes, and more.
+description: 'Read all about how to use Business Central''s services to manage your customers'' sales activities with sales invoices, orders, quotes, and more.'
 author: SorenGP
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: trade, sell
+ms.search.keywords: 'trade, sell'
 ms.search.form: 253
 ms.date: 09/02/2022
 ms.author: edupont
-ms.openlocfilehash: d6db11d2cb8f7d2cb0906146d03f423b815c29d1
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535753"
 ---
-# <a name="sales"></a>Sales
+# Sales
 
 You create a sales invoice or sales order to record your agreement with a customer to sell certain products on certain delivery and payment terms.
 
@@ -59,7 +53,7 @@ The following table describes a sequence of tasks, with links to the articles th
 |Inform your customers of order delivery dates by calculating either the capable-to-promise date or the available-to-promise date.|[Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)|
 |Resolve confusion when two or more records exist for the same customer.|[Merge Duplicate Records](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/sell-items-services-dynamics-365-business-central/).
+## See related [Microsoft training](/training/paths/sell-items-services-dynamics-365-business-central/).
 
 [Setting Up Sales](sales-setup-sales.md)  
 [Register New Customers](sales-how-register-new-customers.md)  

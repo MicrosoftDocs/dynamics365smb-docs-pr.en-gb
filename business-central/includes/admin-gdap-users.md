@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 05/09/2022
 ms.author: edupont
-ms.openlocfilehash: f002086780e694ad80f2b5c80e942ab411de1948
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8732970"
 ---
 You might see other users in the **Users** list apart from those from your own company. When a delegated admin from a reselling partner company logs into a [!INCLUDE [prod_short](prod_short.md)] environment on behalf of their customer, they are automatically created as a user inside [!INCLUDE [prod_short](prod_short.md)]. This way, the actions performed by a delegated admin are logged in [!INCLUDE [prod_short](prod_short.md)], such as posting documents, and associated with their user ID.  
 

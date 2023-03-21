@@ -6,25 +6,19 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.search.form: 600, 610
+ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
+ms.search.form: '600, 610'
 ms.date: 03/09/2022
 ms.author: edupont
-ms.openlocfilehash: 0d0b4404df9f322c9d642fb06c08e912c24f9fd3
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519733"
 ---
-# <a name="work-with-intercompany-documents-and-journals"></a>Work with Intercompany Documents and Journals
+# Work with Intercompany Documents and Journals
 You use intercompany documents or journals to post transactions with your intercompany partners. When you post an intercompany document or journal line in your company, a corresponding document or journal line is created in your intercompany outbox that you can transfer to your partner. Your partner can then post the corresponding transaction in their company, without having to re-enter the data.
 
 For sales and purchase documents, the intercompany partner code on the involved customer or vendor ensures that all orders and invoices generated pertaining to transactions with these companies will produce corresponding documents in the partner company, resulting in correct balancing of the accounts.
 
 For intercompany general journal lines, you do not need to specify the accounts for an individual set of books, but simply give the identification of the partner company. Corresponding intercompany general journal lines are then created in the partner company that result in the balancing of the books of both companies involved in a transaction.
 
-## <a name="to-fill-in-and-send-an-intercompany-sales-order"></a>To fill in and send an intercompany sales order
+## To fill in and send an intercompany sales order
 You can send sales and purchase orders and return orders before posting. Invoices and credit memos cannot be sent until they are posted.
 
 The following procedure describes how to fill in and send an intercompany sales order. The same steps apply to intercompany purchase orders and return orders, and to posted intercompany invoices and credit memos.  
@@ -38,7 +32,7 @@ The following procedure describes how to fill in and send an intercompany sales 
 > [!NOTE]
 > If you do perform step 4, then the sales order will be moved to your intercompany outbox where you can send it later. For more information, see [Manage the Intercompany Inbox and Outbox](intercompany-how-manage-intercompany-inbox.md).
 
-## <a name="to-fill-in-and-post-an-intercompany-journal"></a>To fill in and post an intercompany journal
+## To fill in and post an intercompany journal
 
 When you post an intercompany general journal line in your company, a corresponding journal line is created in your intercompany outbox that you can transfer to your partner. With 2022 release wave 1, you can also set up the company for automatic creation of received intercompany transactions from intercompany partners, posted through the intercompany general journal. Your partner can then post the corresponding transaction in their company, without having to re-enter the data.
 
@@ -53,7 +47,7 @@ When you post an intercompany general journal line in your company, a correspond
 
 The involved entries are posted in your company and a journal with the corresponding entries are created in your intercompany outbox that you can send to your partner company. For more information, see [Manage the Intercompany Inbox and Outbox](intercompany-how-manage-intercompany-inbox.md).
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Managing Intercompany Transactions](intercompany-manage.md)  
 [Finance](finance.md)  

@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
+ms.search.keywords: 'design, item, tracking, serial number, lot number, outbound documents'
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 0b101215e06e33bbbafdf0c38e18ac3ddaa6774a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141314"
 ---
-# <a name="design-details-item-tracking-in-the-warehouse"></a>Design Details: Item Tracking in the Warehouse
+# Design Details: Item Tracking in the Warehouse
 Serial number and lot number handling is primarily a warehouse task and therefore all inbound and outbound warehouse documents have standard functionality for assigning and selecting item tracking numbers.  
 
 However, because the reservation system is based on item ledger entries, warehouse activity documents that register only warehouse entries are not fully supported. Because reservations and item tracking numbers can be handled only at the location level, not at the bin and zone level, the **Item Tracking Lines** page cannot be opened from warehouse activity documents. The same applies to the **Reservation** page.  
@@ -25,7 +19,7 @@ After a serial or lot number has been added to an item at a warehouse location, 
 
 However, the reservation system does take warehouse activities into consideration when it calculates availability. For example, items that are allocated to picks, or registered as picked, cannot be reserved. For more information, see [Design Details: Warehouse Availability](design-details-availability-in-the-warehouse.md).
 
-## <a name="see-also"></a>See Also  
+## See Also  
 [Design Details: Item Tracking](design-details-item-tracking.md)  
 [Design Details: Integration with Inventory](design-details-integration-with-inventory.md)  
 [Design Details: Warehouse Availability](design-details-availability-in-the-warehouse.md)  

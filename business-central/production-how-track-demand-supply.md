@@ -6,23 +6,17 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5830, 9101, 99000822, 99000855
+ms.search.form: '5830, 9101, 99000822, 99000855'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 377f0af230bd1a1d77bcbc303a9b5cdefcb42ca6
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517876"
 ---
-# <a name="track-relations-between-demand-and-supply"></a>Track Relations Between Demand and Supply
+# Track Relations Between Demand and Supply
 
 From any supply or demand document in the so-called order network, you can track the order demand (tracked quantity), forecast, blanket sales order, or planning parameter (untracked quantity) that has given rise to the planning line in question.
 
 The planning worksheets also offers supporting planning information about non-order entities to help the planner obtain an optimal supply plan. For more information, see [Untracked Planning Elements](production-how-track-demand-supply.md#untracked-planning-elements).
 
-## <a name="to-track-linked-items"></a>To track linked items
+## To track linked items
 Order tracking shows how sales orders, production orders, and purchase orders are related to the manufacturing order through the planning and reservation systems.
 
 The following describes how to track linked items on a firm planned production order. The steps are similar for all other order types, and from planning worksheet lines.
@@ -33,7 +27,7 @@ The following describes how to track linked items on a firm planned production o
 
 The lines in the **Order Tracking** display the documents that are related to the current production order line.
 
-## <a name="untracked-planning-elements"></a>Untracked Planning Elements
+## Untracked Planning Elements
 The **Untracked Planning Elements** page opens when you choose the **Untracked Qty.** field on the **order Planning** page. It serves two purposes:
 
 1. To hold information about untracked quantities displayed when the user looks up from the Order Tracking page to see untracked quantities.
@@ -52,7 +46,7 @@ The page contains entries which account for an untracked surplus quantity in ord
 - Order multiple
 - Dampener (% of lot size)
 
-## <a name="see-also"></a>See Also  
+## See Also  
 [Planning](production-planning.md)   
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)    

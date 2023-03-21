@@ -4,27 +4,21 @@ description: See which financial reports and analytics are available in the stan
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: Report_4, Report_6, Report_7, Report_9, Report_25, Report_38
+ms.search.form: 'Report_4, Report_6, Report_7, Report_9, Report_25, Report_38'
 ms.date: 08/24/2022
 ms.author: edupont
-ms.openlocfilehash: 8838569a1077a5c9befc1ab11daab49432563d3c
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605091"
 ---
-# <a name="financial-reports-and-analytics-in-business-central"></a>Financial Reports and Analytics in Business Central
+# Financial Reports and Analytics in Business Central
 
 Financial reporting in [!INCLUDE [prod_short](includes/prod_short.md)] gives financial and business professionals the power to create, maintain, deploy, and view financial statements. Goes beyond traditional reporting constraints to help you efficiently design various types of reports. [!INCLUDE [prod_short](includes/prod_short.md)] includes several reports, tracing functions, and tools to help auditors or controllers who are responsible for reporting to the finance department. Financial reporting includes support for dimensions, so account segments or dimensions are immediately available; no other tools or configuration steps are required.  
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
-## <a name="reports"></a>Reports
+## Reports
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-## <a name="tasks"></a>Tasks
+## Tasks
 
 The following articles describe some of the key tasks for analysing the state of your business:
 
@@ -36,9 +30,9 @@ The following articles describe some of the key tasks for analysing the state of
 * [Create Reports with XBRL](bi-create-reports-with-xbrl.md)  
 * [Manage Database Access Intent](admin-data-access-intent.md)  
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/create-financial-reports-dynamics-365-business-central/)
+## See related [Microsoft training](/training/paths/create-financial-reports-dynamics-365-business-central/)
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Creating Cost Budgets](finance-create-cost-budgets.md)  
 [Report VAT to Tax Authorities](finance-how-report-vat.md)  

@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133
+ms.search.form: '1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 71ed144297e1f7b98b5fcb7252a216258719f68a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533651"
 ---
-# <a name="creating-cost-budgets"></a>Creating Cost Budgets
+# Creating Cost Budgets
 
 Budgeting in cost accounting resembles budgeting in the general ledger. A cost budget is created based on cost types just as a budget for the general ledger is created based on general ledger accounts.  
 
@@ -32,9 +26,9 @@ You use the following pages to create and analyse cost budgets. Choose the ![Lig
 |See cost budget registers and cost budget entries.|**Cost Budget Registers** page|  
 |Print cost budget comparisons using various reports.|**Cost Acctg. Balance-Budget** report<br /><br /> **Cost Acctg. Statement-Budget** report<br /><br /> **Cost Budget by Cost Centre** report<br /><br /> **Cost Budget by Cost Object** report|  
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/cost-accounting-reports-dynamics-365-business-central/)
+## See related [Microsoft training](/training/modules/cost-accounting-reports-dynamics-365-business-central/)
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Accounting for Costs](finance-manage-cost-accounting.md)  
 [Create G/L Budgets](finance-how-create-budgets.md)  

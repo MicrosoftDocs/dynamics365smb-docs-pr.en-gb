@@ -3,18 +3,12 @@ author: jill-kotel-andersson
 ms.topic: include
 ms.date: 05/27/2021
 ms.author: edupont
-ms.openlocfilehash: 838a5c44ca1be72644b3cb9b7d26c65adccc96af
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148077"
 ---
-## <a name="setting-up-the-location"></a>Setting Up the Location
+## Setting Up the Location
 
 The setup of the **Location Card** page defines the company's warehouse flows. Use the Locations card to set up a location with the code name *SOUTH*.
 
-### <a name="to-set-up-the-location-south"></a>To set up the location SOUTH
+### To set up the location SOUTH
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
 2. Create a location card named *SOUTH*.  

@@ -1,22 +1,16 @@
 ---
 title: Enter External Document Numbers
-description: You can enter external document numbers for customers and vendors in all sales and purchase orders, invoices, and credit memos. You can use these numbers to search for posted sales and purchase lines later.
+description: 'You can enter external document numbers for customers and vendors in all sales and purchase orders, invoices, and credit memos. You can use these numbers to search for posted sales and purchase lines later.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 05/28/2021
 ms.author: edupont
-ms.openlocfilehash: f667ab258d134ab904b75c7a357b6739db3118d9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141678"
 ---
-# <a name="enter-external-document-numbers"></a>Enter External Document Numbers
+# Enter External Document Numbers
 
 You can enter external document numbers for customers and vendors in all sales and purchase orders, invoices, and credit memos. You can use these numbers to search for posted sales and purchase lines later.  
 
@@ -25,7 +19,7 @@ You can enter external document numbers for customers and vendors in all sales a
 
 The following procedure explains how to specify an external document number on a sales order, but similar steps apply to other sales and purchase documents.
 
-## <a name="to-enter-external-document-numbers-in-a-sales-order"></a>To enter external document numbers in a sales order  
+## To enter external document numbers in a sales order  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2. Select the relevant sales order, and then choose the **Edit** action.  
@@ -34,7 +28,7 @@ The following procedure explains how to specify an external document number on a
     On purchase documents, the relevant field is the **Vendor Invoice No.** field.
 4. Fill in any other required fields.  
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [External Document Numbers on Purchase Documents](purchasing-ext-doc-no.md)  
 [External Document Numbers on Sales Documents](sales-how-invoice-sales.md#external-document-numbers)  

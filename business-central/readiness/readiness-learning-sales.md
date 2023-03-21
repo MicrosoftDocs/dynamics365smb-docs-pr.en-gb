@@ -5,20 +5,15 @@ author: loreleishannonmsft
 ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 60fc44ff10b762c3cba9bbae2447982214b34e24
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535136"
 ---
-# <a name="partner-sales-and-marketing-learning-catalog"></a>Partner Sales and Marketing Learning Catalogue
+
+# Partner Sales and Marketing Learning Catalogue
 
 Are you responsible for helping your customers buy the right solution?
 
 The following catalogue is organised from core knowledge to specific domains, and from most basic to most advanced. If content exists in multiple formats, we'll let you know, so that you can choose the training format that best meets your needs.  
 
-## <a name="business-value"></a>Business value<a name="busvalue"></a>
+## Business value<a name="busvalue"></a>
 
 | Content     | Description    | Format                                | Length              |
 |-------------|----------------|---------------------------------------|---------------------|
@@ -26,7 +21,7 @@ The following catalogue is organised from core knowledge to specific domains, an
 | [Explore Dynamics 365 Business Central Capabilities](https://dynamics.microsoft.com/business-central/capabilities/) | Explore Dynamics 365 Business Central Capabilities    | Website    |                     |
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/)            | This module shows application features, benefits, and examples of Dynamics 365 Business Central in action.    | Free, self-paced online learning path | 24 minutes          |
 
-## <a name="getting-started"></a>Getting started<a name="get-started"></a>
+## Getting started<a name="get-started"></a>
 
 | Content   | Description   | Format                                | Length              |
 |-----------|---------------|---------------------------------------|---------------------|
@@ -35,7 +30,7 @@ The following catalogue is organised from core knowledge to specific domains, an
 | [Work like a pro with data in Business Central](/training/paths/work-pro-data-dynamics-365-business-central) | Are you just getting started with Business Central? This learning path will help prepare you for the types of data in Business Central and how to find information you need in the application.      | Free, self-paced online learning path | 2 hours 27 minutes  |
 | [Business Central YouTube playlist](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4) | YouTube landing page for Dynamics 365 Business Central videos  | YouTube Videos  |                     |
 
-## <a name="grow-your-business"></a>Grow your business<a name="grow"></a>
+## Grow your business<a name="grow"></a>
 
 | Content   | Description        | Format                                | Length                |
 |-----------|--------------------|---------------------------------------|-----------------------|
@@ -45,6 +40,6 @@ The following catalogue is organised from core knowledge to specific domains, an
 | [Cloud Solution Provider program - selling in-demand cloud solutions](/partner-center/csp-overview)  | The Cloud Solution Provider programme (CSP) helps you go beyond reselling licences to being more involved in your customer's business.   | Website      |                       |
 | [Cloud Solution Provider programme - compare partner support programmes](https://partner.microsoft.com/support/partnersupport) | Watch this video to see how to pick the right partner support plan for your business. Then see a side-by-side comparison below.    | Website                               |                       |
 | [Cloud SureStep Accelerated Selling](https://mbspartner.microsoft.com/OSS/Topic/20)  | (Partners-only) The Cloud SureStep Accelerated Sales Process is built around the needs of the modern buyer and endeavors to trigger an emotional, experience-driven Strategic Tipping Point early in the selling process. This series of videos and resources explain a prescriptive selling process that is specifically designed to counter the traditional resource intensive, "demo-oriented" solution sales approach that typically leads to highly customised product demonstrations, complex sales cycles and long implementation projects. The library of resources includes a number of customisable templates so you may create your own set of sales assets to support accelerated selling. | Website     |                       |
-| [Supplement to the Transition Partner Playbook (July 2019) ](https://assetsprod.microsoft.com/d365-business-central-supplement-to-transition-partner-playbook.pptx) | This supplement to the Transition Partner playbook provides some updated and new guidance to partners for securing their existing customer base from competition and new SaaS entrants.  | PowerPoint slideshow | 15 slides |
+| [Supplement to the Transition Partner Playbook (July 2019) ](https://assetsprod.microsoft.com/d365-business-central-supplement-to-transition-partner-playbook.pptx) | This supplement to the Transition Partner playbook provides some updated and new guidance to partners for securing their existing customer base from competition and new SaaS entrants.  | PowerPoint slideshow | 15 slides |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

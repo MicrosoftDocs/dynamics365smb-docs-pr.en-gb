@@ -10,14 +10,8 @@ ms.search.keywords: feature overview
 ms.reviewer: edupont
 ms.date: 09/22/2022
 ms.author: kepontop
-ms.openlocfilehash: 4ae58b37d42d501142ebfa617da79266d5d8a9b1
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607868"
 ---
-# <a name="business-intelligence-and-reporting-overview"></a>Business Intelligence and Reporting Overview
+# Business Intelligence and Reporting Overview
 
 Small and mid-sized companies rely on built-in analytics and reporting capabilities they can use out-of-the-box to help keep track of their business. [!INCLUDE[prod_short](includes/prod_short.md)] supports common business processes as well as more complex processes for such organisations. Each of these processes includes reports and analytics tools. You can also do ad-hoc analysis directly from your home page.  
 
@@ -32,9 +26,9 @@ The following table covers key business intelligence and reporting functionality
 | Integrate external business intelligence tools with [!INCLUDE[prod_short](includes/prod_short.md)].| [External Business Intelligence Tools](reports-external-analysis.md) |
 |Modify report layouts or even develop your own reports from scratch. |[Developing reports](reports-develop-reports.md)|
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/setup-reporting-dynamics-365-business-central/).
+## See related [Microsoft training](/training/paths/setup-reporting-dynamics-365-business-central/).
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Financial Business Intelligence](bi.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

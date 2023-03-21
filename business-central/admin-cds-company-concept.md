@@ -1,27 +1,22 @@
 ---
 title: Company and Business Unit Mapping | Microsoft Docs
-description: Companies are both a legal and business constructs, and they are used to secure and visualise business data.
+description: 'Companies are both a legal and business constructs, and they are used to secure and visualise business data.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: CDS, Dataverse, integration, sync
+ms.search.keywords: 'CDS, Dataverse, integration, sync'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2ac7f2b0b64277f84e9995bb4e29d620e2a2262d
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383012"
 ---
-# <a name="data-ownership-models"></a>Data Ownership Models
+
+# Data Ownership Models
 
 
 [!INCLUDE[prod_short](includes/cds_long_md.md)] requires that you specify an owner for the data you store. For more information, see [Types of tables](/powerapps/maker/data-platform/types-of-entities) in the Power Apps documentation. When you set up integration between [!INCLUDE[prod_short](includes/cds_long_md.md)] and [!INCLUDE[prod_short](includes/prod_short.md)] you must choose the **User or team** ownership for records that are synchronised. Actions that can be performed on these records can be controlled on a user level. <!--We recommend the Team ownership model because it makes it easier to manage ownership for multiple people.NO LONGER TRUE IN DATAVERSE-->
 
-## <a name="team-ownership"></a>Team Ownership
+## Team Ownership
 In [!INCLUDE[prod_short](includes/prod_short.md)], a company is a legal and business table that offers ways to secure and visualise business data. Users always work in the context of a company. The closest that [!INCLUDE[prod_short](includes/cds_long_md.md)] comes to this concept is the business unit table, which does not have legal or business implications.
 
 Because business units lack legal and business implications, you cannot force a one-to-one (1:1) mapping to synchronise data between a company and a business unit, either one-way or bi-directional. To make synchronisation possible, when you enable synchronisation for a company in [!INCLUDE[prod_short](includes/prod_short.md)], the following happens in [!INCLUDE[prod_short](includes/cds_long_md.md)]:
@@ -55,21 +50,21 @@ Synchronisation determines which team should own records. This is controlled by 
 > [!NOTE]
 > Records become read-only after a company is added and saved, so be sure to choose the correct company.
 
-## <a name="choosing-a-different-business-unit"></a>Choosing a different business unit
+## Choosing a different business unit
 You can change the business unit selection if you are using the Teams ownership model. If you use the Person ownership model, the default business unit is always selected. 
 
 If you choose another business unit, for example, one that you created earlier in [!INCLUDE[prod_short](includes/cds_long_md.md)], it will keep its original name. That is, it will not be suffixed with the company ID. We will create a team that does use the naming convention.
 
 When changing a business unit, you can choose only the business units that are one level below the root business unit.
 
-## <a name="person-ownership"></a>Person Ownership
+## Person Ownership
 If you choose the Person ownership model you must specify each salesperson who will own new records. The business unit and team are created as described in the [Team Ownership](admin-cds-company-concept.md#team-ownership) section.
 
 The default business unit is used when the Person ownership model is chosen, and you cannot choose another business unit. The team that is associated with the default business unit will own records for common tables, such as the Product table, that are not related to specific salespersons.
 
 When you couple salespersons in [!INCLUDE[prod_short](includes/prod_short.md)] to users in [!INCLUDE[prod_short](includes/cds_long_md.md)], [!INCLUDE[prod_short](includes/prod_short.md)] will add the user to the default team in [!INCLUDE[prod_short](includes/cds_long_md.md)]. You can verify that users are added by looking at the **Default Team Member** column on the **Users - Common Data Service** page. If the user is not added, you can add them manually by using the **Add Coupled Users to Team** action. For more information, see [Synchronising Data in Business Central with Dataverse](admin-synchronizing-business-central-and-sales.md).
 
-## <a name="see-also"></a>See Also
+## See Also
 [About [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-common-data-service.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

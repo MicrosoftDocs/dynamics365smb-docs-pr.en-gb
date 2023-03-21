@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000773, 99000778, 99000823, 99000827
+ms.search.form: '99000773, 99000778, 99000823, 99000827'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7a1c30340efabed66e4ce359fc7680945e0db1de
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522753"
 ---
-# <a name="batch-post-output-and-run-times"></a>Batch Post Output and Run Times
+# Batch Post Output and Run Times
 The output quantity represents the work progress in the form of the finished quantity and used capacity of work or machine centre.
 
 You can use the output journal to:
@@ -30,7 +24,7 @@ You can use the output journal to:
 
 With the **Production Journal** window, you can perform the same tasks as in the **Output Journal** window and at the same time perform the related consumption posting tasks. For more information, see [Register Consumption and Output for One Released production order line](production-how-to-register-consumption-and-output.md).
 
-## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>To post output quantities and/or register run times for one or more production order lines
+## To post output quantities and/or register run times for one or more production order lines
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.  
 2. Fill in the fields with the production order data and the output data and/or run time. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -44,7 +38,7 @@ Capacity ledger entries are updated for the used work or machine centres with in
 
 If you posted the last operation, the item will be added to the inventory.  
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Post Scrap Manually](production-how-to-post-scrap.md)
 [Reverse Output Posting](production-how-to-reverse-output-posting.md)

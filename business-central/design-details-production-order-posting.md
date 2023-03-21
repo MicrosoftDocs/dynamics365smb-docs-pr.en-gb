@@ -1,22 +1,16 @@
 ---
 title: Design Details - Production Order Posting | Microsoft Docs
-description: Similar to assembly order posting, the consumed components and the used machine time are converted and output as the produced item when the production order is finished.
+description: 'Similar to assembly order posting, the consumed components and the used machine time are converted and output as the produced item when the production order is finished.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 51d04edb267ba2d75b4ed57d1587b40994f009cc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511708"
 ---
-# <a name="design-details-production-order-posting"></a>Design Details: Production Order Posting
+# Design Details: Production Order Posting
 Similar to assembly order posting, the consumed components and the used machine time are converted and output as the produced item when the production order is finished. For more information, see [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md). However, the cost flow for assembly orders is less complex, especially because assembly cost posting only occurs once and therefore does not generate work-in-process inventory.
 
 
@@ -52,7 +46,7 @@ The values of increases and decreases are recorded in the different types of man
 
 Although values of transactions that are related to purchased goods are posted only as item ledger entries with related value entries, transactions that are related to produced items are posted as capacity ledger entries with related value entries, in addition to the item ledger entries.  
 
-## <a name="posting-structure"></a>Posting Structure  
+## Posting Structure  
 Posting production orders to WIP inventory involves output, consumption, and capacity.  
 
 The following diagram shows the involved posting routines in codeunit 22.  
@@ -75,12 +69,12 @@ A value entry that describes WIP inventory value can be associated with one of t
 
 For more information about how costs from production and assembly are posted to the general ledger, see [Design Details: Inventory Posting](design-details-inventory-posting.md).  
 
-## <a name="capacity-posting"></a>Capacity Posting  
+## Capacity Posting  
 Posting output from the last production order routing line results in a capacity ledger entry for the end item, in addition to its inventory increase.  
 
  The capacity ledger entry is a record of the time that was spent to produce the item. The related value entry describes the increase of the WIP inventory value, which is the value of the conversion cost. For more information, see “From the Capacity Ledger” in [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md).  
 
-## <a name="production-order-costing"></a>Production Order Costing  
+## Production Order Costing  
  To control inventory and production costs, a manufacturing company must measure the cost of production orders, because the predetermined standard cost of each produced item is capitalised in the balance sheet. For information about why produced items use the Standard costing method, see [Design Details: Costing Methods](design-details-costing-methods.md).  
 
 > [!NOTE]  
@@ -104,7 +98,7 @@ In standard-cost environments, the costing of a production order is based on the
     >  This differs from assembly order posting, which always posts actual costs. For more information, see [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md).  
 2.  When the production order is set to **Finished**, the order is invoiced by running the **Adjust Cost-Item Entries** batch job. As a result, the total cost of the order is calculated based on the standard cost of the consumed materials and capacity. The variances between the calculated standard costs and the actual production costs are calculated and posted.  
 
-## <a name="see-also"></a>See Also  
+## See Also  
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   
  [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)  
  [Managing Inventory Costs](finance-manage-inventory-costs.md) [Finance](finance.md)  

@@ -1,37 +1,31 @@
 ---
 title: Breaking Bulk with Directed Put-away and Pick
-description: Learn how to enable automatic breaking bulk with directed put-away and pick, as well as breakbulking in picks, put-aways, movements, and more.
+description: 'Learn how to enable automatic breaking bulk with directed put-away and pick, as well as breakbulking in picks, put-aways, movements, and more.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 5703, 7352
+ms.search.keywords: null
+ms.search.form: '5703, 7352'
 ms.date: 11/04/2022
 ms.author: bholtorf
-ms.openlocfilehash: d5e8ab6f0e60ab8874669c7e5127411acc58957b
-ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "9744685"
 ---
-# <a name="enable-automatic-breaking-bulk-with-directed-put-away-and-pick"></a>Enable Automatic Breaking Bulk with Directed Put-away and Pick
+# Enable Automatic Breaking Bulk with Directed Put-away and Pick
 
 For locations that use directed put-away and pick, [!INCLUDE[prod_short](includes/prod_short.md)] can break larger units of measure into smaller units of measure when it creates warehouse instructions for source documents, production orders, or internal picks and put-aways. To breakbulk can also mean gathering items in smaller units of measure to equal the quantity of a larger unit of measure on a source document or production order.
 
-## <a name="breakbulk-in-picks"></a>Breakbulk in picks  
+## Breakbulk in picks  
 
 If you want to store items in several different units of measure in a location and allow them to be automatically combined in the picking process, turn on the **Allow Breakbulk** toggle on the Location Card page. Afterward, to fulfil a task [!INCLUDE [prod_short](includes/prod_short.md)] will look for an item in the same unit of measure. If it doesn't find one, [!INCLUDE [prod_short](includes/prod_short.md)] will suggest that you break a larger unit of measure into the unit of measure that is needed.  
 
 If only smaller units of measure are available, [!INCLUDE [prod_short](includes/prod_short.md)] will suggest that you gather items to fulfil the quantity on the shipment or production order. In effect, it breaks the larger unit of measure on the source document into smaller units for picking.  
 
-## <a name="breakbulk-in-put-aways"></a>Breakbulk in put-aways  
+## Breakbulk in put-aways  
 
 In warehouse put-aways, [!INCLUDE [prod_short](includes/prod_short.md)] suggests Place action lines in the put-away unit of measure. For example, it might suggest pieces even though the items arrive in a different unit of measure.  
 
-## <a name="breakbulk-in-movements"></a>Breakbulk in movements  
+## Breakbulk in movements  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] can also breakbulk in replenishment movements if the **Allow Breakbulk** toggle on the **Calculate Bin Replenishment** page is turned on.  
 
@@ -46,13 +40,12 @@ You can view the results of the conversion process from one unit of measurement 
 > - Set up the base unit of measure for an item as the smallest unit of measure that you expect to handle in your warehouse processes.  
 > - Set up your alternative units of measurement for the item as multiples of the base unit of measurement.  
 
-## <a name="see-also"></a>See Also  
+## See Also  
 
-[Warehouse Management](warehouse-manage-warehouse.md)  
+[Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md) 
 [Assembly Management](assembly-assemble-items.md)
-[Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

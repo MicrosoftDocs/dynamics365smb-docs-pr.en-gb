@@ -7,23 +7,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
-ms.search.form: 1,
+ms.search.form: '1,'
 ms.date: 03/14/2022
 ms.author: edupont
-ms.openlocfilehash: e2ee4c75deebcca1a774a6472e08db12984114d2
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528176"
 ---
-# <a name="company-information-quick-start"></a>Company Information Quick Start
+
+# Company Information Quick Start
 
 To help you get your company up and running in [!INCLUDE[prod_short](includes/prod_short.md)], you must first fill in some of the basic company details and relevant information based on your business needs.  
 
 You can enter all relevant data on the **Company Information** page when you set up a new company.
 
-## <a name="to-set-up-company-information"></a>To set up company information  
+## To set up company information  
 
 1. Choose the ![Sprocket icon to open the Settings menu.](media/ui-experience/settings_icon_small.png) menu, and then choose the **Company Information** action.
 2. Enter the information into the FastTabs as described in the following table. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
@@ -32,9 +27,9 @@ You can enter all relevant data on the **Company Information** page when you set
 
 Once you have completed filling in the information, you can close the page.  
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-new-companies-dynamics-365-business-central/)
+## See related [Microsoft training](/training/modules/create-new-companies-dynamics-365-business-central/)
 
-## <a name="see-also"></a>See also   
+## See also   
 
 [Company Information Overview](admin-company-information.md)  
 [Set Up Company Information in Italy](LocalFunctionality/Italy/how-to-set-up-company-information.md)  

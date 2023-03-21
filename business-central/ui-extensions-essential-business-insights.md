@@ -7,18 +7,13 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: BI, add-in, insight, headline, data
-ms.search.form: 1439,
+ms.search.keywords: 'BI, add-in, insight, headline, data'
+ms.search.form: '1439,'
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: f703448f15c7284f51a2876ccd2b83b9a2351b9d
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361753"
 ---
-# <a name="the-essential-business-insights-extension"></a>The Essential Business Insights Extension
+
+# The Essential Business Insights Extension
 
 The Essential Business Insights extension finds interesting business facts in your company data and displays them as newspaper-like headlines in Role Centres. Depending on what the extension finds in the data, the insights are from the last week, month, or three months from the current date. The insights update every 10 minutes.  
 
@@ -37,7 +32,7 @@ The following table describes the insights that this extension provides for each
 |Project Manager| Displays a greeting, and link to product information.|
 |Administrator| Displays a greeting, and link to product information.|
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)
 

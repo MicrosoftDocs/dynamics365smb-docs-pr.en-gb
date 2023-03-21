@@ -9,20 +9,14 @@ ms.workload: na
 ms.search.form: 9511
 ms.date: 06/14/2021
 ms.author: jswymer
-ms.openlocfilehash: 0a2561eea331ffbaeb058dee2ee13caf0a82d18c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143693"
 ---
-# <a name="viewing-database-locks"></a>Viewing Database Locks
+# Viewing Database Locks
 
 Database locking controls access by multiple users to the same data at the same time. To protect a transaction against other transactions modifying the same data, the first transaction puts a lock on the data. The lock remains until the transaction's done.
 
 Users may be blocked from completing transactions on the locked data. They'll typically get a message that indicates the lock condition.
 
-## <a name="to-view-database-locks"></a>To view database locks
+## To view database locks
 
 Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Database Locks**, and then choose the related link.
 
@@ -30,7 +24,7 @@ The **Database Locks** page gives snapshot of all current database locks.
 
 For more information about database locking, see [Monitoring Database Locks](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) in the Business Central Developer and IT Pro help.
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Monitor Database Locks](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) 
 

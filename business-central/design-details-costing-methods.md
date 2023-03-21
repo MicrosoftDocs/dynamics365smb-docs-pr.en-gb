@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 03/24/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2bf45ab89aaeb9aa9560fd1e1d9ff94bf47cc453
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519811"
 ---
-# <a name="design-details-costing-methods"></a>Design Details: Costing Methods
+# Design Details: Costing Methods
 
 The costing method determines whether an actual or a budgeted value is capitalised and used in the cost calculation. Together with the posting date and sequence, the costing method also influences how the cost flow is recorded.
 
@@ -46,7 +40,7 @@ Costing methods differ in the way that they value inventory decreases and if the
 |Revaluation|Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|Revalues invoiced quantity only.<br /><br /> Can be done per item only.<br /><br /> Can be done backward in time.|Revalues invoiced and un-invoiced quantities.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|  
 |Miscellaneous|If you back-date a inventory decrease, then existing entries are NOT reapplied to provide a correct FIFO cost flow.|If you back-date a inventory increase or decrease, then the average cost is recalculated, and all affected entries are adjusted.<br /><br /> If you change the period or calculation type, then all affected entries must be adjusted.|Use the **Standard Worksheet** page to periodically update and roll up standard costs.<br /><br /> Is NOT supported per SKU.<br /><br /> No historic records exist for standard costs.|You can use specific item tracking without using the Specific costing method. Then the cost will NOT follow the lot number, but the cost assumption of the selected costing method.|  
 
-## <a name="example"></a>Example
+## Example
 
 This section gives examples of how different costing methods affect inventory value.  
 
@@ -64,7 +58,7 @@ The following table shows the inventory increases and decreases that the example
 > [!NOTE]  
 > The resulting quantity in inventory is zero. Consequently, the inventory value must also be zero, regardless of the costing method.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Effect of Costing Methods on Valuing Inventory Increases  
+### Effect of Costing Methods on Valuing Inventory Increases  
 
 For items with costing methods that use actual cost as the valuation base (**FIFO**, **LIFO**, **Average**, or **Specific**), inventory increases are valued at the item's acquisition cost.  
 
@@ -72,11 +66,11 @@ For items with costing methods that use actual cost as the valuation base (**FIF
 
     For items using the **Standard** costing method, inventory increases are valued at the item's current standard cost.  
 
-#### <a name="standard"></a>Standard  
+#### Standard  
 
 For items using the **Standard** costing method, inventory increases are valued at the item's current standard cost.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Effect of Costing Methods on Valuing Inventory Decreases
+### Effect of Costing Methods on Valuing Inventory Decreases
 
 - **FIFO**  
 
@@ -144,7 +138,7 @@ For items using the **Standard** costing method, inventory increases are valued 
     |03-01-20|-1|-10.00|**1**|5|  
     |04-01-20|-1|-30.00|**3**|6|  
 
-## <a name="see-also"></a>See Also
+## See Also
 
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   
  [Design Details: Variance](design-details-variance.md)   

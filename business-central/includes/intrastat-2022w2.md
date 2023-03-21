@@ -3,12 +3,6 @@ author: altotovi
 ms.topic: include
 ms.date: 09/01/2022
 ms.author: atotovic
-ms.openlocfilehash: 095fb2aaca138291cf253f32e3d3c3bdac3193c7
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9608280"
 ---
 > [!NOTE]
 > In the 2022 release wave 2, Business Central includes a redesigned Intrastat experience with extended features. If you are a new customer using version 21 or newer, you are using the new experience. For customers who upgraded from previous releases, using the new experience depends on whether your administrator has enabled the **Feature Update: Replace the existing Intrastat functionality with the new Intrastat extension** option on the **Feature Management** page. Learn more at the [Set Up Intrastat Reporting](../finance-how-setup-report-intrastat.md) article. This article describes the previous functionality.

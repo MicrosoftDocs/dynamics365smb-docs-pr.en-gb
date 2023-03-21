@@ -6,18 +6,13 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: C5, financials, extension
-ms.search.form: 20600,
+ms.search.keywords: 'C5, financials, extension'
+ms.search.form: '20600,'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b0443ef53a564e103810543225cc0c4a0c6bced7
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606043"
 ---
-# <a name="the-basic-experience-extension"></a>The Basic Experience Extension
+
+# The Basic Experience Extension
 
 If you have been using Microsoft Dynamics C5, Microsoft partners can help you transition to a more modern solution that is based on [!INCLUDE[prod_short](includes/prod_short.md)], so you can continue to enjoy the same streamlined capabilities as Dynamics C5.
 
@@ -26,7 +21,7 @@ This extension is intended for small businesses and can support up to three user
 > [!NOTE]
 > As of now, this extension is available only to customers in Denmark and Iceland.
 
-## <a name="whats-available"></a>What's available
+## What's available
 
 The following table describes the capabilities that are available if you install the Basic Experience extension.
 
@@ -38,7 +33,7 @@ The following table describes the capabilities that are available if you install
 |**Project Management** |Jobs, job pricing, time sheets, assignments, tasks, resources |
 |**Inventory** |Basic inventory, item substitutions, item cross reference |
 
-## <a name="getting-started"></a>Getting started
+## Getting started
 
 This extension is a bit different than most, and you will need help from a Microsoft partner to install and set it up. Just so that you know what to expect, here's a high-level view of what the Microsoft partner will do.
 
@@ -49,11 +44,11 @@ This extension is a bit different than most, and you will need help from a Micro
 5. Add the **Demo RapidStart** package. <!--what does the package contain?-->
 6. Download and install the Basic Experience extension from AppSource.
 
-## <a name="migrating-data"></a>Migrating data
+## Migrating data
 
 Bring your Dynamics C5 data along. After your Microsoft partner installs the Basic Experience extension you will have an empty company. An easy way to move your data from Dynamics C5 to Basic Experience is to use the C5 Data Migration extension, which is included in [!INCLUDE[prod_short](includes/prod_short.md)]. The extension migrates customers, vendors, items, and your general ledger accounts and their entries.
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [The C5 Data Migration Extension](ui-extensions-c5-data-migration.md)  
 

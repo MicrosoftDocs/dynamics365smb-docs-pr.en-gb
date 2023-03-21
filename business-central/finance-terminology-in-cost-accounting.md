@@ -1,27 +1,21 @@
 ---
 title: Terminology in Cost Accounting
-description: This topic defines the key terms that are used in cost accounting, such as allocation key and allocation source.
+description: 'This topic defines the key terms that are used in cost accounting, such as allocation key and allocation source.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.search.form: 1123
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: cee2ced8b51de66de847c0132e8ce35a08b7b229
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532168"
 ---
-# <a name="terminology-in-cost-accounting"></a>Terminology in Cost Accounting
+# Terminology in Cost Accounting
 
 This topic defines the key terms that are used in cost accounting.  
 
-## <a name="key-terms"></a>Key Terms
+## Key Terms
 
  The following table shows definitions of the key terms in cost accounting.  
 
@@ -49,9 +43,9 @@ This topic defines the key terms that are used in cost accounting.
 |Variable cost|Variable costs are expenses that change in proportion to the activity of a business. Variable costs are the sum of marginal costs over all units produced. Fixed costs and variable costs make up the two components of total costs.|  
 |Variant|A variant is used as an optional user-defined label for allocations. The purpose of the label is to filter groups of allocation.|  
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/use-cost-accounting-dynamics-365-business-central/)
+## See related [Microsoft training](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
-## <a name="see-also"></a>See also 
+## See also 
 
  [About Cost Accounting](finance-about-cost-accounting.md)  
  [Accounting for Costs](finance-manage-cost-accounting.md)  

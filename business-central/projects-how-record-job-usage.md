@@ -1,42 +1,38 @@
 ---
 title: Record Consumption or Usage of Job Resources and Items
-description: Describes how to record the consumption or usage of items or resources on jobs to facilitate project management.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: project management, consumption
-ms.search.form: 89, 92, 201, 1007, 1014
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: c948845c535474ccd5fb8c3d6e031e5467c9de2f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532087"
+description: This article describes how to record the consumption or use of items or resources for jobs in project management.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.date: 12/20/2022
+ms.custom: bap-template
 ---
-# <a name="record-consumption-or-usage-for-jobs"></a>Record Consumption or Usage for Jobs
+# Record Consumption or Usage for Jobs
 
-On the **Job Planning Lines** page, you can review and record usage on various parts of your job, which is automatically updated as you modify and transfer information between jobs and job journals or job invoices. This requires that you have set up a job so that the **Apply Usage Link** is turned on. For more information, see [Set Up Jobs](projects-how-setup-jobs.md).  
+From the **Job Card** page, you can open the **Job Planning Lines** page to review and record use on various parts of your job. This information is automatically updated when you modify and transfer information between jobs and job journals or job invoices. This requires that you turn on the **Apply Usage Link by Default** toggle on the **Job Setup** page. Learn more at [Set Up Jobs](projects-how-setup-jobs.md).  
 
-For example, for planning lines of type **Budget**, you can enter the quantity of a resource, and indicate what quantity to transfer to the job journal. If the type of the planning line is **Billable**, you can enter the quantity of the resource, and indicate what quantity to transfer to an invoice. For more information about invoicing the customer, see [Invoice Jobs](projects-how-invoice-jobs.md). By comparing the original quantity, remaining quantity, or posted quantity you can quickly review usage information. For information about estimating budgeted values during planning, see [Manage Job Budgets](projects-how-manage-budgets.md).  
+<!-- Not really sure what this paragraph is saying, or why we start with it. Why do you transfer information between jobs and job journals or job invoices? I get the use of resources and items, but what about G/L account and Text?
 
-The following procedures describe how to record actual (budgeted) quantities and costs with job journal. Alternatively you can use purchase documents to record purchase for a job. For more information, see [Manage Job Supplies](projects-how-manage-project-supplies.md).
+On the Jobs Setup page there's an Apply Usage Link by Default toggle. Guessing that's what we're referring to -->
 
-## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>To record usage for a job planning line of type Budget
+For example, for planning lines of type **Budget**, you can enter the quantity of a resource, and then specify the quantity to transfer to the job journal. If the type of the planning line is **Billable**, you can enter the quantity of the resource, and then specify the quantity to transfer to an invoice. To learn more about invoicing the customer, go to [Invoice Jobs](projects-how-invoice-jobs.md). By comparing the original quantity, remaining quantity, or posted quantity you can quickly review use information. To learn more about how to estimate budgeted values during planning, go to [Manage Job Budgets](projects-how-manage-budgets.md).  
+
+The following procedures describe how to record actual (budgeted) quantities and costs with a job journal. Alternatively, you can use purchase documents to record purchases for a job. Learn more at [Manage Job Supplies](projects-how-manage-project-supplies.md).
+
+## To record usage for a job planning line of type Budget
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
-2. Select the relevant job, and then choose the **Job Planning Lines** action.
-3. Select a job planning line of type **Budget** or **Both Budget and Billable** for which you want to record usage.  
+2. Select the job, and then choose the **Job Planning Lines** action. 
+3. Select a job planning line of type **Budget** or **Both Budget and Billable** for which you want to record usage.   
 
     > [!NOTE]
-    > You can also record usage for a job planning line of type **Billable**. Typically, you use this lines to create invoices, but you can also transfer it to a journal. For more information, see [Invoice Jobs](projects-how-invoice-jobs.md) <!--However, when you do that, a job planning line of type **Budget** is created to match the billable line. For more information, see [Manage Job Budgets](projects-how-manage-budgets.md).-->
+    > You can also record usage for a job planning line of type **Billable**. Typically, you use these lines to create invoices, but you can also transfer the information to a journal. Learn more at [Invoice Jobs](projects-how-invoice-jobs.md) <!--However, when you do that, a job planning line of type **Budget** is created to match the billable line. For more information, see [Manage Job Budgets](projects-how-manage-budgets.md).-->
 
-4. In the **Qty. To Transfer to Journal** field, enter the number that you want to transfer. The default quantity is the value that you enter in the **Quantity** field.
+4. In the **Qty. To Transfer to Journal** field, enter the quantity to transfer. The default quantity is the value that you enter in the **Quantity** field.
 
-    The **Remaining Quantity** field shows the quantity that remains to complete the job and be transferred to the journal.  
+    The **Remaining Quantity** field shows the quantity that remains to complete the job and transfer to the journal. <!--Should we mention that this field is not shown by default, and that if they want to use it they must add it?--> 
 5. Choose the **Create Job Journal Lines** action.
 
     > [!TIP]
@@ -47,21 +43,21 @@ The following procedures describe how to record actual (budgeted) quantities and
 9. On the **Job Planning Lines** page, review the recorded usage by observing the **Quantity**, **Remaining Quantity**, and **Qty. To Transfer to Journal** fields.  
 10. Repeat steps 3 through 8 to record additional usage.  
 
-## <a name="to-create-job-journal-lines-manually"></a>To create job journal lines manually
+## To create job journal lines manually
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
 2. In the **Batch Name** field, choose a relevant job journal batch.  
 3. On a new line, enter document number, job number, job task number, type, and the quantity of the type being consumed.  
 4. When the job journal lines are complete, choose the **Post** action.  
 
-## <a name="to-view-job-usage-estimates-and-post-updates"></a>To view job usage estimates and post updates
+## To view job usage estimates and post updates
 
 You can view job usage up to the completion of a project in one step. To do so, you use the **Job Calc. Remaining Usage** batch job for all the tasks up to and including the end of a job.  
 
 This lets you track and compare your original estimates against actual results and make modifications or new entries as needed. For example, you may have estimated that a job required 10 hours, and to date, it has taken 15 hours. You can add the extra five hours to the existing journal line or create a new journal line to report these five hours as overtime, which is another work type. The appropriate cost and price are calculated, and you can then post to the journal.  
 
 > [!NOTE]  
->   Item entries create item ledger entries and reduce the inventory quantity. The **Post Inventory Cost to G/L** batch job transfers the cost from inventory to the general ledger. Resource entries create resource ledger entries.  
+> Item entries create item ledger entries and reduce the inventory quantity. The **Post Inventory Cost to G/L** batch job transfers the cost from inventory to the general ledger. Resource entries create resource ledger entries.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
 2. Select a relevant job journal, and then choose the **Calc. Remaining Usage** action.  
@@ -69,13 +65,14 @@ This lets you track and compare your original estimates against actual results a
 4. Update the journal with any modifications that may be needed.  
 5. Choose the **Post**.
 
-## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Create inventory and warehouse pick documents for a job
+## Create inventory and warehouse pick documents for a job
 
 To create inventory and warehouse pick documents for jobs, your administrator must enable **Feature Update: Enable inventory and warehouse pick from Jobs** on the **Feature Management** page.
 
-The feature adds the **Create Inventory Pick** and **Create Warehouse Pick** actions to the **Job Card**. To create or register a pick document, use the **Put-away/Pick Lines/Movement Lines** or **Registered Pick Lines** actions. For more informations about picks, see [Pick Items](warehouse-pick-items.md)
+The feature adds the **Create Inventory Pick** and **Create Warehouse Pick** actions to the **Job Card**. To create or register a pick document, use the **Put-away/Pick Lines/Movement Lines** or **Registered Pick Lines** actions. Learn more at [Flows for Production, Assembly, and Jobs](design-details-internal-warehouse-flows.md).
 
 You can use the actions under the following conditions:
+
 * The **Status** of the job is **Open**.
 * The **Line Type** of the job planning line is **Budget** or **Both Budget and Billable**.
 * The **Type** of the job planning line is **Item**.
@@ -87,8 +84,7 @@ You can use the actions under the following conditions:
 > 
 > If your location is set up to require both pick and shipment processing, meaning that you have chosen both the **Require Pick** and **Require Shipment** fields on the **Location Card** page, use the **Warehouse Pick** page to handle the pick. Warehouse picks are similar to inventory picks. The difference is that rather than posting the picking information you register the pick. This registration doesn't post consumption, it just makes the items available for posting. As a warehouse manager, you can use a pick worksheet to organise pick information before creating the individual warehouse pick instructions
 
-
-## <a name="to-review-planning-lines-for-a-job-ledger-entry"></a>To review planning lines for a job ledger entry
+## To review planning lines for a job ledger entry
 
 After you have posted job journal lines, you can see the planning lines that are associated with the job journal entries that have been posted.
 
@@ -99,14 +95,14 @@ After you have posted job journal lines, you can see the planning lines that are
 2. Select a relevant job journal, and then choose the **Ledger Entries** action.  
 3. On the **Job Ledger Entries** page, choose **Show Linked Job Planning Lines** action.
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/post-job-usage-sales/)
+## See related [Microsoft training](/training/paths/post-job-usage-sales/)
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Project Management](projects-manage-projects.md)  
 [Finance](finance.md)  
-[Purchasing](purchasing-manage-purchasing.md)         
-[Sales](sales-manage-sales.md)      
+[Purchasing](purchasing-manage-purchasing.md)  
+[Sales](sales-manage-sales.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

@@ -1,6 +1,6 @@
 ---
 title: Create Bin Contents
-description: After you have set up your bins, you can specify the items that you want to store in them, and set up rules that control how often bins are refilled.
+description: 'After you have set up your bins, you can specify the items that you want to store in them, and set up rules that control how often bins are refilled.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,18 +9,12 @@ ms.workload: na
 ms.search.form: 7374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 86d5d8410a884fa2a8357490c92658582fc9b9f5
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530440"
 ---
-# <a name="create-bin-contents"></a>Create Bin Contents
+# Create Bin Contents
 
 After you have set up your bins, you can set up the bin contents. In other words, you can set up the items you want to store in any given bin and set the rules that govern filling the bin with a particular item. You can do this manually on the **Bin Contents** page or automatically with the **Create Bin Content Worksheet** page.
 
-## <a name="to-create-bin-content-manually"></a>To create bin content manually
+## To create bin content manually
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
 2. Select the location where you want to set up bin contents,  and then choose the **Bins** action.  
@@ -37,7 +31,7 @@ If you select the **Fixed** field, you are fixing the item to the bin, meaning t
 > [!NOTE]  
 > You can set up several bin contents at the same time on the **Bin Content Creation Worksheet** page.  
 
-## <a name="to-create-bin-content-with-a-worksheet"></a>To create bin content with a worksheet
+## To create bin content with a worksheet
 
 When you have created your bins, you can create the bin content that you want for each bin in the bin content creation worksheet.
 
@@ -55,17 +49,14 @@ When you have created your bins, you can create the bin content that you want fo
 
 In this worksheet, you can work with a number of bin content lines for a number of bins and thereby obtain a good overview of what you are putting into various bins in a given zone, aisle, or rack.  
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/set-up-zones-bins/)
+## See related [Microsoft training](/training/modules/set-up-zones-bins/)
 
-## <a name="see-also"></a>See also 
+## See also 
 
-[Calculate Bin Replenishment](warehouse-how-to-calculate-bin-replenishment.md)  
-[Warehouse Management](warehouse-manage-warehouse.md)  
+[Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
 [Assembly Management](assembly-assemble-items.md)  
-[Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Design Details: Warehouse Setup](design-details-warehouse-setup.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

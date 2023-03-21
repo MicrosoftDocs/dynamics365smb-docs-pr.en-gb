@@ -4,24 +4,20 @@ description: Learn how to get a Shopify account so you can demonstrate the workf
 ms.date: 06/21/2022
 ms.topic: article
 ms.service: dynamics365-business-central
+ms.search.form: '30101, 30102'
 ms.reviewer: solsen
 author: AndreiPanko
 ms.author: andreipa
-ms.openlocfilehash: b4449b573307582595ee9949dcb53d5d553ce0f2
-ms.sourcegitcommit: bb6ecb20cbd82fdb5235e3cb426fc73c29c0a7ae
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 11/23/2022
-ms.locfileid: "9803056"
 ---
-# <a name="create-and-set-up-a-shopify-account"></a>Create and Set up a Shopify Account
+
+# Create and Set up a Shopify Account
 
 If you're considering whether to use Shopify as your e-Commerce solution and need a Shopify account to validate integrated workflow, you have the following options:
 
 - Get a trial version. This is the typical starting point for end-users.  
 - Create development stores. This approach is for partners who do recurring demos, trainings, and provide support.
 
-## <a name="trial-end-user"></a>Trial (End-User)
+## Trial (End-User)
 
 Go to the [Shopify website](https://www.shopify.com) and use your email account for the administrator account to sign up for a free trial. Learn more about how to create and personalise your online store at the [Shopify Help Centre](https://help.shopify.com/).
 
@@ -40,7 +36,7 @@ In the **Shopify Admin** of the created shop, apply the following **Settings**:
 > [!Important]  
 > To avoid payments, remember to cancel your Shopify trial.
 
-## <a name="development-store"></a>Development store
+## Development store
 
 Begin by joining the [Shopify Partner Programme](https://help.shopify.com/partners/about). Afterwards, use the **Partner Dashboard** to create the development store. Learn more at [Creating development stores](https://help.shopify.com/partners/dashboard/managing-stores/development-stores).
 
@@ -54,7 +50,7 @@ After creating the store, in the **Shopify Admin** of the created shop, apply th
   1. *(for testing) Bogus Gateway*. For more information, see [Activate Bogus Gateway for testing](https://help.shopify.com/en/manual/checkout-settings/test-orders#place-a-test-order-by-simulating-a-transaction).
   2. *Shopify payments* in test mode. Learn more at [Testing Shopify Payments](https://help.shopify.com/en/manual/payments/shopify-payments/testing-shopify-payments).
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Get Started with the Shopify Connector](get-started.md)  
 [Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md)

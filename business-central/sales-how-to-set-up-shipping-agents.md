@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 012fe136161d891cb4adde6ace120040f7da909a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513686"
 ---
-# <a name="set-up-shipping-agents"></a>Set Up Shipping Agents
+# Set Up Shipping Agents
 You can set up a code for each of your shipping agents and enter information about them.  
 
 If you enter an Internet address for the shipping agent, and the agent provides package tracking services on the Internet, you can use the automatic package tracking feature. For more information, see [Track Packages](sales-how-track-packages.md).
@@ -26,7 +20,7 @@ For each shipping agent, you can set up an unlimited number of services, and you
 
 When you have assigned a shipping agent service to a sales order line, the shipping time of the service will be included in the order promising calculation, for that line. For more information, see [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md).
 
-## <a name="to-set-up-a-shipping-agent"></a>To set up a shipping agent  
+## To set up a shipping agent  
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shipping Agents**, and then choose the related link.  
 2.  Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
 3.  Choose the **Shipping Agent Services** action.
@@ -35,14 +29,13 @@ When you have assigned a shipping agent service to a sales order line, the shipp
 > [!NOTE]  
 >  If you delete the shipping agent on the order line, the shipping agent service code is also deleted. The contents of fields that were based in part on the shipping agent service are recalculated.  
 
-## <a name="see-also"></a>See Also
+## See Also
 [Set Up Shipment Methods](sales-how-set-up-shipment-methods.md)  
 [Track Packages](sales-how-track-packages.md)    
-[Warehouse Management](warehouse-manage-warehouse.md)  
+[Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
-[Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

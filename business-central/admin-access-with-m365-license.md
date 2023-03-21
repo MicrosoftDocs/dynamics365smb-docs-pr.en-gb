@@ -1,6 +1,6 @@
 ---
 title: Business Central Access with Microsoft 365 licences
-description: Learn how users can get access to Business Central data, for example in Microsoft Teams chats and channels, with only a Microsoft 365 licence, but no Business Central licence.
+description: 'Learn how users can get access to Business Central data, for example in Microsoft Teams chats and channels, with only a Microsoft 365 licence, but no Business Central licence.'
 author: mikebc
 ms.author: mikebc
 ms.reviewer: jswymer
@@ -8,21 +8,16 @@ ms.service: dynamics365-business-central
 ms.topic: overview
 ms.date: 11/22/2022
 ms.custom: bap-template
-ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
-ms.openlocfilehash: 8fcef5dca8698d0241e5fc6d37574b3c80b833da
-ms.sourcegitcommit: 61f22aeede684f0ae772353ede6530ff03ff2f90
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 11/24/2022
-ms.locfileid: "9804453"
+ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
-# <a name="business-central-access-with-microsoft-365-licenses"></a>Business Central Access with Microsoft 365 Licences
+
+# Business Central Access with Microsoft 365 Licences
 
 Business Central users are assigned a Dynamics 365 Business Central licence that allows them to view, modify and act on their business data from any user interface. For all other employees across the organisation that only need to occasionally view data, Business Central offers access through Microsoft 365.  
 
 When an organisation has both a Dynamics 365 Business Central and Microsoft 365 subscription, administrators can configure environments to enable access with Microsoft 365 licences, and choose exactly which tables and other objects this category of user will have access to. When configured, employees that have a Microsoft 365 licence but no Business Central licence can view Business Central records that are shared with them in Microsoft Teams chat and channels.
 
-## <a name="why-enable-access-with-microsoft-365-licenses"></a>Why enable access with Microsoft 365 licences  
+## Why enable access with Microsoft 365 licences  
 
 - Unlock master data that every employee across the organisation should have access to.
 
@@ -36,11 +31,11 @@ When an organisation has both a Dynamics 365 Business Central and Microsoft 365 
 
 - Improve data security by reducing the need for pasting screen snippets of business data outside of data governance boundaries.
 
-## <a name="use-rights"></a>Use rights
+## Use rights
 
 When a person accesses Business Central with a Microsoft 365 licence, this licence entitles the user to read (but not write) Business Central data through a simplified UI in Microsoft Teams. This section explains these use rights and limitations that help you plan how to configure and make the most out of this capability. For more information on this licence type compared to other Business Central licences, consult the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544).
- 
-### <a name="client-access"></a>Client access
+ 
+### Client access
 
 Users are entitled to access Business Central data in Microsoft Teams. The following table summarises which of the different methods of accessing the Business Central service are allowed with this licence. 
 
@@ -53,15 +48,15 @@ Users are entitled to access Business Central data in Microsoft Teams. The follo
 |Business Central integrations with other Office applications|![No](media/x-icon.png )|
 |Business Central embedded in any other applications |![No](media/x-icon.png )|
 
-### <a name="data-access"></a>Data access 
+### Data access 
 
 Users are entitled to read table data but can't modify, create or delete records. The Business Central platform automatically prevents writing to any data tables.  
 
-### <a name="use-of-objects"></a>Use of objects 
+### Use of objects 
 
 Access with Microsoft 365 licences doesn't restrict which Business Central objects or object ranges can be accessed. Users are entitled to access the Microsoft base application and any extensions such as customisations and add-on apps. 
 
-## <a name="simplified-ui"></a>Simplified UI 
+## Simplified UI 
 
 Users are entitled to a reduced set of features and functions provided by Business Central in Microsoft Teams. The tables below indicate noteworthy features. This isn't an exhaustive list and is subject to change.
 
@@ -95,17 +90,17 @@ Functions of the Business Central client embedded in Teams:
 |Inline user assistance|![Yes](media/check.png) |Tooltips, links to documentation|
 |Advanced user assistance |![No](media/x-icon.png )|Page and field teaching tips, Help pane|
 
-## <a name="minimum-requirements"></a>Minimum requirements
+## Minimum requirements
 
 This section describes the minimum requirements that must be met for your organisation to enable access with Microsoft 365 licences, and for individual Microsoft Teams users to access Business Central data without a Business Central licence.
 
-### <a name="requirements-to-enable-access"></a>Requirements to enable access
+### Requirements to enable access
 
 - Business Central online (SaaS).
 
 - Environments must be of platform version 21.1 or later.
 
-### <a name="requirements-for-individual-users-to-access-data-in-teams"></a>Requirements for individual users to access data in Teams
+### Requirements for individual users to access data in Teams
 
 - Data must be accessed using the Business Central app for Teams. Users must have the Business Central app for Teams installed and must use one of the supported Teams clients. For a list of Teams clients supported by Business Central, see [Minimum Requirements for Using Business Central](product-requirements.md#teams).
 
@@ -143,11 +138,11 @@ This section describes the minimum requirements that must be met for your organi
 
 - The organisation must have at least one other user that is assigned a Dynamics 365 Business Central licence.
 
-## <a name="next-steps"></a>Next steps
+## Next steps
 
 - Get an understanding of the user access flow to help plan your approach and configuration of Business Central to match the business needs. See [User Access Flow](admin-access-with-m365-license-flow.md).
 - Set up your environment and users for access with Microsoft 365 licences. See [Set Up Access with Microsoft 365 Licences ](admin-access-with-m365-license-setup.md).
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Business Central and Microsoft Teams Integration](across-teams-overview.md)  

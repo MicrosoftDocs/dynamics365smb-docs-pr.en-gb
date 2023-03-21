@@ -6,18 +6,12 @@ ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: personalize, add-in, extend, customize
-ms.search.form: 2500, 2502
+ms.search.keywords: 'personalize, add-in, extend, customize'
+ms.search.form: '2500, 2502'
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 1feffa480e3bdf6236801e666646ea5aaddd8876
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606097"
 ---
-# <a name="customize-business-central"></a>Customise Business Central
+# Customise Business Central
 
 There are different ways to customise the application to give you and your colleagues access to the features, functionality, and data that you need most, in a manner that bests suits your daily work. Those who see the changes will depend on what you do, as described in this table.
 
@@ -34,9 +28,9 @@ There are different ways to customise the application to give you and your colle
 > [!NOTE]
 > All feature descriptions in user documentation for [!INCLUDE[prod_short](includes/prod_short.md)] assume the **Premium** experience, meaning the descriptions cover the full scope of UI elements. Therefore, users with the **Essential** experience may in some topics read about functionality and UI elements that are not visible in their user interface. For more information, see [Change Which Features are Displayed](ui-experiences.md).
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/tailor-roles-design-ui/)
+## See related [Microsoft training](/training/paths/tailor-roles-design-ui/)
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

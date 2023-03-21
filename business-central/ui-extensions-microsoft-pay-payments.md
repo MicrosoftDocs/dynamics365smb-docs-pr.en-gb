@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 1080, 1081, 1083, 1085, 1087, 1089
+ms.search.form: '1080, 1081, 1083, 1085, 1087, 1089'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ae7499827c03a6b67b507c0145e6553018b46108
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362074"
 ---
-# <a name="the-microsoft-pay-extension"></a>The Microsoft Pay Extension
+# The Microsoft Pay Extension
 
 > [!IMPORTANT]
 > Effective February 8 2020, changes in the Microsoft Pay service will affect the Microsoft Pay extension in Microsoft [!INCLUDE[prod_short](includes/prod_long.md)]. Due to the changes, after February 8, the **Pay now** payment links that the Microsoft Pay extension generates for invoices in [!INCLUDE[prod_short](includes/prod_short.md)] will not open Microsoft Pay. Customers who are using the extension should change their Payment Services setup to start using the PayPal extension instead.<br /></br>
@@ -42,7 +36,7 @@ The Microsoft Pay extension provides the following benefits:
 
 Enabling payment service extensions is free in [!INCLUDE[prod_short](includes/prod_short.md)], however, you will need to contact the payment service to get an account. For more information, see [Enable Customer Payment Through Payment Services](sales-how-enable-payment-service-extensions.md).
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
 [Setting Up Sales](sales-setup-sales.md)  

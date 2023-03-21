@@ -1,23 +1,17 @@
 ---
 title: Financial Management (contains video)
-description: Learn how Business Central supports your needs for financial management, accounting, auditing, and bookkeeping.
+description: 'Learn how Business Central supports your needs for financial management, accounting, auditing, and bookkeeping.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accounting, auditing, bookkeeping
-ms.search.form: 1151, 1166, 9027, 9004
+ms.search.keywords: 'accounting, auditing, bookkeeping'
+ms.search.form: '1151, 1166, 9027, 9004'
 ms.date: 08/19/2022
 ms.author: edupont
-ms.openlocfilehash: bd8bd7089be89c9d5a2f57b53b104a2b5ac2a565
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605010"
 ---
-# <a name="financial-management"></a>Financial Management
+# Financial Management
 
 [!INCLUDE[prod_short](includes/prod_short.md)] includes a standard configuration for most financial processes, but you can change it to suit your business needs. Learn more at [Setting Up Finance](finance-setup-finance.md).
 
@@ -55,13 +49,13 @@ The following table describes a sequence of tasks, with links to the topics that
 | Work with financial statements and overviews in Microsoft Excel. |[Analyzing Financial Statements in Excel](finance-analyze-excel.md) |
 |Learn how to use the Accountant Role Centre, engage an external accountant, and use the Company Hub to manage accounts of multiple clients.|[Accountant Experiences in Business Central ](finance-accounting.md)|  
 
-## <a name="take-a-video-tour"></a>Take a video tour
+## Take a video tour
 
 This video introduces some of the key capabilities for managing finances. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Setting Up Finance](finance-setup-finance.md)  
 [Sales](sales-manage-sales.md)  

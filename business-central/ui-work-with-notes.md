@@ -1,23 +1,17 @@
 ---
 title: Adding Information to Records to Yourself | Microsoft Docs
-description: Attach a note to any record in the application. For example, if you have extra information about a sales order that does not fit in any of the fields on the sales order, you can write a note.
+description: 'Attach a note to any record in the application. For example, if you have extra information about a sales order that does not fit in any of the fields on the sales order, you can write a note.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ROBOTS: NOINDEX,NOFOLLOW
+ms.search.keywords: null
+ROBOTS: 'NOINDEX,NOFOLLOW'
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: dde082a69ff9074dc0afd86e6b4e71f0d68d5cbd
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511951"
 ---
-# <a name="add-and-view-notes-on-records"></a>Add and View Notes on Records
+# Add and View Notes on Records
  You <!--OnPrem and your colleagues -->can add notes to records in the application. Many pages, particularly those that display a list of records, such as the **Sales Orders** page, include the **Notes** action or the **Notes** FactBox. <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->
 
  > [!NOTE]  
@@ -46,7 +40,7 @@ ms.locfileid: "8511951"
      If **Notify** is selected, the note will be sent as a notification to the user's **My Notifications** on the Role Center.  -->
 <!--OnPrem
 3.  Choose the **OK** button.  -->
-## <a name="see-also"></a>See Also
+## See Also
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

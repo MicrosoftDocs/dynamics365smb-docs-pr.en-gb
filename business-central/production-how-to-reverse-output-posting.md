@@ -9,18 +9,12 @@ ms.workload: na
 ms.search.form: 5510
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 5a9fd8a1d4ac379c2c20d832f8cace206e549375
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516038"
 ---
-# <a name="reverse-output-posting"></a>Reverse Output Posting
+# Reverse Output Posting
 
 There are times when output posting must be reversed. An example of this would be if a data entry error occurred and an incorrect amount of output is posted to a production order.  
 
-## <a name="to-reverse-an-output-posting"></a>To reverse an output posting
+## To reverse an output posting
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link. Select your batch.  
 2. Fill in the fields as necessary. For more information, see [Batch Post Output and Run Times](production-how-to-post-output-quantity.md).
@@ -29,7 +23,7 @@ There are times when output posting must be reversed. An example of this would b
 
 The output journal entries are posted to the item ledger as a positive adjustment.  
 
-## <a name="see-also"></a>See Also
+## See Also
 
  [Manufacturing](production-manage-manufacturing.md) [Setting Up Manufacturing](production-configure-production-processes.md)  
  [Planning](production-planning.md)  

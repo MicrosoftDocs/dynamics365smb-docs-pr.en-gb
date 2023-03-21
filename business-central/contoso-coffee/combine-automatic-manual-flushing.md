@@ -1,27 +1,22 @@
 ---
 title: Combine Automatic and Manual Flushing
-description: Walkthrough for a production planner at Contoso Coffee, who wants to combine automatic and manual flushing.
+description: 'Walkthrough for a production planner at Contoso Coffee, who wants to combine automatic and manual flushing.'
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: c5552d81dc612070b5dd5512222806527e18ce7e
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078759"
 ---
-# <a name="walkthrough-combine-automatic-and-manual-flushing"></a>Walkthrough: Combine Automatic and Manual Flushing
+
+# Walkthrough: Combine Automatic and Manual Flushing
 
 In this article, we take you through the steps to use the Contoso Coffee demo data in flushing.  
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 You are the production planner at Contoso Coffee. You must create a new production order for ten units of item SP-SCM1004, AutoDrip. Some components and operations will be forward flushed, others backward flushed based on different conditions.
 
-## <a name="steps"></a>Steps
+## Steps
 
 > [Note!] Remember to adjust inventory by posting Item Journal with opening balances.
 
@@ -108,7 +103,7 @@ You are the production planner at Contoso Coffee. You must create a new producti
 
 That's it for manual and automatic flushing of components.
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Flush Components According to Operation Output](../production-how-to-flush-components-according-to-operation-output.md)  
 [Introduction to Contoso Coffee Demo Data](contoso-coffee-intro.md)  

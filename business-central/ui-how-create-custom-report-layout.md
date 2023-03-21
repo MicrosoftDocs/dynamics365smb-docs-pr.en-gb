@@ -1,23 +1,17 @@
 ---
 title: Create and Modify Custom Layouts for Reports and Documents
-description: Learn how to create customised layouts to personalise the appearance of a report when viewed, printed, or saved.
+description: 'Learn how to create customised layouts to personalise the appearance of a report when viewed, printed, or saved.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: customized report, document layout, logo, personalize
-ms.search.form: 9650, 9652
+ms.search.keywords: 'customized report, document layout, logo, personalize'
+ms.search.form: '9650, 9652'
 ms.date: 03/06/2022
 ms.author: edupont
-ms.openlocfilehash: 465954e6549ee7ffd0822438a0ad004686d5b424
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9604785"
 ---
-# <a name="legacy-create-and-modify-custom-report-layouts"></a>(Legacy) Create and Modify Custom Report Layouts
+# (Legacy) Create and Modify Custom Report Layouts
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -35,7 +29,7 @@ After you define your custom report layouts, you can select them on the customer
 
 You can also use custom report layouts to add content to email messages. Report layouts can save time and help ensure consistency by reusing the same content when you communicate with your customers. To use custom report layouts with email, the file type for the layout must be Word; you cannot use the RDLC file type. Learn more at [Set Up Reusable Email Texts and Layouts](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
 
-## <a name="create-a-custom-layout"></a>Create a custom layout
+## Create a custom layout
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.
 
@@ -60,11 +54,11 @@ The custom layout has been created and you can modify it as you like.
 > [!TIP]
 > You can export the report results to a Microsoft Excel file to view the full dataset, including all columns, but without the layout. The Excel file can help you validate the report returns the expected data or diagnose problems. Learn more at [Analysing Report Data with Excel](report-analyze-excel.md).
 
-## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Modifying a custom layout
+## <a name="ModifyCustomLayout"></a>Modifying a custom layout
 
 To modify a custom report layout, you must first export the report layout as a file to a location on your computer or network. Then, open the exported document and make the changes. When you're finished making the changes, you import the report layout.
 
-### <a name="modify-a-custom-layout"></a>Modify a custom layout
+### Modify a custom layout
 
 1. Export a custom layout from the **Custom Report Layouts** page. If that page isn't already open, search for and open the **Report Layout Selection** page, select the report that has the layout you want to modify, then choose the **Custom Layouts** action.  
 2. On the **Custom Report Layouts** page, select the layout you want to modify, choose the **Export Layout** action, then choose **Save** or **Save As** to save the report layout document to a location on your computer or network.  
@@ -117,9 +111,9 @@ To ensure that reports always display and print with the intended fonts, whereve
 
 Adding data fields from a report dataset is more advanced and requires some knowledge of the report dataset. Learn more about adding fields for data, labels, and images at [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  -->
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/index)
+## See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Managing Report Layouts](ui-manage-report-layouts.md)  
 [Change the Current Report Layout](ui-how-change-layout-currently-used-report.md)  

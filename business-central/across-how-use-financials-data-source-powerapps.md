@@ -6,24 +6,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: OData, Power App, SOAP
+ms.search.keywords: 'OData, Power App, SOAP'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d7dbc334edcd22bb41ea5ad3a37ff53a52bfe970
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531898"
 ---
-# <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-power-apps"></a>Connecting to Your Business Central Data to Build a Business App Using Power Apps
+# Connecting to Your Business Central Data to Build a Business App Using Power Apps
 
 You can make your [!INCLUDE[prod_short](includes/prod_short.md)] data available as a data source in Power Apps.  
 
 > [!NOTE]  
 > You must have a valid account with [!INCLUDE[prod_short](includes/prod_short.md)] and with Power Apps.  
 
-## <a name="to-add-prod_short-as-a-data-source-in-power-apps"></a>To add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in Power Apps
+## To add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in Power Apps
 
 1. In your browser, navigate to [powerapps.microsoft.com](https://powerapps.microsoft.com/), and then sign in.
 2. On the Home page, in the **Start from data** section, choose the **Other data sources** tile.  
@@ -49,9 +43,9 @@ When you have designed and built your app, you can share it with your colleagues
 > [!NOTE]
 > If you want to connect to [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, then you must choose the **Business Central (on-premises)** connector in step 3.  
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/power-apps-power-automate-business-central/)
+## See related [Microsoft training](/training/paths/power-apps-power-automate-business-central/)
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Create a canvas app from a template in Power Apps](/powerapps/maker/canvas-apps/get-started-test-drive)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  

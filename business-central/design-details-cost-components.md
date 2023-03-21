@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: fa49d48d4af1efe40cda6579ff15f703ef5ad426
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523056"
 ---
-# <a name="design-details-cost-components"></a>Design Details: Cost Components
+# Design Details: Cost Components
 Cost components are different types of costs that make up the value of an inventory increase or decrease.  
 
  The following table shows the different cost components and any subordinate cost components that they consist of.  
@@ -39,7 +33,7 @@ Cost components are different types of costs that make up the value of an invent
 > [!NOTE]  
 >  Freight and insurance costs are item charges that can be added to an item’s cost at any time. When you run the **Adjust Cost - Item Entries** batch job, the value of any related inventory decreases are updated accordingly.  
 
-## <a name="see-also"></a>See Also  
+## See Also  
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   
  [Design Details: Variance](design-details-variance.md) [Managing Inventory Costs](finance-manage-inventory-costs.md)  
  [Finance](finance.md)  

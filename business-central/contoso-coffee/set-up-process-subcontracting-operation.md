@@ -6,24 +6,19 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 9227abbfe25ca5a1b3c6775865712f22b31f721b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525217"
 ---
-# <a name="set-up-and-process-a-subcontracting-operation"></a>Set up and Process a Subcontracting Operation
+
+# Set up and Process a Subcontracting Operation
 
 In this article, we take you through the steps to use the Contoso Coffee demo data in subcontracting.
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 You are the production planner at Contoso Coffee. Due to capacity constraints, you plan to use a subcontractor to produce the item **SP-SCM1009, Airpot**.
 
 Here, you create a new released production order for 12 units of item SP-SCM1009, Airpot, using Routing - SP-SCM1009-SUB-2. Use the subcontracting worksheet to generate a purchase order for the production, and then finish the operation by receiving and invoicing the purchase order.
 
-## <a name="steps"></a>Steps
+## Steps
 
 1. Create a new released production order for 12 units of item SP-SCM1009, Airpot.
 
@@ -78,6 +73,6 @@ Here, you create a new released production order for 12 units of item SP-SCM1009
 
 The output of item SP-SCM1009 Airpot is now registered.
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Introduction to Contoso Coffee Demo Data](contoso-coffee-intro.md)  

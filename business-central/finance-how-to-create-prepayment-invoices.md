@@ -1,32 +1,25 @@
 ---
 title: Create Prepayment Invoices
 description: Handle situations where you or your vendor require prepayment. Use the default percentages for each sales or purchase line or adjust the amount as necessary.
-author: edupont04
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.form: 42, 50, 9305, 9307
-ms.date: 12/02/2021
-ms.author: edupont
-ms.openlocfilehash: ffb2adb5a0ec43da14ee7fd9126c3293ea73ab22
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534920"
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bhielse
+ms.topic: how-to
+ms.date: 02/02/2023
+ms.custom: bap-template
+ms.search.form: '42, 50, 9305, 9307'
 ---
-# <a name="create-prepayment-invoices"></a>Create Prepayment Invoices
+# Create Prepayment Invoices
 
 If you require customers to pay before you'll ship their order, you can use the prepayment features. The same applies if your vendor requires you to pay before they ship an order to you.  
 
-You can start the prepayment process when you create a sales or purchase order. If you have a default prepayment percentage for an item on the order, or for the customer or vendor, the percentage will be included in the prepayment invoice. You can also specify a prepayment percentage to the entire document.
+You can start the prepayment process when you create a sales or purchase order. The default prepayment percentage for an item on the order, or for the customer or vendor, will be included in the prepayment invoice. You can also specify a prepayment percentage to the entire document.
 
 After you create a sales or purchase order, you can create a prepayment invoice for it. Either use the default percentages for each sales or purchase line, or adjust the amount. For example, you might specify a total amount for the entire order.  
 
 The following procedure describes how to invoice a prepayment for a sales order. The steps are similar for purchase orders.  
 
-## <a name="to-create-a-prepayment-invoice"></a>To create a prepayment invoice
+## To create a prepayment invoice
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2. Create a new sales order for the relevant customer. For more information, see [Sell Products](sales-how-sell-products.md).  
@@ -41,6 +34,14 @@ The following procedure describes how to invoice a prepayment for a sales order.
     If you want to specify a prepayment invoice with one line for each sales order line that has a prepayment percentage, don't choose the **Compress Prepayment** field.  
 
     The due date for the prepayment is calculated automatically based on the value of the **Prepmt. Payment Terms Code**.
+
+    > [!NOTE]
+    > When some lines on an invoice require 100% prepayment and other lines don't, and there's VAT on the prepayment account, the rounded amount might cause an error when you create a prepayment invoice. The error occurs because the prepayment invoice amount is higher than the amounts on the document lines. To fix the problem, change the amounts on one or all of the lines that require 100% prepayment. The change will recalculate the VAT amount rounding and use the accumulated rounding difference on the last modified line.
+    >
+    > Two more ways to fix the problem are:
+    >
+    > * Create a separate VAT product posting group and a VAT posting setup with a separate VAT identifier and use that for the items or lines that require 100% prepayment. Rounding is done for each VAT identifier, so separate rounding will be done for items that are assigned to the VAT product posting group.
+    > * Use a separate invoice for the items or lines that do and don't require 100% prepayments.
 
 3. Fill in the sales lines.  
 
@@ -69,13 +70,13 @@ You can issue other prepayment invoices for the order. To issue another invoice,
 
  When you're ready to post the rest of the invoice, post it as you would post any invoice, and the prepayment amount will automatically be deducted from the amount due.  
 
-## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>Update the Status of Prepaid Orders and Invoices Automatically
+## Update the Status of Prepaid Orders and Invoices Automatically
 
 You can speed up order and invoice processing by setting up job queue entries that automatically update the status of those documents. When a prepayment invoice is paid, the job queue entries can automatically change the document status from **Pending Prepayment** to **Released**. When you set up the job queue entries, the codeunits you'll need to use are **383 Upd. Pending Prepmt. Sales** and **383 Upd. Pending Prepmt. Purchase**. We recommend that you schedule the entries to run frequently, for example, every minute. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/prepayment-invoices-dynamics-365-business-central/)
+## See related [Microsoft training](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Invoicing Prepayments](finance-invoice-prepayments.md)  
 [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

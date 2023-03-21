@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 1500, 1501, 1503, 1504, 1505
+ms.search.keywords: null
+ms.search.form: '1500, 1501, 1503, 1504, 1505'
 ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 4b4a46071173c7371a306570227be5fffebd36d6
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585791"
 ---
-# <a name="use-approval-workflows"></a>Use Approval Workflows
+# Use Approval Workflows
 
 A workflow is a sequence of tasks triggered by an action, a condition, or a rule. Workflows are usually implemented to integrate business logic into an organisation, such as the separation of duties, unifying processes, or to apply best practices.
 
@@ -70,9 +64,9 @@ Before you can begin using workflows, you must set up workflow users, create the
 | View workflow step instances with **Completed** status. | [View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md) |
 | Delete an approval workflow that will no longer be used. | [Delete Approval Workflows](across-how-to-delete-workflows.md) |
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-workflows/)
+## See related [Microsoft training](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Setting Up Approval Workflows](across-set-up-workflows.md)  
 [Workflow](across-workflow.md)  

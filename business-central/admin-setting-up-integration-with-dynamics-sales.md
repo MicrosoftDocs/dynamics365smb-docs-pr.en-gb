@@ -1,26 +1,20 @@
 ---
 title: Setting Up User Accounts for Integrating with Microsoft Dataverse | Microsoft Docs
-description: Learn how to set up the user accounts that the apps use to exchange data, and that people use to access and synchronise data in the apps.
+description: 'Learn how to set up the user accounts that the apps use to exchange data, and that people use to access and synchronise data in the apps.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7683c301131fa5729d74e1c6ef70880db7f3327d
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607345"
 ---
-# <a name="setting-up-user-accounts-for-integrating-with-microsoft-dataverse"></a>Setting Up User Accounts for Integrating with Microsoft Dataverse
+# Setting Up User Accounts for Integrating with Microsoft Dataverse
 
 This article provides an overview of how to set up the user accounts that are required to integrate [!INCLUDE[prod_short](includes/cds_long_md.md)] with [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="set-up-the-administrator-user-account"></a>Set up the administrator user account
+## Set up the administrator user account
 
 You must add your administrator user account for [!INCLUDE[prod_short](includes/prod_short.md)] as a user in [!INCLUDE[cds_long](includes/cds_long_md.md)]. When you set up the connection between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[prod_short](includes/cds_long_md.md)] we'll use this account once to install and configure some required components.
 
@@ -29,7 +23,7 @@ You must add your administrator user account for [!INCLUDE[prod_short](includes/
 >
 > After the connection setup is done, this [!INCLUDE[prod_short](includes/cds_long_md.md)] user can be removed. The integration will continue using the user account that is automatically created specifically for the integration.
 
-## <a name="permissions-and-security-roles-for-user-accounts-in-prod_short"></a>Permissions and security roles for user accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)]
+## Permissions and security roles for user accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 The Base Integration Solution creates the following roles in [!INCLUDE[cds_long](includes/cds_long_md.md)] for the integration:
 
@@ -135,7 +129,7 @@ You can allow sales people to view inventory levels for the items they sell by g
 
 -->
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Integrating with Microsoft Dataverse](admin-common-data-service.md)  
 [Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

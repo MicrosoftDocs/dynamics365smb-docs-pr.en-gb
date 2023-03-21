@@ -7,21 +7,16 @@ ms.service: dynamics365-business-central
 ms.reviewer: solsen
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 4a67f6fc58fb8b158563ce58baab55e7fda2ccb1
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728607"
 ---
-# <a name="run-tasks-in-the-background"></a>Run Tasks in the Background
+
+# Run Tasks in the Background
 
 It's efficient to run some tasks simultaneously and in an automated manner. You can perform such tasks in the background and can also set a schedule when you want those tasks to run automatically. To run tasks in the background, two modes are supported:
 
 - Manually triggered tasks are scheduled immediately via **Job Queue Entries**.
 - Recurring tasks are scheduled in **Job Queue Entries**.
 
-## <a name="run-tasks-in-the-background-for-a-specific-shop"></a>Run tasks in the background for a specific shop
+## Run tasks in the background for a specific shop
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter the name of **Shopify Shop**, and choose the shop name from the list.
 2. Select the shop for which you want to synchronise items to open the **Shopify Shop Card** page.
@@ -29,7 +24,7 @@ It's efficient to run some tasks simultaneously and in an automated manner. You 
 
 Now, when the sync action is triggered, instead of a task running in the foreground, it will ask you to wait. When it's completed, you can proceed to the next action. The task is created as a **Job Queue Entry** and starts instantly in a non-blocking manner.
 
-## <a name="to-schedule-recurring-tasks"></a>To schedule recurring tasks
+## To schedule recurring tasks
 
 You can schedule the following recurring activities to be performed in an automated manner. Learn more about scheduling tasks at [Job Queue](../admin-job-queues-schedule-tasks.md).
 
@@ -47,6 +42,6 @@ You can schedule the following recurring activities to be performed in an automa
 > [!NOTE]
 > Some elements might be updated by several tasks, for example when you import orders, depending on the setting in the **Shopify Shop Card**, the system may also import and update customer and/or product data. Remember to use the same job queue category to avoid conflicts.
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Get Started with the Connector for Shopify](get-started.md)  

@@ -1,23 +1,17 @@
 ---
-title: Set Up Resources, Time Sheets, and Jobs
-description: This topic outlines how to set up resources, time sheets, and jobs to manage projects and their budgets.
+title: 'Set Up Resources, Time Sheets, and Jobs'
+description: 'This topic outlines how to set up resources, time sheets, and jobs to manage projects and their budgets.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.search.form: 289, 290, 376, 462, 463, 1029, 8904, 9014, 9015
+ms.search.form: '289, 290, 376, 462, 463, 1029, 8904, 9014, 9015'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 2f238da69365edcdd797f00e62e6d766b00feec7
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522727"
 ---
-# <a name="setting-up-project-management"></a>Setting Up Project Management
+# Setting Up Project Management
 
 Before you can use [!INCLUDE[prod_short](includes/prod_short.md)] to manage projects, you must set up resources, time sheets, and jobs.
 
@@ -32,7 +26,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Enable resources to report time usage for an individual or a machine and enable a manager to review the usage and its allocation. |[Set Up Time Sheets](projects-how-setup-time-sheets.md) |
 | Create job cards and prepare job tasks. Set up prices for job items and job resources and define job posting groups. |[Set Up Jobs](projects-how-setup-jobs.md) |
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Managing Projects](projects-manage-projects.md)  
 [Video: How to create a job in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

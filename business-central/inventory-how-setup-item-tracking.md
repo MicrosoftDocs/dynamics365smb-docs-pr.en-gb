@@ -1,22 +1,16 @@
 ---
-title: Set Up Item Tracking with Serial, Lot, and Package Numbers
-description: Set up item tracking with serial numbers, lot numbers, and package numbers
+title: 'Set Up Item Tracking with Serial, Lot, and Package Numbers'
+description: 'Set up item tracking with serial numbers, lot numbers, and package numbers'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 08/31/2021
 ms.author: edupont
-ms.openlocfilehash: c298903d62da4cfd346a46ff1978ab91644fb13f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533275"
 ---
-# <a name="set-up-item-tracking-with-serial-lot-and-package-numbers"></a>Set Up Item Tracking with Serial, Lot, and Package Numbers
+# Set Up Item Tracking with Serial, Lot, and Package Numbers
 
 Keep track of inventory items even in complex warehouse configurations with numbers that are specific to each item, either as an individual object, as a lot, or as a package. With item tracking, you can trace items across internal warehouse movements, and outbound and inbound documents.
 
@@ -25,13 +19,13 @@ Items with serial and lot numbers can be traced both backwards and forward in th
 > [!TIP]
 > In 2021 release wave 1 and later, switch on the *Use tracking by package number in reservation and tracking system* feature update if you want to work with package numbers as well as serial and lot numbers. For more information, see [Enabling Upcoming Features Ahead of Time](admin-feature-management.md). Once the feature is switched on, you can assign package numbers to outbound and inbound documents similar to how you can work with lot numbers.  
 
-## <a name="numbers-and-item-tracking"></a>Numbers and item tracking
+## Numbers and item tracking
 
 As part of your warehouse processes, you can bundle your stock in packages, boxes, containers, and so on. But in order to keep track of the items, you assign unique numbers as identification. For example, you manufacture and sell a chair that has the item number *1900-S*. Each individual chair has a serial number, *1001*, but you also bundle four chairs into a lot, *LOT0001*, and you ship the chairs in a container with the package number *CONTAINER010* that also includes other items, such as *LOT0100* with side tables, and *LOT200* with lamps.  
 
 Depending on your configuration, you use these different numbers to keep track of inventory in [!INCLUDE [prod_short](includes/prod_short.md)] at the various stages of purchasing, sales, warehouse operations, and so on.
 
-## <a name="to-set-up-item-tracking-codes"></a>To set up item tracking codes
+## To set up item tracking codes
 
 An item tracking code reflects the different considerations a company has regarding the use of serial and lot numbers for items moving through the inventory.  
 
@@ -48,7 +42,7 @@ As this particular setup field covers all possible transactions with the item, t
 > [!NOTE]  
 >  To assign item tracking numbers in warehouse activities, the **SN Warehouse Tracking** and **Lot Warehouse Tracking** fields must be selected on the item's item tracking code card.  
 
-## <a name="to-set-up-expiration-rules-for-serial-or-lot-numbers"></a>To set up expiration rules for serial or lot numbers
+## To set up expiration rules for serial or lot numbers
 
 For some items you might want to set up specific expiration dates and rules in the item tracking code. This functionality allows you to keep track of when specific serial numbers and lot numbers expire.
 
@@ -62,7 +56,7 @@ For some items you might want to set up specific expiration dates and rules in t
     |**Require Expir. Date Entry**|Specifies that you must enter an expiration date on the item tracking line.|  
     |**Use Expiration Dates**|Specifies that you want to calculate expiration dates. |  
 
-## <a name="to-set-up-warranties-for-serial-or-lot-numbers"></a>To set up warranties for serial or lot numbers
+## To set up warranties for serial or lot numbers
 
 For some items, you might want to set up specific warranties in the item tracking code. This functionality allows you to keep track of when the warranties on specific serial or lot numbers in your inventory will run out.  
 
@@ -76,7 +70,7 @@ For some items, you might want to set up specific warranties in the item trackin
     |**Require Warranty Date Entry**|Specifies that you must manually enter a warranty date on the item tracking line.|  
 
 
-## <a name="to-set-up-items-for-tracking-with-the-correct-item-tracking-codes"></a>To set up items for tracking with the correct item tracking codes
+## To set up items for tracking with the correct item tracking codes
 
 To enable item tracking you first have to assign the item tracking codes to an item. There are two ways to add item tracking codes, by selecting the code from a predefined list or by assigning a new unique code. Hover over the fields to read a short description.
 
@@ -85,9 +79,9 @@ To enable item tracking you first have to assign the item tracking codes to an i
 3. On the **Item Tracking** FastTab, assign the appropriate item tracking codes and choose the **Item Tracking Code**, the **Serial Nos.**, and the **Lot Nos.**.
     1. Alternatively you can also create a new item tracking code by selecting the **New** action.
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/prepare-item-tracking/)
+## See related [Microsoft training](/training/modules/prepare-item-tracking/)
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)  
 [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)  

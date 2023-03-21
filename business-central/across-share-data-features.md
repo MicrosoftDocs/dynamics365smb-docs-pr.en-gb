@@ -4,41 +4,35 @@ description: Learn about the different ways to share business data from Business
 author: jswymer
 ms.topic: conceptual
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 09/21/2022
 ms.author: jswymer
-ms.openlocfilehash: e54cabd331253a40b160a6cc89b4ab170bd1db89
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607480"
 ---
-# <a name="sharing-business-data-from-business-central"></a>Sharing Business Data from Business Central
+# Sharing Business Data from Business Central
 
 Collaboration among people inside and outside an organisation is integral part of most businesses. [!INCLUDE[prod_short](includes/prod_short.md)] offers several features for sharing business data, like a list of records, specific records, or documents. <!--, with others&mdash;even those people who don't have a Business Central license in some cases.-->
 
 With all these features, access to data is protected by the licence and permissions of Business Central.
 
-## <a name="copying-a-link"></a>Copying a link
+## Copying a link
 
 ![Supported](media/check.png) Business Central Online ![Supported](media/check.png) Business Central On-premises
 
 From any page, you can copy the page's URL, then paste and distribute it in other forms of media like emails, Teams chats, or text messages. The easiest way to copy a link is by selecting **Share** > **Copy Link** from the top of the page. Another way is to copy the URL directly from the browser's address box.
 
-### <a name="modify-the-page-link"></a>Modify the page link
+### Modify the page link
 
 After you copy a link, before you send it, you can modify the URL to manipulate what shows when the page opens. You can, for example, add filters or specify a different company.
 
 For more information, see [Web Client URL](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls).
 
-### <a name="about-filtered-lists"></a>About filtered lists
+### About filtered lists
 
 Using the filter pane on list pages, you can apply filters to narrow-down the records shown in the list. If you use the **Copy Link** action or copy the URL from the browser, the page link won't include your filter changes. Users that open the link will see the full collection. The way to keep the filtering on a collection page link is to save the filtered page as a **View** first. Then, open the view and copy the link from there.
 
 For more information, see [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md).
 
-## <a name="sharing-to-teams"></a>Sharing to Teams
+## Sharing to Teams
 
 ![Supported](media/check.png) Business Central Online ![Not Supported](media/x-icon.png) Business Central On-premises
 
@@ -46,7 +40,7 @@ Directly from most collection pages and details pages, you can send a link to th
 
 For more information, see [Sharing Records and Page Links in Teams](across-working-with-teams.md).
 
-## <a name="sharing-through-onedrive"></a>Sharing Through OneDrive
+## Sharing Through OneDrive
 
 ![Supported](media/check.png) Business Central Online ![Supported](media/check.png) Business Central On-premises
 
@@ -54,7 +48,7 @@ Business Central makes it easy to store, manage, and share files with other peop
 
 For more information, see [Sharing Files in OneDrive](across-share-onedrive.md).
 
-## <a name="opening-in-excel"></a>Opening in Excel
+## Opening in Excel
 
 ![Supported](media/check.png) Business Central Online ![Supported](media/check.png) Business Central On-premises
 
@@ -62,15 +56,15 @@ For list pages and lists embedded on a page, you can use the **Open in Excel** a
 
 For more information, see [Viewing and Editing in Excel](across-work-with-excel.md).
 
-## <a name="sharing-rows-or-tables"></a>Sharing rows or tables
+## Sharing rows or tables
 
 ![Supported](media/check.png) Business Central Online ![Supported](media/check.png) Business Central On-premises
 
-You can share one or more records in a list. Just press the Ctrl+C keyboard shortcut to copy to your clipboard. Then paste what you copied into another application by pressing Ctrl+V. For example, copying three sales orders and pasting that into an email will display the orders in a nicely formatted table.
+You can share one or more records in a list. Just select the <kbd>Ctrl</kbd>+<kbd>C</kbd> keyboard shortcut to copy to your clipboard. Then paste what you copied into another application by pressing <kbd>Ctrl</kbd>+<kbd>V</kbd>. For example, copying three sales orders and pasting that into an email will display the orders in a nicely formatted table.
 
 For more information, see [Copy and Paste FAQ](faq-copy-paste.yml).
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Business Central and OneDrive Integration](across-onedrive-overview.md)  
 [Managing OneDrive Integration with Business Central](admin-onedrive-integration.md)  

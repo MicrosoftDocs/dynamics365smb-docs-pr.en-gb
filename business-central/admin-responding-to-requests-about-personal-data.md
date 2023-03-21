@@ -7,17 +7,12 @@ ms.custom: na
 ms.date: 06/14/2021
 ms.reviewer: na
 ms.topic: conceptual
-ms.openlocfilehash: 8c37617355582748658d20dfac9578bbf4b33d1d
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382132"
 ---
-# <a name="responding-to-requests-about-users-personal-data"></a>Responding to Requests About Users' Personal Data  
+
+# Responding to Requests About Users' Personal Data  
 Data subjects can request several types of actions regarding their personal data. For example, under the General Data Protection Regulation (GDPR), EU residents have the right to request the export, deletion and modification of their personal data. This is known as a *Data Subject Request*. If you have classified the sensitivity of your data, and are sure they are correct, an administrator can respond to requests by using the options under **Data Privacy** tab in the **IT Manager** Role Centre. For more information about classifying data and classifying data sensitivity in [!INCLUDE[prod_long](includes/prod_long.md)], see [Classifying Data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) and [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md).  
 
-## <a name="types-of-requests"></a>Types of Requests
+## Types of Requests
 
 The following table provides examples of the types of requests you can respond to.
 
@@ -30,10 +25,10 @@ The following table provides examples of the types of requests you can respond t
 |Requests for deletion|A data subject can request that you delete their personal data. There are several ways to delete personal data using the customisation capabilities, but the decision and implementation is your responsibility. In some cases, you may choose to directly edit your data, for example deleting a contact and then running the Delete Cancelled Interaction batch job to delete interactions for the contact. <br><br> **Note:** If you have specified a date in the **Allow Document Deletion Before** field on the **Sales & Receivables Setup** or **Purchases & Payables Setup** pages, you might need to change the date so that you can delete posted sales and purchase documents that you have printed and that have posting dates on or before that date.|
 |Requests for correction|A data subject can request that you correct inaccurate personal data. There are several ways to do so. In some cases, you can export lists to Excel to quickly bulk-edit multiple records, and then import the updated data. For more information, see [Exporting your Business Data to Excel](about-export-data.md). You can also manually edit fields that contain personal data, such as editing information about a customer in the Customer card. However, transaction records such as general, customer, and tax ledger entries are essential to the integrity of the enterprise resource planning system. If you store personal data in business transaction records, consider using the customisation capabilities to modify such personal data.|
 
-## <a name="restrict-data-processing-for-a-data-subject"></a>Restrict Data Processing for a Data Subject
+## Restrict Data Processing for a Data Subject
 A data subject can request that you temporarily stop processing their personal data. To honour such requests, you can mark their record as blocked due to privacy to stop processing their data. When a record is marked as blocked, you cannot create new transactions that use that record. For example, you cannot create a new invoice for a customer when either the customer or the salesperson is blocked. To mark a data subject as blocked, open the card for the data subject, for example the Customer, Vendor, or Contact cards, and choose the **Privacy Blocked** check box. You may need to choose **Show More** to display the field.  
 
-## <a name="handling-data-subject-requests-while-in-trial"></a>Handling Data Subject Requests While in Trial
+## Handling Data Subject Requests While in Trial
 Certain types of personal data is part of your Microsoft 365 account and requires administrative access to export, if you receive a data subject request from a user regarding this type of personal data under the General Data Protection Regulation (GDPR). The process for handling data subject requests is different depending on the type of [!INCLUDE[prod_short](includes/prod_short.md)] tenant.  
 
 If you have a paid subscription for [!INCLUDE[prod_short](includes/prod_short.md)], you must contact your organisation's tenant administrator to make a data subject request. The administrator has the administrative rights and tools to fulfil your request.  
@@ -44,18 +39,18 @@ On the Work and School Privacy page, you can also close your account. However, w
 
 You can still mark people as blocked due to privacy and export, edit, or delete transactions as explained elsewhere in this article.  
 
-## <a name="exporting-data-from-tables-not-classified-by-data-subject"></a>Exporting Data from Tables not Classified by Data Subject
+## Exporting Data from Tables not Classified by Data Subject
 If you have a situation where you have to export data that is not classified in a way so that it gets automatically exported, such as data from the Profile Answers table, you must do the following:
 -   Consider if you really want or have to export this supplemental data that is unrelated to the contact, meaning that it has no direct relationship to it
 -   Add this table and relationship manually to the Rapid Start package and export it directly from the Rapid Start package – that’s why we generate a Rapid Start package for you, so that you can tweak it in situations such as this.
 
-## <a name="handling-data-about-minors"></a>Handling Data About Minors
+## Handling Data About Minors
 If a contact person's age is below the age of legal consent according to the laws in your region, you can indicate that by choosing the **Minor** check box on the **Contact** card. When you do, the **Privacy Blocked** check box is automatically selected. When you receive consent from the minor's parent or legal guardian, you can choose the **Parental Consent Received** check box to unblock the contact. Though you can process personal data for minors, you cannot use the profiling functionality in Dynamics 365 Sales.
 
 > [!Note]
 > The Change Log can record details such as when, and by whom, the **Parental Consent Received** check box was chosen. An administrator can set that up by using the **Change Log Setup** guide, and also choosing the **Log Modification for Parental Consent Received** check box on the **Contact** card. For more information, see [Logging Changes](across-log-changes.md).  
 
-## <a name="see-also"></a>See Also
+## See Also
 [Classifying Data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json)  
 [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)  
 [Exporting your Business Data to Excel](about-export-data.md)  

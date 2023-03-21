@@ -3,22 +3,16 @@ title: Customising Business Central Online Using Apps
 description: Learn all about adding functionality and customising Business Central by installing apps in this article.
 author: edupont04
 ms.topic: conceptual
-ms.search.keywords: app, add-in, manifest, customize
-ms.search.form: 2500, 2502, 20350, 20353
+ms.search.keywords: 'app, add-in, manifest, customize'
+ms.search.form: '2500, 2502, 20350, 20353'
 ms.date: 09/27/2022
 ms.author: edupont
-ms.openlocfilehash: 5b0744394201e11534f19c25999af0da0944ec9b
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605692"
 ---
-# <a name="customizing-business-central-online-with-apps"></a>Customising Business Central Online with Apps
+# Customising Business Central Online with Apps
 
 You can change [!INCLUDE[prod_short](includes/prod_short.md)] online by installing apps that add functionality, changes behaviour, or gives you access to new online services, for example. These apps are also called *extensions* because they *extend* [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="manage-apps"></a>Manage apps
+## Manage apps
 
 When you first launch [!INCLUDE[prod_short](includes/prod_short.md)], some apps are already installed for you. Over time, more apps will be made available to you, and you can then choose if you want to use the app or not.
 
@@ -53,7 +47,7 @@ Some apps are provided by Microsoft, and other apps are provided by [other compa
 > [!NOTE]  
 > You can keep an eye out for new apps from Microsoft and other suppliers at [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
-## <a name="apps-and-data-transfer"></a>Apps and data transfer
+## Apps and data transfer
 
 Because the following apps communicate with other services, they might transfer data out of the geography of the [!INCLUDE[prod_short](includes/prod_short.md)] environment:
 
@@ -73,7 +67,7 @@ This also applies to some functionality in the base application, such as the fol
 * Online Map
 * EU VAT Reg. No. Service
 
-## <a name="connect-your-business"></a>Connect your business
+## Connect your business
 
 Starting in 2022 release wave 2, [!INCLUDE [prod_short](includes/prod_short.md)] online environments can list one or more apps on the **Connectivity Apps** and **Banking Apps** pages. These apps can connect your business to external services that increase productivity by automating processes. For example, you can connect to your banks and automatically import bank transactions. The apps are easy to install and set up directly from this page. Choose an app to learn more about capabilities and pricing.  
 
@@ -84,16 +78,16 @@ View the list of suggested apps by choosing the **Connectivity Apps** action in 
 
 This external service will generate a list of relevant apps based on your country or region
 
-## <a name="recommended-apps"></a>Recommended apps
+## Recommended apps
 
 Microsoft partners and resellers can create an app that they can use to compile lists of apps that they often recommend to their customers. If they do, and have deployed the app to your tenant, the apps will be available on the **Recommended Apps** page. There you can read about each app and decide whether to install them.
 
 > [!NOTE]
 > If you are a Microsoft partner or reseller, and you're interested in providing a list of recommended apps, see [Recommend Apps from AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps) in the administration content.
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/customize-dynamics-365-business-central/)
+## See related [Microsoft training](/training/modules/customize-dynamics-365-business-central/)
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Install and Uninstall Apps](ui-extensions-install-uninstall.md)  
 [Customise Business Central](ui-customizing-overview.md)  

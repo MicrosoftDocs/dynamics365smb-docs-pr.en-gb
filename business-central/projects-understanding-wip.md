@@ -1,23 +1,17 @@
 ---
 title: WIP Methods for Calculating and Recording Job Progress
-description: Describes the different work in process (WIP) methods you can use to post, monitor, and calculate financial information for ongoing jobs that are in progress.
+description: 'Describes the different work in process (WIP) methods you can use to post, monitor, and calculate financial information for ongoing jobs that are in progress.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: work in process, work in progress, calculate project WIP
+ms.search.keywords: 'work in process, work in progress, calculate project WIP'
 ms.search.form: 1010
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f04d66359274aece8780173cd2806382e3bb3892
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529873"
 ---
-# <a name="understanding-wip-methods-in-project-management"></a>Understanding WIP Methods in Project Management
+# Understanding WIP Methods in Project Management
 
 As a job progresses, materials, resources, and other expenses are consumed and must be posted to the job. Work in Progress (WIP) is a feature that enables you to estimate the financial value of jobs in the general ledger while the jobs are ongoing. In many cases, you might post expenses for a job before invoicing a job. When only expenses have been posted, your financial statement will be inaccurate.
 
@@ -33,9 +27,9 @@ To track the value in the general ledger, you can calculate WIP and post the val
 | Percentage of Completion |Recognised Costs = Usage Total Costs<br /><br /> Recognised Revenue = Billable Total Price x Percentage of Completion<br /><br /> Percentage of Completion = Usage Total Costs / Budget Total Costs<br /> (Captured in the **Cost Completion %** field on job task lines)<br /><br /> WIP Sales = Recognised Sales - Billable Invoiced Price |Percentage of completion calculations recognise revenue proportionally based on the percentage of completion, that is, usage total costs vs. budget costs.<br /><br /> This calculation requires that the billable total price and budget total costs be correctly entered for the whole job. |
 | Completed Contract |WIP Amount = WIP Cost Amount = Usage (Total Cost)<br /><br /> WIP Sales Amount = Billable (Invoiced Price) |Completed contract does not recognise revenue and costs until the job is complete. You may want to do this when there is high uncertainty around the estimates of costs and revenue for the job.<br /><br /> All usage is posted to the WIP Costs account (asset) and all invoiced sales are posted to the WIP Invoiced Sales account (liability) until the job is complete. |
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/calculate-post-job-wip/)
+## See related [Microsoft training](/training/paths/calculate-post-job-wip/)
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Project Management](projects-manage-projects.md)  
 [Finance](finance.md)  

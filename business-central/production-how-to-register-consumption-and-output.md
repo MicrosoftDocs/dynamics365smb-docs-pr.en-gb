@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.form: 5510
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 01e62e4a767ac26967e228ef27a2dadcc0e3ff03
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516090"
 ---
-# <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Register Consumption and Output for One Released production order line
+# Register Consumption and Output for One Released production order line
 
 This execution task is performed on the **Production Journal** page. The journal combines the functions of the separate consumption journal and output journals into one journal. The combined journal is accessed directly from a released production order. Its main purpose is to manually post the consumption of components, the quantity of end items produced, and the time spent in operations. The values are posted to ledger entries under the released production order. Consumption quantities are posted as negative item ledger entries, output quantities are posted as positive ledger entries, and times spent are posted as capacity ledger entries. Such posted values can also be viewed at the bottom of the journal as actual quantities.  
 
@@ -26,7 +20,7 @@ This execution task is performed on the **Production Journal** page. The journal
 > [!NOTE]  
 >  Components without routing link codes are listed first in the journal.  
 
-## <a name="to-register-consumption-and-output"></a>To register consumption and output  
+## To register consumption and output  
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon enter **Released Prod. Orders**, and then choose the related link.  
 2.  Open a released production order line that is ready for registration, and then on the **Lines** FastTab, choose the **Line** action, and then choose the **Production Journal** action.  
 
@@ -64,7 +58,7 @@ If values remain to be posted, the journal will contain these remaining values n
 > [!WARNING]  
 >  The **Production Journal** page cannot be used by two users simultaneously. This means that if User 2 opens the page and enters data when User 1 is already working on the page, then User 2 may lose data when User 1 closes the page.  
 
-## <a name="see-also"></a>See Also  
+## See Also  
 [Manufacturing](production-manage-manufacturing.md)    
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Planning](production-planning.md)      

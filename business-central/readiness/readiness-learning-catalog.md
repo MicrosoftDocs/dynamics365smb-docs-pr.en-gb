@@ -5,14 +5,9 @@ author: loreleishannonmsft
 ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 511c7c616e94458cc2eb8489831d528968400903
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530197"
 ---
-# <a name="business-central-learning-catalog"></a>Business Central Learning Catalogue
+
+# Business Central Learning Catalogue
 
 Find the right online training, in person workshops, and events for your role as a Business Central user or partner.
 
@@ -20,7 +15,7 @@ Find the right online training, in person workshops, and events for your role as
 
     :::column:::
 
-    ### <a name="business-decision-maker"></a>Business decision maker
+    ### Business decision maker
 
     Do you decide whether to invest in new technologies? 
 
@@ -36,7 +31,7 @@ Find the right online training, in person workshops, and events for your role as
 
     :::column:::
 
-    ### <a name="business-user"></a>Business user
+    ### Business user
 
     Did you just get a new application to use? 
 
@@ -54,7 +49,7 @@ Find the right online training, in person workshops, and events for your role as
 
     :::column:::
 
-    ### <a name="developer"></a>Developer
+    ### Developer
 
     Do you need to write code to integrate with other data sources, extend core system functionality, or build a complex application?
 
@@ -66,7 +61,7 @@ Find the right online training, in person workshops, and events for your role as
 
     :::column:::
 
-    ### <a name="functional-consultant"></a>Functional Consultant
+    ### Functional Consultant
     
     Are you an implementation expert for a business domain? 
 

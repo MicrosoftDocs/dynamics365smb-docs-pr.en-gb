@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: planning, design
+ms.search.keywords: 'planning, design'
 ms.date: 07/21/2021
 ms.author: edupont
-ms.openlocfilehash: d6598583ad118961fc15c7257e5207c3024e20e7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131984"
 ---
-# <a name="design-details-planning-parameters"></a>Design Details: Planning Parameters
+# Design Details: Planning Parameters
 This topic describes the different planning parameters that you can use in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 The way in which the planning system controls item supply is determined by various settings on the item card or SKU, and settings in manufacturing setup. The following table shows how these parameters are used for planning.  
@@ -30,10 +24,10 @@ The way in which the planning system controls item supply is determined by vario
 |Modify the supply orders|Minimum Order Quantity<br /><br /> Maximum Order Quantity<br /><br /> Order Multiple|  
 |Delimit the planned item|Manufacturing Policy:<br /><br /> -   Make-to-Stock<br />-   Make-to-Order|  
 
-## <a name="define-if-the-item-will-be-planned"></a>Define If the Item Will Be Planned  
+## Define If the Item Will Be Planned  
 To include an item/SKU in the planning process, it must have a reordering policy otherwise it must be planned manually, for example, with the Order Planning feature.  
 
-## <a name="define-when-to-reorder"></a>Define When to Reorder  
+## Define When to Reorder  
 Reorder proposals are generally released only when the projected available quantity has fallen to or below a given quantity. This quantity is defined by the reorder point. Otherwise, it will be zero. Zero can be adjusted by entering a safety stock quantity. If the user has defined a safety lead time, it will cause the proposal to be delivered in the period prior to the required due date.  
 
 The **Time Bucket** field is used by reorder point policies (**Fixed Reorder Qty.** and **Maximum Qty.**), where the inventory level is checked after each time bucket. The first time bucket begins on the planning starting date.  
@@ -45,7 +39,7 @@ The default safety lead time, on the **Manufacturing Setup** page, should be set
 
 Three additional reorder period fields, **Rescheduling Period**, **Lot Accumulation Period**, and **Dampener Period**, also play a role in defining when to reorder. For more information, see [Optimise When and How Much to Reorder](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
-## <a name="define-how-much-to-reorder"></a>Define How Much to Reorder  
+## Define How Much to Reorder  
 If the planning system detects the need to reorder, the selected reordering policy is used to determine when and how much to order.  
 
 Independent of the reordering policy, the planning system usually follows this logic:  
@@ -58,7 +52,7 @@ Independent of the reordering policy, the planning system usually follows this l
 
      The following reorder period fields also play a role in defining how much to reorder: **Rescheduling Period**, **Lot Accumulation Period**, and **Dampener Period**. For more information, see [Optimise When and How Much to Reorder](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
-### <a name="reordering-policies"></a>Reordering Policies  
+### Reordering Policies  
 The following reordering policies affect the quantity that is being reordered.  
 
 |Reordering policy|Description|  
@@ -68,7 +62,7 @@ The following reordering policies affect the quantity that is being reordered.
 |**Order**|The order quantity will be calculated to meet each single demand event and the demand-supply set will remain linked until execution. No planning parameters are considered.|  
 |**Lot-for-Lot**|The quantity is calculated to meet the sum of the demand that comes due in the time bucket.|  
 
-##  <a name="optimize-when-and-how-much-to-reorder"></a>Optimise When and How Much to Reorder  
+##  Optimise When and How Much to Reorder  
 To obtain a rational supply plan, a planner will fine-tune planning parameters to limit rescheduling suggestions, accumulate demand (dynamic reorder quantity), or to avoid insignificant planning actions. The following reorder period fields help optimise when and how much to reorder.  
 
 |Field|Description|  
@@ -103,19 +97,19 @@ In the following examples, the black arrows represent existing supply (up) and d
 
 **Default values:** The default value of the **Time Bucket** field and the three reorder period fields is blank. For all fields, except the **Dampener Period** field, this means 0D (zero days). If the **Dampener Period** field is blank, the global value in the **Default Dampener Period** field on the **Manufacturing Setup** page will be used.  
 
-## <a name="modify-the-supply-orders"></a>Modify the Supply Orders  
+## Modify the Supply Orders  
 When the quantity of the order proposal has been calculated, one or more of the order modifiers can adjust it. For example, the maximum order quantity is larger than or equal to the minimum order quantity, which is larger than or equal to the order multiple.  
 
 The quantity is decreased if it exceeds the maximum order quantity. Then, it is increased if it is below the minimum order quantity. Finally, it is rounded up so that it matches a specified order multiple. Any remaining quantity uses the same adjustments until the total demand has been converted into order proposals.  
 
-## <a name="delimit-the-item"></a>Delimit the Item  
+## Delimit the Item  
 The **Manufacturing Policy** option defines which additional orders the MRP calculation will propose.  
 
 If the **Make-to-Stock** option is used, the orders concern only the item in question.  
 
 If the **Make-to-Order** option is used, the planning system will analyse the production BOM of the item and create additional linked order proposals for those lower-level items that are also defined as make-to-order. This continues as long as there are make-to-order items in the descending BOM structures.
 
-## <a name="use-low-level-codes-to-manage-derived-demand"></a>Use Low-Level Codes to manage derived demand
+## Use Low-Level Codes to manage derived demand
 
 Use Low-Level Codes to make derived demand for components progress through to the lower levels of the BOM. For a more thorough explanation of this, please see [Item Priority / Low-Level Code](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
 
@@ -131,11 +125,11 @@ As an alternative to the automatic calculation that occurs dynamically if the fi
 > [!NOTE]
 > Even with the **Dynamic Low-Level Code** field selected, the low-level codes of component items are not changed dynamically if a parent BOM is deleted or set to non-certified. This may result in difficulty to add new items to the end of the product structure as it might exceed the maximum number of low-level codes. Therefore, for large product structures that reach the low-level code limit, it is encouraged to run the **Calculate Low Level Code** batch job frequently to maintain the structure.  
 
-### <a name="optimize-low-level-code-calculation"></a>Optimise Low-Level Code Calculation
+### Optimise Low-Level Code Calculation
 
 Select the **Optimise Low-Level Code Calculation** field to specify that you want to use the new, faster method of low-level code calculation. Note that the new calculation is done differently, and using it might break extensions that rely on the existing method. The new calculation method will replace the current method in a future release.
 
-## <a name="see-also"></a>See Also  
+## See Also  
 [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)   
 [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)   
 [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)

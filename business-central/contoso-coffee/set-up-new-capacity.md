@@ -6,22 +6,17 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: e47832b34778f1340000a87f9ac148a2ab230bcf
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525243"
 ---
-# <a name="walkthrough-set-up-new-capacity"></a>Walkthrough: Set Up New Capacity
+
+# Walkthrough: Set Up New Capacity
 
 In this article, we take you through the steps to use the Contoso Coffee demo data in how you manage capacity.  
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 You are the production planner at Contoso Coffee. In response to changes on the shop floor, you must set up a new work centre, Test Department. The new work centre has one machine centre, Testing. The new centres must have a capacity calendar for a single shift from 08:00:00 AM to 4:00:00 PM, Monday to Friday.  
 
-## <a name="steps"></a>Steps
+## Steps
 
 1. Set up the work centre.
 
@@ -89,6 +84,6 @@ You are the production planner at Contoso Coffee. In response to changes on the 
 
 On the **Calendar Entries** page, the daily capacity entries in the **Capacity (Total)** field are for 480 minutes. This reflects one eight-hour shift for each work day. Also, the **Capacity (Effective)** field shows 432 minutes. This reflects the 90 percent efficiency rate that you assigned to the machine centre.  
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Introduction to Contoso Coffee Demo Data](contoso-coffee-intro.md)  

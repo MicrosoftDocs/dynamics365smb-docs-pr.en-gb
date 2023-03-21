@@ -8,20 +8,14 @@ ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/03/2022
 ms.custom: bap-template
-ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
-ms.search.forms: 9061
-ms.openlocfilehash: 3b3e7d42e077749bd4443506f7423dce03e9e82f
-ms.sourcegitcommit: 61f22aeede684f0ae772353ede6530ff03ff2f90
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 11/24/2022
-ms.locfileid: "9804426"
+ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
+ms.search.form: 9061
 ---
-# <a name="set-up-business-central-access-in-teams-with-microsoft-365-licenses"></a>Set Up Business Central Access in Teams with Microsoft 365 Licences
+# Set Up Business Central Access in Teams with Microsoft 365 Licences
 
 Administrators must complete multiple activities before users can access Business Central with their Microsoft 365 licence. The steps below represent the minimum setup required to get started. To learn more about access with Microsoft 365 licences, go to [Business Central Access with Microsoft 365 Licences](admin-access-with-m365-license.md).
 
-## <a name="deploy-the-business-central-app-for-teams"></a>Deploy the Business Central app for Teams
+## Deploy the Business Central app for Teams
 
 For Business Central licence holders to share data in Teams, and for Microsoft 365 licence holders to access that data, each must have the Business Central app for Teams installed. Although users can install the app by themselves, it's recommended that administrators use centralised deployment. Centralised deployment lets you roll out the app to a broader audience across the organisation and minimise individual user effort. 
 
@@ -33,7 +27,7 @@ To learn how to centrally deploy the Business Central app for Teams, see [Instal
 > [!TIP]
 > Looking for a quicker way to get started when trying out this feature? Test users can install the app at [aka.ms/BCgetTeamsApp](https://aka.ms/BCgetTeamsApp).
 
-## <a name="configure-permissions"></a>Configure permissions
+## Configure permissions
 
 Business Central is secure by design and minimises risk by granting no permissions to Microsoft 365 users out of the box. Administrators must configure object permissions that determine which tables, pages and reports can be accessed in Teams with only a Microsoft 365 licence. These permissions are the starting permissions assigned when a user signs in for the first time with their Microsoft 365 licence. 
 
@@ -56,7 +50,7 @@ When working with multiple environments, licence configuration must be applied t
 
 Learn more at [Assign Permissions to Users and Groups](ui-define-granular-permissions.md) and [Composing Permission Sets](/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-composing).
 
-## <a name="turn-on-access-with-microsoft-365-licenses"></a>Turn on access with Microsoft 365 licences
+## Turn on access with Microsoft 365 licences
 
 Access with Microsoft 365 licences is off by default. Access must be enabled for each environment independently, giving administrators control and allowing for staged rollout across the organisation. You turn on access by using the Business Central admin centre: 
 
@@ -66,7 +60,7 @@ Access with Microsoft 365 licences is off by default. Access must be enabled for
 4. In the **Microsoft 365 licences** pane, turn on the switch. 
 5. Select **Save** when done and accept the confirmation. The change comes into effect immediately.
 
-## <a name="test-your-setup"></a>Test your setup
+## Test your setup
 
 To verify that your setup is ready for production, the following steps will help you build the confidence that everything works as it should. 
 
@@ -90,7 +84,7 @@ To verify that your setup is ready for production, the following steps will help
 > [!TIP]
 > Something went wrong? Check out [Troubleshoot Access with Microsoft 365 Licences](admin-access-with-m365-license-troubleshooting.md).
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Overview of Business Central Access with Microsoft 365 licences](admin-access-with-m365-license.md#minimum-requirements)  
 [Troubleshoot Access with Microsoft 365 Licences](admin-access-with-m365-license-troubleshooting.md)  

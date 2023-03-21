@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
+ms.search.keywords: 'service, number sequences, setup, warnings, fee, contracts, warranties'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2a65c34f8fa59cd72c2df9e78343da03c67d8721
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8380939"
 ---
-# <a name="configure-service-processes"></a>Configure Service Processes
+# Configure Service Processes
 The following are some examples of the settings that you can apply to service management processes:  
   
 * Some overall settings for various processes, such as warnings, next service calculations for service items, the starting fee to assess, the fault reporting level to use, and so on.  
@@ -25,11 +19,11 @@ The following are some examples of the settings that you can apply to service ma
 * Settings for contracts, such as the maximum number of days that you can use for contract service orders, whether to use reason codes when a contract is cancelled, standard texts for contract descriptions, and contract values.  
 * The number sequences to use for service-related documents and items.  
 
-## <a name="to-enter-general-and-mandatory-settings"></a>To enter general and mandatory settings
+## To enter general and mandatory settings
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Management Setup**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="see-also"></a>See Also  
+## See Also  
 [Set Up Fault Reporting](service-how-setup-fault-reporting.md)  
 [Set Up Resource Allocation](service-how-setup-resource-allocation.md)  
 [Set Up Codes for Standard Services](service-how-setup-service-coding.md)  

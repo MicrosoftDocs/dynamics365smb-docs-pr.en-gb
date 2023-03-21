@@ -1,22 +1,16 @@
 ---
 title: Set Up Approval Workflows (contains video)
-description: Set up workflows, workflow users and approval users to connect business-process system tasks performed by these different users.
+description: 'Set up workflows, workflow users and approval users to connect business-process system tasks performed by these different users.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 04067d8cb0ee786b3738fb0cc7055d0b84c001d0
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585764"
 ---
-# <a name="set-up-approval-workflows"></a>Set Up Approval Workflows
+# Set Up Approval Workflows
 
 You can set up and use workflows that connect business-process tasks performed by different users. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps. Learn more at [Use Approval Workflows](across-use-workflows.md).
 
@@ -41,16 +35,16 @@ The following table describes a sequence of tasks, with links to the articles th
 |Share workflows with other [!INCLUDE[prod_short](includes/prod_short.md)] databases.|[Export and Import Approval Workflows](across-how-to-export-and-import-workflows.md)|  
 |Learn how to set up a workflow for approving sales documents by following an end-to-end procedure.|[Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 
-## <a name="example-of-an-approval-workflow"></a>Example of an approval workflow
+## Example of an approval workflow
 
 This video shows how to set up a workflow requiring a user to request someone else's approval before they can change information about an existing customer or create a new customer.  
 <br><br>  
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-workflows/)
+## See related [Microsoft training](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Use Approval Workflows](across-use-workflows.md)  
 [Workflow](across-workflow.md)  

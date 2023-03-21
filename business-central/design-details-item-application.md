@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: design, items, ledger entries, posting, inventory
+ms.search.keywords: 'design, items, ledger entries, posting, inventory'
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 4b6ce2978ecd5c8687c75a3afd563ed6083a9a04
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515134"
 ---
-# <a name="design-details-item-application"></a>Design Details: Item Application
+# Design Details: Item Application
 
 When you post an inventory transaction, the quantity posting is recorded in the item ledger entries, the value posting in the value entries. For more information, see [Design Details: Inventory Posting](design-details-inventory-posting.md).  
 
@@ -60,22 +54,22 @@ An item application entry records the following information.
 |**Quantity**|The quantity being applied.|  
 |**Posting Date**|The posting date of the transaction.|  
 
-## <a name="inventory-increase"></a>Inventory Increase  
+## Inventory Increase  
 When you post an inventory increase, then a simple item application entry is recorded without an application to an outbound entry.  
 
-### <a name="example"></a>Example  
+### Example  
 The following table shows the item application entry that is created when you post a purchase receipt of 10 units.  
 
 |Posting Date|Inbound Item Entry No.|Outbound Item Entry No.|Quantity|Item Ledger Entry No.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
 |01-01-20|1|0|10|1|  
 
-## <a name="inventory-decrease"></a>Inventory Decrease  
+## Inventory Decrease  
 When you post an inventory decrease, an item application entry is created that links the inventory decrease to an inventory increase. This link is created by using the item's costing method as a guideline. For items using FIFO, Standard, and Average costing methods, the linking is based on the first-in-first-out principle. The inventory decrease is applied to the inventory increase with the earliest posting date. For items using the LIFO costing method, the linking is based on the last-in-first-out principle. The inventory decrease is applied to the inventory increase with the most recent posting date.  
 
 In the  **Item Ledger Entry** table, the **Remaining Quantity** field shows the quantity that has not yet been applied. If the remaining quantity is more than 0, then the **Open** check box is selected.  
 
-### <a name="example"></a>Example  
+### Example  
 The following example shows the item application entry that is created when you post a sales shipment of 5 units of the items that were received in the previous example. The first item application entry is the purchase receipt. The second application entry is the sales shipment.  
 
 The following table shows the two item application entries that result from the inventory increase and the inventory decrease, respectively.  
@@ -85,12 +79,12 @@ The following table shows the two item application entries that result from the 
 |01-01-20|1|0|10|1|  
 |01-03-20|1|2|-5|2|  
 
-## <a name="fixed-application"></a>Fixed Application  
+## Fixed Application  
 You make a fixed application when you specify that the cost of an inventory increase should apply to a specific inventory decrease, or vice versa. The fixed application affects the remaining quantities of the entries, but the fixed application also reverses the exact cost of the original entry that you are applying to, or from.  
 
 To make a fixed application, you use the **Appl.-to Item Entry** field or the **Appl.-from Item Entry** field in the document lines to specify the item ledger entry that you want the transaction line to apply to, or from. For example, you might make a fixed application when you want to create a cost application that specifies that a sales return should apply to a specific sales shipment to reverse the cost of the sales shipment. In this case, [!INCLUDE[prod_short](includes/prod_short.md)] ignores the costing method and applies the inventory decrease, or increase, for a sales return, to the item ledger entry that you specify. The advantage of making a fixed application is that the cost of the original transaction is passed to the new transaction.  
 
-### <a name="example--fixed-application-in-purchase-return"></a>Example – Fixed Application in Purchase Return  
+### Example – Fixed Application in Purchase Return  
 The following example, which illustrates the effect of fixed application of a purchase return of an item using the FIFO costing method, is based on the following scenario:  
 
 1. In entry 1, the user posts a purchase at a cost of LCY 10.00.  
@@ -115,7 +109,7 @@ The following table shows the item application entry that results from the fixed
 
 The cost of the second purchase, LCY 20.00, is passed correctly to the purchase return.  
 
-### <a name="example--fixed-application-with-average-cost"></a>Example – Fixed Application with Average Cost  
+### Example – Fixed Application with Average Cost  
 The following example, which illustrates the effect of fixed application, is based on the following scenario for an item that uses the Average costing method:  
 
 1. In entry numbers 1 and 2, the user posts two purchase invoices. The second invoice has the incorrect direct unit cost of LCY 1000.00.  
@@ -155,7 +149,7 @@ In entry number 5, the value of the **Cost Amount (Actual)** field for this entr
 > [!NOTE]  
 >  If you create a fixed application for an inventory decrease for an item that uses the Average costing method, then the decrease will not receive the average cost for the item as usual, but will instead receive the cost of the inventory increase that you specified. That inventory decrease is then no longer part of the average cost calculation.  
 
-### <a name="example--fixed-application-in-sales-return"></a>Example – Fixed Application in Sales Return  
+### Example – Fixed Application in Sales Return  
 Fixed applications are also a very good means of reversing cost exactly, such as with sales returns.  
 
 The following example, which illustrates how a fixed application ensures exact cost reversal, is based on the following scenario:  
@@ -196,10 +190,10 @@ When you run the **Adjust Cost - Item Entries** batch job, the increased cost of
 > [!NOTE]  
 >  If you post a transaction with a fixed application, and the item ledger entry that you are applying to is closed, meaning that the remaining quantity is zero, then the old application is automatically undone and reapplies the item ledger entry using the fixed application that you specified.  
 
-## <a name="transfer-application"></a>Transfer Application  
+## Transfer Application  
 When an item is transferred from one location to another, inside the company inventory, then an application is created between the two transfer entries. Valuing a transfer entry depends on the costing method. For items using the Average costing method, valuation is made using the average cost in the average cost period in which the valuation date of the transfer occurs. For items using other costing methods, valuation is made by tracing back to the cost of the original inventory increase.  
 
-### <a name="example--average-costing-method"></a>Example – Average Costing Method  
+### Example – Average Costing Method  
 The following example, which illustrates how transfer entries are applied, is based on the following scenario for an item using Average costing method and an average cost period of Day.  
 
 1. The user purchases the item at a cost of LCY 10.00.  
@@ -215,7 +209,7 @@ The following table shows the effect of the transfer on the item's value entries
 |02-01-20|Transfer|EAST|-1|15.00|3|  
 |02-01-20|Transfer|WEST|1|15.00|4|  
 
-### <a name="example--standard-costing-method"></a>Example – Standard Costing Method  
+### Example – Standard Costing Method  
 The following example, which illustrates how transfer entries are applied, is based on the following scenario for an item using Standard costing method and an average cost period of Day.  
 
 1. The user purchases the item at a standard cost of LCY 10.00.  
@@ -231,7 +225,7 @@ The following table shows the effect of the transfer on the item's value entries
 
 Since the value of the original inventory increase is LCY 10.00, the transfer is valued at that cost, not at LCY 12.00.  
 
-## <a name="reapplication"></a>Reapplication  
+## Reapplication  
 Because of the way an item's unit cost is calculated, an incorrect item application could lead to a skewed average cost and unit cost. The following scenarios may cause incorrect item applications, which require that you undo item applications and reapply item ledger entries:  
 
 * You have forgotten to make a fixed application.  
@@ -241,7 +235,7 @@ Because of the way an item's unit cost is calculated, an incorrect item applicat
 
 [!INCLUDE[prod_short](includes/prod_short.md)] offers a feature for analyzing and correcting item applications. This work is performed on the **Application Worksheet** page.  
 
-## <a name="see-also"></a>See Also  
+## See Also  
 [Design Details: Known Item Application Issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  
 [Design Details: Costing Methods](design-details-costing-methods.md)  

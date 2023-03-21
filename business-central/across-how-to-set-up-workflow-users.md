@@ -1,23 +1,17 @@
 ---
 title: How to Set Up Workflow Users
-description: Before you can create workflows, you must set up the users who take part in them on the Workflow User Group page.
+description: 'Before you can create workflows, you must set up the users who take part in them on the Workflow User Group page.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: reject, delegate, request
+ms.search.keywords: 'reject, delegate, request'
 ms.search.form: 1533
 ms.date: 09/09/2022
 ms.author: edupont
-ms.openlocfilehash: 4dbe4217720ddd0bfe976560331329537577cfeb
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585953"
 ---
-# <a name="set-up-workflow-users"></a>Set Up Workflow Users
+# Set Up Workflow Users
 
 Before you can create approval workflows, you must set up the users who take part in workflows. This is necessary, for example, to specify who will receive a notification to act on a workflow step.  
 
@@ -28,7 +22,7 @@ Workflow users functioning as approval users, including both approval requesters
 > [!NOTE]  
 > To define an approval request as not approved until multiple users have approved it, set approvers up in a hierarchy. For approver type **Approver**, set approvers up on the **Approval User Setup** page. For approver type **Workflow User Group**, set approvers up on the **Workflow User Groups** page and define the hierarchy by assigning incremental numbers to each approver in the **Sequence No.** field. Learn more below and at [Set Up Approval Users](across-how-to-set-up-approval-users.md). 
 
-## <a name="to-set-up-a-workflow-user"></a>To set up a workflow user
+## To set up a workflow user
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflow User Groups**, then choose the related link.  
 2. Choose the **New** action. The **Workflow User Group** page opens.  
@@ -47,9 +41,9 @@ Workflow users functioning as approval users, including both approval requesters
 6. Repeat step 5 to add more workflow users to the workflow user group.  
 7. Repeat steps 2 through 6 to add more workflow user groups.  
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-workflows/)
+## See related [Microsoft training](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Set Up Approval Users](across-how-to-set-up-approval-users.md)  
 [Setting Up Approval Workflows](across-set-up-workflows.md)  

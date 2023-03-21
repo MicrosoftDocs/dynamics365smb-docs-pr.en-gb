@@ -6,26 +6,20 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accountant, accounting, troubleshoot
+ms.search.keywords: 'accountant, accounting, troubleshoot'
 ms.search.form: 1151
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 585e23a25397952ede809a76d4e001df9c60b449
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128837"
 ---
-# <a name="troubleshooting-your-company-hub"></a>Troubleshooting Your Company Hub
+# Troubleshooting Your Company Hub
 
 Adding companies to the company hub dashboard is easy enough, but this article addresses issues that you may have on the way.  
 
-## <a name="check-errors"></a>Check errors
+## Check errors
 
 Use the **Check Errors** action to view a list of recent errors. You can see additional details for each error, and you can clean up the log by deleting older entries.  
 
-## <a name="connection-failed"></a>Connection failed
+## Connection failed
 
 There can be a couple of reasons why you cannot connect to a company, including the following:
 
@@ -39,13 +33,13 @@ There can be a couple of reasons why you cannot connect to a company, including 
 
   In [!INCLUDE [prod_short](includes/prod_short.md)], an organisation can have multiple business units called companies and you might not have access to all companies. Work with your administrator or client to make sure that you have access to the companies that you have to work in.  
 
-## <a name="data-does-not-refresh"></a>Data does not refresh
+## Data does not refresh
 
 When you add a company or request a refresh of the data, [!INCLUDE [prod_short](includes/prod_short.md)] fetches the data. But you must refresh the page yourself, such as choosing the **Reload all companies** action, refresh the browser page, navigate away from the dashboard and then back again, or similar.  
 
 If you've added a company but it is not displaying in the list, you can also use the **Reload all companies** action to update the list.
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Manage Work across Multiple Companies in the Company Hub](company-hub.md)  
 [Add companies to your company hub](company-hub-add-company.md)  

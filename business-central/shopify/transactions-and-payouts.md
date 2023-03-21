@@ -4,24 +4,19 @@ description: Set up and run import of transactions and payouts from Shopify.
 ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.search.form: 30124, 30125, 30130, 30131, 30132, 30133, 30134,
+ms.search.form: '30124, 30125, 30130, 30131, 30132, 30133, 30134,'
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: f4833a3fa77cdff587947a9686e61e3255b66a7c
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728764"
 ---
-# <a name="transactions-and-payouts"></a>Transactions and payouts
+
+# Transactions and payouts
 
 When a customer completes their checkout in the online store, the information about payments is saved as a **Transaction**. There might be multiple transactions linked to the order, such as when a customer uses a gift card to pay some of the cost and then uses a credit card or PayPal for the remaining amount.
 
 If you use Shopify Payment as a payment provider, then in addition to information about money received from the customer by the payment provider, you can also see payouts from Shopify to your bank account.
 
-## <a name="transactions"></a>Transactions
+## Transactions
 
 The payment transactions that take place in Shopify are synchronised with the orders and can be viewed on the **Shopify Orders** page.
 
@@ -29,7 +24,7 @@ To review all transactions, choose the ![Lightbulb that opens the Tell Me featur
 
 If you configured a payment method mapping then the created sales document will have a Payment Method Code assigned. Learn more at [Payment Method Mapping](#payment-method-mapping).
 
-## <a name="payouts"></a>Payouts
+## Payouts
 
 If your store uses Shopify Payment, you'll receive payments through **Shopify Payouts** when a customer pays using Shopify Payments and accelerated checkouts.
 
@@ -41,7 +36,7 @@ To review all payouts, choose the ![Lightbulb that opens the Tell Me feature.](.
 
 **Payouts** are for information purposes only and don't impact the General Ledger or Bank Ledger, though they can be helpful when you process your bank account statement.
 
-## <a name="payment-method-mapping"></a>Payment method mapping
+## Payment method mapping
 
 To fill in the **Payment method code** for sales documents imported from Shopify automatically, you need to configure **Payment method mapping**.
 
@@ -55,7 +50,7 @@ To fill in the **Payment method code** for sales documents imported from Shopify
 > [!NOTE]  
 > If the corresponding payment method in [!INCLUDE[prod_short](../includes/prod_short.md)] has **Bal. Account Type** and **Bal. Account No.** populated, then during posting the invoice system will create a balancing entry of the *Payment* type and apply it to the *Invoice* type in the customer ledger entry.
 
-## <a name="use-cases"></a>Use cases
+## Use cases
   
 Parties:
 
@@ -63,7 +58,7 @@ Parties:
 * Merchant - your company.
 * Payment provider - company that facilitates payment processing for you. Can be Shopify Payments or a third party.
 
-### <a name="how-money-flows"></a>How money flows
+### How money flows
 
 The Buyer buys goods in online store. The last stage is to process payment.
 
@@ -80,7 +75,7 @@ Depending on the bank, the Merchant can see this incoming transaction at their b
 
 There are several options on how to handle payment transactions in [!INCLUDE[prod_short](../includes/prod_short.md)]
   
-### <a name="option-1-reconcile-incoming-transfers-to-bank-account-against-original-invoices"></a>Option 1: reconcile incoming transfers to bank account against original invoices
+### Option 1: reconcile incoming transfers to bank account against original invoices
   
 Merchant imports sales order to [!INCLUDE[prod_short](../includes/prod_short.md)] and post shipment and invoice.
 
@@ -93,7 +88,7 @@ Issues:
 1. Can be difficult if there are multiple invoices (and credit memos), but one payout from the payment provider with a lump sum.
 2. Amount usually doesn't match due to commission. You can use payment tolerance or/and payment discounts to handle fees.
 
-### <a name="option-2-reconcile-incoming-transfers-to-bank-account-against-interim-account-representing-money-at-the-payment-provider"></a>Option 2: reconcile incoming transfers to bank account against interim account representing money at the payment provider
+### Option 2: reconcile incoming transfers to bank account against interim account representing money at the payment provider
   
 Merchant imports sales order to [!INCLUDE[prod_short](../includes/prod_short.md)] and post shipment and invoice.
   
@@ -122,6 +117,6 @@ Issues:
 
 1. You can create multiple G/L or bank accounts if you're dealing with multiple payment providers. However, sales orders in [!INCLUDE[prod_short](../includes/prod_short.md)] support only one payment method code, which makes it difficult to handle cases when a buyer uses multiple payment methods for an order.
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Get Started with the Connector for Shopify](get-started.md)  

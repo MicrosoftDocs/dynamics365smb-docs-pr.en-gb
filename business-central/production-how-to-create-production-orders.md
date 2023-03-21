@@ -1,22 +1,16 @@
 ---
 title: Create Production Order Headers
-description: You can create a production order manually, and the first step is to create a production order header.
+description: 'You can create a production order manually, and the first step is to create a production order header.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9325, 99000815, 99000829, 9900083
+ms.search.form: '9325, 99000815, 99000829, 9900083'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b47525b8f552cb4446497a0edafa7661aa25f17b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074715"
 ---
-# <a name="create-production-order-headers"></a>Create Production Order Headers
+# Create Production Order Headers
 
 You can create a production order manually, and the first step is to create a production order header.
 
@@ -24,7 +18,7 @@ Production orders are typically created automatically by a planning function to 
 
 In the following procedure, a firm planned production order is created. You can also create production orders with a different status.  
 
-## <a name="to-create-a-production-order-header"></a>To create a production order header
+## To create a production order header
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.  
 2. Choose the **New** action.  
@@ -37,7 +31,7 @@ In the following procedure, a firm planned production order is created. You can 
 
 When production requirements change, such as components or operations, you can quickly replan the production order. For more information, see [Replan or Refresh Production Orders Directly](production-how-to-replan-refresh-production-orders.md).  
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Manufacturing](production-manage-manufacturing.md)
 [Setting Up Manufacturing](production-configure-production-processes.md)  

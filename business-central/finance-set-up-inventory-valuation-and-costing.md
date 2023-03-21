@@ -1,19 +1,13 @@
 ---
 title: Set Up Inventory Valuation and Costing
-description: To make sure that inventory costs are recorded correctly, you must set up various fields and pages before you begin to make item transactions.
+description: 'To make sure that inventory costs are recorded correctly, you must set up various fields and pages before you begin to make item transactions.'
 author: SorenGP
 ms.topic: conceptual
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 6b7289aff7d111804806bb1afbdfb822c9922492
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520315"
 ---
-# <a name="setting-up-inventory-valuation-and-costing"></a>Setting Up Inventory Valuation and Costing
+# Setting Up Inventory Valuation and Costing
 
 To make sure that inventory costs are recorded correctly, you must set up various fields and pages before you begin to make item transactions. Typically, businesses choose a specific costing method and apply that to inventory items, for example, to help them track the value of items on stock.  
 
@@ -36,7 +30,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Ensure that purchase returns are applied to the original inbound transaction to preserve inventory value.|**Exact Cost Reversing Mandatory** field on the **Purchases & Payables** page|
 |Set up the rounding rules to apply when adjusting or suggesting item prices and when adjusting or suggesting standard costs.|**Rounding Method** page|  
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  
 [Set Up General Inventory Information](inventory-how-setup-general.md)  

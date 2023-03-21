@@ -1,28 +1,22 @@
 ---
 title: Setting Up Inventory
-description: Describes how to set up your stock and inventory processes, including transfer routes and locations, such as warehouses.
+description: 'Describes how to set up your stock and inventory processes, including transfer routes and locations, such as warehouses.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: warehouse, stock
-ms.search.form: 30, 461
+ms.search.keywords: 'warehouse, stock'
+ms.search.form: '30, 461'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7d637ae9b0413bb069927166fc8a5ac74e9dd7e2
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531493"
 ---
-# <a name="setting-up-inventory"></a>Setting Up Inventory
+# Setting Up Inventory
 Before you can manage warehouse activities and inventory costing, you must configure the rules and values that define the company's inventory policies.
 
 You can provide better customer service and optimise your supply chain by organising your inventory at different addresses. You can then buy, store, or sell items at different locations and transfer inventory between them.
 
-When you have set up your inventory, you can manage various processes related to item transactions. For more information, see [Manage Inventory](inventory-manage-inventory.md) and [Warehouse Management](warehouse-manage-warehouse.md).
+When you have set up your inventory, you can manage various processes related to item transactions. For more information, see [Manage Inventory](inventory-manage-inventory.md) and [Warehouse Management Overview](design-details-warehouse-management.md).
 
 | To | See |
 | --- | --- |
@@ -38,13 +32,14 @@ When you have set up your inventory, you can manage various processes related to
 |Import multiple item pictures in one go from a zip file where the files are named according to item numbers.|[Import Multiple Item Pictures](inventory-how-import-item-pictures.md)|
 |Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/trade-get-started-dynamics-365-business-central/)
+## See related [Microsoft training](/training/paths/trade-get-started-dynamics-365-business-central/)
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Managing Inventory](inventory-manage-inventory.md)  
 [Managing Purchasing](purchasing-manage-purchasing.md)  
 [Managing Sales](sales-manage-sales.md)    
+[Warehouse Management Overview](design-details-warehouse-management.md)
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
 

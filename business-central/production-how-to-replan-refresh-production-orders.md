@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000842, 99000843, 99000861, 99000862, 99000863
+ms.search.form: '99000842, 99000843, 99000861, 99000862, 99000863'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 3554fc674732c68e47bfd28c033534d1686e1421
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515388"
 ---
-# <a name="replan-or-refresh-production-orders-directly"></a>Replan or Refresh Production Orders Directly
+# Replan or Refresh Production Orders Directly
 
 The **Replan** function on production orders is typically used after you have added or changed components that constitute underlying production orders. The function calculates changes made to components and routings lines, and it includes items on lower production BOM levels for which it may generate new production orders.  
 
@@ -34,7 +28,7 @@ You can either insert the production order lines manually or use the function th
 > [!NOTE]
 > If you use the Refresh function to recalculate production order lines, the old production order lines are deleted and new lines are calculated.  
 
-## <a name="to-replan-a-production-order"></a>To replan a production order
+## To replan a production order
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.  
 2. Open the production order you want to replan.  
@@ -63,7 +57,7 @@ You can either insert the production order lines manually or use the function th
 > [!NOTE]  
 > Changes implemented with the **Replan** function are very likely to change the capacity need of the production order and you may therefore have to reschedule operations afterwards.  
 
-## <a name="to-refresh-a-production-order"></a>To refresh a production order
+## To refresh a production order
 
 If you have amended production order lines, components, or routing lines, you must also refresh the information on the production order. In the following procedure, the components are calculated for a firm planned production order. The steps are similar for routing lines.
 
@@ -86,7 +80,7 @@ If you have amended production order lines, components, or routing lines, you mu
 > [!NOTE]  
 > Calculating production order components deletes previous changes in the components.
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Planning](production-planning.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  

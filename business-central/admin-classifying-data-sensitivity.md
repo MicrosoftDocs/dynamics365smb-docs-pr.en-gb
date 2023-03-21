@@ -8,14 +8,9 @@ ms.reviewer: na
 ms.topic: conceptual
 ms.search.form: 1752
 ms.date: 06/14/2021
-ms.openlocfilehash: ba629a40bee4f73c3d2a68395b138893265d7b0f
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382370"
 ---
-# <a name="classifying-data-sensitivity-fields"></a>Classifying Data Sensitivity Fields
+
+# Classifying Data Sensitivity Fields
 To classify the fields that hold sensitive or personal data, a Microsoft partner can set the ```DataClassification``` property on fields. This requires access to the database tables, either through the development environment or by running a Windows PowerShell script. For more information, see [Classifying Data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
 As a customer, you can add a second level of classification by specifying sensitivity levels for the data you store in standard and custom fields. Classifying data sensitivity helps ensure that you know where you keep personal data in your system, and makes it easier to respond to requests from data subjects. For example, if a contact or customer asks you to export their personal data. For more information, see [Responding to Requests About Personal Data](admin-responding-to-requests-about-personal-data.md).
@@ -32,7 +27,7 @@ The following table describes data sensitivity levels you can assign.
 |Confidential | Business data that you use for accounting or other business purposes, and do not want to expose to other entities. For example, this might include ledger entries.|
 |Normal | General data that does not belong to any other categories.|
 
-## <a name="how-do-i-classify-my-data"></a>How Do I Classify My Data?
+## How Do I Classify My Data?
 Classifying the sensitivity of a large number of fields one-by-one would take a long time. To help speed up the process, we provide tools that you can use to bulk classify the sensitivity of fields, and then fine-tune classifications for specific fields. You can find tools on the Data Classification worksheet, which is available on the Administration of users, user groups, and permissions Role Centre. You must be a system administrator to use the worksheet.
 
 > [!Important]
@@ -47,7 +42,7 @@ For example, the Data Classification worksheet lets you do things like:
 > [!Tip]
 > We have defined sample sensitivity classifications for the tables and fields in the Cronus demonstration company. You can use those classifications as inspiration when you classify your own tables and fields.
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Classifying Data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data)  
 

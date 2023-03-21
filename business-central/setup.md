@@ -1,22 +1,16 @@
 ---
 title: Overview of Tasks to Set Up Business Central
-description: Read an overview of the tasks necessary to set up, initialise, and configure Business Central to suit your needs.
+description: 'Read an overview of the tasks necessary to set up, initialise, and configure Business Central to suit your needs.'
 author: edupont04
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: configure, initialize
+ms.search.keywords: 'configure, initialize'
 ms.date: 09/27/2022
 ms.author: edupont
-ms.openlocfilehash: 65fd173213af21631b27019a79fc8030d6839daf
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9604841"
 ---
-# <a name="overview-of-tasks-to-set-up-prod_short"></a>Overview of Tasks to Set Up [!INCLUDE[prod_short](includes/prod_short.md)]
+# Overview of Tasks to Set Up [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] includes standard configurations for most business processes, but you can change the configuration to suit the needs of your organisation. The [Business Central quick start](quick-start-business-central.md) articles help you take the first steps into making [!INCLUDE [prod_short](includes/prod_short.md)] your own. This article provides an overview of how you can configure [!INCLUDE [prod_short](includes/prod_short.md)] for your organisation.
 
@@ -61,13 +55,13 @@ Some areas require you to be an administrator in your [!INCLUDE[prod_short](incl
 > [!NOTE]
 > As an administrator, you can set up a new company in [!INCLUDE[prod_short](includes/prod_short.md)] with RapidStart Services, which is a tool designed to shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring tasks. Learn more at [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
-## <a name="set-up-apps"></a>Set up apps
+## Set up apps
 
 On top of the core capabilities in [!INCLUDE [prod_short](includes/prod_short.md)], Microsoft adds some aps that are listed in [the **Extension Management** page](https://businesscentral.dynamics.com/?page=2500). Starting in October 2022, each app provides a link to launch its setup page - just choose the **Set up** action.  
 
 You can also add capabilities to your [!INCLUDE [prod_short](includes/prod_short.md)] by adding AppSource apps. Learn more at [Customising Business Central Online Using Extensions](ui-extensions.md).  
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Company Information Overview](admin-company-information.md)  
 [Administration](admin-setup-and-administration.md)  
@@ -79,7 +73,7 @@ You can also add capabilities to your [!INCLUDE [prod_short](includes/prod_short
 [Fixed Assets](fa-manage.md)  
 [Assembly Management](assembly-assemble-items.md)  
 [Manufacturing](production-manage-manufacturing.md)  
-[Warehouse Management](warehouse-manage-warehouse.md)  
+[Warehouse Management Overview](design-details-warehouse-management.md)
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Creating New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
 [Getting Ready to Do Business](ui-get-ready-business.md)  

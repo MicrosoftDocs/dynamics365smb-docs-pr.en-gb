@@ -6,22 +6,17 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: deb1ef6ab18cbd6562ae18cc17495fe3e5021db1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525248"
 ---
-# <a name="walkthrough-create-a-new-routing"></a>Walkthrough: Create a New Routing
+
+# Walkthrough: Create a New Routing
 
 In this article, we take you through the steps to use the Contoso Coffee demo data to manually set up a new production routing in [!INCLUDE [prod_short](../includes/prod_short.md)].  
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Oscar, the process engineer, at Contoso Coffee, decides to create a new routing with the name *New Path*. Because this routing is unlike any other routing at Contoso Coffee, he must manually enter all of the information for the routing.  
 
-## <a name="steps"></a>Steps
+## Steps
 
 1. Create the routing header.  
 
@@ -60,6 +55,6 @@ Oscar, the process engineer, at Contoso Coffee, decides to create a new routing 
 
 The new routing is now set up.  
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Introduction to Contoso Coffee Demo Data](contoso-coffee-intro.md)  

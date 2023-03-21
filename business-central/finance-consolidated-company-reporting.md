@@ -6,18 +6,13 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.search.form: 1826, 1827
+ms.search.keywords: 'consolidation, subsidiaries, consolidate'
+ms.search.form: '1826, 1827'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 5e6e633155131c7a397a4214d9d22d9464b0847d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518162"
 ---
-# <a name="consolidating-financial-data-from-multiple-companies"></a>Consolidating Financial Data from Multiple Companies
+
+# Consolidating Financial Data from Multiple Companies
 
 Some organisations use [!INCLUDE [prod_short](includes/prod_short.md)] in multiple business units or legal entities. Others use [!INCLUDE [prod_short](includes/prod_short.md)] in subsidiaries that must report into parent organisations. In both cases, the accountants use built-in tools to help consolidate the financial data.  
 
@@ -40,17 +35,17 @@ You set up the consolidated company in the same way that you set up other compan
 > [!TIP]
 > Consolidating financial data may especially be relevant in connection with intercompany processes. For more information, see [Managing Intercompany Transactions](intercompany-manage.md).
 
-## <a name="trial-balance"></a>Trial balance
+## Trial balance
 
 If you have more than one company in [!INCLUDE[prod_short](includes/prod_short.md)], the **Consolidated Trial Balance** report can give you an overview of the financial health of your overall business.  
 
 The report combines general ledger entries from each of your companies in a new company that you create to contain the consolidated data. This company is typically referred to as the "consolidated company". The consolidated company is just a container for the consolidated data, and does not have any live business data. The companies that you include in the consolidated company become **Business Units** in the report. For more information, see [Set Up Company Consolidation](finance-consolidated-company-reporting-setup.md).  
 
-## <a name="consolidate-data"></a>Consolidate data
+## Consolidate data
 
 The process of transferring the figures from the business units to the consolidated company is the actual *consolidation*. Before you do this, it is a good idea to check whether there are differences between the basic information in the business units and in the consolidated company. There are two reports that you can use to test the database and file.
 
-### <a name="to-test-the-data-before-you-consolidate"></a>To test the data before you consolidate
+### To test the data before you consolidate
 
 You can test your data before you transfer it to the consolidated company. [!INCLUDE[prod_short](includes/prod_short.md)] looks for differences in the information in the business units and the consolidated company. For example, whether account numbers or dimension codes are different. You must correct errors before you can run the report. You can test the database or, if you are importing data from an XML file, you can test the file.  
 
@@ -61,7 +56,7 @@ You can test your data before you transfer it to the consolidated company. [!INC
     * To test a file, choose the **Test File** action, enter the name of the file to test, and then choose **Print**.  
     * To test the database, choose **Test Database**.  
 
-### <a name="run-the-consolidation"></a>Run the consolidation
+### Run the consolidation
 
 After you have tested the data, you can transfer it to the consolidated company.  
 
@@ -71,7 +66,7 @@ After you have tested the data, you can transfer it to the consolidated company.
 4. In the Filter section, set a filter for the relevant business unit or company name.  
 5. Optionally, schedule the report to run at a convenient time.  
 
-## <a name="eliminate-repeated-transactions"></a>Eliminate repeated transactions
+## Eliminate repeated transactions
 
 After you have consolidated all the companies, you must find any transactions that are recorded more than once across companies and then post elimination entries to remove them.
 
@@ -98,7 +93,7 @@ Each account appears on a line by itself, following the structure of the chart o
 * The posting text copied from the general journal.
 * The consolidated company's total after the eliminations, if they are posted.
 
-## <a name="export-and-import-consolidated-data-between-databases"></a>Export and import consolidated data between databases
+## Export and import consolidated data between databases
 
 If data for a business unit is in another database, you must export the data to a file before you can include it in the consolidation. Each company must be exported separately. For this purpose, use the **Export Consolidation** batch job.  
 
@@ -114,7 +109,7 @@ The exported entries contain the following fields: **Account No.**, **Posting Da
 3. The dimension value exported for the entry will be the consolidated company dimension value that is set up in the **Consolidation Code** field for that dimension value. If no consolidated company dimension value has been entered in the **Consolidated Code** field for that dimension value, the dimension value itself will be exported to the line.  
 4. The XML files also contain the currency exchange rates in the consolidation period. These rates are included in a separate section at the beginning of the file.  
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Set Up Company Consolidation](finance-consolidated-company-reporting-setup.md)  
 [Managing Intercompany Transactions](intercompany-manage.md)  

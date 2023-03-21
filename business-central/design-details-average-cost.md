@@ -1,28 +1,22 @@
 ---
 title: Design Details - Average Cost
-description: The average cost of an item is calculated with a periodic weighted average, based on the average cost period that is set up in Business Central.
+description: 'The average cost of an item is calculated with a periodic weighted average, based on the average cost period that is set up in Business Central.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: cdba126a3cdd6116f0067cac08bccadbdfc5a982
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519847"
 ---
-# <a name="design-details-average-cost"></a>Design Details: Average Cost
+# Design Details: Average Cost
 The average cost of an item is calculated with a periodic weighted average, based on the average cost period that is set up in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
  The valuation date is set automatically.  
 
-## <a name="setting-up-average-cost-calculation"></a>Setting Up Average Cost Calculation  
+## Setting Up Average Cost Calculation  
  The following table describes the two fields on the **Inventory Setup** page that must be filled to enable average cost calculation.  
 
 |Field|Description|  
@@ -35,7 +29,7 @@ The average cost of an item is calculated with a periodic weighted average, base
 >   
 >  The **Accounting Periods** page shows which average cost period and which average cost calculation type is in effect during that period, for each accounting period.  
 
-## <a name="calculating-average-cost"></a>Calculating Average Cost  
+## Calculating Average Cost  
  When you post a transaction for an item that uses the Average costing method, an entry is created in the **Avg. Cost Adjmt. Entry Point** table. This entry contains the transaction’s item number, variant code, and location code. The entry also contains the **Valuation Date** field, which specifies the last date of the average cost period in which the transaction was posted.  
 
 > [!NOTE]  
@@ -50,7 +44,7 @@ The average cost of an item is calculated with a periodic weighted average, base
 
  The calculated average cost is then applied to the inventory decreases for the item (or item, location, and variant) with posting dates in the average cost period. If any inventory increases exist that were fixed applied to inventory decreases in the average cost period, then the calculated average cost is forwarded from the increase to the decrease.  
 
-### <a name="example-average-cost-period--day"></a>Example: Average Cost Period = Day  
+### Example: Average Cost Period = Day  
  The following example shows the effect of calculating the average cost based on an average cost period of one day. The **Average Cost Calc. Type** field on the **Inventory Setup** page is set to **Item**.  
 
  The following table shows item ledger entries for the sample average-cost item, ITEM1, before the **Adjust Cost - Item Entries** batch job has been run.  
@@ -87,7 +81,7 @@ The average cost of an item is calculated with a periodic weighted average, base
 | 02-02-20 | Purchase | 1 | 100.00 | 5 |
 | 02-03-20 | Sale | -1 | -100.00 | 6 |
 
-### <a name="example-average-cost-period--month"></a>Example: Average Cost Period = Month  
+### Example: Average Cost Period = Month  
  The following example shows the effect of calculating the average cost based on an average cost period of one month. The **Average Cost Calc. Type** field on the **Inventory Setup** page is set to **Item**.  
 
  If the average cost period is one month, then only one entry is created for each combination of item number, variant code, location code, and valuation date.  
@@ -131,7 +125,7 @@ The average cost of an item is calculated with a periodic weighted average, base
 
  To get the average cost for February, the average cost of the piece received in inventory (100.00) is added to the average cost at the beginning of the period (30.00). The sum of the two (130.00) is then divided by the total quantity in inventory (2).This gives the resulting average cost of the item in the February period (65.00). The average cost is assigned to the inventory decreases in the period (entries 4 and 6).  
 
-## <a name="setting-the-valuation-date"></a>Setting the Valuation Date  
+## Setting the Valuation Date  
  The **Valuation Date** field in the **Value Entry** table is used to determine in which average cost period a inventory decrease entry belongs. This also applies to work in progress (WIP) inventory.  
 
  The following table shows the criteria that are used to set the valuation date.  
@@ -143,7 +137,7 @@ The average cost of an item is calculated with a periodic weighted average, base
 |3|Earlier than the latest valuation date of applied value entries|Positive|No|Latest valuation date of the applied value entries|  
 |4||Negative|Yes|Posting date of the revaluation value entry|  
 
-### <a name="example"></a>Example  
+### Example  
  The following table of value entries illustrates the different scenarios.  
 
 |Scenario|Posting Date|Item Ledger Entry Type|Valuation Date|Valued Quantity|Cost Amount (Actual)|Item Ledger Entry No.|Entry No.|  
@@ -164,7 +158,7 @@ The average cost of an item is calculated with a periodic weighted average, base
 
  If the quantity on inventory is less than zero after posting the inventory decrease, then the valuation date is first set to the posting date of the inventory decrease. This date may be changed later, according to the rules described in the note earlier in this section, when the inventory increase is applied.  
 
-## <a name="recalculating-average-cost"></a>Recalculating Average Cost  
+## Recalculating Average Cost  
  Valuing inventory decreases as a weighted average would be straightforward if purchases were always invoiced before sales are invoiced, postings were never backdated, and you never made mistakes. However, the reality is somewhat different from this ideal.  
 
  As illustrated in the examples in this topic, the valuation date is defined as the date from which the value entry is included in the average cost calculation. This gives you the flexibility to do the following for items using the Average costing method:  
@@ -180,7 +174,7 @@ The average cost of an item is calculated with a periodic weighted average, base
 
  It is possible to change the inventory valuation base within an accounting period by changing the **Average Cost Period** field and the **Average Cost Calc. Type** field. However, this should be done with care and in agreement with an auditor.  
 
-### <a name="example"></a>Example  
+### Example  
  The following example illustrates how the average cost is recalculated when a late posting is introduced on a date that comes before one or more inventory decreases. The example is based on an average cost period of **Day**.  
 
  The following table shows the value entries that exist for the item before the posting is introduced.  
@@ -204,7 +198,7 @@ The average cost of an item is calculated with a periodic weighted average, base
 |02-15-20|-1|-17.00|3|  
 |02-16-20|-1|-17.00|4|  
 
-## <a name="see-also"></a>See Also  
+## See Also  
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   
  [Design Details: Costing Methods](design-details-costing-methods.md)   
  [Design Details: Cost Adjustment](design-details-cost-adjustment.md)   

@@ -1,29 +1,23 @@
 ---
 title: Plan for New Demand Order by Order
-description: This planning task can be performed on the Order Planning page, which displays all new demand along with availability information and suggestions for supply, including item substitution.
+description: 'This planning task can be performed on the Order Planning page, which displays all new demand along with availability information and suggestions for supply, including item substitution.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5522, 5524, 5526
+ms.search.form: '5522, 5524, 5526'
 ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: e95bc34c56364ebb12c63c250339f1de868b8a32
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516777"
 ---
-# <a name="plan-for-new-demand-order-by-order"></a>Plan for New Demand Order by Order
+# Plan for New Demand Order by Order
 
 This planning task can be performed on the **Order Planning** page, which displays all new demand along with availability information and suggestions for supply. It provides the visibility and tools needed to effectively plan demand from sales lines and component lines and then create different types of supply orders directly.  
 
 You can enter the **Order Planning** page in two ways depending on your focus: From an order that you want to plan for specifically or in batch mode because you want to plan for all and any new demand.  
 
 
-## <a name="to-plan-for-new-production-order-demand"></a>To plan for new production order demand
+## To plan for new production order demand
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **planned Production Orders**, and then choose the related link. (You can perform these steps for planned, firm planned, or released production orders).
 2. Open the production order you want to plan for, and then choose the **Planning** action.  
@@ -31,7 +25,7 @@ You can enter the **Order Planning** page in two ways depending on your focus: F
 
 The page displays planning lines according to the view filter **Production Demand**, meaning unfulfilled component lines of all existing production orders. Demand for only the one production order is not shown because it is necessary to plan for one production order with an overview of demand for potentially earlier components lines. Planning lines for the production order in context are expanded.  
 
-## <a name="to-plan-for-any-new-demand"></a>To plan for any new demand
+## To plan for any new demand
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Order Planning**, and then choose the related link.  
 2. On the **Order Planning** page, choose the **Calculate Plan** action.
@@ -78,7 +72,7 @@ The page displays planning lines according to the view filter **Production Deman
     >  You can only select this check box if the item has **Optional** or **Always** in the **Reserve** field on its item card.  
 
 8. In the **Qty. to Order** field, you can enter the quantity that will go on the supply order you are creating.   
-    The default value is the same quantity as that in the **Needed Quantity** field. But you may decide to order more or less than this quantity based on your knowledge of the demand situation. If, for example, you see on the **Order Planning** page that several unrelated demand lines are for the same purchased item, and they are due around the same date, you can consolidate these by entering the total needed quantity in the **Qty. to Order** field of one line, and then delete the other, obsolete planning lines for that item.  
+    The default value is the same quantity as that in the **Needed Quantity**field. But you may decide to order more or less than this quantity based on your knowledge of the demand situation. If, for example, you see on the **Order Planning** page that several unrelated demand lines are for the same purchased item, and they are due around the same date, you can consolidate these by entering the total needed quantity in the **Qty. to Order** field of one line, and then delete the other, obsolete planning lines for that item.  
 
 9. In the **Due Date** and **Order Date** fields, you can enter the dates that should apply to the created supply orders.  
 
@@ -87,7 +81,7 @@ The page displays planning lines according to the view filter **Production Deman
 > [!NOTE]  
 >  If you enter a date later than the demand date, you will receive a warning message.  
 
-## <a name="to-make-supply-orders"></a>To make supply orders
+## To make supply orders
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **planned Production Orders**, and then choose the related link. You can perform these steps for a planned, firm planned, or released production order.  
 2. Open the production order you want to plan for, and then choose the **Planning** action.  
@@ -114,7 +108,7 @@ When you have finished your planning work on the **Order Planning** page, for ex
 > [!NOTE]  
 > The supply orders you create may introduce new dependent demand, for example for underlying production orders, and you should therefore choose **Calculate Plan** again to find and resolve this before moving down the list.  
 
-## <a name="see-also"></a>See Also
+## See Also
 
 <!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
 [Planning](production-planning.md)  

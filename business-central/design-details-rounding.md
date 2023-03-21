@@ -6,24 +6,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 864b7854593fe0b0d8ecb739f580daa7bd035c58
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519284"
 ---
-# <a name="design-details-rounding"></a>Design Details: Rounding
+# Design Details: Rounding
 Rounding residuals can occur when you value the cost of an inventory decrease that is measured in a different quantity than the corresponding inventory increase. Rounding residuals are calculated for all costing methods when you run the **Adjust Cost - Item Entries** batch job.  
 
  When you use the average costing method, the rounding residual is calculated and recorded on a cumulative, entry-by-entry basis.  
 
  When you use a costing method other than Average, the rounding residual is calculated when the inventory increase has been fully applied, that is when the remaining quantity for the inventory increase is equal to zero. A separate entry is then created for the rounding residual, and the posting date on this rounding entry is the posting date of the last invoiced value entry of the inventory increase.  
 
-## <a name="example"></a>Example  
+## Example  
  The following example illustrates how different rounding residuals are handled for the average costing method and non-Average costing method, respectively. In both cases, the **Adjust Cost - Item Entries** batch job has been run.  
 
  The following table shows the item ledger entries that the example is based on.  
@@ -58,7 +52,7 @@ Rounding residuals can occur when you value the cost of an inventory decrease th
 |04-01-20|-1|-3.33|4|4|  
 |01-01-20|0|-0.01|1|5|  
 
-## <a name="see-also"></a>See Also  
+## See Also  
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   
  [Design Details: Cost Adjustment](design-details-cost-adjustment.md)   
  [Design Details: Costing Methods](design-details-costing-methods.md) [Managing Inventory Costs](finance-manage-inventory-costs.md)  

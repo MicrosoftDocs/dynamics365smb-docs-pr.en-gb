@@ -5,23 +5,18 @@ ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.reviewer: solsen
-ms.search.form: 30100, 30101, 30102, 30103, 30104, 30135,
+ms.search.form: '30100, 30101, 30102, 30103, 30104, 30135,'
 author: AndreiPanko
 ms.author: andreipa
-ms.openlocfilehash: bc3c5769a100909faedbfacce58bb1a2b146f5ad
-ms.sourcegitcommit: bb6ecb20cbd82fdb5235e3cb426fc73c29c0a7ae
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 11/23/2022
-ms.locfileid: "9802991"
 ---
-# <a name="get-started-with-the-shopify-connector"></a>Get Started with the Shopify Connector
+
+# Get Started with the Shopify Connector
 
 Connect your Shopify store (or stores) with [!INCLUDE [prod_short](../includes/prod_short.md)] and maximise your business productivity. Manage and view insights from your business and your Shopify store as one unit.
 
 To use Shopify with [!INCLUDE [prod_short](../includes/prod_short.md)], you have to do a couple of things first. This article serves as a guide to integrate your Shopify store with [!INCLUDE [prod_short](../includes/prod_short.md)].
 
-## <a name="prerequisites-for-shopify"></a>Prerequisites for Shopify
+## Prerequisites for Shopify
 
 You must have:
 
@@ -30,7 +25,7 @@ You must have:
 
 For more information on how to create Shopify trials and recommended settings, go to [Creating and Setting Up Shopify Account](shopify-account.md).
 
-## <a name="prerequisites-for-business-central"></a>Prerequisites for Business Central
+## Prerequisites for Business Central
 
 - Make sure that the **[Shopify Connector](https://go.microsoft.com/fwlink/?linkid=2196238)** app is installed.
 
@@ -39,7 +34,7 @@ For more information on how to create Shopify trials and recommended settings, g
 - Ensure that user has enough permissions. Shopify Connector is covered by the *Shopify – Admin (SHPFY – ADMIN)* permission set. Learn more at [Create Users According to Licences](../ui-how-users-permissions.md) and [Assign Permissions to Users and Groups](../ui-define-granular-permissions.md)
 
 
-## <a name="install-the-dynamics-365-business-central-app-to-your-shopify-online-store"></a>Install the Dynamics 365 Business Central app to your Shopify online store
+## Install the Dynamics 365 Business Central app to your Shopify online store
 
 For existing [!INCLUDE[prod_short](../includes/prod_short.md)], this step is optional and can be skipped.
 
@@ -51,7 +46,7 @@ For existing [!INCLUDE[prod_short](../includes/prod_short.md)], this step is opt
 4. Choose **Sign up now** to start the [!INCLUDE[prod_short](../includes/prod_short.md)] trial or **Sign in** if you already have [!INCLUDE[prod_short](../includes/prod_short.md)]. You'll be redirected to your [Business Central](https://businesscentral.dynamics.com) page.
 5. The next steps should be done in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## <a name="connect-business-central-to-the-shopify-online-store"></a>Connect Business Central to the Shopify online store
+## Connect Business Central to the Shopify online store
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop** and choose the related link.
 2. Choose the **New** action.  
@@ -62,14 +57,14 @@ For existing [!INCLUDE[prod_short](../includes/prod_short.md)], this step is opt
 
 Repeat steps 2-6 for all online shops that you want to connect.
 
-### <a name="known-issues"></a>Known issues
+### Known issues
 
 - The browser blocks the pop-up window. When you activate the **Enabled** toggle the system opens the **Waiting for a response - do not close this page** page, that is waiting for an access token from Shopify, if that page is closed or blocked - you can't connect to Shopify. Learn more at [Request the access token](troubleshoot.md#request-the-access-token)
 - [Oauth error invalid_request: Could not find Shopify API application with api_key](troubleshoot.md#oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
 - [Can't connect from sandbox](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-when-running-in-a-non-production-environment)
 
 
-## <a name="next-steps"></a>Next steps
+## Next steps
 
 Now your online shop is connected to [!INCLUDE[prod_short](../includes/prod_short.md)]. In the next steps, you'll define how and what to synchronise.
 
@@ -77,7 +72,7 @@ Now your online shop is connected to [!INCLUDE[prod_short](../includes/prod_shor
 - [Synchronise Customers](synchronize-customers.md)
 - [Synchronise Orders](synchronize-orders.md)
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md)  
 

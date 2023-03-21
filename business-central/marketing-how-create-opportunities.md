@@ -6,24 +6,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: relationship, prospect
+ms.search.keywords: 'relationship, prospect'
 ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: d3e427a4fbff866edfa7b03b23f22ee797ef037b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074778"
 ---
-# <a name="create-sales-opportunities"></a>Create Sales Opportunities
+# Create Sales Opportunities
 You can create opportunities for the sales opportunities you have on your contacts. All opportunities must be assigned to a salesperson or purchaser and must have a contact.
 
 You can create opportunities from the **Opportunity List** page. But you typically will create opportunities from the specific contact or salespeople.
 
 Before you can create opportunities, you must set up opportunity sales cycles. For more information see [Set Up Opportunity Sales Cycles and Stages](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
-## <a name="to-create-an-opportunity-from-a-salesperson"></a>To create an opportunity from a salesperson
+## To create an opportunity from a salesperson
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Salespeople**, and then choose the related link.
 2. Select the salesperson from the list for whom you want to create an opportunity.
 3. Choose the **Opportunities** action, and then choose **List**.
@@ -31,7 +25,7 @@ Before you can create opportunities, you must set up opportunity sales cycles. F
 
 
 
-## <a name="to-create-an-opportunity-from-a-contact"></a>To create an opportunity from a contact
+## To create an opportunity from a contact
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then choose the related link.
 2. Select the contact from the list for whom you want to create an opportunity.
 3. Do one of the following:
@@ -39,7 +33,7 @@ Before you can create opportunities, you must set up opportunity sales cycles. F
    * Choose the  **Opportunities** action, and then choose **New**.
 4. Fill in the relevant fields.
 
-## <a name="see-also"></a>See Also
+## See Also
 [Sales](sales-manage-sales.md)  
 [Creating and Managing Contacts](marketing-contacts.md)  
 [Work with Business Central](ui-work-product.md)

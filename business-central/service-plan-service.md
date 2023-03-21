@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: service, work hours, configure, price, pricing
+ms.search.keywords: 'service, work hours, configure, price, pricing'
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 157ac179e51330cc5d9606872a8a121a4bbb67f2
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077561"
 ---
-# <a name="planning-services"></a>Planning Services
+# Planning Services
 With [!INCLUDE[prod_short](includes/prod_short.md)], you can set up the standard tasks that you need to fulfill your customer service requirements. To do this, you must determine what service items and offerings your service organisation supports, and at what price.   
 
 [!INCLUDE[prod_short](includes/prod_short.md)] also provides some statistics tools that you can use to determine how well things are going, and identify areas where you can improve.
@@ -31,7 +25,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Understand the relationship between the status of a repair, and the effect they have on allocated resources, and vice versa.|[Understanding Allocation Status and Repair Status](service-allocation-status-and-repair-status.md)|  
 |Use statistics to analyse your service processes. | [Viewing Service Statistics](service-service-statistics.md) |
 
-## <a name="see-also"></a>See Also
+## See Also
 [Fulfilling Service Contracts](service-fulfill-service-contracts.md)  
 [Delivering Service](service-deliver-service.md)  
 [Set Up Pricing and Additional Costs for Services](service-how-setup-service-costs-pricing.md)  

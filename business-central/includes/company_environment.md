@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2022
 ms.author: edupont
-ms.openlocfilehash: 74cf1897792ab15c9c74ff76e3674ca31fe599f1
-ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 08/19/2022
-ms.locfileid: "9317382"
 ---
 [!INCLUDE[prod_short](prod_short.md)] users sometimes support more than one department or suborganization within a business unit. For example, a business might have sales offices in different cities and multiple countries, so it has created a separate business unit for each office. The offices that are in the same country are set up as separate *companies* in a shared *environment*. Other offices are created as companies in separate environments because they are geographically based in other countries.
 

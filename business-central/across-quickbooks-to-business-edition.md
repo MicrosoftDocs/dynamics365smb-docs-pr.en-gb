@@ -1,23 +1,19 @@
 ---
 title: Transfer Data from a QuickBooks App
-description: You can migrate data such as customers, vendors, inventory items, and G/L accounts from QuickBooks apps to Business Central.
+description: 'You can migrate data such as customers, vendors, inventory items, and G/L accounts from QuickBooks apps to Business Central.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
+ms.search.keywords: 'app, import, migrate, data, transfer, QuickBooks, customize'
 ms.search.form: 1808
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 01a02459e75d20c217b747502db8548567db597d
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535298"
 ---
-# <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Changing from a QuickBooks App to Dynamics 365 Business Central
+
+
+# Changing from a QuickBooks App to Dynamics 365 Business Central
 
 More and more growing businesses are changing from finance apps like QuickBooks Desktop and QuickBooks Online, which are designed for startups and other small businesses, to [!INCLUDE[prod_short](includes/prod_short.md)], which also supports larger, more complex organisations. 
 
@@ -31,13 +27,13 @@ For more information, read about the extension that suits your QuickBooks app:
 * [The QuickBooks Desktop Data Migration Extension](ui-extensions-quickbooks-data-migration.md)
 * [The QuickBooks Online Data Migration Extension](ui-extensions-quickbooks-online-data-migration.md)
 
-## <a name="ready-now"></a>Ready now?
+## Ready now?
 
 If you are ready to get started now, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link. Choose **Migrate business data**, and then follow the steps in the guide.
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/migrate-data-dynamics-365-business-central/)
+## See related [Microsoft training](/training/modules/migrate-data-dynamics-365-business-central/)
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Customising Business Central Using Extensions](ui-extensions.md)   

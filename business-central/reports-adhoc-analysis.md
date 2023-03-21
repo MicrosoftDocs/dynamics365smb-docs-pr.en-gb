@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 08/19/2022
 ms.author: edupont
-ms.openlocfilehash: 690aa39a73705b25a804111fbe939298a528c96a
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607912"
 ---
-# <a name="ad-hoc-data-analysis"></a>Ad-hoc Data Analysis
+# Ad-hoc Data Analysis
 
 Sometimes you need to analyse data in [!INCLUDE[prod_short](includes/prod_short.md)] in a way that's not available in a standard report. This is often called "ad-hoc analysis." Below are links to help you learn how to perform it.
 
@@ -27,7 +21,7 @@ Sometimes you need to analyse data in [!INCLUDE[prod_short](includes/prod_short.
 | View and analyse data from a report dataset in Excel. | [Save report dataset to Excel from the request page](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
 | View and analyse financial data using financial reports. | [Financial analytics](bi.md) |
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Business Intelligence and Reporting Overview](ui-work-report.md)
 

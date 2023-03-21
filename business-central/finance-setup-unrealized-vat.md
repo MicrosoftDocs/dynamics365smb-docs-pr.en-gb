@@ -1,27 +1,22 @@
 ---
 title: Set Up Unrealised Value Added Tax
-description: If you're using cash-based accounting, you can specify how to handle unrealised VAT for sales and purchases.
+description: 'If you''re using cash-based accounting, you can specify how to handle unrealised VAT for sales and purchases.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: cash, VAT, unrealized, cash-based
-ms.search.form: 118, 472, 473
+ms.search.keywords: 'cash, VAT, unrealized, cash-based'
+ms.search.form: '118, 472, 473'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1ae48b042cf3df00a1d62a6871136e2526b3db0c
-ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "8417702"
 ---
-# <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Set Up Unrealised VAT for Cash-Based Accounting
+
+# Set Up Unrealised VAT for Cash-Based Accounting
 
 If you are using cash-based accounting methods, you can set up [!INCLUDE[prod_short](includes/prod_short.md)] to handle unrealised VAT.
 
-## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>To use general ledger accounts for unrealised VAT
+## To use general ledger accounts for unrealised VAT
 
 You can choose to have VAT amounts calculated and posted to a temporary general ledger account when an invoice is posted, and then posted to the correct general ledger account and included in VAT statements when the actual payment of the invoice is posted. Before you can do this, you must complete the [VAT posting setup](finance-setup-vat.md).
 
@@ -51,7 +46,7 @@ To use accounts for unrealised VAT, follow these steps:
 > [!NOTE]  
 > The VAT amount will be posted to this account, and stay there until the customer payment is posted. The amount is then transferred to the account for purchase VAT.
 
-## <a name="see-also"></a>See Also
+## See Also
 [Set Up Calculations and Posting Methods for Value Added Tax](finance-setup-vat.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
