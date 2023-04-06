@@ -1,26 +1,20 @@
 ---
 title: Certifications of the service
-description: This content contains information about certifications in relation to Business Central, such as region-specific certifications and accreditations.
+description: 'This content contains information about certifications in relation to Business Central, such as region-specific certifications and accreditations.'
 author: sorenfriisalexandersen
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: 643d8cbfcc4a17db468263aee72a12cb1237201c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146859"
 ---
-# <a name="certifications"></a>Certifications
+# Certifications
 
 This content contains information about certifications in relation to [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
-## <a name="countryregion-specific-certifications-and-accreditations"></a>Country/region-specific certifications and accreditations
+## Country/region-specific certifications and accreditations
 
 In some countries or regions, accounting software must be certified to comply with local tax regulation and financial requirements. Some countries exercise this as a yearly recurring requirement and others as a one-off requirement to comply with. Below is a list of the current countries/regions where Business Central has achieved certifications.
 
@@ -33,11 +27,11 @@ In some countries or regions, accounting software must be certified to comply wi
 > [!NOTE]  
 > In countries/regions where Microsoft does not release a local version, it is usually up to the partners to achieve certification of the Business Central base product, including the partner's localisation and regulatory features on top.
 
-## <a name="other-certifications"></a>Other certifications
+## Other certifications
 
 Business Central as a cloud service also has achieved certifications, such as ISO 27001 and more. For a complete list of these certifications, see [this page (PDF)](https://aka.ms/d365-compliance-list).
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Compliance](compliance-overview.md)  
 [Application Compliance](compliance-application-compliance.md)  

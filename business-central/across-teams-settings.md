@@ -6,17 +6,12 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search
+ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search'
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 21edfebd4507c383d9af217fa0617d22867e204d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133233"
 ---
-# <a name="changing-company-and-other-settings-in-teams"></a>Changing Company and Other Settings in Teams
+
+# Changing Company and Other Settings in Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -32,7 +27,7 @@ There are two ways to open the **Settings** page: 1) from the message compose bo
 
    ![Settings for Business Central from message box.](media/teams-settings-command-box.png)
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Business Central and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)  

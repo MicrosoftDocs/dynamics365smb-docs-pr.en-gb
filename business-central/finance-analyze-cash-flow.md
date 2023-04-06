@@ -1,23 +1,17 @@
 ---
 title: Analysing Cash Flows
-description: Describes how to use the Cash Cycle, Income & Expense, Cash Flow, and Cash Flow Forecast charts to analyze the past and future flow of money in and out of your company.
+description: 'Describes how to use the Cash Cycle, Income & Expense, Cash Flow, and Cash Flow Forecast charts to analyze the past and future flow of money in and out of your company.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.search.form: 762, 840, 841, 847, 848, 849, 850, 851, 857, 858, 859, 860, 862, 863, 865, 866, 867, 868, 869, 1818
+ms.search.keywords: 'money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera'
+ms.search.form: '762, 840, 841, 847, 848, 849, 850, 851, 857, 858, 859, 860, 862, 863, 865, 866, 867, 868, 869, 1818'
 ms.date: 12/20/2021
 ms.author: bholtorf
-ms.openlocfilehash: c0625964c396611a46575af8aee11da2144e3194
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529279"
 ---
-# <a name="analyzing-cash-flow-in-your-company"></a>Analysing Cash Flow in Your Company
+# Analysing Cash Flow in Your Company
 The charts on the Accountant Role Centre provide insights that can help you make solid decisions about what to do with your cash.  
 
 | To answer questions like these | Use this chart |
@@ -42,15 +36,15 @@ If you want to examine the forecast, in addition to forecast entries, you can al
 * Subtracts payables and adds receivables.  
 * Skips duplicate sales orders and purchase orders.  
 
-## <a name="to-view-a-cash-flow-worksheet"></a>To view a cash flow worksheet
+## To view a cash flow worksheet
 
 1. Search for **Cash Flow Forecasts**, and then choose the related link.  
 2. Choose a cash flow forecast, and then choose the **Cash Flow Worksheet** action.  
 3. On the **Cash Flow Worksheet** page, choose the **Suggest Worksheet Lines** action.  
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## See related [Microsoft training](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Setting Up Finance](finance-setup-finance.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

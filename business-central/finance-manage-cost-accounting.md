@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.search.form: 1123
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ccce829d284379ab307c141d4076ad30bfbaa018
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535244"
 ---
-# <a name="accounting-for-costs"></a>Accounting for Costs
+# Accounting for Costs
 Cost accounting is used to help you understand the costs of running a business. To get started with cost accounting, see the following topics.  
 
 |To|See|  
@@ -30,9 +24,9 @@ Cost accounting is used to help you understand the costs of running a business. 
 |Learn the processes in creating cost budgets.|[Creating Cost Budgets](finance-create-cost-budgets.md)|
 |Cancel cost budget entries from the cost budget register.|[Deleting Cost Budget Entries](finance-how-to-delete-cost-budget-entries.md)|
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/use-cost-accounting-dynamics-365-business-central/)
+## See related [Microsoft training](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
-## <a name="see-also"></a>See Also  
+## See Also  
 [Finance](finance.md)  
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

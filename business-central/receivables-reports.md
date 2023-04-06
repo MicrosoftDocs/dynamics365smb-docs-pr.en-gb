@@ -4,25 +4,19 @@ description: See which reports and analytics are available in the standard versi
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: Report_33, Report_101, Report_104, Report_109, Report_112, Report_120, Report_121, Report_129, Report_211, Report_1316
+ms.search.form: 'Report_33, Report_101, Report_104, Report_109, Report_112, Report_120, Report_121, Report_129, Report_211, Report_1316'
 ms.date: 07/13/2021
 ms.author: edupont
-ms.openlocfilehash: f674102844cf6dd6c5c93aa0036f8b73f10b8b61
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514784"
 ---
-# <a name="accounts-receivable-reports-and-analytics-in-business-central"></a>Accounts Receivable Reports and Analytics in Business Central
+# Accounts Receivable Reports and Analytics in Business Central
 
 To help you manage your accounts receivable in [!INCLUDE [prod_short](includes/prod_short.md)], standard reports and analytics are built in. It moves beyond traditional reporting constraints to help you efficiently design various types of reports.  
 
-## <a name="reports"></a>Reports
+## Reports
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
 
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Analysing Financial Statements in Microsoft Excel](finance-analyze-excel.md)  
 [Work with Dimensions](finance-dimensions.md)  

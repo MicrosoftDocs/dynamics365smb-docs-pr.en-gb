@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: kit, kitting
-ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
+ms.search.keywords: 'kit, kitting'
+ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 41e682a54861857ce0ee36bbbf34924c5795b11b
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605469"
 ---
-# <a name="create-blanket-assembly-orders"></a>Create Blanket Assembly Orders
+# Create Blanket Assembly Orders
 
 You can use assembly management to customise an assembly item to a customer's request during the sales process. For more information, see [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).  
 
@@ -26,7 +20,7 @@ You can use assembly management to customise an assembly item to a customer's re
 > [!NOTE]  
 >  Like all blanket orders, quantities on assembly blanket orders are only forecasts and are not operational until they are converted to actual assembly orders. Therefore, order functionality, such as availability calculation, reservation, and item tracking, is not active on blanket assembly orders.  
 
-## <a name="to-create-a-blanket-assembly-order-for-an-assemble-to-order-item"></a>To create a blanket assembly order for an assemble\-to\-order item  
+## To create a blanket assembly order for an assemble\-to\-order item  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Blanket Sales Orders**, and then choose the related link.  
 2. Create a new blanket sales order with one line for an assembly item. For more information, see [Create Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md).  
@@ -42,13 +36,13 @@ You can use assembly management to customise an assembly item to a customer's re
 
 The linked blanket assembly order and any customizations are linked to that new sales order to prepare for assembly of the item or items to be sold.  
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Create Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md)  
 [Assembly Management](assembly-assemble-items.md)  
 [Work with Assembly BOMs](assembly-how-work-assembly-boms.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Design Details: Warehouse Management](design-details-warehouse-management.md)  
+[Warehouse Management Overview](design-details-warehouse-management.md)
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

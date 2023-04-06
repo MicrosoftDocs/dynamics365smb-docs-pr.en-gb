@@ -6,17 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accessibility, shortcuts, charts, tiles
+ms.search.keywords: 'accessibility, shortcuts, charts, tiles'
 ms.date: 04/29/2021
 ms.author: jswymer
-ms.openlocfilehash: b186ef113a356b7f3444755ef73712bdcfd7095a
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366549"
 ---
-# <a name="touch-and-pen-gestures-for-tablet-and-phones"></a>Touch and Pen Gestures for Tablet and Phones 
+
+# Touch and Pen Gestures for Tablet and Phones 
 
 This article provides some of the special gestures that you can use when working with [!INCLUDE[prod_short](includes/prod_short.md)] from a tablet or phone.
 
@@ -35,7 +30,7 @@ Business Central built-in charts display useful information about business data 
 
 -->
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Keyboard Quick Reference - PC Only](keyboard-shortcuts-cheatsheet.md)  
 [Assistive Features](ui-accessibility.md)  

@@ -1,23 +1,17 @@
 ---
-title: Issue, Print, Cancel, and Void Cheques
-description: Describes how to issue cheques using the payment journal, print cheques, and void or view cheque ledger entries in Business Central.
+title: 'Issue, Print, Cancel, and Void Cheques'
+description: 'Describes how to issue cheques using the payment journal, print cheques, and void or view cheque ledger entries in Business Central.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.search.form: 256, 404,
+ms.search.keywords: 'payment journal, print check, vendor payment, creditor, debt, balance due, AP'
+ms.search.form: '256, 404,'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 81d8ae51a9d9046f30afdf9ca365b3284c8eed53
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532627"
 ---
-# <a name="make-check-payments"></a>Make Cheque Payments
+# Make Cheque Payments
 
 You can issue electronic and manual checks in [!INCLUDE[prod_short](includes/prod_short.md)]. Both methods use the payment journal to issue checks to vendors. You can also void cheques and view cheque ledger entries.
 
@@ -36,7 +30,7 @@ You can pay with two types of cheque. For both types, the **Bal. Account Type** 
 
 You can print up to 10 invoices on a page for a cheque stub. If a cheque applies to more than 10 invoices, when you print the stub we void the cheque on the first page and print the word VOID on the cheque. We then print the remainder of the invoices and the total cheque amount on the second page.
 
-## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>To pay a vendor invoice with a computer cheque
+## To pay a vendor invoice with a computer cheque
 
 The following describes how to pay a vendor by cheque. The steps are similar to refund a customer by cheque.
 
@@ -56,13 +50,13 @@ Fully applied vendor ledger entries and bank ledger entries are created.
 > [!NOTE]  
 > If you want to print and pay cheques in more than one currency from different bank accounts, you must run the **Print Cheque** batch job separately for each currency and specify the appropriate bank account.
 
-## <a name="to-cancel-printed-checks-that-are-not-posted"></a>To cancel printed cheques that are not posted
+## To cancel printed cheques that are not posted
 
 You can cancel non-posted cheques after they have been printed by using the **Void Cheque** action on the **Payment Journal** page.
 
 1. On the **Payment Journal** page, choose the **Void Cheque**, and then choose which cheques to cancel.
 
-## <a name="to-void-checks"></a>To void cheques
+## To void cheques
 
 When cheque payment have been posted, you can only cancel (void) cheques from the resulting bank ledger entries.
 
@@ -75,15 +69,15 @@ When cheque payment have been posted, you can only cancel (void) cheques from th
 4. Select the **Void Cheque Only** check box.
 5. Choose the **OK** button.
 
-## <a name="to-view-a-summary-of-posted-checks"></a>To view a summary of posted cheques
+## To view a summary of posted cheques
 
 If you want to review posted cheques, for example to verify multiple cheques paid to one vendor, you can use the **Bank Account - Cheque Details** report.
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account - Cheque Details**, and then choose the related link.
 2. Set filters as relevant, and then choose the **Preview** button.
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/use-checks-dynamics-365-business-central/)
+## See related [Microsoft training](/training/modules/use-checks-dynamics-365-business-central/)
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Making Payments](payables-make-payments.md)  
 [Managing Payables](payables-manage-payables.md)  

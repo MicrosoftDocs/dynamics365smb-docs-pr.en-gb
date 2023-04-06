@@ -6,25 +6,20 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
+ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork'
 ms.date: 11/03/2022
 ms.author: jswymer
-ms.openlocfilehash: 0290a9224691bbcab8e3a7dbef185e1507a3b75a
-ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "9744796"
 ---
-# <a name="managing-microsoft-teams-integration-with-prod_short"></a>Managing Microsoft Teams Integration with [!INCLUDE [prod_short](includes/prod_short.md)]
+
+# Managing Microsoft Teams Integration with [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 This article provides an overview of what you can do as an administrator to control Microsoft Teams integration with [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="in-microsoft-teams"></a>In Microsoft Teams
+## In Microsoft Teams
 
-### <a name="minimum-requirements"></a>Minimum requirements
+### Minimum requirements
 
 This section describes the minimum requirements for the [!INCLUDE [prod_short](includes/prod_short.md)] app features to work in Teams.
 
@@ -47,7 +42,7 @@ This section describes the minimum requirements for the [!INCLUDE [prod_short](i
 
     **Allow URL previews** policy setting must be turned on. Otherwise, a card can't be generated for [!INCLUDE [prod_short](includes/prod_short.md)] links pasted into a Teams conversation. For more information about this setting, see [Manage messaging policies in Teams](/microsoftteams/messaging-policies-in-teams).
 
-### <a name="managing-the-prod_short-app-optional"></a>Managing the [!INCLUDE [prod_short](includes/prod_short.md)] app (optional)
+### Managing the [!INCLUDE [prod_short](includes/prod_short.md)] app (optional)
 
 As a Teams administrator, you can manage all apps for your organisation, including the [!INCLUDE [prod_short](includes/prod_short.md)] app. You can approve or install the [!INCLUDE [prod_short](includes/prod_short.md)] app for your organisation, block user's from installing the app and more.
 
@@ -56,9 +51,9 @@ For more information, see the following articles in the Microsoft Teams document
 - [Manage your apps in the Microsoft Teams admin centre](/MicrosoftTeams/manage-apps)
 - [Manage app setup policies in Microsoft Teams](/microsoftteams/teams-app-setup-policies)
 
-## <a name="in-prod_short"></a>In [!INCLUDE [prod_short](includes/prod_short.md)]
+## In [!INCLUDE [prod_short](includes/prod_short.md)]
 
-### <a name="minimum-requirements"></a>Minimum requirements
+### Minimum requirements
 
 - [!INCLUDE [prod_short](includes/prod_short.md)] version:
 
@@ -80,7 +75,7 @@ For more information, see the following articles in the Microsoft Teams document
     
     For information about permissions, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
 
-## <a name="installing-the-business-central-app-by-using-centralized-deployment"></a>Installing the Business Central app by using Centralised Deployment
+## Installing the Business Central app by using Centralised Deployment
 
 The Microsoft Teams admin centre is where you configure Teams app setup policies for the organisation. In the Teams admin centre, you can use the Centralised Deployment feature to automatically install the Business Central app in Teams for all users in your organisation, specific groups, or individual users.
 
@@ -104,18 +99,18 @@ The Microsoft Teams admin centre is where you configure Teams app setup policies
 > [!IMPORTANT]
 > It can take up to 24 hours for the app set up policy to be applied and the app deployed to users.
 
-## <a name="managing-privacy-and-compliance"></a>Managing privacy and compliance 
+## Managing privacy and compliance 
 
 Microsoft Teams provides extensive controls for compliance and management of sensitive or personally identifiable data&mdash;including data added to chats and channels by the [!INCLUDE [prod_short](includes/prod_short.md)] app.
 
-### <a name="understanding-where-prod_short-cards-are-stored"></a>Understanding where [!INCLUDE [prod_short](includes/prod_short.md)] cards are stored
+### Understanding where [!INCLUDE [prod_short](includes/prod_short.md)] cards are stored
 
 After a card is sent to a chat, the card and the fields shown on the card are copied to Teams. This information is subject to the Teams policies for your organisation, such as data retention policies. When displaying card details, none of the data in the details window is stored in Teams. The data remains stored in [!INCLUDE [prod_short](includes/prod_short.md)] and will only be retrieved by Teams when the user chooses to view the details. 
 
 - To learn more about where Teams stores that data, see [Location of data in Microsoft Teams](/microsoftteams/location-of-data-in-teams).
 - To learn more about retention policies in Teams, see [Retention policies in Microsoft Teams](/microsoftteams/retention-policies).
 
-### <a name="restricting-sharing-of-cards"></a>Restricting sharing of cards 
+### Restricting sharing of cards 
 
 You prevent specific users or groups from sending cards to chats or channels by setting up messaging policies that turn off the **URL Previews** setting. For more information about this setting, see [Manage messaging policies in Teams](/microsoftteams/messaging-policies-in-teams). 
 
@@ -123,7 +118,7 @@ You can also use information barriers to prevent individuals or groups from comm
 
 Data loss prevention features in the Microsoft 365 Security & Compliance Centre can't be applied specifically to cards. But they can be applied to the chat messages that contain the cards. <!-- To track upcoming advanced features that include enabling DLP for cards, see [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).-->
 
-### <a name="responding-to-data-requests"></a>Responding to data requests
+### Responding to data requests
 
 You allow team members and team owners to delete messages that contain sensitive cards by setting up messaging policies, like: **Owners can delete sent messages** and **Users can delete sent messages**. For more information, see [Manage messaging policies in Teams](/microsoftteams/messaging-policies-in-teams).
 
@@ -131,7 +126,7 @@ Content search and eDiscovery compliance features in the Microsoft 365 Security 
 
 Because card data in Teams is a copy of data in [!INCLUDE [prod_short](includes/prod_short.md)], you can also use [!INCLUDE [prod_short](includes/prod_short.md)] features to export a customer’s data if requested. For more information about privacy in [!INCLUDE [prod_short](includes/prod_short.md)], see [Privacy FAQ for Business Central Customers](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 
-## <a name="see-also"></a>See Also
+## See Also
 [[!INCLUDE [prod_short](includes/prod_short.md)] and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)  
 [Teams FAQ](teams-faq.md)  

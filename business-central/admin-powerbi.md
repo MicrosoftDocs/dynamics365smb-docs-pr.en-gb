@@ -1,30 +1,24 @@
 ---
 title: Introduction to Business Central and Power BI
-description: Get an overview of using Power BI to get insight, business intelligence, and KPIs from your Business Central data.
+description: 'Get an overview of using Power BI to get insight, business intelligence, and KPIs from your Business Central data.'
 author: jswymer
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.search.form: 6316, 6317
+ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
+ms.search.form: '6316, 6317'
 ms.reviewer: edupont
 ms.date: 08/30/2022
 ms.author: jswymer
-ms.openlocfilehash: 43c0b32a25d8ebb55aae14937a6d8c2269395963
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533921"
 ---
-# <a name="introduction-to-prod_short-and-power-bi"></a>Introduction to [!INCLUDE[prod_short](includes/prod_short.md)] and Power BI
+# Introduction to [!INCLUDE[prod_short](includes/prod_short.md)] and Power BI
 
 It's easy to get insights into your [!INCLUDE[prod_short](includes/prod_short.md)] data with [Power BI](https://powerbi.microsoft.com) - a data visualization system from Microsoft. Power BI retrieves [!INCLUDE[prod_short](includes/prod_short.md)] data so that you can build dashboards and reports based on that data. Power BI provides a flexible alternative to reports built in [!INCLUDE[prod_short](includes/prod_short.md)], enabling you drill down and customise the visualisation, and even merge data from different companies in [!INCLUDE[prod_short](includes/prod_short.md)]. Some Power BI reports can also be embedded in Business Central and viewed without leaving the system. More complex dashboards are better experienced from the Power BI web site.
 
 ![Power BI and Business Central.](media/power-bi-intro.png)
 
-## <a name="what-you-can-do-with-power-bi-and-prod_short"></a>What you can do with Power BI and [!INCLUDE[prod_short](includes/prod_short.md)]
+## What you can do with Power BI and [!INCLUDE[prod_short](includes/prod_short.md)]
 
 There are various features for working with [!INCLUDE[prod_short](includes/prod_short.md)] and Power BI. Some things you can do from Power BI, while other things are done from [!INCLUDE[prod_short](includes/prod_short.md)]. Also, some features are only available with [!INCLUDE[prod_short](includes/prod_short.md)] online, not on-premises. The following table gives you an overview.
 
@@ -38,7 +32,7 @@ There are various features for working with [!INCLUDE[prod_short](includes/prod_
 
 <a name="onprem"><sup>*</sup></a> This feature requires a registered application for Business Central in Microsoft Azure. For more information, see [Registering Business Central On-Premises in Azure AD for Integrating with Other Services](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
-## <a name="get-ready-to-use-power-bi"></a>Get ready to use Power BI
+## Get ready to use Power BI
 
 There are a few tasks that must be done before you can start using Power BI with [!INCLUDE[prod_short](includes/prod_short.md)]. <!-- Some of the tasks are typically only done by administrators or super users.--> The tasks will depend on your role in your organisation, and what you want to do with Power BI:
 
@@ -76,9 +70,9 @@ There are a few tasks that must be done before you can start using Power BI with
 
 -->
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Business Intelligence](bi.md)  
 [Get Ready for Doing Business](ui-get-ready-business.md)  

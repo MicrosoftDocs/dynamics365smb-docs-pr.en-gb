@@ -1,23 +1,17 @@
 ---
 title: Business Functionality Supported by Business Central
-description: Provides a feature overview of all the business functions and departments supported by application areas, such as finance, inventory, and project management.
+description: 'Provides a feature overview of all the business functions and departments supported by application areas, such as finance, inventory, and project management.'
 author: SorenGP
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
+ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 3e174ae2218dfe4b5b83a8a567deaba91987d2ea
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606810"
 ---
-# <a name="business-functionality"></a>Business Functionality
+# Business Functionality
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides functionality for common business processes in small and medium-sized companies, mainly within wholesale and professional services. However, more complex processes, such as assembly, manufacturing, service, and directed warehouse management are also supported. [Learn how to get a free trial here](trial-signup.md).  
 
@@ -39,13 +33,13 @@ ms.locfileid: "9606810"
 |Plan the production operations required to transform inputs into finished goods.|[Planning](production-planning.md)|
 |Put salable items together in simple steps to make a new item, such as a kit.|[Assembly Management](assembly-assemble-items.md)|
 |Define shop floor resources and their capacity, schedule operations, pull production components, and execute production operations.|[Manufacturing](production-manage-manufacturing.md)|
-|Ensure an effective flow of received and shipped goods.|[Warehouse Management](warehouse-manage-warehouse.md)|
+|Ensure an effective flow of received and shipped goods.|[Warehouse Management Overview](design-details-warehouse-management.md)|
 |Schedule service calls and set up service orders, and track repair parts and supplies.|[Service Management](service-service.md)|
 |Set up and use workflows that connect tasks performed by different users or by the system, such as automatic posting. Requesting and granting approval to create or post documents are typical workflow steps.|[Workflow](across-workflow.md)|
 |Enable users to exchange data with external sources during daily tasks, such as sending/receiving electronic documents, importing/exporting bank files, and updating currency exchange rates.|[Exchanging Data Electronically](across-data-exchange.md)|
 |Record external documents in [!INCLUDE[prod_short](includes/prod_short.md)], including their file attachments, then manually create the related documents or automatically convert the files to electronic documents.|[Incoming Documents](across-income-documents.md)|
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Administration](admin-setup-and-administration.md)    
 [Explore Dynamics 365 Business Central capabilities](https://dynamics.microsoft.com/business-central/capabilities/)  

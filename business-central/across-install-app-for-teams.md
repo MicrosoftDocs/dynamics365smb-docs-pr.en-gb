@@ -6,17 +6,12 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
+ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork'
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: cd127d1b313a0c060ef676c74f0df83e01896b53
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516454"
 ---
-# <a name="install-the-prod_short-app-for-microsoft-teams"></a>Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams
+
+# Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -25,7 +20,7 @@ In this article, you learn how to install the [!INCLUDE [prod_short](includes/pr
 > [!NOTE]
 > Your administrator may have set things up so that the app is automatically installed for you. To check whether the app is installed, open Teams, then choose **Apps**. Search for **Business Central**, then choose it when you find it. If you see **Open** on the **Business Central** page, the app is already installed.  
 
-## <a name="prerequisites"></a>Prerequisites
+## Prerequisites
 
 - A [!INCLUDE [prod_short](includes/prod_short.md)] online user account is required for [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams.
 
@@ -35,7 +30,7 @@ In this article, you learn how to install the [!INCLUDE [prod_short](includes/pr
 
 - Your organisation's policies allow you to install apps in Microsoft Teams.
 
-## <a name="add-the-business-central-app-to-teams"></a>Add the Business Central app to Teams
+## Add the Business Central app to Teams
 
 There are three ways to install the Business Central app:
 
@@ -72,11 +67,11 @@ This option is the quickest way to install the app.
 > [!NOTE]
 > With either option, you may be asked to sign in to [!INCLUDE [prod_short](includes/prod_short.md)]. Select the **sign in** link, and follow the instructions to enter sign-in name and password for [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="next-step"></a>Next step
+## Next step
 
 You're now ready to use the app in Teams to search for contacts or share Business Central records. For more information, see [Searching for Customers, Vendors, and Other Contacts from Microsoft Teams](across-search-contacts-teams.md) or [Share Records in Microsoft Teams](across-working-with-teams.md).
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Business Central and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Teams FAQ](teams-faq.md)  

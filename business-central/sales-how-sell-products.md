@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: trade, partial deliveries, customer sales order, shipping advice, partial shipments,
-ms.search.form: 42, 48, 9305
+ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
+ms.search.form: '42, 48, 9305'
 ms.date: 09/02/2022
 ms.author: edupont
-ms.openlocfilehash: 7d3363557e469344c1648c52b08393efc0f2dc69
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535834"
 ---
-# <a name="sell-products-with-a-customer-sales-order"></a>Sell Products with a Customer Sales Order
+# Sell Products with a Customer Sales Order
 
 This article provides guidance on when you should use a customer sales order in addition to an invoice. If your sales process requires you to only ship part of an order, perhaps because the full quantity is not available right away, you must process that sale by making a sales order.
 
@@ -29,7 +23,7 @@ In business environments where the customer pays immediately, for example by Pay
 
 You can even create directly paid orders for non-registered customers by first setting up a "cash customer" card, which you point to on the sales order. Learn more at [Set Up Cash Customers](finance-how-to-set-up-cash-customers.md).
 
-## <a name="create-a-sales-order"></a>Create a sales order
+## Create a sales order
 
 > [!NOTE]  
 > The following procedure assumes that the customer is already set up. For instructions on how to do this, please see [Register New Customers](sales-how-register-new-customers.md).
@@ -93,13 +87,13 @@ The **Post and Send Confirmation** dialog box displays the customer's preferred 
 
 The related item and customer ledger entries are now created in your system, and the sales order is output as a PDF document. When the sales order is fully posted, it's removed from the list of sales orders and replaced with new documents in the list of posted sales invoices and the list of posted sales shipments.  
 
-## <a name="external-document-number"></a>External document number
+## External document number
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-sales-documents-dynamics-365-business-central/).
+## See related [Microsoft training](/training/modules/create-sales-documents-dynamics-365-business-central/).
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Invoice Sales](sales-how-invoice-sales.md)  
 [Posting Sales](ui-post-sales.md)  

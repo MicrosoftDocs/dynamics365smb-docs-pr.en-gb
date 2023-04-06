@@ -7,18 +7,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.search.keywords: Posted document, editable, posted sales shipment, posted purchase invoice, posted return shipment, posted return receipt, Business Central, business document
-ms.search.form: 130, 138, 142, 146, 6660, 6662, 6650, 6652
+ms.search.keywords: 'Posted document, editable, posted sales shipment, posted purchase invoice, posted return shipment, posted return receipt, Business Central, business document'
+ms.search.form: '130, 138, 142, 146, 6660, 6662, 6650, 6652'
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: ae59d920f4c560caff2bb545b1922bcd4bff65db
-ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "9822553"
 ---
-# <a name="edit-posted-documents"></a>Edit Posted Documents
+# Edit Posted Documents
 
 Sometimes you have to update a posted document because information that is relevant to the document has changed. On a posted sales document, this can be the shipping agent's package tracking number, for example. On a posted purchase document, this can be a payment reference text.
 
@@ -38,7 +32,7 @@ The following additional documents can be edited in the specified countries or r
 - RU: Posted Sales Credit Memo
 - IT: Posted Transfer Shipment, Posted Service Shipment
 
-## <a name="to-edit-a-posted-sales-shipment"></a>To edit a posted sales shipment
+## To edit a posted sales shipment
 
 The following explains how to edit a posted sales shipment. The steps are similar for the other supported documents.
 
@@ -49,7 +43,7 @@ The following explains how to edit a posted sales shipment. The steps are simila
 
 The posted sales shipment is updated.
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Posting Documents and Journals](ui-post-documents-journals.md)  
 [Find Related Entries for Documents](ui-find-entries.md)  

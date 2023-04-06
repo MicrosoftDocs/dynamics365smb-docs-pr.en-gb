@@ -1,29 +1,23 @@
 ---
 title: Process Sales Return Orders
-description: Describes how to create a sales return order to process a return, cancellation, or reimbursement for items or services you have been received payment for.
+description: 'Describes how to create a sales return order to process a return, cancellation, or reimbursement for items or services you have been received payment for.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: undo, credit memo, return, order
-ms.search.form: 44, 134, 144, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646
+ms.search.keywords: 'undo, credit memo, return, order'
+ms.search.form: '44, 134, 144, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646'
 ms.date: 09/08/2021
 ms.author: edupont
-ms.openlocfilehash: 78b4c6412b24721b52a5c271c0e1c5a4c7ba8775
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529117"
 ---
-# <a name="process-sales-return-orders"></a>Process Sales Return Orders  
+# Process Sales Return Orders  
 
 If you need more control of the sales return process, such as warehouse documents for the item handling, or a better overview when receiving items from multiple sales documents with one sales return, then you can create sales return orders. A sales return order automatically issues the related sales credit memo and other return-related documents, such as a replacement sales order, if needed.
 
 In addition to the original posted sales invoice, you can apply the sales credit memo or sales return order to other sales documents, for example another posted sales invoice because the customer is also returning items delivered with that invoice.
 
-## <a name="create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a>Create a sales return order based on one or more posted sales documents  
+## Create a sales return order based on one or more posted sales documents  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Return Orders**, and then choose the related link.
 2. Choose the **New** action.  
@@ -45,7 +39,7 @@ In addition to the original posted sales invoice, you can apply the sales credit
 8. Select the lines that you would like to copy to the new document.  
 
     > [!NOTE]  
-    >  If you use Ctrl+A to select all lines, all lines within the filter you have set are copied, but the **Show Reversible Quantity Only** filter is ignored. For example, suppose you have filtered the lines to a particular document number with two lines, one of which has already been returned. Even if the **Show Reversible Quantity Only** field is selected, if you press Ctrl+A to copy all lines, both lines are copied, instead of only the one that has not yet been reversed.  
+    >  If you use <kbd>Ctrl</kbd>+<kbd>A</kbd> to select all lines, all lines within the filter you have set are copied, but the **Show Reversible Quantity Only** filter is ignored. For example, suppose you have filtered the lines to a particular document number with two lines, one of which has already been returned. Even if the **Show Reversible Quantity Only** field is selected, if you select <kbd>Ctrl</kbd>+<kbd>A</kbd> to copy all lines, both lines are copied, instead of only the one that has not yet been reversed.  
 
 9. Choose the **OK** button to copy the lines to the new document.  
 
@@ -73,7 +67,7 @@ In addition to the original posted sales invoice, you can apply the sales credit
 10. On the **Sales Return Order** page, in the **Return Reason Code** field on each line, select the reason for the return.
 11. Choose the **post** action.
 
-## <a name="to-create-a-replacement-sales-order-from-a-sales-return-order"></a>To create a replacement sales order from a sales return order
+## To create a replacement sales order from a sales return order
 You may decide to compensate a customer for an item that you have sold them by replacing the item. You can make a replacement with the same item or a different item. This situation could occur if you mistakenly shipped the wrong item to the customer, for example.  
 
 1. On the **Sales Return Order** page for an active return process, on an empty line, make a negative entry for the replacement item by inserting a negative amount in the **Quantity** field.  
@@ -81,7 +75,7 @@ You may decide to compensate a customer for an item that you have sold them by r
 3. On the **Move Negative Sales Lines** page, fill in the fields as necessary.
 4. Choose the **OK** button. The negative line for the replacement item is deleted from the sales return order and inserted in a new **Sales Order** page. For more information, see [Sell Products](sales-how-sell-products.md).
 
-## <a name="to-create-return-related-documents-from-a-sales-return-order"></a>To create return-related documents from a sales return order
+## To create return-related documents from a sales return order
 You can have replacement sales orders, purchase return orders, and replacement purchase orders created automatically during the sales return process. This is useful, for example, in situations where you want to handle items with warranties provided by vendors.
 
 1. On the **Sales Return Order** page for an active return process, choose the **Create Return-Related Documents** action.
@@ -90,7 +84,7 @@ You can have replacement sales orders, purchase return orders, and replacement p
 4. If a returned item must be ordered from the vendor, select the **Create Purchase Order** check box.
 5. If a replacement sales order must be created, select the **Create Sales Order** check box.
 
-## <a name="to-create-a-restock-charge"></a>To create a restock charge
+## To create a restock charge
 You may decide to charge your customer a restock fee to cover the physical handling costs of returning an item. This could occur if the customer mistakenly ordered the wrong item or changed their mind after receiving the item you sold them, for example.
 
 You can post this increased cost as an item charge in a credit memo or a return order and assign it to the posted shipment. The following describes this for a sales return order, but the same steps apply to a sales credit memo.
@@ -101,9 +95,9 @@ You can post this increased cost as an item charge in a credit memo or a return 
 
 When you post the sales return order, the restock charge is added to the relevant sales entry amount. In this way, you can maintain accurate inventory valuation.  
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/return-items-dynamics-365-business-central/)
+## See related [Microsoft training](/training/paths/return-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  

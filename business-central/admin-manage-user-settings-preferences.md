@@ -7,18 +7,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.search.keywords: user settings, preferences, language, region, time zone, regional settings
-ms.search.form: 9204
+ms.search.keywords: 'user settings, preferences, language, region, time zone, regional settings'
+ms.search.form: '9204,'
 ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: 779dcea91d2e856bfae847f98695ceed0c0d600e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145947"
 ---
-# <a name="manage-user-settings-and-preferences"></a>Manage user settings and preferences
+# Manage user settings and preferences
 
 As an administrator, you can configure user settings in [!INCLUDE[prod_short](includes/prod_short.md)], similar to how individual users can manage their own preferences in the **My Settings** page.  
 
@@ -29,19 +23,19 @@ Get an overview of all users in the **Users** list, and change individual settin
 
 The **User Settings Card** page is similar to the **My Settings** page that each user has access to, and it is a powerful tool for you as the administrator for setting default settings and clearing personalised pages, for example.  
 
-## <a name="types-of-user-settings"></a>Types of user settings
+## Types of user settings
 
 *User settings* is not the same as *user setup*, which is about the user as an entity and the user's access in the system. Furthermore, user settings has nothing to do with a user's personalisation, such as lightweight changes to the user interface. User settings determine the predefined settings for each user in various aspects of the way the application presents itself to the user. The following paragraph lists the five types of user settings and preferences that can be set by the individual or centrally by the administrator:
 
-- **Company**  
+* **Company**  
 
   This setting determines the company to be logged into at the next login. A user can have access to multiple companies and can be active in several companies.
 
-- **Role**  
+* **Role**  
 
   The role, or profile, describes the user's function in the company, such as *Sales Manager*, *Bookkeeper*, or *Purchasing Agent*. The profile then determines the user's role centre, the home page that users will see when they sign in. The profile does not impact access rights to functionality in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-- **Language**  
+* **Language**  
 
   Defines the application language that [!INCLUDE[prod_short](includes/prod_short.md)] presents text, captions, and error messages in. If [!INCLUDE[prod_short](includes/prod_short.md)] users are synchronised from Microsoft 365, the language settings from Microsoft 365 are used, assuming that the user wants to use the same settings in Office products and [!INCLUDE[prod_short](includes/prod_short.md)]. The administrator can change the default setting, and each user can choose between available languages in the My Settings page. But they will be reset to the value from Microsoft 365 once the next synchronisation is performed.
 
@@ -50,36 +44,36 @@ The **User Settings Card** page is similar to the **My Settings** page that each
   > [!NOTE]
   > You may have to install a language app for [!INCLUDE[prod_short](includes/prod_short.md)] to properly display the language. Therefore, it is a good practice to install the necessary language apps before any user logs in the first time so that they have a good experience from their first day. For more information, see the list of [supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
   
-- **Region**  
+* **Region**  
 
   Defines how dates and numbers are presented in the [!INCLUDE[prod_short](includes/prod_short.md)] client, such as whether to use European or American date formats, or how to display the decimal sign and thousand separators in amounts. If [!INCLUDE[prod_short](includes/prod_short.md)] users are synchronised from Microsoft 365, the regional settings from Microsoft 365 are used, assuming that the user wants to use the same settings in Office products and [!INCLUDE[prod_short](includes/prod_short.md)]. An administrator or user can change these settings manually in [!INCLUDE[prod_short](includes/prod_short.md)], but they will be reset to the value from Microsoft 365 once the next synchronisation is performed.
 
-- **Time zone**  
+* **Time zone**  
 
   Defines the time zone in which the user is located. Currently this is not synchronised from Microsoft 365 and must be set manually.  
 
-- **Teaching tips**
+* **Teaching tips**
 
   [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)] As an administrator, you can switch off teaching tips for all users, such as if you are in progress of onboarding users who are already familiar with [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 > [!NOTE]
 > If a Microsoft 365 user synchronisation is made while users are logged into [!INCLUDE[prod_short](includes/prod_short.md)], these users must refresh the browser or log out and back in to [!INCLUDE[prod_short](includes/prod_short.md)] to see a potential different language set by the synchronisation action.
 
-## <a name="overview-of-all-user-specific-changes"></a>Overview of all user-specific changes
+## Overview of all user-specific changes
 
 As the administrator, you can get an overview of individual changes to [!INCLUDE [prod_short](includes/prod_short.md)] that each user might have made to various pages in [!INCLUDE [prod_short](includes/prod_short.md)]. As users make changes to their experience in [!INCLUDE [prod_short](includes/prod_short.md)], these changes will be reflected in the **User Personalisations** list. <!--Administrators can also set these settings for users before they log in the first time, so users do not have to do it themselves, providing them a better *getting started* experience.-->
 
 <!-- >[!NOTE]
 > User personalizations do not have anything to do with the *personal* lightweight changes a user can make to the user experience.-->
 
-## <a name="to-review-or-delete-user-personalizations"></a>To review or delete user personalisations
+## To review or delete user personalisations
 
 1. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Personalised Pages**, and then choose the related link.
 2. This shows the list of users and their personalised pages. To clear a user's personalisation, click the relevant row, or choose **Manage**, and then choose **Delete**.
 
 This deletes the personalisation, and the user's experience of the relevant page returns to the default state.
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

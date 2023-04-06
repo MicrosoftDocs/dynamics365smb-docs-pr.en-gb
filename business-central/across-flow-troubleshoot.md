@@ -6,36 +6,31 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions, Power Automate,
+ms.search.keywords: 'workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions, Power Automate,'
 ms.date: 08/04/2022
 ms.author: edupont
-ms.openlocfilehash: 42b9a61f40afda0a50d6c6ec86d9984e53ae9ffb
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585926"
 ---
-# <a name="troubleshoot-your-prod_short-automated-workflows"></a>Troubleshoot Your [!INCLUDE[prod_short](includes/prod_short.md)] Automated Workflows
+
+# Troubleshoot Your [!INCLUDE[prod_short](includes/prod_short.md)] Automated Workflows
 
 When you connect [!INCLUDE [prod_short](includes/prod_short.md)] with Power Automate to create automated workflows, you might run into error messages. This article provides suggested solutions to recurring problems.
 
-## <a name="flow-doesnt-run-on-all-records-created-or-changed"></a>Flow doesn't run on all records created or changed
+## Flow doesn't run on all records created or changed
 
-### <a name="problem"></a>Problem
+### Problem
 
 If an event creates or changes a lot of records, the flow doesn't run on some or all records.
 
-### <a name="possible-cause"></a>Possible cause
+### Possible cause
 
 Currently, there's a limit on how many records a flow can process. If more than 100 records are created or changed within 30 seconds, the flow won't be triggered.
 
 > [!NOTE]
 > For developers, the flow triggering is done via webhook notifications, and this limitation is due to the way the Business Central connector handles `collection` notifications. Learn more at [Working with Webhooks in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions#notes-for-power-automate-flows) in the Developer and Admin help.
 
-## <a name="entity-set-not-found-error"></a>"Entity set not found" error
+## "Entity set not found" error
 
-### <a name="problem"></a>Problem
+### Problem
 
 When you create a new Power Automate flow using a [!INCLUDE[prod_short](includes/prod_short.md)] approval trigger, such as *When a purchase document approval is requested*, you might get an error message similar to this one:
 
@@ -43,11 +38,11 @@ When you create a new Power Automate flow using a [!INCLUDE[prod_short](includes
 
 The placeholder, `\<name\>`, is the service name of the missing web service, such as *workflowWebhookSubscriptions* or *workflowPurchaseDocumentLines*.
 
-### <a name="possible-cause"></a>Possible cause
+### Possible cause
 
 Using Power Automate for approvals requires certain page and codeunit objects to be published as web services. By default, most of the required objects are published as web services. But in some cases, your environment may have been customised so these objects are no longer published.
 
-### <a name="fix"></a>Fix
+### Fix
 
 Go to the **Web Services** page and make sure the following objects are published as web services. There should be an entry in the list for each object, with the **Published** check box selected.  
 
@@ -70,9 +65,9 @@ Go to the **Web Services** page and make sure the following objects are publishe
 
 Learn more about publishing web services at [Publish a Web Service](across-how-publish-web-service.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/use-power-automate/).
+## See related training at [Microsoft Learn](/learn/modules/use-power-automate/).
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md)  
 [Workflow](across-workflow.md)  

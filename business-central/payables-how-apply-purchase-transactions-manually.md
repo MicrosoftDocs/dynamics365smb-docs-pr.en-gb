@@ -1,23 +1,17 @@
 ---
 title: Reconcile vendor payment receipts or refunds in the payment journal
-description: To process, match, or reconcile vendor payments or refunds manually, you apply the amount to one or more open vendor ledger entries.
+description: 'To process, match, or reconcile vendor payments or refunds manually, you apply the amount to one or more open vendor ledger entries.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment application, payment processing, match payments
-ms.search.form: 62, 233, 522, 623
+ms.search.keywords: 'payment application, payment processing, match payments'
+ms.search.form: '62, 233, 522, 623'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 001d747391998df212bacf9dbde23ebbe240bc2b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521943"
 ---
-# <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Reconcile Vendor Payments with the Payment Journal or from Vendor Ledger Entries
+# Reconcile Vendor Payments with the Payment Journal or from Vendor Ledger Entries
 When you send a payment or receive a refund from a vendor, you must decide whether to apply the payment or refund to one or more open entries. You can specify the exact amount that you want to apply to the payment receipt or refund, and then only partially apply vendor ledger entries. You must apply all vendor ledger entries to obtain correct vendor statistics and reports of the account statements and finance charges.
 
 > [!NOTE]  
@@ -36,7 +30,7 @@ You can apply vendor payments manually to their related purchase documents when 
 
 You can also apply vendor payments, and customer payments, after the payments appear as negative bank transactions in your bank. On the **Payment Reconciliation Journal** page, you can use functions for bank statement import, automatic application, and bank account reconciliation. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 
-## <a name="to-apply-a-payment-to-a-single-or-multiple-vendor-ledger-entries"></a>To apply a payment to a single or multiple vendor ledger entries
+## To apply a payment to a single or multiple vendor ledger entries
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journal**, and then choose the related link.
 2. On the **Payment Journal** page, on the first journal line, enter the relevant information about the payment entry.
 3. To apply a single vendor ledger entry:
@@ -54,7 +48,7 @@ You can also apply vendor payments, and customer payments, after the payments ap
 5. Choose the **OK** button.
 6. Choose the **Post** action to post the payment journal.
 
-## <a name="to-apply-a-credit-memo-to-a-single-or-multiple-vendor-ledger-entries"></a>To apply a credit memo to a single or multiple vendor ledger entries
+## To apply a credit memo to a single or multiple vendor ledger entries
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Credit Memo**, and then choose the related link.
 2. Open the credit memo that you want to apply.
 3. Enter the relevant information in the header.
@@ -71,7 +65,7 @@ You can also apply vendor payments, and customer payments, after the payments ap
    The **Purchase Credit Memo** page shows the entry that you have selected in the **Applies-to Doc. Type** field and the **Applies-to Doc. No.** field. The page also shows the amount of the credit memo to be posted, adjusted for any payment discounts.
 7. Choose the **Post** button to post the purchase credit memo.
 
-## <a name="to-apply-posted-vendor-ledger-entries"></a>To apply posted vendor ledger entries
+## To apply posted vendor ledger entries
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
 2. Open the relevant vendor with entries that have already been posted.
 3. Choose the **Ledger Entries** action, and then choose the **Apply Entries** action.
@@ -88,7 +82,7 @@ You can also apply vendor payments, and customer payments, after the payments ap
     The **Post Application** page opens with the document number of the applying entry and the posting date of the entry with the most recent posting date.
 9. Choose the **OK** button to post the application.
 
-## <a name="to-apply-vendor-ledger-entries-in-different-currencies-to-one-another"></a>To apply vendor ledger entries in different currencies to one another
+## To apply vendor ledger entries in different currencies to one another
 If you buy from a vendor in one currency and make payment in another currency, you can still apply the invoice to the payment.
 
 If you apply an entry (Entry 1) in one currency to an entry (Entry 2) in a different currency, the posting date on Entry 1 is used to find the relevant exchange rate to convert amounts on Entry 2. The relevant exchange rate is found on the **Currency Exchange Rates** page. In that case, you must enable application of vendor ledger entries in different currencies. For more information, see [Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
@@ -103,7 +97,7 @@ If you apply an entry (Entry 1) in one currency to an entry (Entry 2) in a diffe
 > [!IMPORTANT]  
 >   When you apply entries in different currencies to one another, the entries are converted to GBP. Even though the exchange rates for the two relevant currencies are fixed, for example between GBP and EUR, there may be a small residual amount when these foreign-currency amounts are converted to GBP. These small residual amounts are posted as gains and losses to the account specified in the **Realised Gains Account** or **Realised Losses Account** field on the **Currencies** page. The **Amount (GBP)** field is also adjusted on the relevant vendor ledger entries.
 
-## <a name="to-unapply-an-application-of-vendor-entries"></a>To unapply an application of vendor entries
+## To unapply an application of vendor entries
 When you unapply an erroneous application, correcting entries that are identical to the original entry but with opposite sign in the amount field are created and posted for all entries, including all general ledger posting derived from the application, such as payment discount and currency gains/losses. The entries that were closed by the application are reopened.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
@@ -117,7 +111,7 @@ When you unapply an erroneous application, correcting entries that are identical
 > [!IMPORTANT]  
 >   If an entry has been applied by more than one application entry, you must unapply the latest application entry first.
 
-## <a name="see-also"></a>See Also
+## See Also
 [Payables](payables-manage-payables.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

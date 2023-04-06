@@ -7,25 +7,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
-ms.search.form: 600, 605, 618, 650, 651, 648, 649, 617, 614, 642, 643, 640, 641, 613, 616, 646, 647, 644, 645, 615, 619, 612, 638, 639, 636, 637, 611
+ms.search.form: '600, 605, 618, 650, 651, 648, 649, 617, 614, 642, 643, 640, 641, 613, 616, 646, 647, 644, 645, 615, 619, 612, 638, 639, 636, 637, 611'
 ms.date: 03/09/2022
 ms.author: edupont
-ms.openlocfilehash: 868f07b2b56ccaefb4c56e26be72c27b941d950c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522125"
 ---
-# <a name="manage-the-intercompany-inbox-and-outbox"></a>Manage the Intercompany Inbox and Outbox
+# Manage the Intercompany Inbox and Outbox
 All of the intercompany transactions that you receive electronically from your intercompany partners are listed in the intercompany Inbox.  
 
 However, depending on how intercompany is set up for your company, some transactions are automatically replicated to the relevant intercompany partners. Starting in 2022 release wave 1, you can set up the company for automatic creation of received intercompany transactions from intercompany partners, posted through the intercompany general journal. For more information, see [To fill in and post an intercompany journal](intercompany-how-work-documents-journals.md#to-fill-in-and-post-an-intercompany-journal).  
 
-## <a name="organizing-the-inbox"></a>Organizing the Inbox  
+## Organizing the Inbox  
  You can use the filter fields at the top of the inbox page to determine which transactions are shown on the page. For example, if you only want to look at transactions a particular partner created, you can enter filters in the **Transaction Source** and **Intercompany Partner Code** filters.  
 
-### <a name="transaction-source"></a>Transaction Source  
+### Transaction Source  
 What you can do with a transaction depends whether it was:  
 
 - Created by your intercompany partner  
@@ -33,27 +27,27 @@ What you can do with a transaction depends whether it was:
 
 You can use the **Show Transaction Source** field to filter the **Intercompany Inbox Transactions** page so that it displays only one of these types of transactions. (You can also filter by intercompany partner, or by the contents of the **Line Action** field.)  
 
-#### <a name="created-by-intercompany-partner"></a>Created by Intercompany Partner  
+#### Created by Intercompany Partner  
  When you receive a new transaction that was created by your partner, you can choose to either:
 
 - Accept the transaction  
 - Reject the transaction (Return to partner)  
 - Cancel the transaction (Delete the transaction but do not return it to your partner)  
 
-#### <a name="returned-from-intercompany-partner"></a>Returned from Intercompany Partner  
+#### Returned from Intercompany Partner  
  If the transaction was rejected by your intercompany partner, your only choice is to cancel the transaction in the inbox. Then you must create correction lines or reverse the journal or document in your company.  
 
-## <a name="recreating-inbox-entries"></a>Recreating Inbox Entries  
+## Recreating Inbox Entries  
  If you accepted a transaction in your inbox but then deleted the document or journal instead of posting it, you can re-create the inbox entry and accept it again.  
 
-## <a name="getting-an-overview-of-intercompany-transactions-for-a-period"></a>Getting an Overview of Intercompany Transactions for a Period  
+## Getting an Overview of Intercompany Transactions for a Period  
  You can get an overview of all of the intercompany transactions that you have sent and received in a period. The **Intercompany Transactions** report lists all intercompany G/L entries, customer ledger entries, and vendor ledger entries.
 
  > [!NOTE]  
  > If the intercompany partners are in the same database, then transactions are transferred without the need for file or email. See the **Transfer Type** field on the **Intercompany Partner** page. <br /><br />
 In that case, you can set the system up to bypass the inbox and outbox by selecting the **Auto. Accept Transactions** check box on the **Intercompany Partner** page and the **Auto. Send Transactions** check box on the **Intercompany Setup** page respectively. Incoming intercompany transactions can be automatically accepted only if task scheduler is enabled. For more information, see [Configure Business Central Server - Task Scheduler Settings](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Task).
 
-## <a name="to-import-intercompany-transactions-from-a-file"></a>To import intercompany transactions from a file
+## To import intercompany transactions from a file
 
 [!INCLUDE [onprem_only_md](includes/onprem_only_md.md)]
 
@@ -66,7 +60,7 @@ If you have an intercompany partner that is not in the same database as your com
 
 The transactions are imported into the inbox and you can now process them.
 
-## <a name="to-process-incoming-intercompany-transactions"></a>To process incoming intercompany transactions  
+## To process incoming intercompany transactions  
 When your intercompany partners send you intercompany transactions, the transactions end up in your intercompany inbox. You must evaluate each transaction in your inbox and act upon it.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Inbox Transactions**, and then choose the related link.  
@@ -80,7 +74,7 @@ Lines that you processed with the **Return to Partner** action will be moved to 
 
 For lines that you processed with the **Returned by Partner** action, you must now post a correction to the original transaction that you posted in your company.
 
-## <a name="to-process-outgoing-intercompany-transactions"></a>To process outgoing intercompany transactions  
+## To process outgoing intercompany transactions  
 When you post an intercompany journal or document, or send an intercompany order confirmation, the transactions are sent to your intercompany outbox. In order for them to be sent on to your intercompany partners, you must open the outbox and process them.  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Outbox Transactions**, and then choose the related link.  
@@ -92,7 +86,7 @@ Lines that you processed with the **Return to Inbox** action will be moved to th
 
 For lines that you processed with the **Cancel** action, you must now post a correction to the original transaction that you posted in your company.  
 
-## <a name="to-recreate-intercompany-inbox-transactions"></a>To recreate intercompany inbox transactions  
+## To recreate intercompany inbox transactions  
 Occasionally, you may want to re-create a transaction in the inbox or outbox. For example, if you accepted a transaction in your inbox but then deleted the document or journal instead of posting it, you can re-create the inbox entry and accept it again.  
 
 The following procedure describes to re-create inbox transactions, but the same steps also apply to the outbox.
@@ -101,7 +95,7 @@ The following procedure describes to re-create inbox transactions, but the same 
 
   2.  On the **Handled IC Inbox Transactions** page, select the line with the transaction that you want to re-create in the inbox, and then choose the **Re-create Inbox Transaction** action.  
 
-## <a name="see-also"></a>See Also
+## See Also
 [Managing Intercompany Transactions](intercompany-manage.md)  
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  

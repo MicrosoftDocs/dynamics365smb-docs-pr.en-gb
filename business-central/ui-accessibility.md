@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accessibility, shortcuts, charts, tooltips, screen reader
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
+ms.search.keywords: 'accessibility, shortcuts, charts, tooltips, screen reader'
+ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 06/23/2021
 ms.author: jswymer
-ms.openlocfilehash: 8f9759f0ed024b1137b27ed79b67e18b6acfdf35
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655703"
 ---
-# <a name="accessibility-and-keyboard-shortcuts"></a>Accessibility and Keyboard Shortcuts
+# Accessibility and Keyboard Shortcuts
 
 This article provides information about the features that make [!INCLUDE[prod_short](includes/prod_short.md)] readily available to people with disabilities. [!INCLUDE[prod_short](includes/prod_short.md)] supports the following accessibility features:  
 
@@ -32,41 +26,41 @@ This article provides information about the features that make [!INCLUDE[prod_sh
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="navigation"></a><a name="Navigation"></a> Navigation
+## <a name="Navigation"></a> Navigation
   
-You can use different combinations of the Tab, Shift, and arrow keys of your keyboard to move between elements on a page. Elements include actions, fields and columns, parts, and other controls. In general, press Tab or Shift+Tab to move to the next or previous element.
+You can use different combinations of the Tab, Shift, and arrow keys of your keyboard to move between elements on a page. Elements include actions, fields and columns, parts, and other controls. In general, select <kbd>Tab</kbd> or <kbd>Shift</kbd>+<kbd>Tab</kbd> to move to the next or previous element.
 
-When you focus on an area that contains actions, like the navigation bar on the top of role centre or action bar on other pages, use the arrows keys to move through the different actions and groups. Press Enter on a group to open its underlying actions, and then continue using the arrows keys. Press Tab or Shift+Tab to move out of the action area.
+When you focus on an area that contains actions, like the navigation bar on the top of role centre or action bar on other pages, use the arrows keys to move through the different actions and groups. Select <kbd>Enter</kbd> on a group to open its underlying actions, and then continue using the arrows keys. Select <kbd>Tab</kbd> or <kbd>Shift</kbd>+<kbd>Tab</kbd> to move out of the action area.
 
 By using the tab order, you can also switch between the main browser page and dialogue boxes that request confirmation, for example, or the sign-in page.  
 
-## <a name="headings-in-content"></a><a name="Headings"></a> Headings in Content
+## <a name="Headings"></a> Headings in Content
 
 The HTML source for [!INCLUDE[prod_short](includes/prod_short.md)] content uses tags to help users of assistive technology to understand the structure and content of the page. For example, on list pages, the columns are defined in TH tags and the column headings are set with TITLE attribute inside the tag. Captions for elements, such as FastTabs, FactBoxes, and fields are included in heading tags (H1, H2, H3, and H4).  
 
-## <a name="image-and-links"></a><a name="Images"></a> Image and Links
+## <a name="Images"></a> Image and Links
 
 A descriptive text for images is set with the ALT attribute inside the IMG tag. A descriptive text for hyperlinks is set with the title attribute inside the A tag.  
 
-## <a name="assistive-technologies"></a><a name="AssistiveTech"></a> Assistive Technologies
+## <a name="AssistiveTech"></a> Assistive Technologies
 
 [!INCLUDE[prod_short](includes/prod_short.md)] supports various assistive technologies, such as high contrast, screen readers, and voice recognition software. Some assistive technologies may not work well with certain elements in [!INCLUDE[prod_short](includes/prod_short.md)] pages.  
 
-## <a name="zoom"></a><a name="zoom"></a> Zoom
+## <a name="zoom"></a> Zoom
 
 Most browsers use standard keyboard shortcuts to zoom in and out on the current page. These keyboard shortcuts aren't specific to [!INCLUDE [prod_short](includes/prod_short.md)], but they work when you use [!INCLUDE [prod_short](includes/prod_short.md)] in a browser. For a list of supported keyboard shortcuts, see [Keyboard Shortcuts for Zooming In and Out](keyboard-shortcuts.md#zoomshortcuts).
 
-## <a name="tooltips"></a>Tooltips
+## Tooltips
 
 Tooltips are available on most elements in the user interface, like page fields and columns, actions, cues tiles, and charts. A tooltip provides extra text that explains an element to help you better understand its purpose. 
 
 Tooltips are accessed in different ways, depending on the client (web or mobile) and the device that you're working with. Use the following table as a guide. Some tooltips can be read by screen-readers. In this case, you access the tooltips as described in the table, then use the screen reader to navigate to the tooltip as you would with any other element.
 
-#### <a name="accessing-tooltips"></a>Accessing tooltips
+#### Accessing tooltips
 
 |Element|Mouse action for web client|Keyboard shortcut for web client|Touch gesture on tablet/phone for mobile app|Screen reader support|
 |-------|-----------------|------------|--------------------------|---------------------|
-|Page fields and column headings|Hover over or click the field caption or column heading|Move focus to the field or column heading, and press Alt+Up Arrow keys|Tap the field caption |yes|
+|Page fields and column headings|Hover over or click the field caption or column heading|Move focus to the field or column heading, and select <kbd>Alt</kbd>+<kbd>Up Arrow</kbd> keys|Tap the field caption |yes|
 |Charts elements, like a bar, line, pie slice|Hover over the element|Move focus to element, for example, by using arrow keys|Tap and hold the element|yes|
 |Actions|Hover over the action|none|none |no|
 |Cue tiles|Hover over the tile |none|none|no|
@@ -79,11 +73,11 @@ Tooltips are accessed in different ways, depending on the client (web or mobile)
 
 -->
 
-## <a name="for-more-accessibility-information"></a>For more accessibility information
+## For more accessibility information
 
 You can find additional information about accessibility with Microsoft products and assistive technologies on the [Microsoft Accessibility](https://go.microsoft.com/fwlink/?LinkId=262160) site.
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

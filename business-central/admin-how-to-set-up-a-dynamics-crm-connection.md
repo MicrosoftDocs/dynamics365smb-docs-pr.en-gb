@@ -4,24 +4,16 @@ description: Set up a connection between Business Central and Dataverse. Busines
 author: brentholtorf
 ms.topic: conceptual
 ms.workload: na
-ms.search.keywords: ''
-ms.search.forms: 7200, 7201
-ms.date: 09/30/2021
+ms.search.keywords: null
+ms.search.forms: '7200, 7201'
+ms.date: 03/22/2023
 ms.author: bholtorf
-ms.openlocfilehash: 57f8091d81870f9e58af80462259006d4cb822ae
-ms.sourcegitcommit: 4a57fb5b88b9ebbb61fdd1b25e1fd4ba0013c8e5
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8485039"
 ---
-# <a name="connect-to-microsoft-dataverse"></a>Connect to Microsoft Dataverse
+# Connect to Microsoft Dataverse
 
+This article describes how to set up a connection between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Typically, businesses create the connection to integrate and synchronise data with another Dynamics 365 business app, such as [!INCLUDE[crm_md](includes/crm_md.md)].  
 
-
-This topic describes how to set up a connection between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Typically, businesses create the connection to integrate and synchronise data with another Dynamics 365 business app, such as [!INCLUDE[crm_md](includes/crm_md.md)].  
-
-## <a name="before-you-start"></a>Before You Start
+## Before you start
 
 There are a few pieces of information to have ready before you create the connection:  
 
@@ -37,7 +29,7 @@ There are a few pieces of information to have ready before you create the connec
 > These steps describe the procedure for [!INCLUDE[prod_short](includes/prod_short.md)] online.
 > If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises and are not using Azure Active Directory account to connect to [!INCLUDE [cds_long_md](includes/cds_long_md.md)], you must also specify a user name and password of a user account for the integration. This account is referred to as the "integration user" account. If you're using an Azure Active Directory account, the integration user account is not required or displayed. The integration user will be set up automatically and does not require a licence.
 
-## <a name="set-up-a-connection-to-cds_long_md"></a>Set Up a Connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
+## Set up a connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 For all authentication types other than Microsoft 365 authentication, you set up your connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] on the **Dataverse Connection Setup** page. For Microsoft 365 authentication, we recommend that you use the **Dataverse Connection Setup** assisted setup guide. The guide makes it easier to set up the connection and specify advanced features, such as the ownership model and initial synchronisation.  
 
@@ -50,7 +42,8 @@ For all authentication types other than Microsoft 365 authentication, you set up
 >
 > By giving consent on behalf of organisation, the administrator is entitling the registered Azure application called [!INCLUDE[prod_short](includes/prod_short.md)] Integration to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] to synchronise data using automatically created [!INCLUDE[prod_short](includes/prod_short.md)] Integration application user's credentials.
 
-### <a name="to-use-the-dataverse-connection-setup-assisted-setup-guide"></a>To use the Dataverse Connection Setup assisted setup guide
+### To use the Dataverse Connection Setup assisted setup guide
+
 The Dataverse Connection Setup guide can make it easier to connect the applications, and can even help you run an initial synchronisation. If you choose to run initial synchronisation, [!INCLUDE[prod_short](includes/prod_short.md)] will review the data in both applications and provide recommendations for how to approach initial synchronisation. The following table describes the recommendations.
 
 |Recommendation  |Description  |
@@ -69,7 +62,7 @@ The Dataverse Connection Setup guide can make it easier to connect the applicati
 > [!NOTE]
 > If you aren't prompted to sign in with your administrator account, it's probably because pop-ups are blocked. To sign in, allow pop-ups from `https://login.microsoftonline.com`.
 
-### <a name="to-create-or-maintain-the-connection-manually"></a>To create or maintain the connection manually
+### To create or maintain the connection manually
 
 The following procedure describes how to set up the connection manually on the **Dataverse Connection Setup** page. The **Dataverse Connection Setup** page is where you manage integration settings.
 
@@ -105,7 +98,7 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 -->
 
-## <a name="customize-the-match-based-coupling"></a>Customise the Match-Based Coupling
+## Customise the match-based coupling
 
 Starting in 2021 release wave 2, an administrator can enter criteria to couple records based on matches. You can start the algorithm for matching records from the following places in [!INCLUDE [prod_short](includes/prod_short.md)]:
 
@@ -137,7 +130,7 @@ In all three cases, the **Select Coupling Criteria** page opens so that you can 
 
 * Specify whether to create a new entity instance in [!INCLUDE [cds_long_md](includes/cds_long_md.md)] in case no unique uncoupled match can be found by using the match criteria. To activate this capability, choose the **Create New if Unable to Find a Match** action.  
 
-### <a name="view-the-results-of-the-coupling-job"></a>View the results of the coupling job
+### View the results of the coupling job
 
 To view the results of the coupling job, open the **Integration Table Mappings** page, select the relevant mapping, choose the **Coupling** action, and then choose the **Integration Coupling Job Log** action.  
 
@@ -164,7 +157,8 @@ Typically, coupling fails for the following reasons:
 > [!TIP]
 > To help you get an overview over the progress of the coupling, the **Coupled to Dataverse** field shows whether a record is coupled to a [!INCLUDE [cds_long_md](includes/cds_long_md.md)] entity. You can use the **Coupled to Dataverse** field to filter the list of records you're synchronising.
 
-## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Upgrade Connections from Business Central Online to Use Certificate-Based Authentication
+## Upgrade connections from Business Central online to use certificate-based authentication
+
 > [!NOTE]
 > This section is relevant only for [!INCLUDE[prod_short](includes/prod_short.md)] online tenants that are hosted by Microsoft. Online tenants hosted by ISVs, and on-premises installations, are not affected.
 
@@ -172,7 +166,7 @@ In April 2022, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] is deprecating t
 
 To avoid disrupting integrations, _you must upgrade_ the connection to use certificate-based authentication. Although the change is scheduled for March 2022, we strongly recommend that you upgrade as soon as possible. The following steps describe how to upgrade to certificate-based authentication. 
 
-### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>To upgrade your Business Central online connection to use certificate-based authentication
+### To upgrade your Business Central online connection to use certificate-based authentication
 
 1. Depending on whether you integrate with Dynamics 365 Sales, do one of the following:
    * If you do, open the **Microsoft Dynamics 365 Connection Setup** page.
@@ -183,24 +177,13 @@ To avoid disrupting integrations, _you must upgrade_ the connection to use certi
 > [!NOTE]
 > You must repeat these steps in each [!INCLUDE[prod_short](includes/prod_short.md)] environment, including both production and sandbox environments, and in each company where you have a connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
-## <a name="connecting-on-premises-versions"></a>Connecting On-Premises Versions
+## Connecting pn-premises versions
 
 To connect [!INCLUDE[prod_short](includes/prod_short.md)] on-premises to [!INCLUDE[cds_long_md](includes/cds_long_md.md)], you must specify some information on the **Dataverse Connection Setup** page.
 
 To connect using an Azure Active Directory (Azure AD) account, you must register an application in Azure AD. You'll have to provide the application ID, key vault secret, and the redirect URL to use. The redirect URL is pre-populated and should work for most installations. You must set up your installation to use HTTPS. For more information, see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). If you're setting up your server to have a different home page, you can change the URL. The client secret will be saved as an encrypted string in your database. 
 
-### <a name="prerequisites"></a>Prerequisites
-
-Dataverse must use one of the following authentication types:
-
-* Office365 (legacy)
-
-  > [!IMPORTANT]
-  > Effective April 2022, Office365 (legacy) will no longer be supported. For more information, see [Important changes (deprecations) coming in Power Apps, Power Automate and customer engagement apps](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
-* Office365 (modern, OAuth2 client secret based)
-* OAuth
-
-### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-dataverse"></a>To register an application in Azure AD for connecting from Business Central to Dataverse
+### To register an application in Azure AD for connecting from Business Central to Dataverse
 
 The following steps assume that you use Azure AD to manage identities and access. For more information about registering an application in Azure AD, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app). 
 
@@ -223,12 +206,12 @@ The following steps assume that you use Azure AD to manage identities and access
    > [!NOTE]
    > If you aren't prompted to sign in with your administrator account, it is probably because pop ups are blocked. To sign in, allow pop-ups from `https://login.microsoftonline.com`.
 
-### <a name="to-disconnect-from-cds_long_md"></a>To disconnect from [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
+### To disconnect from [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Dataverse Connection Setup**, and then choose the related link.
 2. On the **Dataverse Connection Setup** page, turn off the **Enabled** toggle.  
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [View the Status of a Synchronisation](admin-how-to-view-synchronization-status.md)  
 

@@ -3,22 +3,16 @@ title: Onboard Users with Checklists
 description: Learn how to set up checklists that help users get started in Business Central.
 author: edupont04
 ms.topic: conceptual
-ms.search.keywords: setup, wizard, checklist
-ms.search.form: 1992, 1993, 1994, 1995, 1990, 1997, 1801
+ms.search.keywords: 'setup, wizard, checklist'
+ms.search.form: '1992, 1993, 1994, 1995, 1990, 1997, 1801'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 148856f5160d88d2567516acb561fecaddbeba6f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129058"
 ---
-# <a name="onboard-users-with-checklists"></a>Onboard Users with Checklists
+# Onboard Users with Checklists
 
 The first time a user signs into a new [!INCLUDE [prod_short](includes/prod_short.md)] company, they can see a banner that encourages them to start the **Get started** checklist to help them set up key information and get ready for business. As the administrator or reselling partner, you can customise the predefined checklists, and you can set up your own steps.
 
-## <a name="to-add-an-item-to-the-checklist"></a>To add an item to the checklist
+## To add an item to the checklist
 
 1. Sign in to [!INCLUDE[prod_short](includes/prod_short.md)] at [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).
 
@@ -31,7 +25,7 @@ The first time a user signs into a new [!INCLUDE [prod_short](includes/prod_shor
     > [!TIP]
     > If the step is for a setup guide, the **Task** field specifies the setup guide. If the step is for learning more, the **Task** field specifies the link to the article or e-learning module.
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Administration](admin-setup-and-administration.md)  

@@ -1,23 +1,17 @@
 ---
 title: Create and Manage Company Contacts
-description: You set up all external entities that you have a business relationship with (such as prospects, customers, vendors, and consultants) as contacts.
+description: 'You set up all external entities that you have a business relationship with (such as prospects, customers, vendors, and consultants) as contacts.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: relationship, prospect
-ms.search.forms: 5054, 5050, 5051, 5052, 5104, 5053, 9130, 6701, 5055, 1604
+ms.search.keywords: 'relationship, prospect'
+ms.search.forms: '5054, 5050, 5051, 5052, 5104, 5053, 9130, 6701, 5055, 1604'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 02c5ff657faba046ae7bd83a27e5694c8fb3ef8f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519681"
 ---
-# <a name="managing-contacts"></a>Managing Contacts
+# Managing Contacts
 
 Employees in your company regularly meet prospective business relations that may develop into formal relationships. All such external contacts and their detailed information should be recorded in the system so that communication is more successful and so they can easily be converted to formal customer, vendor, or bank relationships.
 
@@ -32,7 +26,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Set up profile questionnaires that you want to use when entering information about your contacts' profiles.|[Use Profile Questionnaires to Classify Business Contacts](marketing-create-contact-profile-questionnaire.md)|
 |Resolve confusion when two or more records exist for the same contact.|[Merge Duplicate Records](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)  

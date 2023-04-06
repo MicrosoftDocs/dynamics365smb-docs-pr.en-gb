@@ -5,31 +5,25 @@ author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
+ms.search.form: 1480
+ms.search.keywords: 'Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource'
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: e9120463e2876e7513ac8011918039167760172d
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533005"
 ---
-# <a name="get-the-business-central-add-in-for-excel"></a>Get the Business Central Add-in for Excel
+# Get the Business Central Add-in for Excel
 
 [!INCLUDE[prod_short](includes/prod_short.md)] includes an add-in for Excel that lets users select a **Edit in Excel** action on certain pages to open the data in an Excel worksheet. This action is different than the **Open in Excel** action because it lets users can make changes in Excel, then publish the changes back to [!INCLUDE[prod_short](includes/prod_short.md)]
 
-## <a name="overview"></a>Overview
+## Overview
 
-### <a name="about-the-add-in"></a>About the add-in
+### About the add-in
 
 The add-in is called **Microsoft Dynamics Office Add-in** and it's available for installation from on the [Office Store (AppSource)](https://appsource.microsoft.com/). With the add-in installed, the **Edit in Excel** action is available on most list and list part pages from the **Share** icon ![Share a page in another app.](media/share-icon.png). For more information about using the add-in, see [Viewing and Editing in Excel From Business Central](across-work-with-excel.md).
 
 > [!NOTE]
 > The add-in works on Windows only; not macOS.
 
-### <a name="about-deployment-as-an-admin"></a>About deployment as an admin
+### About deployment as an admin
 
 With [!INCLUDE[prod_short](includes/prod_short.md)] online, there are a few deployment options for getting the add-in to users. One option is *individual acquisition*, where you let users install the add-in themselves. With this option, users must have access to downloading files from the Office Store. Another option is to set up *Centralised Deployment* in the Microsoft 365 admin centre to automatically deploy the add-in to your entire organisation, groups, or specific users. Centralised Deployment provides a way to get the add-in to users if your organisation doesn't give users access to the Office Store.
 
@@ -41,21 +35,21 @@ For the end-user, the installation experience is different for the two deploymen
 
 With both these deployment options, the add-in is automatically configured to connect to [!INCLUDE[prod_short](includes/prod_short.md)].A third deployment option is a manual installation of the add-in directly from Excel. With this option, users will need to configure the add-in to connect to [!INCLUDE[prod_short](includes/prod_short.md)]
 
-### <a name="switching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around"></a><a name="switch"></a>Switching from individual acquisition to Centralised Deployment or the other way around
+### <a name="switch"></a>Switching from individual acquisition to Centralised Deployment or the other way around
 
 When you change from individual acquisition of the add-in to Centralised Deployment, or vice versa, Excel files that users created before the transition are affected. After the transition, users can still open any Excel worksheets previously created using the **Edit in Excel** action or created manually by configuring the Excel add-in. But they can't update the data in the file from Business Central or push updates to Business Central
 
 This condition is caused by the fact that each Excel file gets assigned an "add-in" identifier. In the transition to or from Centralised Deployment, a different ID is assigned, so the earlier ID becomes blocked.
 
-## <a name="preparation-on-premises-only"></a>Preparation (on-premises only)
+## Preparation (on-premises only)
 
 [!INCLUDE[prod_short](includes/prod_short.md)] on-premises requires that your environment is configured for the add-in. If not, the **Edit in Excel** action won't be available to users. For more information, see [Setting up the Excel Add-In for Editing Business Central Data](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin) in the Developer and IT Pro help.
 
-## <a name="deploy-the-add-in-by-using-centralized-deployment"></a>Deploy the add-in by using Centralised Deployment
+## Deploy the add-in by using Centralised Deployment
 
 Centralised Deployment is a feature in Microsoft 365 admin centre that you use to automatically install add-ins in users' Office apps, like Excel. To help you with Centralised Deployment, [!INCLUDE[prod_short](includes/prod_short.md)] includes the **Excel Add-in Centralised Deployment** assisted setup.
 
-### <a name="before-you-begin"></a>Before you begin
+### Before you begin
 
 - To learn about preventing users from downloading from the Office store, see [Manage add-ins in the admin centre](/microsoft-365/admin/manage/manage-addins-in-the-admin-center).
 - Verify that Centralised Deployment will work for your organisation. For more information, see [Determine if Centralised Deployment of add-ins works for your organisation](/microsoft-365/admin/manage/centralized-deployment-of-add-ins)
@@ -64,7 +58,7 @@ Centralised Deployment is a feature in Microsoft 365 admin centre that you use t
 > [!NOTE]
 > Enabling Centralised Deployment affects features that use the Excel add-in, such as the **Edit in Excel** action. It has no effect on other Excel-related features and or permissions assigned to users in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-### <a name="set-up-centralized-deployment-of-the-add-in"></a>Set up Centralised Deployment of the add-in
+### Set up Centralised Deployment of the add-in
 
 You'll work in both [!INCLUDE[prod_short](includes/prod_short.md)] and the Microsoft 365 admin centre.
 
@@ -93,7 +87,7 @@ When finished, you can always change the deployment in Microsoft 365 admin centr
 > [!NOTE]
 > It can take up to 24 hours before users the add-in deploys automatically in Excel of users.
 
-## <a name="individual-acquisition-install-the-add-in-manually-for-your-own-use"></a><a name="install"></a>Individual acquisition: Install the add-in manually for your own use
+## <a name="install"></a>Individual acquisition: Install the add-in manually for your own use
 
 In most cases, when you open Excel from Business Central, the add-in will either be installed automatically for you or you'll be prompted to install it. There might be cases, however, where you have to manually install the add-in.
 
@@ -103,7 +97,7 @@ In most cases, when you open Excel from Business Central, the add-in will either
 
 When the add-in is installed, it shows up as a panel in Excel. Next, configure the connection.
 
-### <a name="configure-the-business-central-connection"></a>Configure the Business Central connection
+### Configure the Business Central connection
 
 If a user can't connect automatically, you can unblock them by asking them to follow these steps:
 
@@ -115,17 +109,17 @@ If a user can't connect automatically, you can unblock them by asking them to fo
 
 The add-in is now connected to [!INCLUDE [prod_short](includes/prod_short.md)], and you can edit data and publish the changes to [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## <a name="prepare-devices-and-network-for-the-excel-add-in"></a>Prepare devices and network for the Excel Add-In
+## Prepare devices and network for the Excel Add-In
 
-Network services such as proxies or firewalls must allow routing between each client device on which the add-In is installed and many service endpoints. For a list of endpoints, see [Preparing your network for the Excel Add-In](/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins).
+Network services such as proxies or firewalls must allow routing between each client device on which the add-in is installed and many service endpoints. For a list of endpoints, see [Preparing your network for the Excel Add-In](/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins).
 
-## <a name="troubleshooting"></a>Troubleshooting
+## Troubleshooting
 
 Sometimes, users run into problems with the Excel add-in. This section gives some tips for how to unblock users in certain circumstances.
 
 |Problem  |Solution or workaround  |Comments  |
 |---------|---------|---------|
-|The add-in doesn't start|Check whether the add-in is deployed centrally. Or, check whether the user is blocked from installing it locally. | The admin can configure Office so that users can't acquire add-ins. In those cases, the admin must deploy the add-in centrally. For more information, see [Deploy add-ins in the admin centre](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).|
+|The add-in doesn't start <br><br>For example, the user gets the message "Add-in Warning: This add-in is no longer available." when trying to use the add-in. This particular problem can happen if centralised deployment is configured correctly, but the user wasn't assigned access.|Check whether the add-in is deployed centrally. Or, check whether the user is blocked from installing it locally. | The admin can configure Office so that users can't acquire add-ins. In those cases, the admin must deploy the add-in centrally. For more information, see [Deploy add-ins in the admin centre](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).|
 |Data doesn't load into Excel|Test the connection by opening another list in Excel from [!INCLUDE [prod_short](includes/prod_short.md)]. Or, open the workbook in Excel in a browser.|If the user has specified a company name that contains special characters, the add-in can't connect. |
 |Data can't publish back to [!INCLUDE [prod_short](includes/prod_short.md)].|Test the connection by opening the workbook in Excel in a browser. |Sometimes an extension can block the publishing job. If the page is extended or customised, remove the extensions, and then try again.|
 |The dates are wrong  |Excel might show times and dates in a different format than [!INCLUDE [prod_short](includes/prod_short.md)]. This condition doesn't make them wrong, and the data in [!INCLUDE [prod_short](includes/prod_short.md)] won't get messed up.|         |
@@ -165,9 +159,9 @@ When the add-in is installed, it shows up as a panel in Excel. Next, you must co
 > [!NOTE]
 > In certain deployments, the administrator must configure network access to unblock the Excel add-in. For more information, see [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Analysing Financial Statements in Microsoft Excel](finance-analyze-excel.md)  
 [Work with Business Central](ui-work-product.md)  
