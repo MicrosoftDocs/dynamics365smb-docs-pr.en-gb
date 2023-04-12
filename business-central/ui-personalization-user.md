@@ -13,19 +13,20 @@ ms.author: bholtorf
 ---
 # Personalise Your Workspace
 
-You can personalise your workspace to suit your work and preferences. Change pages so that they display only the information you need, where you need it. The personalisation changes will only affect what *you* see, not what other users see.
+You can personalise your workspace to suit your work and preferences. Change pages so that they display only the information you need, where you need it. Personalisation affects only your workspace. It doesn't change how others work.
 
-You can personalise all types of pages, including the Role Centre page. For more information about Role Centres, see [Role Centre](ui-change-basic-settings.md#role-center).  
+You can personalise all types of pages, including the Role Centre page. To learn more about Role Centres, go to [Role Centre](ui-change-basic-settings.md#role-center).  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 You can make various changes, such as move or hide fields, columns, actions, and entire parts, and add new fields. Most personalisation must be done by first activating the **Personalising** banner. You can make simple adjustments, such as the column width, immediately on any list.
 
 > [!NOTE]
-> Administrators can perform the same layout changes as users can by customising the workspace for a profile that multiple users are assigned. For more information, see [Customise Pages for Roles](ui-personalization-manage.md)<br /><br />
+> Administrators can make the same layout changes as users by customising the workspace for a profile that multiple users are assigned. To learn more about pages for Roles, go to [Customise Pages for Roles](ui-personalization-manage.md)<br /><br />
 Administrators can also override or disable users' personalisation, and they can define which features are even available for users to see in all or specific companies. For more information, see [Customising Business Central](ui-customizing-overview.md).
 
-## Video Overview
+## Video
+
 The following video shows some of the ways in which you can personalise your Role Centre.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
@@ -77,7 +78,7 @@ As for other personalisation, the changes you make to column width are stored on
 
 Personalisation lets you decide which actions to show on the navigation and action bars and on Role Centres, and where to show them. You can show, hide, or move individual actions or action groups.
 
-In 2022 release wave 2 we provided more ways for you to make Business Central your own. The following video shows how you can personalise actions on pages and Role Centres.
+The following video shows how you can personalise actions on pages and Role Centres.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE594m2]
 
@@ -115,7 +116,7 @@ Where you can drop actions or actions groups is indicated by a horizontal line b
 1. To move an action or action group, drag and drop it to the desired position, like you do with fields and columns.
 2. To move an action or action group into another action group that is empty, drag the action or action group to the new group and drop it in the **Drop an action here** box.
 
-## <a name="Parts"></a>Personalising Parts
+## <a name="Parts"></a>Personalising parts
 
 Parts are areas on a page that are typically composed of multiple fields, charts or other content. A part shows a coloured border when you focus on the part. For example, a Role Centre home screen has multiple parts. Because of their well-defined boundary, you can personalise the entire part and its contents.
 
@@ -126,6 +127,7 @@ Parts are areas on a page that are typically composed of multiple fields, charts
 You can clear all personalisation changes that you have made within a single part by choosing the **Clear personalisation** option under the part's arrowhead. Clearing personalisation of a part only affects changes to the contents of the part, not the placement or visibility of the part on the page.  
 
 ## To clear personalisation
+
 At some point, you might want to undo some or all of the personalisation changes that you have made to a page over time.
 
 1. On the **Personalising** banner, choose the **Clear personalisation** action.
@@ -138,10 +140,10 @@ At some point, you might want to undo some or all of the personalisation changes
 |------|------------
 |**Only Navigation Menu**|Clears any personalisation changes that you have ever made to the navigation menu that is shared across the Role Centre and other pages. Such changes include any new actions that were added as bookmarks, and any changes to links and groups in the menu.|  
 |**Only Actions**|Clears any personalisation changes that you have ever made on the navigation or action bars on the page.|
-|**Only Fields, Columns, and Parts**|Clears any personalisation changes that you have ever made to the page except changes on the navigation or action bar. Such changes include changes to fields, columns, parts, and tiles. |
+|**Only Fields and Columns**|Clears any personalisation changes that you have ever made to the page except changes on the navigation or action bar. Such changes include changes to fields, columns, parts, and tiles. |
 |**All**|Clears all personalisation changes that you have made to the page so it looks like it did originally. Such changes include changes to navigation and action bars, fields, columns, parts, and tiles.|
 
-## Other Points of Interest
+## Other points of interest
 
 To help you better understand personalisation, here are some pointers.
 

@@ -2,19 +2,17 @@
 title: Synchronising Business Central and Dataverse
 description: Learn about synchronising data between Business Central and Dataverse.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: 'sales, crm, integration, sync, synchronize'
-ms.date: 06/14/2021
 ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: conceptual
+ms.date: 03/31/2023
+ms.custom: bap-template
+ms.search.keywords: 'sales, crm, integration, sync, synchronize'
 ---
 
 # Scheduling a Synchronisation between Business Central and Dataverse
 
-
-You can synchronise [!INCLUDE[prod_short](includes/prod_short.md)] with [!INCLUDE[cds_long_md](includes/cds_long_md.md)] on scheduled intervals by setting up jobs in the job queue. The synchronisation jobs synchronise data in [!INCLUDE[prod_short](includes/prod_short.md)] records and [!INCLUDE[cds_long_md](includes/cds_long_md.md)] records that have been previously coupled together. Or for records that are not already coupled, depending on the synchronisation direction and rules, the synchronisation jobs can create and couple new records in the destination system. 
+You can synchronise [!INCLUDE[prod_short](includes/prod_short.md)] with [!INCLUDE[cds_long_md](includes/cds_long_md.md)] on scheduled intervals by setting up jobs in the job queue. The synchronisation jobs synchronise data in [!INCLUDE[prod_short](includes/prod_short.md)] records and [!INCLUDE[cds_long_md](includes/cds_long_md.md)] records that are coupled. For records that are not already coupled, depending on the synchronisation direction and rules, the synchronisation jobs can create and couple new records in the destination system.
 
 There are several synchronisation jobs that are available out-of-the-box. The jobs are run in the following order to avoid coupling dependencies between tables. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
 
@@ -26,7 +24,7 @@ There are several synchronisation jobs that are available out-of-the-box. The jo
 
 You can view the jobs on the **Job Queue Entries** page. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
 
-## Default Synchronisation Job Queue Entries
+## Default synchronisation job queue entries
 
 The following table describes the default synchronisation jobs for [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 
@@ -38,18 +36,18 @@ The following table describes the default synchronisation jobs for [!INCLUDE[cds
 | SUPPLIER - Common Data Service synchronisation job | Synchronises [!INCLUDE[cds_long_md](includes/cds_long_md.md)] accounts with [!INCLUDE[prod_short](includes/prod_short.md)] customers. | Bidirectional | SUPPLIER | 30 | 720<br> (12 hrs) |
 | SALESPEOPLE - Common Data Service synchronisation job | Synchronises [!INCLUDE[prod_short](includes/prod_short.md)] salespeople with [!INCLUDE[cds_long_md](includes/cds_long_md.md)] users. | From [!INCLUDE[cds_long_md](includes/cds_long_md.md)] to [!INCLUDE[prod_short](includes/prod_short.md)] | SALESPEOPLE | 30 | 1440<br> (24 hrs) |
 
-## Synchronisation Process
+## Synchronisation process
 
 Each synchronisation job queue entry uses a specific integration table mapping that specifies which [!INCLUDE[prod_short](includes/prod_short.md)] table and [!INCLUDE[cds_long_md](includes/cds_long_md.md)] table to synchronise. The table mappings also include some settings that control which records in the [!INCLUDE[prod_short](includes/prod_short.md)] table and [!INCLUDE[cds_long_md](includes/cds_long_md.md)] table to synchronise.  
 
 To synchronise data, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] table records must be coupled to [!INCLUDE[prod_short](includes/prod_short.md)] records. For example, a [!INCLUDE[prod_short](includes/prod_short.md)] customer must be coupled to a [!INCLUDE[cds_long_md](includes/cds_long_md.md)] account. You can set up couplings manually, before running the synchronisation jobs, or let the synchronisation jobs set up couplings automatically. The following list describes how data is synchronised between [!INCLUDE[cds_long_md](includes/cds_long_md.md)] and [!INCLUDE[prod_short](includes/prod_short.md)] when you are using the synchronisation job queue entries. For more information, see [Couple and Synchronise Records Manually](admin-how-to-couple-and-synchronize-records-manually.md).
 
-- The **Sync. Only Coupled Records** check box controls whether new records are created when you synchronise. By default, the check box is selected, which means that only records that are coupled will be synchronised. In the integration table mapping, you can change the table mapping between a [!INCLUDE[cds_long_md](includes/cds_long_md.md)] table and a [!INCLUDE[prod_short](includes/prod_short.md)] table so that the integration synchronisation jobs will create new records in the destination database for each row in the source database that is not coupled. For more information, see [Creating New Records](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).
+- The **Sync. Only Coupled Records** check box controls whether new records are created when you synchronise. By default, the check box is selected, which means that only records that are coupled will be synchronised. In the integration table mapping, you can change the table mapping between a [!INCLUDE[cds_long_md](includes/cds_long_md.md)] table and a [!INCLUDE[prod_short](includes/prod_short.md)] table so that the integration synchronisation jobs will create new records in the destination database for each row in the source database that is not coupled. For more information, see [Creating New Records](admin-how-to-modify-table-mappings-for-synchronization.md#create-new-records).
 
     **Example** If you clear the **Sync. Only Coupled Records** check box, when you synchronise customers in [!INCLUDE[prod_short](includes/prod_short.md)] with accounts in [!INCLUDE[cds_long_md](includes/cds_long_md.md)], a new account is created for each customer in [!INCLUDE[prod_short](includes/prod_short.md)] and automatically coupled. Additionally, because the synchronisation is bidirectional in this case, a new customer is created and coupled for each [!INCLUDE[cds_long_md](includes/cds_long_md.md)] account that is not already coupled.  
 
     > [!NOTE]  
-    > There are rules and filters that determine what data is synchronised. For more information, see [Synchronisation Rules](admin-synchronizing-business-central-and-sales.md).
+    > There are rules and filters that determine what data is synchronised. For more information, go to [Synchronisation Rules](admin-synchronizing-business-central-and-sales.md).
 
 - When new records are created in [!INCLUDE[prod_short](includes/prod_short.md)], the records use the either the template that is defined for the integration table mapping or the default template that is available for the row type. Fields are populated with data from [!INCLUDE[prod_short](includes/prod_short.md)] or [!INCLUDE[cds_long_md](includes/cds_long_md.md)] depending on the synchronisation direction. For more information, see [Modify Table Mappings for Synchronisation](admin-how-to-modify-table-mappings-for-synchronization.md).  
 
@@ -59,7 +57,8 @@ To synchronise data, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] table reco
 
 - With bidirectional synchronisation, the job synchronises from [!INCLUDE[prod_short](includes/prod_short.md)] to [!INCLUDE[cds_long_md](includes/cds_long_md.md)], and then from [!INCLUDE[cds_long_md](includes/cds_long_md.md)] to [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## About Inactivity Timeouts
+## About inactivity timeouts
+
 Some job queue entries, such as those that schedule synchronisation between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)], use the **Inactivity Timeout** field on the Job Queue Entry PAGE to prevent the job queue entry from running unnecessarily.  
 
 :::image type="content" source="media/on-hold-with-inactivity-timeout.png" alt-text="Flowchart for when job queue entries are put on hold due to inactivity.":::
@@ -88,7 +87,7 @@ For example, by default, the CURRENCY job queue entry, which synchronises curren
 
 - Choose the :::image type="icon" source="media/ui-search/search_small.png" border="false"::: icon, enter **Integration Synchronisation Errors**, and then choose the related link.
 
-## See Also
+## See also 
 
 [Synchronising Data in Business Central and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md)  
 [Manually Synchronise Table Mappings](admin-manual-synchronization-of-table-mappings.md)  

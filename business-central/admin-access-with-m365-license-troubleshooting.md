@@ -4,48 +4,63 @@ description: Learn how you can fix problems accessing Business Central with only
 author: mikebc
 ms.author: mikebc
 ms.reviewer: jswymer
-ms.service: dynamics365-business-central
 ms.topic: troubleshooting
-ms.date: 11/03/2022
+ms.date: 02/07/2023
 ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
 
 # Troubleshoot Access with Microsoft 365 Licences
 
-## Symptoms
+## "This page uses data from related tables that you do not have access to" error message
 
-When accessing a record in Teams, you are shown an error message in a tab or card details similar to:
+### Symptoms
 
-"This page uses data from related tables that you do not have access to. To work with all features of this page, contact your administrator."
+When accessing a record in Teams, you're shown an error message in a tab or card details similar to:
 
-## Cause
+"This page uses data from related tables that you don't have access to. To work with all features of this page, contact your administrator."
 
-You are most likely missing object permissions for tables that the current page or record links to.
+### Cause
 
-## Symptoms
+You're most likely missing object permissions for tables that the current page or record links to.
 
-Access has been enabled, but users get a permission error when accessing any record.
+## Microsoft 365 access has been enabled, but users get a permission error
 
-## Cause
+### Symptoms
 
-If you enable access in the Business Central admin centre, but do not assign permissions in the Licence Configuration page, anyone that attempts to access Business Central records in Teams will have their user record provisioned without permission to any objects. Business Central is secure by design: administrators must first configure what data can be accessed in Teams. 
+Access with Microsoft 365 has been enabled in Business Central admin centre, but users get a permission error when accessing any record.
 
-## Resolution
+### Cause
+
+If you enable access in the Business Central admin centre, but don't assign permissions in the **Licence Configuration** page, anyone that attempts to access Business Central records in Teams will have their user record provisioned without permission to any objects. Business Central is secure by design: administrators must first configure what data can be accessed in Teams. 
+
+### Resolution
 
 Customising permissions in the Licence Configuration page will only affect newly created users. You must also assign the missing permissions to users that have already been created through the Users list page. 
 
-## Symptoms
+## You shared a link in Teams, but users get a message that they can only view data
 
-When I share a link in Teams, others get the error "When accessing Business Central with a Microsoft 365 licence, you can only view data in Microsoft Teams".
+### Symptoms
 
-## Cause
+When you share a link in Teams as a Business Central user, others get the error "When accessing Business Central with a Microsoft 365 licence, you can only view data in Microsoft Teams".
+
+### Cause
 
 When sharing a Business Central link to a Teams chat or channels, navigating a link will always navigate out of Microsoft Teams where the data no longer becomes accessible to a person having a Microsoft 365 licence.
 
-## Resolution
+### Resolution
 
 When sharing pages or records, either include the link preview as a card, or share data as a tab in the chat or channel.
+
+## Card from shared link is minimal and doesn't include Details button
+
+### Symptoms 
+
+When a Microsoft 365 licence holder without a Business Central licence shares a Business Central link in Teams, it automatically expands into a card that has no useful information and only shows Business Central with no **Details** button.
+
+### Cause
+
+Users who have a Microsoft 365 licence but no Business Central licence aren't allowed to share links as cards. If the user has the Business Central app for Teams installed and pastes a link into the compose area, then only a minimal card is displayed. 
 
 ## See also 
 

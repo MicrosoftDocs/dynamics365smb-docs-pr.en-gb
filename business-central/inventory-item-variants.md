@@ -14,7 +14,7 @@ ms.author: edupont
 Item variants are a great way to keep your list of products under control. For example, you have a large number of items that are almost identical and vary only in colour. You can define each variant as a separate item. But you choose to set up one item and specify the various colours as variants of the item.  
 
 > [!TIP]
-> For a practical introduction to using variants in production, see [Walkthrough: Variants](contoso-coffee/variants.md) for the Contoso Coffee demo data.  
+> For a practical introduction to using variants in production, see [Walkthrough: Variants](contoso-coffee/manufacturing/variants.md) for the Contoso Coffee demo data.  
 
 ## Add variants to an item
 
@@ -57,4 +57,4 @@ If the capability is switched on, users can't post an entry if the variant isn't
 
 [Register New Items](inventory-how-register-new-items.md)  
 [Set Up General Stock Information](inventory-how-setup-general.md)  
-[Walkthrough: Variants](contoso-coffee/variants.md)  
+[Walkthrough: Variants](contoso-coffee/manufacturing/variants.md)  
