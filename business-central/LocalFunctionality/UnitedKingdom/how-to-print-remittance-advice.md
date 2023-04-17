@@ -1,5 +1,5 @@
 ---
-title: Print Remittance Advice [GB]
+title: 'Print Remittance Advice [GB]'
 description: You can print remittance advice before posting a payment journal and after posting a payment.
 author: SorenGP
 ms.topic: conceptual
@@ -9,17 +9,11 @@ ms.workload: na
 ms.search.form: 256
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: f8c646b3b69cd2014083547fbf34cf5b922bbf15
-ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "8417541"
 ---
-# <a name="print-remittance-advice-in-the-british-version"></a>Print Remittance Advice in the British Version
+# Print Remittance Advice in the British Version
 You can print remittance advice before posting a payment journal and after posting a payment. This advice displays vendor invoice numbers, which helps vendors to perform reconciliations.  
 
-## <a name="to-print-remittance-advice"></a>To print remittance advice  
+## To print remittance advice  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
 2.  On the **Payment Journal** page, select the payment for which remittance advice must be printed.  
@@ -32,7 +26,7 @@ You can print remittance advice before posting a payment journal and after posti
 5.  On the **Vendor** FastTab, select the appropriate filters.  
 6.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
-## <a name="see-also"></a>See Also  
+## See Also  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)
 
 

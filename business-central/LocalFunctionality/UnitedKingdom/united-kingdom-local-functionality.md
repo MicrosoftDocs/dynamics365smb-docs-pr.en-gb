@@ -1,26 +1,20 @@
 ---
-title: United Kingdom Local Functionality [GB]
+title: 'United Kingdom Local Functionality [GB]'
 description: This article gives you an overview of local functionality in the United Kingdom version of Business Central.
 author: sorenfriisalexandersen
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/22/2021
 ms.author: soalex
-ms.openlocfilehash: fd4330818285d6323359b91a5ada88e44d6e8fd5
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078224"
 ---
-# <a name="united-kingdom-local-functionality-in-the-british-version"></a>United Kingdom Local Functionality in the British Version
+# United Kingdom Local Functionality in the British Version
 
 The following topics describe local functionality that is unique to the United Kingdom version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## <a name="feature-availability"></a>Feature Availability
+## Feature Availability
 
 * VAT & Tax
     * [Making Tax Digital - VAT Returns submission](making-tax-digital-submit-vat-return.md) **Available Now**
@@ -43,7 +37,13 @@ The following topics describe local functionality that is unique to the United K
     * [The GetAddress.io UK Postcodes Extension](ui-extensions-getaddressio.md) **Available Now**
     * [Set Up the GetAddress.io UK Postcodes Extension](uk-setup-postal-code-service.md) **Available Now**
 
-## <a name="see-also"></a>See Also
+## Future legislation requirements being investigated
+
+* Functionality to resubmit a VAT Return **2023 Wave 2**
+
+If you are aware of any upcoming regulatory features, please submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+
+## See Also
 
 [Use Business Central after the United Kingdom Has Left the European Union](united-kingdom-leaving-eu.md)  
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  

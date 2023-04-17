@@ -1,6 +1,6 @@
 ---
-title: Enter Statutory Information [UK]
-description: To comply with legal requirements, statutory information is available on the Statutory FastTab on the Company Information page.
+title: 'Enter Statutory Information [UK]'
+description: 'To comply with legal requirements, statutory information is available on the Statutory FastTab on the Company Information page.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,18 +9,12 @@ ms.workload: na
 ms.search.form: 1
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a37855be889e2801fbb7041161935e2874cb6dc8
-ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "8417543"
 ---
-# <a name="enter-statutory-information-in-the-british-version"></a>Enter Statutory Information in the British Version
+# Enter Statutory Information in the British Version
 
 To comply with legal requirements, statutory information is available on the **Statutory** FastTab on the **Company Information** page in the British version of Business Central.  
 
-## <a name="to-enter-statutory-information"></a>To enter statutory information  
+## To enter statutory information  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
 2.  On the **Statutory** FastTab, fill in the fields as described in the following table.  
@@ -39,7 +33,7 @@ To comply with legal requirements, statutory information is available on the **S
 
 3.  Choose the **OK** button.  
 
-## <a name="see-also"></a>See Also  
+## See Also  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)
 
 

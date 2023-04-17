@@ -1,29 +1,23 @@
 ---
-title: Set Up Reverse Charges on VAT [UK]
+title: 'Set Up Reverse Charges on VAT [UK]'
 description: Learn how you can use reverse charge VAT accounting for a specific range of items to prevent Missing Trader Intercommunity Fund Fraud (MTIC).
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: ''
+ms.search.form: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d1e99878fb9bb2d42179e5623084779bde9ff07e
-ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "8417603"
 ---
-# <a name="set-up-reverse-charge-vat-in-the-british-version"></a>Set Up Reverse Charge VAT in the British Version
+# Set Up Reverse Charge VAT in the British Version
 
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can use reverse charge VAT accounting for a specific range of items to prevent Missing Trader Intercommunity Fund Fraud (MTIC), also known as carousel fraud. This feature is supplemented by the **Reverse Charge Sales List** report. The VAT accounting changes will affect companies trading in electronic goods and integrated circuit devices, such as mobile telephones, microprocessors, and central processing units. These goods will apply to reverse charges.
 
 > [!IMPORTANT]  
 > Legislative information may be subject to change by HM Revenue & Customs (HMRC). For more information, see the [HMRC website](https://www.gov.uk/government/organisations/hm-revenue-customs).  
 
-## <a name="to-reverse-charges-on-vat"></a>To reverse charges on VAT  
+## To reverse charges on VAT  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Business Posting Groups**, and then choose the related link.  
 2.  Create a new VAT business posting group. Set up the needed VAT product posting groups.  
@@ -36,7 +30,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can use reverse cha
 9. To set up items subject to reverse charge, select the item, and open the **Item Card** page.  
 10. On the **Invoicing** FastTab, fill in the **Reverse Charge Applies** field.  
 
-## <a name="reverse-charge-sales-list"></a>Reverse Charge Sales List
+## Reverse Charge Sales List
 This report displays sales of goods which are subject to reverse charge. The report is based on information in the VAT Entry table. You use this to report to the customs and tax authorities the reverse charge sales.  
 
 Examples of goods subject to reverse charge:  
@@ -46,7 +40,7 @@ Examples of goods subject to reverse charge:
 
 Consult the [HMRC website](https://www.gov.uk/government/organisations/hm-revenue-customs) for the list of goods subject to reverse charge.  
 
-## <a name="see-also"></a>See Also  
+## See Also  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  
 
 
