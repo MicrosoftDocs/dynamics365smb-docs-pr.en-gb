@@ -810,10 +810,11 @@
 ##### [Limit the Posting Period](LocalFunctionality/Belgium/how-to-limit-the-posting-period.md)
 ##### [Set the Work Date as the Posting Date](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
 ##### [Make Journal Templates Mandatory](LocalFunctionality/Belgium/specify-journal-template-mandatory.md)
+##### [Deferrals in Sales and Purchase Ledger reports](LocalFunctionality/Belgium/how-to-use-deferrals.md}
 
 ### Canada
 #### [Local Functionality in the Canadian Version](LocalFunctionality/Canada/canada-local-functionality.md)
-#### Tax
+#### VAT
 ##### [Report Sales Tax and Goods/Services Tax in Canada](LocalFunctionality/Canada/sales-tax-goods-services.md)
 ##### [Report Sales Tax in Canada](LocalFunctionality/Canada/ca-sales-tax.md)
 ##### [Set Up Unrealised Sales Tax and Sales Payment Discounts](LocalFunctionality/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
