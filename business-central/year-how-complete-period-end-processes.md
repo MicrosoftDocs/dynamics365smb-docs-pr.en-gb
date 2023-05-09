@@ -6,21 +6,15 @@ ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments'
 ms.date: 08/29/2022
 ms.author: jswymer
-ms.openlocfilehash: ace24899aa3c872cd5ac0609dfc3ecbf63608330
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: en-GB
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607669"
 ---
-# <a name="overview-of-tasks-to-close-accounting-periods"></a>Overview of Tasks to Close Accounting Periods
+# Overview of Tasks to Close Accounting Periods
 
 [!INCLUDE[prod_short](includes/prod_short.md)] does not force you to close periods, however, there are many period-end (month-end) activities that you can do. This topic provides an overview of optional processes and activities for closing periods.  
 
-## <a name="general-ledger"></a>General ledger
+## General ledger
 
 * Specify system-wide and user-specific posting periods.  
 
@@ -31,7 +25,7 @@ ms.locfileid: "9607669"
 * Run financial reports as follows:  
   * Open the **Financial Reports** page, then choose the **Print** action.  
 
-## <a name="sales-and-receivables"></a>Sales and receivables
+## Sales and receivables
 
 * Post all sales orders, invoices, credit memos, and return orders.  
 * Post all cash receipt journals.  
@@ -39,7 +33,7 @@ ms.locfileid: "9607669"
 * Reconcile accounts receivable to the general ledger.  
 * Run the **Delete Invoiced Sales Orders** batch job.  
 
-## <a name="purchases-and-payables"></a>Purchases and payables
+## Purchases and payables
 
 * Post all purchase orders, invoices, credit memos, and return orders.  
 * Post all payment journals.  
@@ -47,7 +41,7 @@ ms.locfileid: "9607669"
 * Run the **Aged Accounts Payable** report and reconcile accounts payable to the general ledger.  
 * Run the **Delete Invoiced Purchase Orders** batch job.  
 
-## <a name="fixed-assets"></a>Fixed assets
+## Fixed assets
 
 * Post all maintenance costs that have been posted through the fixed asset journals or invoices.
 * Post adjustments.
@@ -55,17 +49,17 @@ ms.locfileid: "9607669"
 * Post depreciation.
 * Update and post the recurring fixed asset journal.
 
-## <a name="intercompany"></a>Intercompany
+## Intercompany
 
 * Process intercompany transactions.
 
-## <a name="calculate-and-process-sales-tax"></a>Calculate and process VAT
+## Calculate and process VAT
 
 * Complete VAT statements.  
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/close-fiscal-year-dynamics-365-business-central/)
+## See related [Microsoft training](/training/modules/close-fiscal-year-dynamics-365-business-central/)
 
-## <a name="see-also"></a>See also 
+## See also 
 
 [Closing Years and Periods](year-close-years-periods.md)  
 [Closing Books](year-close-books.md)  
