@@ -12,12 +12,12 @@ ms.search.forms: '5077, 5078, 5074, 5076, 5186, 5075, 5079'
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# Create Interactions on Contacts and Segments
+# <a name="create-interactions-on-contacts-and-segments" />Create Interactions on Contacts and Segments
 You can create interactions to record all the interactions and communications you have with your contacts and segments, for example, direct mail.
 
 Before you create interactions, you must set up interaction templates. For more information, see  [Set Up Interaction Templates](marketing-interactions.md).
 
-## To create an interaction
+## <a name="to-create-an-interaction" />To create an interaction
 1. Open the contact, salesperson, or interaction log entry.
 2. Choose the **Create Interaction** action.
 3. Fill in the fields, and then choose the **OK** button.
@@ -25,12 +25,12 @@ Before you create interactions, you must set up interaction templates. For more 
 > [!NOTE]  
 >   If you need to perform another task before finishing the interaction, you can choose **Cancel** and then finish the interaction at a later time. This postpones the interaction.
 
-## To finish and delete postponed interactions
+## <a name="to-finish-and-delete-postponed-interactions" />To finish and delete postponed interactions
 1. Open the contact, salesperson, or interaction log entry.
 2. Choose **Postponed Interactions**.
 3. Select the interaction you want to finish, and then choose the **Resume** action.
 
-## To create an interaction on a segment
+## <a name="to-create-an-interaction-on-a-segment" />To create an interaction on a segment
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Segments**, and then choose the related link.
 2. In the **Segment page**, in the **Interaction** section, fill in the fields to specify which interaction you want to assign to the segment.
 
@@ -42,7 +42,7 @@ An interaction is recorded for each contact within the segment in the **Interact
 
 If you have selected the **Create Follow-up Segment** check box, a new segment is created that contains the same contacts as the segment you have just logged.
 
-## See Also
+## <a name="see-also" />See Also
 [Recording Interactions](marketing-interactions.md)  
 [Managing Contacts](marketing-contacts.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  

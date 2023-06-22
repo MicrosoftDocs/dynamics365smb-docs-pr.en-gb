@@ -11,7 +11,7 @@ ms.reviewer: edupont
 ms.date: 06/14/2021
 ms.author: soalex
 ---
-# Service Compliance
+# <a name="service-compliance" />Service Compliance
 
 This content contains information about service compliance in relation to [!INCLUDE[prod_short](../includes/prod_short.md)] online  
 
@@ -21,17 +21,17 @@ Please find the detailed list of [Cloud compliance offerings for Business Centra
 
 If you are interested in the complete list of compliance offerings from Microsoft, see [Microsoft Trust Centre](https://www.microsoft.com/trustcenter/compliance/complianceofferings).
 
-## Service Terms
+## <a name="service-terms" />Service Terms
 
 [!INCLUDE [service-terms](../includes/service-terms.md)]
 
-## See Also
+## <a name="see-also" />See Also
 
 [Compliance](compliance-overview.md)  
 [Application Compliance](compliance-application-compliance.md)  
 [Certifications](compliance-certifications.md)  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

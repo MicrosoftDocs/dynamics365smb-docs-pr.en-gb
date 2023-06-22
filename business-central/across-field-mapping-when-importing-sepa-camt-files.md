@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 01/06/2023
 ms.custom: bap-template
 ---
-# Field Mapping When Importing SEPA CAMT Files
+# <a name="field-mapping-when-importing-sepa-camt-files" />Field Mapping When Importing SEPA CAMT Files
 
 [!INCLUDE[prod_short](includes/prod_short.md)] supports the regional SEPA standards (Single Euro Payments Area) for importing SEPA bank statements (CAMT format). For more information, see [Use the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md).  
 
@@ -17,7 +17,7 @@ ms.custom: bap-template
 
  For information about creating or adjusting a data exchange definition, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).  
 
-## CAMT data mapping to fields in the General Journal table (81)  
+## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-" />CAMT data mapping to fields in the General Journal table (81)
 
 |Element Path|Message Element|Data Type|Description|Negative-Sign Identifier|Field No.|Field Name|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
@@ -29,14 +29,14 @@ ms.custom: bap-template
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Unstructured|Text|Information supplied to enable the matching/reconciliation of an entry with the items that the payment is intended to settle, such as commercial invoices in an accounts-receivable system, in an unstructured form||8|Description|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Text|Additional information about the entry||1222|Transaction Information|  
 
-## CAMT data mapping to fields in the Bank Acc. Reconciliation table (273)  
+## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-" />CAMT data mapping to fields in the Bank Acc. Reconciliation table (273)
 
 |Element Path|Message Element|Data Type|Description|Negative-Sign Identifier|Field No.|Field Name|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
 |Stmt/CreDtTm|CreationDateTime|Date|The date and time when the message was created||3|Statement Date|  
 |Stmt/Bal/Amt|Amount|Decimal|The amount resulting from the netted amounts for all debit and credit entries||4|Statement Ending Balance|  
 
-## CAMT data mapping to fields in the Bank Acc. Reconciliation Line table (274)  
+## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-" />CAMT data mapping to fields in the Bank Acc. Reconciliation Line table (274)
 
 |Element Path|Message Element|Data Type|Description|Negative-Sign Identifier|Field No.|Field Name|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
@@ -55,7 +55,7 @@ ms.custom: bap-template
 > [!IMPORTANT]
 > In an import of CAMT bank statements, [!INCLUDE[prod_short](includes/prod_short.md)] expects each transaction to be unique, which means that the **Transaction ID** field that comes from the *Stmt/Ntry/NtryDtls/TxDtls/Refs/EndToEndId* tag in the CAMT file, must be unique within the open bank account reconciliation. If the information is not present, [!INCLUDE[prod_short](includes/prod_short.md)] ignores the payment. If an earlier bank reconciliation on the same bank account was posted with the same transaction ID as on the current import, the current transaction will not automatically reconcile but can still be imported.
 
-## See Also  
+## <a name="see-also" />See Also
 
 [Setting Up Data Exchange](across-set-up-data-exchange.md)  
 [Exchanging Data Electronically](across-data-exchange.md)  

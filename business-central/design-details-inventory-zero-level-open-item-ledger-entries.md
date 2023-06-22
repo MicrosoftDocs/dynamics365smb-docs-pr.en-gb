@@ -10,12 +10,12 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# Design Details: Known Item Application Issue
+# <a name="design-details-known-item-application-issue" />Design Details: Known Item Application Issue
 This article addresses an issue where the inventory level is zero although open item ledger entries exist in  [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 The article starts by listing typical symptoms of the issue, followed by the basics of item application to support the described reasons for this issue. At the end of the article is a workaround to address such open item ledger entries.  
 
-## Symptoms of the Issue  
+## <a name="symptoms-of-the-issue" />Symptoms of the Issue
  Typical symptoms of the issue with zero inventory although open item ledger entries exist are the following:  
 
 -   The following message when you try to close an inventory period: “The inventory cannot be closed because there is negative inventory for one or more items.”  
@@ -29,7 +29,7 @@ The article starts by listing typical symptoms of the issue, followed by the bas
      |333|01/28/2018|Sale|Sales Shipment|102043|TEST|BLUE|-1|-10|-1|-1|Yes|  
      |334|01/28/2018|Sale|Sales Shipment|102043|TEST|BLUE|1|10|1|1|Yes|  
 
-## Basics of Item Application  
+## <a name="basics-of-item-application" />Basics of Item Application
  An item application entry is created for every inventory transaction to link the cost recipient to its cost source so that the cost can be forwarded according to the costing method. For more information, see [Design Details: Item Application](design-details-item-application.md).  
 
 -   For an inbound item ledger entry, the item application entry is created when the item ledger entry is created.  
@@ -42,7 +42,7 @@ The article starts by listing typical symptoms of the issue, followed by the bas
 
 -   Cost Application  
 
-### Quantity Application  
+### <a name="quantity-application" />Quantity Application
  Quantity applications are made for all inventory transactions and are created automatically, or manually in special processes. When made manually, quantity applications are referred to as fixed application.  
 
  The following diagram shows how quantity applications are made.  
@@ -54,7 +54,7 @@ The article starts by listing typical symptoms of the issue, followed by the bas
 > [!NOTE]  
 >  If the outbound item ledger entry is valued by average cost, then the applied inbound item ledger entry is not the unique cost source. It merely plays a part in the calculation of the average cost of the period.  
 
-### Cost Application  
+### <a name="cost-application" />Cost Application
 Cost applications are only created for inbound transactions where the **Appl.-from Item Entry** field is filled to provide a fixed application. This typically happens in connection with a sales credit memo or an undo shipment scenario. The cost application ensures that the item re-enters inventory with the same cost as when it was shipped.  
 
 The following diagram shows how cost applications are made.  
@@ -66,7 +66,7 @@ The following diagram shows how cost applications are made.
 
  Notice above that inbound item ledger 3 (Sales Return) is a cost recipient for the original outbound item ledger entry 2 (Sale).  
 
-## Illustration of a Basic Cost Flow  
+## <a name="illustration-of-a-basic-cost-flow" />Illustration of a Basic Cost Flow
  Assume a complete cost flow where an item is received, is shipped and invoiced, is returned with exact\-cost reversal, and is shipped again.  
 
  The following diagram illustrates the cost flow.  
@@ -75,7 +75,7 @@ The following diagram shows how cost applications are made.
 
  Notice above that the cost is forwarded to item ledger entry 2 (Sale), then to item ledger entry 3 (Sales Return), and finally to item ledger entry 4 (Sale 2).  
 
-## Reasons for the Issue  
+## <a name="reasons-for-the-issue" />Reasons for the Issue
  The issue with zero inventory although open item ledger entries exist can be caused by the following scenarios:  
 
 -   Scenario 1: A shipment and invoice is posted although the item is not available. The posting is then exact-cost reversed with a sales credit memo.  
@@ -90,7 +90,7 @@ The following diagram shows how cost applications are made.
 
  Item ledger entry 2 (Sales Return) cannot be both a cost recipient of the original item ledger entry and at the same time be a supplier of items and their source of costs. Therefore, the original item ledger entry 1 (Sale 1) remains open until a valid source appears.  
 
-## Identifying the Issue  
+## <a name="identifying-the-issue" />Identifying the Issue
  To find out if the open item ledger entries are created, do as follows for the respective scenario:  
 
  For scenario 1, identify the issue as follows:  
@@ -130,7 +130,7 @@ The following diagram shows how cost applications are made.
 
  Notice above that inbound item ledger entry 334 is cost applied to outbound item ledger entry 333.  
 
-## Workaround for the Issue  
+## <a name="workaround-for-the-issue" />Workaround for the Issue
  On the **Item Journal** page, post the following lines for the item in question:  
 
 -   A positive adjustment to close the open outbound item ledger entry.  
@@ -141,7 +141,7 @@ The following diagram shows how cost applications are made.
 
  The result is that inventory is zero and all item ledger entries are closed.  
 
-## See Also  
+## <a name="see-also" />See Also
 [Design Details: Item Application](design-details-item-application.md)   
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  
 

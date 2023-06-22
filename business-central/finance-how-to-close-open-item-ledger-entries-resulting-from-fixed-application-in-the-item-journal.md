@@ -10,7 +10,7 @@ ms.search.form: 40
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal
+# <a name="close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal" />Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal
 
 You can use the **Applies-from Entry** field on the **Item Journal** page to create a fixed application between an inbound transaction and the original outbound transaction. For example, to correct the outbound transaction or to process its return.  
 
@@ -23,7 +23,7 @@ You can change and reapply application entries under certain conditions by using
 
 The following procedure shows how to close such entries by performing two corrective postings in the item journal.  
 
-## To close open item ledger entries that result from a fixed application in the item journal  
+## <a name="to-close-open-item-ledger-entries-that-result-from-a-fixed-application-in-the-item-journal" />To close open item ledger entries that result from a fixed application in the item journal
 
 1. Use the **Applies-from Entry** field to post a positive adjustment with the corresponding quantity. This closes the original negative entry with a fixed application.  
 
@@ -32,7 +32,7 @@ The following procedure shows how to close such entries by performing two correc
 
     The **Applies-to Entry** field specifies if the quantity in the item journal line should be applied to an already-posted document. If this is the case, enter the entry number of the item ledger entry to which the item journal line should be applied.
 
-## See Also
+## <a name="see-also" />See Also
 
 [Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)  
 [Process Sales Returns and Cancellations](sales-how-process-sales-returns-cancellations.md)  

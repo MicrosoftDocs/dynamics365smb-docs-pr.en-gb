@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary, bank-to-bank'
 ms.search.form: '600, 610'
 ---
-# Work with Intercompany Documents and Journals
+# <a name="work-with-intercompany-documents-and-journals" />Work with Intercompany Documents and Journals
 
 Use intercompany documents or journals to post transactions with your intercompany partners. You can post transactions to G/L accounts, and if you've set up intercompany bank accounts you can also post bank-to-bank transactions. To learn more about setting up intercompany bank accounts, go to [Specify the bank accounts to use for intercompany partners](intercompany-how-setup.md#specify-the-bank-accounts-to-use-for-intercompany-partners).  
 
@@ -20,7 +20,7 @@ For sales and purchase documents, the intercompany partner code on the customer 
 
 The same is true for intercompany general journal lines. You don't need to specify accounts, you just choose the the partner company. Corresponding intercompany general journal lines are then created in the partner company.
 
-## Fill in and send an intercompany sales order
+## <a name="fill-in-and-send-an-intercompany-sales-order" />Fill in and send an intercompany sales order
 
 You can send sales and purchase orders and return orders before posting. Invoices and credit memos can't be sent until they're posted.
 
@@ -35,7 +35,7 @@ The following procedure describes how to fill in and send an intercompany sales 
 > [!NOTE]
 > If you do step 5, the sales order goes to your intercompany outbox, where you can send it later. To learn more about the intercompany inbox and outbox, go to [Manage the Intercompany Inbox and Outbox](intercompany-how-manage-intercompany-inbox.md).
 
-## Fill in and post an intercompany journal
+## <a name="fill-in-and-post-an-intercompany-journal" />Fill in and post an intercompany journal
 
 When you post an intercompany general journal line in your company, a corresponding journal line is created in your intercompany outbox that you can transfer to your partner. With 2022 release wave 1, you can also set up the company to automatically create received intercompany transactions that partners posted in intercompany general journals. Your partner can then post the corresponding transaction in their company, without having to re-enter the data.
 
@@ -50,7 +50,7 @@ When you post an intercompany general journal line in your company, a correspond
 
 The entries are posted in your company and a journal with the corresponding entries is created in your intercompany outbox so that you can send them to your partner company.
 
-## See Also
+## <a name="see-also" />See Also
 
 [Managing Intercompany Transactions](intercompany-manage.md)  
 [Finance](finance.md)  

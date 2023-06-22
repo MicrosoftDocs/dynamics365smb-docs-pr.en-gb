@@ -11,7 +11,7 @@ ms.search.form: '256, 233, 624, 1228'
 ms.date: 07/09/2021
 ms.author: edupont
 ---
-# Record Payments and Refunds in the Payment Journal
+# <a name="record-payments-and-refunds-in-the-payment-journal" />Record Payments and Refunds in the Payment Journal
 
 On the **Payment Journal** page, you record payments that you make to vendors and refunds that you make to customers. When you post a payment journal line, the paid amount is recorded on the specified system bank account. You must then take steps to perform the actual money transfer from the related bank account.  
 
@@ -29,7 +29,7 @@ The payment journal is a general journal that is optimised for making payments. 
 
     In addition to recording that the payment is made, you can also use the **Payment Journal** page to output the payment for further processing by your bank. For more information, see [Make Cheque Payments](payables-how-work-checks.md) and [Make Electronic Payments](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
 
-## To make payments in the payment journal
+## <a name="to-make-payments-in-the-payment-journal" />To make payments in the payment journal
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
 2. Open the journal batch that is dedicated to payments.
@@ -43,7 +43,7 @@ The payment journal is a general journal that is optimised for making payments. 
 6. When all payment journal lines are completed, choose the **Post** action.
 
 
-## To issue a refund cheque
+## <a name="to-issue-a-refund-check" />To issue a refund cheque
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
 2. In the **Document Type** field, select **Refund**.  
@@ -57,7 +57,7 @@ The payment journal is a general journal that is optimised for making payments. 
 10. When all payment journal lines are completed, choose the **Post/Print** action, then choose the **Post and Print** action, and select **Yes**.  
   
 
-## See Also
+## <a name="see-also" />See Also
 [Make Cheque Payments](payables-how-work-checks.md)  
 [Make Electronic Payments](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
 [Managing Payables](payables-manage-payables.md)  

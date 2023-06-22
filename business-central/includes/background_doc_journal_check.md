@@ -4,7 +4,7 @@ ms.topic: include
 ms.date: 02/23/2022
 ms.author: bholtorf
 ---
-## Check data in documents and journals while you work
+## <a name="check-data-in-documents-and-journals-while-you-work" />Check data in documents and journals while you work
 
 In 2022 release wave 1 we introduced a feature that will validate the data you enter in documents and journals while you're entering it. For example, turning on this feature can help avoid mistakes in data entry or not being able to post something due to an error. 
 

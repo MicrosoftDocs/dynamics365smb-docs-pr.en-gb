@@ -9,7 +9,7 @@ ms.date: 07/05/2021
 ms.author: edupont
 ---
 
-# Set Up Fixed Assets with User-Defined Depreciation Methods
+# <a name="set-up-fixed-assets-with-user-defined-depreciation-methods" />Set Up Fixed Assets with User-Defined Depreciation Methods
 
 You can use [!INCLUDE[prod_short](includes/prod_short.md)] to set up the user-defined depreciation methods as described here.
 
@@ -23,7 +23,7 @@ The formula for calculating the depreciation amounts is:
 > [!NOTE]  
 > While the date in the field **First User-Defined Depr. Date** is used to determine the time intervals, it is the **Depreciation Starting Date** that is used to determine the number of depreciation days. If the **First User-Defined Depr. Date** is earlier than the **Depreciation Starting Date**, the percentage for the first period in the depreciation table will be only partially used when the program calculates the first depreciation. This means that the asset will not be completely depreciated by the end of the last period.
 
-## To assign a depreciation book to a fixed asset with a user-defined depreciation method
+## <a name="to-assign-a-depreciation-book-to-a-fixed-asset-with-a-user-defined-depreciation-method" />To assign a depreciation book to a fixed asset with a user-defined depreciation method
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.
 2. Select the fixed asset that you want to set up a fixed asset depreciation book for.
@@ -36,7 +36,7 @@ The formula for calculating the depreciation amounts is:
 7. When you use a user-defined method, the **First User-Defined Depr. Date** field must be set to a date that is the same or earlier than the field **Depreciation Starting Date**. If you have selected a value in the **Period Length** field in the depreciation table, the date in the field **First User-Defined Depr. Date** must be the starting date of an accounting period.
 8. Either fill in the field **No. of Depreciation Years** or the field **Depreciation Ending Date**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
-## To set up user-defined depreciation methods
+## <a name="to-set-up-user-defined-depreciation-methods" />To set up user-defined depreciation methods
 
 On the **Depreciation Table** page, you can set up user-defined depreciation methods. For example, you can set up depreciation based on number of units.  
 
@@ -56,11 +56,11 @@ Sum of Digits = 1 + 2 + 3 + 4 = 10 Depreciation:
 * Year 3 = 2/10  
 * Year 4 = 1/10  
 
-### Depreciation Based on Number of Units
+### <a name="depreciation-based-on-number-of-units" />Depreciation Based on Number of Units
 
 This user-defined method can also be used to depreciate based on number of units, for example, in the case of production machines with an established lifetime capacity. On the **Depreciation Tables** page, you can enter the number of units that can be produced in each period (month, quarter, year,or accounting period).  
 
-### Example - User-defined Depreciation
+### <a name="example---user-defined-depreciation" />Example - User-defined Depreciation
 
 You use a depreciation method that allows you to depreciate assets in an accelerated manner for income tax purposes.  
 
@@ -93,7 +93,7 @@ In the previous example, both the **First User-Defined Depr. Date** and **Deprec
 | 12/31/24 |Depreciation |None |None |0 |
 
 
-## See Also
+## <a name="see-also" />See Also
 [Setting Up Fixed Assets](fa-setup.md)  
 [Fixed Assets](fa-manage.md)  
 [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md)  

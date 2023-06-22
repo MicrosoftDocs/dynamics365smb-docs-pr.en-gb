@@ -11,7 +11,7 @@ ms.date: 06/11/2021
 ms.author: bholtorf
 ---
 
-# Sorry, this content is under construction
+# <a name="sorry-this-content-is-under-construction" />Sorry, this content is under construction
 
 :::image type="content" source="media/helene/empty illustration_BCdocs.png" alt-text="There's nothing here right now." border="false":::
 
@@ -21,7 +21,7 @@ We're constantly adding to and improving [!INCLUDE[prod_short](includes/prod_sho
 
 Check back again soon though, and in the meantime you can explore other subjects on the [Dynamics 365 channel on YouTube](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4).
 
-## See Also
+## <a name="see-also" />See Also
 [Visit our video library](across-videos.md)
 
  

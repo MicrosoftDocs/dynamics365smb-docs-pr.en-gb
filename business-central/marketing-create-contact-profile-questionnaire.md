@@ -12,7 +12,7 @@ ms.author: edupont
 ms.date: 05/20/2022
 ---
 
-# Use Profile Questionnaires to Classify Business Contacts
+# <a name="use-profile-questionnaires-to-classify-business-contacts" />Use Profile Questionnaires to Classify Business Contacts
 
 You can rate a prospect so you can identify the ideal prospects to focus your sales campaign on. You can set up profile questionnaires that you want to use when entering information about your contacts' profiles. Within each questionnaire, you can set up the different questions you intend to ask your contacts. This way, you can group contacts so that your campaigns are more likely to target the right people based on the criteria that you define with the questionnaires.  
 
@@ -20,13 +20,13 @@ With the right questionnaires, you can rate your prospects and group them into c
 
 You can also run the questionnaire to answer some of the questions based on contact, customer, or vendor data automatically.  
 
-## To add a profile questionnaire
+## <a name="to-add-a-profile-questionnaire" />To add a profile questionnaire
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Questionnaire Setup**, and then choose the related link.  
 2. Choose the **New** Action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## To add questions to a profile questionnaire
+## <a name="to-add-questions-to-a-profile-questionnaire" />To add questions to a profile questionnaire
 
 1. Choose the relevant profile questionnaire, and then choose the **Edit Questionnaire Setup** action.  
 2. On the first empty line, in the **Type** field, choose **Question** and type your question in the **Description** field. Fill in the other fields on this line.  
@@ -61,11 +61,11 @@ After you have created a questionnaire, you can use it to rate and classify your
 > [!NOTE]
 > If you enter a question that is automatically answered, choose **Line**, and then choose **Question Details**, to enter the criteria to automatically answer the question.
 
-## Apply questionnaires to contacts
+## <a name="apply-questionnaires-to-contacts" />Apply questionnaires to contacts
 
 You can apply your questionnaires to contacts manually. Just open the relevant contact card, and then choose the **Profile** action. Then, once you have applied the questionnaires that you want to apply, you can start using the categories in your campaigns.  
 
-## The Automatic Classification of Contacts
+## <a name="the-automatic-classification-of-contacts" />The Automatic Classification of Contacts
 
 You can automatically classify your contacts according to customer, vendor, and contact information, by setting up automatically answered profile questions on the **Profile Questionnaire Setup** page.  
 
@@ -74,7 +74,7 @@ You can automatically classify your contacts according to customer, vendor, and 
 
 After you have set up automatically answered profile questions, if you assign the profile questionnaire containing these questions to a contact, [!INCLUDE[prod_short](includes/prod_short.md)] will automatically assign the right answers for the contact.  
 
-## Example
+## <a name="example" />Example
 
 You can classify your contacts according to how much they bought from you:
 
@@ -102,7 +102,7 @@ Then fill on the **Profile Question Details** page as follows:
 
 When you assign the profile questionnaire containing this question to a contact, application automatically enters the relevant answer for this contact on the profile lines of the contact card.
 
-## See Also
+## <a name="see-also" />See Also
 
 [Creating Contacts](marketing-create-contact-companies.md)  
 

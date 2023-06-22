@@ -11,11 +11,11 @@ ms.search.form: 9901
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Export Your Business Data to Excel
+# <a name="export-your-business-data-to-excel" />Export Your Business Data to Excel
 
 Excel is a powerful tool to work with data. From inside [!INCLUDE[prod_short](includes/prod_short.md)], you can open any list in Excel. You can even modify data in Excel and then submit it back to [!INCLUDE [prod_short](includes/prod_short.md)]. The same capability makes it easy for you to take your data with you if you decide to cancel your subscription.
 
-## Opening Lists in Excel
+## <a name="opening-lists-in-excel" />Opening Lists in Excel
 
 You can open data in Excel from any journal, list, or worksheet. You just open the page that you want, and then choose **Open in Excel**. For example, open the list of customers (search for **Customers**), and then choose **Open in Excel**. Your browser will prompt you to open or save the generated Excel workbook.  
 
@@ -24,11 +24,11 @@ You can open data in Excel from any journal, list, or worksheet. You just open t
 
 Each list includes some columns. The export to Excel includes any columns that are in your current view. Change the columns by opening the shortcut menu for any column, and then specifying which columns that you want to see. The list of columns is different for most lists. The columns reflect the structure in the database that stores your data. If you aren't sure what type of data a certain column contains, add it to your view. You can always remove it again.  
 
-### Edit Data in Excel
+### <a name="edit-data-in-excel" />Edit Data in Excel
 
 Your [!INCLUDE[prod_short](includes/prod_short.md)] experience includes an add-in for Excel so you can edit data in Excel. For more information, see [Analysing Financial Statements in Microsoft Excel](finance-analyze-excel.md).  
 
-## Exporting Data to Other Finance Systems
+## <a name="exporting-data-to-other-finance-systems" />Exporting Data to Other Finance Systems
 
 If you decide to cancel your subscription for [!INCLUDE[prod_short](includes/prod_short.md)], you can export your data to Excel and take it with you to your next finance system.  
 
@@ -72,9 +72,9 @@ We recommend that you also consider exporting data from the following pages:
 
 For more information, see [To get an overview of a user's permissions](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 
-## See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" />See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## See Also
+## <a name="see-also" />See Also
 [Canceling Your Subscription for [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Analysing Financial Statements in Microsoft Excel](finance-analyze-excel.md)  

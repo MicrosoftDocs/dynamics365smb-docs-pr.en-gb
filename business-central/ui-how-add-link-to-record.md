@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.date: 02/24/2023
 ms.custom: bap-template
 ---
-# Manage Attachments, Links, and Notes on Cards and Documents
+# <a name="manage-attachments-links-and-notes-on-cards-and-documents" />Manage Attachments, Links, and Notes on Cards and Documents
 
 On most list pages, cards, and documents, you can attach files, add links, and write notes on the **Attachments** tab of the **FactBox** pane. The number in the tab title indicates how many attached files, links, or notes exist for the card or document.
 
@@ -23,7 +23,7 @@ You can also add attachments to the emails you send from [!INCLUDE [prod_short](
 >
 > If you delete an order before it is invoiced, the attachment is also removed. When you invoice purchase orders using the Get Receipt Lines action from a purchase invoice, the attachment on the purchase orders is not added to the purchase invoice.
 
-## To attach a file to a purchase invoice
+## <a name="to-attach-a-file-to-a-purchase-invoice" />To attach a file to a purchase invoice
 
 You can attach any type of file, such as text, image, or video files, to a card, document, or a line on a document. This is useful, for example, when you want to store a vendor's invoice as a PDF file on the related purchase invoice in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -44,14 +44,14 @@ The following procedure is based on a purchase invoice. The steps are similar fo
 
 The file is now attached to the purchase invoice.
 
-## To view an attached file
+## <a name="to-view-an-attached-file" />To view an attached file
 
 1. On the **FactBox** pane, open the **Attachments** tab.
 2. Choose the value behind the **Documents** field, such as "1".
 3. On the **Attached Documents** page, choose the **Preview** action.
 4. Open the downloaded file.
 
-## To save a document as a PDF attachment
+## <a name="to-save-a-document-as-a-pdf-attachment" />To save a document as a PDF attachment
 
 Whenever you need to save a document as a file, you can use the **Attach as PDF** action to capture the current document content as a PDF file attached to the FactBox of the document. This is useful, for example, when documents follow multiple steps in a process, such as a sales process or an approval workflow, and you want to refer to a printout of the previous step.
 
@@ -62,7 +62,7 @@ The following procedure is based on a sales order. The steps are similar for all
 
 A PDF file with the current content of the sales order is added to the **Attachments** tab in the FactBox.
 
-## To add a link from an item card
+## <a name="to-add-a-link-from-an-item-card" />To add a link from an item card
 
 You can add a link from a card or document to any URL. This is useful, for example, when you want to link an item card with the supplier's item catalogue.
 
@@ -80,7 +80,7 @@ The following procedure is based on an item card. The steps are similar for all 
 
 The link is now attached to the item card.  
 
-## To write a note on a sales order
+## <a name="to-write-a-note-on-a-sales-order" />To write a note on a sales order
 
 You can write a note on a document or card, for example, to communicate special instructions to other users of the document or card. You can include file links and URLs in notes.
 
@@ -97,7 +97,7 @@ The following procedure is based on a sales order. The steps are similar for all
 
 The note is now attached to the sales order.
 
-## See Also  
+## <a name="see-also" />See Also
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Incoming Documents](across-income-documents.md)  
 [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)  

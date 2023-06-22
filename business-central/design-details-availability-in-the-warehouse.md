@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.date: 02/22/2023
 ms.custom: bap-template
 ---
-# Design Details: Availability in the Warehouse
+# <a name="design-details-availability-in-the-warehouse" />Design Details: Availability in the Warehouse
 
 Stay on top of item availability to ensure that outbound orders flow efficiently, and that your delivery times are optimal.  
 
@@ -21,13 +21,13 @@ Before allocating quantities to picks for outbound flows, [!INCLUDE [prod_short]
 
 When conditions aren't met, error messages are shown. One typical message is the generic "Nothing to handle." message. The message can be shown for many different reasons in outbound and inbound flows where a document line contains the **Qty. to Handle** field.
 
-## Bin content and reservations  
+## <a name="bin-content-and-reservations" />Bin content and reservations
 
 Item quantities exist both as warehouse entries and as item ledger entries in inventory. These two types of entries contain different information about where items are and whether they're available. Warehouse entries define an item’s availability by bin and bin type, which is called bin content. Item ledger entries define an item’s availability by its reservation for outbound documents.  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] calculates the quantity that's available to pick when bin content is coupled with reservations.  
 
-## Quantity available to pick  
+## <a name="quantity-available-to-pick" />Quantity available to pick
 
 [!INCLUDE [prod_short](includes/prod_short.md)] reserves items for pending sales order shipments so that they aren't picked for other sales orders that ship earlier. [!INCLUDE [prod_short](includes/prod_short.md)] subtracts quantities of items that are already being processed, as follows:
 
@@ -46,7 +46,7 @@ The result is available in these documents in the quantity fields, such as the *
 > [!NOTE]  
 > For the priority of reservations, the quantity to reserve is subtracted from the quantity available to pick. For example, if the quantity available in pick bins is 5 units, but 100 units are in put-away bins, when you reserve more than 5 units for another order, an error message is displayed because the additional quantity must be available in pick bins.  
 
-### Calculating the quantity available to pick  
+### <a name="calculating-the-quantity-available-to-pick" />Calculating the quantity available to pick
 
 [!INCLUDE [prod_short](includes/prod_short.md)] calculates the quantity available to pick as follows:  
 
@@ -56,7 +56,7 @@ The following diagram shows the different elements of the calculation.
 
 ![Available to pick with reservation overlap.](media/design_details_warehouse_management_availability_2.png "Available to pick with reservation overlap")  
 
-## Quantity available to reserve
+## <a name="quantity-available-to-reserve" />Quantity available to reserve
 
 Because the concepts of bin content and reservation coexist, the quantity of items that are available to reserve must align with allocations to outbound warehouse documents.  
 
@@ -73,7 +73,7 @@ The result is displayed in the **Total Available Quantity** field on the **Reser
 
 On a reservation line, the quantity that can't be reserved because it's allocated in the warehouse is displayed in the **Qty. Allocated in Warehouse** field on the **Reservation** page.  
 
-### Calculating the quantity available to reserve
+### <a name="calculating-the-quantity-available-to-reserve" />Calculating the quantity available to reserve
 
 [!INCLUDE [prod_short](includes/prod_short.md)] calculates the quantity available to reserve as follows:  
 
@@ -83,7 +83,7 @@ The following diagram shows the different elements of the calculation.
 
 ![Avaliable to reserve per warehouse allocation.](media/design_details_warehouse_management_availability_3.png "Avaliable to reserve per warehouse allocation")  
 
-## See Also  
+## <a name="see-also" />See Also
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [View the Availability of Items](inventory-how-availability-overview.md)

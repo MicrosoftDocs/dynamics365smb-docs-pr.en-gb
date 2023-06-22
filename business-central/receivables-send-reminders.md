@@ -11,13 +11,13 @@ ms.search.form: '436, 437, 442, 431, 432, 434'
 ms.date: 02/09/2022
 ms.author: edupont
 ---
-# Send Reminders of Outstanding Balances
+# <a name="send-reminders-of-outstanding-balances" />Send Reminders of Outstanding Balances
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## See related [Microsoft training](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsprocess-financial-periodic-activities-dynamics--business-central" />See related [Microsoft training](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 
-## See Also
+## <a name="see-also" />See Also
 
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
 [Set Up Multiple Interest Rates for Delayed Payment](finance-how-to-set-up-multiple-interest-rates.md)  

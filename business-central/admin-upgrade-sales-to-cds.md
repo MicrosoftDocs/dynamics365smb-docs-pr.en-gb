@@ -10,7 +10,7 @@ ms.search.keywords: 'sales, crm, integration, integrating'
 ms.date: 06/14/2021
 ms.author: bholtorf
 ---
-# Upgrading an Integration with Dynamics 365 Sales
+# <a name="upgrading-an-integration-with-dynamics--sales" />Upgrading an Integration with Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/prod_short.md)] integrates with [!INCLUDE[prod_short](includes/cds_long_md.md)], which makes it easy to connect and synchronise data with other Dynamics 365 applications, such as [!INCLUDE[crm_md](includes/crm_md.md)], or even apps that you build yourself. If you are integrating for the first time, we recommend that you do so through [!INCLUDE[prod_short](includes/cds_long_md.md)]. For more information, see [Integration with Dataverse](admin-common-data-service.md).
 
 If you have already integrated [!INCLUDE[crm_md](includes/crm_md.md)] with [!INCLUDE[prod_short](includes/prod_short.md)], you can continue to synchronise data using your setup. However, if you upgrade [!INCLUDE[prod_short](includes/prod_short.md)], or turn off your [!INCLUDE[crm_md](includes/crm_md.md)] integration, to turn it on again you must connect through [!INCLUDE[prod_short](includes/cds_long_md.md)]. 
@@ -18,7 +18,7 @@ If you have already integrated [!INCLUDE[crm_md](includes/crm_md.md)] with [!INC
 > [!NOTE]
 > Reconnecting through [!INCLUDE[prod_short](includes/cds_long_md.md)] will apply default synchronisation settings, and will overwrite any configurations you have. For example, the default table mappings will be applied.
 
-## To upgrade your connection to use Dataverse
+## <a name="to-upgrade-your-connection-to-use-dataverse" />To upgrade your connection to use Dataverse
 1. Open the **Microsoft Dynamics 365 Connection Setup** page, and then turn off the **Enabled** toggle. Then close the page to disconnect from [!INCLUDE[crm_md](includes/crm_md.md)].
 2. Open the **Dataverse Connection Setup** page, and in the **Ownership Model** field, choose **Person**. Then choose the **Enabled** toggle to turn on the connection to [!INCLUDE[prod_short](includes/cds_long_md.md)].
   
@@ -34,7 +34,7 @@ If you have already integrated [!INCLUDE[crm_md](includes/crm_md.md)] with [!INC
    > [!IMPORTANT]
    > Using the **Use Default Synchronisation Setup** action will apply the default integration table mappings. All custom mappings will be overwritten. If you have custom mappings that you want to keep, we recommend that you export them to Excel or talk to your Microsoft partner about other ways to keep your custom mappings.    
 
-## See Also
+## <a name="see-also" />See Also
 [Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Integrating with Microsoft Dataverse](admin-common-data-service.md)
 

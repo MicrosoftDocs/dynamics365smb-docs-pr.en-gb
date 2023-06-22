@@ -10,7 +10,7 @@ ms.search.form: '1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862'
 ms.date: 02/08/2023
 ---
 
-# Assign Permissions to Users and Groups
+# <a name="assign-permissions-to-users-and-groups" />Assign Permissions to Users and Groups
 
 [!INCLUDE [2023rw1-sec-group-long](includes/2023rw1-sec-group-long.md)]
 
@@ -46,7 +46,7 @@ For more information, see [Delegated administrator access to Business Central On
 >
 > You can also define the features that are available to users in the user interface and how they interact with them through pages. You do this through profiles that you assign to different types of users according to their job role or department. For more information, see [Manage Profiles](admin-users-profiles-roles.md) and [Customising [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md).
 
-## To create a permission set
+## <a name="to-create-a-permission-set" />To create a permission set
 
 > [!NOTE]
 > In 2022 release wave 2 we made it easier to add permissions to permission sets. Rather than adding permissions individually, you can add entire permission sets. If needed, you can then exclude individual permissions in them. For more information, see [To add other permission sets](#to-add-other-permission-sets). To make that possible, we replaced the Permission Set page with a new one. The key differences are the new **Permission Sets** and **Results** panes, and the **Included permissions** FactBox. To continue using the replaced Permissions page, on the **Permission Sets** page, choose the **Permissions (legacy)** action.
@@ -89,13 +89,13 @@ Maintenance is also easier. When you add a system permission, your user-defined 
 > [!IMPORTANT]
 > Use caution when assigning **Insert Permission** or **Modify Permission** to the **9001 User Group Member** or **9003 User Group Permission Set** table. Any users assigned to the permission set could potentially assign themselves to other user groups, which in turn might give them unintended permissions.
 
-### Example - Indirect Permission
+### <a name="example---indirect-permission" />Example - Indirect Permission
 
 You can assign Indirect permission to allow a user to use an object, but only through another object. For example, a user has permission to run codeunit 80, Sales-Post. The Sales-Post codeunit performs many tasks, including modifying table 37, Sales Line. When the user posts a sales document using the Sales-Post codeunit, [!INCLUDE[prod_short](includes/prod_short.md)] checks whether the user has permission to modify the Sales Line table. If not, the codeunit can't complete its tasks, and the user receives an error message. If so, the codeunit runs successfully.
 
 However, the user doesn't need to have full access to the Sales Line table to run the codeunit. If the user has Indirect permission for the Sales Line table, the Sales-Post codeunit runs successfully. When a user has Indirect permission, they can only modify the Sales Line table by running the Sales-Post codeunit or another object that has permission to modify the Sales Line table. The user can only modify the Sales Line table when doing so from supported application areas. The user can't run the feature inadvertently or maliciously by other methods.
 
-### To add other permission sets
+### <a name="to-add-other-permission-sets" />To add other permission sets
 
 Expand a permission set by adding other permission sets to it. Afterward, you can include or exclude specific permissions, or entire permission sets, in each set you add. This includes permissions in the Extension and System type permission sets, which otherwise isn't allowed. Exclusions apply only to the permission set you're expanding. The original set isn't affected.
 
@@ -115,7 +115,7 @@ Excluding a permission set excludes all of the permissions in the set. [!INCLUDE
 2. Calculate the full list of excluded permissions
 3. Remove excluded permissions from the list of included permissions (removing an indirect permission is the same as Reduce to Indirect)
 
-## To copy a permission set
+## <a name="to-copy-a-permission-set" />To copy a permission set
 
 Create a new permission set by copying another. The new set will include all of the permissions and permission sets from the set you copied. How the permissions and permission sets are arranged in the new permission set differs, depending on your choice in the **Copy operation** field. The following table describes the options.
 
@@ -133,7 +133,7 @@ Create a new permission set by copying another. The new set will include all of 
 > [!NOTE]
 > The notification requires that the **Original System permission set changed** notification is enabled on the **My Notifications** page.
 
-## To create or modify permissions by recording your actions
+## <a name="to-create-or-modify-permissions-by-recording-your-actions" />To create or modify permissions by recording your actions
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Permission Sets**, and then choose the related link.
 
@@ -149,7 +149,7 @@ Create a new permission set by copying another. The new set will include all of 
 8. Choose the **Yes** button to add the recorded permissions to the new permission set.
 9. For each object in the recorded list, specify whether users are able to insert, modify, or delete records in the recorded tables.
 
-### To export and import a permission set
+### <a name="to-export-and-import-a-permission-set" />To export and import a permission set
 
 To quickly set up permissions, you can import permission sets that you exported from another [!INCLUDE[prod_short](includes/prod_short.md)] tenant.
 
@@ -170,11 +170,11 @@ In multi-tenant environments, a permission set will be imported into a specific 
 
 The permission sets are imported.
 
-## To remove obsolete permissions from all permission sets
+## <a name="to-remove-obsolete-permissions-from-all-permission-sets" />To remove obsolete permissions from all permission sets
 
 On the **Permission Sets** page, choose the **Remove Obsolete Permissions** action.
 
-## To set up time constraints for users
+## <a name="to-set-up-time-constraints-for-users" />To set up time constraints for users
 
 Administrators can define periods of time during which specified users are able to post. Administrators can also specify if the system logs how much time users are signed in. Similarly, administrators can assign responsibility centres to users. For more information, see [Work with Responsibility Centres](inventory-responsibility-centers.md).
 
@@ -183,7 +183,7 @@ Administrators can define periods of time during which specified users are able 
 3. In the **User ID** field, enter the ID of a user, or choose the field to see all current Windows users in the system.
 4. Fill in the fields as necessary.
 
-## To manage permissions through user groups
+## <a name="to-manage-permissions-through-user-groups" />To manage permissions through user groups
 
 User groups help you manage permission sets across the company. [!INCLUDE [prod_short](includes/prod_short.md)] online includes default user groups that are assigned to users automatically based on their licence. You can add users manually to a user group, and you can create new user groups as copies of existing ones.  
 
@@ -191,7 +191,7 @@ You start by creating a user group. Then you assign permission sets to the group
 
 Permission sets assigned to a user through a user group stay synchronised. A change to the user group permissions is automatically propagated to the users. If you remove a user from a user group, the involved permissions are automatically revoked.
 
-### To add users to a user group
+### <a name="to-add-users-to-a-user-group" />To add users to a user group
 
 The following procedure explains how to create user groups manually. To create user groups automatically, see [To copy a user group and all its permission sets](#to-copy-a-user-group-and-all-its-permission-sets).
 
@@ -201,7 +201,7 @@ The following procedure explains how to create user groups manually. To create u
 2. On the **User Group** page, choose the **User Group Members** action.
 3. On the **User Group Members** page, choose the **Add Users** action.
 
-### To copy a user group and all its permission sets
+### <a name="to-copy-a-user-group-and-all-its-permission-sets" />To copy a user group and all its permission sets
 
 To quickly define a new user group, you can copy all permission sets from an existing user group to your new user group.
 
@@ -217,7 +217,7 @@ The new user group is added to the **User Groups** page. Proceed to add users. F
 > [!IMPORTANT]
 > You'll get a validation error if you're trying to assign a user group to the user that refers to a permission set which was defined in an uninstalled extension. It's because the App ID of the extension is validated whenever it's referenced. To assign that user group to a user, you can either re-install the extension, remove the reference of the uninstalled extension from the permission set, or remove that permission set from the user group.
 
-### To assign permission sets to user groups
+### <a name="to-assign-permission-sets-to-user-groups" />To assign permission sets to user groups
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Groups**, and then choose the related link.
 2. Select the user group that you want to assign permission to.  
@@ -226,7 +226,7 @@ The new user group is added to the **User Groups** page. Proceed to add users. F
 3. Choose the **User Permission Sets** action to open the **User Permission Sets** page.
 4. On the **User Permission Sets** page, on a new line, fill in the fields as necessary.
 
-### To assign a permission set on the **Permission Set by User Group** page
+### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-group-page" />To assign a permission set on the **Permission Set by User Group** page
 
 The following procedure explains how to assign permission sets to a user group on the **Permission Set by User Group** page.
 
@@ -237,7 +237,7 @@ The following procedure explains how to assign permission sets to a user group o
 
 You can also assign permissions sets directly to a user.
 
-## To assign permission sets to users
+## <a name="to-assign-permission-sets-to-users" />To assign permission sets to users
 
 A permission set is a collection of permissions for specific database objects. All users must be assigned one or more permission sets before they can access [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -253,7 +253,7 @@ You can assign permissions sets to users in two ways:
 - From the **User Card** page by selecting permission sets to assign to the user.
 - From the **Permission Set by User** page by selecting users that a permission set is assigned to.
 
-### To assign a permission set on a user card
+### <a name="to-assign-a-permission-set-on-a-user-card" />To assign a permission set on a user card
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
 2. Select the user that you want to assign permission to.
@@ -261,7 +261,7 @@ Any permission sets that are already assigned to the user are displayed in the *
 3. Choose the **Edit** action to open the **User Card** page.
 4. On the **User Permission Sets** FastTab, on a new line, fill in the fields as necessary. For more information, see [To create or edit a permission set](ui-define-granular-permissions.md#to-create-a-permission-set).
 
-### To assign a permission set on the Permission Set by User page
+### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-page" />To assign a permission set on the Permission Set by User page
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
 2. On the **Users** page, choose the **Permission Set by User** action.
@@ -269,7 +269,7 @@ Any permission sets that are already assigned to the user are displayed in the *
 
     Select the **All Users** checkbox to assign the permission set to all users.
 
-## To get an overview of a user's permissions
+## <a name="to-get-an-overview-of-a-users-permissions" />To get an overview of a user's permissions
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
 2. Open the card of the relevant user.
@@ -295,22 +295,22 @@ Any permission sets that are already assigned to the user are displayed in the *
 > [!NOTE]  
 > When you edit a permission set, the changes will also apply to other users that have the permission set assigned.
 
-### Security filters limit a user's access to specific records in a table
+### <a name="security-filters-limit-a-users-access-to-specific-records-in-a-table" />Security filters limit a user's access to specific records in a table
 
 For record-level security in [!INCLUDE[prod_short](includes/prod_short.md)], use security filters to limit a user's access to data in a table. You create security filters on table data. A security filter describes a set of records in a table that a user has permission to access. You can specify, for example, that a user can only read the records that contain information about a particular customer. In this way, the user can't access the records that contain information about other customers. For more information, see [Using Security Filters](/dynamics365/business-central/dev-itpro/security/security-filters) in the administration content.
 
-## Viewing permission changes telemetry
+## <a name="viewing-permission-changes-telemetry" />Viewing permission changes telemetry
 
 You can set up [!INCLUDE[prod_short](includes/prod_short.md)] to send changes that are done to permission to an Application Insights resource in Microsoft Azure. Then, using Azure Monitor, you create reports and set up alerts on the gathered data. For more information, see the following articles in the [!INCLUDE[prod_short](includes/prod_short.md)] Developer and admin help:
 
 - [Monitoring and Analysing Telemetry - Enabling Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview#enable)
 - [Analysing Field Monitoring Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace)
 
-## Delegated admin users
+## <a name="delegated-admin-users" />Delegated admin users
 
 [!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]
 
-## See Also
+## <a name="see-also" />See Also
 
 [Create Users According to Licences](ui-how-users-permissions.md)  
 [Manage Profiles](admin-users-profiles-roles.md)  

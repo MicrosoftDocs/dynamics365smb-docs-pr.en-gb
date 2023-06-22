@@ -10,10 +10,10 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# Design Details: Accounts in the General Ledger
+# <a name="design-details-accounts-in-the-general-ledger" />Design Details: Accounts in the General Ledger
 To reconcile inventory and capacity ledger entries with the general ledger, the related value entries are posted to different accounts in the general ledger. For more information, see [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md).  
 
-## From the Inventory Ledger  
+## <a name="from-the-inventory-ledger" />From the Inventory Ledger
 The following table shows the relationship between different types of inventory value entries and the accounts and balancing accounts in the general ledger.  
 
 |**Item Ledger Entry Type**|**Value Entry Ttype**|**Variance Type**|**Expected Cost**|**Account**|**Balancing Account**|  
@@ -56,7 +56,7 @@ The following table shows the relationship between different types of inventory 
 |Assembly Output|Variance|Manufacturing Overhead|No|Inventory|Mfg. Overhead Variance|  
 |Assembly Output|Rounding||No|Inventory|Inventory Adjmt.|  
 
-## From the Capacity Ledger  
+## <a name="from-the-capacity-ledger" />From the Capacity Ledger
  The following table shows the relationship between different types of capacity value entries and the accounts and balancing accounts in the general ledger. Capacity ledger entries represent labour time consumed in assembly or production work.  
 
 |**Work Type**|**Capacity Ledger Entry Type**|**Value Entry Type**|**Account**|**Balancing Account**|  
@@ -66,12 +66,12 @@ The following table shows the relationship between different types of inventory 
 |Production|Machine Centre/Work Centre|Direct Cost|WIP Account|Direct Cost Applied|  
 |Production|Machine Centre/Work Centre|Indirect Cost|WIP Account|Overhead Applied|  
 
-## Assembly Costs are Always Actual  
+## <a name="assembly-costs-are-always-actual" />Assembly Costs are Always Actual
  As shown in the table above, assembly postings are not represented in interim accounts. This is because the concept of work in progress (WIP) does not apply in assembly output posting, unlike in production output posting. Assembly costs are only posted as actual cost, never as expected cost.  
 
  For more information, see [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md).  
 
-## Calculating the Amount to Post to the General Ledger  
+## <a name="calculating-the-amount-to-post-to-the-general-ledger" />Calculating the Amount to Post to the General Ledger
  The following fields in the **Value Entry** table are used to calculate the expected cost amount that is posted to the general ledger:  
 
 -   Cost Amount (Actual)  
@@ -86,7 +86,7 @@ The following table shows how the amounts to post to the general ledger are calc
 |Actual Cost|Cost Amount (Actual) – Cost Posted to G/L|  
 |Expected Cost|Cost Amount (Expected) –  Expected Cost Posted to G/L|  
 
-## See Also  
+## <a name="see-also" />See Also
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   
  [Design Details: Inventory Posting](design-details-inventory-posting.md)   
  [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md)  

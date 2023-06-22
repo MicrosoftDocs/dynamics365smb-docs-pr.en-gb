@@ -8,19 +8,19 @@ author: AndreiPanko
 ms.author: andreipa
 ---
 
-# FAQ for Technical Details
+# <a name="faq-for-technical-details" />FAQ for Technical Details
 
 This article answers frequently asked questions about the Shopify connector.
 
-## What is Shopify?
+## <a name="what-is-shopify" />What is Shopify?
 
 Shopify is a subscription-based application that allows anyone to set up an online store and sell products. The Shopify platform offers online retailers a suite of services for payments, marketing, shipping, and customer engagement.
 
-## What is the Microsoft Dynamics 365 Business Central Shopify connector?
+## <a name="what-is-the-microsoft-dynamics--business-central-shopify-connector" />What is the Microsoft Dynamics 365 Business Central Shopify connector?
 
 With the Shopify connector, businesses can link their Shopify store (or stores) with [!INCLUDE[prod_short](../includes/prod_short.md)] to maximise business productivity. Using the Shopify connector, they can access and manage insights from their business and their Shopify online store as one unit.
 
-### Capabilities
+### <a name="capabilities" />Capabilities
 
 - Support for more than one Shopify shop
   - Each shop has its own setup, including a collection of products and locations used to calculate inventory and price lists.  
@@ -43,45 +43,45 @@ With the Shopify connector, businesses can link their Shopify store (or stores) 
 - Track fulfillment information
   - Optionally, choose to transfer item tracking information from [!INCLUDE [prod_short](../includes/prod_short.md)] to Shopify.  
 
-## Why did Microsoft and Shopify form this partnership?
+## <a name="why-did-microsoft-and-shopify-form-this-partnership" />Why did Microsoft and Shopify form this partnership?
 
 [!INCLUDE[prod_short](../includes/prod_long.md)] is teaming up with Shopify to help our customers create a better shopping experience. While Shopify provides merchants with an easy-to-use commerce solution, [!INCLUDE[prod_short](../includes/prod_short.md)] offers comprehensive business management across finance, sales, service, and operations teams. Use the seamless connection between the applications to synchronise orders, stock, and customer information to fulfil orders faster, and better serve customers.
 
-## Which Microsoft products are the Shopify connector available for?
+## <a name="which-microsoft-products-are-the-shopify-connector-available-for" />Which Microsoft products are the Shopify connector available for?
 
 This feature is available only for [!INCLUDE[prod_short](../includes/prod_short.md)] online, starting with version 20.1. It isn't available for on-premises deployments. The connector is pre-installed for new environments. Organisations with existing environments can download and install the connector from AppSource. The organisation must have both a [!INCLUDE [prod_short](../includes/prod_short.md)] licence and a Shopify licence to use the connector. To learn more about supported countries, languages, and editions of [!INCLUDE[prod_short](../includes/prod_short.md)], go to [Shopify Connector on the AppSource](https://go.microsoft.com/fwlink/?linkid=2196238).
 
 The Shopify connector doesn't work for [Embed App](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), where the client URL has the `https://[application name].bc.dynamics.com` format.
 
-## What support is offered for the Shopify connector?
+## <a name="what-support-is-offered-for-the-shopify-connector" />What support is offered for the Shopify connector?
 
-### [!INCLUDE[prod_short](../includes/prod_short.md)]
+### <a name="includeprodshortincludesprodshortmd" />[!INCLUDE[prod_short](../includes/prod_short.md)]
 
 The Shopify connector is covered by the current support model. Learn more at [Technical Support](/dynamics365/business-central/dev-itpro/administration//manage-technical-support) (in English only).
 
 Get help from a consultant who knows the Shopify connector for [!INCLUDE[prod_short](../includes/prod_short.md)], to meet your unique business-specific requirements. Search in [Consultancy Services](https://aka.ms/BCShopifyConsultant).
 
-### Shopify
+### <a name="shopify" />Shopify
 
 Get help with Shopify from the [General Shopify Help Centre](https://help.shopify.com/), or from [24/7 Support for your store as a Shopify merchant](https://help.shopify.com/questions#/).
 
 You can also explore [Experts Marketplace](https://experts.shopify.com/) to find the right experts who offer services for Shopify merchants.
 
-## Currently unsupported features, however, we're tracking them and may consider adding them
+## <a name="currently-unsupported-features-however-were-tracking-them-and-may-consider-adding-them" />Currently unsupported features, however, we're tracking them and may consider adding them
 
 - B2B features, including companies, company price lists, and payment terms
 - Markets
   - Multiple translations of master data. You can choose one language that will be used for product information export.
   - Prices per country/region. One price list is available for the selected currency. Shopify handles the conversion to other currencies.
 
-## Is the Shopify connector extensible?
+## <a name="is-the-shopify-connector-extensible" />Is the Shopify connector extensible?
 
 Yes, the Shopify connector is extensible. Check GitHub to access the [list of extensibility points](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) and explore some [examples](https://github.com/microsoft/ALAppExtensions/blob/main/Apps/W1/Shopify/extensibility_examples.md).
 
-## Is the Shopify connector open for contribution
+## <a name="is-the-shopify-connector-open-for-contribution" />Is the Shopify connector open for contribution
 
 Yes, this extension is open for contributions from our community. You can find the [source code](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) in the Microsoft AL application add-ons repository.
 
-## See Also
+## <a name="see-also" />See Also
 
 [Get Started with the Connector for Shopify](get-started.md)  

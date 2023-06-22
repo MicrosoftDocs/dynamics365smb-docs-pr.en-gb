@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 06/14/2021
 ms.author: soalex
 ---
-# Certifications
+# <a name="certifications" />Certifications
 
 This content contains information about certifications in relation to [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
-## Country/region-specific certifications and accreditations
+## <a name="countryregion-specific-certifications-and-accreditations" />Country/region-specific certifications and accreditations
 
 In some countries or regions, accounting software must be certified to comply with local tax regulation and financial requirements. Some countries exercise this as a yearly recurring requirement and others as a one-off requirement to comply with. Below is a list of the current countries/regions where Business Central has achieved certifications.
 
@@ -27,17 +27,17 @@ In some countries or regions, accounting software must be certified to comply wi
 > [!NOTE]  
 > In countries/regions where Microsoft does not release a local version, it is usually up to the partners to achieve certification of the Business Central base product, including the partner's localisation and regulatory features on top.
 
-## Other certifications
+## <a name="other-certifications" />Other certifications
 
 Business Central as a cloud service also has achieved certifications, such as ISO 27001 and more. For a complete list of these certifications, see [this page (PDF)](https://aka.ms/d365-compliance-list).
 
-## See Also
+## <a name="see-also" />See Also
 
 [Compliance](compliance-overview.md)  
 [Application Compliance](compliance-application-compliance.md)  
 [Service Compliance](compliance-service-compliance.md)  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

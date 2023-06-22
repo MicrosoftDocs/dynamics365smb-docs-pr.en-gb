@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# Design Details: Inventory Valuation
+# <a name="design-details-inventory-valuation" />Design Details: Inventory Valuation
 Inventory valuation is the determination of the cost that is assigned to an inventory item, as expressed by the following equation.  
 
 Ending inventory = beginning inventory + net purchases – cost of goods sold  
@@ -19,7 +19,7 @@ The calculation of inventory valuation uses the **Cost Amount (Actual)** field o
 
 Entries are applied against each other, either by the fixed application or according to the general cost-flow assumption defined by the costing method. One entry of inventory decrease can be applied to more than one increase entry with different posting dates and possibly different acquisition costs. For more information, see [Design Details: Item Application](design-details-item-application.md). Therefore, calculation of the inventory value for a given date is based on summing up positive and negative value entries.  
 
-## Inventory Valuation report  
+## <a name="inventory-valuation-report" />Inventory Valuation report
 To calculate the inventory value in the **Inventory Valuation** report, the report begins by calculating the value of the item’s inventory at a given starting date. It then adds the value of inventory increases and subtracts the value of inventory decreases up to a given ending date. The end result is the inventory value on the ending date. The report calculates these values by summing the values in the **Cost Amount (Actual)** field in the value entries, using the posting dates as filters.  
 
 The printed report always shows actual amounts, that is, the cost of entries that have been posted as invoiced. The report will also print the expected cost of entries that have posted as received or shipped, if you select the Include Expected Cost field on the Options FastTab.  
@@ -30,7 +30,7 @@ The printed report always shows actual amounts, that is, the cost of entries tha
 > [!IMPORTANT]  
 >  Amounts in the **Value** columns of the report are based on the posting date of transactions for an item.  
 
-## Inventory Valuation - WIP report  
+## <a name="inventory-valuation---wip-report" />Inventory Valuation - WIP report
 A manufacturing company needs to determine the value of three types of inventory:  
 
 * Raw Materials inventory  
@@ -45,7 +45,7 @@ As for purchased inventory, the value entries provide the basis of the inventory
 
 The purpose of WIP inventory valuation is to determine the value of the items whose manufacturing has not yet been completed on a given date. Therefore the WIP inventory value is based on the value entries related to the consumption and capacity ledger entries. Consumption ledger entries must be completely invoiced at the date of the valuation. Therefore, the **Inventory Valuation – WIP** report shows the costs representing the WIP inventory value in two categories: consumption and capacity.  
 
-## See Also  
+## <a name="see-also" />See Also
 [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md)   
 [Design Details: Revaluation](design-details-revaluation.md)   
 [Design Details: Production Order Posting](design-details-production-order-posting.md)

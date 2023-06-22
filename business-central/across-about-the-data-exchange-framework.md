@@ -11,7 +11,7 @@ ms.search.form: '189,'
 ms.date: 06/10/2021
 ms.author: edupont
 ---
-# About the Data Exchange Framework
+# <a name="about-the-data-exchange-framework" />About the Data Exchange Framework
 
 You can use the Data Exchange Framework to manage the exchange of business documents, bank files, currency exchange rates, and any other data files with your business partners or authorities.
 
@@ -23,7 +23,7 @@ As an administrator or Microsoft partner, you can use the framework in new integ
 
  ![Data Exchange Framework &#45; Export.](media/across-data-exchange/dataexchangeframework_export.png)  
 
-## Electronic Documents
+## <a name="electronic-documents" />Electronic Documents
 
 As an alternative to emailing business documents as file attachments, you can send and receive them electronically. An "electronic document" is a standard-compliant file representing a business document, such as an invoice from a vendor that you can receive and convert to a purchase invoice in [!INCLUDE[prod_short](includes/prod_short.md)]. Trading partners exchange electronic documents through external document exchange services. By default, [!INCLUDE[prod_short](includes/prod_short.md)] supports sending and receiving electronic invoices and credit memos in the PEPPOL format, which is supported by the largest providers of document exchange services. A major provider of document exchange services, Tradeshift, is pre-configured and ready to be set up for your company. To provide support for other electronic document formats, you must create new data exchange definitions.  
 
@@ -35,7 +35,7 @@ To receive, for example, an invoice from a vendor as an electronic PEPPOL docume
 
   To receive, for example, an invoice as an electronic OCR document, you process it as when you receive an electronic PEPPOL document. The receiving and conversion of electronic documents from OCR are performed by the Data Exchange Framework, represented by the **OCR – Invoice** data exchange definition.  
 
-## Bank Files
+## <a name="bank-files" />Bank Files
 
 The formats of files for exchanging bank data with business management applications vary depending on the supplier of the file and the country or region. [!INCLUDE[prod_short](includes/prod_short.md)] supports import and export of Single Euro Payments Area (SEPA) bank files. Additionally, the AMC Banking 365 Fundamentals extension lets you connect to a AMC Banking 365 Fundamentals extension provided by an external provider, AMC Consult. For more information, see [Make Payments with the AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md). To provide support for other electronic document formats, you use the Data Exchange Framework.  
 
@@ -47,17 +47,17 @@ To export SEPA credit transfers, you choose **Export Payments to File** button o
 
  In addition, the local versions of [!INCLUDE[prod_short](includes/prod_short.md)] support various other file formats for importing and exporting bank data, payroll transactions, and other data. For more information, see the [Local Functionality](about-localization.md) landing page for your country/region in the Help.  
 
-## Currency Exchange Rates
+## <a name="currency-exchange-rates" />Currency Exchange Rates
 
 You can set up an external service to keep your for currency exchange rates up to date. The service that provides updated currency exchange rates is enabled by a data exchange definition. Accordingly, the **Exch. Rate Update Setup Card** page is a condensed view of the **Data Exchange Definition** page for the data exchange definition in question.  
 
 For all exchanges of data in XML files, you can prepare the data exchange setup by loading the related XML schema file on the **XML Schema Viewer** page. Here you select the data elements that you want to exchange with [!INCLUDE[prod_short](includes/prod_short.md)]  and then you either initialise a data exchange definition or generate an XMLport.
 
-## Intrastat
+## <a name="intrastat" />Intrastat
 
 [!INCLUDE[prod_short](includes/prod_short.md)] uses the Data Exchange Framework for Intrastat reporting where you can easily create timestamped files in different formats for export. [!INCLUDE[prod_short](includes/prod_short.md)] contains prepared formats for localised countries as well as for default version. But you can change the out-of-box report or make your own.
 
-## See Also
+## <a name="see-also" />See Also
 
 [Exchanging Data Electronically](across-data-exchange.md)  
 [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  

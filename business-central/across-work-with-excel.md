@@ -10,11 +10,11 @@ ms.search.keywords: 'accountant, accounting, financial report'
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# Viewing and Editing in Excel From Business Central
+# <a name="viewing-and-editing-in-excel-from-business-central" />Viewing and Editing in Excel From Business Central
 
 With pages that display a list of records in rows and columns, like a list of customers, sale orders, or invoices, you can export the list to Microsoft Excel, and view it there. Depending on the page, you have two options for viewing in Excel. Both options are available from the **Share** icon ![Share a page in another app.](media/share-icon.png) at the top of a page. You can either select the **Open in Excel** action or the **Edit in Excel** action on the page. This article explains the two actions.
 
-## Open in Excel
+## <a name="open-in-excel" />Open in Excel
 
 With the **Open in Excel** action, you can make changes to the records in Excel, but you can't publish the changes back to [!INCLUDE[prod_short](includes/prod_short.md)]. You can only save the changes to Excel file, without affecting data in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -32,7 +32,7 @@ With the **Open in Excel** action, you can make changes to the records in Excel,
 > In Excel, whole numbers in columns will have a decimal symbol at the end (like a period `.` or comma `,`) even though the decimal symbol isn't shown in Business Central. The decimal symbol depends on your device's region settings. For example, `10` in Business Central could appear as `10.` or `10,` in Excel. You can change the format in Excel by selecting the values, then selecting <kbd>Ctrl</kbd>+<kbd>1</kbd>. To learn more about changing the number format in Excel, go to [Format Numbers](https://support.microsoft.com/office/format-numbers-f27f865b-2dc5-4970-b289-5286be8b994a).
 
 
-## Edit in Excel
+## <a name="edit-in-excel" />Edit in Excel
 
 The **Edit in Excel** action is available on most lists, but not all. With the **Edit in Excel** action, you make changes to records in Excel and then publish the changes back to [!INCLUDE[prod_short](includes/prod_short.md)]. When Excel opens, you'll see the **Excel Add-in** pane on the right.
 
@@ -41,13 +41,13 @@ The **Edit in Excel** action is available on most lists, but not all. With the *
 - To get the latest data from [!INCLUDE[prod_short](includes/prod_short.md)], choose **Refresh** in the Excel Add-in pane.
 - [!INCLUDE[open-edit-excel](includes/open-and-edit-excel.md)]
 
-### First-time sign-in
+### <a name="first-time-sign-in" />First-time sign-in
 
 The **Edit in Excel** action requires that the Business Central add-in is installed in Excel. In some cases, your administrator may have set up the add-in to install automatically for you. In this case, you just have to sign in to Business Central in **Excel Add-in** pane with your user name and password. Otherwise, the **New Office Add-in** pane opens. To install the add-in, choose **Trust this add-in**, which will install the add-in directly from the Office Store.
 
 If the add-in doesn't install, either contact your admin or try to install it manually. For more information, see [Install the add-in manually for your own use](admin-deploy-excel-addin.md#install).
 
-### Work across environments and companies
+### <a name="work-across-environments-and-companies" />Work across environments and companies
 
 You can switch the company that you're working with. To switch company, select the **Options** icon ![Excel add-in options.](media/cogwheel.png "Excel add-in options") in the Excel Add-in pane, then select the company from the **Company** field.  
 
@@ -61,18 +61,18 @@ If you make changes to the add-in, you must reload it to update the connection. 
 >
 > For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, the **Edit in Excel** action is only available if the Excel add-in has been configured by your administrator, and only available for the Web client. For administrators, if you want to learn how to install the Excel add-in, see [Setting up the Excel Add-In for Editing Business Central Data](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
 
-### Limits when using Excel for the web 
+### <a name="limits-when-using-excel-for-the-web" />Limits when using Excel for the web
 
 When **Edit in Excel** is used on list pages for tables with many columns, the resulting workbook may have too many columns for the file to be viewed in Excel for the web. [!INCLUDE[prod_short](includes/prod_short.md)] automatically limits the exported workbook to 100 columns when OneDrive is configured for system features. 
 
-## See the differences between the options
+## <a name="see-the-differences-between-the-options" />See the differences between the options
 <br><br>  
 
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
 
-## See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" />See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## See Also
+## <a name="see-also" />See Also
 
 [Analysing Financial Statements in Microsoft Excel](finance-analyze-excel.md)  
 [Work with Business Central](ui-work-product.md)  

@@ -11,11 +11,11 @@ ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: jswymer
 ---
-# Close Accounting Periods
+# <a name="close-accounting-periods" />Close Accounting Periods
 
 When a fiscal year is over, you must close the periods that comprise it.
 
-## To close accounting periods
+## <a name="to-close-accounting-periods" />To close accounting periods
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Accounting Periods**, and then choose the related link.
 2. On the **Accounting Periods** page, choose the **Close Year** action.
@@ -32,7 +32,7 @@ Even though a fiscal year has been closed, you can still post general ledger ent
 
 After a fiscal year is closed, you must close the income statement accounts and transfer the year's results to an account in the balance sheet. You can repeat this every time that you post to the closed fiscal year.
 
-## See Also
+## <a name="see-also" />See Also
 
 [Closing Books](year-close-books.md)  
 [Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)  
