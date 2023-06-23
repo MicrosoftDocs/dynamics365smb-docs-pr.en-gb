@@ -118,7 +118,7 @@ You can remove a user's access to [!INCLUDE[prod_short](includes/prod_short.md)]
 
 You can also remove the licence from a user in the Microsoft 365 Admin Centre. The user is then unable to sign in. For more information, see [Remove licences from users](/microsoft-365/admin/manage/remove-licenses-from-users).
 
-### <a name="a-namemasynchronization-with-microsoft-" /><a name="m365"></a>Synchronisation with Microsoft 365
+### <a name="a-namem365asynchronization-with-microsoft-365" /><a name="m365"></a>Synchronisation with Microsoft 365
 
 When you assign a licence for [!INCLUDE[prod_short](includes/prod_short.md)] to a user in Microsoft 365, there are two ways to create the user in [!INCLUDE[prod_short](includes/prod_short.md)].  
 

@@ -45,7 +45,7 @@ To save time when you send documents to customer and vendor contacts by email, s
 1. On the **Document Layouts** page, on the line for a report layout that you want to send to a specific contact for the customer, choose the **Select Email from Contacts** action.
 2. On the **Contacts** page, select one or more contacts, and then choose **OK**.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-central" />See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-central" />See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />See Also
 

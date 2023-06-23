@@ -133,13 +133,13 @@ On the **Manufacturing Setup** page, the **Components at Location** field is set
 
  ![First example of order tracking entries in Reservation Entry table.](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
 
-### <a name="entry-numbers--and-" />Entry Numbers 8 and 9
+### <a name="entry-numbers-8-and-9" />Entry Numbers 8 and 9
  For the component need for LOTA and LOTB respectively, order tracking links are created from the demand in table 5407, **Prod. Order Component**, to the supply in table 32, **Item Ledger Entry**. The **Reservation Status** field contains **Tracking** to indicate that these entries are dynamic order tracking links between supply and demand.  
 
 > [!NOTE]  
 >  The **Lot No.** field is empty on the demand lines, because the lot numbers are not specified on the component lines of the released production order.  
 
-### <a name="entry-numbers-" />Entry Numbers 10
+### <a name="entry-numbers-10" />Entry Numbers 10
  From the sales demand in table 37, **Sales Line**, an order tracking link is created to the supply in table 5406, **Prod. Order Line**. The **Reservation Status** field contains **Reservation**, and the **Binding** field contains **Order-to-Order**. This is because the released production order was generated specifically for the sales order and must remain linked unlike order tracking links with a reservation status of **Tracking**, which are created and changed dynamically. For more information, see the "Automatic Reservations" section in this topic.  
 
  At this point in the scenario, the 100 units of LOTA and LOTB are transferred to EAST location by a transfer order.  
@@ -151,12 +151,12 @@ On the **Manufacturing Setup** page, the **Components at Location** field is set
 
  ![Second example of order tracking entries in Reservation Entry table.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
-### <a name="entry-numbers--and-" />Entry Numbers 8 and 9
+### <a name="entry-numbers-8-and-9" />Entry Numbers 8 and 9
  Order tracking entries for the two lots of the component reflecting demand in table 5407 are changed from a reservation status of **Tracking** to **Surplus**. The reason is that the supplies that they were linked to before, in table 32, have been used by the shipment of the transfer order.  
 
  Genuine surplus, as in this case, reflects excess supply or demand that remains untracked. It is an indication of imbalance in the order network, which will generate an action message by the planning system unless it is resolved dynamically.  
 
-### <a name="entry-numbers--to-" />Entry Numbers 12 to 16
+### <a name="entry-numbers-12-to-16" />Entry Numbers 12 to 16
  Because the two lots of the component are posted on the transfer order as shipped but not received, all related positive order tracking entries are of reservation type **Surplus**, indicating that they are not allocated to any demands. For each lot number, one entry relates to table 5741, **Transfer Line**, and one entry relates to the item ledger entry at the in-transit location where the items now exist.  
 
  At this point in the scenario, the transfer order of the components from EAST to WEST location is posted as received.  
@@ -173,7 +173,7 @@ On the **Manufacturing Setup** page, the **Components at Location** field is set
 
  ![Fourth example of order tracking entries in Reservation Entry table.](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
 
-### <a name="entry-numbers--and-" />Entry Numbers 21 and 22
+### <a name="entry-numbers-21-and-22" />Entry Numbers 21 and 22
  Since the component need has been changed to EAST location, and the supply is available as item ledger entries at EAST location, all order tracking entries for the two lot numbers are now fully tracked, indicated by the reservation status of **Tracking**.  
 
  The **Lot No.** field is now filled in the order tracking entry for table 5407, because the lot numbers were assigned to the production order component lines.  

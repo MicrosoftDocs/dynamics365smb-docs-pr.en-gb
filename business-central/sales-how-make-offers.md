@@ -92,7 +92,7 @@ The conversion removes the sales quote from the database. A sales invoice or a s
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics--business-central" />See related [Microsoft training](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics-365-business-central" />See related [Microsoft training](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

@@ -114,7 +114,7 @@ When a taxonomy changes you need to update the current taxonomy accordingly. The
 6. To import the linkbase, choose the **Import** action.  
 7. Choose **Yes** to apply the linkbase to the schema.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesxbrl-reports-dynamics--business-centralindex" />See related training at [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learnlearnmodulesxbrl-reports-dynamics-365-business-centralindex" />See related training at [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index).
 
 ## <a name="see-also" />See also
 

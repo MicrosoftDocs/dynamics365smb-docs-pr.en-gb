@@ -59,7 +59,7 @@ Alternatively, delete individual sales orders manually.
 
 Repeat steps 1 through 3 for any other affected documents, such as blanket sales orders.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesinvoicing-customers-dynamics--business-central" />See related [Microsoft training](/training/modules/invoicing-customers-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesinvoicing-customers-dynamics-365-business-central" />See related [Microsoft training](/training/modules/invoicing-customers-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

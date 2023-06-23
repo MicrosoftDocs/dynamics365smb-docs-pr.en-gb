@@ -46,7 +46,7 @@ After you make a selection, enter the relevant search information in the fields 
 > [!TIP]
 > For a couple of examples about using **Find Entries**, see [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md) and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuser-interface-dynamics--business-centralindex" />See related [Microsoft training](/training/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesuser-interface-dynamics-365-business-centralindex" />See related [Microsoft training](/training/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also" />See also
 

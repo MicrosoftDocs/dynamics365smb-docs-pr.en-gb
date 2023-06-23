@@ -32,7 +32,7 @@ When you have set up your inventory, you can manage various processes related to
 |Import multiple item pictures in one go from a zip file where the files are named according to item numbers.|[Import Multiple Item Pictures](inventory-how-import-item-pictures.md)|
 |Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathstrade-get-started-dynamics--business-central" />See related [Microsoft training](/training/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathstrade-get-started-dynamics-365-business-central" />See related [Microsoft training](/training/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also" />See Also
 

@@ -158,7 +158,7 @@ To help you better understand personalisation, here are some pointers.
    > [!TIP]
    > As an administrator, you can hide the **Automation** item from users. Learn more at [Set Up Power Automate Integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics--business-centralindex" />See related [Microsoft training](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics-365-business-centralindex" />See related [Microsoft training](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also" />See Also
 [Customise Pages for Profiles](ui-personalization-manage.md)  

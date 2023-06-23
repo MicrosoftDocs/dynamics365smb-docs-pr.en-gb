@@ -74,7 +74,7 @@ If you usually buy or sell in units different from the base unit of measurement,
 4. For purchasing, on the **Replenishment** FastTab, in the **Purch. Unit of Measurement** field, open the **Item Units of Measurement** page.
 5. Select the code you want to set up as the default unit of measurement for sales or purchasing respectively, and then choose the **OK** button.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics--business-central" />See related [Microsoft training](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />See related [Microsoft training](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

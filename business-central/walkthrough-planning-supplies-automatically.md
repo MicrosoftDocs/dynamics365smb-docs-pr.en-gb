@@ -138,7 +138,7 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 
  The planning line for item 1300, Chain Assy, suggests ten pieces. This deviates from the five pieces that we expect to need to fulfill the sales order. Proceed to view the order tracking entries.  
 
-### <a name="to-view-order-tracking-entries-for-item-" />To view order tracking entries for item 1300
+### <a name="to-view-order-tracking-entries-for-item-1300" />To view order tracking entries for item 1300
 
 1.  Select the planning line for item 1300, and then choose the **Order Tracking** action.  
 
@@ -234,7 +234,7 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 
  Several planning lines are simply multiplied by three to provide 15 touring bikes instead of 5, and the due dates are moved back in time to provide the increased quantities by the shipment date of the sales order to the Cannon Group. For these planning lines, all quantities can be tracked. The remaining planning lines are increased by ten pieces in addition to moving their due dates. For these planning lines, a part of the quantities are untracked due to different planning parameters. Proceed to view some of these order tracking entries.  
 
-### <a name="to-view-order-tracking-entries-for-item-" />To view order tracking entries for item 1250
+### <a name="to-view-order-tracking-entries-for-item-1250" />To view order tracking entries for item 1250
 
 1.  Select the planning line for item 1250, and then choose the **Order Tracking** action.  
 

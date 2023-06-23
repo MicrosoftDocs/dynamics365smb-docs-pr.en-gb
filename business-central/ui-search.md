@@ -70,7 +70,7 @@ The **Tell me what you want to do** function doesn't search for data, such as cu
 
 We have shown Tell Me to a range of stakeholders, noted the questions that they had in common, and turned our notes into a list frequently asked questions. If you're interested, see [Tell Me FAQ](ui-search-faq.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuser-interface-dynamics--business-centralindex" />See related [Microsoft training](/training/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesuser-interface-dynamics-365-business-centralindex" />See related [Microsoft training](/training/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also" />See Also
 

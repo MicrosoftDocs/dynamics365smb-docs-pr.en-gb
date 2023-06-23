@@ -58,7 +58,7 @@ If no errors occur, then the updates is applied to the report layouts. If errors
 
 After you modify the layout, try to update the layout again.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />See Also
  [Managing Report Layouts](ui-manage-report-layouts.md)  

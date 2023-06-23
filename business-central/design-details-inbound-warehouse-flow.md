@@ -64,15 +64,15 @@ The following diagram illustrates the inbound warehouse flows by document type i
 
 :::image type="content" source="media/design_details_warehouse_management_inbound_basic_flow.png" alt-text="The basic inbound flow in a warehouse.":::
 
-### <a name="-release-a-source-document-to-create-a-request-for-an-inventory-put-away" />1: Release a source document to create a request for an inventory put-away
+### <a name="1-release-a-source-document-to-create-a-request-for-an-inventory-put-away" />1: Release a source document to create a request for an inventory put-away
 
 When you receive items, release the source document, such as a purchase order or an inbound transfer order. Releasing the document makes the items available to be put away. You can also create inventory put-away documents for individual order lines, in a push fashion, based on specified bins and quantities to handle.  
 
-### <a name="-create-an-inventory-put-away" />2: Create an inventory put-away
+### <a name="2-create-an-inventory-put-away" />2: Create an inventory put-away
 
 On the **Inventory Put-away** page, in a pull fashion, you can get the pending source document lines based on inbound warehouse requests. In a push fashion, you can also create inventory put-away lines when you create the source document.  
 
-### <a name="-post-an-inventory-put-away" />3: Post an inventory put-away
+### <a name="3-post-an-inventory-put-away" />3: Post an inventory put-away
 
 On each line for items that have been put away, partially or fully, fill in the **Quantity** field and then post the inventory put-away. Source documents that are related to the inventory put-away are posted as received.  
 
@@ -89,21 +89,21 @@ The following diagram illustrates the inbound warehouse flow by document type. T
 
 :::image type="content" source="media/design_details_warehouse_management_inbound_advanced_flow.png" alt-text="The advanced inbound flow in a warehouse.":::
 
-### <a name="-release-the-source-document" />1: Release the source document
+### <a name="1-release-the-source-document" />1: Release the source document
 
 When you receive items, release the source document, such as the purchase order or an inbound transfer order. Releasing the document makes the items available to be put away. The put away will contain references to the source document type and number.
 
-### <a name="-create-a-warehouse-receipt" />2: Create a warehouse receipt
+### <a name="2-create-a-warehouse-receipt" />2: Create a warehouse receipt
 
 On the **Warehouse Receipt** page, get the inbound source document lines. You can combine several source document lines in one warehouse receipt document. Fill in the **Qty. to Handle** field and select the receiving zone and bin, if required.  
 
-### <a name="-post-the-warehouse-receipt" />3: Post the warehouse receipt
+### <a name="3-post-the-warehouse-receipt" />3: Post the warehouse receipt
 
 Post the warehouse receipt to create positive item ledger entries. The **Quantity Received** field on the inbound source document line is updated.  
 
 If the **Require Put-away** toggle is not turned on on the location card, this is where the process stops. Otherwise, posting the inbound source document makes the items available to be put away. The put away contains references the source document type and number.  
 
-### <a name="-optional-generate-put-away-worksheet-lines" />4: (Optional) Generate put-away worksheet lines
+### <a name="4-optional-generate-put-away-worksheet-lines" />4: (Optional) Generate put-away worksheet lines
 
 Get warehouse put-away lines in the **Put-away Worksheet** based on posted warehouse receipts or operations that produce output. Choose the lines to put-away, and specify the following information:
 
@@ -118,11 +118,11 @@ When all put-aways are planned and assigned to warehouse workers, generate the w
 > [!NOTE]  
 > If the **Use Put-away Worksheet** toggle is not turned on on the location card, warehouse put-away documents are created directly based on posted warehouse receipts. In that case, this step isn't needed.  
 
-### <a name="-create-a-warehouse-put-away-document" />5: Create a warehouse put-away document
+### <a name="5-create-a-warehouse-put-away-document" />5: Create a warehouse put-away document
 
 Create a warehouse put-away document in a pull fashion, based on the posted warehouse receipt. Alternatively, create the warehouse put-away document and assign it to a warehouse worker in a push fashion.  
 
-### <a name="-register-a-warehouse-put-away" />6: Register a warehouse put-away
+### <a name="6-register-a-warehouse-put-away" />6: Register a warehouse put-away
 
 On each line for items that have been put away, partially or fully, fill in the **Quantity** field on the **Warehouse Put-away** page, and then register the warehouse put-away.  
 

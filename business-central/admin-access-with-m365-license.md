@@ -11,13 +11,13 @@ ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
 
-# <a name="business-central-access-with-microsoft--licenses" />Business Central Access with Microsoft 365 Licences
+# <a name="business-central-access-with-microsoft-365-licenses" />Business Central Access with Microsoft 365 Licences
 
 [!INCLUDE[prod_short](includes/prod_short.md)] users are assigned a Dynamics 365 Business Central licence that allows them to view, modify and act on their business data from any user interface. For all other employees across the organisation that only need to occasionally view data, Business Central offers access through Microsoft 365.  
 
 When an organisation has both a Dynamics 365 Business Central and Microsoft 365 subscription, administrators can configure environments to enable access with Microsoft 365 licences, and choose exactly which tables and other objects this category of user will have access to. When configured, employees that have a Microsoft 365 licence but no [!INCLUDE [prod_short](includes/prod_short.md)] licence can view [!INCLUDE [prod_short](includes/prod_short.md)] records that are shared with them in Microsoft Teams chat and channels.
 
-## <a name="why-enable-access-with-microsoft--licenses" />Why enable access with Microsoft 365 licences
+## <a name="why-enable-access-with-microsoft-365-licenses" />Why enable access with Microsoft 365 licences
 
 - Unlock master data that every employee across the organisation should have access to.
 

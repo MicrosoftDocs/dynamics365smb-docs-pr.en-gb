@@ -25,13 +25,13 @@ The **Item Entry Relation** table, which is used to link a posted document line 
   
 The functionality of the existing **Entry No.** field, which relates an item ledger entry to a posted document line, handles the typical one-to-one relation when no item tracking numbers exist on the posted document line. If item tracking numbers exist, then the **Entry No.** field is left blank, and the one-to-many relation is handled by the **Item Entry Relation** table. If the posted document line carries item tracking numbers but only relates to a single item ledger entry, then the **Entry No.** field handles the relation, and the no record is created in the **Item Entry Relation** table.  
   
-## <a name="codeunits--and-" />Codeunits 80 and 90
+## <a name="codeunits-80-and-90" />Codeunits 80 and 90
 To split the item ledger entries during posting, the code in codeunit 80 and codeunit 90, is encircled by loops that run through global temporary record variables. This code calls codeunit 22 with an item journal line. These variables are initialised when item tracking numbers exist for the document line. To keep the code simple, this looping structure is always used. If no item tracking numbers exist for the document line, then a single record is inserted, and the loop runs only once.  
   
 ## <a name="posting-the-item-journal" />Posting the Item Journal
 Item tracking numbers are transferred via the reservation entries that relate to the item ledger entry, and the looping through item tracking numbers occurs in codeunit 22. This concept works in the same way when an item journal line is used indirectly to post a sale or purchase order as when an item journal line is used directly. When the item journal is used directly, the **Source Row ID** field points to the item journal line itself.  
   
-## <a name="code-unit-" />Code Unit 22
+## <a name="code-unit-22" />Code Unit 22
 Codeunits 80 and 90 loop the call of codeunit 22 during the invoice posting of item tracking numbers and during the invoicing of existing shipments or receipts.  
   
 During quantity posting of item tracking numbers, codeunit 22 retrieves item tracking numbers from the entries in T337 that relate to the posting. These entries are placed directly on the item journal line.  

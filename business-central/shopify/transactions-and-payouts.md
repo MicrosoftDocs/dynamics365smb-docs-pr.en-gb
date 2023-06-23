@@ -75,7 +75,7 @@ Depending on the bank, the Merchant can see this incoming transaction at their b
 
 There are several options on how to handle payment transactions in [!INCLUDE[prod_short](../includes/prod_short.md)]
   
-### <a name="option--reconcile-incoming-transfers-to-bank-account-against-original-invoices" />Option 1: reconcile incoming transfers to bank account against original invoices
+### <a name="option-1-reconcile-incoming-transfers-to-bank-account-against-original-invoices" />Option 1: reconcile incoming transfers to bank account against original invoices
   
 Merchant imports sales order to [!INCLUDE[prod_short](../includes/prod_short.md)] and post shipment and invoice.
 
@@ -88,7 +88,7 @@ Issues:
 1. Can be difficult if there are multiple invoices (and credit memos), but one payout from the payment provider with a lump sum.
 2. Amount usually doesn't match due to commission. You can use payment tolerance or/and payment discounts to handle fees.
 
-### <a name="option--reconcile-incoming-transfers-to-bank-account-against-interim-account-representing-money-at-the-payment-provider" />Option 2: reconcile incoming transfers to bank account against interim account representing money at the payment provider
+### <a name="option-2-reconcile-incoming-transfers-to-bank-account-against-interim-account-representing-money-at-the-payment-provider" />Option 2: reconcile incoming transfers to bank account against interim account representing money at the payment provider
   
 Merchant imports sales order to [!INCLUDE[prod_short](../includes/prod_short.md)] and post shipment and invoice.
   

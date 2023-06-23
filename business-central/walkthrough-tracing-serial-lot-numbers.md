@@ -282,7 +282,7 @@ Then you must create various purchase, production, and sales transactions with t
 
  With the **Item Tracing** page, the quality controller learned that LOT1 contained the faulty racing frames, which vendor supplied them, and in which posted transaction they have been used. They must now determine whether LOT1 is in any open documents by integrating from the trace result to the **Find entries** page where they can perform a search through all database records.  
 
-### <a name="to-find-all-occurrences-of-lot-in-non-posted-records-such-as-open-orders" />To find all occurrences of LOT1 in non-posted records, such as open orders
+### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders" />To find all occurrences of LOT1 in non-posted records, such as open orders
 
 1.  On the **Item Tracing** page, select the first trace line, the purchase receipt of LOT1.  
 2.  Choose the **Find entries** action.  

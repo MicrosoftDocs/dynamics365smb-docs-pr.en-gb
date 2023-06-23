@@ -107,7 +107,7 @@ When you issue a reminder, a reminder entry is created on the **Reminder/Fin. Ch
 
 [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] For more information, see [Set Up Multiple Interest Rates](finance-how-to-set-up-multiple-interest-rates.md).  
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-financial-periodic-activities-dynamics--business-central" />See related [Microsoft training](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsprocess-financial-periodic-activities-dynamics-365-business-central" />See related [Microsoft training](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 
 ## <a name="see-also" />See Also
 

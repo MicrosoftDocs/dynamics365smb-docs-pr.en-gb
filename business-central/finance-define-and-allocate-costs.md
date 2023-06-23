@@ -70,7 +70,7 @@ The following table shows which filters are possible for different allocation ba
 |Items Sold (Amount)|Item No.|Yes|Yes|Yes|Inventory Posting Group|  
 |Items Purchased (Amount)|Item No.|Yes|Yes|Yes|Inventory Posting Group|
 
-## <a name="scenario--defining-static-allocations-based-on-allocation-ratio" />Scenario 1: Defining Static Allocations Based on Allocation Ratio
+## <a name="scenario-1-defining-static-allocations-based-on-allocation-ratio" />Scenario 1: Defining Static Allocations Based on Allocation Ratio
 
 Static allocation method is based on a definite value, such as square meters used, or an established allocation ratio such as 5:2:4.  
 
@@ -110,7 +110,7 @@ This topic describes how to define three new allocation target cost objects for 
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] automatically calculates the **Percent** field using a percentage rate that is dependent on all three allocation ratios that are entered in the **Share** field for all three lines.
 
-## <a name="scenario--defining-dynamic-allocations-based-on-items-sold" />Scenario 2: Defining Dynamic Allocations Based on Items Sold
+## <a name="scenario-2-defining-dynamic-allocations-based-on-items-sold" />Scenario 2: Defining Dynamic Allocations Based on Items Sold
 
 This topic shows an example of how to define allocations by using the dynamic allocation method. In the example, you change the dynamic allocation of the costs for the SALES cost centre to support the new cost object IT EQUIPMENT. IT EQUIPMENT packages have item numbers in the range from 8904-W to 8924-W. You use the previous year’s sales figures to calculate the share. The allocation is posted to the helping cost type 9903.  
 
@@ -137,7 +137,7 @@ This topic shows an example of how to define allocations by using the dynamic al
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] uses the previous years’ sales figures to calculate a share of 1596.50 LCY with 100 percent for the IT EQUIPMENT packages. This means that all of the items sold last year will be allocated to the cost object IT EQUIPMENT.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesallocate-costs-dynamics--business-central" />See related [Microsoft training](/training/modules/allocate-costs-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesallocate-costs-dynamics-365-business-central" />See related [Microsoft training](/training/modules/allocate-costs-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

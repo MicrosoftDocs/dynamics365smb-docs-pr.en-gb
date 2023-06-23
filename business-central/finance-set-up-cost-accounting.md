@@ -189,7 +189,7 @@ For each general ledger account, you can define default dimension values in the 
 > [!NOTE]  
 >  To make sure that the predefined cost centre and cost object that you set up in the general ledger are automatically carried over to cost accounting, select the **Check G/L Postings** check box in the Cost Accounting Setup page.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescost-accounting-dynamics--business-central" />See related [Microsoft training](/training/modules/cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescost-accounting-dynamics-365-business-central" />See related [Microsoft training](/training/modules/cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

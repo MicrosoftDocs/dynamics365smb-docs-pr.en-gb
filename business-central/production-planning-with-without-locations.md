@@ -67,71 +67,71 @@ The **Locations Mandatory** field in the **Inventory Setup** page, the **Compone
 
 See variations in the setup scenarios below.
 
-### <a name="setup-" />Setup 1
+### <a name="setup-1" />Setup 1
 
 * Location Mandatory = *Yes*  
 * SKU is set up for *WEST*  
 * Component at Location = *EAST*  
 
-#### <a name="case--demand-is-at-west-location" />Case 1.1: Demand is at *WEST* location
+#### <a name="case-11-demand-is-at-west-location" />Case 1.1: Demand is at *WEST* location
 
 The item is planned according to planning parameters on the SKU card (including possible transfer).
 
-#### <a name="case--demand-is-at-east-location" />Case 1.2: Demand is at *EAST* location
+#### <a name="case-12-demand-is-at-east-location" />Case 1.2: Demand is at *EAST* location
 
 The item is planned according to planning parameters on the item card.
 
-#### <a name="case--demand-is-at-north-location" />Case 1.3: Demand is at *NORTH* location
+#### <a name="case-13-demand-is-at-north-location" />Case 1.3: Demand is at *NORTH* location
 
 The item is planned according to: Reordering Policy = *Lot-for-Lot* (*Order* remains *Order*), Include Inventory = *Yes*, all other planning parameters = Empty.
 
-#### <a name="case--demand-is-at-blank-location" />Case 1.4: Demand is at *BLANK* location
+#### <a name="case-14-demand-is-at-blank-location" />Case 1.4: Demand is at *BLANK* location
 
 The item is planned according to: Reordering Policy = *Lot-for-Lot* (*Order* remains *Order*), Include Inventory = *Yes*, all other planning parameters = Empty.
 
-### <a name="setup-" />Setup 2
+### <a name="setup-2" />Setup 2
 
 * Location Mandatory = *Yes*  
 * No SKU exists  
 * Component at Location = *EAST*  
 
-#### <a name="case--demand-is-at-west-location" />Case 2.1: Demand is at *WEST* location
+#### <a name="case-21-demand-is-at-west-location" />Case 2.1: Demand is at *WEST* location
 
 The item is planned according to: Reordering Policy = *Lot-for-Lot* (*Order* remains *Order*), Include Inventory = *Yes*, all other planning parameters = Empty.
 
-#### <a name="case--demand-is-at-east-location" />Case 2.2: Demand is at *EAST* location
+#### <a name="case-22-demand-is-at-east-location" />Case 2.2: Demand is at *EAST* location
 
 The item is planned according to planning parameters on the item card.  
 
-### <a name="setup-" />Setup 3
+### <a name="setup-3" />Setup 3
 
 * Location Mandatory = *No*  
 * No SKU exists  
 * Component at Location = *EAST*  
 
-#### <a name="case--demand-is-at-west-location" />Case 3.1: Demand is at *WEST* location
+#### <a name="case-31-demand-is-at-west-location" />Case 3.1: Demand is at *WEST* location
 
 The item is planned according to: Reordering Policy = *Lot-for-Lot* (*Order* remains *Order*), Include Inventory = *Yes*, all other planning parameters = Empty.
 
-#### <a name="case--demand-is-at-east-location" />Case 3.2: Demand is at *EAST* location
+#### <a name="case-32-demand-is-at-east-location" />Case 3.2: Demand is at *EAST* location
 
 The item is planned according to planning parameters on the item card.  
 
-#### <a name="case--demand-is-at-blank-location" />Case 3.3: Demand is at *BLANK* location
+#### <a name="case-33-demand-is-at-blank-location" />Case 3.3: Demand is at *BLANK* location
 
 The item is planned according to: Reordering Policy = *Lot-for-Lot* (*Order* remains *Order*), Include Inventory = *Yes*, all other planning parameters = Empty.
 
-### <a name="setup-" />Setup 4
+### <a name="setup-4" />Setup 4
 
 * Location Mandatory = *No*  
 * No SKU exists  
 * Component at Location = *BLANK*  
 
-#### <a name="case--demand-is-at-east-location" />Case 4.1: Demand is at *EAST* location
+#### <a name="case-41-demand-is-at-east-location" />Case 4.1: Demand is at *EAST* location
 
 The item is planned according to: Reordering Policy = *Lot-for-Lot* (*Order* remains *Order*), Include Inventory = *Yes*, all other planning parameters = Empty.
 
-#### <a name="case--demand-is-at-blank-location" />Case 4.2: Demand is at *BLANK* location
+#### <a name="case-42-demand-is-at-blank-location" />Case 4.2: Demand is at *BLANK* location
 
 The item is planned according to planning parameters on the item card.
 
@@ -139,7 +139,7 @@ As you can see from the last scenario, the only way to get a correct result for 
 
 Therefore, if you often plan for demand at locations, then we recommend that you use the Stockkeeping Units capability.
 
-## <a name="see-related-training-at-microsoft-learntrainingpathstrade-get-started-dynamics--business-central" />See related training at [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learntrainingpathstrade-get-started-dynamics-365-business-central" />See related training at [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also" />See also
 

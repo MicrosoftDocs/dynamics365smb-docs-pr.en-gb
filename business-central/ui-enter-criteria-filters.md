@@ -172,7 +172,7 @@ When you enter criteria, you can use all the numbers and letters that you normal
 > [!TIP]
 > If you're using a numeric keypad, the decimal separator key may output a character other than a period (.). To switch to a period, select the <kbd>Alt</kbd>+<kbd>Decimal Separator</kbd> keys on the numeric keypad. When you want to switch back, select <kbd>Alt</kbd>+<kbd>Decimal Separator</kbd> again. For more information, see [Setting the decimal separator used by numeric keyboards](ui-enter-data.md#decimal).
 
-#### <a name="-eitheror" />(&#124;) Either/or
+#### <a name="124-eitheror" />(&#124;) Either/or
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
@@ -302,7 +302,7 @@ Use `%myvendors` in the supplier **No** field to display all records for supplie
 |-----------------------|-----------------------|  
 |`%myvendors`|Suppliers in the **My Suppliers** on your Role Centre. |  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessearch-filter-sort-data-dynamics--business-central" />See related [Microsoft training](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulessearch-filter-sort-data-dynamics-365-business-central" />See related [Microsoft training](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

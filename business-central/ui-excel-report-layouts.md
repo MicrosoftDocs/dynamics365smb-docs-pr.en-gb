@@ -39,7 +39,7 @@ There are basically two tasks involved in setting up an Excel layout of a report
 1. Create the new Excel layout file.
 2. Add the new layout to the report.
 
-## <a name="task--create-the-excel-layout-file" />Task 1: Create the Excel layout file
+## <a name="task-1-create-the-excel-layout-file" />Task 1: Create the Excel layout file
 
 These are the three ways to create an Excel layout file for a report.
 
@@ -58,13 +58,13 @@ Follow these steps to create an Excel layout from any report, regardless of the 
 
 If there's already an Excel layout for a report, you can use the existing layout as a starting point. There are two approaches to getting a copy of the layout. You can either export the existing layout from the **Report Layouts** page or download the layout from the report's request page. Both ways download an Excel layout file that includes all the sheets of the existing file. The difference is when you download it from the request page, the layout includes actual data. (The data isn't required but it helps when designing the layout.)
 
-#### <a name="approach--export-the-layout-from-the-report-layouts-page" />Approach 1: Export the layout from the **Report Layouts** page
+#### <a name="approach-1-export-the-layout-from-the-report-layouts-page" />Approach 1: Export the layout from the **Report Layouts** page
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Select the Excel layout from the list, then choose the **Export Layout** action from the top of the page.
 3. Open the file in Excel, make the changes, then save the file.
 
-#### <a name="approach--download-the-layout-from-the-reports-request-page" />Approach 2: Download the layout from the report's request page
+#### <a name="approach-2-download-the-layout-from-the-reports-request-page" />Approach 2: Download the layout from the report's request page
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. On the **Report Layouts** page, choose any layout for the report, then choose the **Run Report** action.
@@ -77,7 +77,7 @@ This is the most advanced method of creating an Excel report layout. Because it 
 
 ---
 
-## <a name="task--add-the-excel-layout-to-the-report" />Task 2: Add the Excel layout to the report
+## <a name="task-2-add-the-excel-layout-to-the-report" />Task 2: Add the Excel layout to the report
 
 Once you have the Excel layout file, the next task is to add it as a new layout for the report.
 

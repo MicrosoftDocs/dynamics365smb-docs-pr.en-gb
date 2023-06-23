@@ -33,7 +33,7 @@ When you create a new journal line, document header, or document line, you can s
 
 When you edit and close the **Edit Dimension Set Entries** page, a check is performed to see whether the combination of dimension values exists as a dimension set in the table. If the combination occurs in the table, then the corresponding dimension set ID is assigned to the journal line, document header, or document line. Otherwise, a new dimension set is added to the table, and the new dimension set ID is assigned to the journal line, document header, or document line.
 
-## <a name="codeunit--dimension-management" />Codeunit 408 Dimension Management
+## <a name="codeunit-408-dimension-management" />Codeunit 408 Dimension Management
 Codeunit 408, Dimension Management, is a function library that handles common tasks that are related to dimensions, such as copying from one table to another or from one document to another.
 
 ## <a name="performance-improvement" />Performance Improvement

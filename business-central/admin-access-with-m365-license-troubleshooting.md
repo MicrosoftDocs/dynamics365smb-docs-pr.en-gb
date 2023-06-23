@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
 
-# <a name="troubleshoot-access-with-microsoft--licenses" />Troubleshoot Access with Microsoft 365 Licences
+# <a name="troubleshoot-access-with-microsoft-365-licenses" />Troubleshoot Access with Microsoft 365 Licences
 
 ## <a name="this-page-uses-data-from-related-tables-that-you-do-not-have-access-to-error-message" />"This page uses data from related tables that you do not have access to" error message
 
@@ -24,7 +24,7 @@ When accessing a record in Teams, you're shown an error message in a tab or card
 
 You're most likely missing object permissions for tables that the current page or record links to.
 
-## <a name="microsoft--access-has-been-enabled-but-users-get-a-permission-error" />Microsoft 365 access has been enabled, but users get a permission error
+## <a name="microsoft-365-access-has-been-enabled-but-users-get-a-permission-error" />Microsoft 365 access has been enabled, but users get a permission error
 
 ### <a name="symptoms" />Symptoms
 

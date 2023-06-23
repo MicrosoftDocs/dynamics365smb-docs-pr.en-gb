@@ -33,7 +33,7 @@ To learn more about how to create Shopify trials and the recommended settings, g
 
 - Ensure that the user has the right permissions. Shopify Connector is covered by the **Shopify – Admin (SHPFY – ADMIN)** permission set. Learn more at [Create Users According to Licences](../ui-how-users-permissions.md) and [Assign Permissions to Users and Groups](../ui-define-granular-permissions.md).
 
-## <a name="install-the-dynamics--business-central-app-to-your-shopify-online-store" />Install the Dynamics 365 Business Central app to your Shopify online store
+## <a name="install-the-dynamics-365-business-central-app-to-your-shopify-online-store" />Install the Dynamics 365 Business Central app to your Shopify online store
 
 For existing instances of [!INCLUDE[prod_short](../includes/prod_short.md)], this step is optional and can be skipped.
 
@@ -105,7 +105,7 @@ If you keep the **Allow Data Sync to Shopify** toggle enabled, then additional p
 *   Select **Draft** in the **Status for Create Product** field to ensure that exported products aren't available to buyers. You can verify how products look in the online store, synchronise prices, options, and stock levels. Just make sure to use filters on the **Add Item to Shopify** page to limit the number of exported items.
 * Turn off the **Export Customer to Shopify** toggle so that you don't send customers to Shopify.
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-shopify-connector-dynamics--business-central" />See related [Microsoft training](/training/paths/use-shopify-connector-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsuse-shopify-connector-dynamics-365-business-central" />See related [Microsoft training](/training/paths/use-shopify-connector-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

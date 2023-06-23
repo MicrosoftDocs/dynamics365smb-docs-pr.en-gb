@@ -11,7 +11,7 @@ ms.search.form: '304, 20106, 20105, 20100, 20101, 20107, 20109'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-the-amc-banking--fundamentals-extension" />Set Up the AMC Banking 365 Fundamentals extension
+# <a name="set-up-the-amc-banking-365-fundamentals-extension" />Set Up the AMC Banking 365 Fundamentals extension
 A global provider of services to convert payment information to any data format that your bank requires is connected and ready to be enabled in [!INCLUDE[prod_short](includes/prod_short.md)]. This is referred to in [!INCLUDE[prod_short](includes/prod_short.md)] as the AMC Banking 365 Fundamentals extension.
 
 You can export payment lines from the **Payment Journal** page to a file or a data stream that you then upload to your bank for automatic processing so that you do not have to make electronic payments individually. For more information, see [Export Payments to a Bank File](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
@@ -25,7 +25,7 @@ To import or export bank files, you must set up your own bank account and your v
 > [!NOTE]  
 > The AMC Banking 365 Fundamentals extension may impose a limit on the number of lines that can be exported in one file. You will receive an error message if the limit is exceeded. It is recommended that bank statement files do not exceed 1000 lines as the processing time in the AMC Banking 365 Fundamentals extension may otherwise increase significantly.
 
-## <a name="to-sign-your-company-up-for-the-amc-banking--fundamentals-extension" />To sign your company up for the AMC Banking 365 Fundamentals extension
+## <a name="to-sign-your-company-up-for-the-amc-banking-365-fundamentals-extension" />To sign your company up for the AMC Banking 365 Fundamentals extension
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Data Conv. Service Setup**, and then choose the related link.  
 2. The **Bank Data Conv. Service Setup** page opens with three fields prefilled with relevant URLs of the provider of AMC Banking 365 Fundamentals extension.
 

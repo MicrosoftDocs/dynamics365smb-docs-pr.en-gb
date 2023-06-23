@@ -179,7 +179,7 @@ Follow these steps if you want to change the name and description of a user-defi
     > To help you find the layout, use the **Search** box, **Filter** pane, and columns sorting.
 3. Change the **Layout Name**, then select **OK**.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />See Also
 

@@ -9,7 +9,7 @@ ms.topic: faq
 ms.date: 11/22/2022
 ms.custom: bap-template
 ---
-# <a name="access-with-microsoft--licenses-faq" />Access with Microsoft 365 Licences FAQ
+# <a name="access-with-microsoft-365-licenses-faq" />Access with Microsoft 365 Licences FAQ
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -57,7 +57,7 @@ Even though Business Central provides this level of protection, we still recomme
 
 Enabling access with Microsoft 365 licences is only available for Business Central environments of platform version 21.1 or later. When your environment is upgraded to this minimum version, the setting automatically becomes available. To check the version of your environment, go to the environment details page for the environment in the Business Central admin centre. Or, sign in to the environment, and go to the **Help & Support** page from the **Help** menu.
 
-### <a name="can-i-access-business-central-on-premises-with-microsoft--licenses" />Can I access Business Central on premises with Microsoft 365 licences?
+### <a name="can-i-access-business-central-on-premises-with-microsoft-365-licenses" />Can I access Business Central on premises with Microsoft 365 licences?
 
 No, it's not supported. Business Central displays an error when users try to access Business Central on premises records in Teams.
 
@@ -69,7 +69,7 @@ The **Employee** profile displayed in the **Profiles (Roles)** list page was int
 
 The **Microsoft Teams Internal Users** group displayed in the **User Groups** page was introduced with Update 21.1. This group is the default user group assigned to users that access Business Central with their Microsoft 365 licence. The user group's intended for people within the same organisation where Business Central is hosted that collaborate in Microsoft Teams.  
 
-### <a name="do-users-that-only-have-a-microsoft--license-show-up-in-the-users-list-in-business-central" />Do users that only have a Microsoft 365 licence show up in the Users list in Business Central?
+### <a name="do-users-that-only-have-a-microsoft-365-license-show-up-in-the-users-list-in-business-central" />Do users that only have a Microsoft 365 licence show up in the Users list in Business Central?
 
 Yes. If you apply security groups to environments, those users will show up in the Users list after you use the Update Users from Microsoft 365 action from the **Users** list. If you don't apply security groups, user records appear in the Users list after the first time they access a Business Central record.
 
@@ -91,31 +91,31 @@ To maximise productivity and streamline their operations, SMBs often purchase Dy
 - Users requiring limited write access are typically assigned a Business Central Team Member licence.
 - All other employees across the organisation that only need to occasionally read business data that is shared with them, can do so if they have a Microsoft 365 licence. They don't have to be assigned a Team Member licence. Other licensing options are available. For more information, download and read the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
-### <a name="is-this--free-of-charge" />Is this 100% free of charge?
+### <a name="is-this-100-free-of-charge" />Is this 100% free of charge?
  
 No. Accessing Business Central data in Microsoft Teams requires each user to have either a Business Central licence or a Microsoft 365 licence from the list of supported plans.
 
-### <a name="does-this-work-with-microsoft--trials-and-business-central-trials" />Does this work with Microsoft 365 trials and Business Central trials?
+### <a name="does-this-work-with-microsoft-365-trials-and-business-central-trials" />Does this work with Microsoft 365 trials and Business Central trials?
 
 Yes. If a user is assigned a Microsoft 365 licence from a trial of a supported plan, they can also access Business Central records in Teams. It's then possible for customers to try Microsoft productivity and business apps working together, and allows partner salespeople and consultants to easily demonstrate this feature. For example, partners can provision their own Azure AD tenants from [https://aka.ms/CDX](https://aka.ms/CDX) that include Microsoft 365 trials and Business Central trials for demonstrating Business Central.
 
-### <a name="the-list-of-licenses-in-business-central-shows-a-microsoft--license-whats-that" />The list of licences in Business Central shows a Microsoft 365 licence. What's that?
+### <a name="the-list-of-licenses-in-business-central-shows-a-microsoft-365-license-whats-that" />The list of licences in Business Central shows a Microsoft 365 licence. What's that?
 
 The **Licence Configuration** page in Business Central displays the different types of licences that can provide access to the Business Central service. In version 21, Microsoft added Microsoft 365 to this list as a new way to access Business Central. This list of licences doesn't imply that your organisation has purchased subscriptions to any of these licences or your organisation has enabled access through those licences.
 
-### <a name="do-i-need-to-acquire-a-new-type-of-microsoft--license-for-this-feature-to-work" />Do I need to acquire a new type of Microsoft 365 licence for this feature to work?
+### <a name="do-i-need-to-acquire-a-new-type-of-microsoft-365-license-for-this-feature-to-work" />Do I need to acquire a new type of Microsoft 365 licence for this feature to work?
 
 Microsoft hasn't created new licences or new plans to power this feature. This feature relies entirely on existing Microsoft 365 plans and licences. If you already subscribe to one of the supported Microsoft 365 plans, then you already have this new use right. Otherwise, if you don't subscribe to Microsoft 365 today, you can sign up for Microsoft 365 Business Premium or similar plans here. 
 
-### <a name="how-do-i-find-out-which-users-have-only-a-microsoft--license" />How do I find out which users have only a Microsoft 365 licence?
+### <a name="how-do-i-find-out-which-users-have-only-a-microsoft-365-license" />How do I find out which users have only a Microsoft 365 licence?
 
 There are multiple ways. In the Microsoft 365 admin centre, go to the **Active Users** list and refer to the **Licences** column. In Business Central, go to the **Users** list, choose any of the users and view the **Licences** FactBox.  
 
-### <a name="how-do-i-filter-the-users-list-in-business-central-to-see-users-that-only-have-a-microsoft--license" />How do I filter the Users list in Business Central to see users that only have a Microsoft 365 licence?
+### <a name="how-do-i-filter-the-users-list-in-business-central-to-see-users-that-only-have-a-microsoft-365-license" />How do I filter the Users list in Business Central to see users that only have a Microsoft 365 licence?
 
 This task is currently not possible using a filter or list view. However, you can select a user in the list and view the Licences FactBox that will include only Microsoft 365, if the user only has a Microsoft 365 licence.
 
-### <a name="what-about-users-that-have-both-a-microsoft--license-and-a-business-central-license" />What about users that have both a Microsoft 365 licence and a Business Central licence?
+### <a name="what-about-users-that-have-both-a-microsoft-365-license-and-a-business-central-license" />What about users that have both a Microsoft 365 licence and a Business Central licence?
 
 When multiple licences are assigned to a user, the greater licence use rights win over lesser licence use rights when accessing Business Central. In this case, Business Central licence entitles the user to more user rights. So, users can read and write Business Central records in Teams and access the Business Central web client in the browser, just like any other Business Central licence-holder. If specific permission sets have been configured for the Microsoft 365 licence, the user gets the configured permission sets combined with the permission sets from the Business Central licence or that have already been assigned to the user.
 
@@ -149,7 +149,7 @@ Actionable links on Business Central pages are often shown as a bold hyperlinks 
 
 Contextual notifications shown on pages are often accompanied by actionable links. When users access Business Central pages with their Microsoft 365 licence, these links are displayed, but can't be activated because this licence doesn't offer use rights to run actions. At a technical level, these links are implemented as actions.
 
-### <a name="can-microsoft--users-remove-tabs" />Can Microsoft 365 users remove tabs?
+### <a name="can-microsoft-365-users-remove-tabs" />Can Microsoft 365 users remove tabs?
 
 Yes. Anyone in the chat or channel can remove tabs created by others. Removing a tab doesn't remove or affect data in Business Central, but the tab will be removed for all users in the chat or channel.
 

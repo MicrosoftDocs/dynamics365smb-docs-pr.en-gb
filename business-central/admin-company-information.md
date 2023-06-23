@@ -54,7 +54,7 @@ The company name is always displayed at the top left corner and works as an acti
 
 The default user experience in a [!INCLUDE [prod_short](includes/prod_short.md)] trial doesn't reveal all capabilities. You can switch on the full experience on the **Company Information** page. For more information, see [Change Which Features are Displayed](ui-experiences.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics--business-central" />See related [Microsoft training](/training/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics-365-business-central" />See related [Microsoft training](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

@@ -84,7 +84,7 @@ For each depreciation book, you define a default setup of templates and batches.
 3. If you want to have a default setup for each user, choose the **User ID** field to select from the **Users** page.  
 4. In the other fields, select the journal template or journal batch that must be used by default.  
 
-## <a name="fiscal-year--days-field-depreciation" />Fiscal Year 365 Days Field Depreciation
+## <a name="fiscal-year-365-days-field-depreciation" />Fiscal Year 365 Days Field Depreciation
 
 When the Calculate Depreciation batch job calculates depreciations, the batch job normally uses a standardised year of 360 days where each of the 12 months has 30 days.
 

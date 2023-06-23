@@ -45,7 +45,7 @@ In update 15.3 and newer, Magnetic Ink Character Recognition (MICR) fonts are in
 > [!NOTE]
 > For security and legal reasons, you cannot upload custom fonts to the [!INCLUDE[prod_short](includes/prod_short.md)] environment.
 
-### <a name="micr-e-b-specifications" />MICR E-13B Specifications
+### <a name="micr-e-13b-specifications" />MICR E-13B Specifications
 
 The following summarises specifications for the MICR E-13B fonts that may be useful when calibrating fonts to be on cheque layouts with specific MICR printers.
 
@@ -57,7 +57,7 @@ The following summarises specifications for the MICR E-13B fonts that may be use
 
 The full specification of MICR E-13B fonts can be found in the supplier's documentation here: (https://www.idautomation.com/micr-fonts/e13b/).
 
-### <a name="micr-cmc--specifications" />MICR CMC-7 Specifications
+### <a name="micr-cmc-7-specifications" />MICR CMC-7 Specifications
 
 The following CMC-7 fonts are available in [!INCLUDE[prod_short](includes/prod_short.md)] online:
 

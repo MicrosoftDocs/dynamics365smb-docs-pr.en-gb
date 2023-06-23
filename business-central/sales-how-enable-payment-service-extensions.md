@@ -37,7 +37,7 @@ The PayPal Payments Standard and WorldPay Payments Standard extensions are insta
     > [!NOTE]  
     > The **Payment Service** field is available only if you've enabled the payment service.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics--business-central" />See related [Microsoft training](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics-365-business-central" />See related [Microsoft training](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

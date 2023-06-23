@@ -181,7 +181,7 @@ When return shipments are combined on a credit memo and posted, then a posted pu
 2. Fill in the fields as necessary, and then choose the **OK** button.  
 3. Alternatively, delete the individual purchase return orders manually.
 
-## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics--business-central" />See related [Microsoft training](/training/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics-365-business-central" />See related [Microsoft training](/training/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />See Also
 [Purchasing](purchasing-manage-purchasing.md)  

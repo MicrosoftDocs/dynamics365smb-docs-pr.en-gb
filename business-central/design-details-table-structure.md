@@ -13,7 +13,7 @@ ms.author: edupont
 # <a name="design-details-table-structure" />Design Details: Table Structure
 To understand how dimension entries are stored and posted, it is important to understand the table structure.  
 
-## <a name="table--dimension-set-entry" />Table 480, Dimension Set Entry
+## <a name="table-480-dimension-set-entry" />Table 480, Dimension Set Entry
 You cannot change this table. After data has been written to the table, you cannot delete or edit it.
 
 |Field No.|Field Name|Data Type|Comment|  
@@ -25,7 +25,7 @@ You cannot change this table. After data has been written to the table, you cann
 |5|**Dimension Name**|Text 30|CalcField. Lookup to table 348.|  
 |6|**Dimension Value Name**|Text 30|CalcField. Lookup to table 349.|  
 
-## <a name="table--dimension-set-tree-node" />Table 481, Dimension Set Tree Node
+## <a name="table-481-dimension-set-tree-node" />Table 481, Dimension Set Tree Node
 You cannot change this table. It is used to search for a dimension set. If the dimension set is not found, a new set is created.  
 
 |Field No.|Field Name|Data Type|Comment|  
@@ -35,7 +35,7 @@ You cannot change this table. It is used to search for a dimension set. If the d
 |3|**Dimension Set ID**|Integer|AutoIncrement. Used in field 1 in table 480.|  
 |4|**In Use**|Boolean|False if not in use.|  
 
-## <a name="table--reclas-dimension-set-buffer" />Table 482 Reclas. Dimension Set Buffer
+## <a name="table-482-reclas-dimension-set-buffer" />Table 482 Reclas. Dimension Set Buffer
 This table is used when you change a dimension value code, for example, on an item ledger entry by using the **Item Reclassification Journal** page.  
 
 |Field No.|Field Name|Data Type|Comment|  
@@ -56,7 +56,7 @@ In addition to other dimension fields in the table, this field is important:
 |---------------|----------------|---------------|-------------|  
 |480|**Dimension Set ID**|Integer|References field 1 in table 480.|  
 
-### <a name="table--item-journal-line" />Table 83, Item Journal Line
+### <a name="table-83-item-journal-line" />Table 83, Item Journal Line
 In addition to other dimension fields in the table, these fields are important.  
 
 |Field No.|Field Name|Data Type|Comment|  
@@ -64,7 +64,7 @@ In addition to other dimension fields in the table, these fields are important.
 |480|**Dimension Set ID**|Integer|References field 1 in table 480.|  
 |481|**New Dimension Set ID**|Integer|References field 1 in table 480.|  
 
-### <a name="table--dimension-value" />Table 349, Dimension Value
+### <a name="table-349-dimension-value" />Table 349, Dimension Value
 In addition to other dimension fields in the table, these fields are important.  
 
 |Field No.|Field Name|Data Type|Comment|  

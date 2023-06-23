@@ -16,7 +16,7 @@ When you close a page after you edit a set of dimensions, [!INCLUDE[prod_short](
 ## <a name="building-search-tree" />Building Search Tree
  Table 481 **Dimension Set Tree Node** is used when [!INCLUDE[prod_short](includes/prod_short.md)] evaluates whether a set of dimensions already exists in table 480 **Dimension Set Entry** table. The evaluation is performed by recursively traversing the search tree starting at the top level numbered 0. The top level 0 represents a dimension set with no dimension set entries. The children of this dimension set represent dimension sets with only one dimension set entry. The children of these dimension sets represent dimension sets with two children, and so on.  
 
-### <a name="example-" />Example 1
+### <a name="example-1" />Example 1
  The following diagram represents a search tree with six dimension sets. Only the distinguishing dimension set entry is displayed in the diagram.  
 
  ![Example of dimension tree structure.](media/nav2013_dimension_tree.png "Example of dimension tree structure")  
@@ -33,7 +33,7 @@ When you close a page after you edit a set of dimensions, [!INCLUDE[prod_short](
 |Set 5|AREA 40|  
 |Set 6|AREA 40, PROJ VW|  
 
-### <a name="example-" />Example 2
+### <a name="example-2" />Example 2
  This example shows how [!INCLUDE[prod_short](includes/prod_short.md)] evaluates whether a dimension set that consists of the dimension set entries AREA 40, DEPT PROD exists.  
 
  First, [!INCLUDE[prod_short](includes/prod_short.md)] also updates the **Dimension Set Tree Node** table to make sure that the search tree looks like the following diagram. Thus dimension set 7 becomes a child of the dimension set 5.  

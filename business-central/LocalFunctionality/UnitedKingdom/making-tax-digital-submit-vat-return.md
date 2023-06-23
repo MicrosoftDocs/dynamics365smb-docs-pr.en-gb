@@ -24,7 +24,7 @@ Since 2021, the electronic statements must also include information that helps p
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] supports Making Tax Digital and the GovTalk service.
 
-## <a name="making-tax-digital-for-vat-capabilities-in-dynamics--business-central" />Making Tax Digital for VAT capabilities in Dynamics 365 Business Central
+## <a name="making-tax-digital-for-vat-capabilities-in-dynamics-365-business-central" />Making Tax Digital for VAT capabilities in Dynamics 365 Business Central
 
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can use the VAT Return report for creating VAT reports. The Making Tax Digital VAT features extend this capability to communicate with HMRC. For example, the Making Tax Digital VAT extension lets you:
 

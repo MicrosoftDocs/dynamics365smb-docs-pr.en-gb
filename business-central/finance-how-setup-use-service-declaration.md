@@ -155,7 +155,7 @@ You can change the values in these fields, but if you select the **Applicable Fo
 
 If you specify a value in the **Service Transaction Nature Code** field but don’t select the **Applicable For Service Declaration** field, you can post the document, but the line won't be calculated when you do.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics--business-centralindex" />See related training at [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics-365-business-centralindex" />See related training at [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## <a name="see-also" />See also
 

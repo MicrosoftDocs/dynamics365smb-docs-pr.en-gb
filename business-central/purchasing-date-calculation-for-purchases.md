@@ -58,7 +58,7 @@ You can manually specify the date formula on lines. Otherwise, [!INCLUDE[prod_sh
 3. Stockkeeping Unit Card
 4. Vendor Card
 
-## <a name="see-related-microsoft-trainingtrainingmodulesestimate-receipt-dates-dynamics--business-central" />See related [Microsoft training](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesestimate-receipt-dates-dynamics-365-business-central" />See related [Microsoft training](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

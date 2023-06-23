@@ -220,7 +220,7 @@ The following procedure is based on the **General Journal** page, but applies to
 
 Values in the **Document No.** field are changed, where required, so that the document number on individual or grouped journal lines are in sequential order. After documents are renumbered, you can post the journal.
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-journals-dynamics--business-central" />See related [Microsoft training](/training/paths/use-journals-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsuse-journals-dynamics-365-business-central" />See related [Microsoft training](/training/paths/use-journals-dynamics-365-business-central/)
 
 ## <a name="see-also" />See Also
 

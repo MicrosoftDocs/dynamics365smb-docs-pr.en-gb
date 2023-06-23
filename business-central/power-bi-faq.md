@@ -147,7 +147,7 @@ This functionality will be available soon. Starting in February 2022, new report
 
 If you have old reports based on Business Central data, they won't connect to the read-only database replica.
 
-### <a name="a-namedatabasemodsaive-tried-the-preview-of-the-new-connector-for-the-february--update-when-i-connect-to-my-custom-business-central-api-page-i-get-the-error-cannot-insert-a-record-current-connection-intent-is-read-only-how-can-i-fix-it" /><a name="databasemods"></a>I've tried the preview of the new connector for the February 2022 update. When I connect to my custom Business Central API page, I get the error "Cannot insert a record. Current connection intent is Read-Only.". How can I fix it?
+### <a name="a-namedatabasemodsaive-tried-the-preview-of-the-new-connector-for-the-february-2022-update-when-i-connect-to-my-custom-business-central-api-page-i-get-the-error-cannot-insert-a-record-current-connection-intent-is-read-only-how-can-i-fix-it" /><a name="databasemods"></a>I've tried the preview of the new connector for the February 2022 update. When I connect to my custom Business Central API page, I get the error "Cannot insert a record. Current connection intent is Read-Only.". How can I fix it?
 
 With the new connector, new reports that use Business Central data will connect to a read-only replica of the Business Central database by default. This change will bring a performance improvement. However, in rare cases, it might cause the error. This error typically happens because your custom API is making modifications to Business Central records while Power BI tries to get the data. In particular, it happens as part of the AL triggers: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord, and OnAfterGetCurrRecord.
 
@@ -237,14 +237,14 @@ Yes. This advanced scenario will help Business Central stay performant, because 
 
 We're looking into this feature. Power BI offers rich APIs to control report deployments. For more information, see [Introduction to deployment pipelines](/power-bi/create-reports/deployment-pipelines-overview).
 
-### <a name="when-i-get-data-from-business-central-to-use-in-my-power-bi-reports-i-see-some-values-like-x-what-are-these-values" />When I get data from Business Central to use in my Power BI reports, I see some values like "_x0020_". What are these values?
+### <a name="when-i-get-data-from-business-central-to-use-in-my-power-bi-reports-i-see-some-values-like-x0020-what-are-these-values" />When I get data from Business Central to use in my Power BI reports, I see some values like "_x0020_". What are these values?
 
 Some API pages, including most API v2.0 pages, have fields based on [AL Enum objects](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums). Fields based on AL enum objects must have names that are consistent and always the same, so that filters on the report always work&mdash;no matter the language or operating system you're using. For this reason, the fields based on AL enums aren't translated and are encoded to avoid any special character, including the space. In particular, whenever there's an empty option in the AL Enum object, it's encoded to "_x0020_". You can always apply a transformation to your data on Power BI if you want to display some different value for these fields, for example "Empty".
 
 
 ---
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-central" />See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-central" />See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

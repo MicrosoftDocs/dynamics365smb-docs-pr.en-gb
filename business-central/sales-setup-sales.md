@@ -33,7 +33,7 @@ Finance-related sales setup, such as payment methods and currencies, are covered
 |Enter information about the different transportation vendors you use, including a link to their package tracking service.|[Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)|
 |Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathstrade-get-started-dynamics--business-central" />See related [Microsoft training](/training/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathstrade-get-started-dynamics-365-business-central" />See related [Microsoft training](/training/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also" />See Also
 [Sales](sales-manage-sales.md)  

@@ -8,7 +8,7 @@ ms.author: edupont
 ms.date: 02/23/2022
 ---
 
-# <a name="dynamics--business-central-trial-faq" />Dynamics 365 Business Central trial FAQ
+# <a name="dynamics-365-business-central-trial-faq" />Dynamics 365 Business Central trial FAQ
 
 [!INCLUDE [beethoven-trial](includes/beethoven-trial.md)]
 
@@ -44,7 +44,7 @@ Switch to the 30-day trial, and then add your own data. For more information, se
 
 You can't. If you accidentally delete sample data, ask your admin to create a new sandbox environment. For more information, see [Production and Sandbox Environments](/dynamics365/business-central/dev-itpro/administration/environment-types) in the admin content (in English only).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics--business-central" />See related [Microsoft training](/training/modules/trial-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics-365-business-central" />See related [Microsoft training](/training/modules/trial-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

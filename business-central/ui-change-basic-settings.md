@@ -107,7 +107,7 @@ Choose the *Change when I receive notifications* link to view or change the noti
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics--business-centralindex" />See related [Microsoft training](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics-365-business-centralindex" />See related [Microsoft training](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also" />See also
 

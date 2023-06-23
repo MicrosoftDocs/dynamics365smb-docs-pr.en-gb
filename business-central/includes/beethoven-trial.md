@@ -14,11 +14,11 @@ Use your work or school email address. We'll establish your trial on your organi
 
 This app is a cloud-based service that doesn't require special software other than an up-to-date web browser, though some restrictions apply.  
 
-### <a name="how-do-i-sign-up-for-the-trial-without-a-microsoft--tenant" />How do I sign up for the trial without a Microsoft 365 tenant?
+### <a name="how-do-i-sign-up-for-the-trial-without-a-microsoft-365-tenant" />How do I sign up for the trial without a Microsoft 365 tenant?
 
 You can't. Use a work or school email address.
 
-### <a name="can-i-sign-up-for-other-dynamics--apps-such-as-sales-marketing-and-customer-service" />Can I sign up for other Dynamics 365 apps such as Sales, Marketing, and Customer Service?
+### <a name="can-i-sign-up-for-other-dynamics-365-apps-such-as-sales-marketing-and-customer-service" />Can I sign up for other Dynamics 365 apps such as Sales, Marketing, and Customer Service?
 
 Yes, you can. To view all available trials, [visit the trial hub page](https://dynamics.microsoft.com/dynamics-365-free-trial). You can use the same email account to sign up for different trials.<!-- However, it is not possible to have multiple apps on the same trial site. Each trial will be on a different org and URL. The trial data won’t be shared across apps.-->
 

@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="warnings-and-error-messages-in-dynamics--business-central" />Warnings and Error Messages in Dynamics 365 Business Central
+# <a name="warnings-and-error-messages-in-dynamics-365-business-central" />Warnings and Error Messages in Dynamics 365 Business Central
 
 During your work day, you might see notifications in [!INCLUDE [prod_short](includes/prod_short.md)] that something went wrong, or that it was not possible to post something, for example. In many cases, the notification makes it easy to resolve the matter, or to roll back any changes that you made. In other cases, you might not have have the information that you need to get unblocked. This article provides tips on how to make progress.  
 

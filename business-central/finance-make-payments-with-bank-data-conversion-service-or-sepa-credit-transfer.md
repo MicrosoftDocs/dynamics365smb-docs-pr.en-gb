@@ -11,7 +11,7 @@ ms.search.form: '256, 1205, 1206, 1209, 10810, 10811'
 ms.date: 07/06/2021
 ms.author: bholtorf
 ---
-# <a name="make-payments-with-the-amc-banking--fundamentals-extension-or-sepa-credit-transfer" />Make Payments with the AMC Banking 365 Fundamentals extension or SEPA Credit Transfer
+# <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer" />Make Payments with the AMC Banking 365 Fundamentals extension or SEPA Credit Transfer
 
 On the **Payment Journal** page, you can process payments to your vendors by exporting a file together with the payment information from the journal lines. You can then upload the file to your electronic bank where the related money transfers are processed. [!INCLUDE[prod_short](includes/prod_short.md)] supports the SEPA Credit Transfer format, but in your country/region, other formats for electronic payments may be available.
 
@@ -23,7 +23,7 @@ On the **Payment Journal** page, you can process payments to your vendors by exp
 > [!NOTE]  
 > When you have verified that the payments are successfully processed by the bank, you can proceed to post the payment journal lines.  
 
-## <a name="setting-up-the-amc-banking--fundamentals-extension" />Setting Up the AMC Banking 365 Fundamentals Extension
+## <a name="setting-up-the-amc-banking-365-fundamentals-extension" />Setting Up the AMC Banking 365 Fundamentals Extension
 
 Activate the AMC Banking 365 Fundamentals extension to have any bank statement file converted to a format that you can import or to have your exported payment files converted to the format that your bank requires. For more information, see [Use the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md).
 

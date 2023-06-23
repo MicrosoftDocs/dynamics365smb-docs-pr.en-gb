@@ -17,7 +17,7 @@ ms.custom: bap-template
 
  For information about creating or adjusting a data exchange definition, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).  
 
-## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-" />CAMT data mapping to fields in the General Journal table (81)
+## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-81" />CAMT data mapping to fields in the General Journal table (81)
 
 |Element Path|Message Element|Data Type|Description|Negative-Sign Identifier|Field No.|Field Name|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
@@ -29,14 +29,14 @@ ms.custom: bap-template
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Unstructured|Text|Information supplied to enable the matching/reconciliation of an entry with the items that the payment is intended to settle, such as commercial invoices in an accounts-receivable system, in an unstructured form||8|Description|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Text|Additional information about the entry||1222|Transaction Information|  
 
-## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-" />CAMT data mapping to fields in the Bank Acc. Reconciliation table (273)
+## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-273" />CAMT data mapping to fields in the Bank Acc. Reconciliation table (273)
 
 |Element Path|Message Element|Data Type|Description|Negative-Sign Identifier|Field No.|Field Name|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
 |Stmt/CreDtTm|CreationDateTime|Date|The date and time when the message was created||3|Statement Date|  
 |Stmt/Bal/Amt|Amount|Decimal|The amount resulting from the netted amounts for all debit and credit entries||4|Statement Ending Balance|  
 
-## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-" />CAMT data mapping to fields in the Bank Acc. Reconciliation Line table (274)
+## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-274" />CAMT data mapping to fields in the Bank Acc. Reconciliation Line table (274)
 
 |Element Path|Message Element|Data Type|Description|Negative-Sign Identifier|Field No.|Field Name|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  

@@ -33,20 +33,20 @@ The following example shows how item ledger entries, value entries, and item app
 
  You post a purchase order as received and invoiced for 10 items with a direct unit cost of LCY 7 and an overhead rate of LCY 1. The posting date is 01-01-20. The following entries are created.  
 
-### <a name="item-ledger-entries-" />Item Ledger Entries (1)
+### <a name="item-ledger-entries-1" />Item Ledger Entries (1)
 
 |Posting Date|Entry Type|Cost Amount (Actual)|Quantity|Entry No.|  
 |------------|----------|--------------------|--------|---------|  
 |01-01-20|Purchase|80.00|10|1|  
 
-### <a name="value-entries-" />Value Entries (1)
+### <a name="value-entries-1" />Value Entries (1)
 
 |Posting Date|Entry Type|Cost Amount (Actual)|Item Ledger Entry No.|Entry No.|  
 |------------|----------|--------------------|---------------------|---------|  
 |01-01-20|Direct Cost|70.00|1|1|  
 |01-01-20|Indirect Cost|10.00|1|2|  
 
-### <a name="item-application-entries-" />Item Application Entries (1)
+### <a name="item-application-entries-1" />Item Application Entries (1)
 
 |Entry No.|Item Ledger Entry No.|Inbound Item Entry No.|Outbound Item Entry No.|Quantity|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -54,19 +54,19 @@ The following example shows how item ledger entries, value entries, and item app
 
  Next, you post a sale of 10 units of the item with a posting date of 01-15-20.  
 
-### <a name="item-ledger-entries-" />Item Ledger Entries (2)
+### <a name="item-ledger-entries-2" />Item Ledger Entries (2)
 
 |Posting Date|Entry Type|Cost Amount (Actual)|Quantity|Entry No.|  
 |------------|----------|--------------------|--------|---------|  
 |01-15-20|Sale|-80.00|-10|2|  
 
-### <a name="value-entries-" />Value Entries (2)
+### <a name="value-entries-2" />Value Entries (2)
 
 |Posting Date|Entry Type|Cost Amount (Actual)|Item Ledger Entry No.|Entry No.|  
 |------------|----------|--------------------|---------------------|---------|  
 |01-15-20|Direct Cost|-80.00|2|3|  
 
-### <a name="item-application-entries-" />Item Application Entries (2)
+### <a name="item-application-entries-2" />Item Application Entries (2)
 
 |Entry No.|Item Ledger Entry No.|Inbound Item Entry No.|Outbound Item Entry No.|Quantity|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -78,7 +78,7 @@ At the end of the accounting period, you run the **Post Inventory Cost to G/L** 
 
  The following tables show the result of reconciling the inventory transactions in this example with the general ledger.  
 
-### <a name="value-entries-" />Value Entries (3)
+### <a name="value-entries-3" />Value Entries (3)
 
 |Posting Date|Entry Type|Cost Amount (Actual)|Cost Posted to G/L|Item Ledger Entry No.|Entry No.|  
 |------------|----------|--------------------|------------------|---------------------|---------|  
@@ -86,7 +86,7 @@ At the end of the accounting period, you run the **Post Inventory Cost to G/L** 
 |01-01-20|Indirect Cost|10.00|10.00|1|2|  
 |01-15-20|Direct Cost|-80.00|-80.00|2|3|  
 
-### <a name="general-ledger-entries-" />General Ledger Entries (3)
+### <a name="general-ledger-entries-3" />General Ledger Entries (3)
 
 |Posting Date|G/L Account|Account No. (En-US Demo)|Amount|Entry No.|  
 |------------|-----------|------------------------|------|---------|  
@@ -104,7 +104,7 @@ At the end of the accounting period, you run the **Post Inventory Cost to G/L** 
 
  The relation between value entries and general ledger entries is stored in the **G/L - Item Ledger Relation** table.  
 
-### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Relation Entries in the G/L – Item Ledger Relation table (3)
+### <a name="relation-entries-in-the-gl--item-ledger-relation-table-3" />Relation Entries in the G/L – Item Ledger Relation table (3)
 
 |G/L Entry No.|Value Entry No.|G/L Register No.|  
 |-------------|---------------|----------------|  

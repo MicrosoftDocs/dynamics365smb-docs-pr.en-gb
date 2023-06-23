@@ -90,14 +90,14 @@ When you run the **Adjust Cost - Item Entries** batch job, you have the option t
 
 The following example shows if you post a purchased item as received and invoiced on 01-01-20. You later post the sold item as shipped and invoiced on 01-15-20. Then, you run the **Adjust Cost - Item Entries** and **Post Inventory Cost to G/L** batch jobs. The following entries are created.  
 
-#### <a name="value-entries-" />Value Entries (1)
+#### <a name="value-entries-1" />Value Entries (1)
 
 |Posting Date|Item Ledger Entry Type|Cost Amount (Actual)|Cost Posted to G/L|Invoiced Quantity|Entry No.|  
 |------------|----------------------|--------------------|------------------|-----------------|---------|  
 |01-01-20|Purchase|10.00|10.00|1|1|  
 |01-15-20|Sale|-10.00|-10.00|-1|2|  
 
-#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Relation Entries in the G/L – Item Ledger Relation Table (1)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-1" />Relation Entries in the G/L – Item Ledger Relation Table (1)
 
 |G/L Entry No.|Value Entry No.|G/L Register No.|  
 |-------------|---------------|----------------|  
@@ -106,7 +106,7 @@ The following example shows if you post a purchased item as received and invoice
 |3|2|1|  
 |4|2|1|  
 
-#### <a name="general-ledger-entries-" />General Ledger Entries (1)
+#### <a name="general-ledger-entries-1" />General Ledger Entries (1)
 
 |Posting Date|G/L Account|Account No. (En-US Demo)|Amount|Entry No.|  
 |------------------|------------------|---------------------------------|------------|---------------|  
@@ -117,14 +117,14 @@ The following example shows if you post a purchased item as received and invoice
 
 Later, you post a related purchase item charge for 2.00 LCY invoiced on 02-10-20. You run the **Adjust Cost - Item Entries** batch job and then run the **Post Inventory Cost to G/L** batch job. The cost adjustment batch job adjusts the cost of the sale by -2.00 LCY accordingly, and the **Post Inventory Cost to G/L** batch job posts the new value entries to the general ledger. The result is as follows.  
 
-#### <a name="value-entries-" />Value Entries (2)
+#### <a name="value-entries-2" />Value Entries (2)
 
 |Posting Date|Item Ledger Entry Type|Cost Amount (Actual)|Cost Posted to G/L|Invoiced Quantity|Adjustment|Entry No.|  
 |------------|----------------------|--------------------|------------------|-----------------|----------|---------|  
 |02-10-20|Purchase|2.00|2.00|0|No|3|  
 |01-15-20|Sale|-2.00|-2.00|0|Yes|4|  
 
-#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Relation Entries in the G/L – Item Ledger Relation Table (2)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-2" />Relation Entries in the G/L – Item Ledger Relation Table (2)
 
 |G/L Entry No.|Value Entry No.|G/L Register No.|  
 |-------------|---------------|----------------|  
@@ -133,7 +133,7 @@ Later, you post a related purchase item charge for 2.00 LCY invoiced on 02-10-20
 |7|4|2|  
 |8|4|2|  
 
-#### <a name="general-ledger-entries-" />General Ledger Entries (2)
+#### <a name="general-ledger-entries-2" />General Ledger Entries (2)
 
 |Posting Date|G/L Account|Account No. (En-US Demo)|Amount|Entry No.|  
 |------------|-----------|------------------------|------|---------|  

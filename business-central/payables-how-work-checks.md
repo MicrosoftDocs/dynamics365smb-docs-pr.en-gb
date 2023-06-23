@@ -75,7 +75,7 @@ If you want to review posted cheques, for example to verify multiple cheques pai
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account - Cheque Details**, and then choose the related link.
 2. Set filters as relevant, and then choose the **Preview** button.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-checks-dynamics--business-central" />See related [Microsoft training](/training/modules/use-checks-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesuse-checks-dynamics-365-business-central" />See related [Microsoft training](/training/modules/use-checks-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

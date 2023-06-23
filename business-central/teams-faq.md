@@ -449,7 +449,7 @@ The **Share to Teams action** can be found in the **Share** menu on all pages, s
 [Changing Company and Other Settings in Teams](across-teams-settings.md)  
 [Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="includedfinincludesfreetrialmdmd" />[!INCLUDE[d365fin](includes/free_trial_md.md)]
+## <a name="included365finincludesfreetrialmdmd" />[!INCLUDE[d365fin](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

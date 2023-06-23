@@ -80,7 +80,7 @@ For this example, the fixed asset ledger entry looks like this:
 | 06/30/27 |Depreciation |180 |-6,250.00 |6,250.00 |
 | 12/31/27 |Depreciation |180 |-6,250.00 |0 |
 
-## <a name="declining-balance--depreciation" />Reducing-Balance Depreciation
+## <a name="declining-balance-1-depreciation" />Reducing-Balance Depreciation
 
 This accelerated depreciation method allocates the largest portion of the cost of an asset to the early years of its useful lifetime. If you use this method, you must enter a fixed yearly percentage.  
 
@@ -92,7 +92,7 @@ The depreciable basis is calculated as the book value less posted depreciation s
 
 The posted depreciation amount can contain entries with various posting types (write-down, custom1, and custom2) posted since the starting date of the current fiscal year. These posting types are included in the posted depreciation amount if there are check marks in the **Depreciation Type** and the **Part of Book Value** fields on the **FA Posting Type Setup** page.  
 
-### <a name="example---declining-balance--depreciation" />Example - Reducing-Balance Depreciation
+### <a name="example---declining-balance-1-depreciation" />Example - Reducing-Balance Depreciation
 
 A fixed asset has an acquisition cost of LCY 100,000. The **Declining-Balance %** field is 25. The **Calculate Depreciation** batch job is run biannually.  
 
@@ -122,11 +122,11 @@ Calculation Method:
 
 The calculation continues until the book value equals the final rounding amount or the salvage value that you entered.  
 
-## <a name="declining-balance--depreciation" />Double Declining-Balance Depreciation
+## <a name="declining-balance-2-depreciation" />Double Declining-Balance Depreciation
 
 The Reducing Balance and Double Declining-Balance methods calculate the same total depreciation amount for each year. However, if you run the **Calculate Depreciation** batch job more than once a year, the Declining-Balance 1 method will result in equal depreciation amounts for each depreciation period. The Double Declining-Balance method, on the other hand, will result in depreciation amounts that decline for each period.  
 
-### <a name="example---declining-balance--depreciation" />Example - Double Declining-Balance Depreciation
+### <a name="example---declining-balance-2-depreciation" />Example - Double Declining-Balance Depreciation
 
 A fixed asset has an acquisition cost of LCY 100,000. The **Declining-Balance %** field is 25. The **Calculate Depreciation** batch job is run biannually. The fixed asset ledger entries look like this:  
 
@@ -159,7 +159,7 @@ The depreciation values are:
 | 06/30/21 |DA = 75,000.00 x (1 - (1 - 0.25)<sup>0.5</sup>) = 10,048.09 |
 | 12/31/21 |DA = 64,951.91 x (1 - (1 - 0.25)<sup>0.5</sup>) = 8,701.91 |
 
-## <a name="dbsl-depreciation" />Sum of Digits Depreciation
+## <a name="db1sl-depreciation" />Sum of Digits Depreciation
 
 Sum of Digits is an abbreviated combination of Reducing-Balance and Straight-Line. The calculation continues until the book value equals the final rounding amount, or the salvage value that you entered.  
 
@@ -169,7 +169,7 @@ You can use various percentages to calculate declining-balance.
 
 If you use this method, you must enter the estimated useful lifetime and a declining balance percentage on the **FA Depreciation Books** page.  
 
-### <a name="example---db-sl-depreciation" />Example - DB1-SL Depreciation
+### <a name="example---db1-sl-depreciation" />Example - DB1-SL Depreciation
 
 A fixed asset has an acquisition cost of LCY 100,000. On the **FA Depreciation Books** page, the **Declining-Balance %** field contains 25 and the **No. of Depreciation Years** field contains 8. The **Calculate Depreciation** batch job is run biannually.  
 
@@ -246,7 +246,7 @@ The fixed asset ledger entries look like this:
 | 12/31/24 |Depreciation |360 |-20,000.00 |10,000.00 |
 | 12/31/25 |Depreciation |180 |-10,000.00 |0.00 |
 
-## <a name="example---dbsl-depreciation-using-half-year-convention" />Example - Sum of Digits Depreciation Using Half-Year Convention
+## <a name="example---db1sl-depreciation-using-half-year-convention" />Example - Sum of Digits Depreciation Using Half-Year Convention
 
 A fixed asset has an acquisition cost of LCY 100,000. The **Depreciation Starting Date** is 11/01/20. The estimated life is five years, so the **Depreciation Ending Date** must be 06/30/25. On the **FA Depreciation Books** page, the **Declining-Balance %** field contains 40. The **Calculate Depreciation** batch job is run annually. This example is based on a calendar fiscal year.  
 

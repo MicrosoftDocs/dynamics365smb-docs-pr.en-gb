@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="the-c-data-migration-extension" />The C5 Data Migration Extension
+# <a name="the-c5-data-migration-extension" />The C5 Data Migration Extension
 
 This extension makes it easy to migrate customers, vendors, items, and your general ledger accounts from Microsoft Dynamics C5 2012 to [!INCLUDE[prod_short](includes/prod_short.md)]. You can also migrate historical entries for general ledger accounts.
 

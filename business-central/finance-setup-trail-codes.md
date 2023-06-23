@@ -79,7 +79,7 @@ The selected reason code will be copied to new journal batches created under thi
 
 When the invoice is posted, the reason code is copied to each general ledger, customer, and vendor entry. You cannot assign different reason codes to the individual purchase and sales lines because all lines are posted as one entry.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-financial-management-dynamics--business-central" />See related [Microsoft training](/training/paths/set-up-financial-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsset-up-financial-management-dynamics-365-business-central" />See related [Microsoft training](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />See Also
 

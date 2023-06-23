@@ -49,7 +49,7 @@ As you register the application, consider the following points:
 
 [!INCLUDE[onedrive-url](includes/onedrive-url.md)]
 
-## <a name="set-up-the-onedrive-connection-in-version--and-later" />Set up the OneDrive connection in version 21 and later
+## <a name="set-up-the-onedrive-connection-in-version-21-and-later" />Set up the OneDrive connection in version 21 and later
 
 Use this procedure if you're using Business Central 2022 release wave 2 (version 21) or later.
 
@@ -74,7 +74,7 @@ Use this procedure if you're using Business Central 2022 release wave 2 (version
    - If you haven't already set up the Azure AD registered app, the **Set Up Azure Active Directory** guide opens.
 6. When completed, the privacy notice for OneDrive integration is agreed for all users. If you want to change it so users must agree or disagree for themselves, then go the **Privacy Notices Status** page and select **Let User Decide** for the OneDrive integration. Users will then be prompted to agree or disagree with the privacy notice the first time they use the OneDrive features. For more information, see [Privacy Notices](privacy-notices-status.md).
 
-## <a name="set-up-the-connection-in-includeprodshortincludesprodshortmd-version--and-" />Set up the connection in [!INCLUDE[prod_short](includes/prod_short.md)] version 19 and 20
+## <a name="set-up-the-connection-in-includeprodshortincludesprodshortmd-version-19-and-20" />Set up the connection in [!INCLUDE[prod_short](includes/prod_short.md)] version 19 and 20
 
 Use this procedure if you're using Business Central 2022 release wave 1 (version 20) or 2021 release wave 2 (version 19).
 > [!IMPORTANT]
@@ -96,7 +96,7 @@ Use this procedure if you're using Business Central 2022 release wave 1 (version
 > [!IMPORTANT]
 > The **SharePoint Connection Setup** page is used to configure multiple legacy features. The **General** section configures the connection to OneDrive, and the **Shared Documents** section redirects files to SharePoint instead. The  **SharePoint Connection Setup** has been deprecated and will be removed in coming release. We recommend that you do not configure the **Shared Documents** section. For more information, see [Deprecated Features in the Base App ](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#microsoft-sharepoint-connection-setup).
 
-## <a name="after-upgrade-to-version-" />After upgrade to version 21
+## <a name="after-upgrade-to-version-21" />After upgrade to version 21
 
 When you upgrade to version 21 or later, the existing connection to OneDrive that's configured on the **SharePoint Connection Setup** page will still work. But because the **SharePoint Connection Setup** page will be removed in version 23, we recommend that you switch to the new OneDrive integration, as described in the next section. Making this switch now will make it easier when the **SharePoint Connection Setup** is eventually removed. Plus, it will enable you to use the **OneDrive Setup** assisted setup guide to manage the OneDrive features that are accessible to users.
 

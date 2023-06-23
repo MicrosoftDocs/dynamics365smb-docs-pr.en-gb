@@ -124,7 +124,7 @@ In addition, all future entries of the same type will have amounts recorded in b
 > [!NOTE]  
 > The **Add. Reporting Currency** field will only be activated after you choose the **OK** button in the **Adjust Add. Reporting Currency** batch job.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-multiple-currencies-dynamics--business-central" />See related [Microsoft training](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsuse-multiple-currencies-dynamics-365-business-central" />See related [Microsoft training](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also" />See Also
 
