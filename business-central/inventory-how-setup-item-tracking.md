@@ -109,7 +109,7 @@ For bulk imports, use configuration packages to import data to the journals.
 > [!NOTE]
 > You can't use **Edit in Excel** to create journal lines with tracking information.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepare-item-tracking" />See related [Microsoft training](/training/modules/prepare-item-tracking/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/prepare-item-tracking/)
 
 ## <a name="see-also" />See also
 

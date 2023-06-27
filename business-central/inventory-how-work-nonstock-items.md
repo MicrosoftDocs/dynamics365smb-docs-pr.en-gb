@@ -58,7 +58,7 @@ The following process uses a sales order, but the steps are the same for blanket
 > [!NOTE]  
 > An item reference is automatically item between the vendor's item number and your new item number. To learn more about item references, go to [Use Item References](inventory-how-use-item-cross-refs.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics-365-business-central" />See related [Microsoft training](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

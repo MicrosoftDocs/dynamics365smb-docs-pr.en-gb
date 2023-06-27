@@ -49,7 +49,7 @@ To set this up, you assign responsibility centres to users in three functional a
 > [!NOTE]  
 > Users can view only those posted documents that related to their own responsibility centre. However, they can view all ledger entries and navigate to other posted documents from the ledger entries.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-responsibility-centers" />See related [Microsoft training](/training/modules/set-up-responsibility-centers/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/set-up-responsibility-centers/)
 
 ## <a name="see-also" />See also
 

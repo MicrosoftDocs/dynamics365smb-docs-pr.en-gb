@@ -29,7 +29,7 @@ There are a few pieces of information to have ready before you create the connec
 > These steps describe the procedure for [!INCLUDE[prod_short](includes/prod_short.md)] online.
 > If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises and are not using Azure Active Directory account to connect to [!INCLUDE [cds_long_md](includes/cds_long_md.md)], you must also specify a user name and password of a user account for the integration. This account is referred to as the "integration user" account. If you're using an Azure Active Directory account, the integration user account is not required or displayed. The integration user will be set up automatically and does not require a licence.
 
-## <a name="set-up-a-connection-to-includecdslongmdincludescdslongmdmd" />Set up a connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
+## <a name="set-up-a-connection-to-" />Set up a connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 For all authentication types other than Microsoft 365 authentication, you set up your connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] on the **Dataverse Connection Setup** page. For Microsoft 365 authentication, we recommend that you use the **Dataverse Connection Setup** assisted setup guide. The guide makes it easier to set up the connection and specify advanced features, such as the ownership model and initial synchronisation.  
 
@@ -206,7 +206,7 @@ The following steps assume that you use Azure AD to manage identities and access
    > [!NOTE]
    > If you aren't prompted to sign in with your administrator account, it is probably because pop ups are blocked. To sign in, allow pop-ups from `https://login.microsoftonline.com`.
 
-### <a name="to-disconnect-from-includecdslongmdincludescdslongmdmd" />To disconnect from [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
+### <a name="to-disconnect-from-" />To disconnect from [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Dataverse Connection Setup**, and then choose the related link.
 2. On the **Dataverse Connection Setup** page, turn off the **Enabled** toggle.  

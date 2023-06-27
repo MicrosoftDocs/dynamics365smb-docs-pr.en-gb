@@ -27,7 +27,7 @@ To track the value in the general ledger, you can calculate WIP and post the val
 | Percentage of Completion |Recognised Costs = Usage Total Costs<br /><br /> Recognised Revenue = Billable Total Price x Percentage of Completion<br /><br /> Percentage of Completion = Usage Total Costs / Budget Total Costs<br /> (Captured in the **Cost Completion %** field on job task lines)<br /><br /> WIP Sales = Recognised Sales - Billable Invoiced Price |Percentage of completion calculations recognise revenue proportionally based on the percentage of completion, that is, usage total costs vs. budget costs.<br /><br /> This calculation requires that the billable total price and budget total costs be correctly entered for the whole job. |
 | Completed Contract |WIP Amount = WIP Cost Amount = Usage (Total Cost)<br /><br /> WIP Sales Amount = Billable (Invoiced Price) |Completed contract does not recognise revenue and costs until the job is complete. You may want to do this when there is high uncertainty around the estimates of costs and revenue for the job.<br /><br /> All usage is posted to the WIP Costs account (asset) and all invoiced sales are posted to the WIP Invoiced Sales account (liability) until the job is complete. |
 
-## <a name="see-related-microsoft-trainingtrainingpathscalculate-post-job-wip" />See related [Microsoft training](/training/paths/calculate-post-job-wip/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/paths/calculate-post-job-wip/)
 
 ## <a name="see-also" />See also
 

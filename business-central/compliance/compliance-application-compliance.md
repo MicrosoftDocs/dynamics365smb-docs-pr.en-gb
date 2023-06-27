@@ -102,6 +102,6 @@ Microsoft builds localised versions of Business Central for a limited number of 
 [Service Compliance](compliance-service-compliance.md)  
 [Certifications](compliance-certifications.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

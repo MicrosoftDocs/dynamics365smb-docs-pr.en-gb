@@ -12,7 +12,7 @@ ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: andreipa
 ---
-# <a name="work-with-recurring-revenue-in-includeprodshortincludesprodshortmd" />Work with recurring revenue in [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-recurring-revenue-in-" />Work with recurring revenue in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Many companies are moving from a business revenue model where revenue is made from a customer's one-time purchase to a subscription model where revenue is made on a recurring basis in return for consistent access to the delivery of a good or service.
 [!INCLUDE[prod_short](includes/prod_short.md)] has the following options for automating how you send subscription invoices to your customers and register recurring revenue. 
@@ -35,7 +35,7 @@ The recurring job journal is a more advanced alternative to the general journal.
 
 After posting a recurring job journal, you can create multiple invoices with the **Create Job Sales Invoice** task. You can review and post created invoices in the **Sales Invoices** page.
 
-### <a name="why-use-this-option" />Why use this option
+### <a name="why-use-this-option-1" />Why use this option
 
 With this option, you follow the standard invoicing procedure with all the benefits of that, including standard and customer layouts for communication preferences. You can also define prices for each job individually.
 
@@ -47,7 +47,7 @@ For more information, see [Create job journal lines](projects-how-record-job-usa
 
 If you often need to create sales and purchase lines with similar information, you can set up recurring sales lines that you can then insert on recurring sales and purchase documents, for example, for recurring replenishment orders. Use the **Create Recurring Sales Invoices** batch job to create sales invoices according to recurring sales lines that are assigned to the customers and with posting dates within the valid-from and valid-to dates that you specify on the recurring sales lines.  
 
-### <a name="why-use-this-option" />Why use this option
+### <a name="why-use-this-option-2" />Why use this option
 
 With this option, you can assign the same recurring lines to multiple customers. You can define period of validity for the recurring sales lines for specific customer. You can assign multiple recurring lines to the same customer and all of them will be included in the invoice.
 
@@ -62,7 +62,7 @@ A service contract contains the service contract agreements between your custome
 You can define the starting date of the contract, the invoice period, whether or not the contract is prepaid, price update specifications if you plan to change prices while contract is active. You can use both service items or items in service contract lines.
 You can create contract templates to define how to create certain types of contracts.  
 
-### <a name="why-use-this-option" />Why use this option
+### <a name="why-use-this-option-3" />Why use this option
 
 With this option, you use a part of the advanced service management functionality that not limited to issuing of recurring invoices but support repair shop and field service operations.
 
@@ -78,7 +78,7 @@ There are several related capabilities in [!INCLUDE[prod_short](includes/prod_sh
 A blanket sales order represents a framework for a long-term agreement between your company and your customer.
 A blanket order is typically made when a customer has committed to purchasing large quantities that are to be delivered in several smaller shipments over a certain period of time. Often blanket orders cover only one item with predetermined delivery dates. The main reason for using a blanket order rather than a sales order is that quantities entered on a blanket order do not affect item availability, however it can be used for planning purposes.
 
-#### <a name="why-use-this-option" />Why use this option
+#### <a name="why-use-this-option-4" />Why use this option
 
 With this option, you use the anticipated demand, so the information is considered during the normal planning routines. For more information, see [Demand Forecasts and Blanket Orders](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders).  
 
@@ -91,7 +91,7 @@ For more information, see [Work with Blanket Sales Orders](sales-how-to-create-b
 You can use recurring orders to create blanket order templates so that sales orders can be created based on date intervals that you define. For example, if you deliver the same sales order every two weeks, you can use a blanket sales order and create recurring orders.
 You can use recurring groups to define a range of parameters that show how you make the orders. These groups are assigned to blanket orders that have to be created regularly. To create the recurring orders, you will have to periodically run the create recurring orders process. 
 
-#### <a name="why-use-this-option" />Why use this option
+#### <a name="why-use-this-option-5" />Why use this option
 
 With this option, you can choose between fixed and "best" prices.
 

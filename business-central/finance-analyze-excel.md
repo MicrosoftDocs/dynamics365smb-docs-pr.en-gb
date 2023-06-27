@@ -44,13 +44,13 @@ The predefined Excel reports are based on the data in the current company. For e
 
 Other sheets in the Excel workbook show the data behind the report. To find out what's behind the groupings in the Excel reports, you might have to filter the lists in [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## <a name="the-include-prodshortincludesprodshortmd-excel-add-in" />The [!INCLUDE [prod_short](includes/prod_short.md)] Excel add-in
+## <a name="the--excel-add-in" />The [!INCLUDE [prod_short](includes/prod_short.md)] Excel add-in
 
 Your [!INCLUDE [prod_short](includes/prod_short.md)] experience includes an add-in for Excel. Depending on your subscription, you're signed in automatically, or you must provide your sign-in details for [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Viewing and Editing in Excel From Business Central](across-work-with-excel.md).  
 
 The add-in lets you get fresh data from [!INCLUDE [prod_short](includes/prod_short.md)], and you can push changes back to [!INCLUDE [prod_short](includes/prod_short.md)]. However, the ability to push data back to the database is not available for the financial reports you can view in Excel.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />See Also
 

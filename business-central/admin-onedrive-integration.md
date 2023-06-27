@@ -63,7 +63,7 @@ The **OneDrive Setup** assisted setup was introduced in 2022 release wave 2, ver
 
 To switch, just open and run the **OneDrive Setup** assisted setup directly, or open the **SharePoint Connection Setup** page and choose **Go to new OneDrive setup** in the notification at the top of the page. Follow the setup guide as described in the previous section.
 
-## <a name="restoring-onedrive-and-includeprodshortincludesprodshortmd" />Restoring OneDrive and [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="restoring-onedrive-and-" />Restoring OneDrive and [!INCLUDE[prod_short](includes/prod_short.md)]
 
 As part of a disaster recovery exercise, administrators might need to restore a [!INCLUDE[prod_short](includes/prod_short.md)] online environment to a backup from a time in the past, and synchronise OneDrive storage to that same point in time. OneDrive provides recovery various tools, such as restoring a user’s OneDrive to a previous time, restore a previous version of an individual file, or restore deleted files. For more information, see the following articles:
 

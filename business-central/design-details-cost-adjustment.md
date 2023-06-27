@@ -158,7 +158,7 @@ To set up cost adjustment to run automatically when you post a inventory transac
 
 The selection that you make in the **Automatic Cost Adjustment** field is important for performance and the accuracy of your costs. Shorter time periods, such as **Day** or **Week**, affect system performance less, because they provide the stricter requirement that only costs posted in the last day or week can be automatically adjusted. This means that the automatic cost adjustment does not run as frequently and therefore affects system performance less. However, it also means that unit costs may be less accurate.  
 
-### <a name="example" />Example
+### <a name="example-1" />Example
 
 The following example shows an automatic cost adjustment scenario:  
 

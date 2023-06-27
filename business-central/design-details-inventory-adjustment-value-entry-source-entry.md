@@ -158,7 +158,7 @@ User groups not allowed to post in December but in January, which was probably i
 
 ## <a name="item-charge-scenario" />Item charge scenario
 
-### <a name="prerequisites" />Prerequisites
+### <a name="prerequisites-1" />Prerequisites
 
 Please enter the following values:
 
@@ -184,7 +184,7 @@ Please enter the following values:
 
 - Allow Posting to = Empty  
 
-### <a name="to-test-the-scenario" />To test the scenario
+### <a name="to-test-the-scenario-1" />To test the scenario
 
 Test this scenario by carrying out the following steps:
 

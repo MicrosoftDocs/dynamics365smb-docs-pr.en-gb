@@ -25,7 +25,7 @@ If you've already integrated [!INCLUDE[crm_md](includes/crm_md.md)] with [!INCLU
 > [!NOTE]
 > Reconnecting through [!INCLUDE[prod_short](includes/cds_long_md.md)] will apply default synchronisation settings, and will overwrite any configurations you have. For example, the default table mappings will be applied.
 
-## <a name="integration-settings-that-are-specific-to-a-includecrmmdincludescrmmdmd-integration" />Integration Settings that are Specific to a [!INCLUDE[crm_md](includes/crm_md.md)] Integration
+## <a name="integration-settings-that-are-specific-to-a--integration" />Integration Settings that are Specific to a [!INCLUDE[crm_md](includes/crm_md.md)] Integration
 Integration with [!INCLUDE[prod_short](includes/prod_short.md)] happens through [!INCLUDE[prod_short](includes/cds_long_md.md)], and many standard settings and tables are provided. In addition to the standard settings, there are some that are specific to [!INCLUDE[crm_md](includes/crm_md.md)]. The following sections list those settings.
 
 ## <a name="permissions-and-security-roles-for-user-accounts-in-sales" />Permissions and Security Roles for User Accounts in Sales

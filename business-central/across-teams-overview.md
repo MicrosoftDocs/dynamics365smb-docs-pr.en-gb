@@ -83,7 +83,7 @@ For more information, see [Add a Business Central tab in Teams](across-teams-tab
 [Changing Company and Other Settings in Teams](across-teams-settings.md)  
 [Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)
   
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

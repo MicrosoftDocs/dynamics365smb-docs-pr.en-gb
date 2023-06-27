@@ -234,7 +234,7 @@ To view a group of certificates, you start from the **Certificates of Supply** p
 > * To manually create a certificate of supply certificate  
 > * To print a certificate of supply.
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics-365-business-central" />See related [Microsoft training](/training/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also" />See Also
 

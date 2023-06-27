@@ -133,7 +133,7 @@ Ken is now ready to assign the column definition to the financial report name.
 2. On the **Financial Report** page, you can select an amount and then view the cash flow forecast entries that make up the amount. In addition, you can view the formula used to calculate that amount. You can also filter the amounts by date and dimension.  
 3. Choose the **Print** action to print the cash flow forecast.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics-365-business-central" />See related [Microsoft training](/training/modules/forecast-cash-flow-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/forecast-cash-flow-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

@@ -79,7 +79,7 @@ Bank accounts in [!INCLUDE[prod_short](includes/prod_short.md)] register banking
    The field is different from the **Bank Account No.** field also available in the **General** FastTab.
 4. Fill in the fields on the **Bank Account Card** page as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsset-up-financial-management-dynamics-365-business-central" />See related training at [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learn" />See related training at [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
 
 ## <a name="see-also" />See also
 

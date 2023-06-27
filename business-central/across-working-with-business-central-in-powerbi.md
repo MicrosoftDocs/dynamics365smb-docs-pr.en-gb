@@ -10,7 +10,7 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 09/07/2022
 ms.author: jswymer
 ---
-# <a name="work-with-include-prodshortincludesprodshortmd-data-in-power-bi" />Work with [!INCLUDE [prod_short](includes/prod_short.md)] Data in Power BI
+# <a name="work-with--data-in-power-bi" />Work with [!INCLUDE [prod_short](includes/prod_short.md)] Data in Power BI
 
 In this article, you learn some of the basics about working with reports and dashboards in Power BI that use [!INCLUDE [prod_short](includes/prod_short.md)] as a data source. The article discusses some aspects that will help you get started as a [!INCLUDE[prod_short](includes/prod_short.md)] user. For general guidelines and instructions about using Power BI, see [Power BI documentation for consumers](/power-bi/consumer).
 
@@ -44,7 +44,7 @@ In the navigation pane, under Datasets, select More options (...) next to the da
 
 For more information, see [Configure scheduled refresh](/power-bi/connect-data/refresh-scheduled-refresh)
 
-## <a name="a-nameuploadaupload-reports-from-files" /><a name="upload"></a>Upload reports from files
+## <a name="upload-reports-from-files" /><a name="upload"></a>Upload reports from files
 
 Power BI Reports can be distributed among users as .pbix files. If you have a .pbix file, you can upload the file to a workspace. To upload a report, do the following steps:
 
@@ -62,7 +62,7 @@ For more information, see [Upload the report to the service](/power-bi/paginated
 > [!TIP]
 > If you're using [!INCLUDE[prod_short](includes/prod_short.md)] online, you can also upload a report from within [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Work with Power BI Reports in [!INCLUDE [prod_short](includes/prod_short.md)] - Upload Reports](across-working-with-powerbi.md#upload).
 
-## <a name="a-nameshareashare-reports-with-others" /><a name="share"></a>Share reports with others
+## <a name="share-reports-with-others" /><a name="share"></a>Share reports with others
 
 Once a report is in your workspace, you can share it with others in your organisation.
 
@@ -71,7 +71,7 @@ To share a report, in a list reports, or in an open report, select **Share**. In
 > [!NOTE]
 > You must have  [Power BI Pro licence](/power-bi/service-features-license-type), and the people you share with do too. The content must be in a workspace in a [Premium capacity](/power-bi/service-premium-what-is). For more information, see [Ways to share your work in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />See Also
 

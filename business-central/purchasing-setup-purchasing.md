@@ -70,7 +70,7 @@ With the feature enabled, a return transaction can only be posted by specifying 
 | Specify default reports to be used for different document types. |[Report Selection in Business Central](across-report-selections.md)|
 |Specify whether users are allowed to post purchase invoices, and whether they must post them together with a shipment. |[Define an invoice posting policy for users](admin-setup-invoice-posting-policy.md)|
 
-## <a name="see-related-training-at-microsoft-learnlearnpathstrade-get-started-dynamics-365-business-central" />See related training at [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learn" />See related training at [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also" />See also
 

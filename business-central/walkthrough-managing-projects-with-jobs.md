@@ -112,7 +112,7 @@ In the next procedure, you create a job journal batch for Tricia in order to pos
 
 4.  Choose the **OK**  button to save the changes.
 
-## <a name="setting-up-a-job" />Setting Up a Job
+## <a name="setting-up-a-job-1" />Setting Up a Job
 
  In this scenario, CRONUS has won a contract with a customer, Progressive Home Furnishings, to design a conference and dining hall. The customer is based in the United States and the project will require special software. The project manager reaches an agreement with the customer and creates a job that covers the agreement.  
 
@@ -258,7 +258,7 @@ The lines are now posted.
 2.  Choose the **Statistics** action. You can review detailed information about the job prices, costs, and profits in both local and foreign currencies.  
 3.  Choose the **Close** button to close the **Job Statistics** page.  
 
-## <a name="handling-fixed-prices" />Handling Fixed Prices
+## <a name="handling-fixed-prices-1" />Handling Fixed Prices
 
  CRONUS has been contracted to set up conference rooms. As the project manager, Prakash wants a good overview of the tasks required for the job with the associated budgeted and incurred costs for each task. In addition, Prakash wants to know the total contracted price for the job and the amount that has been invoiced to this point. They have reached an agreement with the customer regarding fixed pricing for the job.  
 
@@ -454,7 +454,7 @@ The following procedures show how to create a new job, set pricing, and then set
 
  This walkthrough has taken you through some of the basic steps of working with jobs in [!INCLUDE[prod_short](includes/prod_short.md)]. You have learned about how to create a new job, how to copy a job, and how to handle payments. Also, you have seen a demonstration of how to track hours and create invoices.  
 
-## <a name="see-related-microsoft-trainingtrainingpathscreate-jobs" />See related [Microsoft training](/training/paths/create-jobs/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/paths/create-jobs/)
 
 ## <a name="see-also" />See also
 

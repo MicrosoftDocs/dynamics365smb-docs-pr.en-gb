@@ -83,7 +83,7 @@ Centralised Deployment is a feature in Microsoft 365 admin centre that you use t
 
 When finished, you can always change the deployment in Microsoft 365 admin centre, like assigning more users. For more information about deploying add-ins in the admin centre, see [Deploy add-ins in the admin centre](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true).
 
-## <a name="a-nameinstallainstall-the-add-in-for-your-own-use" /><a name="install"></a>Install the add-in for your own use
+## <a name="install-the-add-in-for-your-own-use" /><a name="install"></a>Install the add-in for your own use
 
 If your organisation allows it, you can install the Business Central add-in for just yourself. Contact your administrator if you're not sure.
 
@@ -94,7 +94,7 @@ If your organisation allows it, you can install the Business Central add-in for 
 
 Business Central will connect to your email server and install the add-in in your Outlook. This won't take long. You're now ready to start using the add-in in Outlook.
 
-### <a name="a-nameonpremafor-business-central-on-premises" /><a name="onprem"></a>For Business Central on-premises
+### <a name="for-business-central-on-premises" /><a name="onprem"></a>For Business Central on-premises
 
 If you're using Business Central on-premises, installing the add-in may be slightly different.
 
@@ -116,7 +116,7 @@ If you're using Business Central on-premises, installing the add-in may be sligh
 
 You're now ready to start using the add-in in Outlook.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />See related [Microsoft training](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />See Also
 

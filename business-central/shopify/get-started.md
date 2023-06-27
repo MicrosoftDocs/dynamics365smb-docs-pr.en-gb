@@ -105,7 +105,7 @@ If you keep the **Allow Data Sync to Shopify** toggle enabled, then additional p
 *   Select **Draft** in the **Status for Create Product** field to ensure that exported products aren't available to buyers. You can verify how products look in the online store, synchronise prices, options, and stock levels. Just make sure to use filters on the **Add Item to Shopify** page to limit the number of exported items.
 * Turn off the **Export Customer to Shopify** toggle so that you don't send customers to Shopify.
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-shopify-connector-dynamics-365-business-central" />See related [Microsoft training](/training/paths/use-shopify-connector-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/paths/use-shopify-connector-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

@@ -42,7 +42,7 @@ If you apply entries in different currencies, you must set up the general ledger
 3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendor Posting Groups**, and then choose the related link.  
 4. In the **Debit Curr. Appln. Rndg. Acc.** and **Credit Curr. Appln. Rndg. Acc.** fields, enter the relevant general ledger accounts to post rounding differences.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprocess-foreign-currency-payments-dynamics-365-business-central" />See related [Microsoft training](/training/modules/process-foreign-currency-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/process-foreign-currency-payments-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

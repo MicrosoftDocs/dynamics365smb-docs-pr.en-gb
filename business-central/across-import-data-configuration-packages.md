@@ -80,7 +80,7 @@ The default configuration package supports the following tables:
 [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)  
 [Import Multiple Item Pictures](inventory-how-import-item-pictures.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

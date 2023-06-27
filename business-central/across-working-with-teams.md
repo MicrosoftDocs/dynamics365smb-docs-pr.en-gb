@@ -93,13 +93,13 @@ Here are a couple things to keep in mind when working with the card details:
 
 To learn more about working with cards and card details, see [Teams FAQ](teams-faq.md).
 
-## <a name="a-nameshare-linkashare-a-link-to-page-from-business-central-to-teams" /><a name="share-link"></a>Share a link to page from Business Central to Teams
+## <a name="share-a-link-to-page-from-business-central-to-teams" /><a name="share-link"></a>Share a link to page from Business Central to Teams
 
 Directly from most collection pages, like the **Items** page, and details pages, like the **Items** card, you can send a link to the page to specific recipients in a Teams conversation. For example, you can share a link to a filtered view of your records. Recipients can then select the link to open the page in [!INCLUDE [prod_short](includes/prod_short.md)]\.
 
 [![!The Share menu displayed on a card.](media/teams-share-link-v2.png "The Share menu displayed on a card.")](media/teams-share-link-v2.png#lightbox)
 
-### <a name="prerequisites" />Prerequisites
+### <a name="prerequisites-1" />Prerequisites
 
 - You have access to Microsoft Teams.
 - (Optional) You've installed the [!INCLUDE [prod_short](includes/prod_short.md)] app in Teams. 
@@ -127,6 +127,6 @@ Directly from most collection pages, like the **Items** page, and details pages,
 [Troubleshooting Teams](admin-teams-troubleshooting.md)  
 [Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

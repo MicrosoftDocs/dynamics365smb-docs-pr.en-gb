@@ -17,7 +17,7 @@ You can set up a budget for each job. The budget is used to plan the resources t
 
 The following procedure describes how to estimate budgeted costs during planning. For information about recording budgeted versus actual job prices and costs, see [Record Usage for Jobs](projects-how-record-job-usage.md).  
 
-## <a name="a-namejobbudgetcostsa-to-estimate-the-budgeted-costs-for-a-job" /><a name="JobBudgetCosts"></a> To estimate the budgeted costs for a job
+## <a name="to-estimate-the-budgeted-costs-for-a-job" /><a name="JobBudgetCosts"></a> To estimate the budgeted costs for a job
 When a customer wants to know the price of a job that will be invoiced based on usage, you must have to determine the budgeted costs for the job. You use the **Job Task Lines** page to do this.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
@@ -43,7 +43,7 @@ On the **Job Card** page, you can now see a summary of the total budgeted costs,
 
 For information about recording budgeted versus actual job prices and costs, see [Record Usage for Jobs](projects-how-record-job-usage.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-job-planning-lines" />See related [Microsoft training](/training/modules/set-up-job-planning-lines/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/set-up-job-planning-lines/)
 
 ## <a name="see-also" />See also
 

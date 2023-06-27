@@ -26,7 +26,7 @@ If a vendor has one or more bank accounts and you want to set a preferred option
 2. Open the card for the vendor.
 3. On the **Payments** FastTab, choose the default vendor bank account in the **Preferred Bank Account Code** field.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics-365-business-central" />See related [Microsoft training](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

@@ -230,7 +230,7 @@ After you create the new bank account, you should also create a new bank posting
 
 To get a more condensed view of your cash accounts in financial reporting, use the **Begin-Total** and **End-Total** accounts in your chart of accounts, the **Totalling** rows in financial reports, or G/L account categories. Learn more at [Business Intelligence and Financial Reporting](bi.md) section.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics-365-business-central" />See related [Microsoft training](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

@@ -96,7 +96,7 @@ After you have posted job journal lines, you can see the planning lines that are
 2. Select a relevant job journal, and then choose the **Ledger Entries** action.  
 3. On the **Job Ledger Entries** page, choose **Show Linked Job Planning Lines** action.
 
-## <a name="see-related-microsoft-trainingtrainingpathspost-job-usage-sales" />See related [Microsoft training](/training/paths/post-job-usage-sales/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/paths/post-job-usage-sales/)
 
 ## <a name="see-also" />See also
 

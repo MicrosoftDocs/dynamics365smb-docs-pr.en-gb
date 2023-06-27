@@ -89,7 +89,7 @@ When calculating the re-valuable quantity for items using the Standard costing m
 -   A value entry with an entry type of **Variance**. This entry records the difference between the invoiced cost and the revalued standard cost.  
 -   A value entry with an entry type of **Revaluation**. This entry records the reversal of the revaluation of the expected cost.  
 
-### <a name="example" />Example
+### <a name="example-1" />Example
 The following example, which is based on the production of the chain in the previous example, illustrates how the three types of entries are created. It is based on the following scenario:  
 
 1.  The user posts the purchased links as received with a unit cost of LCY 2.00.  
@@ -123,7 +123,7 @@ The following table shows the criteria that is used for an item that does not us
 |E|Later than revaluation entry no.|Equal to revaluation posting date|Yes|  
 |F|Later than revaluation entry no.|Later than revaluation posting date|Yes|  
 
-### <a name="example" />Example
+### <a name="example-2" />Example
 The following example, which illustrates revaluation of an item that uses the FIFO costing method, is based on the following scenario:  
 
 1.  On 01-01-20, the user posts a purchase of 6 units.  

@@ -43,7 +43,7 @@ To turn PDF and image files into electronic documents that you can convert to in
 
 For more information, see [Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />See related [Microsoft training](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

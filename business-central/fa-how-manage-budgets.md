@@ -54,7 +54,7 @@ You can use the **Fixed Asset - Projected Value** report to calculate future dep
 4. Leave the **Fixed Asset** FastTab blank to have all assets included. In the **Budgeted Asset** field, enter **No** to exclude budgeted assets or **Yes** to see budgeted assets only.
 5. Choose the **Print** or **Preview** button.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesbudget-fixed-assets" />See related [Microsoft training](/training/modules/budget-fixed-assets/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/budget-fixed-assets/)
 
 ## <a name="see-also" />See also
 

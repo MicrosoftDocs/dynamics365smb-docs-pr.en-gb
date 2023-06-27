@@ -54,7 +54,7 @@ Both approaches have their own advantages, and you can use them simultaneously. 
 
 For more information, see [Delegated administrator access to Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
-### <a name="a-namelicensespermissionsaconfigure-permissions-based-on-licenses" /><a name="licensespermissions"></a>Configure permissions based on licences
+### <a name="configure-permissions-based-on-licenses" /><a name="licensespermissions"></a>Configure permissions based on licences
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
@@ -84,7 +84,7 @@ If this default configuration isn't the right setup for a particular environment
 > [!IMPORTANT]
 > This customisation of permissions only takes effect for new users that you assign the relevant licence. Existing users are not updated. We recommend that you customise permissions before you start assigning users licences in the Microsoft 365 admin centre.
 
-### <a name="a-nameadduserato-add-users-or-update-user-information-and-license-assignments-in-business-central" /><a name="adduser"></a>To add users or update user information and licence assignments in Business Central
+### <a name="to-add-users-or-update-user-information-and-license-assignments-in-business-central" /><a name="adduser"></a>To add users or update user information and licence assignments in Business Central
 
 After you add users or change user information in the Microsoft 365 Admin Centre, you can quickly import the user information to [!INCLUDE[prod_short](includes/prod_short.md)]. The import includes licence assignments.  
 
@@ -118,7 +118,7 @@ You can remove a user's access to [!INCLUDE[prod_short](includes/prod_short.md)]
 
 You can also remove the licence from a user in the Microsoft 365 Admin Centre. The user is then unable to sign in. For more information, see [Remove licences from users](/microsoft-365/admin/manage/remove-licenses-from-users).
 
-### <a name="a-namem365asynchronization-with-microsoft-365" /><a name="m365"></a>Synchronisation with Microsoft 365
+### <a name="synchronization-with-microsoft-365" /><a name="m365"></a>Synchronisation with Microsoft 365
 
 When you assign a licence for [!INCLUDE[prod_short](includes/prod_short.md)] to a user in Microsoft 365, there are two ways to create the user in [!INCLUDE[prod_short](includes/prod_short.md)].  
 

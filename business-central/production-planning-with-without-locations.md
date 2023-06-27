@@ -139,7 +139,7 @@ As you can see from the last scenario, the only way to get a correct result for 
 
 Therefore, if you often plan for demand at locations, then we recommend that you use the Stockkeeping Units capability.
 
-## <a name="see-related-training-at-microsoft-learntrainingpathstrade-get-started-dynamics-365-business-central" />See related training at [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learn" />See related training at [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also" />See also
 

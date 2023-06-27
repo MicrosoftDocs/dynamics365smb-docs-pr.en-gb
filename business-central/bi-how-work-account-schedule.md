@@ -184,7 +184,7 @@ You can import and export financial reports as RapidStart configuration packages
 > [!NOTE]
 > When you import financial reports, existing records with the same names as those you are importing will be deleted.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-financial-reports-dynamics-365-business-centralindex" />See related [Microsoft training](/training/modules/configure-financial-reports-dynamics-365-business-central/index).
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/configure-financial-reports-dynamics-365-business-central/index).
 
 ## <a name="see-also" />See also
 

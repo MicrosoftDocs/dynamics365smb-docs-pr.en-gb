@@ -77,7 +77,7 @@ The following table provides some examples to explain how you can use the search
 |`@*man`|All records that end with **man**, regardless of the case. For example **Sportsman**, but not **Manchester** or **manual**.|
 
 
-## <a name="a-namefilteringafiltering" /><a name="filtering"></a>Filtering
+## <a name="filtering" /><a name="filtering"></a>Filtering
 
 Filtering provides a more advanced and versatile way to control which records are included in a list, report, or XMLport. There are two major differences between searching and filtering, as described in the table below.
 
@@ -249,7 +249,7 @@ When you enter criteria, you can use all the numbers and letters that you normal
 |`..1299|1400..`|Include records with a number less than or equal to 1299 or a number equal to 1400 or greater (all numbers except 1300 through 1399).|  
 |`>50&<100`|Include records with numbers that are greater than 50 and less than 100 (numbers 51 through 99).|  
 
-### <a name="a-namesymbolsafiltering-on-values-that-contain-symbols" /><a name="symbols"></a>Filtering on Values That Contain Symbols
+### <a name="filtering-on-values-that-contain-symbols" /><a name="symbols"></a>Filtering on Values That Contain Symbols
 
 There may be cases where field values contain the one of the following symbols:
 
@@ -302,7 +302,7 @@ Use `%myvendors` in the supplier **No** field to display all records for supplie
 |-----------------------|-----------------------|  
 |`%myvendors`|Suppliers in the **My Suppliers** on your Role Centre. |  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessearch-filter-sort-data-dynamics-365-business-central" />See related [Microsoft training](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

@@ -242,7 +242,7 @@ You can specify the reports that must be printed at different stages by choosing
 > [!NOTE]
 > The available reports may vary based on your country's localisation. The base application doesn't include any layouts.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadjust-inventory" />See related [Microsoft training](/training/modules/adjust-inventory/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/adjust-inventory/)
 
 ## <a name="see-also" />See also
 

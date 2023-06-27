@@ -47,7 +47,7 @@ There are a few steps to get started.
 
 Additionally, you must assign vendors to a domestic **Gen. Bus. Posting Group** and a **Supplier Posting Group**. The Country/Region setting for the vendor must be Denmark (DK). For more information, see [Setting Up Posting Groups](finance-posting-groups.md).  
 
-### <a name="to-allow-includeprodshortincludesprodshortmd-to-export-payment-data" />To allow [!INCLUDE[prod_short](includes/prod_short.md)] to export payment data
+### <a name="to-allow--to-export-payment-data" />To allow [!INCLUDE[prod_short](includes/prod_short.md)] to export payment data
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journal**, and then choose the related link.  
 2. On the **Edit Payment Journal** page, choose the **Bank** batch.  

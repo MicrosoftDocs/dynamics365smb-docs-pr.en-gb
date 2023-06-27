@@ -47,7 +47,7 @@ Sharing reports with collaborators is also possible on the **Report Inbox** page
 >
 > Using the **Share** action makes the generated report file available to other users only on OneDrive for Business and does not list the scheduled report on their **Report Inbox**.
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsbuild-reports" />See related training at [Microsoft Learn](/learn/paths/build-reports/).
+## <a name="see-related-training-at-microsoft-learn" />See related training at [Microsoft Learn](/learn/paths/build-reports/).
 
 ## <a name="see-also" />See also
 

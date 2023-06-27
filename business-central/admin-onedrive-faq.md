@@ -16,7 +16,7 @@ ms.author: bholtorf
 
 This article answers some of the questions you may have about working with OneDrive and [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="does-this-work-with-all-includeprodshortincludesprodshortmd-clients" />Does this work with all [!INCLUDE[prod_short](includes/prod_short.md)] clients?
+## <a name="does-this-work-with-all--clients" />Does this work with all [!INCLUDE[prod_short](includes/prod_short.md)] clients?
 
 Yes. You can open files in OneDrive from the [!INCLUDE[prod_short](includes/prod_short.md)] mobile apps, when viewing card details in Microsoft Teams, or even from the Outlook add-in.  
 
@@ -24,7 +24,7 @@ Yes. You can open files in OneDrive from the [!INCLUDE[prod_short](includes/prod
 
 As part of your Microsoft 365 subscription, your organisation provides you with OneDrive, your file storage in the cloud. OneDrive is private by default, where you organise your content and choose which files or folders to share and with whom. SharePoint on the other hand, provides a file repository in the cloud that is shared with others in your organisation.  
 
-## <a name="does-includeprodshortincludesprodshortmd-support-consumer-onedrive" />Does [!INCLUDE[prod_short](includes/prod_short.md)] support consumer OneDrive?
+## <a name="does--support-consumer-onedrive" />Does [!INCLUDE[prod_short](includes/prod_short.md)] support consumer OneDrive?
 
 No. This integration is exclusively intended for OneDrive for Business and only supports your work account. 
 
@@ -36,15 +36,15 @@ No. This integration is exclusively intended for OneDrive for Business and only 
 
 Administrators can access the Service health dashboard as part of the Microsoft 365 admin centre. The dashboard includes OneDrive’s service availability. Go to [https://admin.microsoft.com/Adminportal/Home?#/servicehealth](https://admin.microsoft.com/Adminportal/Home?#/servicehealth).
  
-## <a name="is-onedrive-integration-available-to-includeprodshortincludesprodshortmd-on-premises" />Is OneDrive integration available to [!INCLUDE[prod_short](includes/prod_short.md)] on premises?
+## <a name="is-onedrive-integration-available-to--on-premises" />Is OneDrive integration available to [!INCLUDE[prod_short](includes/prod_short.md)] on premises?
 
 Yes, but unlike [!INCLUDE[prod_short](includes/prod_short.md)] online, it does require more setup. For more information, see [Configuring Business Central On-Premises](admin-onedrive-integration-onpremises.md).  
 
-## <a name="does-includeprodshortincludesprodshortmd-on-premises-connect-with-sharepoint-server" />Does [!INCLUDE[prod_short](includes/prod_short.md)] on premises connect with SharePoint Server?
+## <a name="does--on-premises-connect-with-sharepoint-server" />Does [!INCLUDE[prod_short](includes/prod_short.md)] on premises connect with SharePoint Server?
 
 No. This deployment combination isn't supported, even if SharePoint Server has enabled My Sites.  
 
-## <a name="does-includeprodshortincludesprodshortmd-online-connect-with-sharepoint-server" />Does [!INCLUDE[prod_short](includes/prod_short.md)] online connect with SharePoint Server?
+## <a name="does--online-connect-with-sharepoint-server" />Does [!INCLUDE[prod_short](includes/prod_short.md)] online connect with SharePoint Server?
 
 No. This deployment combination isn't supported, even if SharePoint Server has enabled My Sites.  
 
@@ -56,7 +56,7 @@ The integration assumes that company names are unique across [!INCLUDE[prod_shor
 
 [!INCLUDE[prod_short](includes/prod_short.md)] doesn't automatically migrate files you opened earlier in OneDrive to the new folder. After renaming your company, the Open in OneDrive action will copy files to a folder that has the new company name.   
 
-## <a name="when-attaching-files-to-includeprodshortincludesprodshortmd-how-do-i-pick-a-file-from-onedrive" />When attaching files to [!INCLUDE[prod_short](includes/prod_short.md)], how do I pick a file from OneDrive?
+## <a name="when-attaching-files-to--how-do-i-pick-a-file-from-onedrive" />When attaching files to [!INCLUDE[prod_short](includes/prod_short.md)], how do I pick a file from OneDrive?
 
 [!INCLUDE[prod_short](includes/prod_short.md)] doesn't provide a cloud file picker. You must download the file from OneDrive to your device, and then upload it to [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
@@ -72,11 +72,11 @@ Run the **OneDrive Setup** assisted setup guide and turn off the **Use OneDrive 
 
 This is a legacy feature where all [!INCLUDE[prod_short](includes/prod_short.md)] files from all users are sent to a single SharePoint folder. We recommend that you don't configure the Shared Documents FastTab on the **SharePoint Connection Setup** page because this page has been [deprecated](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#microsoft-sharepoint-connection-setup) and will be removed in 2023 release wave 2, version 23.0.  We recommend that you use the **OneDrive Setup** instead.  
 
-## <a name="which-version-of-includeprodshortincludesprodshortmd-supports-onedrive" />Which version of [!INCLUDE[prod_short](includes/prod_short.md)] supports OneDrive?
+## <a name="which-version-of--supports-onedrive" />Which version of [!INCLUDE[prod_short](includes/prod_short.md)] supports OneDrive?
 
 Integration with OneDrive became available in 2021 release wave 2.  
 
-## <a name="a-namefeaturesawhich-features-are-affected-by-onedrive-integration" /><a name="features"></a>Which features are affected by OneDrive integration?
+## <a name="which-features-are-affected-by-onedrive-integration" /><a name="features"></a>Which features are affected by OneDrive integration?
 
 In the **OneDrive Setup** assisted setup guide for setting up OneDrive integration, you can turn on or off features for handling Business Central files in OneDrive. The features are divided between two options:
 

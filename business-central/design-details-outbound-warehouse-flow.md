@@ -83,7 +83,7 @@ The following diagram illustrates the outbound warehouse processes for different
 
 :::image type="content" source="media/design_details_warehouse_management_outbound_advanced_flow.png" alt-text="Shows the steps in an advanced outbound warehouse flow.":::
 
-### <a name="1-release-a-source-document" />1: Release a source document
+### <a name="1-release-a-source-document-1" />1: Release a source document
 
 Releasing a source document in advanced configurations does the same thing as for basic configurations. The items become available for handling in the warehouse. For example, they can be included in a shipment.  
 

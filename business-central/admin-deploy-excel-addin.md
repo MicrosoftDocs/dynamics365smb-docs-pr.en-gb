@@ -35,7 +35,7 @@ For the end-user, the installation experience is different for the two deploymen
 
 With both these deployment options, the add-in is automatically configured to connect to [!INCLUDE[prod_short](includes/prod_short.md)].A third deployment option is a manual installation of the add-in directly from Excel. With this option, users will need to configure the add-in to connect to [!INCLUDE[prod_short](includes/prod_short.md)]
 
-### <a name="a-nameswitchaswitching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around" /><a name="switch"></a>Switching from individual acquisition to Centralised Deployment or the other way around
+### <a name="switching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around" /><a name="switch"></a>Switching from individual acquisition to Centralised Deployment or the other way around
 
 When you change from individual acquisition of the add-in to Centralised Deployment, or vice versa, Excel files that users created before the transition are affected. After the transition, users can still open any Excel worksheets previously created using the **Edit in Excel** action or created manually by configuring the Excel add-in. But they can't update the data in the file from Business Central or push updates to Business Central
 
@@ -87,7 +87,7 @@ When finished, you can always change the deployment in Microsoft 365 admin centr
 > [!NOTE]
 > It can take up to 24 hours before users the add-in deploys automatically in Excel of users.
 
-## <a name="a-nameinstallaindividual-acquisition-install-the-add-in-manually-for-your-own-use" /><a name="install"></a>Individual acquisition: Install the add-in manually for your own use
+## <a name="individual-acquisition-install-the-add-in-manually-for-your-own-use" /><a name="install"></a>Individual acquisition: Install the add-in manually for your own use
 
 In most cases, when you open Excel from Business Central, the add-in will either be installed automatically for you or you'll be prompted to install it. There might be cases, however, where you have to manually install the add-in.
 
@@ -159,7 +159,7 @@ When the add-in is installed, it shows up as a panel in Excel. Next, you must co
 > [!NOTE]
 > In certain deployments, the administrator must configure network access to unblock the Excel add-in. For more information, see [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />See Also
 

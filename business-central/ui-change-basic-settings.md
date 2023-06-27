@@ -17,7 +17,7 @@ On the **My Settings** page, you can see and change basic settings for your [!IN
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="a-namerole-centerarole" /><a name="role-center"></a>Role
+## <a name="role" /><a name="role-center"></a>Role
 
 The role determines the home page, a starting screen that is designed for the needs of a specific role in an organisation. Depending on your role, the home page, or role centre, gives you an overview of the business, your department, or your personal tasks. It also helps you navigate to your daily tasks and find work that is assigned to you.
 
@@ -33,7 +33,7 @@ The default role is **Business Manager**, but you can select another role to use
 2. On the **My Settings** page, in the **Role** field, select the role that you want to use by default. For example, select **Accountant**.
 3. Choose **OK**.
 
-## <a name="a-namecompanyacompany" /><a name="company"></a>Company
+## <a name="company" /><a name="company"></a>Company
 
 A company functions as a container for data in [!INCLUDE[prod_short](includes/prod_short.md)]. There can be multiple companies in a database, but only one can be selected at a time. The default company is called CRONUS and contains demonstration data only.
 
@@ -53,7 +53,7 @@ The company name is always displayed at the top left corner and works as an acti
 2. In the **Name** field, enter the new company name.
 3. Leave the page. The system restarts and displays the new company in the top-left corner.
 
-### <a name="a-namebadgeato-display-a-company-badge-for-quick-access-to-company-information" /><a name="badge"></a>To display a company badge for quick access to company information
+### <a name="to-display-a-company-badge-for-quick-access-to-company-information" /><a name="badge"></a>To display a company badge for quick access to company information
 
 You can add a customized badge in the top-right corner, which you can choose to quickly view company name and tenant information in a pop-up box. The company badge is also useful when [!INCLUDE[prod_short](includes/prod_short.md)] is embedded in another application, like Microsoft Teams or in some other web application. In these cases, because the [!INCLUDE[web_client](includes/web_client.md)] displays less surrounding contextual information, the company badge serves as the only way to determine which company or environment a record belongs to.
 
@@ -63,7 +63,7 @@ You can add a customized badge in the top-right corner, which you can choose to 
 > [!NOTE]
 > If a company badge is defined, then you cannot change the company name as described in [To change the company name](ui-change-basic-settings.md#to-change-the-company-name)-->
 
-## <a name="a-namework-dateawork-date" /><a name="work-date"></a>Work date
+## <a name="work-date" /><a name="work-date"></a>Work date
 
 The most commonly used work date is today's date. You may have to temporarily change the work date to be able to perform tasks, such as completing transactions for a date that is not today.
 
@@ -83,11 +83,11 @@ The work date is critical on pages that can be edited. Whenever the work date is
 
 If the work date isn't set to the current day (today), then on all pages where you can edit data, the current work date appears in the upper-left corner.
 
-## <a name="a-nameregiona-region" /><a name="region"></a> Region
+## <a name="region" /><a name="region"></a> Region
 
 The **Region** setting determines how dates, times, numbers, and currencies are shown or formatted. It also determines what character is used as the decimal separator when using a numeric keyboard to enter data. Learn more at [Entering Data](ui-enter-data.md#decimal).
 
-## <a name="a-namelanguagea-language" /><a name="language"></a> Language
+## <a name="language" /><a name="language"></a> Language
 
 Changes the display language. This field appears only when there's more than one language to choose from.
 
@@ -107,7 +107,7 @@ Choose the *Change when I receive notifications* link to view or change the noti
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics-365-business-centralindex" />See related [Microsoft training](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also" />See also
 

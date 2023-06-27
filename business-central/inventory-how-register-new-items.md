@@ -115,7 +115,7 @@ When your company uses the supply planning processes in [!INCLUDE [prod_short](i
 
 For examples of how you can use the fields on the **Planning** FastTab, see [Setup Best Practices: Planning Parameters](setup-best-practices-planning-parameters.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-items" />See related [Microsoft training](/training/modules/create-items/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/create-items/)
 
 ## <a name="see-also" />See also
 

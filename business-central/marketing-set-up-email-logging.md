@@ -55,7 +55,7 @@ Mail flow rules look for specific conditions on messages and take action on them
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] only processes messages in the Inbox folder in the shared mailbox. If a rule moves messages from the Inbox to another folder, those messages will not be processed. Additionally, messages in the Junk Mails folder are also ignored.
 
-## <a name="set-up-includeprodshortincludesprodshortmd-to-log-email-messages" />Set Up [!INCLUDE[prod_short](includes/prod_short.md)] to log email messages
+## <a name="set-up--to-log-email-messages" />Set Up [!INCLUDE[prod_short](includes/prod_short.md)] to log email messages
 
 Get started with email logging in two easy steps:
 
@@ -145,14 +145,14 @@ If you are not using Azure Active Directory to manage identities and access, you
 
 ## <a name="to-change-the-user-account-used-for-email-logging" />To change the user account used for email logging
 
-### <a name="includeprodshortincludesprodshortmd-online" />[!INCLUDE[prod_short](includes/prod_short.md)] Online
+### <a name="-online" />[!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 1. Sign in to [!INCLUDE[prod_short](includes/prod_short.md)] with the account that the scheduled job will use to connect to the shared mailbox and process emails. This account must have access to both [!INCLUDE[prod_short](includes/prod_short.md)] and Exchange Online.
 2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Email Logging**, and then choose the related link. 
 3. Choose **Related**, and then **Job Queue Entry**.
 4. Restart the **Email Logging** job.
 
-### <a name="includeprodshortincludesprodshortmd-on-premises" />[!INCLUDE[prod_short](includes/prod_short.md)] On-Premises
+### <a name="-on-premises" />[!INCLUDE[prod_short](includes/prod_short.md)] On-Premises
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Email Logging**, and then choose the related link.
 2. Choose **Actions**, and then **Renew Token**.

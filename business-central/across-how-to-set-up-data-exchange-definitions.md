@@ -33,7 +33,7 @@ Creating a data exchange definition involves two tasks:
 1. On the **Data Exchange Definition** page, describe the formatting of lines and columns in the file. Learn more in the [To describe the formatting of lines and columns in the file](#formatlinescolumns) section.  
 2. On the **Data Exchange Mapping** page, map columns in the data file to fields in [!INCLUDE[prod_short](includes/prod_short.md)]. Learn more in the [To map columns in the data file to fields in [!INCLUDE[prod_short](includes/prod_short.md)]](#mapfields) section.  
 
-### <a name="a-nameformatlinescolumnsato-describe-the-formatting-of-lines-and-columns-in-the-file" /><a name=formatlinescolumns></a>To describe the formatting of lines and columns in the file
+### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file" /><a name=formatlinescolumns></a>To describe the formatting of lines and columns in the file
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Exchange Definitions**, then choose the related link.  
 2. Choose the **New** action.  
@@ -108,7 +108,7 @@ The next step in creating a data exchange definition is to decide which columns 
 > [!NOTE]  
 > The specific mapping depends on the business purpose of the data file to be exchanged and on local variations. Even the SEPA bank standard has local variations. [!INCLUDE[prod_short](includes/prod_short.md)] supports import of SEPA CAMT bank statement files out\-of\-the\-box. This is represented by the **SEPA CAMT** data exchange definition record code on the **Data Exchange Definitions** page. For information about the specific field mapping of this SEPA CAMT support, see [Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-### <a name="a-namemapfieldsato-map-columns-in-the-data-file-to-fields-in-includeprodshortincludesprodshortmd" /><a name=mapfields></a>To map columns in the data file to fields in [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="to-map-columns-in-the-data-file-to-fields-in-" /><a name=mapfields></a>To map columns in the data file to fields in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 > [!TIP]
 > Sometimes the values in the fields that you want to map are different. For example, in one business app the language code for the United States is "U.S.," but in another it's "US." That means you must transform the value when you exchange data. This happens through transformation rules that you define for the fields. Learn more at [Transformation Rules](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).

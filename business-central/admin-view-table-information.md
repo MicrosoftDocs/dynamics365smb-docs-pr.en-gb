@@ -17,7 +17,7 @@ The **8700 Table Information** page provides information about the number of rec
 
 This information is useful for troubleshooting performance problems, because let's you see the distribution of data size across tables.
 
-## <a name="viewing-table-information" />Viewing table information
+## <a name="viewing-table-information-1" />Viewing table information
 
 To open this page, select the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Table Information**, and then choose the related link.
 

@@ -42,7 +42,7 @@ This video shows how to set up a workflow requiring a user to request someone el
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />See related [Microsoft training](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/create-workflows/)
 
 ## <a name="see-also" />See also
 

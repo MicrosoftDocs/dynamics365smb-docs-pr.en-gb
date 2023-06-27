@@ -55,7 +55,7 @@ The following table outlines related tasks.
 |Manage business operations in sales offices, purchasing departments, or plant planning offices across multiple locations.|[Work with Responsibility Centres](inventory-responsibility-centers.md)|
 |Use resources with specific functions for various services and service items.|[Set Up Resource Allocation](service-how-setup-resource-allocation.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathsget-started-inventory-management" />See related [Microsoft training](/training/paths/get-started-inventory-management/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/paths/get-started-inventory-management/)
 
 ## <a name="see-also" />See also
 
@@ -65,6 +65,6 @@ The following table outlines related tasks.
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -64,7 +64,7 @@ r The generated report file is automatically saved to your browser's download fo
 
 Learn more about how to customise reports and documents to your business needs at [Report and Document Layouts](ui-manage-report-layouts.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleswork-with-reports" />See related training at [Microsoft Learn](/learn/modules/work-with-reports/).
+## <a name="see-related-training-at-microsoft-learn" />See related training at [Microsoft Learn](/learn/modules/work-with-reports/).
 
 ## <a name="see-also" />See also
 

@@ -10,7 +10,7 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="use-the-include-prodshortincludesprodshortmd-apps-in-power-bi" />Use the [!INCLUDE [prod_short](includes/prod_short.md)] Apps in Power BI
+# <a name="use-the--apps-in-power-bi" />Use the [!INCLUDE [prod_short](includes/prod_short.md)] Apps in Power BI
 
 > **APPLIES TO:** [!INCLUDE [prod_long](includes/prod_long.md)] online 
 
@@ -51,7 +51,7 @@ Power BI apps require permissions to the tables where data is retrieved from and
 
 Sign up for the Power BI service. If you haven't already signed up, go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com). When you sign up, use your work email address and password.
 
-## <a name="install-a-includeprodshortincludesprodshortmd-app-in-power-bi" />Install a [!INCLUDE[prod_short](includes/prod_short.md)] app in Power BI
+## <a name="install-a--app-in-power-bi" />Install a [!INCLUDE[prod_short](includes/prod_short.md)] app in Power BI
 
 1. Open your browser, navigate to [https://powerbi.microsoft.com](https://powerbi.microsoft.com), and sign into your account.
 2. Select **Get Data** at the bottom of the left navigation pane.  
@@ -69,7 +69,7 @@ Sign up for the Power BI service. If you haven't already signed up, go to [https
 
     When completed, the app will be available from **Apps** on the navigation menu in Power BI.
 
-## <a name="connect-the-includeprodshortincludesprodshortmd-app-to-your-data" />Connect the [!INCLUDE[prod_short](includes/prod_short.md)] app to your data
+## <a name="connect-the--app-to-your-data" />Connect the [!INCLUDE[prod_short](includes/prod_short.md)] app to your data
 
 1. Under **Apps**, select the Business Central app, then **Connect**.
 2. When prompted, fill in the **Company Name** and **Environment** with information about the [!INCLUDE[prod_short](includes/prod_short.md)] instance that you want to connect to.
@@ -96,7 +96,7 @@ A Power BI account hasn't been set up. You must have a licence to get a valid Po
 
 This message appears if the default report failed to deploy to your Power BI workspace. Or the report deployed but didn't successfully refresh. If this problem happens, navigate to the report in your Power BI workspace, select **Dataset**, **Settings**, and then manually update the credentials. Once the dataset successfully refreshes, navigate back to [!INCLUDE[prod_short](includes/prod_short.md)] and manually select the report from the **Select Reports** page.
 
-### <a name="you-need-a-power-bi-pro-license-to-install-the-includeprodshortincludesprodshortmd-app-in-power-bi" />You need a Power BI Pro licence to install the [!INCLUDE[prod_short](includes/prod_short.md)] app in Power BI
+### <a name="you-need-a-power-bi-pro-license-to-install-the--app-in-power-bi" />You need a Power BI Pro licence to install the [!INCLUDE[prod_short](includes/prod_short.md)] app in Power BI
 
 You need a [Power BI Pro licence](/power-bi/service-features-license-type) to share your content, and the people you share it with do too. The content must be in a workspace in a [Premium capacity](/power-bi/service-premium-what-is). For more information, see [Ways to share your work in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
@@ -144,7 +144,7 @@ The Power BI app will only display data from the [!INCLUDE[prod_short](includes/
 - [Select a tile](/power-bi/service-dashboard-tiles) to open the underlying report.  
 - By default, your dataset isn't scheduled to refresh. You can change the refresh schedule or try refreshing it on demand using **Refresh Now**. For more information, see [Configuring scheduled refresh](/power-bi/refresh-scheduled-refresh).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />See Also
 

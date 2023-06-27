@@ -31,7 +31,7 @@ If you are interested in the complete list of compliance offerings from Microsof
 [Application Compliance](compliance-application-compliance.md)  
 [Certifications](compliance-certifications.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

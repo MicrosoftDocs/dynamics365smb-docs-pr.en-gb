@@ -58,7 +58,7 @@ As for other personalisation, the changes you make to column width are stored on
 6. Choose the element, and then choose either **Move**, **Remove**, **Hide**, **Show**, **Show under "Show more"**, **Show when collapsed**, **Show always**, **Set/Clear Freeze Pane**, or **Include/Exclude from Quick Entry**, depending on the type and county of the UI element. For more information, see [What You Can Personalise](#What).
 7. When you have finished changing the layout of one or more pages, choose the **Done** button on the **Personalising** banner.
 
-## <a name="a-namewhatawhat-you-can-personalize" /><a name="What"></a>What You Can Personalise
+## <a name="what-you-can-personalize" /><a name="What"></a>What You Can Personalise
 
 |What do you want to do|How to do it|Remarks|
 |----|------------|-------|
@@ -74,7 +74,7 @@ As for other personalisation, the changes you make to column width are stored on
 |Add a new action to a page or report on your Role Centre.|From the target page, report request page, or Tell Me window, choose the bookmark icon.|See [Bookmark a Page or Report on Your Role Centre Role Centre](ui-bookmarks.md)|
 |Always start a list as expanded or collapsed|Choose the **Expand All** or **Collapse All** button in the top-left corner of the list. Alternatively, choose the **Expand All** or **Collapse All** action in the menu of the first column. |Applies to collapsible hierarchy lists|
 
-## <a name="a-nameactionsapersonalizing-the-action-bar-and-menus" /><a name="Actions"></a>Personalising the action bar and menus
+## <a name="personalizing-the-action-bar-and-menus" /><a name="Actions"></a>Personalising the action bar and menus
 
 Personalisation lets you decide which actions to show on the navigation and action bars and on Role Centres, and where to show them. You can show, hide, or move individual actions or action groups.
 
@@ -116,7 +116,7 @@ Where you can drop actions or actions groups is indicated by a horizontal line b
 1. To move an action or action group, drag and drop it to the desired position, like you do with fields and columns.
 2. To move an action or action group into another action group that is empty, drag the action or action group to the new group and drop it in the **Drop an action here** box.
 
-## <a name="a-namepartsapersonalizing-parts" /><a name="Parts"></a>Personalising parts
+## <a name="personalizing-parts" /><a name="Parts"></a>Personalising parts
 
 Parts are areas on a page that are typically composed of multiple fields, charts or other content. A part shows a coloured border when you focus on the part. For example, a Role Centre home screen has multiple parts. Because of their well-defined boundary, you can personalise the entire part and its contents.
 
@@ -158,7 +158,7 @@ To help you better understand personalisation, here are some pointers.
    > [!TIP]
    > As an administrator, you can hide the **Automation** item from users. Learn more at [Set Up Power Automate Integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics-365-business-centralindex" />See related [Microsoft training](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also" />See Also
 [Customise Pages for Profiles](ui-personalization-manage.md)  

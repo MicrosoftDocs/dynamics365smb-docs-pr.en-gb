@@ -89,7 +89,7 @@ In your **Shopify admin**, select **Include or exclude VAT based on your custome
 > [!NOTE]
 > This setting doesn't affect prices in domestic markets, which is controlled by the **All prices include VAT** toggle.
 
-### <a name="all-prices-include-tax-is-selected" />All prices include tax is selected
+### <a name="all-prices-include-tax-is-selected-1" />All prices include tax is selected
 
 |-|Domestic sales|Foreign country where tax is included in price|Foreign country where tax is excluded|
 |------------------------|--------|--------|--------|
@@ -99,7 +99,7 @@ In your **Shopify admin**, select **Include or exclude VAT based on your custome
 
 The price for each customer changes, depending on their location.
 
-### <a name="all-prices-include-tax-is-not-selected" />All prices include tax is not selected
+### <a name="all-prices-include-tax-is-not-selected-1" />All prices include tax is not selected
 
 |-|Domestic sales|Foreign country where tax is included in price|Foreign country, where tax is excluded|
 |------------------------|--------|--------|--------|

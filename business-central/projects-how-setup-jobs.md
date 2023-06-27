@@ -99,7 +99,7 @@ One aspect of planning jobs is deciding which posting accounts to use for job co
 | **Recognized Costs Account** |The expense account that contains the recognised costs for the job. It is a debit expense account ordinarily. |
 | **Recognized Sales Account** |The income account that contains the recognised income for the job. It is a credit income account ordinarily. |
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-jobs-resources" />See related [Microsoft training](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/paths/set-up-jobs-resources/)
 
 ## <a name="see-also" />See also
 

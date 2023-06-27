@@ -49,7 +49,7 @@ A new field, **Block Deletion of G/L Accounts**, has been added to the **General
 
 Setting the **Block Deletion of G/L Accounts** field to *Yes* can be considered a best practice, as is setting the date in the **Check G/L Acc. Deletion After** field, for example to the date by which you're required to store your finance data.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschart-accounts-dynamics-365-business-centralindex" />See related [Microsoft training](/training/modules/chart-accounts-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/chart-accounts-dynamics-365-business-central/index)
 
 ## <a name="see-also" />See Also
 
@@ -65,6 +65,6 @@ Setting the **Block Deletion of G/L Accounts** field to *Yes* can be considered 
 [Set Up and Close Income Statement Balances in the Spanish Version](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)  
 [Indent and Validate the Chart of Accounts in the Spanish Version](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

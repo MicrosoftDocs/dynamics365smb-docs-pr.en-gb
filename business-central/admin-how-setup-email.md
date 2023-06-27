@@ -230,7 +230,7 @@ Learn more about general guidelines for registering an app at [Quickstart: Regis
 > [!NOTE]
 If you have trouble using the SMTP protocol to send email after you connect [!INCLUDE[prod_short](includes/prod_short.md)] to your app registration, it might be because SMTP AUTH is not enabled for your tenant. We recommend that you use the Microsoft 365 and Current User email connectors instead, because they use Microsoft Graph Mail APIs. However, if you must use SMTP protocol you can enable SMTP AUTH. For more information, see [Enable or disable authenticated client SMTP submission (SMTP AUTH) in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
 
-### <a name="connect-includeprodshortincludesprodshortmd-to-your-app-registration" />Connect [!INCLUDE[prod_short](includes/prod_short.md)] to your app registration
+### <a name="connect--to-your-app-registration" />Connect [!INCLUDE[prod_short](includes/prod_short.md)] to your app registration
 
 After you register your application in Azure portal, in [!INCLUDE[prod_short](includes/prod_short.md)], use the **Email Application AAD Registration** page to connect [!INCLUDE[prod_short](includes/prod_short.md)] to it.
 
@@ -263,7 +263,7 @@ After you register your application in Azure portal, in [!INCLUDE[prod_short](in
 
 -->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-email" />See related [Microsoft training](/training/modules/set-up-email/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/set-up-email/)
 
 ## <a name="see-also" />See Also
 

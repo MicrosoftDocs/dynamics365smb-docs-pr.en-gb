@@ -37,7 +37,7 @@ There are two ways to open the **Settings** page: 1) from the message compose bo
 [Troubleshooting Teams](admin-teams-troubleshooting.md)  
 [Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -202,7 +202,7 @@ Post the adjustment bin records in the item ledger for the periods you've define
 5. Choose **OK**. The positive and negative adjustments are totalled for each item, and lines are created in the item journal.  
 6. Post the journal lines to enter the quantity differences in the item ledger. The inventories in the bins and the item ledger now matches.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadjust-inventory" />See related [Microsoft training](/training/modules/adjust-inventory/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/adjust-inventory/)
 
 ## <a name="see-also" />See also
 

@@ -98,7 +98,7 @@ The **Chart of Accounts** page displays accounts in a hierarchical list that off
 
 In a small organisation, such as the CRONUS demonstration company, most users can edit the chart of accounts, except those users with a TEAM MEMBER licence. However, larger organisations typically use roles and permissions to limit access to editing the chart of accounts. If you're an administrator, or have the *Business Manager* or *Accountant* role, you can control user permissions to give the right people access to the relevant tables. Learn more in the [To get an overview of a user's permissions](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions) section.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesbusiness-central-configure-general-ledger-setup" />See related [Microsoft training](/training/modules/business-central-configure-general-ledger-setup/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/business-central-configure-general-ledger-setup/)
 
 ## <a name="see-also" />See also
 

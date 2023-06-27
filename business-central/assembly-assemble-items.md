@@ -51,7 +51,7 @@ The following table describes a sequence of tasks, with links to the articles th
 |Learn how to work with assembly BOMs and how they differ from production BOMs.|[Work with Assembly BOMs](assembly-how-work-assembly-boms.md)|
 |Learn about posting assembly consumption and output, and how [!INCLUDE [prod_short](includes/prod_short.md)] distributes item and resource costs to the general ledger.|[Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)|  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />See related [Microsoft training](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 
@@ -63,6 +63,6 @@ The following table describes a sequence of tasks, with links to the articles th
 <!-- [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)   -->
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -92,10 +92,10 @@ For more information, see [Design Details: Outbound Warehouse Flow](../../design
 
 The following walkthrough demonstrates method D in the previous table.
 
-### <a name="scenario" />Scenario
+### <a name="scenario-1" />Scenario
 Susan, the order processor, creates sales orders for various roasted beans and passes it to warehouse. As all of orders are coming from the same customer, Ellen, the warehouse manager decides to ship them together. John, the warehouse worker must make sure that the shipment is prepared and delivered to the customer.
 
-### <a name="steps" />Steps
+### <a name="steps-1" />Steps
 This is a continuation of [Inbound flow: Receiving and Putting Away in Basic Warehouse Configurations](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Release Sales Orders to warehouse.  
@@ -137,7 +137,7 @@ This is a continuation of [Inbound flow: Receiving and Putting Away in Basic War
     4. Choose the **Post Shipment** action.
     5. Confirm the **Ship** option.
 
-### <a name="results" />Results
+### <a name="results-1" />Results
  - the roasted beans are now registered as picked 
  - the **Registered Warehouse Pick** is created
  - the **Posted Warehouse Shipment** is created

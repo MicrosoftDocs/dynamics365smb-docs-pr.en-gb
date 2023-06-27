@@ -22,7 +22,7 @@ Each user who performs warehouse activities must be set up as a warehouse employ
 5. Turn on the **Default** toggle to specify that this is the only location where the employee can perform warehouse activities.  
 6. Repeat these steps to assign other employees to locations or assign other locations to existing warehouse employees.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesget-started-warehouse-management" />See related [Microsoft training](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/get-started-warehouse-management/)
 
 ## <a name="see-also" />See also
 

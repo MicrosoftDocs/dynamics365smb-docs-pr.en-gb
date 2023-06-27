@@ -31,7 +31,7 @@ For more information, read about the extension that suits your QuickBooks app:
 
 If you are ready to get started now, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link. Choose **Migrate business data**, and then follow the steps in the guide.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmigrate-data-dynamics-365-business-central" />See related [Microsoft training](/training/modules/migrate-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/migrate-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

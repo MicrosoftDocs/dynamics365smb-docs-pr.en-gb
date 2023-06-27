@@ -88,7 +88,7 @@ The following sections describe how to set up time sheets if you do not use the 
 > [!NOTE]  
 > You cannot change the ID of the time sheet approver if there are time sheets that have not yet been processed and have the status of **Submitted** or **Open**.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-jobs-resources" />See related [Microsoft training](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/paths/set-up-jobs-resources/)
 
 ## <a name="see-also" />See also
 

@@ -22,7 +22,7 @@ There are two tasks that need to be done to configure the OneDrive integration.
 > [!IMPORTANT]
 > [!INCLUDE[prod_short](includes/prod_short.md)] on-premises can only be connected to OneDrive hosted by Microsoft in the cloud. Connecting [!INCLUDE[prod_short](includes/prod_short.md)] on premises to the My Sites repository of SharePoint Server isn't supported.
 
-## <a name="a-nameregisterapparegister-an-app-in-azure-ad-for-onedrive-integration" /><a name="registerapp"></a>Register an app in Azure AD for OneDrive integration
+## <a name="register-an-app-in-azure-ad-for-onedrive-integration" /><a name="registerapp"></a>Register an app in Azure AD for OneDrive integration
 
 In this task, you add a registered app for Business Central in the Azure AD tenant of your Microsoft 365 plan. Like other Azure services that work with Business Central, OneDrive requires a registered app in Azure Active Directory (Azure AD). The registered app provides authentication and authorisation services between Business Central and SharePoint, which is used by OneDrive.
 
@@ -45,7 +45,7 @@ As you register the application, consider the following points:
 
 - If you're using Business Central version 19 or 20, copy the **Application (client) ID** and **client secret** used by the registered app. You'll need this information in the next task.
 
-## <a name="a-nameurlaget-your-onedrive-url" /><a name="url"></a>Get your OneDrive URL
+## <a name="get-your-onedrive-url" /><a name="url"></a>Get your OneDrive URL
 
 [!INCLUDE[onedrive-url](includes/onedrive-url.md)]
 
@@ -74,7 +74,7 @@ Use this procedure if you're using Business Central 2022 release wave 2 (version
    - If you haven't already set up the Azure AD registered app, the **Set Up Azure Active Directory** guide opens.
 6. When completed, the privacy notice for OneDrive integration is agreed for all users. If you want to change it so users must agree or disagree for themselves, then go the **Privacy Notices Status** page and select **Let User Decide** for the OneDrive integration. Users will then be prompted to agree or disagree with the privacy notice the first time they use the OneDrive features. For more information, see [Privacy Notices](privacy-notices-status.md).
 
-## <a name="set-up-the-connection-in-includeprodshortincludesprodshortmd-version-19-and-20" />Set up the connection in [!INCLUDE[prod_short](includes/prod_short.md)] version 19 and 20
+## <a name="set-up-the-connection-in--version-19-and-20" />Set up the connection in [!INCLUDE[prod_short](includes/prod_short.md)] version 19 and 20
 
 Use this procedure if you're using Business Central 2022 release wave 1 (version 20) or 2021 release wave 2 (version 19).
 > [!IMPORTANT]
@@ -106,7 +106,7 @@ To switch to the new OneDrive integration, you run the **OneDrive Setup** assist
 
 Before you get started with the switch or as you're doing it, refer to the next section to learn about some aspects and considerations about the process. 
 
-### <a name="a-nameonedrivesetupmigrationaabout-switching-to-the-new-onedrive-integration" /><a name="onedrivesetupmigration"></a>About switching to the new OneDrive integration
+### <a name="about-switching-to-the-new-onedrive-integration" /><a name="onedrivesetupmigration"></a>About switching to the new OneDrive integration
 
 In addition to OneDrive integration, Business Central can also integrate with other services, like Power BI and Universal print. Integration with these other services also requires a registered Azure AD app for authentication. The Azure AD app used by these other services is configured in the **Set up your Azure Active Directory accounts** assisted setup. When you switch from the legacy SharePoint connection setup, the new **OneDrive Setup** assisted setup will change your OneDrive integration to also use the **Set up your Azure Active Directory accounts** assisted setup&mdash;so all integrations use the same Azure AD app.
 

@@ -17,7 +17,7 @@ When Microsoft releases features or feature design improvements as part of minor
 
 Learn more about [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadmin-online-dynamics-365-business-central" />See related [Microsoft training](/training/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/admin-online-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

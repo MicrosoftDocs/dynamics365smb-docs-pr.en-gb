@@ -11,7 +11,7 @@ ms.search.form: '100, 1156, 1157, 1314, 1315, 1316, 9027'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="accountant-experiences-in-includeprodlongincludesprodlongmd" />Accountant Experiences in [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="accountant-experiences-in-" />Accountant Experiences in [!INCLUDE[prod_long](includes/prod_long.md)]
 
 Any business must do its books and sign off on the accounting. Some businesses employ an external accountant, and others have an accountant on staff. No matter which type of accountant you are, you can use the **Accountant** Role Center as your Home in [!INCLUDE[prod_short](includes/prod_short.md)]. From here, you can access all pages that you need in your work.  
 
@@ -25,7 +25,7 @@ If you are new to [!INCLUDE[prod_short](includes/prod_short.md)], you can launch
 
 If you work in multiple [!INCLUDE [prod_short](includes/prod_short.md)] companies, you might find it useful to use the **Company Hub** page to keep track of work.  For more information, see [Manage Work across Multiple Companies in the Company Hub](company-hub.md).  
 
-## <a name="a-nameinviteaccountantainviting-your-external-accountant-to-your-includeprodshortincludesprodshortmd" /><a name="inviteaccountant"></a>Inviting Your External Accountant to Your [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="inviting-your-external-accountant-to-your-" /><a name="inviteaccountant"></a>Inviting Your External Accountant to Your [!INCLUDE[prod_short](includes/prod_short.md)]
 
 If you use an external accountant to manage your books and financial reporting, your administrator can invite them to your [!INCLUDE[prod_short](includes/prod_short.md)] so they can work with you on your fiscal data. [!INCLUDE[prod_short](includes/prod_short.md)] includes three licences of type External Accountant. For more information about licensing, see the [Microsoft Dynamics 365 Business Central Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=871590).
 
@@ -64,7 +64,7 @@ If your administrator or reselling partner do not want to use the **Invite Exter
 
 Next, you must assign the new guest user a licence to [!INCLUDE[prod_short](includes/prod_short.md)].
 
-#### <a name="to-give-your-accountant-access-to-your-includeprodshortincludesprodshortmd" />To give your accountant access to your [!INCLUDE[prod_short](includes/prod_short.md)]
+#### <a name="to-give-your-accountant-access-to-your-" />To give your accountant access to your [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. In the Azure portal, on the newly added user, choose **Profile**, and then choose **Edit**
 2. Update the **Usage Location** field to the relevant country, and then choose **Save**.
@@ -78,7 +78,7 @@ Next, you must assign the new guest user a licence to [!INCLUDE[prod_short](incl
 
 If successful, the licence is assigned to the guest user, and the guest account is created.
 
-### <a name="importing-the-new-user-into-includeprodshortincludesprodshortmd" />Importing the new user into [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="importing-the-new-user-into-" />Importing the new user into [!INCLUDE[prod_short](includes/prod_short.md)]
 
 The accountant will receive an email that notifies them that they have been given access to your Active Directory. Next, you must give them access to the right company in [!INCLUDE[prod_short](includes/prod_short.md)].
 

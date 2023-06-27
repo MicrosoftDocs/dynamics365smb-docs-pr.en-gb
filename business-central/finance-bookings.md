@@ -11,7 +11,7 @@ ms.search.form: '1638, 6702, 6704'
 ms.date: 05/20/2022
 ms.author: edupont
 ---
-# <a name="bulk-invoicing-for-microsoft-bookings-in-includeprodshortincludesprodshortmd" />Bulk Invoicing for Microsoft Bookings in [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="bulk-invoicing-for-microsoft-bookings-in-" />Bulk Invoicing for Microsoft Bookings in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 If your company uses the Bookings app in Microsoft 365, you can do bulk invoicing for appointments. The **Bookings Not Invoiced** page in [!INCLUDE[prod_short](includes/prod_short.md)] provides a list of the company's completed bookings. In this page you can quickly select the appointments that you want to invoice and create draft invoices for the services provided.  
 

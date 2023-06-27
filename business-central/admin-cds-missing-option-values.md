@@ -82,7 +82,7 @@ enum 5334 "CDS Payment Terms Code"
 
 All of the [!INCLUDE[prod_short](includes/prod_short.md)] enums above are mapped to option sets in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-### <a name="extending-option-sets-in-includeprodshortincludesprodshortmd" />Extending Option Sets in [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="extending-option-sets-in-" />Extending Option Sets in [!INCLUDE[prod_short](includes/prod_short.md)]
 1. Create a new AL extension.
 
 2. Add an Enum extension for the options that you want to extend. Be sure that you use the same value. 
@@ -104,7 +104,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 > [!NOTE]
 > The first ten characters of the new option value names and captions must be unique. For example, two options named "Transfer 20 working days" and "Transfer 20 calendar days" will cause an error because both have the same first 10 characters, "Transfer 2". Name them, for example, "TRF20 WD" and "TRF20 CD."
 
-### <a name="update-includeprodshortincludescdslongmdmd-option-mapping" />Update [!INCLUDE[prod_short](includes/cds_long_md.md)] Option Mapping
+### <a name="update--option-mapping" />Update [!INCLUDE[prod_short](includes/cds_long_md.md)] Option Mapping
 Now you can recreate the mapping between [!INCLUDE[prod_short](includes/cds_long_md.md)] options and [!INCLUDE[prod_short](includes/prod_short.md)] records.
 
 On the **Integration Table Mapping** page, choose the line for the **Payment Terms** map, and then choose the **Synchronise Modified Records** action. The **Dataverse Option Mapping** page is updated with the additional records below.

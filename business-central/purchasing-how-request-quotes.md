@@ -31,7 +31,7 @@ The purchase quote is removed from the database. A purchase order is created bas
 > [!NOTE]
 > It is not possible to convert a purchase quote to a purchase invoice directly, like it is possible with sales quotes. For details on how to create a purchase invoice, read [Record Purchases with Purchase Invoices](purchasing-how-record-purchases.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-purchase-documents-dynamics-365-business-central" />See related [Microsoft training](/training/modules/create-purchase-documents-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/create-purchase-documents-dynamics-365-business-central/).
 
 ## <a name="see-also" />See also
 

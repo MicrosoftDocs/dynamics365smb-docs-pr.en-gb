@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'company, setup wizard'
 ms.search.form: '1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ---
-# <a name="create-new-companies-in-includeprodshortincludesprodshortmd" />Create New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="create-new-companies-in-" />Create New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], the container for business data that belongs to a business unit or legal entity is referred to as a *company*. When you sign up for [!INCLUDE[prod_short](includes/prod_short.md)], you're given a demonstration company and an empty company, *My Company*. Switching between the companies is easy: just go to **My Settings** and move to the other company. But you can also create new companies in [!INCLUDE[prod_short](includes/prod_short.md)] depending on your business needs.  
 
@@ -74,7 +74,7 @@ Once a company has been created, you can't change its name. But you can change i
 
 The Contoso Coffee app provides demonstration data to help you explore the advanced capabilities of [!INCLUDE [prod_short](includes/prod_short.md)]. Find the app in AppSource, and install it in an empty company, for example a company in a sandbox environment. For more information, see [Introduction to Contoso Coffee Demo Data](contoso-coffee/contoso-coffee-intro.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics-365-business-central" />See related [Microsoft training](/training/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

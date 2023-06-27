@@ -136,7 +136,7 @@ Making a bin dedicated provides similar functionality to using bin types, which 
 > [!NOTE]  
 >  The bin must be empty before you can select or clear the **Dedicated** field.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesget-started-warehouse-management" />See related [Microsoft training](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/get-started-warehouse-management/)
 
 ## <a name="see-also" />See also
 

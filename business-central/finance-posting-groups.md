@@ -126,7 +126,7 @@ When something is wrong, [!INCLUDE[prod_short](includes/prod_short.md)] will dis
 > [!NOTE]
 > The error handling described above is not available on item, resource, employee, and fixed asset journals, or for G/L accounts added in local versions of posting groups.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesposting-groups-dynamics-365-business-central" />See related [Microsoft training](/training/modules/posting-groups-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/posting-groups-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

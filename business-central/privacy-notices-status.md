@@ -11,7 +11,7 @@ ms.author: a-jaaamir
 ms.date: 07/21/2022
 ---
 
-# <a name="privacy-notices-status-in-includeprodlongincludesprodlongmd" />Privacy Notices Status in [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="privacy-notices-status-in-" />Privacy Notices Status in [!INCLUDE[prod_long](includes/prod_long.md)]
 
 This article discusses what a privacy notice is and explains the purpose of the **Privacy Notices Status** page in [!INCLUDE[prod_short](includes/prod_short.md)]. You'll also learn how administrators can use this page.
 

@@ -10,7 +10,7 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="work-with-power-bi-reports-in-include-prodshortincludesprodshortmd" />Work with Power BI Reports in [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="work-with-power-bi-reports-in-" />Work with Power BI Reports in [!INCLUDE [prod_short](includes/prod_short.md)]
 
 In this article, you learn some of the basics about viewing Power BI reports in [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -35,7 +35,7 @@ If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, it m
 
 Before you can use Power BI with [!INCLUDE[prod_short](includes/prod_short.md)], you'll need to sign up for the Power BI service. If you haven't already signed up, go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com). When you sign up, use your work email address and password.
 
-## <a name="a-nameconnectaconnect-to-power-bi---one-time-only" /><a name="connect"></a>Connect to Power BI - one time only
+## <a name="connect-to-power-bi---one-time-only" /><a name="connect"></a>Connect to Power BI - one time only
 
 When you first sign into [!INCLUDE [prod_short](includes/prod_short.md)], you'll probably see an empty Power BI part (as shown in the previous figure) on various pages. The first thing to do is to connect to your Power BI account. Once connected, you can see reports. You only have to do this step once.
 
@@ -53,7 +53,7 @@ The connection process starts. During the process, [!INCLUDE [prod_short](includ
 > [!TIP]
 > With [!INCLUDE [prod_short](includes/prod_short.md)] online, this this step will automatically upload default Power BI reports used in [!INCLUDE [prod_short](includes/prod_short.md)] to your Power BI workspace.
 
-#### <a name="from-include-prodshortincludesprodshortmd-on-premises" />From [!INCLUDE [prod_short](includes/prod_short.md)] on-premises
+#### <a name="from--on-premises" />From [!INCLUDE [prod_short](includes/prod_short.md)] on-premises
 
 Connecting to Power BI from [!INCLUDE [prod_short](includes/prod_short.md)] is similar to online. However, you might be prompted on the **AZURE ACTIVE DIRECTORY SERVICE PERMISSIONS** page to grant access to Power BI Services. To grant access, select **Authorise Azure Services**, and then **Accept**.
 
@@ -99,7 +99,7 @@ When you return to the role centre, the updated report will appear. If you used 
 > [!NOTE]
 > This capability is not available with [!INCLUDE [prod_short](includes/prod_short.md)] on-premises.
 
-### <a name="a-nameuploadaupload-reports" /><a name="upload"></a>Upload reports
+### <a name="upload-reports" /><a name="upload"></a>Upload reports
 
 Power BI Reports can be distributed among users as .pbix files. If you have any .pbix files, you can upload and share them with all users of [!INCLUDE [prod_short](includes/prod_short.md)]. The reports are shared within each company in [!INCLUDE [prod_short](includes/prod_short.md)].  
 
@@ -126,7 +126,7 @@ This message appears if the default report failed to deploy to your Power BI wor
 
 It's probably because the report's name doesn't contain the name of the list page. Clear the filter to get a full list of Power BI reports available.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />See Also
 

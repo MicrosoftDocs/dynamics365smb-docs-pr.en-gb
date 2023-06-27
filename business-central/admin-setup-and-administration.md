@@ -54,7 +54,7 @@ Internal and delegated admins have access to the [!INCLUDE [prod_short](includes
 |Manage user sessions, including cancelling a session if the user is blocked.|[Manage Sessions](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions)|
 |Configure the tenant to send telemetry data to Azure Application Insights for better analysis and troubleshooting.|[Enable Sending Telemetry to Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
-## <a name="see-related-microsoft-trainingtrainingpathsdeploy-configure-dynamics-365-business-central" />See related [Microsoft training](/training/paths/deploy-configure-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/paths/deploy-configure-dynamics-365-business-central/)
 
 ## <a name="see-also" />See Also
 
@@ -63,7 +63,7 @@ Internal and delegated admins have access to the [!INCLUDE [prod_short](includes
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

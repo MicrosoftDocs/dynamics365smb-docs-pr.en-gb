@@ -138,7 +138,7 @@ To synchronise price lists, on the **Sales Price List** page, choose **Related**
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)    
 [Overview of Sales and Sales Hub](/dynamics365/customer-engagement/sales-enterprise/overview)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

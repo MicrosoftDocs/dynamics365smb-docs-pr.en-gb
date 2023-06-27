@@ -123,7 +123,7 @@ The following table contains examples of dates using all the formats. It assumes
 |t 23|Tuesday of week 23 of the work date year|
 |t-1|Tuesday of week 1 of the work date year|
 
-## <a name="a-namebkmksettingdaterangesa-setting-ranges" /><a name="BKMK_SettingDateRanges"></a> Setting Ranges
+## <a name="setting-ranges" /><a name="BKMK_SettingDateRanges"></a> Setting Ranges
 
 On lists, totals and reports, you can set filters on dates, times and datetimes containing a start value and optionally an end value to display only the data contained in that range. The standard rules apply to the way you set date ranges.
 
@@ -222,7 +222,7 @@ You can also combine the various format types.
 
 Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
-## <a name="use-date-formulas" />Use Date Formulas
+## <a name="use-date-formulas-1" />Use Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]
@@ -345,7 +345,7 @@ To see what unit of measure is being used in a duration field, enter a number. T
 
 For example, if the unit of measurement is hours, the number 5 is converted to 5 hrs.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />See related [Microsoft training](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

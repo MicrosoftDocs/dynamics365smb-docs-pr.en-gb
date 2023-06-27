@@ -159,7 +159,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
 
  This walkthrough has taken you through the steps of calculating WIP in [!INCLUDE[prod_short](includes/prod_short.md)]. In larger jobs, it may be useful to transfer the costs to a WIP account periodically while the job is being completed. This walkthrough has shown you how to exclude task lines from a calculation. It also shows you when you would have to recalculate. And finally, this walkthrough demonstrates how to post the WIP to the general ledger. An example of how to reverse a WIP posting to the general ledger is also included.  
 
-## <a name="see-related-microsoft-trainingtrainingpathscalculate-post-job-wip" />See related [Microsoft training](/training/paths/calculate-post-job-wip/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/paths/calculate-post-job-wip/)
 
 ## <a name="see-also" />See Also
 

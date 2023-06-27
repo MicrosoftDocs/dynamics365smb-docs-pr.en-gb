@@ -53,7 +53,7 @@ You enter 1.200.000 in the Heading line, export the budget to Excel, then send i
 
 The Salaries department distributes the amount on the three posting accounts. When you import back into the G/L budget, the three accounts are filled in with the new Excel data, summing to LCY 1.200.000, and the Heading line is blank.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesbudgets-exchange-rates-dynamics-365-business-centralindex" />See related [Microsoft training](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## <a name="see-also" />See also
 

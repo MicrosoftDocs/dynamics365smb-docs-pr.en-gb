@@ -208,11 +208,11 @@ Scenarios with alternative A, B, C, or D represent the following:
 |**29**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**01/15/03** <br />**01/17/03**|**01/20/03** <br />**01/22/03**|**>01/22/03**|**2000**|**None**|**Yes**|**0**|**0**|  
 |30|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|>01/22/03|1990|PaymentTolerance|Yes|0|5|  
 
-### <a name="payment-range-diagrams" />Payment Range Diagrams
+### <a name="payment-range-diagrams-1" />Payment Range Diagrams
 
 In relation to the scenario above, the diagrams of payment ranges are as follows:  
 
-#### <a name="1-payment-date-011503-scenarios-1-3" />(1) Payment Date <=01/15/03 (Scenarios 1-3)
+#### <a name="1-payment-date-011503-scenarios-1-3-1" />(1) Payment Date <=01/15/03 (Scenarios 1-3)
 
 Remaining Amount per  
 
@@ -272,7 +272,7 @@ Normal Application Rules
 
 (2) If payment falls in these ranges, all application entries can't be closed even with tolerance.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesenter-payments-dynamics-365-business-central" />See related [Microsoft training](/training/modules/enter-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/enter-payments-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

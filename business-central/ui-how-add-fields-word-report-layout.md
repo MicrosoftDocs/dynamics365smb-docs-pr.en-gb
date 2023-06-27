@@ -37,7 +37,7 @@ A report dataset can consist of fields that display labels, data, and images. Th
 > [!NOTE]  
 >  You cannot modify built-in report layouts<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
 
-### <a name="a-nameopenxmlparta-to-open-the-custom-xml-part-for-the-report-in-word" /><a name="OpenXMLPart"></a>To open the Custom XML part for the Report in Word
+### <a name="to-open-the-custom-xml-part-for-the-report-in-word" /><a name="OpenXMLPart"></a>To open the Custom XML part for the Report in Word
   
 1. If not already open, then open the Word report layout document in Word.  
   
@@ -103,7 +103,7 @@ Images align in the top-left corner of the content control and resize automatica
   
 3. To increase or decrease the image size, drag a sizing handle away from or towards the centre of the content control.  
 
-## <a name="a-nameremovefielda-removing-label-and-data-fields" /><a name="RemoveField"></a> Removing label and data fields
+## <a name="removing-label-and-data-fields" /><a name="RemoveField"></a> Removing label and data fields
 
 Label and data fields of a report are contained in content controls in Word. The following figure illustrates a content control when it's selected in the Word document.  
 

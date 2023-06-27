@@ -44,7 +44,7 @@ If you change your mind about an item category, you can delete it. However, if i
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />See related [Microsoft training](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

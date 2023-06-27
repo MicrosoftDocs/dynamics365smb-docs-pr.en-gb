@@ -45,7 +45,7 @@ When your extended trial period is expired, you can [subscribe](https://go.micro
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics-365-business-central" />See related [Microsoft training](/training/modules/trial-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/trial-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

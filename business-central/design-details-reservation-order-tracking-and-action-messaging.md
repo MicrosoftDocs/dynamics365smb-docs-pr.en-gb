@@ -151,7 +151,7 @@ On the **Manufacturing Setup** page, the **Components at Location** field is set
 
  ![Second example of order tracking entries in Reservation Entry table.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
-### <a name="entry-numbers-8-and-9" />Entry Numbers 8 and 9
+### <a name="entry-numbers-8-and-9-1" />Entry Numbers 8 and 9
  Order tracking entries for the two lots of the component reflecting demand in table 5407 are changed from a reservation status of **Tracking** to **Surplus**. The reason is that the supplies that they were linked to before, in table 32, have been used by the shipment of the transfer order.  
 
  Genuine surplus, as in this case, reflects excess supply or demand that remains untracked. It is an indication of imbalance in the order network, which will generate an action message by the planning system unless it is resolved dynamically.  

@@ -27,7 +27,7 @@ You can enter all relevant data on the **Company Information** page when you set
 
 Once you have completed filling in the information, you can close the page.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics-365-business-central" />See related [Microsoft training](/training/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

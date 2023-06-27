@@ -53,7 +53,7 @@ Before you access [!INCLUDE[prod_short](includes/prod_short.md)] online, we reco
 
 **Edit in Excel:** To use the Excel add-in to make changes in Excel and push the changes back into [!INCLUDE[prod_short](includes/prod_short.md)], you need Excel 2019 or later. For more information, see [Analysing Financial Statements in Microsoft Excel](finance-analyze-excel.md).  
 
-## <a name="a-nametaca-using-the-business-central-administration-center" /><a name="TAC"></a> Using the Business Central Administration Centre
+## <a name="using-the-business-central-administration-center" /><a name="TAC"></a> Using the Business Central Administration Centre
 
 The administration centre is designed to work with the current version of the following browsers:
 

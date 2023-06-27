@@ -51,7 +51,7 @@ The following flow chart shows how the **Bin Code** field on production order co
 
 :::image type="content" source="media/binflow.png" alt-text="Bin code field on production order component lines.":::
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-bins-location" />See related [Microsoft training](/training/modules/configure-bins-location/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/configure-bins-location/)
 
 ## <a name="see-also" />See also
 

@@ -62,7 +62,7 @@ You can delete individual page customisations that you have made for a profile. 
 
 The layout on the selected pages is adjusted to the changes you made.
 
-## <a name="see-related-microsoft-trainingtrainingpathstailor-roles-design-ui" />See related [Microsoft training](/training/paths/tailor-roles-design-ui/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/paths/tailor-roles-design-ui/)
 
 ## <a name="see-also" />See also
 

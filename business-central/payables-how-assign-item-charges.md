@@ -95,7 +95,7 @@ To handle the item cost for the partial receipt, on the **Item Charge Assignment
 
 When you're ready to handle the item that was missing, update the **Quantity to Handle** field and post the order.
 
-## <a name="see-related-microsoft-trainingtrainingmodulespost-purchase-item-charges-dynamics-365-business-central" />See related [Microsoft training](/training/modules/post-purchase-item-charges-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/post-purchase-item-charges-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

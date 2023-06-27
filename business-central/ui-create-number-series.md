@@ -92,7 +92,7 @@ The following procedure shows how to set number series up for the Sales area. Th
 
 The selected number will now be used to fill in the **No.** field on the card or document in question, according to the settings you made on the number series line.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesnumber-series-trail-codes-dynamics-365-business-centralindex" />See related [Microsoft training](/training/modules/number-series-trail-codes-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/number-series-trail-codes-dynamics-365-business-central/index)
 
 ## <a name="see-also" />See also
 

@@ -132,11 +132,11 @@ In **Shopify Admin** notice that the order is now marked as *Fulfilled*. You can
 
 ## <a name="walkthrough-invite-your-customers-to-your-new-online-store" />Walkthrough: Invite your customers to your new online store
 
-### <a name="scenario" />Scenario
+### <a name="scenario-1" />Scenario
 
 After a successful quick launch of your new online store, you want your current customers to visit it and start placing orders.
 
-### <a name="steps" />Steps
+### <a name="steps-1" />Steps
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)], do the following steps:
 
@@ -148,11 +148,11 @@ In **Shopify Admin** notice that the customers were imported. Open one of the cu
 
 ## <a name="walkthrough-fine-tuning-of-item-management" />Walkthrough: Fine tuning of item management
 
-### <a name="scenario" />Scenario
+### <a name="scenario-2" />Scenario
 
 You'll like to add more flexibility and control to your processes around items management. You want to improve product description and like to add more review steps before products become available to end-customer.
 
-### <a name="steps" />Steps
+### <a name="steps-2" />Steps
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)], do the following steps:
 
@@ -241,11 +241,11 @@ In the **Shopify online store** open the product catalogue, find the *ATHENS Des
 
 ## <a name="walkthrough-import-items-from-shopify" />Walkthrough: Import items from Shopify
 
-### <a name="scenario" />Scenario
+### <a name="scenario-3" />Scenario
 
 You already have a successful online store and would like to start using [!INCLUDE[prod_short](../includes/prod_short.md)] as business management software. You would like to import as much data from Shopify as possible. 
 
-### <a name="steps" />Steps
+### <a name="steps-3" />Steps
 
 This is a continuation of [Walkthrough: Start selling products online](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). You can also try with your own data, for example your Shopify store or sandbox.
 

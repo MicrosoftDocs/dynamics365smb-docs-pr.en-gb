@@ -33,7 +33,7 @@ Most of the shortcuts are the same whether the operating system is Windows or ma
 > [!NOTE]
 > In addition to the global keyboard shortcuts described in this article, a number of business-specific shortcuts are available. For example, in the generic version of [!INCLUDE[prod_short](includes/prod_short.md)], <kbd>F9</kbd> posts a document and <kbd>Ctrl</kbd>+<kbd>F7</kbd> shows the ledger entries for a record when you open the record in a card. This article includes some of the more common business-specific shortcuts, which are shown in italics. Be aware that the actual shortcuts may be different in your solution. In the user interface, the keyboard shortcut is shown in the tooltip for the action in question.
 
-## <a name="a-namekeyboarda-general-keyboard-shortcuts" /><a name="Keyboard"></a> General Keyboard Shortcuts
+## <a name="general-keyboard-shortcuts" /><a name="Keyboard"></a> General Keyboard Shortcuts
 
 The following table describes keyboard shortcuts for navigating and accessing different elements of a page. Elements include things like actions, drop-down lists, lookups, and more. For details about keyboard shortcuts for navigating records once you get inside a list, see the next section.
 
@@ -90,7 +90,7 @@ The following table describes the keyboard shortcuts that you can use on a list 
 |*<kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>F</kbd>*|Send suggested lines on the cash flow worksheets page.|Not applicable.|
 |*<kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>I</kbd>*|View serial and lot numbers assigned to the line item on the document or journal.|Not applicable.|
 
-### <a name="a-namenavigateshortcutsanavigating-between-rows-and-columns" /><a name="navigateshortcuts"></a>Navigating Between Rows and Columns
+### <a name="navigating-between-rows-and-columns" /><a name="navigateshortcuts"></a>Navigating Between Rows and Columns
 
 Grids containing rows and columns exist on many page types in [!INCLUDE[prod_short](includes/prod_short.md)], such as list pages and **Lines** parts on documents. Moving from one cell to another across a grid is fully keyboard-enabled.
 
@@ -111,7 +111,7 @@ Grids containing rows and columns exist on many page types in [!INCLUDE[prod_sho
 | <kbd>Tab</kbd> | In editable list, move in the same row to the next field to the right. | Not applicable. | 
 | <kbd>Shift</kbd>+<kbd>Tab</kbd> | In editable list, move in the same row to the previous field to the left. | Not applicable. |
 
-### <a name="a-namecopyrowsaselecting-copying-and-pasting" /><a name="CopyRows"></a>Selecting, Copying, and Pasting
+### <a name="selecting-copying-and-pasting" /><a name="CopyRows"></a>Selecting, Copying, and Pasting
 
 |Select these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |
 |--------------------------------|--------------------------|--------------------------|
@@ -129,7 +129,7 @@ Grids containing rows and columns exist on many page types in [!INCLUDE[prod_sho
 |<kbd>Shift</kbd>+<kbd>Page Down</kbd><br /><br />(<kbd>Shift</kbd>+<kbd>Fn</kbd>+<kbd>Up Arrow</kbd>)|Extend the selection of rows to include all visible rows below the current selection of rows.|Not applicable.|
 |<kbd>F8</kbd>|Copy the field in the same column of the row above, and paste it into the current row. You can only do this in editable lists. Using this shortcut followed by a <kbd>Tab</kbd> lets you quickly fill out fields in line items that you want to have the same value as the row above.|Not applicable.|
 
-### <a name="a-namekeyboardfilterasearching-and-filtering-lists" /><a name="KeyboardFilter"></a>Searching and Filtering Lists
+### <a name="searching-and-filtering-lists" /><a name="KeyboardFilter"></a>Searching and Filtering Lists
 
 |Select these keys<br />(in macOS)|To do this|
 |--------------------------------|----------|
@@ -169,7 +169,7 @@ The following shortcuts are available on card pages, such as **Customer Card**, 
 |<kbd>Shift</kbd>+<kbd>F6</kbd>|Move to previous Fast<kbd>Tab</kbd> or part (subpage).|
 |*<kbd>Shift</kbd>+<kbd>F9</kbd>*|Post and print a document.|
 
-## <a name="a-namequickentryaquick-entry-shortcuts-for-fields" /><a name="QuickEntry"></a>Quick Entry Shortcuts for Fields
+## <a name="quick-entry-shortcuts-for-fields" /><a name="QuickEntry"></a>Quick Entry Shortcuts for Fields
 
 The following shortcuts pertain to the Quick Entry feature on cards, documents, and list pages. On lists, the shortcuts can't be used when the list is in the tile view. For more information about Quick Entry, see [Accelerating Data Entry Using Quick Entry](ui-enter-data.md#QuickEntry).
 
@@ -179,7 +179,7 @@ The following shortcuts pertain to the Quick Entry feature on cards, documents, 
 |<kbd>Shift</kbd>+<kbd>Enter</kbd>|Confirm the value in the current field and go to the previous Quick Entry field.||
 |<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Enter</kbd>|Confirm the value in the current column and go to next Quick Entry field outside the list.<br /><br />This shortcut applies to embedded lists on a page, such as line items on a sales order. It enables you to quickly get out of the list and continue entering data in other fields on the page.|
 
-## <a name="a-namecalendarshortcutsa-keyboard-shortcuts-in-the-calendar-date-picker" /><a name="calendarshortcuts"></a> Keyboard Shortcuts in the Calendar (Date Picker)
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker" /><a name="calendarshortcuts"></a> Keyboard Shortcuts in the Calendar (Date Picker)
 
 When setting a date field, you can either enter the date manually or open a calendar (date picker) that lets you select the date you want. The following table describes the keyboard shortcuts for the calendar.
 
@@ -204,7 +204,7 @@ When setting a date field, you can either enter the date manually or open a cale
 |<kbd>t</kbd>|Enter the current date. "T" stands for "today".|
 |<kbd>w</kbd>|Enter the work date. For more information, see [Work Date](ui-change-basic-settings.md#work-date)|
 
-## <a name="a-namereportpreviewshortcutsakeyboard-shortcuts-in-the-report-preview" /><a name="reportpreviewshortcuts"></a>Keyboard Shortcuts in the Report Preview
+## <a name="keyboard-shortcuts-in-the-report-preview" /><a name="reportpreviewshortcuts"></a>Keyboard Shortcuts in the Report Preview
 
 |Select these keys<br />(in macOS)|To do this|
 |--------------------------------|----------|
@@ -218,7 +218,7 @@ When setting a date field, you can either enter the date manually or open a cale
 |<kbd>Page Down</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>Up Arrow</kbd>)|Go to the next page of the report.|
 |<kbd>Page Up</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>Up Arrow</kbd>)|Go to the previous page of the report.|
 
-## <a name="a-namezoomshortcutsakeyboard-shortcuts-for-zooming-in-and-out" /><a name="zoomshortcuts"></a>Keyboard Shortcuts for Zooming In and Out
+## <a name="keyboard-shortcuts-for-zooming-in-and-out" /><a name="zoomshortcuts"></a>Keyboard Shortcuts for Zooming In and Out
 
 |Select these keys|To do this|
 |--------------------------------|----------|
@@ -226,7 +226,7 @@ When setting a date field, you can either enter the date manually or open a cale
 |<kbd>Ctrl</kbd>+<kbd>-</kbd>|Zoom out on the current page.|  
 |<kbd>Ctrl</kbd>+<kbd>0</kbd>|Zoom in or out to 100% on the current page.|  
 
-## <a name="a-nameroleexplorerakeyboard-shortcuts-for-role-explorer" /><a name="roleexplorer"></a>Keyboard Shortcuts for Role Explorer
+## <a name="keyboard-shortcuts-for-role-explorer" /><a name="roleexplorer"></a>Keyboard Shortcuts for Role Explorer
 
 Role explorer gives you an overview and quick access to all the business features that are available for your role. For more information, see [Finding Pages with the Role Explorer](ui-role-explorer.md).
 
@@ -238,7 +238,7 @@ Role explorer gives you an overview and quick access to all the business feature
 |<kbd>Shift</kbd> <kbd>F3</kbd> or <kbd>Ctrl</kbd>+<kbd>Up Arrow</kbd>|Move focus to the previous found feature in role explorer.|
 |<kbd>Ctrl</kbd>+<kbd>Shift</kbd>|Expand or collapse all subnodes, in addition to top-level nodes, when you choose the **Expand** or **Collapse** action.|
 
-## <a name="a-namekeypada-numeric-keypad-shortcuts" /><a name="keypad"></a> Numeric Keypad Shortcuts
+## <a name="numeric-keypad-shortcuts" /><a name="keypad"></a> Numeric Keypad Shortcuts
 
 The following table describes the shortcuts on a numeric keypad.
 

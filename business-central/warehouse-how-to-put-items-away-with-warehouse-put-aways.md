@@ -112,7 +112,7 @@ If a location uses both put-away processing and receive processing and you have 
 
 5. When you have placed all the items in bins as instructed, choose the **Register Put-away** action.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-put-away-items" />See related [Microsoft training](/training/modules/receive-put-away-items/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/receive-put-away-items/)
 
 ## <a name="see-also" />See also
 

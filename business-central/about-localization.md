@@ -11,7 +11,7 @@ ms.search.form: null
 ms.date: 06/11/2021
 ms.author: edupont
 ---
-# <a name="local-functionality-in-includeprodlongincludesprodlongmd" />Local Functionality in [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="local-functionality-in-" />Local Functionality in [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] has a combined localisation strategy inclusive of both Microsoft-led and partner-led models. In this section, you can see descriptions of functionality that applies to the countries where Microsoft provides the regulatory compliance and other local functionality.  
 

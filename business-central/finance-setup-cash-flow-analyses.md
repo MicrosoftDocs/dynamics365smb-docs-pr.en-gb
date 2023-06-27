@@ -121,7 +121,7 @@ Before using the predictive web-service, [!INCLUDE[prod_short](includes/prod_sho
 
 Before using the predictive web-service, [!INCLUDE[prod_short](includes/prod_short.md)] compresses transactions by **Document Date** based on value in the **Period Type** field in the **Cash Flow Setup** page.
 
-## <a name="a-nameanchortextacreate-and-use-your-own-predictive-web-service-for-cash-flow-forecasts" /><a name="AnchorText"></a>Create and use your own predictive web service for cash flow forecasts
+## <a name="create-and-use-your-own-predictive-web-service-for-cash-flow-forecasts" /><a name="AnchorText"></a>Create and use your own predictive web service for cash flow forecasts
 
 You can also create your own predictive web service based on a public model named **Forecasting model for Microsoft Business Central**. This predictive model is available online in the Azure AI Gallery. To use the model, follow these steps:  
 
@@ -134,7 +134,7 @@ You can also create your own predictive web service based on a public model name
 7. Expand the **Azure AI** FastTab, and then fill in the fields, including the API URL and API key provided from Azure Machine Learning studio. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 8. In the Accountant Role Centre, choose the **Recalculate Forecast** action under the **Cash Flow Forecast** chart.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics-365-business-centralindex" />See related [Microsoft training](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also" />See also
 

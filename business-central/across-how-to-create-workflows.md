@@ -172,7 +172,7 @@ The following illustration provides an overview of the result of this procedure.
 
 Next, test the workflow by opening an existing vendor card and changing their name. Verify that an approval request is sent after changing the vendor name.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />See related [Microsoft training](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/create-workflows/)
 
 ## <a name="see-also" />See also
 

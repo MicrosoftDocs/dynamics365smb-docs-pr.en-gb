@@ -13,13 +13,13 @@ ms.date: 04/12/2021
 ms.author: edupont
 ---
 
-# <a name="intelligent-insights-in-includeprodshortincludesprodshortmd-online" />Intelligent Insights in [!INCLUDE[prod_short](includes/prod_short.md)] Online
+# <a name="intelligent-insights-in--online" />Intelligent Insights in [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 As a user of [!INCLUDE[prod_short](includes/prod_short.md)] online, you have full access to scenarios that are based on the intelligent cloud, such as KPIs that are based on machine learning, or when you view your data in Power BI.  
 
 However, if you use [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, you do not have access to the same insights. If you want to benefit from online scenarios, you must migrate to [!INCLUDE [prod_short](includes/prod_short.md)] online. For more information, see [Migrating On-Premises Data to Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) in the administration content for [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="viewing-insights-in-includeprodshortincludesprodshortmd-online" />Viewing Insights in [!INCLUDE[prod_short](includes/prod_short.md)] Online
+## <a name="viewing-insights-in--online" />Viewing Insights in [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] online, the **Intelligent Cloud Insights** page shows four key points of interest for most businesses:
 

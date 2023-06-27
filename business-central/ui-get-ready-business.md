@@ -71,7 +71,7 @@ When users are created in Microsoft 365, they can be imported into the **Users**
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] For more information, see [Resources for Help and Support](product-help-and-support.md).  
 
-### <a name="set-up-your-company-in-includeprodshortincludesprodshortmd" />Set up your company in [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="set-up-your-company-in-" />Set up your company in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 The [quick start](quick-start-business-central.md) articles can help you take the first steps into setting up [!INCLUDE [prod_short](includes/prod_short.md)] for your organisation. Inside [!INCLUDE [prod_short](includes/prod_short.md)], the **Assisted Setup** page lists the assisted setup guides that can help you. Depending on your role and country or region, the page shows different assistant setup guides as illustrated in the following table:
 
@@ -112,6 +112,6 @@ Based on your migrated data, you can now proceed to create new sales or purchase
 [Migrate Data](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Trials and Subscriptions](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -50,7 +50,7 @@ If the browser doesn't allow cookies, you'll get the following error:
 1. In Microsoft Edge, go to **Settings** > **Cookies and site permissions** > **Cookies and site data**.
 2. Move the **Allow sites to save and read cookie data** toggle to the right (On).  
 
-## <a name="a-namepopupaallow-pop-ups-from-business-central" /><a name="popup"></a>Allow pop-ups from Business Central
+## <a name="allow-pop-ups-from-business-central" /><a name="popup"></a>Allow pop-ups from Business Central
 
 [!INCLUDE[prod_short](includes/prod_short.md)] integrates with several products. In some cases, like with Microsoft Teams, [!INCLUDE[prod_short](includes/prod_short.md)] opens, or "pop-ups", within the product. This capability requires that your browser allows pop-ups from [!INCLUDE[prod_short](includes/prod_short.md)].
 

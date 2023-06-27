@@ -11,7 +11,7 @@ ms.search.keywords: 'sandbox, demo, develop'
 ms.date: 12/20/2021
 ms.author: solsen
 ---
-# <a name="sandbox-environments-in-includeprodshortincludesprodshortmd" />Sandbox Environments in [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="sandbox-environments-in-" />Sandbox Environments in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 With [!INCLUDE[prod_short](includes/prod_short.md)] online, you can easily get a safe environment where you can test, train, or troubleshoot without disturbing your company's work processes or business data. Such a non-production environment is called a *sandbox*. Isolated from production, a sandbox environment is the place to safely explore, learn, demo, develop, and test the service without the risk of affecting the data and settings of your production environment.  
 
@@ -64,7 +64,7 @@ For more information, see [Use Designer](/dynamics365/business-central/dev-itpro
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadmin-online-dynamics-365-business-central" />See related [Microsoft training](/training/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/admin-online-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

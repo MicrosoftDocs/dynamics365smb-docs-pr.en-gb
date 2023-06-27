@@ -26,7 +26,7 @@ This article provides information about the features that make [!INCLUDE[prod_sh
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="a-namenavigationa-navigation" /><a name="Navigation"></a> Navigation
+## <a name="navigation" /><a name="Navigation"></a> Navigation
   
 You can use different combinations of the Tab, Shift, and arrow keys of your keyboard to move between elements on a page. Elements include actions, fields and columns, parts, and other controls. In general, select <kbd>Tab</kbd> or <kbd>Shift</kbd>+<kbd>Tab</kbd> to move to the next or previous element.
 
@@ -34,19 +34,19 @@ When you focus on an area that contains actions, like the navigation bar on the 
 
 By using the tab order, you can also switch between the main browser page and dialogue boxes that request confirmation, for example, or the sign-in page.  
 
-## <a name="a-nameheadingsa-headings-in-content" /><a name="Headings"></a> Headings in Content
+## <a name="headings-in-content" /><a name="Headings"></a> Headings in Content
 
 The HTML source for [!INCLUDE[prod_short](includes/prod_short.md)] content uses tags to help users of assistive technology to understand the structure and content of the page. For example, on list pages, the columns are defined in TH tags and the column headings are set with TITLE attribute inside the tag. Captions for elements, such as FastTabs, FactBoxes, and fields are included in heading tags (H1, H2, H3, and H4).  
 
-## <a name="a-nameimagesa-image-and-links" /><a name="Images"></a> Image and Links
+## <a name="image-and-links" /><a name="Images"></a> Image and Links
 
 A descriptive text for images is set with the ALT attribute inside the IMG tag. A descriptive text for hyperlinks is set with the title attribute inside the A tag.  
 
-## <a name="a-nameassistivetecha-assistive-technologies" /><a name="AssistiveTech"></a> Assistive Technologies
+## <a name="assistive-technologies" /><a name="AssistiveTech"></a> Assistive Technologies
 
 [!INCLUDE[prod_short](includes/prod_short.md)] supports various assistive technologies, such as high contrast, screen readers, and voice recognition software. Some assistive technologies may not work well with certain elements in [!INCLUDE[prod_short](includes/prod_short.md)] pages.  
 
-## <a name="a-namezooma-zoom" /><a name="zoom"></a> Zoom
+## <a name="zoom" /><a name="zoom"></a> Zoom
 
 Most browsers use standard keyboard shortcuts to zoom in and out on the current page. These keyboard shortcuts aren't specific to [!INCLUDE [prod_short](includes/prod_short.md)], but they work when you use [!INCLUDE [prod_short](includes/prod_short.md)] in a browser. For a list of supported keyboard shortcuts, see [Keyboard Shortcuts for Zooming In and Out](keyboard-shortcuts.md#zoomshortcuts).
 

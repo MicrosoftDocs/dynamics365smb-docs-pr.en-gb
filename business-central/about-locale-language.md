@@ -50,7 +50,7 @@ On the **General Ledger Setup** page, if you turn on the **Require Country/Regio
 
 In the **Help and Support** page, you can see the version of [!INCLUDE[prod_short](includes/prod_short.md)] that your company is based on. If you want to base a company on a different version, your administrator can create a new production environment. For more information, see [Create a new production environment](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) in the developer- and IT Pro content.  
 
-## <a name="languages-of-the-includeprodshortincludesprodshortmd-help" />Languages of the [!INCLUDE[prod_short](includes/prod_short.md)] Help
+## <a name="languages-of-the--help" />Languages of the [!INCLUDE[prod_short](includes/prod_short.md)] Help
 
 The Help content for the default version of [!INCLUDE[prod_short](includes/prod_short.md)] publishes to Microsoft Learn. The content is available in different languages. If you access the documentation from inside [!INCLUDE[prod_short](includes/prod_short.md)], the content will display in your language. By default, if a particular page isn't available in your language yet, it will be shown in English.
 

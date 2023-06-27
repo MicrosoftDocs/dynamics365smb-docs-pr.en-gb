@@ -23,7 +23,7 @@ You can change [!INCLUDE[prod_short](includes/prod_short.md)] by installing apps
 
 To use the functionality that is provided by an extension, such as opening pages, running reports, selecting actions, and so on, you must be assigned the permission sets that are installed as part of the extension.
 
-## <a name="a-nameinstallainstall-an-extension" /><a name="install"></a>Install an extension
+## <a name="install-an-extension" /><a name="install"></a>Install an extension
 
 You manage apps and extensions on the **Extension Management** page. You can access this page from Home. Alternatively, choose the **Search for Page or Report** icon ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") in the top right corner, enter **Extension**, and then choose the related link.  
 
@@ -104,7 +104,7 @@ When you uninstall an app that you've been using, data is by default preserved i
 [[!INCLUDE[prod_short](includes/prod_short.md)] Extensions by Other Providers](ui-extensions-other.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

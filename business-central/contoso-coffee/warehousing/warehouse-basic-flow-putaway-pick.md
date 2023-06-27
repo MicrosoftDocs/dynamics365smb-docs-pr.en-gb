@@ -119,10 +119,10 @@ For more information, see [Design Details: Outbound Warehouse Flow](../../design
 
 The following walkthrough demonstrates method B in the previous table.
 
-### <a name="scenario" />Scenario
+### <a name="scenario-1" />Scenario
 Susan, the order processor, creates a sales order for various roasted beans and passes it to warehouse. John, the warehouse worker must make sure that the shipment is prepared and delivered to the customer. John manages all involved tasks on the **Inventory Pick** page, which automatically points to the bins where roasted beans are stored.
 
-### <a name="steps" />Steps
+### <a name="steps-1" />Steps
 This is a continuation of [Inbound flow: Receiving and Putting Away in Basic Warehouse Configurations](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Set up the **Location Card** page to define the company's inbound warehouse flows.  
@@ -159,7 +159,7 @@ This is a continuation of [Inbound flow: Receiving and Putting Away in Basic War
 
 5. Choose the **Post** action, select **Ship**, and then choose the **OK** button.  
 
-### <a name="results" />Results
+### <a name="results-1" />Results
  - the roasted beans are now registered as picked from specified bins
  - the **Posted Invt. Pick** is created
  - the **Posted Sales Shipment** is created

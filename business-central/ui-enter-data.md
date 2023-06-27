@@ -63,7 +63,7 @@ There are several keyboard shortcuts that let you work "mouse-free" and speed up
 
 For more information about shortcuts, see [Keyboard Shortcuts](keyboard-shortcuts.md). A few of the keyboard shortcuts are discussed in this article.
 
-## <a name="a-namequickentryaaccelerating-data-entry-using-quick-entry" /><a name="QuickEntry"></a>Accelerating Data Entry Using Quick Entry
+## <a name="accelerating-data-entry-using-quick-entry" /><a name="QuickEntry"></a>Accelerating Data Entry Using Quick Entry
 
 Quick Entry is a feature designed for data entry when using the keyboard. Quick Entry works on fields (like on card pages) and in lists (rows and columns). It's beneficial when doing repetitive typing tasks that require creating multiple records in sequence. Examples include a batch of sales orders or registering new items.
 
@@ -125,7 +125,7 @@ To start filtering, select ![Filter pane icon](media/open-filter-pane-icon.png "
 
 Filtering is especially helpful when viewing and analysing longer documents. Imagine you open a posted sales invoice. Then, you filter the line items to display all line items that have an individual discount above 5%. Or, you filter to display only bike accessories with 'pro' in the name.
 
-## <a name="a-namefocusafocusing-on-line-items" /><a name="Focus"></a>Focusing on Line Items
+## <a name="focusing-on-line-items" /><a name="Focus"></a>Focusing on Line Items
 
 When working on documents that include a line items part, you can switch your view to focus only on the line items. Example documents are sales order or invoice page. The line items part expands so that it occupies almost the entire workspace. It hides other parts of the page except the actions area at the top. This layout gives you a better overview of the lines items, and provides more room to work on them.
 
@@ -266,7 +266,7 @@ Here are some examples.
 
  The number 5 is converted to 5 hrs, if the unit of measurement is hours.  
 
-## <a name="a-namedecimalasetting-the-decimal-separator-used-by-numeric-keyboards" /><a name="decimal"></a>Setting the decimal separator used by numeric keyboards
+## <a name="setting-the-decimal-separator-used-by-numeric-keyboards" /><a name="decimal"></a>Setting the decimal separator used by numeric keyboards
 
 When using the <kbd>Decimal Separator</kbd> key on a numeric keypad to enter data, the actual decimal separator that's entered in the field is determined by your region setting in Business Central. Most regions use the period (.) or comma (,) symbol as a separator for decimal values, as you would typically see in currency amounts. The decimal key on your keypad adapts to your region. It's often different to the period or comma keys on the rest of your keyboard. You set the region in Business Central on the **My Settings**  page.
 
@@ -275,7 +275,7 @@ For example, suppose you're using a numeric keyboard that uses a period (.) as t
 > [!TIP]
 > There may be occasions when you want to use the decimal separator to enter a period (.). For example, suppose you were entering a date range in a filter, like `01/01/2022..04/01/2022`, or anything that requires a period. To accommodate this case, select the <kbd>Alt</kbd>+<kbd>Decimal Separator</kbd> keys on the numeric keyboard. This key combination switches the decimal separator between outputting a period and the decimal separator as determined by the **Region** setting.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />See related [Microsoft training](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

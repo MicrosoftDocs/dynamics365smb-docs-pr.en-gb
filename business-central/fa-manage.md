@@ -47,7 +47,7 @@ The following video covers the basics of fixed assets.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="see-related-microsoft-trainingtrainingpathsmanage-fixed-assets-transactions" />See related [Microsoft training](/training/paths/manage-fixed-assets-transactions/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/paths/manage-fixed-assets-transactions/)
 
 ## <a name="see-also" />See also
 
@@ -57,7 +57,7 @@ The following video covers the basics of fixed assets.
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
  
 
 

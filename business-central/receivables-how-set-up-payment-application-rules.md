@@ -74,7 +74,7 @@ The following table describes the standard payment application rules in [!INCLUD
 | Low              | 4        | No                    | No                             | One Match                      |
 | Low              | 5        | No                    | No                             | Multiple Matches               |
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreconciliation-journals-dynamics-365-business-centralindex" />See related [Microsoft training](/training/modules/reconciliation-journals-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/reconciliation-journals-dynamics-365-business-central/index)
 
 ## <a name="see-also" />See Also
 [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md)  

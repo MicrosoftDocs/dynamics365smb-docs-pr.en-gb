@@ -10,7 +10,7 @@ ms.search.form: 'RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="work-with-includeprodshortincludesprodshortmd" />Work with [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-" />Work with [!INCLUDE[prod_short](includes/prod_short.md)]
 
 When performing business tasks, you interact with data in different ways, such as creating records and entering data, sorting and filtering data, writing notes, and outputting data to other applications.
 
@@ -18,7 +18,7 @@ For example, you can adjust the size and position of any page, expand the width 
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="a-namecheatsheetatips-and-tricks" /><a name="cheatsheet"></a>Tips and Tricks
+## <a name="tips-and-tricks" /><a name="cheatsheet"></a>Tips and Tricks
 
 > [!TIP]
 > For a print-friendly overview of the most used functions, choose the following image and download the PDF file.
@@ -80,7 +80,7 @@ When you search for an open a list page, such as the **Sales Orders** list, it i
 
 But when you open the same list page from your home page, the **Manage** action is not present. Instead, to open an individual sales order, you just choose the **Number** field. In this view, you cannot pin the action bar.  
 
-## <a name="see-related-microsoft-trainingtrainingpathswork-pro-data-dynamics-365-business-central" />See related [Microsoft training](/training/paths/work-pro-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />See Also
 
@@ -89,7 +89,7 @@ But when you open the same list page from your home page, the **Manage** action 
 [General Business Functionality](ui-across-business-areas.md)  
 [Performance Tips for Business Users](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

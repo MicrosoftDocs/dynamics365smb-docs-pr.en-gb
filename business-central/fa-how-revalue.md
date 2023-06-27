@@ -114,7 +114,7 @@ If you did not select the **Depr. until FA Posting Date** check box, the asset w
 
 *Total of depreciation = 100 + 15 + 55.54 = 170.54*
 
-## <a name="see-related-microsoft-trainingtrainingpathsmanage-advanced-fixed-assets-transactions" />See related [Microsoft training](/training/paths/manage-advanced-fixed-assets-transactions/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/paths/manage-advanced-fixed-assets-transactions/)
 
 ## <a name="see-also" />See also
 

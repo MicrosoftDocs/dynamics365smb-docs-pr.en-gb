@@ -61,7 +61,7 @@ Follow the steps in this procedure to assemble an item to stock. To learn about 
 
 After posting succeeds, the assembly item is posted as output to the location code and potential bin code that are defined on the assembly order. For manually created assembly orders, the location may be copied from the **Default Location for Orders** setup field. For assemble-to-order flows, the location code may be copied from the sales order line.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />See related [Microsoft training](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

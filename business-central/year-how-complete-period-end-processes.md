@@ -57,7 +57,7 @@ ms.author: jswymer
 
 * Complete VAT statements.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesclose-fiscal-year-dynamics-365-business-central" />See related [Microsoft training](/training/modules/close-fiscal-year-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/close-fiscal-year-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

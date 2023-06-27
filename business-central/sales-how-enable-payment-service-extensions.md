@@ -19,7 +19,7 @@ After you enable a payment service in [!INCLUDE[prod_short](includes/prod_short.
 
 The PayPal Payments Standard and WorldPay Payments Standard extensions are installed in [!INCLUDE[prod_short](includes/prod_short.md)], and are ready for you to enable.  
 
-## <a name="to-enable-a-payment-service-in-includeprodshortincludesprodshortmd" />To enable a payment service in [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="to-enable-a-payment-service-in-" />To enable a payment service in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Services**, and then choose the related link.  
 2. On the **Payment Services** page, choose the **New** action.  
@@ -37,7 +37,7 @@ The PayPal Payments Standard and WorldPay Payments Standard extensions are insta
     > [!NOTE]  
     > The **Payment Service** field is available only if you've enabled the payment service.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics-365-business-central" />See related [Microsoft training](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

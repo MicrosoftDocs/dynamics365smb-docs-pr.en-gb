@@ -36,7 +36,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Learn about different fixed asset depreciation methods. |[Depreciation Methods](fa-depreciation-methods.md) |
 | Learn about how to apply user-defined depreciation methods. |[Set Up User-Defined Depreciation Methods](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-fixed-assets-management" />See related [Microsoft training](/training/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/paths/set-up-fixed-assets-management/)
 
 ## <a name="see-also" />See also
 

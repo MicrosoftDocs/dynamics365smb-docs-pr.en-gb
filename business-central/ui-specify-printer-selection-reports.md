@@ -11,7 +11,7 @@ ms.search.form: '2650, 2750, 2752, 2753, 2754, 8900,'
 ms.date: 02/09/2023
 ms.author: jswymer
 ---
-# <a name="a-namedefaultaspecify-a-default-printer" /><a name="default"></a>Specify a Default Printer
+# <a name="specify-a-default-printer" /><a name="default"></a>Specify a Default Printer
 
 After printers have been set up in Business Central, you can then specify which printer you want to use by default. There are a couple of ways to specify printers to be used by default for reports and other print jobs. A default printer is useful if you work with different reports that require different printers because of their placement in the company or their output capabilities.
 

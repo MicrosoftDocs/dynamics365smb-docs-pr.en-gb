@@ -87,7 +87,7 @@ Microsoft partners and resellers can create an app that they can use to compile 
 > [!NOTE]
 > If you are a Microsoft partner or reseller, and you're interested in providing a list of recommended apps, see [Recommend Apps from AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps) in the administration content.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescustomize-dynamics-365-business-central" />See related [Microsoft training](/training/modules/customize-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/customize-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 
@@ -101,7 +101,7 @@ Microsoft partners and resellers can create an app that they can use to compile 
 [[!INCLUDE[prod_short](includes/prod_short.md)] apps by Other Providers](ui-extensions-other.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

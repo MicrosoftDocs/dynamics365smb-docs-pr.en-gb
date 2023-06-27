@@ -96,7 +96,7 @@ Based on this example, you can modify the **Quantity to Assemble** field as foll
 * The minimum quantity you can enter is 1. You must assemble at least one unit to be able to sell the four units, assuming that the remaining three are available in inventory.  
 * The maximum quantity that you can enter is 4. This limit ensures that you don't assemble more of the item than you need for the sale.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />See related [Microsoft training](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

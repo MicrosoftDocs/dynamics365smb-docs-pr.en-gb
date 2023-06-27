@@ -21,7 +21,7 @@ You find reports in the **Reports** menu on selected pages, lists, and cards, or
 
 When you choose a report, you're typically presented with a request page&mdash;titled after the report's name&mdash;where you set various options and filters that determine what data is included. The following sections explain how to use the request page to build, preview, and print a report.
 
-## <a name="a-namesavedsettingsausing-default-valuesmdashpredefined-settings" /><a name="SavedSettings"></a>Using default values&mdash;predefined settings
+## <a name="using-default-valuesmdashpredefined-settings" /><a name="SavedSettings"></a>Using default values&mdash;predefined settings
 
 Most report request pages include the **Use default values from** field. With this field you can select predefined settings for the report, which automatically set options and filters. Select an entry from the dropdown list to see the options and filters on the report request page change accordingly.
 
@@ -80,7 +80,7 @@ If your organisation has configured OneDrive for system features, instead of bei
 >
 > You can also use **Microsoft Excel Document (data only)** to create new Excel layouts for a given report. Learn more at [Work with Excel Layouts](ui-excel-report-layouts.md).  
 
-## <a name="a-nameschedulereporta-scheduling-a-report-to-run-later-or-periodically" /><a name="ScheduleReport"></a> Scheduling a report to run later or periodically
+## <a name="scheduling-a-report-to-run-later-or-periodically" /><a name="ScheduleReport"></a> Scheduling a report to run later or periodically
 
 You can schedule a single or recurring report to run at a specific date and time. Scheduled reports are entered in the job queue and processed at the scheduled time, similar to other jobs. Choose the **Schedule** option after selecting **Send to**, then enter information, such as the printer, and time and date. The report is added to the job queue and runs at the specified time. When the report is processed, the item is removed from the job queue. Learn more at [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).  
 
@@ -103,13 +103,13 @@ After editing the report options, repeat the first two steps and then select the
 
 Learn more about job queue management at [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).  
 
-## <a name="a-nameprintreportaprinting-a-report" /><a name="PrintReport"></a>Printing a report
+## <a name="printing-a-report" /><a name="PrintReport"></a>Printing a report
 
 To print a report, choose **Print** on the report request page or on the menu bar of the **Preview** page.
 
 When a report is using an Excel layout, you won't see the **Printer** field or **Print** or **Preview** buttons. Instead, there's a **Download** option. To print, select **Download**, then open the downloaded file in Excel and print from there.
 
-### <a name="a-nameprinteraprinter" /><a name="Printer"></a>Printer
+### <a name="printer" /><a name="Printer"></a>Printer
 
 The **Printer** field on the request page shows the name of printer the report is sent to. To change a printer, just select the printer from the list.
 
@@ -153,7 +153,7 @@ The fields under the **Advanced** FastTab set limitations on the generated repor
 > [!NOTE]
 > The maximum values may be different for [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, and an administrator can change them. Learn more in the [Configuring Business Central Server - Reports](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports) section. For an overview of report limitations in [!INCLUDE[prod_short](includes/prod_short.md)] online, see [Operational Limits](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />See related [Microsoft training](/training/paths/setup-reporting-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/paths/setup-reporting-dynamics-365-business-central/).
 
 ## <a name="see-also" />See also
 

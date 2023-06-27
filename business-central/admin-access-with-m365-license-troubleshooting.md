@@ -26,11 +26,11 @@ You're most likely missing object permissions for tables that the current page o
 
 ## <a name="microsoft-365-access-has-been-enabled-but-users-get-a-permission-error" />Microsoft 365 access has been enabled, but users get a permission error
 
-### <a name="symptoms" />Symptoms
+### <a name="symptoms-1" />Symptoms
 
 Access with Microsoft 365 has been enabled in Business Central admin centre, but users get a permission error when accessing any record.
 
-### <a name="cause" />Cause
+### <a name="cause-1" />Cause
 
 If you enable access in the Business Central admin centre, but don't assign permissions in the **Licence Configuration** page, anyone that attempts to access Business Central records in Teams will have their user record provisioned without permission to any objects. Business Central is secure by design: administrators must first configure what data can be accessed in Teams. 
 
@@ -40,25 +40,25 @@ Customising permissions in the Licence Configuration page will only affect newly
 
 ## <a name="you-shared-a-link-in-teams-but-users-get-a-message-that-they-can-only-view-data" />You shared a link in Teams, but users get a message that they can only view data
 
-### <a name="symptoms" />Symptoms
+### <a name="symptoms-2" />Symptoms
 
 When you share a link in Teams as a Business Central user, others get the error "When accessing Business Central with a Microsoft 365 licence, you can only view data in Microsoft Teams".
 
-### <a name="cause" />Cause
+### <a name="cause-2" />Cause
 
 When sharing a Business Central link to a Teams chat or channels, navigating a link will always navigate out of Microsoft Teams where the data no longer becomes accessible to a person having a Microsoft 365 licence.
 
-### <a name="resolution" />Resolution
+### <a name="resolution-1" />Resolution
 
 When sharing pages or records, either include the link preview as a card, or share data as a tab in the chat or channel.
 
 ## <a name="card-from-shared-link-is-minimal-and-doesnt-include-details-button" />Card from shared link is minimal and doesn't include Details button
 
-### <a name="symptoms" />Symptoms
+### <a name="symptoms-3" />Symptoms
 
 When a Microsoft 365 licence holder without a Business Central licence shares a Business Central link in Teams, it automatically expands into a card that has no useful information and only shows Business Central with no **Details** button.
 
-### <a name="cause" />Cause
+### <a name="cause-3" />Cause
 
 Users who have a Microsoft 365 licence but no Business Central licence aren't allowed to share links as cards. If the user has the Business Central app for Teams installed and pastes a link into the compose area, then only a minimal card is displayed. 
 

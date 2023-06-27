@@ -45,7 +45,7 @@ When you sell or dispose of a fixed asset, the disposal value is posted to the g
 
 The **General Ledger Entries** page opens where you can see the entries that the disposal posting resulted in.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesdispose-fixed-assets" />See related [Microsoft training](/training/modules/dispose-fixed-assets/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/dispose-fixed-assets/)
 
 ## <a name="see-also" />See also
 

@@ -69,7 +69,7 @@ When you post an inventory decrease, an item application entry is created that l
 
 In the  **Item Ledger Entry** table, the **Remaining Quantity** field shows the quantity that has not yet been applied. If the remaining quantity is more than 0, then the **Open** check box is selected.  
 
-### <a name="example" />Example
+### <a name="example-1" />Example
 The following example shows the item application entry that is created when you post a sales shipment of 5 units of the items that were received in the previous example. The first item application entry is the purchase receipt. The second application entry is the sales shipment.  
 
 The following table shows the two item application entries that result from the inventory increase and the inventory decrease, respectively.  

@@ -41,7 +41,7 @@ The following table describes a sequence of tasks, with links to the topics that
 [Jobs](projects-how-create-jobs.md)   
 [Welcome to [!INCLUDE[prod_long](includes/prod_long.md)] ](index.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

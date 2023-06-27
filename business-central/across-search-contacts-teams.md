@@ -100,7 +100,7 @@ The contact card works just like cards for records, like items, customers, or sa
 [Troubleshooting Teams](admin-teams-troubleshooting.md)  
 [Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

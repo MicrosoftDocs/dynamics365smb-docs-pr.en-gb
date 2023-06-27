@@ -73,7 +73,7 @@ Use the following procedure to update an analysis view from the **Analysis by Di
 > [!NOTE]  
 > To update some or all analysis views at the same time, you must use the **Update Analysis Views** batch job.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesdimensions-financial-reports-dynamics-365-business-centralindex" />See related training at [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learn" />See related training at [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index).
 
 ## <a name="see-also" />See also
 

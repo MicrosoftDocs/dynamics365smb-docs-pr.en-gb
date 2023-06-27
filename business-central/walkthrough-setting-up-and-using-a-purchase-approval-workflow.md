@@ -117,7 +117,7 @@ You define variations of workflows by filling in fields on workflow lines using 
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-approval-workflows" />See related [Microsoft training](/training/modules/use-approval-workflows/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/use-approval-workflows/)
 
 ## <a name="see-also" />See also
 

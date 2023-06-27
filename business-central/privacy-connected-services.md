@@ -32,6 +32,6 @@ The following table indicates the connections to Microsoft services that are aut
 
 Your privacy is important to us. To learn more about how Microsoft processes your data, view the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?linkid=521839).
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

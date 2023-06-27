@@ -115,7 +115,7 @@ You can copy entries from one depreciation book to another by using the **Copy D
 
 The copied lines are created in either the fixed asset G/L journal or the fixed asset journal, depending on whether the depreciation book that you are copying has integration to the general ledger.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescalculate-post-depreciations" />See related [Microsoft training](/training/modules/calculate-post-depreciations/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/calculate-post-depreciations/)
 
 ## <a name="see-also" />See also
 

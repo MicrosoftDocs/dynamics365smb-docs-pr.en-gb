@@ -47,7 +47,7 @@ In most cases, you can open ledger entries from the affected card or document. F
 
 You can edit certain fields on posted purchase documents, such as the **Package Tracking No.** field. For more information, see [Edit Posted Documents](across-edit-posted-document.md). For more critical fields that affect the auditing trail, you must reverse or undo posting. For more information, see [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics-365-business-centralindex" />See related [Microsoft training](/training/modules/ship-invoice-items-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/ship-invoice-items-dynamics-365-business-central/index)
 
 ## <a name="see-also" />See Also
 

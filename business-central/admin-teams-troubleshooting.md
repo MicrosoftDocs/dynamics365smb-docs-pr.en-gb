@@ -11,7 +11,7 @@ ms.date: 10/01/2021
 ms.author: jswymer
 ---
 
-# <a name="troubleshooting-microsoft-teams-integration-with-include-prodshortincludesprodshortmd" />Troubleshooting Microsoft Teams Integration with [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="troubleshooting-microsoft-teams-integration-with-" />Troubleshooting Microsoft Teams Integration with [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -182,7 +182,7 @@ This problem is likely because you shared a list view that is a personal view. I
 [Changing Company and Other Settings in Teams](across-teams-settings.md)  
 [Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="included365finincludesfreetrialmdmd" />[!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

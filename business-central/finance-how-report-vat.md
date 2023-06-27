@@ -35,7 +35,7 @@ If you want to view a complete history of VAT entries, every posting that involv
 > [!NOTE]
 > Each [!INCLUDE[prod_short](includes/prod_short.md)] environment is meant to handle regulatory reporting in one single country. For example, the Dutch version of [!INCLUDE[prod_short](includes/prod_short.md)] handles VAT reporting in The Netherlands but not in other countries. Similarly, the United States version of [!INCLUDE[prod_short](includes/prod_short.md)] handles 1099 reporting in the United States and does not support claiming VAT reporting in other countries, unless brought by an extension delivered by our partner ecosystem or a customer-specific code modification.
 
-## <a name="a-nameecsaleslistaabout-the-ec-sales-list-report" /><a name="ecsaleslist"></a>About the EC Sales List report
+## <a name="about-the-ec-sales-list-report" /><a name="ecsaleslist"></a>About the EC Sales List report
 
 In the European Union (EU) and in the UK, all companies that sell goods and services to VAT-registered customers, including customers in other European Union (EU) countries, must submit an electronic version of the European Community (EC) Sales List report to their customs and tax authorities. The **EC Sales List** report works only for countries in the EU.
 
@@ -53,7 +53,7 @@ After the tax authority reviews your report, they will send an email to the cont
 
 [!INCLUDE [finance-ecsaleslist](includes/finance-ecsaleslist.md)]
 
-## <a name="a-namevatreturnaabout-the-vat-return-report" /><a name="vatreturn"></a>About the VAT Return report
+## <a name="about-the-vat-return-report" /><a name="vatreturn"></a>About the VAT Return report
 
 Use this report to submit VAT for sales and purchase documents, such as purchase and sales orders,invoices, and credit memos. The information in the report is in the same format as on the declaration form from the customs and tax authorities.  
 
@@ -73,7 +73,7 @@ To report VAT to a tax authority electronically, you need to connect [!INCLUDE[p
     > [!NOTE]  
     > It is a good idea to test your connection. To do this, choose the **Test Mode** check box, then prepare and submit your VAT report as described in the [To prepare and submit a VAT report](#to-prepare-and-submit-a-vat-report) section. While in Test Mode, the service tests whether the tax authority can receive your report, and the status of the report will indicate whether the test submission was successful. It is important to remember that this is not an actual submission. To submit the report for real, you must clear the **Test Mode** check box, and then repeat the submission process.
 
-## <a name="to-set-up-vat-reports-in-includeprodshortincludesprodshortmd" />To set up VAT reports in [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="to-set-up-vat-reports-in-" />To set up VAT reports in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
@@ -148,7 +148,7 @@ The following table describes the codeunits that you must create for your report
 > [!Note]
 > When you create codeunits for the report, pay attention to the value in the **VAT Report Version** field. This field must reflect the version of the report that is, or was, required by the tax authority. For example, you might enter **2021** in the field to indicate that the report conforms to the requirements that were in place that year. To find the current version, contact your tax authority.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics-365-business-central" />See related [Microsoft training](/training/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

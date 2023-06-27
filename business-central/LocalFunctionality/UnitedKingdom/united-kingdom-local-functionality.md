@@ -49,7 +49,7 @@ If you are aware of any upcoming regulatory features, please submit a [Regulator
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

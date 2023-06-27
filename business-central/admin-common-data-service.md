@@ -24,7 +24,7 @@ The following steps provide an overview of the steps to integrate [!INCLUDE[prod
 
 3. Synchronise data between the apps. For more information, see [Synchronising Business Central and Dataverse](admin-synchronizing-business-central-and-sales.md). 
 
-## <a name="getting-started-with-includeprodshortincludescdslongmdmd" />Getting Started with [!INCLUDE[prod_short](includes/cds_long_md.md)]
+## <a name="getting-started-with-" />Getting Started with [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 To get started with [!INCLUDE[prod_short](includes/cds_long_md.md)] you will need a Microsoft Power Apps account. If you do not already have a Power Apps account, you can get one for free by visiting [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) and choosing the **Get started free** link. To learn more about how to get started with [!INCLUDE[prod_short](includes/cds_long_md.md)], see the [Get started with Dataverse](/training/modules/get-started-with-powerapps-common-data-service/) module from Microsoft training.
 
@@ -57,7 +57,7 @@ For details about each role, such as the permissions and access levels, see [Set
 
 During connection setup, integration table mappings that are needed to synchronise data, are created. Entities in [!INCLUDE[prod_short](includes/cds_long_md.md)] are mapped to tables and table fields in Business Central through integration tables. For more information, see [Standard Entity Mapping for Synchronisation](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-model-driven-apps-common-data-service" />See related [Microsoft training](/training/modules/use-model-driven-apps-common-data-service/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/use-model-driven-apps-common-data-service/)
 
 ## <a name="see-also" />See also
 

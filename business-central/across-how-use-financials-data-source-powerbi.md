@@ -11,7 +11,7 @@ ms.date: 09/07/2022
 ms.author: jswymer
 ---
 
-# <a name="building-power-bi-reports-to-display-include-prodlongincludesprodlongmd-data" />Building Power BI Reports to Display [!INCLUDE [prod_long](includes/prod_long.md)] Data
+# <a name="building-power-bi-reports-to-display--data" />Building Power BI Reports to Display [!INCLUDE [prod_long](includes/prod_long.md)] Data
 
 You can make your [!INCLUDE[prod_long](includes/prod_long.md)] data available as a data source in Power BI Desktop and build powerful reports of the state of your business.
 
@@ -46,7 +46,7 @@ This article describes how to get started using Power BI Desktop to create repor
 
 [!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
-## <a name="a-namegetdataaadd-includeprodshortincludesprodshortmd-as-a-data-source-in-power-bi-desktop" /><a name="getdata"></a>Add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in Power BI Desktop
+## <a name="add--as-a-data-source-in-power-bi-desktop" /><a name="getdata"></a>Add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in Power BI Desktop
 
 The first task in creating reports is to add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in Power BI Desktop. Once connected, you can start to build the report.
 
@@ -108,7 +108,7 @@ It's important to make your reports usable for as many people as possible. Try t
 
 You can create reports that display in a FactBox of a [!INCLUDE [prod_short](includes/prod_short.md)] list page. The reports can contain data about the record selected in the list. Creating these reports is similar to other reports, except there are a few things you'll have to do to make sure the reports display as expected. For more information, see [Creating Power BI Reports for Displaying List Data in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
 
-## <a name="a-namethemeausing-the-include-prodshortincludesprodshortmd-report-theme-optional" /><a name="theme"></a>Using the [!INCLUDE [prod_short](includes/prod_short.md)] report theme (optional)
+## <a name="using-the--report-theme-optional" /><a name="theme"></a>Using the [!INCLUDE [prod_short](includes/prod_short.md)] report theme (optional)
 
 Before building your report, we recommend that you download and import the [!INCLUDE [prod_short](includes/prod_short.md)] theme file. The theme file creates a colour palette so you can build reports with the same colour styling as the [!INCLUDE [prod_short](includes/prod_short.md)] apps, without requiring you to define custom colours for each visual.
 
@@ -180,7 +180,7 @@ Starting in February 2022, new reports that use Business Central data will conne
 9. Select **Done**.
 10. Select **Close & Apply** from the ribbon to save the changes and close Power Query Editor.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />See Also
 

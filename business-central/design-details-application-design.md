@@ -34,4 +34,4 @@ Design details content is aimed at implementers, developers, and super users who
 [Setting Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]

@@ -93,7 +93,7 @@ You can schedule a report or batch job to run at a specific date and time. Sched
 
 To learn more about scheduling, go to [Scheduling a Report to Run](ui-work-report.md#ScheduleReport)
 
-### <a name="schedule-synchronization-between-includeprodshortincludesprodshortmd-and-includeprodshortincludescdslongmdmd" />Schedule synchronisation between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[prod_short](includes/cds_long_md.md)]
+### <a name="schedule-synchronization-between--and-includeprod_short" />Schedule synchronisation between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 If you've integrated [!INCLUDE[prod_short](includes/prod_short.md)] with [!INCLUDE[prod_short](includes/cds_long_md.md)], the job queue lets you schedule when to synchronise data. Depending on the direction and rules you've defined, the job queue entry can create records in one app to match records in the other. A good example is when you register a contact in [!INCLUDE[crm_md](includes/crm_md.md)], the job queue entry can set up that contact for you in [!INCLUDE[prod_short](includes/prod_short.md)]. To learn more about scheduling, go to [Scheduling a Synchronisation between Business Central and Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
 

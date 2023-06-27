@@ -25,7 +25,7 @@ A report in [!INCLUDE[prod_short](includes/prod_short.md)] gathers information b
 | Learn how to change the default layout for a report. | [Changing the Default Report Layout](ui-how-change-layout-currently-used-report.md) |
 | View and analyse data from a report dataset in Microsoft Excel. | [Save Report Dataset to Excel From the Request Page](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />See related [Microsoft training](/training/paths/setup-reporting-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/paths/setup-reporting-dynamics-365-business-central/).
 
 ## <a name="see-also" />See also
 

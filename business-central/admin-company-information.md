@@ -28,7 +28,7 @@ If your [!INCLUDE [prod_short](includes/prod_short.md)] includes multiple compan
 
 There are a few features you can use to switch among companies as you work, like the company switcher (<kbd>Ctrl</kbd>+<kbd>O</kbd>). Learn more at [Switch to Another Company or Environment](ui-organization-switch.md).
 
-## <a name="a-namebadgeadisplay-a-company-badge" /><a name="badge"></a>Display a company badge
+## <a name="display-a-company-badge" /><a name="badge"></a>Display a company badge
 
 When there's more than one company or environment, you'll see the company switcher on the upper-right side of the app bar, near the search icon in the app bar. By default, the company switcher uses a standard company icon, like ![company icon Launcher.](media/ui-experience/company-icon.png "Displays the company switcher icon used when there is a single environment") and ![company-icon-mult-env](media/ui-experience/company-icon-multi-env.png "Displays the company switcher icon used when there are multiple environments").
 
@@ -54,7 +54,7 @@ The company name is always displayed at the top left corner and works as an acti
 
 The default user experience in a [!INCLUDE [prod_short](includes/prod_short.md)] trial doesn't reveal all capabilities. You can switch on the full experience on the **Company Information** page. For more information, see [Change Which Features are Displayed](ui-experiences.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics-365-business-central" />See related [Microsoft training](/training/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## <a name="see-also" />See also
 

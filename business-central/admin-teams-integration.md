@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics365-business-central
 ---
 
-# <a name="managing-microsoft-teams-integration-with-include-prodshortincludesprodshortmd" />Managing Microsoft Teams Integration with [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="managing-microsoft-teams-integration-with-" />Managing Microsoft Teams Integration with [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -42,7 +42,7 @@ This section describes the minimum requirements for the [!INCLUDE [prod_short](i
 
     **Allow URL previews** policy setting must be turned on. Otherwise, a card can't be generated for [!INCLUDE [prod_short](includes/prod_short.md)] links pasted into a Teams conversation. For more information about this setting, see [Manage messaging policies in Teams](/microsoftteams/messaging-policies-in-teams).
 
-### <a name="managing-the-include-prodshortincludesprodshortmd-app-optional" />Managing the [!INCLUDE [prod_short](includes/prod_short.md)] app (optional)
+### <a name="managing-the--app-optional" />Managing the [!INCLUDE [prod_short](includes/prod_short.md)] app (optional)
 
 As a Teams administrator, you can manage all apps for your organisation, including the [!INCLUDE [prod_short](includes/prod_short.md)] app. You can approve or install the [!INCLUDE [prod_short](includes/prod_short.md)] app for your organisation, block user's from installing the app and more.
 
@@ -51,9 +51,9 @@ For more information, see the following articles in the Microsoft Teams document
 - [Manage your apps in the Microsoft Teams admin centre](/MicrosoftTeams/manage-apps)
 - [Manage app setup policies in Microsoft Teams](/microsoftteams/teams-app-setup-policies)
 
-## <a name="in-include-prodshortincludesprodshortmd" />In [!INCLUDE [prod_short](includes/prod_short.md)]
+## <a name="in-" />In [!INCLUDE [prod_short](includes/prod_short.md)]
 
-### <a name="minimum-requirements" />Minimum requirements
+### <a name="minimum-requirements-1" />Minimum requirements
 
 - [!INCLUDE [prod_short](includes/prod_short.md)] version:
 
@@ -103,7 +103,7 @@ The Microsoft Teams admin centre is where you configure Teams app setup policies
 
 Microsoft Teams provides extensive controls for compliance and management of sensitive or personally identifiable data&mdash;including data added to chats and channels by the [!INCLUDE [prod_short](includes/prod_short.md)] app.
 
-### <a name="understanding-where-include-prodshortincludesprodshortmd-cards-are-stored" />Understanding where [!INCLUDE [prod_short](includes/prod_short.md)] cards are stored
+### <a name="understanding-where--cards-are-stored" />Understanding where [!INCLUDE [prod_short](includes/prod_short.md)] cards are stored
 
 After a card is sent to a chat, the card and the fields shown on the card are copied to Teams. This information is subject to the Teams policies for your organisation, such as data retention policies. When displaying card details, none of the data in the details window is stored in Teams. The data remains stored in [!INCLUDE [prod_short](includes/prod_short.md)] and will only be retrieved by Teams when the user chooses to view the details. 
 
@@ -153,7 +153,7 @@ You configure the setting per environment. So when you turn the record summary o
 [Troubleshooting Teams](admin-teams-troubleshooting.md)  
 [Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

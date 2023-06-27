@@ -139,7 +139,7 @@ All job-related entries are recorded in job registers and sequentially numbered,
 
 On the **Job Ledger Entries** page you can review the entries that are associated with any job.  
 
-## <a name="find-related-microsoft-trainingtrainingpathscalculate-post-job-wip" />Find related [Microsoft training](/training/paths/calculate-post-job-wip/)
+## <a name="find-related-microsoft-training" />Find related [Microsoft training](/training/paths/calculate-post-job-wip/)
 
 ## <a name="see-also" />See also
 
