@@ -10,7 +10,7 @@ ms.date: 01/24/2023
 ms.custom: bap-template
 ms.search.forms: '7352, 7333'
 ---
-# <a name="put-items-away-with-warehouse-put-aways" />Put Items Away with Warehouse Put-aways
+# <a name="put-items-away-with-warehouse-put-aways"></a>Put Items Away with Warehouse Put-aways
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], you receive items and put them away using one of four methods, as described in the following table.
 
@@ -31,7 +31,7 @@ Depending on the value in the **Use Put-away Worksheet** field on the **Location
 
 In addition to the standard ways to create warehouse put-aways that this article describes, you can create put-aways from the related posted warehouse receipt. This is useful if you have deleted put-away lines, or if you decide not to use the put-away worksheet, because you can create or recreate put-away instructions from the posted receipt lines.
 
-## <a name="zone-and-bin-codes" />Zone and bin codes
+## <a name="zone-and-bin-codes"></a>Zone and bin codes
 
 At locations that are set up to use directed put-away and pick, the following settings are required to determine the best place to put the items:  
 
@@ -41,7 +41,7 @@ At locations that are set up to use directed put-away and pick, the following se
 
 The bin ranking is used when more than one bin matches the criteria on the put-away template. If both the put-away template criteria and the bin ranking are the same for more than one bin, the bin with the highest number is selected.
 
-## <a name="to-create-put-away-documents-in-bulk-with-the-put-away-worksheet" />To create put-away documents in bulk with the put-away worksheet
+## <a name="to-create-put-away-documents-in-bulk-with-the-put-away-worksheet"></a>To create put-away documents in bulk with the put-away worksheet
 
 You can create put-away documents for multiple receipts at the same time on the **Put-away Worksheet** page.  
 
@@ -75,7 +75,7 @@ You can create put-away documents for multiple receipts at the same time on the 
 
 8. Choose **OK** to create the put-away.  
 
-## <a name="to-create-a-put-away-from-a-posted-receipt" />To create a put-away from a posted receipt
+## <a name="to-create-a-put-away-from-a-posted-receipt"></a>To create a put-away from a posted receipt
 
 If a location uses both put-away processing and receive processing and you have deleted put-away lines, or if you use directed put-away and pick and have decided not to use the put-away worksheet, you can create or recreate put-away instructions for the posted receipt lines.
 
@@ -88,7 +88,7 @@ If a location uses both put-away processing and receive processing and you have 
 4. If the receipt is partially put away or not put away at all, choose the **Create Put-away** action.  
 5. Fill in the fields as necessary, and then choose **OK**.  
 
-## <a name="to-put-items-away" />To put items away
+## <a name="to-put-items-away"></a>To put items away
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Put-aways**, and then choose the related link.
 
@@ -112,9 +112,9 @@ If a location uses both put-away processing and receive processing and you have 
 
 5. When you have placed all the items in bins as instructed, choose the **Register Put-away** action.  
 
-## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/receive-put-away-items/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/receive-put-away-items/)
 
-## <a name="see-also" />See also
+## <a name="see-also"></a>See also
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

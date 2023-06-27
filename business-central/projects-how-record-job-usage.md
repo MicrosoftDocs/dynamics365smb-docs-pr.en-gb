@@ -9,7 +9,7 @@ ms.topic: how-to
 ms.date: 03/08/2023
 ms.custom: bap-template
 ---
-# <a name="record-consumption-or-usage-for-jobs" />Record Consumption or Usage for Jobs
+# <a name="record-consumption-or-usage-for-jobs"></a>Record Consumption or Usage for Jobs
 
 From the **Job Card** page, you can open the **Job Planning Lines** page to review and record use on various parts of your job. This information is automatically updated when you modify and transfer information between jobs and job journals or job invoices. This requires that you turn on the **Apply Usage Link by Default** toggle on the **Job Setup** page. Learn more at [Set Up Jobs](projects-how-setup-jobs.md).  
 
@@ -17,7 +17,7 @@ For example, for planning lines of type **Budget**, you can enter the quantity o
 
 The following procedures describe how to record actual (budgeted) quantities and costs with a job journal. Alternatively, you can use purchase documents to record purchases for a job. Learn more at [Manage Job Supplies](projects-how-manage-project-supplies.md).
 
-## <a name="to-record-usage-for-a-job-planning-line-of-type-budget" />To record usage for a job planning line of type Budget
+## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>To record usage for a job planning line of type Budget
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2. Select the job, and then choose the **Job Planning Lines** action. 
@@ -42,7 +42,7 @@ The following procedures describe how to record actual (budgeted) quantities and
 9. On the **Job Planning Lines** page, review the recorded usage by observing the **Quantity**, **Remaining Quantity**, and **Qty. To Transfer to Journal** fields.  
 10. Repeat steps 3 through 8 to record additional usage.  
 
-## <a name="to-create-job-journal-lines-manually" />To create job journal lines manually
+## <a name="to-create-job-journal-lines-manually"></a>To create job journal lines manually
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
 2. In the **Batch Name** field, choose a relevant job journal batch.  
@@ -51,7 +51,7 @@ The following procedures describe how to record actual (budgeted) quantities and
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="to-view-job-usage-estimates-and-post-updates" />To view job usage estimates and post updates
+## <a name="to-view-job-usage-estimates-and-post-updates"></a>To view job usage estimates and post updates
 
 You can view job usage up to the completion of a project in one step. To do so, you use the **Job Calc. Remaining Usage** batch job for all the tasks up to and including the end of a job.  
 
@@ -66,7 +66,7 @@ This lets you track and compare your original estimates against actual results a
 4. Update the journal with any modifications that may be needed.  
 5. Choose the **Post**.
 
-## <a name="create-inventory-and-warehouse-pick-documents-for-a-job" />Create inventory and warehouse pick documents for a job
+## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Create inventory and warehouse pick documents for a job
 
 To create inventory and warehouse pick documents for jobs, your administrator must enable **Feature Update: Enable inventory and warehouse pick from Jobs** on the **Feature Management** page.
 
@@ -85,7 +85,7 @@ You can use the actions under the following conditions:
 > 
 > If your location is set up to require both pick and shipment processing, meaning that you have chosen both the **Require Pick** and **Require Shipment** fields on the **Location Card** page, use the **Warehouse Pick** page to handle the pick. Warehouse picks are similar to inventory picks. The difference is that rather than posting the picking information you register the pick. This registration doesn't post consumption, it just makes the items available for posting. As a warehouse manager, you can use a pick worksheet to organise pick information before creating the individual warehouse pick instructions
 
-## <a name="to-review-planning-lines-for-a-job-ledger-entry" />To review planning lines for a job ledger entry
+## <a name="to-review-planning-lines-for-a-job-ledger-entry"></a>To review planning lines for a job ledger entry
 
 After you have posted job journal lines, you can see the planning lines that are associated with the job journal entries that have been posted.
 
@@ -96,9 +96,9 @@ After you have posted job journal lines, you can see the planning lines that are
 2. Select a relevant job journal, and then choose the **Ledger Entries** action.  
 3. On the **Job Ledger Entries** page, choose **Show Linked Job Planning Lines** action.
 
-## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/paths/post-job-usage-sales/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/post-job-usage-sales/)
 
-## <a name="see-also" />See also
+## <a name="see-also"></a>See also
 
 [Project Management](projects-manage-projects.md)  
 [Finance](finance.md)  

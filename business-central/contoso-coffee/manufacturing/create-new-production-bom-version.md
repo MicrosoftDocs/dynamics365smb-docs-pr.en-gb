@@ -7,17 +7,17 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ---
-# <a name="walkthrough-create-a-new-production-bom-and-bom-version" />Walkthrough: Create a New Production BOM and BOM Version
+# <a name="walkthrough-create-a-new-production-bom-and-bom-version"></a>Walkthrough: Create a New Production BOM and BOM Version
 
 In this article, we take you through the steps to use the Contoso Coffee demo data to work with bills of material (BOM) in production processes.  
 
-## <a name="scenario" />Scenario
+## <a name="scenario"></a>Scenario
 
 Contoso Coffee has decided to add another coffee maker to their product line: **SP-SCM1008 Airpot Lite**. This coffee maker is identical to the existing item **SP-SCM1009 Airpot**, except that it does not include the warming plate, **SP-BOM1104**. In a separate step, the on/off light, **SP-BOM1106** is removed for a version of the Airpot Lite BOM.
 
 Oscar, the process engineer at Contoso Coffee, must set up a new production BOM to define the initial component requirements for the Airpot Lite. Oscar must then set up a new BOM version, with a start date of July 01, to align with further plans on releasing another edition.
 
-## <a name="steps" />Steps
+## <a name="steps"></a>Steps
 
 1. Create a new production BOM for the Airpot Lite.
 
@@ -72,6 +72,6 @@ Oscar, the process engineer at Contoso Coffee, must set up a new production BOM 
 
 The new coffee maker is now set up as a production BOM with one version.  
 
-## <a name="see-also" />See also
+## <a name="see-also"></a>See also
 
 [Introduction to Contoso Coffee Demo Data](../contoso-coffee-intro.md)  

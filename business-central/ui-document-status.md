@@ -9,7 +9,7 @@ ms.search.form: null
 ms.date: 09/19/2022
 ms.author: bholtorf
 ---
-# <a name="status-field-on-documents" />Status Field on Documents
+# <a name="status-field-on-documents"></a>Status Field on Documents
 
 When you create a quote, order, or credit memo, the **Status** field on the document header contains the status **Open** by default.
 
@@ -22,11 +22,11 @@ After you've filled in the document, you can release it, and [!INCLUDE[prod_shor
 | Pending Approval   | The document is waiting to be approved. |
 | Pending Prepayment | A prepayment invoice has been posted for the document. |
 
-## <a name="release-process" />Release process
+## <a name="release-process"></a>Release process
 
 You can use the release process in different ways to ease your normal workflow, for example, to follow company procedures about approvals or to start warehouse activities.
 
-### <a name="approval-procedures" />Approval procedures
+### <a name="approval-procedures"></a>Approval procedures
 
 Your company can use the release procedure to indicate that another user has approved the document or that an external contact can meet the specifications of the document, as shown in these examples:
 
@@ -36,11 +36,11 @@ Your company can use the release procedure to indicate that another user has app
 
 Learn more about approval workflows at [Use Workflows](across-use-workflows.md).
 
-### <a name="warehouse-activities" />Warehouse activities
+### <a name="warehouse-activities"></a>Warehouse activities
 
 If the order status is **Open**, the warehouse won't begin to prepare the shipment, and doesn't expect to receive the items on a purchase order. When you release the order, you indicate that the order is complete, and that the warehouse can include it in its activities.
 
-## <a name="reopen-a-released-order" />Reopen a released order
+## <a name="reopen-a-released-order"></a>Reopen a released order
 
 You can make changes to a released order by reopening it. However, you can only increase the quantity of the lines already processed by the warehouse.
 
@@ -51,7 +51,7 @@ If you make changes to a released order, you must notify the warehouse about the
 > [!NOTE]
 > If you want to post a single open order or credit memo without releasing it first, [!INCLUDE [prod_short](includes/prod_short.md)] will automatically release the document when you post it. If you post your orders or credit memos by using the **Post Batch** function, you can choose to post only the orders or credit memos that you've released.
 
-## <a name="see-also" />See also
+## <a name="see-also"></a>See also
 
 [Sell Products with a Customer Sales Order](sales-how-sell-products.md)  
 [Record Purchases with Purchase Invoices](purchasing-how-record-purchases.md)  

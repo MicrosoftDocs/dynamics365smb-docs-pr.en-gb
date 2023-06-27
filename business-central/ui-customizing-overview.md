@@ -11,7 +11,7 @@ ms.search.form: '2500, 2502'
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# <a name="customize-business-central" />Customise Business Central
+# <a name="customize-business-central"></a>Customise Business Central
 
 There are different ways to customise the application to give you and your colleagues access to the features, functionality, and data that you need most, in a manner that bests suits your daily work. Those who see the changes will depend on what you do, as described in this table.
 
@@ -28,9 +28,9 @@ There are different ways to customise the application to give you and your colle
 > [!NOTE]
 > All feature descriptions in user documentation for [!INCLUDE[prod_short](includes/prod_short.md)] assume the **Premium** experience, meaning the descriptions cover the full scope of UI elements. Therefore, users with the **Essential** experience may in some topics read about functionality and UI elements that are not visible in their user interface. For more information, see [Change Which Features are Displayed](ui-experiences.md).
 
-## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/paths/tailor-roles-design-ui/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/tailor-roles-design-ui/)
 
-## <a name="see-also" />See also
+## <a name="see-also"></a>See also
 
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

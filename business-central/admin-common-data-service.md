@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 06/14/2021
 ---
 
-# <a name="integrating-with-microsoft-dataverse" />Integrating with Microsoft Dataverse
+# <a name="integrating-with-microsoft-dataverse"></a>Integrating with Microsoft Dataverse
 
 Business apps often use data from more than one source. [!INCLUDE[prod_short](includes/cds_long_md.md)] combines data into a single set of logic that makes it easier to connect other Dynamics 365 applications, such as [!INCLUDE[crm_md](includes/crm_md.md)] or your own application built on top of [!INCLUDE[prod_short](includes/cds_long_md.md)], to [!INCLUDE[prod_short_md](includes/prod_short.md)]. For more information about [!INCLUDE[prod_short](includes/cds_long_md.md)], see [What is Dataverse?](/powerapps/maker/common-data-service/data-platform-intro)
 
@@ -24,19 +24,19 @@ The following steps provide an overview of the steps to integrate [!INCLUDE[prod
 
 3. Synchronise data between the apps. For more information, see [Synchronising Business Central and Dataverse](admin-synchronizing-business-central-and-sales.md). 
 
-## <a name="getting-started-with-" />Getting Started with [!INCLUDE[prod_short](includes/cds_long_md.md)]
+## <a name="getting-started-with-"></a>Getting Started with [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 To get started with [!INCLUDE[prod_short](includes/cds_long_md.md)] you will need a Microsoft Power Apps account. If you do not already have a Power Apps account, you can get one for free by visiting [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) and choosing the **Get started free** link. To learn more about how to get started with [!INCLUDE[prod_short](includes/cds_long_md.md)], see the [Get started with Dataverse](/training/modules/get-started-with-powerapps-common-data-service/) module from Microsoft training.
 
-## <a name="bi-directional-or-uni-directional-data-synchronization" />Bi-Directional or Uni-directional Data Synchronisation
+## <a name="bi-directional-or-uni-directional-data-synchronization"></a>Bi-Directional or Uni-directional Data Synchronisation
 
 Depending on your business needs, you can set up the integration to synchronise data either to or from one Dynamics 365 business app to another, or in both directions in near-real time through [!INCLUDE[prod_short](includes/cds_long_md.md)]. For example, if you integrate [!INCLUDE[prod_short](includes/prod_short.md)] with [!INCLUDE[crm_md](includes/crm_md.md)] through [!INCLUDE[prod_short](includes/cds_long_md.md)], a salesperson can create a sales order in [!INCLUDE[crm_md](includes/crm_md.md)] and the order will be synchronised to [!INCLUDE[prod_short](includes/prod_short.md)]. Conversely, from [!INCLUDE[crm_md](includes/crm_md.md)], the salesperson can view information from [!INCLUDE[prod_short](includes/prod_short.md)] about the availability of the item on the order. 
 
-## <a name="standard-and-custom-entities" />Standard and Custom Entities
+## <a name="standard-and-custom-entities"></a>Standard and Custom Entities
 
 [!INCLUDE[prod_short](includes/cds_long_md.md)] securely stores data in a set of tables, which are sets of records similar to how a table stores data within a database. [!INCLUDE[prod_short](includes/cds_long_md.md)] includes a base set of standard tables that cover typical scenarios, but you can also create custom tables specific to your organisation. In [!INCLUDE[prod_short](includes/prod_short.md)], you can view standard and custom tables being synchronised on the Integration Table Mappings page.
 
-## <a name="about-the-business-central-base-integration-solution" />About the Business Central Base Integration Solution
+## <a name="about-the-business-central-base-integration-solution"></a>About the Business Central Base Integration Solution
 
 The Base Integration Solution is a key component of the integration. The solution adds the required roles and access levels to the user accounts for the integration, and it creates tables needed to map [!INCLUDE[prod_short](includes/prod_short.md)] company to business unit in [!INCLUDE[prod_short](includes/cds_long_md.md)]. 
 
@@ -57,9 +57,9 @@ For details about each role, such as the permissions and access levels, see [Set
 
 During connection setup, integration table mappings that are needed to synchronise data, are created. Entities in [!INCLUDE[prod_short](includes/cds_long_md.md)] are mapped to tables and table fields in Business Central through integration tables. For more information, see [Standard Entity Mapping for Synchronisation](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
-## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/use-model-driven-apps-common-data-service/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/use-model-driven-apps-common-data-service/)
 
-## <a name="see-also" />See also
+## <a name="see-also"></a>See also
 
 [Data Ownership Models](admin-cds-company-concept.md)  
 <!--needs to be removed as this is moved to dev-itpro docs[Walkthrough: Customizing an Integration with Dataverse](\dynamics365\business-central\dev-itpro\administration\administration-custom-cds-integration) -->

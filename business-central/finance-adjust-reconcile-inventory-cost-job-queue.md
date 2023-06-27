@@ -11,11 +11,11 @@ ms.search.form: 461
 ms.date: 09/23/2021
 ms.author: andreipa
 ---
-# <a name="schedule-jobs-for-adjusting-and-reconciling-inventory-cost-with-the-general-ledger" />Schedule Jobs for Adjusting and Reconciling Inventory Cost with the General Ledger
+# <a name="schedule-jobs-for-adjusting-and-reconciling-inventory-cost-with-the-general-ledger"></a>Schedule Jobs for Adjusting and Reconciling Inventory Cost with the General Ledger
 
 To optimise the experience, automatic cost adjustment and posting to the general ledger are turned on by default. However, as data accumulates over time, that might impact performance. To reduce the load on the application, it is often helpful to use job queue entries to move tasks to run in the background.
 
-## <a name="move-the-task-of-adjusting-item-costs-to-the-background-with-the-help-of-assisted-setup" />Move the task of adjusting item costs to the background with the help of assisted setup
+## <a name="move-the-task-of-adjusting-item-costs-to-the-background-with-the-help-of-assisted-setup"></a>Move the task of adjusting item costs to the background with the help of assisted setup
 
 Creating the job queue entries can be tricky, even for an experienced consultant, so we have an assisted setup guide to make the process easier for adjusting item costs.  
 
@@ -29,7 +29,7 @@ Creating the job queue entries can be tricky, even for an experienced consultant
 
 5. Select the **View job queue entries when finished** field to review and adjust settings. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).  
 
-## <a name="to-create-a-job-queue-entry-for-adjusting-and-reconciling-inventory-cost-manually" />To create a job queue entry for adjusting and reconciling inventory cost manually
+## <a name="to-create-a-job-queue-entry-for-adjusting-and-reconciling-inventory-cost-manually"></a>To create a job queue entry for adjusting and reconciling inventory cost manually
 
 Alternatively, you can create job queue entries manually. The following procedure shows how to set the **Adjust Cost - Item Entries** batch job to automatically run daily, but the same steps apply to the **Post Inventory Cost to G/L** batch job.  
 
@@ -48,7 +48,7 @@ To schedule a task for reconciling inventory with the general ledger, choose Cod
 > [!TIP]
 > To avoid locking, do not schedule tasks for the **Adjust Cost - Item Entries** batch job, the **Post Inventory Cost to G/L** codeunit, and tasks for posting sales or purchasing transactions at the same time. Also, make sure that they use same job queue category.
 
-## <a name="see-also" />See Also
+## <a name="see-also"></a>See Also
 
 [Adjust Item Costs](inventory-how-adjust-item-costs.md)  
 [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  

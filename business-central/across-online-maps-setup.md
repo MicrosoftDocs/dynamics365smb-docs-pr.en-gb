@@ -8,17 +8,17 @@ ms.search.form: '800, 804'
 ms.date: 07/15/2022
 ms.author: a-reishima
 ---
-# <a name="set-up-online-maps" />Set Up Online Maps
+# <a name="set-up-online-maps"></a>Set Up Online Maps
 
 When you plan a visit to an address saved on a card, such as a customer, you can get a map from an online service with route directions described in the language you select. To make sure this online map service finds the right map and directions, you need to set it up in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="set-up-the-online-map-feature" />Set up the online map feature
+## <a name="set-up-the-online-map-feature"></a>Set up the online map feature
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Online Map Setup**,  then choose the related link.
 2. On the **Online Map Setup** page, fill in the fields. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 3. Turn on the **Enabled** toggle.
 
-### <a name="customize-the-online-map-provider-features" />Customise the online map provider features
+### <a name="customize-the-online-map-provider-features"></a>Customise the online map provider features
 
 To customise the online map feature beyond the options listed on the **Online Map Setup** page, or to use a different map provider, follow these steps:
 
@@ -27,7 +27,7 @@ To customise the online map feature beyond the options listed on the **Online Ma
 3. Fill in the fields to customise how [!INCLUDE[prod_short](includes/prod_short.md)] will generate the URLs for the available services. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
    * Refer to the **Online Map Substitution Parameter** list on the **FactBox** pane for the data available to generate URLs.
 
-## <a name="see-also" />See also
+## <a name="see-also"></a>See also
 
 [Use Online Maps to Find Locations and Directions](across-online-maps.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  

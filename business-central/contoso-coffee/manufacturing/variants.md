@@ -8,15 +8,15 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="walkthrough-variants" />Walkthrough: Variants
+# <a name="walkthrough-variants"></a>Walkthrough: Variants
 
 In this article, we take you through the steps to use the Contoso Coffee demo data to learn about variants.
 
-## <a name="scenario" />Scenario
+## <a name="scenario"></a>Scenario
 
 You are the production planner at Contoso Coffee. You must update the demand forecast for each variant of item SP-SCM1006, AutoDripLite. Since they have different colours, you must make sure that the right bill of material (BOM) is used for each variant. Run the planning worksheet to calculate supply.  
 
-## <a name="steps" />Steps
+## <a name="steps"></a>Steps
 
 1. Set up the stockkeeping units for item SP-SCM1006, AutoDripLite. Assign a BOM for SKU with the variants RED and WHITE.
 
@@ -98,6 +98,6 @@ You are the production planner at Contoso Coffee. You must update the demand for
 
     9. For each created line, choose the **Components** action and review which paint is used.  
 
-## <a name="see-also" />See also
+## <a name="see-also"></a>See also
 
 [Introduction to Contoso Coffee Demo Data](../contoso-coffee-intro.md)  

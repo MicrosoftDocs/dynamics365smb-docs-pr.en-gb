@@ -10,11 +10,11 @@ ms.author: andreipa
 ms.reviewer: bholtorf
 ---
 
-# <a name="synchronize-and-fulfill-sales-orders" />Synchronise and Fulfil Sales Orders
+# <a name="synchronize-and-fulfill-sales-orders"></a>Synchronise and Fulfil Sales Orders
 
 This article describes the necessary settings and steps that you must complete to synchronise and fulfil sales orders with Shopify in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## <a name="set-the-import-of-orders-on-the-shopify-shop-card" />Set the import of orders on the Shopify Shop Card
+## <a name="set-the-import-of-orders-on-the-shopify-shop-card"></a>Set the import of orders on the Shopify Shop Card
 
 Enter a **currency code** if your online shop uses a different currency than the local currency (LCY). The specified currency must have exchange rates configured. If your online shop uses the same currency as [!INCLUDE[prod_short](../includes/prod_short.md)], leave the field empty. 
 
@@ -47,7 +47,7 @@ Specify a location for returns, and G/L accounts for refunds for goods and other
 
 Learn more at [Returns and refunds](synchronize-orders.md#returns-and-refunds)
 
-### <a name="shipment-method-mapping" />Shipment method mapping
+### <a name="shipment-method-mapping"></a>Shipment method mapping
 
 The **Shipment method code** for sales documents imported from Shopify can be filled in automatically. You need to configure the **Shipment Method Mapping**.
 
@@ -60,7 +60,7 @@ The **Shipment method code** for sales documents imported from Shopify can be fi
 > [!NOTE]  
 > If multiple shipping charges are associated with a sales order, only one will be selected as the shipping method and assigned to the sales document.
 
-### <a name="location-mapping" />Location mapping
+### <a name="location-mapping"></a>Location mapping
 
 The location mapping is required for three purposes:
 
@@ -74,7 +74,7 @@ The location mapping is required for three purposes:
 4. Choose the **Get Shopify Locations** action to import all the locations defined in Shopify. You can find them in the [**Locations**](https://www.shopify.com/admin/settings/locations) settings in your **Shopify admin** panel. Note that the location marked as *Default* will be used when importing unfulfilled Shopify orders.
 5. Enter the **Default Location Code** with the corresponding location in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## <a name="run-the-order-synchronization" />Run the order synchronisation
+## <a name="run-the-order-synchronization"></a>Run the order synchronisation
 
 The following procedure describes how to import and update the sales orders.
 
@@ -96,18 +96,18 @@ Alternatively, you can search for the **Sync Orders From Shopify** batch job.
 
 You can schedule the task to be performed automatically. Learn more at [Schedule recurring tasks](background.md#to-schedule-recurring-tasks).
 
-## <a name="review-imported-orders" />Review imported orders
+## <a name="review-imported-orders"></a>Review imported orders
 
 Once the import is completed, you can explore the Shopify order and find all related information, such as the payment transactions, shipping costs, risk level, order attributes and tags, or fulfillments, if the order was already fulfilled in Shopify. You can also see any order confirmation that has been sent to the customer by choosing the **Shopify Status Page** action.
 
 > [!NOTE]  
 > You can navigate to the **Shopify Orders** window directly and you'll see orders with the *open* status from all shops. To review completed orders, you need to open the **Shopify Orders** page from the specific **Shopify Shop Card** window.
 
-## <a name="create-sales-documents-in-business-central" />Create sales documents in Business Central
+## <a name="create-sales-documents-in-business-central"></a>Create sales documents in Business Central
 
 If the **Auto Create Orders** toggle is enabled on the **Shopify Shop Card**, [!INCLUDE[prod_short](../includes/prod_short.md)] tries to create a sales document after the order is imported. If issues such as a missing customer or product occur, you'll need to fix the problems and then create the sales order again.
 
-### <a name="to-create-sales-documents" />To create sales documents
+### <a name="to-create-sales-documents"></a>To create sales documents
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, then choose the related link.
 2. Select the shop for which you want to synchronise orders to open the **Shopify Shop Card** page.
@@ -119,7 +119,7 @@ If the Shopify order requires fulfillment, a **Sales Order** is created. For ful
 
 A sales document is now created and can be managed by using standard [!INCLUDE[prod_short](../includes/prod_short.md)] functionality.
 
-### <a name="manage-missing-customers" />Manage missing customers
+### <a name="manage-missing-customers"></a>Manage missing customers
 
 If your settings prevent creating a customer automatically and a proper existing customer can't be found, you'll need to assign a customer to the Shopify order manually. There are a few ways to do this:
 
@@ -127,7 +127,7 @@ If your settings prevent creating a customer automatically and a proper existing
 * You can select a customer template code, then create, and assign the customer via the **Create new customer** action on the **Shopify Orders** page. Notice that the Shopify customer must have at least one address. Orders created via Shopify POS sales channel are often missing address details.
 * You can map an existing customer to the related **Shopify Customer** in the **Shopify Customers** window and then choose the **Find Mapping** action on the **Shopify Orders** page.
 
-### <a name="how-the-connector-chooses-which-customer-to-use" />How the connector chooses which customer to use
+### <a name="how-the-connector-chooses-which-customer-to-use"></a>How the connector chooses which customer to use
 
 The *Import order from Shopify* function tries to select customers in the following order:
 
@@ -143,7 +143,7 @@ The next steps depend on the **Customer Mapping Type**.
 > [!NOTE]  
 > The connector uses information from the bill-to address and creates the bill-to customer in [!INCLUDE[prod_short](../includes/prod_short.md)]. The sell-to customer is the same as the bill-to customer.
 
-### <a name="different-processing-rules-for-orders" />Different processing rules for orders
+### <a name="different-processing-rules-for-orders"></a>Different processing rules for orders
 
 You might want to process orders differently based on a rule. For example, orders from a specific sales channel, like POS, should use the default customer, but you want your online store to have real information about the customer.
 
@@ -164,7 +164,7 @@ Each job queue will import and process orders within the defined filters and use
 
 >![Important] To avoid conflicts when processing orders, remember to use the same job queue category for both job queue entries.
 
-### <a name="impact-of-order-editing" />Impact of order editing
+### <a name="impact-of-order-editing"></a>Impact of order editing
 
 In Shopify:
 
@@ -188,7 +188,7 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)]:
 |Increase quantity. Post shipment. | The fulfillment won't be synchronised with Shopify. |
 |Add a new item. Post shipment. | The Shopify order will be marked as fulfilled. Lines won't be updated. |
 
-## <a name="synchronize-shipments-to-shopify" />Synchronise shipments to Shopify
+## <a name="synchronize-shipments-to-shopify"></a>Synchronise shipments to Shopify
 
 When a sales order created from a Shopify order is shipped, you can synchronise the shipments with Shopify.
 
@@ -207,7 +207,7 @@ You can schedule the task to be performed in an automated manner. Learn more at 
 
 Remember to run **Synchronise Orders from Shopify** to update the fulfillment status of an order in [!INCLUDE[prod_short](../includes/prod_short.md)]. The connector functionality also archives completely paid and fulfilled orders in both Shopify and [!INCLUDE[prod_short](../includes/prod_short.md)] provided the conditions are met.
 
-### <a name="shipping-agents-and-tracking-url" />Shipping agents and tracking URL
+### <a name="shipping-agents-and-tracking-url"></a>Shipping agents and tracking URL
 
 If the **Posted Sales Shipment** document contains the **Shipping Agent Code** and/or **Package Tracking No.**, this information will be sent to Shopify and to the customer in the shipping confirmation email.
 
@@ -219,7 +219,7 @@ The tracking company is populated in the following order (from highest to lowest
 
 If the **Package Tracking URL** field is filled in for the shipping agent record, then the shipping confirmation will contain a tracking URL as well.
 
-## <a name="returns-and-refunds" />Returns and refunds
+## <a name="returns-and-refunds"></a>Returns and refunds
 
 In an integration between Shopify and [!INCLUDE[prod_short](../includes/prod_short.md)], it's important to be able to synchronise as much business data as possible. That makes it easier to keep your finance and inventory levels up to date in [!INCLUDE[prod_short](../includes/prod_short.md)]. The data you can synchronise includes returns and refunds that were recorded in Shopify Admin or Shopify POS.
 
@@ -240,7 +240,7 @@ You can create sales credit memos for refunds. The credit memos can have the fol
 >[!Note]
 >The return location, including blank locations, defined in the **Shopify Shop Card** are used on the created credit memo. The system ignores the original locations from orders or shipments.
 
-## <a name="gift-cards" />Gift cards
+## <a name="gift-cards"></a>Gift cards
 
 In the Shopify shop you can sell gift cards, which can be used to pay for real products.
 
@@ -248,6 +248,6 @@ When dealing with gift cards, it's important to enter a value in the **Sold Gift
 
 To review the issued and applied gift cards, choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Gift Cards**, then choose the related link.
 
-## <a name="see-also" />See also
+## <a name="see-also"></a>See also
 
 [Get Started with the Connector for Shopify](get-started.md)  

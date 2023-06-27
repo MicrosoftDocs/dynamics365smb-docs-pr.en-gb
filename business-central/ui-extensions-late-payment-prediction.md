@@ -11,11 +11,11 @@ ms.search.form: '1950, 1951,'
 ms.date: 12/20/2021
 ms.author: bholtorf
 ---
-# <a name="the-late-payment-prediction-extension" />The Late Payment Prediction Extension
+# <a name="the-late-payment-prediction-extension"></a>The Late Payment Prediction Extension
 
 Effectively managing receivables is important to the overall financial health of a business. The Late Payment Prediction extension can help you reduce outstanding receivables and fine-tune your collections strategy by predicting whether sales invoices will be paid on time. For example, if a payment is predicted to be late, you might decide to adjust the terms of payment or the payment method for the customer.
 
-## <a name="getting-started" />Getting started
+## <a name="getting-started"></a>Getting started
 
 When you open a posted sales document, a notification will display at the top of the page. To use the Late Payment Prediction Extension you can opt in by choosing **Enable** in the notification. Alternatively, you can set up the extension manually. For example, if you regret dismissing the notification.  
 
@@ -27,7 +27,7 @@ To enable the extension manually, follow these steps:
 > [!NOTE]
 > If you decide to enable the extension manually, be aware that [!INCLUDE[prod_short](includes/prod_short.md)] will not allow you to do so if the quality of the model is low. The quality of the model indicates how accurate the model's predictions are likely to be. Several factors can impact the quality of a model. For example, there might not have been enough data, or the data did not contain enough variation. You can view the quality of the model you are currently using on the **Late Payment Prediction Setup** page. You can also specify a minimum threshold for the model quality.   
 
-## <a name="viewing-all-payment-predictions" />Viewing all payment predictions
+## <a name="viewing-all-payment-predictions"></a>Viewing all payment predictions
 
 If you enable the extension a **Payments Predicted to be Late** tile is available in the **Business Manager** Role Centre. The tile displays the number of payments that are predicted to be late, and let's you open the **Customer Ledger Entries** page where you can dig deeper into the posted invoices. There are three columns to pay attention to:  
 
@@ -38,14 +38,14 @@ If you enable the extension a **Payments Predicted to be Late** tile is availabl
 > [!TIP]
 > The Customer Ledger Entries page also shows a FactBox on the right. While you are reviewing predictions, the information in the **Customer Details** section can be helpful. When you choose the invoice in the list, the section shows information about the customer. It also lets you take immediate action. For example, if a customer frequently misplaces their wallet, you can open the Customer card from the FactBox and block the customer for future sales.  
 
-## <a name="viewing-a-payment-prediction-for-a-specific-sales-document" />Viewing a payment prediction for a specific sales document
+## <a name="viewing-a-payment-prediction-for-a-specific-sales-document"></a>Viewing a payment prediction for a specific sales document
 
 You can also predict late payments up-front. On the **Sales Quotes**, **Sales Orders**, and **Sales Invoices** pages, you can use the **Predict Payment** action to generate a prediction for the sales document you're viewing.
 
 <!--## Scheduling Payment Predictions
 On the **Late Payment Prediction Setup** page you can schedule updates to payment predictions for a time that is convenient for you. -->
 
-## <a name="design-details" />Design details
+## <a name="design-details"></a>Design details
 
 Microsoft deploys and operates number of predictive web services in all regions where [!INCLUDE[prod_short](includes/prod_short.md)] is available. Access to these web services is included in your [!INCLUDE[prod_short](includes/prod_short.md)] subscription. For more information, see the Microsoft Dynamics 365 Business Central Licensing Guide. The guide is available for download on the [Business Central](https://dynamics.microsoft.com/business-central/overview/) website.
 
@@ -60,7 +60,7 @@ These web-services are stateless, meaning they use data only to calculate predic
 > [!NOTE]  
 > You can use your own predictive web service instead of ours. For more information, see [Create and use your own predictive web service late payment prediction](#AnchorText).
 
-### <a name="data-required-to-train-and-evaluate-the-model" />Data required to train and evaluate the model
+### <a name="data-required-to-train-and-evaluate-the-model"></a>Data required to train and evaluate the model
 
 For each **Customer ledger entry** that has a related **Posted Sales Invoice**:
 
@@ -83,7 +83,7 @@ Additionally, the record is enriched with aggregated data from other invoices th
 > [!NOTE]
 > The information about the customer is not included in the dataset.
 
-### <a name="standard-model-and-my-model" />Standard model and My model
+### <a name="standard-model-and-my-model"></a>Standard model and My model
 
 The Late Payment Prediction extension contains a predictive model that is trained using data that is representative of a range of small to medium-sized businesses. When you start posting invoices and receiving payments, [!INCLUDE[prod_short](includes/prod_short.md)] will evaluate whether the standard model fits your business flow. 
 
@@ -93,13 +93,13 @@ If it appears that your processes do not match the standard model, you still can
 
 [!INCLUDE[prod_short](includes/prod_short.md)] runs training and evaluation automalically when there are enough paid and late invoices are available, however you can run it manually whenever you want.
 
-#### <a name="to-train-and-use-your-model" />To train and use your model
+#### <a name="to-train-and-use-your-model"></a>To train and use your model
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Late Payment Prediction Setup**, and then choose the related link.  
 2. In the **Selected Model** field, choose **My Model**.
 3. Choose the **Create My Model** action, to train model on your data.  
 
-## <a name="a-nameanchortext-acreate-and-use-your-own-predictive-web-service-for-late-payment-prediction" /><a name="AnchorText"> </a>Create and use your own predictive web service for late payment prediction
+## <a name="a-nameanchortext-acreate-and-use-your-own-predictive-web-service-for-late-payment-prediction"></a><a name="AnchorText"> </a>Create and use your own predictive web service for late payment prediction
 
 You can also create your own predictive web service based on a public model named **Prediction Experiment for Dynamics 365 Business Central**. This predictive model is available online in the Azure AI Gallery. To use the model, follow these steps:  
 
@@ -112,9 +112,9 @@ You can also create your own predictive web service based on a public model name
 7. Choose the **Use My Azure Subscription** check box.
 8. On the **My Model Credentials** FastTab, enter the API URL and API key for your model.  .  
 
-## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/predict-late-payments-sales-documents/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/predict-late-payments-sales-documents/)
 
-## <a name="see-also" />See also
+## <a name="see-also"></a>See also
 
 [Azure Machine Learning Studio Documentation](/azure/machine-learning/classic/)  
 [Customising Business Central Using Extensions](ui-extensions.md)  

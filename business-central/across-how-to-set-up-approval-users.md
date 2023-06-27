@@ -10,7 +10,7 @@ ms.search.form: '663,'
 ms.date: 05/31/2023
 ms.author: bholtorf
 ---
-# <a name="set-up-approval-users" />Set Up Approval Users
+# <a name="set-up-approval-users"></a>Set Up Approval Users
 
 Before you can create workflows that involve approval steps, you must set up the users who are involved in approval processes on the **Approval User Setup** page. You can also set amount limits for different types of requests, define substitute approvers, and set up notifications.  
 
@@ -19,7 +19,7 @@ After you set up approval users, you can create workflow responses for approval 
 > [!TIP]
 > You can require that multiple approvers react to an approval request by creating a group of approvers on the **Workflow User Group** page. Learn more at [Set Up Workflow User Groups](across-how-to-set-up-workflow-users.md).  
 
-## <a name="to-set-up-an-approval-user" />To set up an approval user
+## <a name="to-set-up-an-approval-user"></a>To set up an approval user
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
@@ -46,9 +46,9 @@ After you set up approval users, you can create workflow responses for approval 
 
 The next step is to specify how you want [!INCLUDE [prod_short](includes/prod_short.md)] to notify people that a request is pending their attention. Learn more at [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md).
 
-## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-workflows/)
 
-## <a name="see-also" />See also
+## <a name="see-also"></a>See also
 
 [Set Up Workflow Users](across-how-to-set-up-workflow-users.md)  
 [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)  

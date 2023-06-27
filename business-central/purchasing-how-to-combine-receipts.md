@@ -11,7 +11,7 @@ ms.search.form: '136, 145, 146, 9308'
 ms.date: 08/03/2022
 ms.author: edupont
 ---
-# <a name="combine-receipts-on-a-single-invoice" />Combine Receipts on a Single Invoice
+# <a name="combine-receipts-on-a-single-invoice"></a>Combine Receipts on a Single Invoice
 
 If you want to invoice more than one purchase receipt at a time, you can select multiple receipt lines on the purchase invoice.  
 
@@ -22,7 +22,7 @@ When purchase receipts are combined on an invoice and posted, then a posted purc
 > [!NOTE]
 > The resulting purchase invoice cannot later be corrected or cancelled. If you want to modify a purchase invoice that is created in this way, you must use purchase credit memos. For more information, see [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
 
-## <a name="to-combine-receipts" />To combine receipts
+## <a name="to-combine-receipts"></a>To combine receipts
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
 2. Choose the **New** action. For more information, see [Record Purchases](purchasing-how-record-purchases.md).  
@@ -32,7 +32,7 @@ When purchase receipts are combined on an invoice and posted, then a posted purc
     If an incorrect receipt line was selected or you want to start over, you can just delete the lines on the purchase invoice and then use the **Get Receipt Lines** function again.  
 5. To post the invoice, choose the **Post** action.  
 
-## <a name="to-remove-open-purchase-orders-after-combined-receipt-posting" />To remove open purchase orders after combined receipt posting
+## <a name="to-remove-open-purchase-orders-after-combined-receipt-posting"></a>To remove open purchase orders after combined receipt posting
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Invoiced Purchase Orders**, and select the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
@@ -42,9 +42,9 @@ Alternatively, delete the individual orders manually.
 
 Repeat steps 1 through 3 for any other affected documents, such as blanket purchase orders.
 
-## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/processing-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/processing-invoices-dynamics-365-business-central/)
 
-## <a name="see-also" />See also
+## <a name="see-also"></a>See also
 
 [Purchasing](purchasing-manage-purchasing.md)  
 [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  

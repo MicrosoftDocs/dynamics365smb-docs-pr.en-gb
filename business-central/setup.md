@@ -10,7 +10,7 @@ ms.search.keywords: 'configure, initialize'
 ms.date: 09/27/2022
 ms.author: edupont
 ---
-# <a name="overview-of-tasks-to-set-up-" />Overview of Tasks to Set Up [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="overview-of-tasks-to-set-up-"></a>Overview of Tasks to Set Up [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] includes standard configurations for most business processes, but you can change the configuration to suit the needs of your organisation. The [Business Central quick start](quick-start-business-central.md) articles help you take the first steps into making [!INCLUDE [prod_short](includes/prod_short.md)] your own. This article provides an overview of how you can configure [!INCLUDE [prod_short](includes/prod_short.md)] for your organisation.
 
@@ -55,13 +55,13 @@ Some areas require you to be an administrator in your [!INCLUDE[prod_short](incl
 > [!NOTE]
 > As an administrator, you can set up a new company in [!INCLUDE[prod_short](includes/prod_short.md)] with RapidStart Services, which is a tool designed to shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring tasks. Learn more at [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
-## <a name="set-up-apps" />Set up apps
+## <a name="set-up-apps"></a>Set up apps
 
 On top of the core capabilities in [!INCLUDE [prod_short](includes/prod_short.md)], Microsoft adds some aps that are listed in [the **Extension Management** page](https://businesscentral.dynamics.com/?page=2500). Starting in October 2022, each app provides a link to launch its setup page - just choose the **Set up** action.  
 
 You can also add capabilities to your [!INCLUDE [prod_short](includes/prod_short.md)] by adding AppSource apps. Learn more at [Customising Business Central Online Using Extensions](ui-extensions.md).  
 
-## <a name="see-also" />See also
+## <a name="see-also"></a>See also
 
 [Company Information Overview](admin-company-information.md)  
 [Administration](admin-setup-and-administration.md)  

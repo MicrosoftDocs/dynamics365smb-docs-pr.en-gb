@@ -10,7 +10,7 @@ ms.search.form: '99000768, 99000779, 99000780, 99000866'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="setting-up-manufacturing" />Setting Up Manufacturing
+# <a name="setting-up-manufacturing"></a>Setting Up Manufacturing
 
 To convert material into produced end items, production resources, such as bills of material, routings, machine operators, and machinery must be set up in the system.
 
@@ -33,7 +33,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Use standard tasks to simplify the creation of routings by quickly attaching extra information to recurring operations.|[Set Up Standard Routing Lines](production-how-set-up-standard-routing-lines.md)|  
 |Prepare work centres and routings to represent subcontracted production operations.|[Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)|  
 
-## <a name="see-also" />See also
+## <a name="see-also"></a>See also
 
 [Manufacturing](production-manage-manufacturing.md)  
 [Planning](production-planning.md)  

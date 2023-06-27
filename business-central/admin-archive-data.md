@@ -10,13 +10,13 @@ ms.custom: bap-template
 ms.search.form: 630
 ---
 
-# <a name="the-data-archive-extension" />The Data Archive Extension
+# <a name="the-data-archive-extension"></a>The Data Archive Extension
 
 Over time, your business will accumulate a substantial amount of data, and as an administrator, it's probably a good idea to have a strategy for archiving data. Having lots of data can slow things down, for example, it might take slightly longer to generate reports, or even lock records. Additionally, large amounts of data can lead to increased storage costs.
 
 The Data Archive extension provides a basic framework for archiving and backing up data as part of date compression. Date compression consolidates related entries into a single entry and deletes the originals. Learn more at [Compress Data with Date Compression](admin-manage-documents.md#compress-data-with-date-compression). However, there might be value in keeping that data, so rather than deleting it, you can archive it for later use.
 
-## <a name="start-archiving-data" />Start Archiving Data
+## <a name="start-archiving-data"></a>Start Archiving Data
 
 The extension is pre-installed and available on the **Extension Management**, so you don't need to do anything to get started. The extension is also available on AppSource.
 
@@ -50,10 +50,10 @@ The Data Archive extension is used by the following batch jobs for date compress
 
 To start archiving data when you run one of the batch jobs, turn on the **Archive Deleted Entries** toggle.
 
-## <a name="storage-considerations" />Storage Considerations
+## <a name="storage-considerations"></a>Storage Considerations
 
 The archived data is stored in the **Tenant Media** table. We recommend that you export old archives to, for example, a CSV file and then delete the old archive records.
 
-## <a name="see-also" />See Also
+## <a name="see-also"></a>See Also
 
 [Manage Storage by Deleting Documents or Compressing Data](admin-manage-documents.md)

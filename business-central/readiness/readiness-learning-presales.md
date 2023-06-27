@@ -7,13 +7,13 @@ ms.topic: conceptual
 ms.author: margoc
 ---
 
-# <a name="partner-pre-sales-learning-catalog" />Partner Pre-Sales Learning Catalogue
+# <a name="partner-pre-sales-learning-catalog"></a>Partner Pre-Sales Learning Catalogue
 
 Are you responsible for demonstrating key features to customers? 
 
 The following catalogue is organised from core knowledge to specific domains, and from most basic to most advanced. If content exists in multiple formats, we'll let you know, so that you can choose the training format that best meets your needs. 
 
-## <a name="get-started" />Get Started<a name="get-started"></a>
+## <a name="get-started"></a>Get Started<a name="get-started"></a>
 
 | Content                                                                                                                              | Description                                                                                                                                                                                                                                                                                      | Format                                | Length             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
@@ -23,21 +23,21 @@ The following catalogue is organised from core knowledge to specific domains, an
 | [Business Central YouTube playlist](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)                                                                | YouTube landing page for Dynamics 365 Business Central videos | YouTube Videos |                    |
 | [Explore Dynamics 365 Business Central Capabilities](https://dynamics.microsoft.com/business-central/capabilities/)                                                    | Explore Dynamics 365 Business Central Capabilities                                                                                                                                                                                                                                               | Website                               |                    |
 
-## <a name="grow-your-business" />Grow Your Business<a name="grow"></a>
+## <a name="grow-your-business"></a>Grow Your Business<a name="grow"></a>
 
 | Content                                                                                                                                | Description                                                                                                                                                                                                                                                                                      | Format                                | Length                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Dynamics 365 Business Central - Compelling Prospect Conversations (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761) | Errol Schoenfish, Director of Product Marketing talks about how to have compelling conversations with prospects on Microsoft Dynamics 365 Business Central. | Video | 11 minutes 16 seconds |
 | [Dynamics 365 Business Central - How to Make it Real](https://mbspartner.microsoft.com/D365/Videos/101787) | Errol Schoenfish, Director of Product Marketing talks about how to get started enabling demos for Microsoft Dynamics 365 Business Central. | Video | 12 minutes 29 seconds |
 
-## <a name="business-value" />Business Value<a name="busvalue"></a>
+## <a name="business-value"></a>Business Value<a name="busvalue"></a>
 
 | Content                                                                                                                                | Description                                                                                                                                                                                                                                                                                      | Format                                | Length                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Explore Dynamics 365 Business Central Capabilities](https://dynamics.microsoft.com/business-central/capabilities/) | Explore Dynamics 365 Business Central Capabilities | Website |                     |
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/) | This module shows application features, benefits, and examples of Dynamics 365 Business Central in action. | Free, self-paced online learning path | 24 minutes          |
 
-## <a name="whats-new" />What's New<a name="whatsnew"></a>
+## <a name="whats-new"></a>What's New<a name="whatsnew"></a>
 
 | Content                                                                                                                                | Description                                 | Format                                | Length                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|

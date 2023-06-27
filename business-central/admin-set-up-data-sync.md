@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.search.form: '7230, 7233, 5338, 7236, 672, 7234'
 ---
 
-# <a name="get-ready-to-synchronize-master-data" />Get Ready to Synchronise Master Data
+# <a name="get-ready-to-synchronize-master-data"></a>Get Ready to Synchronise Master Data
 
 When two or more companies use some of the same master data, you can synchronise the data rather than add it manually in each company. For example, synchronising data is useful when you're setting up new subsidiary companies.
 
@@ -25,14 +25,14 @@ Master data includes settings and non-transactional information about business e
 
 You set up synchronisation in the subsidiary companies. Using a pull model, subsidiaries pull the data from the source company that they need to do business with them. After you set up synchronisation and synchronise data for the first time, you're all set. Job queue entries update coupled records in the subsidiaries when someone changes data in the source company.
 
-## <a name="uni-directional-synchronization-only" />Uni-directional synchronisation only
+## <a name="uni-directional-synchronization-only"></a>Uni-directional synchronisation only
 
 You can synchronise data only from the source company to the subsidiary companies in a pull fashion. Subsidiaries can't push data to the source company.
 
 > [!NOTE]
 > Although it's possible, we don't recommend that you set up bi-directional synchronisation. That is, synchronising data from the source company to the subsidiaries, and from the subsidiaries to the source company. Synchronising data in both directions can lead to conflicts or unwanted overwrites.
 
-## <a name="before-you-start" />Before you start
+## <a name="before-you-start"></a>Before you start
 
 The following are requirements for setting up synchronisation.
 
@@ -42,7 +42,7 @@ The following are requirements for setting up synchronisation.
 > [!NOTE]
 > The Team Member and Internal Administrator licences let you access but not modify records, so they can't be used to set up the synchronisation. The Delegated Admin licence doesn't let you schedule background tasks, so you won't be able to complete the setup.
 
-## <a name="specify-the-source-company" />Specify the source company
+## <a name="specify-the-source-company"></a>Specify the source company
 
 The first steps are to specify the company that will be the data source and enable synchronisation. Subsidiary companies pull data from the source company.
 
@@ -53,7 +53,7 @@ The first steps are to specify the company that will be the data source and enab
 
 The next step is to enable tables and fields for synchronisation.
 
-## <a name="enable-or-disable-tables-and-fields" />Enable or disable tables and fields
+## <a name="enable-or-disable-tables-and-fields"></a>Enable or disable tables and fields
 
 To save time, [!INCLUDE [prod_short](includes/prod_short.md)] provides a list of tables that businesses often synchronise. By default, these tables are enabled for synchronisation. You can modify, disable, or delete them as you see fit. As an extra time-saver, some fields on the tables are already disabled because they probably aren't relevant for the subsidiary.
 
@@ -75,7 +75,7 @@ To save time, [!INCLUDE [prod_short](includes/prod_short.md)] provides a list of
 > [!TIP]
 > A fast way to enable or disable multiple fields at the same time is to select them in the list, and then use either the **Enable** or **Disable** actions.
 
-### <a name="use-match-based-coupling" />Use match-based coupling
+### <a name="use-match-based-coupling"></a>Use match-based coupling
 
 You can specify the data to synchronise for a table by matching records based on criteria. On the **Master Data Management Setup** page, choose the **Match-Based Coupling** action to open the **Select Coupling Criteria** page. You can define the following criteria for your matching:
 
@@ -84,7 +84,7 @@ You can specify the data to synchronise for a table by matching records based on
 * The fields to use to match records, and whether the match is case-sensitive.
 * Prioritise the order in which records are searched by specifying a match priority. [!INCLUDE [prod_short](includes/prod_short.md)] will search for a match in ascending order based on the match priority. A blank value equals priority 0, which is the highest priority. Fields with the 0 priority are considered first.
 
-## <a name="synchronize-for-the-first-time" />Synchronise for the first time
+## <a name="synchronize-for-the-first-time"></a>Synchronise for the first time
 
 When you're ready, on the **Master Data Management Setup** page, choose the **Start Initial Synchronisation** action. On the **Master Data Initial Synchronisation** page, choose the type of synchronisation that you want to use for each table.
 
@@ -103,9 +103,9 @@ While synchronisation is running, the **Job Status** column on the **Master Data
 
 To access details, such as the number of records that are inserted or modified, choose the value in the **Job Status** column to open the **View - Integration Synchronisation Jobs** page. For records that were inserted, you can choose the number in the **Inserted** column to access more details about the new records.
 
-## <a name="add-or-delete-tables-from-the-synchronization-tables-list" />Add or delete tables from the synchronisation tables list
+## <a name="add-or-delete-tables-from-the-synchronization-tables-list"></a>Add or delete tables from the synchronisation tables list
 
-### <a name="add-a-table" />Add a table
+### <a name="add-a-table"></a>Add a table
 
 > [!IMPORTANT]
 > Although tables that contain transactional data are available in the list, such as tables that contain ledger entries, you shouldn't choose them. Synchronisation works only for tables that contain non-transactional data.
@@ -114,7 +114,7 @@ To access details, such as the number of records that are inserted or modified, 
 1. Choose **New**, and then choose the table to add.
 1. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](../archive/SetupAndAdministration/includes/tooltip-inline-tip_md.md)]
 
-### <a name="delete-a-table" />Delete a table
+### <a name="delete-a-table"></a>Delete a table
 
 > [!NOTE]
 > If you delete a record in the source company, it isn't also deleted in the subsidiary. This helps prevented unwanted loss of data. The subsidiary can decide to delete the table if they want.
@@ -122,10 +122,10 @@ To access details, such as the number of records that are inserted or modified, 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Synchronisation tables**, and then choose the related link.
 1. Choose the **Delete** action.
 
-## <a name="use-export-and-import-to-share-a-synchronization-setup" />Use export and import to share a synchronisation setup
+## <a name="use-export-and-import-to-share-a-synchronization-setup"></a>Use export and import to share a synchronisation setup
 
 If you're setting up several subsidiaries that use the same or similar synchronisation settings, there's a time saver. Set up one subsidiary company and then export its setup to an .xml file. The file contains the entire setup, including table and field mappings and filter criteria. You can then import the file to the next subsidiary. To import or export a setup, on the **Master Data Management Setup** page, use the **Import** or **Export** actions.
 
-## <a name="see-also" />See Also
+## <a name="see-also"></a>See Also
 
 [Manage Master Data Synchronisation](admin-sync-master-data.md)

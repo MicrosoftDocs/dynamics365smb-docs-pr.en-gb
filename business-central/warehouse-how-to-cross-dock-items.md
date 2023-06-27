@@ -9,11 +9,11 @@ ms.date: 03/08/2023
 ms.custom: bap-template
 ms.search.form: '15, 5703, 7302, 7332, 5768'
 ---
-# <a name="cross-dock-items" />Cross-Dock Items
+# <a name="cross-dock-items"></a>Cross-Dock Items
 
 Cross-dock items are items you receive and ship without putting them away. The put-away and pick processes require limited handling of items. You can cross-dock items for shipments and for production orders.
 
-## <a name="cross-dock-bins-and-zones" />Cross-dock bins and zones
+## <a name="cross-dock-bins-and-zones"></a>Cross-dock bins and zones
 
 If you're using bins, set up at least one cross-dock bin, and then specify the bin in the **Cross-Dock Bin Code** field on your locations. If you're using directed put-away and picks, set up a cross-dock zone.
 
@@ -21,13 +21,13 @@ When you prepare a shipment or pick items for production and you're using bins, 
 
 If you've calculated cross-dock quantities, put-away lines to the cross-dock bin for cross-dock calculations are created when you post the receipt. Other put-away lines are created as usual.  
 
-## <a name="cross-dock-select-lines-for-a-receipt" />Cross-dock select lines for a receipt
+## <a name="cross-dock-select-lines-for-a-receipt"></a>Cross-dock select lines for a receipt
 
 If you want to post the cross-dock items right away to make them available for picking, you must also register a put-away for the other items originating from the receipt line, namely those that need to be stored. If only some items on a receipt line are being cross-docked, you must therefore make an effort to put away the remaining items as quickly as possible. Alternatively, your warehouse policy could be to encourage cross-docking of entire receipt lines whenever possible.
 
 In the put-away instruction, delete the Take and Place instruction lines for each receipt line for the items to put away. You can recreate the instruction lines later as put-away lines from the put-away worksheet or the posted receipt. After you delete the instruction lines you can put away and register the lines for cross-dock items.  
 
-## <a name="about-the-put-away-worksheet-page" />About the Put-away Worksheet page
+## <a name="about-the-put-away-worksheet-page"></a>About the Put-away Worksheet page
 
 If you turn on the **Use Put-away Worksheet** toggle on the **Location Card** page, and post your receipt with calculated cross-docks, all receipt lines become available in the worksheet. The cross-dock information is lost and can't be recreated. Therefore, to use cross-dock functionality, you should relay lines to the put-away worksheet by deleting put-away instructions rather than using the automatic relay function provided in the **Use Put-away Worksheet** field.  
 
@@ -39,7 +39,7 @@ If you post the warehouse receipt and the **Use Put-away Worksheet** toggle is t
 
 [!INCLUDE [prod_short](includes/prod_short.md)] doesn't keep separate records for cross-docked items. It registers them as ordinary put-away instructions.  
 
-## <a name="to-set-up-the-warehouse-for-cross-docking" />To set up the warehouse for cross-docking
+## <a name="to-set-up-the-warehouse-for-cross-docking"></a>To set up the warehouse for cross-docking
 
 1. If you're using bins, set up at least one cross-dock bin. If you're using directed put-away and picks, set up a cross-dock zone.  
 
@@ -61,7 +61,7 @@ If you post the warehouse receipt and the **Use Put-away Worksheet** toggle is t
 > [!NOTE]  
 >  Cross-docking is only possible if your location is set up to require warehouse receive and put-away processing.  
 
-## <a name="to-cross-dock-items-without-viewing-the-opportunities" />To cross-dock items without viewing the opportunities
+## <a name="to-cross-dock-items-without-viewing-the-opportunities"></a>To cross-dock items without viewing the opportunities
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Receipts**, and then choose the related link.  
 2. Create a warehouse receipt for an item that's arrived and can be cross-docked. To learn more about receiving, go to [Receive Items](warehouse-how-receive-items.md).  
@@ -79,7 +79,7 @@ If you post the warehouse receipt and the **Use Put-away Worksheet** toggle is t
 6. Print the put-away instruction for the remaining lines, and place the quantities of the receipt that need to be stored in the appropriate bins or in the appropriate area of the warehouse. Place the cross-dock items in the area or bin designated for them by warehouse policy. Sometimes, warehouse policy might require that you to just leave them in the receiving area.  
 7. To register the cross-docked items as being put-away and available for picking, choose the **Register** action.  
 
-## <a name="to-cross-dock-items-after-viewing-the-opportunities" />To cross-dock items after viewing the opportunities
+## <a name="to-cross-dock-items-after-viewing-the-opportunities"></a>To cross-dock items after viewing the opportunities
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Receipts**, and then choose the related link.  
 2. Create a warehouse receipt for an item that has arrived and can be cross-docked.  
@@ -99,7 +99,7 @@ If you post the warehouse receipt and the **Use Put-away Worksheet** toggle is t
     > [!NOTE]  
     > In the warehouse put-away, you can continue to change the quantities that are being put away in storage or cross-docked, as necessary. For example, you might decide to cross-dock an extra quantity to expedite the cross-dock registration.  
 
-## <a name="to-view-cross-docked-items-in-a-shipment-or-pick-worksheet" />To view cross-docked items in a shipment or pick worksheet
+## <a name="to-view-cross-docked-items-in-a-shipment-or-pick-worksheet"></a>To view cross-docked items in a shipment or pick worksheet
 
 If you're using bins, when you open a shipment or the pick worksheet the quantity of each item in the cross-dock bins updates. When the item is available in the cross-dock bin, you can create a pick for the items on the shipment. In the pick worksheet, you can edit the lines as needed.  
 
@@ -107,7 +107,7 @@ When a production order is released, the lines are available in the pick workshe
 
 If you aren't using bins, remember to check the cross-dock area from time to time, or rely on notifications from receipts that items for production have arrived.  
 
-## <a name="see-also" />See Also
+## <a name="see-also"></a>See Also
 
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     

@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.search.keywords: 'analysis, history, track, business intelligence'
 ms.search.form: '408, 479, 480, 481, 484, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 548, 560, 562, 564, 567, 568, 577, 578, 580, 699, 1343, 2580, 2581, 2582, 2583, 2584, 2585, 2586, 2587, 2588, 2590, 2591, 2592, 2593, 9083, 9233, 9251, 9252, 9253'
 ---
-# <a name="work-with-dimensions" />Work with Dimensions
+# <a name="work-with-dimensions"></a>Work with Dimensions
 
 Dimensions are values that categorise entries so you can track and analyse them on documents, such as sales orders. Dimensions can, for example, indicate the project or department an entry came from.  
 
@@ -24,7 +24,7 @@ Another example is to set up a dimension called *Department*, then use that dime
 * Who sold it.
 * Which customer bought it.
 
-## <a name="analyzing-by-dimensions" />Analysing by dimensions
+## <a name="analyzing-by-dimensions"></a>Analysing by dimensions
 
 Dimensions play an important role in business intelligence, such as when defining analysis views. Learn more at [Analyse Data by Dimensions](bi-how-analyze-data-dimension.md).
 
@@ -34,13 +34,13 @@ Dimensions play an important role in business intelligence, such as when definin
 > [!NOTE]
 > Analysis views often use data from dimensions. If you discover an incorrect dimension has been used on posted general ledger (G/L) entries, you can correct the dimension values and update your analysis views. This helps keep your financial reports and analyses accurate. Learn more at [Troubleshooting and Correcting Dimensions](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting).
 
-## <a name="dimension-sets" />Dimension sets
+## <a name="dimension-sets"></a>Dimension sets
 
 A dimension set is a unique combination of dimension values. They are stored as dimension set entries in the database. Each dimension set entry represents a single dimension value. In addition, each dimension set, and dimension set entry within it, is identified by a common dimension set ID.  
 
 When you create a journal line, document header, or document line, you can specify a combination of dimension values. Instead of explicitly storing each dimension value in the database, a dimension set ID is assigned to the journal line, document header, or document line to specify the dimension set.  
 
-## <a name="setting-up-dimensions" />Setting up dimensions
+## <a name="setting-up-dimensions"></a>Setting up dimensions
 
 You can define dimensions and dimension values to categorise journals and documents, such as sales orders and purchase orders. You set up dimensions on the **Dimensions** page, where you create one line for each dimension, such as *Project*, *Department*, *Area*, and *Salesperson*.
 
@@ -54,7 +54,7 @@ When dimensions and values are set up, you can define global and shortcut dimens
 > [!NOTE]
 > After you use a new dimension in any entry, such as a line or new record, you cannot delete the dimension, even if you do not post the entry. This is because [!INCLUDE[prod_short](includes/prod_short.md)] immediately creates a dimension set for the line or record. Learn more in the [Dimension Sets](finance-dimensions.md#dimension-sets) section.
 
-### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts" />To set up default dimensions for customers, suppliers, and other accounts
+### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>To set up default dimensions for customers, suppliers, and other accounts
 
 You can assign a default dimension for a specific account. The dimension is copied to the journal or document when you enter the account number on a line, but you can delete or change the code on the line if appropriate. You can also require a dimension for posting an entry in a specific type of account. > 
 
@@ -91,7 +91,7 @@ You can assign a default dimension for a specific account. The dimension is copi
 > [!NOTE]  
 > If an account must have a different dimension than the default dimension assigned to the account type, you must set up a new default dimension for the account. The default dimension for the account then replaces the default dimension for the account type.  
 
-### <a name="to-set-up-default-dimension-priorities" />To set up default dimension priorities
+### <a name="to-set-up-default-dimension-priorities"></a>To set up default dimension priorities
 
 Different account types, such as a customer account and an item account, can have different default dimensions. As a result, an entry might have more than one  proposed default dimension. To avoid such conflicts, you can apply priority rules to the different sources.
 
@@ -103,7 +103,7 @@ Different account types, such as a customer account and an item account, can hav
 > [!IMPORTANT]  
 > If you set up two tables with the same priority for the same source code, [!INCLUDE[prod_short](includes/prod_short.md)] always selects the table with the lowest table ID.  
 
-### <a name="to-set-up-dimension-combinations" />To set up dimension combinations
+### <a name="to-set-up-dimension-combinations"></a>To set up dimension combinations
 
 To avoid posting entries with contradictory or irrelevant dimensions, you can block or limit specific combinations of two dimensions. A blocked dimension combination means you cannot post both dimensions on the same entry regardless of what the dimension values are. In contrast, a limited dimension combination means you can post both dimensions to the same entry, but only for certain combinations of dimension values.
 
@@ -126,7 +126,7 @@ To avoid posting entries with contradictory or irrelevant dimensions, you can bl
 >
 > To show the name of the dimensions instead of the code, select the **Show Column Name** field.
 
-### <a name="to-set-up-global-and-shortcut-dimensions" />To set up global and shortcut dimensions
+### <a name="to-set-up-global-and-shortcut-dimensions"></a>To set up global and shortcut dimensions
 
 Global and shortcut dimensions can be used as filters in [!INCLUDE[prod_short](includes/prod_short.md)], including on reports, batch jobs, ledger entry pages, and analysis views. Global and shortcut dimensions can be inserted directly without first opening the **Dimensions** page. On journal and document lines, you can select global and shortcut dimensions in a field on the line. You can set up two global dimensions and eight shortcut dimensions. Choose the dimensions that you use most frequently.
 
@@ -141,7 +141,7 @@ Global and shortcut dimensions can be used as filters in [!INCLUDE[prod_short](i
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, then choose the related link.
 2. On the **Dimensions** FastTab, fill in the fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-#### <a name="to-change-global-dimensions" />To change global dimensions
+#### <a name="to-change-global-dimensions"></a>To change global dimensions
 
 When you change a global or shortcut dimension, all entries posted with that dimension are updated. Because this process may be time-consuming and can affect performance, two different modes are provided to adapt the process to the size of the database.  
 
@@ -163,7 +163,7 @@ When you change a global or shortcut dimension, all entries posted with that dim
 6. Sign out of [!INCLUDE[prod_short](includes/prod_short.md)], then sign in again.
 7. Choose the **Start** action to begin the parallel processing of the dimension changes.
 
-### <a name="example-of-dimension-setup" />Example of dimension setup
+### <a name="example-of-dimension-setup"></a>Example of dimension setup
 
 Let's say your company wants to track transactions based on organisational structure and geographic locations. To do that, you set up two dimensions on the **Dimensions** page:
 
@@ -204,7 +204,7 @@ For **DEPARTMENT**, add the following dimension values:
 
 With this setup, you can add your two dimensions as the two global dimensions on the **General Ledger Setup** page. This means you can use AREA and DEPARTMENT as filters for general ledger entries, as well as on all reports. Both global dimensions are also automatically available for use on entry lines and document headers as shortcut dimensions.
 
-## <a name="getting-an-overview-of-dimensions-used-multiple-times" />Getting an overview of dimensions used multiple times
+## <a name="getting-an-overview-of-dimensions-used-multiple-times"></a>Getting an overview of dimensions used multiple times
 
 The **Default Dimensions-Multiple** page specifies how a group of accounts uses dimensions and dimension values. You can set this up by highlighting multiple accounts, then specifying default dimensions and dimension values for them. After that, the application suggests these dimensions and dimension values whenever one of these accounts is used, such as on a journal line. This makes entry posting easier for the user, as the dimension fields are filled in automatically. Also note, however, that the dimension values suggested can be changed on, for example, a journal line.
 
@@ -216,7 +216,7 @@ The **Default Dimensions-Multiple** page contains the following fields:
 |**Dimension Value Code**|Shows either a single dimension value or the term (Conflict). If a dimension value is shown in the field, then all highlighted accounts have the same default dimension value for a dimension. If the term (Conflict) is shown in the field, then not all highlighted accounts have the same default dimension value for a dimension. Upon choosing the **Dimension Code** field, you'll see a list of all available dimension values for a dimension. If you select a dimension value, it will be defined as a default dimension value for all highlighted accounts.|
 |**Value Posting**|Shows either a single value posting rule or the term (Conflict). If a value posting rule is shown in the field, then all highlighted accounts have the same value posting rule for a dimension value. If the term (Conflict) is shown in the field, then not all the highlighted accounts have the same value posting rule for a dimension value. Upon choosing the **Value Posting** field, you'll see a list of value posting rules for a dimension. If you select a value posting rule, it will be applied to all highlighted accounts.|
 
-## <a name="use-dimensions" />Use dimensions
+## <a name="use-dimensions"></a>Use dimensions
 
 In a document such as a sales order, you can add dimension information for both an individual document line and the document itself. So on the **Sales Order** page, you could enter dimension values for the first two shortcut dimensions on the individual sales lines, then add more dimension information if you choose the **Dimensions** button.  
 
@@ -224,7 +224,7 @@ If you work in a journal instead, you can add dimension information to an entry 
 
 You can also set up default dimensions for accounts or account types, so dimensions and dimension values are filled in automatically.
 
-### <a name="to-view-global-dimensions-in-ledger-entry-pages" />To view global dimensions in ledger entry pages
+### <a name="to-view-global-dimensions-in-ledger-entry-pages"></a>To view global dimensions in ledger entry pages
 
 Global dimensions are always company-defined and company-named. To see the global dimensions for your company, open the **General Ledger Setup** page.
 
@@ -238,9 +238,9 @@ In a ledger entry page, you can see whether there are global dimensions for the 
 > [!NOTE]  
 > The **Ledger Entry Dimensions** page displays the dimensions one ledger entry at a time. You'll see as you scroll through the ledger entries, the content on the **Ledger Entry Dimensions** page changes accordingly.
 
-## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/dimensions-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/dimensions-dynamics-365-business-central/index)
 
-## <a name="see-also" />See also
+## <a name="see-also"></a>See also
 
 [Business Intelligence](bi.md)  
 [Finance](finance.md)  

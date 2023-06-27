@@ -11,7 +11,7 @@ ms.search.form: '456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31'
 ms.date: 03/24/2022
 ms.author: edupont
 ---
-# <a name="create-number-series" />Create Number Series
+# <a name="create-number-series"></a>Create Number Series
 
 For each company that you set up, you need to assign unique identification codes to things such as general ledger accounts, customer and vendor accounts, invoices, and other documents. Numbering is important not only for identification. A well-designed numbering system also makes the company more manageable and easy to analyse, and can reduce the number of errors that occur in data entry.
 
@@ -32,10 +32,10 @@ You typically set up your number series to automatically insert the next consecu
 
 If you want to use more than one number series code for one type of master data - for example, if you want to use different number series for different categories of items - you can use number series relationships.
 
-## <a name="gaps-in-number-series" />Gaps in Number Series
+## <a name="gaps-in-number-series"></a>Gaps in Number Series
 Not all records that you create in [!INCLUDE[prod_short](includes/prod_short.md)] are financial transactions that must use sequential numbering. Customer cards, sales quotes, and warehouse activities are examples of records that are assigned a number from a number series, but are not subject to financial auditing and/or can be deleted. For such number series, you can select the **Allow Gaps in Nos.** check box on the **No. Series Lines** page. This setting can also be changed after creating the number series. For more information, see [To create a new number series](ui-create-number-series.md#to-create-a-new-number-series).
 
-## <a name="behavior-of-the-no-field-on-documents-and-cards" />Behaviour of the No. field on documents and cards
+## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Behaviour of the No. field on documents and cards
 
 On sales, purchase, and transfer documents and on all cards, the **No.** field can be filled in automatically from a predefined number series, or you can add it manually. However, under certain circumstances, the **No.** field is invisible to prevent you from editing it.  
 
@@ -57,7 +57,7 @@ When you open a new document or card that a number series exists for, then the r
 > [!NOTE]  
 > If you need to enable manual numbering on, for example, new item cards that have been created with a data migration process that has hidden the **No.** by default, then go to the **Inventory Setup** page and choose the **Item Nos.** field to open and set the related number series to **Manual Nos.**.
 
-## <a name="to-create-a-new-number-series" />To create a new number series
+## <a name="to-create-a-new-number-series"></a>To create a new number series
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **No. Series**, and then choose the related link.
 2. Choose the **New** action.  
@@ -71,7 +71,7 @@ When you open a new document or card that a number series exists for, then the r
 
 You can assign number series to the templates that you set up for the different types of customers and vendors that your sales people and purchasers most often add to your [!INCLUDE [prod_short](includes/prod_short.md)]. In that case, set up the relevant number series, link them through relationships, and then add the first number series in the relevant relationship to the relevant setup page. Then, when a user creates a customer, they choose the relevant template, and the new customer gets a number assigned from the number series that is defined for that template.  
 
-## <a name="to-create-relationships-between-number-series" />To create relationships between number series
+## <a name="to-create-relationships-between-number-series"></a>To create relationships between number series
 
 If you have set up more than one number series code for the same kind of basic information or transactions, you can create relationships between the codes. This feature can assist you in deciding among the codes when you use a number. When you set up a relationship between a group of number series, you associate all of the related series to one number series code. Then you can enter that code in a field on the **Numbering** FastTab in one of the relevant setup page, such as **Sales & Receivables Setup**.  
 
@@ -83,7 +83,7 @@ If you have set up more than one number series code for the same kind of basic i
 
 Now when you set up something that requires a number, you can use the relationships you created to select among the related number series.
 
-## <a name="to-set-up-where-a-number-series-is-used" />To set up where a number series is used
+## <a name="to-set-up-where-a-number-series-is-used"></a>To set up where a number series is used
 
 The following procedure shows how to set number series up for the Sales area. The steps are similar for other areas.  
 
@@ -92,9 +92,9 @@ The following procedure shows how to set number series up for the Sales area. Th
 
 The selected number will now be used to fill in the **No.** field on the card or document in question, according to the settings you made on the number series line.  
 
-## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/number-series-trail-codes-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/number-series-trail-codes-dynamics-365-business-central/index)
 
-## <a name="see-also" />See also
+## <a name="see-also"></a>See also
 
 [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

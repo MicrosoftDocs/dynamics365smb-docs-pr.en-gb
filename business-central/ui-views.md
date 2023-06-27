@@ -10,7 +10,7 @@ ms.search.form: null
 ms.date: 06/24/2021
 ms.author: edupont
 ---
-# <a name="save-and-personalize-list-views" />Save and Personalise List Views
+# <a name="save-and-personalize-list-views"></a>Save and Personalise List Views
 
 When you have set a filter on a list and you want to keep the filter for later, you can save it as a view. For more information about filtering lists, see [Setting Filters on Lists](ui-enter-criteria-filters.md#setting-filters-on-lists).
 
@@ -18,7 +18,7 @@ If views exist, the **Views** group appears at the top of the filter pane. Views
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="to-save-a-view" />To save a view
+## <a name="to-save-a-view"></a>To save a view
 
 1. Open any list page.
 2. Select ![Filter pane icon.](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or select <kbd>Shift</kbd>+<kbd>F3</kbd> to open the filter pane.
@@ -34,16 +34,16 @@ If you don't give it a name, it will be named **All (Copy)**.
 > [!TIP]
 > Not seeing the ![Save View](media/save_view_icon.png "Save View") icon? For more information, see [Why don't I have a Save icon](/dynamics365/business-central/ui-views-faq#save).
 
-## <a name="to-rename-or-remove-a-view" />To rename or remove a view
+## <a name="to-rename-or-remove-a-view"></a>To rename or remove a view
 
 1. For the view that currently displays the list, choose the ![Show more options.](media/show-more-options-icon.png "Show more options") icon to see which options are available.
 2. Choose either the **Rename** or the **Remove** action.
 
-## <a name="managing-many-views" />Managing Many Views
+## <a name="managing-many-views"></a>Managing Many Views
 
 As the number of views on a page grows, you may need more control over how views are presented in the filter pane. With the **Personalising** banner, you can hide unwanted views or reorder your views to get the perfect sequence. For more information, see [Personalise Your Workspace](ui-personalization-user.md).
 
-## <a name="see-also" />See Also
+## <a name="see-also"></a>See Also
 
 [List Views FAQ](ui-views-faq.yml)  
 [Personalise Your Workspace](ui-personalization-user.md)    

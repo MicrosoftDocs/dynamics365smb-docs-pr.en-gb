@@ -12,17 +12,17 @@ ms.date: 04/01/2021
 ms.author: andreipa
 ---
 
-# <a name="walkthrough-of-inbound-and-outbound-flow-in-basic-warehouse-configurations" />Walkthrough of inbound and outbound flow in Basic Warehouse Configurations
+# <a name="walkthrough-of-inbound-and-outbound-flow-in-basic-warehouse-configurations"></a>Walkthrough of inbound and outbound flow in Basic Warehouse Configurations
 
 This walkthrough demonstrates how to complete inbound and outbound flows in the Basic: Order-by-Order configuration. For more information, see [Overview of different configuration options](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## <a name="prerequisites" />Prerequisites
+## <a name="prerequisites"></a>Prerequisites
 To complete this walkthrough, you need to make yourself a warehouse employee at *SILVER* location by following these steps:  
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
 2. Choose the **User ID** field, and select your own user account on the **Users** page.  
 3. In the **Location Code** field, enter *SILVER*.  
 
-## <a name="inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations" />Inbound flow: Receiving and Putting Away in Basic Warehouse Configurations
+## <a name="inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Inbound flow: Receiving and Putting Away in Basic Warehouse Configurations
 
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.  
 
@@ -37,10 +37,10 @@ For more information, see [Design Details: Inbound Warehouse Flow](../../design-
 
 The following walkthrough demonstrates method B in the previous table.  
 
-### <a name="scenario" />Scenario
+### <a name="scenario"></a>Scenario
 Alicia, the purchasing agent, creates a purchase order for various roasted beans. When the delivery arrives at the warehouse, John, the warehouse worker, puts the items away in suited bins. When John posts the put-away, the items are posted as received into inventory and available for sale or other demand.  
 
-### <a name="steps" />Steps
+### <a name="steps"></a>Steps
 1. Set up the **Location Card** page to define the company's inbound warehouse flows.  
 
     1.  Choose the ![Lightbulb that opens the Tell Me feature 2.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
@@ -96,7 +96,7 @@ Alicia, the purchasing agent, creates a purchase order for various roasted beans
 
     5.  Choose the **Post** action, select the **Receive** action, and then choose the **OK** button.  
 
-### <a name="results" />Results
+### <a name="results"></a>Results
  - the roasted beans are now registered as put away in specified bins
  - the **Posted Invt. Put-Away** is  created
  - the **Posted Purchase Receipt** is created
@@ -104,7 +104,7 @@ Alicia, the purchasing agent, creates a purchase order for various roasted beans
  - the item **Inventory** is increased by the chosen quantity
     
 
-## <a name="outbound-flow-picking-and-shipping-in-basic-warehouse-configurations" />Outbound flow: Picking and Shipping in Basic Warehouse Configurations
+## <a name="outbound-flow-picking-and-shipping-in-basic-warehouse-configurations"></a>Outbound flow: Picking and Shipping in Basic Warehouse Configurations
 
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], the outbound processes for picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.  
 
@@ -119,10 +119,10 @@ For more information, see [Design Details: Outbound Warehouse Flow](../../design
 
 The following walkthrough demonstrates method B in the previous table.
 
-### <a name="scenario-1" />Scenario
+### <a name="scenario-1"></a>Scenario
 Susan, the order processor, creates a sales order for various roasted beans and passes it to warehouse. John, the warehouse worker must make sure that the shipment is prepared and delivered to the customer. John manages all involved tasks on the **Inventory Pick** page, which automatically points to the bins where roasted beans are stored.
 
-### <a name="steps-1" />Steps
+### <a name="steps-1"></a>Steps
 This is a continuation of [Inbound flow: Receiving and Putting Away in Basic Warehouse Configurations](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Set up the **Location Card** page to define the company's inbound warehouse flows.  
@@ -159,7 +159,7 @@ This is a continuation of [Inbound flow: Receiving and Putting Away in Basic War
 
 5. Choose the **Post** action, select **Ship**, and then choose the **OK** button.  
 
-### <a name="results-1" />Results
+### <a name="results-1"></a>Results
  - the roasted beans are now registered as picked from specified bins
  - the **Posted Invt. Pick** is created
  - the **Posted Sales Shipment** is created
@@ -167,7 +167,7 @@ This is a continuation of [Inbound flow: Receiving and Putting Away in Basic War
  - the item **Inventory** is decreased by the chosen quantity
 
 
-## <a name="see-also" />See Also
+## <a name="see-also"></a>See Also
 [Put-Away Items with Inventory Put-Aways](../../warehouse-how-to-put-items-away-with-inventory-put-aways.md) 
 [Set Up Basic Warehouses with Operations Areas](../../warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md) 
 [Design Details: Inbound Warehouse Flow](../../design-details-inbound-warehouse-flow.md) 

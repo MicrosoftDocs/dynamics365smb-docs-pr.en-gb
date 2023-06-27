@@ -10,7 +10,7 @@ ms.search.form: '5200, 5201, 5204, 5206, 5208, 5209, 5211, 5212'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="manage-employee-absence" />Manage Employee Absence
+# <a name="manage-employee-absence"></a>Manage Employee Absence
 To manage an employee's absence, you must record the absence on the **Absence Registration** page. It can then be viewed in different ways for analysis and reporting needs.
 
 You can view employee absence in two different pages:
@@ -20,7 +20,7 @@ You can view employee absence in two different pages:
 
 To obtain meaningful statistics, you should always use the same unit of measurement (hour or day) when registering employee absences.
 
-## <a name="to-register-employee-absence" />To register employee absence
+## <a name="to-register-employee-absence"></a>To register employee absence
 You can register employee absences on a daily basis or at some other interval that meets your organisational needs.
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Absence Registration**, and then choose the related link.
@@ -31,20 +31,20 @@ You can register employee absences on a daily basis or at some other interval th
     > [!Tip]
     > To obtain meaningful statistics, always use the same unit of measurement, hour or day, when registering employee absences.
 
-## <a name="to-view-an-individual-employees-absence" />To view an individual employee's absence
+## <a name="to-view-an-individual-employees-absence"></a>To view an individual employee's absence
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Employees**, and then choose the related link.
 2. Select the relevant employee, and then choose the **Absences** action.
 
     The **Employee Absences** page opens showing all the absences and the date on which they started and ended.
 
-## <a name="to-view-an-employees-absence-by-categories" />To view an employee's absence by categories
+## <a name="to-view-an-employees-absence-by-categories"></a>To view an employee's absence by categories
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Employees**, and then choose the related link.
 2. Select the relevant employee, and then choose the **Absences by Categories** action.
 3. On the **Empl. Absences by categories** page, fill in the filter fields as necessary, and then choose the **Show Matrix** action.
 
     The **Empl. Absences by Cat. Matrix** page opens showing all absences, broken down by causes of absence.
 
-## <a name="to-view-all-employee-absences-by-category" />To view all employee absences by category
+## <a name="to-view-all-employee-absences-by-category"></a>To view all employee absences by category
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Absence Registration**, and then choose the related link.
 2. On the **Absence Registration** page, choose the **Overview by Categories** action.
 3. On the **Absence Overview by Categories** page, set a filter in the **Employee No. Filter** field to view employee absences for individual or a defined group of employees.
@@ -52,7 +52,7 @@ You can register employee absences on a daily basis or at some other interval th
 
     The **Absence Overview by Categories Matrix** page opens showing all employees’ absences broken down by the various causes of absence.
 
-## <a name="to-view-all-employee-absences-by-period" />To view all employee absences by period
+## <a name="to-view-all-employee-absences-by-period"></a>To view all employee absences by period
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Absence Registration**, and then choose the related link.
    On the **Absence Registration** page, choose the **Overview by Periods** action.
 2. On the **Absence Overview by Periods** page, set a filter in the **Cause of Absence Filter** field to view employee absences for specified causes of absence.
@@ -60,7 +60,7 @@ You can register employee absences on a daily basis or at some other interval th
 
     The **Abs. Overview by Periods Matrix** page opens showing employee absences broken down by periods.
 
-## <a name="see-also" />See Also
+## <a name="see-also"></a>See Also
 [Manage Human Resources](hr-manage-human-resources.md)  
 [Finance](finance.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

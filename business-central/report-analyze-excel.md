@@ -10,17 +10,17 @@ ms.search.keywords: 'task, process, report, print, schedule, save, Excel, PDF, W
 ms.date: 03/16/2022
 ms.author: jswymer
 ---
-# <a name="analyzing-report-data-with-excel-and-xml" />Analysing Report Data with Excel and XML
+# <a name="analyzing-report-data-with-excel-and-xml"></a>Analysing Report Data with Excel and XML
 
 [!INCLUDE[2021_releasewave2](includes/2021_releasewave2.md)]
 
 As a developer or advanced user, it helps to inspect the data that is generated for a given report dataset while you create new reports or modify existing ones. To support this capability, you can export a report dataset as raw data to an Excel workbook or XML file&mdash;directly. In Excel, for example, you can then do ad-hoc analysis of the data and diagnose issues.
 
-## <a name="get-started" />Get started
+## <a name="get-started"></a>Get started
 
 To export a report dataset to an Excel workbook or XML file, open the report in the client, then in the request page, select **Send to** > **Microsoft Excel Document (data only)** or **XML Document**. The file will be downloaded to your device.
 
-## <a name="more-about-excel-data-only" />More about Excel (data only)
+## <a name="more-about-excel-data-only"></a>More about Excel (data only)
 
 **Microsoft Excel Document (data only)** option exports the report results and the criteria that was used to generate them&mdash;but it doesn't include the report layout. The Excel file will include the full dataset, as raw data, arranged in rows and columns. All data columns of the report's dataset are included, regardless of whether they're used in the report layout.
 
@@ -31,13 +31,13 @@ Each time you export results, a new worksheet is created. Using the **Microsoft 
 > [!NOTE]
 > You can't export a report that has more than 1,048,576 rows or 16,384 columns. With Business Central on-premises, the maximum number of exported rows might be even less. Business Central Server includes a configuration setting, called **Max Data Rows Allowed to Send to Excel**, for decreasing the limit from the maximum value. For more information, see [Configuring Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General) or contact your administrator.
 
-## <a name="for-administrators" />For administrators
+## <a name="for-administrators"></a>For administrators
 
 - **Microsoft Excel Document (data only)** was introduced as an optional feature in the 2021 release wave 1, update 18.3. To give users access to this feature when running 2021 release wave 1, enable the **Save report dataset to Microsoft Excel Document** feature update in **Feature Management**. For more information, see [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management). In 2021 release wave 2, this feature became permanent, so you won't have to enable it.
 
 - To use **Microsoft Excel Document (data only)**, user accounts need the **Allow Action Export Report Dataset To Excel** permission. You can give users this permission by assigning either the **Troubleshooting Tools** or **Export Report Excel** permission set. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
 
-## <a name="for-developers-and-advanced-users" />For developers and advanced users
+## <a name="for-developers-and-advanced-users"></a>For developers and advanced users
 
 The **Microsoft Excel Document (data only)** option exports all columns, including columns that hold filters and formatting instructions for other values. Here are a few points of interest:
 
@@ -50,7 +50,7 @@ The **Microsoft Excel Document (data only)** option exports all columns, includi
 
 For more information about report design, see [Report Overview](/dynamics365/business-central/dev-itpro/developer/devenv-reports).
 
-## <a name="see-also" />See Also
+## <a name="see-also"></a>See Also
 
 [Working with Reports](ui-work-report.md)  
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  

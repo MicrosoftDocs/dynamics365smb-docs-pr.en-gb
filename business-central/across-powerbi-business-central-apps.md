@@ -10,7 +10,7 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="use-the--apps-in-power-bi" />Use the [!INCLUDE [prod_short](includes/prod_short.md)] Apps in Power BI
+# <a name="use-the--apps-in-power-bi"></a>Use the [!INCLUDE [prod_short](includes/prod_short.md)] Apps in Power BI
 
 > **APPLIES TO:** [!INCLUDE [prod_long](includes/prod_long.md)] online 
 
@@ -20,7 +20,7 @@ ms.author: jswymer
 - [!INCLUDE [prod_long](includes/prod_long.md)] - Finance  
 - [!INCLUDE [prod_long](includes/prod_long.md)] - Sales
 
-## <a name="overview" />Overview
+## <a name="overview"></a>Overview
 
 Each app includes several reports that you can drill into for data, including the following features:
 
@@ -34,7 +34,7 @@ The apps are designed to work with data from any company in [!INCLUDE[prod_short
 > [!NOTE]
 > You can also build your own reports and dashboards in Power BI based on your [!INCLUDE[prod_short](includes/prod_short.md)] data. For more information, see [Connecting Your Business Data to Power BI](across-how-use-financials-data-source-powerbi.md). 
 
-## <a name="prerequisites" />Prerequisites
+## <a name="prerequisites"></a>Prerequisites
 
 Power BI apps require permissions to the tables where data is retrieved from and the web services used to retrieve data. The following table lists the web services required for each Power BI app:
     
@@ -47,11 +47,11 @@ Power BI apps require permissions to the tables where data is retrieved from and
 > [!TIP]
 > An easy way to find the web services is to search for *web services* in [!INCLUDE[prod_short](includes/prod_short.md)]. In the **Web Services** page, make sure that the **Publish** field is selected for the web services listed above. For more information, see [Publishing a Web Service](across-how-publish-web-service.md).
 
-## <a name="get-ready" />Get ready
+## <a name="get-ready"></a>Get ready
 
 Sign up for the Power BI service. If you haven't already signed up, go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com). When you sign up, use your work email address and password.
 
-## <a name="install-a--app-in-power-bi" />Install a [!INCLUDE[prod_short](includes/prod_short.md)] app in Power BI
+## <a name="install-a--app-in-power-bi"></a>Install a [!INCLUDE[prod_short](includes/prod_short.md)] app in Power BI
 
 1. Open your browser, navigate to [https://powerbi.microsoft.com](https://powerbi.microsoft.com), and sign into your account.
 2. Select **Get Data** at the bottom of the left navigation pane.  
@@ -69,7 +69,7 @@ Sign up for the Power BI service. If you haven't already signed up, go to [https
 
     When completed, the app will be available from **Apps** on the navigation menu in Power BI.
 
-## <a name="connect-the--app-to-your-data" />Connect the [!INCLUDE[prod_short](includes/prod_short.md)] app to your data
+## <a name="connect-the--app-to-your-data"></a>Connect the [!INCLUDE[prod_short](includes/prod_short.md)] app to your data
 
 1. Under **Apps**, select the Business Central app, then **Connect**.
 2. When prompted, fill in the **Company Name** and **Environment** with information about the [!INCLUDE[prod_short](includes/prod_short.md)] instance that you want to connect to.
@@ -84,23 +84,23 @@ Sign up for the Power BI service. If you haven't already signed up, go to [https
 
     ![Select Dynamics 365 Business Central  and select Get it now.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
-## <a name="fixing-problems" />Fixing problems
+## <a name="fixing-problems"></a>Fixing problems
 
 The Power BI dashboard relies on the published web services that are listed above. It shows data from the demonstration company or your own company if you import data from your current finance solution. However, if something goes wrong, this section provides a workaround for the most typical issues.  
 
-### <a name="you-dont-have-a-power-bi-account" />You don't have a Power BI account
+### <a name="you-dont-have-a-power-bi-account"></a>You don't have a Power BI account
 
 A Power BI account hasn't been set up. You must have a licence to get a valid Power BI account. Also, you must have previously signed into Power BI to create your Power BI workspace.  
 
-### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display" />Message: There are no enabled reports. Choose Select Report to see a list of reports that you can display.
+### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Message: There are no enabled reports. Choose Select Report to see a list of reports that you can display.
 
 This message appears if the default report failed to deploy to your Power BI workspace. Or the report deployed but didn't successfully refresh. If this problem happens, navigate to the report in your Power BI workspace, select **Dataset**, **Settings**, and then manually update the credentials. Once the dataset successfully refreshes, navigate back to [!INCLUDE[prod_short](includes/prod_short.md)] and manually select the report from the **Select Reports** page.
 
-### <a name="you-need-a-power-bi-pro-license-to-install-the--app-in-power-bi" />You need a Power BI Pro licence to install the [!INCLUDE[prod_short](includes/prod_short.md)] app in Power BI
+### <a name="you-need-a-power-bi-pro-license-to-install-the--app-in-power-bi"></a>You need a Power BI Pro licence to install the [!INCLUDE[prod_short](includes/prod_short.md)] app in Power BI
 
 You need a [Power BI Pro licence](/power-bi/service-features-license-type) to share your content, and the people you share it with do too. The content must be in a workspace in a [Premium capacity](/power-bi/service-premium-what-is). For more information, see [Ways to share your work in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
-### <a name="parameter-validation-failed-please-make-sure-all-parameters-are-valid" />"Parameter validation failed, please make sure all parameters are valid"
+### <a name="parameter-validation-failed-please-make-sure-all-parameters-are-valid"></a>"Parameter validation failed, please make sure all parameters are valid"
 
 This error indicates that one more of the parameters aren't valid.
 
@@ -109,7 +109,7 @@ This error indicates that one more of the parameters aren't valid.
 - If connecting to [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you entered a URL that isn't valid. You can verify the URL in the **Web Services** page in [!INCLUDE[prod_short](includes/prod_short.md)]  
 - A port isn't open to allow the request through your firewall.
 
-### <a name="cant-sign-in" />Can't sign in
+### <a name="cant-sign-in"></a>Can't sign in
 
 If you get a "login failed" error after using your [!INCLUDE[prod_short](includes/prod_short.md)] user credentials to sign in, then you're probably experiencing one of the following issues:
 
@@ -117,36 +117,36 @@ If you get a "login failed" error after using your [!INCLUDE[prod_short](include
 - You've selected an authentication type other than Basic, if connecting to [!INCLUDE[prod_short](includes/prod_short.md)] on-premises.
 - You haven't entered a valid user name or password.
 
-### <a name="message-your-data-source-cant-be-refreshed-because-the-credentials-are-invalid-please-update-your-credentials-and-try-again" />Message: Your data source can't be refreshed because the credentials are invalid. Please update your credentials and try again
+### <a name="message-your-data-source-cant-be-refreshed-because-the-credentials-are-invalid-please-update-your-credentials-and-try-again"></a>Message: Your data source can't be refreshed because the credentials are invalid. Please update your credentials and try again
 
 For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, the problem might be that the OData URL is only exposed to the local network.
 
-### <a name="incorrect-company-name" />Incorrect company name
+### <a name="incorrect-company-name"></a>Incorrect company name
 
 A common mistake is to enter the company display name instead of the company name. To find the company name search for **Companies**. Then use the **Name** field when entering your company name.
 
-### <a name="the-key-didnt-match-any-rows-in-the-table" />The key didn't match any rows in the table
+### <a name="the-key-didnt-match-any-rows-in-the-table"></a>The key didn't match any rows in the table
 
 If you enter a non-valid company name during the connection process, you may get the error message "The key didn't match any rows in the table". Provide the correct company name and try connecting again.
 
-### <a name="historical-data-appears-to-be-missing" />Historical data appears to be missing
+### <a name="historical-data-appears-to-be-missing"></a>Historical data appears to be missing
 
 Once the Power BI app installs and your data show in Power BI, you notice that not all your data displays. The datasets are filtered to only return the previous 365 days of data. This default is in place to help make the reports faster.  
 
-### <a name="i-only-see-data-for-a-single-company" />I only see data for a single company
+### <a name="i-only-see-data-for-a-single-company"></a>I only see data for a single company
 
 The Power BI app will only display data from the [!INCLUDE[prod_short](includes/prod_short.md)] company that was defined when the Power BI app was installed. Data from additional companies can be added to the reports by adding new queries that use different companies as the data source.  
 
-### <a name="what-now" />What Now?
+### <a name="what-now"></a>What Now?
 
 - Try [asking a question in the Q&A box](/power-bi/service-q-and-a-tips) at the top of the dashboard.
 - [Change the tiles](/power-bi/service-dashboard-edit-tile) in the dashboard.  
 - [Select a tile](/power-bi/service-dashboard-tiles) to open the underlying report.  
 - By default, your dataset isn't scheduled to refresh. You can change the refresh schedule or try refreshing it on demand using **Refresh Now**. For more information, see [Configuring scheduled refresh](/power-bi/refresh-scheduled-refresh).
 
-## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also" />See Also
+## <a name="see-also"></a>See Also
 
 [Business Central and Power BI](admin-powerbi.md)  
 [Power BI Integration Component and Architecture Overview for [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  

@@ -11,7 +11,7 @@ ms.author: solsen
 ms.date: 04/01/2022
 ---
 
-# <a name="control-add-in-resiliency-in-business-central" />Control Add-In Resiliency in Business Central
+# <a name="control-add-in-resiliency-in-business-central"></a>Control Add-In Resiliency in Business Central
 
 From update 20.0 of [!INCLUDE[prod_short](includes/prod_short.md)], control add-ins that perform slowly are automatically detected and a dialogue similar to the following is displayed.
 
@@ -19,6 +19,6 @@ From update 20.0 of [!INCLUDE[prod_short](includes/prod_short.md)], control add-
 
 An unhealthy control add-in may affect your Business Central experience and cause the page you are working on to start slowly. It has no impact on data and your changes are always saved. If you see the warning as shown above, you can hide it, but it might come back and if the problem persists, you should contact your administrator.
 
-## <a name="see-also" />See Also
+## <a name="see-also"></a>See Also
 
 <!-- []() link to new topic in dev docs -->

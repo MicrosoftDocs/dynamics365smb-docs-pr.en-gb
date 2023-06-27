@@ -8,7 +8,7 @@ ms.search.keywords: 'shipping advice, partial shipments, partial deliveries, tra
 ms.date: 08/12/2022
 ms.author: a-reishima
 ---
-# <a name="process-partial-shipments" />Process Partial Shipments
+# <a name="process-partial-shipments"></a>Process Partial Shipments
 
 In a partial shipment, an order isn't all shipped at once. For example, from an order for 100 units, you ship 40 units immediately and 60 units later. There are no limits on the number of shipments that can be made for an order.
 
@@ -18,7 +18,7 @@ By default, [!INCLUDE [prod_short](includes/prod_short.md)] sets the field in th
 
 [!INCLUDE [order-ship-invoice_md](includes/order-ship-invoice.md)]
 
-## <a name="see-also" />See also
+## <a name="see-also"></a>See also
 
 [Sell Products with a Customer Sales Order](sales-how-sell-products.md)  
 [Ship Items](warehouse-how-ship-items.md)  

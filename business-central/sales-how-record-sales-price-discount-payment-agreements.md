@@ -11,7 +11,7 @@ ms.search.keywords: 'special price, alternate price, pricing'
 ms.search.form: '7022, 7024'
 ---
 
-# <a name="record-special-sales-prices-and-discounts" />Record Special Sales Prices and Discounts
+# <a name="record-special-sales-prices-and-discounts"></a>Record Special Sales Prices and Discounts
 
 > [!NOTE]
 > 2020 release wave 2 introduced new, streamlined processes for setting up and managing prices and discounts. If you're a new customer using the latest version, you're using the new experience. If you're an existing customer, whether you are using the new experience depends on whether your administrator has enabled the **New sales pricing experience** feature update in **Feature Management**. Learn more at [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management) in the administration content.
@@ -46,7 +46,7 @@ For sales discounts, you can set up two types:
 > [!TIP]  
 > If an item should never be sold with a discount, leave the discount fields on the item page empty, and do not include the item in any line discount setups.
 
-## <a name="to-set-up-a-sales-price-for-a-customer" />To set up a sales price for a customer
+## <a name="to-set-up-a-sales-price-for-a-customer"></a>To set up a sales price for a customer
 
 These steps differ, depending on whether your administrator has turned on the **New sales pricing experience** feature update. If the feature update isn't turned on, follow the steps on the Current Experience tab. 
 
@@ -72,7 +72,7 @@ By default, the status of new price lists is **Draft**. Draft price lists aren't
 
 ---
 
-## <a name="using-sales-and-purchase-price-lists" />Using sales and purchase price lists
+## <a name="using-sales-and-purchase-price-lists"></a>Using sales and purchase price lists
 
 > [!NOTE]
 > Using price lists requires that your administrator has enabled the **New sales pricing experience** feature update in **Feature Management**. Learn more at [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management) in the administration content.
@@ -81,7 +81,7 @@ Most of the new sales pricing experience is similar to the current experience, b
 
 The **Applies-to Type** and **Applies-to No.** fields let you choose what a price list will apply to, such as customer or customer price group. Using **View Columns for**, you can show or hide columns relevant for setting prices, discounts, or prices and discounts.
 
-### <a name="converting-existing-prices-when-you-turn-on-the-pricing-feature-update" />Converting existing prices when you turn on the pricing feature update
+### <a name="converting-existing-prices-when-you-turn-on-the-pricing-feature-update"></a>Converting existing prices when you turn on the pricing feature update
 
 When you enable the **New sales pricing experience** feature update on the **Feature Management** page, the **Feature Data Update** guide opens. Use the **Use default prices** toggle as follows:
 
@@ -108,7 +108,7 @@ If you have many combinations, you'll have many price lists.
 
 If you've already enabled the New Pricing Experience, you can create default price lists manually or specify an existing price list as the default. To set an existing price list as default, turn on the **Allow Updating Defaults** toggle on the price list. Then, on the **Sales & Receivables Setup**, **Purchase & Payables**, or **Jobs Setup** pages, set the price list as the default.
 
-### <a name="editing-active-price-lists" />Editing active price lists
+### <a name="editing-active-price-lists"></a>Editing active price lists
 
 To allow people to edit prices on active price lists for items, resources, customers, vendors, or other entities that use pricing, turn on the **Allow Editing Active Price** toggle on the **Sales & Receivables Setup** and **Purchase & Payables Setup** pages.
 
@@ -121,7 +121,7 @@ The **Prices Overview** page provides an overview of all prices across price lis
 
 To add new prices, on the **Prices Overview** page, use the **Add New Lines** action. The **Prices Worksheet** page opens, and you can add price lines either by suggesting them based on criteria, copying them from other price lists, or manually entering them. Afterward, you can use the **Implement Price Change** action to compare the new prices with other price lists to avoid duplicates and ambiguity during price calculation.
 
-#### <a name="create-sales-price-lines-based-on-the-unit-price" />Create sales price lines based on the unit price
+#### <a name="create-sales-price-lines-based-on-the-unit-price"></a>Create sales price lines based on the unit price
 
 1. On the **Prices Worksheet** page, choose the **Suggest Lines** action.
 2. On the **Price Lines - Create new** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -134,7 +134,7 @@ To add new prices, on the **Prices Overview** page, use the **Add New Lines** ac
 5. Choose **OK**. New lines will be added to the **Price Worksheet** page with the selected settings and the unit prices from the item cards.
 6. Edit the created lines with the new unit prices or discounts. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-#### <a name="create-sales-price-lines-based-on-existing-price-lists" />Create sales price lines based on existing price lists
+#### <a name="create-sales-price-lines-based-on-existing-price-lists"></a>Create sales price lines based on existing price lists
 
 1. On the **Prices Worksheet** page, choose the **Copy Lines** action.
 2. On the **Price Lines - Copy existing** page, select an existing price list on the **From Price List** field.
@@ -148,7 +148,7 @@ To add new prices, on the **Prices Overview** page, use the **Add New Lines** ac
 6. Choose **OK**. New lines will be added to the **Price Worksheet** page with the selected settings.
 7. Edit the created lines with the new unit prices or discounts. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-copy-sales-prices" />To copy sales prices
+## <a name="to-copy-sales-prices"></a>To copy sales prices
 
 These steps differ, depending on whether your administrator has turned on the **New sales pricing experience** feature update. If the feature update isn't turned on, follow the steps on the Current Experience tab.
 
@@ -182,7 +182,7 @@ You can specify the settings that the price list will use:
   
 ---
 
-## <a name="to-bulk-update-item-prices" />To bulk update item prices
+## <a name="to-bulk-update-item-prices"></a>To bulk update item prices
 
 These steps differ, depending on whether your administrator has turned on the **New sales pricing experience** feature update. If the feature update isn't turned on, follow the steps on the Current Experience tab.
 
@@ -220,7 +220,7 @@ To update prices for multiple items, you must create a new price list, and then 
 
 ---
 
-## <a name="best-price-calculation" />Best price calculation
+## <a name="best-price-calculation"></a>Best price calculation
 
 After you record special prices and line discounts for sales and purchases, [!INCLUDE[prod_short](includes/prod_short.md)] calculates the best price on sales and purchase documents, and on job and item journal lines.
 
@@ -243,7 +243,7 @@ The best price is the lowest price with the highest line discount allowed on a g
 
 If no special price can be calculated for the item on the line, then either the last direct cost or the unit price from the item card is inserted.
 
-## <a name="sales-invoice-discounts-and-service-charges" />Sales invoice discounts and service charges
+## <a name="sales-invoice-discounts-and-service-charges"></a>Sales invoice discounts and service charges
 
 When you use invoice discounts, the total amount on the invoice determines the size of the discount that is granted. On the **Cust. Invoice Discounts** page, you can also add a service charge to invoices over a certain amount.  
 
@@ -265,11 +265,11 @@ In addition to, or instead of, a discount percentage, you can link a service cha
 
 For training in discounts in sales, see [Set up discounts for your customers](/training/modules/customer-discounts-dynamics-365-business-central/index).
 
-### <a name="calculating-invoice-discounts-on-sales" />Calculating invoice discounts on sales
+### <a name="calculating-invoice-discounts-on-sales"></a>Calculating invoice discounts on sales
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
-## <a name="to-set-up-a-sales-line-discount-for-a-customer" />To set up a sales line discount for a customer
+## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>To set up a sales line discount for a customer
 
 These steps differ, depending on whether your administrator has turned on the **New sales pricing experience** feature update. If the feature update isn't turned on, follow the steps on the Current Experience tab.
 
@@ -301,7 +301,7 @@ These steps differ, depending on whether your administrator has turned on the **
 
 ---
 
-## <a name="to-set-up-an-invoice-discount-for-a-customer" />To set up an invoice discount for a customer
+## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>To set up an invoice discount for a customer
 
 After you decide which customers are eligible for invoice discounts, enter the invoice discount code on the Customer Card pages. Then set up the terms for each code.
 
@@ -320,9 +320,9 @@ Proceed to set up the new sales invoice discount terms.
 4. In the **Discount %** field, enter the invoice discount as a percentage of the invoice amount.
 5. Repeat steps 5 through 7 for each currency that the customer will receive a different invoice discount for.
 
-## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/manage-sales-prices-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/manage-sales-prices-dynamics-365-business-central/index)
 
-## <a name="see-also" />See also
+## <a name="see-also"></a>See also
 
 [Setting Up Sales](sales-setup-sales.md)  
 [Sales](sales-manage-sales.md)  

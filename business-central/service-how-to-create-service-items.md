@@ -10,18 +10,18 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# <a name="create-service-items" />Create Service Items
+# <a name="create-service-items"></a>Create Service Items
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], the term "service item" refers to equipment or items that require service. When you create a service order, you specify the items that need service. In the order, you can link a service item to an item in inventory or a service item group.    
 
 When you receive an item that needs service, you can register it as a service item. There are several ways to do so. For example, you can create a service item on the **Service Items** page, or as part of another process, such as when working with a service order.   
 
-## <a name="to-create-a-service-item" />To create a service item
+## <a name="to-create-a-service-item"></a>To create a service item
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Items**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-create-service-items-within-a-service-order" />To create service items within a service order
+## <a name="to-create-service-items-within-a-service-order"></a>To create service items within a service order
 
 When you receive items for service that you want to register as service items, you can create them as service items in the **Service Order** or **Service Quote** pages.  
 
@@ -31,7 +31,7 @@ When you receive items for service that you want to register as service items, y
 
     A number is assigned to the service item and a service item card is created. The **Service Item No.** field is filled in with the number of the new service item.
 
-## <a name="to-create-a-service-item-when-shipping-items" />To create a service item when shipping items
+## <a name="to-create-a-service-item-when-shipping-items"></a>To create a service item when shipping items
 
 When you ship items by posting either sales orders or sales invoices, the shipped items are automatically registered as service items if the following condition is met. The items must belong to a service item group with the **Create Service Item** check box selected. If the items have serial numbers registered in the Item Tracking Lines page, this information is copied automatically to the **Serial No.** field on the service item card when creating service items.  
 
@@ -48,7 +48,7 @@ The following procedure shows how to create service items when you ship items on
 >   
 >  If an item is a BOM and you have not exploded the BOM, a service item is created for it based on the service item group condition and, optionally, the serial numbers condition.  
 
-## <a name="to-insert-a-starting-fee-for-a-service-item" />To insert a starting fee for a service item
+## <a name="to-insert-a-starting-fee-for-a-service-item"></a>To insert a starting fee for a service item
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Tasks**, and then choose the related link.
 2. Choose the **Item Worksheet** action.
@@ -56,9 +56,9 @@ The following procedure shows how to create service items when you ship items on
 
     A service line of type **Cost** is inserted with the starting fee. The starting fee applies to the selected service item.
 
-## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/create-items/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-items/)
 
-## <a name="see-also" />See also
+## <a name="see-also"></a>See also
 
 [Set Up Service Items and Service Item Components](service-how-setup-service-items.md)  
 [Setting Up Service Management](service-setup-service.md)  

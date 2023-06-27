@@ -11,7 +11,7 @@ ms.date: 06/10/2021
 ms.author: edupont
 ---
 
-# <a name="exchanging-data-electronically" />Exchanging Data Electronically
+# <a name="exchanging-data-electronically"></a>Exchanging Data Electronically
 You can use the Data Exchange Framework to manage the exchange of business documents, bank files, currency exchange rates, and any other data files with your business partners.
 
 In the standard version of [!INCLUDE[prod_short](includes/prod_short.md)], the Data Exchange Framework is used in processes such as exchanging electronic documents, importing and exporting bank files, and updating exchange rates for currencies. For more information, see [About the Data Exchange Framework](across-about-the-data-exchange-framework.md).
@@ -26,7 +26,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Prepare to exchange data in a file by reusing the file’s XML schema. Set up data exchange definitions. Set up master data for electronic document sending. Set up various bank import/export fields.|[Setting Up Data Exchange](across-set-up-data-exchange.md)|  
 |Based on data exchange definitions, send PEPPOL invoices, receive PEPPOL invoices, import bank statements, and export bank payment files.|[Exchanging Data](across-exchange-data.md)|  
 
-## <a name="see-also" />See Also
+## <a name="see-also"></a>See Also
 [About the Data Exchange Framework](across-about-the-data-exchange-framework.md)  
 [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Setting Up Data Exchange](across-set-up-data-exchange.md)  

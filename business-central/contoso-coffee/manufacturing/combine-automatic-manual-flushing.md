@@ -8,15 +8,15 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="walkthrough-combine-automatic-and-manual-flushing" />Walkthrough: Combine Automatic and Manual Flushing
+# <a name="walkthrough-combine-automatic-and-manual-flushing"></a>Walkthrough: Combine Automatic and Manual Flushing
 
 In this article, we take you through the steps to use the Contoso Coffee demo data in flushing.  
 
-## <a name="scenario" />Scenario
+## <a name="scenario"></a>Scenario
 
 You are the production planner at Contoso Coffee. You must create a new production order for ten units of item SP-SCM1004, AutoDrip. Some components and operations will be forward flushed, others backward flushed based on different conditions.
 
-## <a name="steps" />Steps
+## <a name="steps"></a>Steps
 
 > [Note!] Remember to adjust inventory by posting Item Journal with opening balances.
 
@@ -103,7 +103,7 @@ You are the production planner at Contoso Coffee. You must create a new producti
 
 That's it for manual and automatic flushing of components.
 
-## <a name="see-also" />See also
+## <a name="see-also"></a>See also
 
 [Flush Components According to Operation Output](../../production-how-to-flush-components-according-to-operation-output.md)  
 [Introduction to Contoso Coffee Demo Data](contoso-coffee-manufacturing-intro.md)  

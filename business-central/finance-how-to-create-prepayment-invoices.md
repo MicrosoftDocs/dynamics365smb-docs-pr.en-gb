@@ -9,7 +9,7 @@ ms.date: 02/02/2023
 ms.custom: bap-template
 ms.search.form: '42, 50, 9305, 9307'
 ---
-# <a name="create-prepayment-invoices" />Create Prepayment Invoices
+# <a name="create-prepayment-invoices"></a>Create Prepayment Invoices
 
 If you require customers to pay before you'll ship their order, you can use the prepayment features. The same applies if your vendor requires you to pay before they ship an order to you.  
 
@@ -19,7 +19,7 @@ After you create a sales or purchase order, you can create a prepayment invoice 
 
 The following procedure describes how to invoice a prepayment for a sales order. The steps are similar for purchase orders.  
 
-## <a name="to-create-a-prepayment-invoice" />To create a prepayment invoice
+## <a name="to-create-a-prepayment-invoice"></a>To create a prepayment invoice
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2. Create a new sales order for the relevant customer. For more information, see [Sell Products](sales-how-sell-products.md).  
@@ -70,13 +70,13 @@ You can issue other prepayment invoices for the order. To issue another invoice,
 
  When you're ready to post the rest of the invoice, post it as you would post any invoice, and the prepayment amount will automatically be deducted from the amount due.  
 
-## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically" />Update the Status of Prepaid Orders and Invoices Automatically
+## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>Update the Status of Prepaid Orders and Invoices Automatically
 
 You can speed up order and invoice processing by setting up job queue entries that automatically update the status of those documents. When a prepayment invoice is paid, the job queue entries can automatically change the document status from **Pending Prepayment** to **Released**. When you set up the job queue entries, the codeunits you'll need to use are **383 Upd. Pending Prepmt. Sales** and **383 Upd. Pending Prepmt. Purchase**. We recommend that you schedule the entries to run frequently, for example, every minute. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/prepayment-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
-## <a name="see-also" />See also
+## <a name="see-also"></a>See also
 
 [Invoicing Prepayments](finance-invoice-prepayments.md)  
 [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

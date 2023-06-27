@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# <a name="create-special-orders" />Create Special Orders
+# <a name="create-special-orders"></a>Create Special Orders
 
 You can create a special order for a specific catalogue item to be shipped to a specific customer. Your vendor ships the item to your warehouse and you can then ship the item on to your customer either independently or together with other items on another order.  
 
@@ -18,7 +18,7 @@ Special orders imply that the purchase and sales order are linked to ensure that
 
 Before you can use this feature, you must first set up the customer, vendor, and item cards necessary for the order.  
 
-## <a name="to-create-a-special-order" />To create a special order
+## <a name="to-create-a-special-order"></a>To create a special order
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Order**, and then choose the related link.  
 2. Choose the **New** action. Create and fill in a  sales order for the item. For more information, see [Sell Products](sales-how-sell-products.md).
@@ -38,9 +38,9 @@ A purchase order created as a special order for a sales order is respected by th
 > [!NOTE]  
 >  You cannot use the special order functionality if the item is already reserved. Therefore, for items that are sold on special orders, make sure the **Reserve** field on the item card is not set to **Always**.  
 
-## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
-## <a name="see-also" />See also
+## <a name="see-also"></a>See also
 
 [Work with Catalogue Items](inventory-how-work-nonstock-items.md)  
 [Sales](sales-manage-sales.md)  

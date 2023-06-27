@@ -11,7 +11,7 @@ ms.search.form: '1533,'
 ms.date: 05/31/2023
 ms.author: bholtorf
 ---
-# <a name="set-up-a-sequence-of-workflow-users" />Set Up a Sequence of Workflow Users
+# <a name="set-up-a-sequence-of-workflow-users"></a>Set Up a Sequence of Workflow Users
 
 Before you can create approval workflows, you must set up the users who will submit requests and their approvers. For example, you can specify who will receive a notification to act on a workflow step. You set up approval workflow participants on the **Approval User Setup** page. Learn more at [Set Up Approval Users](across-how-to-set-up-approval-users.md).
 
@@ -19,7 +19,7 @@ On the **Workflow User Groups** page, you can specify where a participant engage
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
-## <a name="to-set-up-a-workflow-user-group" />To set up a workflow user group
+## <a name="to-set-up-a-workflow-user-group"></a>To set up a workflow user group
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflow User Groups**, then choose the related link.  
 2. Choose the **New** action. The **Workflow User Group** page opens.  
@@ -34,9 +34,9 @@ On the **Workflow User Groups** page, you can specify where a participant engage
 
 6. Repeat step 5 to add more workflow users to the workflow user group.  
 
-## <a name="see-related-microsoft-training" />See related [Microsoft training](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-workflows/)
 
-## <a name="see-also" />See also
+## <a name="see-also"></a>See also
 
 [Set Up Approval Users](across-how-to-set-up-approval-users.md)  
 [Setting Up Approval Workflows](across-set-up-workflows.md)  

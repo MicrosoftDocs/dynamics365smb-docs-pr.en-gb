@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="setting-up-user-accounts-for-integrating-with-microsoft-dataverse" />Setting Up User Accounts for Integrating with Microsoft Dataverse
+# <a name="setting-up-user-accounts-for-integrating-with-microsoft-dataverse"></a>Setting Up User Accounts for Integrating with Microsoft Dataverse
 
 This article provides an overview of how to set up the user accounts that are required to integrate [!INCLUDE[prod_short](includes/cds_long_md.md)] with [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="set-up-the-administrator-user-account" />Set up the administrator user account
+## <a name="set-up-the-administrator-user-account"></a>Set up the administrator user account
 
 To set up the connection between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[prod_short](includes/cds_long_md.md)], you must sign in to [!INCLUDE[prod_short](includes/prod_short.md)] with a user account that is assigned to the [!INCLUDE[prod_short](includes/prod_short.md)] Essential or [!INCLUDE[prod_short](includes/prod_short.md)] Premium licence. We'll use this account one time to install and configure some required components.
 
@@ -23,7 +23,7 @@ To set up the connection between [!INCLUDE[prod_short](includes/prod_short.md)] 
 >
 > After the connection setup is done, you can remove this [!INCLUDE[prod_short](includes/cds_long_md.md)] user. The integration will continue using the user account that is automatically created specifically for the integration.
 
-## <a name="permissions-and-security-roles-for-user-accounts-in-" />Permissions and security roles for user accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)]
+## <a name="permissions-and-security-roles-for-user-accounts-in-"></a>Permissions and security roles for user accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 The Base Integration Solution creates the following roles in [!INCLUDE[cds_long](includes/cds_long_md.md)] for the integration:
 
@@ -39,10 +39,10 @@ When you install the Base Integration Solution, it configures the permissions fo
 <!--
 The following tables list the minimum permissions for the user accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-### <a name="minimum-permissions-for-the-administrator" />Minimum Permissions for the Administrator
+### <a name="minimum-permissions-for-the-administrator"></a>Minimum Permissions for the Administrator
 The following table displays the minimum permissions on each tab for each security role that is required for the administrator user.
 
-##### <a name="customization" />Customization
+##### <a name="customization"></a>Customization
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
 |Model Driven App|Global|||Read|
@@ -54,17 +54,17 @@ The following table displays the minimum permissions on each tab for each securi
 |SDK Message Proessing Step Image|Global|Read|Read|Read|
 |System From|Global|||Write|
 
-##### <a name="custom-entities" />Custom Entities
+##### <a name="custom-entities"></a>Custom Entities
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2020|
 |----|----|-----|----|----|
 |Business Central Account Statistics|Global|Read|Read|Read|
 |Business Central Connection|Global|Create, Read, Write, Delete|Create, Read, Write, Delete|Create, Read, Write, Delete|
 |Post Configuration|Global|||Write|
 
-### <a name="minimum-permissions-for-automatically-created--integration-application-user" />Minimum Permissions for automatically created [!INCLUDE[prod_short](includes/prod_short.md)] Integration application user
+### <a name="minimum-permissions-for-automatically-created--integration-application-user"></a>Minimum Permissions for automatically created [!INCLUDE[prod_short](includes/prod_short.md)] Integration application user
 The following table displays the minimum permissions on each tab for each security role that is required for the automatically created [!INCLUDE[prod_short](includes/prod_short.md)] Integration application user.
 
-##### <a name="core-records" />Core Records
+##### <a name="core-records"></a>Core Records
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
 |Account|Global|Create, Read, Write, Append, Append To, Assign|Create, Read, Write, Append, Append To, Assign|Create, Read, Write, Append, Append To, Assign|
@@ -76,7 +76,7 @@ The following table displays the minimum permissions on each tab for each securi
 |Post|Global|||Create, Read, Append To|
 |User Entity UI|User|Create, Read, Write|Create, Read, Write|Create, Read, Write|
 
-##### <a name="sales" />Sales
+##### <a name="sales"></a>Sales
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
 |Invoice|Global|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
@@ -87,12 +87,12 @@ The following table displays the minimum permissions on each tab for each securi
 |Property Option Set Item|Global|Read|Read|Read|
 |Quote|Global|Read|Read|Read|
 
-##### <a name="service" />Service
+##### <a name="service"></a>Service
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
 |Case|Global|Read|Read|Read|
 
-##### <a name="business-management" />Business Management
+##### <a name="business-management"></a>Business Management
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
 |Currency|Global|Create, Read, Write|Create, Read, Write|Create, Read, Write|
@@ -102,7 +102,7 @@ The following table displays the minimum permissions on each tab for each securi
 |User Settings|Global|Create, Read, Write, Delete, Append To|Create, Read, Write, Delete, Append To|Create, Read, Write, Delete, Append To|
 |Act on Behalf of Another User|Global|Yes|Yes|Yes|
 
-##### <a name="customization-1" />Customization
+##### <a name="customization-1"></a>Customization
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
 |Field|Global||Read|Read|
@@ -112,16 +112,16 @@ The following table displays the minimum permissions on each tab for each securi
 |SDK Message Processing Step|Global|Read|Read|Read|
 |Web Resource|Global|Read|Read|Read|
 
-##### <a name="custom-entities-1" />Custom Entities
+##### <a name="custom-entities-1"></a>Custom Entities
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
 |Dynamics 365 Business Central Account Statistics|Global|Create, Read, Write, Append To|Create, Read, Write, Append To|Create, Read, Write, Append To|
 |Dynamics 365 Business Central Connection|Global|Read|Read|Read|
 
-### <a name="product-availability-user" />Product Availability User
+### <a name="product-availability-user"></a>Product Availability User
 You can allow sales people to view inventory levels for the items they sell by granting them the permissions described in the following table.
 
-##### <a name="custom-entities-2" />Custom Entities
+##### <a name="custom-entities-2"></a>Custom Entities
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
 |Dynamics 365 Business Central Account Statistics|Global|Create, Read, Write, Append To|Create, Read, Write, Append To|Create, Read, Write, Append To|
@@ -129,7 +129,7 @@ You can allow sales people to view inventory levels for the items they sell by g
 
 -->
 
-## <a name="see-also" />See also
+## <a name="see-also"></a>See also
 
 [Integrating with Microsoft Dataverse](admin-common-data-service.md)  
 [Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

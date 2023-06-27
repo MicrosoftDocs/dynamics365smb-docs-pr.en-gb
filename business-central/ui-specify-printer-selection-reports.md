@@ -11,14 +11,14 @@ ms.search.form: '2650, 2750, 2752, 2753, 2754, 8900,'
 ms.date: 02/09/2023
 ms.author: jswymer
 ---
-# <a name="specify-a-default-printer" /><a name="default"></a>Specify a Default Printer
+# <a name="specify-a-default-printer"></a><a name="default"></a>Specify a Default Printer
 
 After printers have been set up in Business Central, you can then specify which printer you want to use by default. There are a couple of ways to specify printers to be used by default for reports and other print jobs. A default printer is useful if you work with different reports that require different printers because of their placement in the company or their output capabilities.
 
 > [!IMPORTANT]
 > The only printers that you can specify as default are **Microsoft Print to PDF** and cloud printers that have already been set up for use in Business Central, like Email printers and Universal Print printers. Cloud printers are typically set up by an admin. For more information, see [Printer Setup and Management](admin-printer-setup-overview.md).   
 
-## <a name="set-a-printer-as-a-default-printer-for-all-print-jobs" />Set a printer as a default printer for all print jobs
+## <a name="set-a-printer-as-a-default-printer-for-all-print-jobs"></a>Set a printer as a default printer for all print jobs
 
 Through the **Printer Management** page you set up a printer as a default printer for all print jobs. You can specify the printer as default for you only or for all users.
 
@@ -31,7 +31,7 @@ Through the **Printer Management** page you set up a printer as a default printe
 > [!NOTE]
 > Setting a default printer from the **Printer Management** adds an entry in the **Printer Selections**.
 
-## <a name="set-a-default-printer-for-specific-reports" />Set a default printer for specific reports
+## <a name="set-a-default-printer-for-specific-reports"></a>Set a default printer for specific reports
 
 The **Printer Selections** page lets you specify the printer a report will use by default. Default printers are set on a user-account basis. You can set a default printer for just yourself, another user, or all users.
 
@@ -60,17 +60,17 @@ You or the administrator can also use the **Printer Selections** page to define 
 > [!NOTE]
 > More specific printer selections take precedence over more general printer selections. For example, a printer selection that has values in the **User ID**, **Report ID**, and **Printer Name** fields takes precedence over a printer selection that has blank entries in the **User ID** or **Report ID** fields.
 
-## <a name="choosing-the-printer-when-running-a-report" />Choosing the printer when running a report
+## <a name="choosing-the-printer-when-running-a-report"></a>Choosing the printer when running a report
 
 Instead of using the default printer when running a report, you can override this setting from the request page. Simply choose the printer you want to use for this report generation in the **Printer** dropdown menu.
 
-## <a name="sizing-print-jobs" />Sizing print jobs
+## <a name="sizing-print-jobs"></a>Sizing print jobs
 
 Cloud printing is designed for documents of a reasonable size. Most cloud services, including PrintNode and HP ePrint, have a limit of 10 MB per job. If you need to print larger reports, you may have to split them in multiple printouts.
 
 [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/)
 
-## <a name="see-also" />See also
+## <a name="see-also"></a>See also
 
 [Printer Management](admin-printer-setup-overview.md)  
 [Set Up Universal Print Printers](admin-printer-setup-universal-print.md)  

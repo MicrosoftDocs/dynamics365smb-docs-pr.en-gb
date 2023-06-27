@@ -10,11 +10,11 @@ ms.search.form: '21, 22'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="set-up-cash-customers" />Set Up Cash Customers
+# <a name="set-up-cash-customers"></a>Set Up Cash Customers
 
 You cannot create an invoice without a customer number. This is true, even if you make a cash sale and do not have anything to record in a customer account.  
 
-## <a name="to-set-up-a-cash-customer" />To set up a cash customer
+## <a name="to-set-up-a-cash-customer"></a>To set up a cash customer
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer**, and then choose the related link.  
 2. Create a new **Customer** card. For more information, see [Register New Customers](sales-how-register-new-customers.md).
@@ -29,7 +29,7 @@ You cannot create an invoice without a customer number. This is true, even if yo
 >
 > You must enter a number for a receivables account for the posting group, even though the balance in this account will always be 0 after you post an invoice.  
 
-## <a name="see-also" />See Also
+## <a name="see-also"></a>See Also
 
 [Managing Receivables](receivables-manage-receivables.md)  
 [Register New Customers](sales-how-register-new-customers.md)

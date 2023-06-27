@@ -11,7 +11,7 @@ ms.search.form: '50, 51, 56, 9308'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="purchase-items-for-a-sale-by-creating-purchase-invoices" />Purchase Items for a Sale by Creating Purchase Invoices
+# <a name="purchase-items-for-a-sale-by-creating-purchase-invoices"></a>Purchase Items for a Sale by Creating Purchase Invoices
 
 From sales orders and sales invoices, you can use functions to quickly create purchase documents for missing item quantities that are required by the sale. You can use two different functions depending on the document type.
 
@@ -23,7 +23,7 @@ From sales orders and sales invoices, you can use functions to quickly create pu
 |**Create Purchase Orders**|From a sales order, this function creates a purchase order for each vendor of items on the sales order. You can edit the purchase quantity before you create the purchase orders. Only unavailable sales quantities are suggested.
 |**Create Purchase Invoice**|From a sales order and from a sales invoice, this function creates a purchase invoice for a selected vendor for all lines or selected lines on the sales document. The full sales quantity is suggested.|
 
-## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order" />To create one or more purchase orders from a sales order
+## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>To create one or more purchase orders from a sales order
 To create a purchase order for each unavailable item quantity on the sales order, you use the **Create Purchase Orders** function.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
@@ -43,7 +43,7 @@ To create a purchase order for each unavailable item quantity on the sales order
 7. Proceed to process the purchase order or orders, for example, by editing or adding purchase order lines. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 
 
-## <a name="to-create-a-purchase-invoice-from-a-sales-order-or-sales-invoice" />To create a purchase invoice from a sales order or sales invoice
+## <a name="to-create-a-purchase-invoice-from-a-sales-order-or-sales-invoice"></a>To create a purchase invoice from a sales order or sales invoice
 To create a single purchase invoice for one or more lines on a sales document by first selecting which vendor to buy from, you use the **Create Purchase Invoice** function.
 
 > [!NOTE]  
@@ -59,7 +59,7 @@ To create a single purchase invoice for one or more lines on a sales document by
     A purchase invoice is created that contains one, more than one, or all the lines on the sales invoice.
 7. Proceed to process the purchase invoice, for example, by editing or adding purchase invoice lines. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 
-## <a name="see-also" />See Also
+## <a name="see-also"></a>See Also
 [Purchasing](purchasing-manage-purchasing.md)  
 [Record Purchases](purchasing-how-record-purchases.md)  
 [Invoice Sales](sales-how-invoice-sales.md)  

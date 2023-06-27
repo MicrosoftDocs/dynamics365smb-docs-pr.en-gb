@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# <a name="design-details-item-tracking-and-reservations" />Design Details: Item Tracking and Reservations
+# <a name="design-details-item-tracking-and-reservations"></a>Design Details: Item Tracking and Reservations
 
 Simultaneous use of reservation and specific item tracking is uncommon, because they both create a coupling between supply and demand. Except for situations where a customer or production planner requests a specific lot, it rarely makes sense to reserve inventory items that already carry item tracking numbers for specific application. Although it is possible to reserve items that require specific item tracking, special functionality is needed to avoid availability conflicts between order processors that request the same item-tracked items.  
   
@@ -37,12 +37,12 @@ The main difference between specific and nonspecific reservation is defined by t
   
 When you reserve inventory quantities from an outbound document line for an item that has item tracking numbers assigned and is set up for specific item tracking, the **Reservation** page leads you through different workflows depending on your need for the serial or lot numbers.  
   
-## <a name="specific-reservation" />Specific Reservation
+## <a name="specific-reservation"></a>Specific Reservation
 When you choose **Reserve** from the outbound document line, a dialogue box appears that asks you if you want to reserve specific serial or lot numbers. If you choose **Yes**, then a list is displayed with all the serial or lot numbers that are assigned to the document line. The **Reservation** page opens after you select one of the serial or lot numbers, and you can then reserve among the selected serial or lot numbers in a typical fashion.  
   
 If some of the specific item tracking numbers that you are trying to reserve are held in nonspecific reservations, then a message at the bottom of the **Reservation** page informs you how many of the total reserved quantity are held in nonspecific reservations and whether they are still available.  
   
-## <a name="nonspecific-reservation" />Nonspecific Reservation
+## <a name="nonspecific-reservation"></a>Nonspecific Reservation
 If you choose **No** in the dialogue box that appears, the **Reservation** page opens and allows you to reserve among all serial or lot numbers in inventory.  
   
 Because of the structure of the reservation system, when you place a nonspecific reservation on an item-tracked item, the system must select specific item ledger entries to reserve against. Because the item ledger entries carry the item tracking numbers, the reservation indirectly reserves specific serial or lot numbers, even though you did not intend to. To handle this situation, the reservation system tries to reshuffle nonspecific reservation entries before posting.  
@@ -52,24 +52,24 @@ The system actually still reserves against specific entries, but then it uses a 
 > [!NOTE]  
 >  On a nonspecific reservation the lot number or serial number field is blank in the reservation entry that points at the demand, such as the sale.  
   
-## <a name="reshuffle" />Reshuffle
+## <a name="reshuffle"></a>Reshuffle
 When a user posts an outbound document after picking the wrong serial or lot number, other nonspecific reservations are reshuffled to reflect the actual serial or lot number that is picked. This satisfies the posting engine with a fixed application between supply and demand.  
   
 For all supported business scenarios, reshuffling  is possible only against positive item ledger entries that carry reservation and serial or lot numbers but without defined serial or lot numbers on the demand side.  
   
-## <a name="supported-business-scenarios" />Supported Business Scenarios
+## <a name="supported-business-scenarios"></a>Supported Business Scenarios
 The Late Binding functionality supports the following business scenarios:  
   
 * Entering a specific serial or lot number on an outbound document with nonspecific reservation of a wrong serial or lot number.  
 * Reserving a specific serial or lot number.  
 * Posting an outbound document with nonspecific reservation of a serial or lot number.  
   
-### <a name="entering-serial-or-lot-numbers-on-an-outbound-document-with-wrong-nonspecific-reservation" />Entering Serial or Lot Numbers on an Outbound Document with Wrong Nonspecific Reservation
+### <a name="entering-serial-or-lot-numbers-on-an-outbound-document-with-wrong-nonspecific-reservation"></a>Entering Serial or Lot Numbers on an Outbound Document with Wrong Nonspecific Reservation
 This is the most common of the three supported scenarios. In this case, the Late Binding functionality ensures that a user can enter a serial or lot number, which is actually picked, on an outbound document that already has a nonspecific reservation of another serial or lot number.  
   
 For example, the need arises when an order processor has first made a nonspecific reservation of any serial or lot number. Later when the item is actually picked from inventory, the picked serial or lot number must be entered on the order before it is posted. The nonspecific reservation is reshuffled at posting time to ensure that the picked serial or lot number can be entered without losing the reservation and to ensure that the picked serial or lot number can be fully applied and posted.  
   
-### <a name="reserve-specific-serial-or-lot-numbers" />Reserve Specific Serial or Lot Numbers
+### <a name="reserve-specific-serial-or-lot-numbers"></a>Reserve Specific Serial or Lot Numbers
 In this business scenario, Late Binding functionality ensures that a user who is trying to reserve a particular serial or lot number that is currently nonspecifically reserved can do so. A nonspecific reservation is reshuffled at the time of reservation to free the serial or lot number for the specific request.  
   
 The reshuffle happens automatically, but embedded Help is displayed at the bottom of the **Reservation** page and shows the following text:  
@@ -78,12 +78,12 @@ The reshuffle happens automatically, but embedded Help is displayed at the botto
   
 In addition, the **Nonspecific Reserved Qty.** field shows how many reservation entries are nonspecific. By default, this field is not visible to users.  
   
-### <a name="posting-an-outbound-document-with-nonspecific-reservation-of-serial-or-lot-numbers" />Posting an Outbound Document with Nonspecific Reservation of Serial or Lot Numbers
+### <a name="posting-an-outbound-document-with-nonspecific-reservation-of-serial-or-lot-numbers"></a>Posting an Outbound Document with Nonspecific Reservation of Serial or Lot Numbers
 This business scenario is supported with Late Binding functionality that enables fixed application and outbound posting of what is actually picked by reshuffling another nonspecific reservation of a serial or lot number. If reshuffling is not possible, then the following standard error message appears when the user tries to post the shipment:  
   
 **Item XX cannot be fully applied.**  
   
-## <a name="see-also" />See Also
+## <a name="see-also"></a>See Also
 [Design Details: Item Tracking](design-details-item-tracking.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
