@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 11/26/2021
 ms.author: edupont
 ---
-# <a name="application-design-details"></a>Application Design Details
+# <a name="application-design-details"></a><a name="application-design-details"></a>Application Design Details
 
 The articles in this section contain detailed technical information about complex application features in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -26,7 +26,7 @@ Design details content is aimed at implementers, developers, and super users who
 |Learn about historic and the current design of item tracking functionality and how it integrates with the reservation system to include serial/lot numbers in availability calculations.|[Design Details: Item Tracking](design-details-item-tracking.md)|  
 |Learn about the General Journal Posting Line feature.|[Design Details: General Journal Post Line](design-details-general-journal-post-line.md)|
 
-## <a name="see-also"></a>See Also
+## <a name="see-also"></a><a name="see-also"></a>See Also
 
 [Planning](production-planning.md)  
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  

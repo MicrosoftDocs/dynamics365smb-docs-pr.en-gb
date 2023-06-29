@@ -10,14 +10,14 @@ ms.custom: bap-template
 ms.search.keywords: 'move, warehouse'
 ms.search.forms: '5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 5741, 5742, 5757, 5748, 5747, 9285, 5756, 5755'
 ---
-# <a name="transfer-inventory-between-locations"></a>Transfer Inventory Between Locations
+# <a name="transfer-inventory-between-locations"></a><a name="transfer-inventory-between-locations"></a>Transfer Inventory Between Locations
 
 You can transfer inventory items between locations by creating transfer orders. Alternatively, you can use the item reclassification journal.
 
 > [!NOTE]
 > To transfer items, you must set up locations and transfer routes. To learn more about setting up locations, go to [Set Up Locations](inventory-how-setup-locations.md). You can't use transfer orders for *blank* locations.
 
-## <a name="transfer-orders"></a>Transfer orders
+## <a name="transfer-orders"></a><a name="transfer-orders"></a>Transfer orders
 
 You can ship an outbound transfer from one location and receive an inbound transfer at the destination. You can:
 
@@ -26,7 +26,7 @@ You can ship an outbound transfer from one location and receive an inbound trans
 * Use different warehouse features for inbound and outbound locations.
 * With some limitations, you can use transfer orders for direct transfers.
 
-## <a name="item-reclassification-journals"></a>Item reclassification journals
+## <a name="item-reclassification-journals"></a><a name="item-reclassification-journals"></a>Item reclassification journals
 
 * Simple, direct transfer of items between locations.
 * Move items between bins. To learn more about transferring items between bins, go to [Move Items Unplanned in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
@@ -35,7 +35,7 @@ You can ship an outbound transfer from one location and receive an inbound trans
 * Reclassify items from a *blank* location to an actual location.
 * Warehouse activities are not managed. Warehouse entries will be created.
 
-## <a name="to-transfer-items-with-a-transfer-order"></a>To transfer items with a transfer order
+## <a name="to-transfer-items-with-a-transfer-order"></a><a name="to-transfer-items-with-a-transfer-order"></a>To transfer items with a transfer order
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer orders**, and then choose the related link.
 2. On the **Transfer Order** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -60,7 +60,7 @@ You can ship an outbound transfer from one location and receive an inbound trans
     As a warehouse worker at the transfer-from location, proceed to receive the items. The transfer order lines are the same as when shipped and cannot be edited.
 5. Choose the **Post** action, choose the **Receive** option, and then choose the **OK** button.
 
-### <a name="post-multiple-transfer-orders-in-a-batch"></a>Post multiple transfer orders in a batch
+### <a name="post-multiple-transfer-orders-in-a-batch"></a><a name="post-multiple-transfer-orders-in-a-batch"></a>Post multiple transfer orders in a batch
 
 The following procedure explains how to post transfer orders in a batch.
 
@@ -80,7 +80,7 @@ The following procedure explains how to post transfer orders in a batch.
     > [!NOTE]
     > Posting multiple documents might take some time and block other users. Consider enabling background posting. For more information, see [Use Job Queues to Schedule Tasks](/dynamics365/business-central/admin-job-queues-schedule-tasks).
 
-### <a name="schedule-a-job-queue-entry-to-post-multiple-documents-in-a-batch"></a>Schedule a job queue entry to post multiple documents in a batch
+### <a name="schedule-a-job-queue-entry-to-post-multiple-documents-in-a-batch"></a><a name="schedule-a-job-queue-entry-to-post-multiple-documents-in-a-batch"></a>Schedule a job queue entry to post multiple documents in a batch
 
 Alternatively, you can use the job queue to schedule posting to happen at a time that's convenient for your organisation. For example, it might make sense for your business to run certain routines when most of the data entry is done for the day.
 
@@ -100,7 +100,7 @@ The following procedure shows how to set up the **Batch Post Transfer Orders** r
 8. In the **Starting Time** field, enter **4 PM**.
 9. Choose the **Set Status to Ready** action.
 
-## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>To transfer items with the item reclassification journal
+## <a name="to-transfer-items-with-the-item-reclassification-journal"></a><a name="to-transfer-items-with-the-item-reclassification-journal"></a>To transfer items with the item reclassification journal
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Reclass. Journals**, and then choose the related link.
 2. On the **Item Reclass. Journal** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -113,7 +113,7 @@ The following procedure shows how to set up the **Batch Post Transfer Orders** r
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="undo-a-transfer-shipment"></a>Undo a transfer shipment
+## <a name="undo-a-transfer-shipment"></a><a name="undo-a-transfer-shipment"></a>Undo a transfer shipment
 
 If you find a mistake in a quantity on a posted transfer order, as long as the shipment isn't received you can easily correct the quantity. On the **Poster Transfer Shipment** page, the **Undo Shipment** action creates corrective lines, as follows:
 
@@ -125,9 +125,9 @@ If the quantity was shipped in a warehouse shipment, a corrective line is create
 
 To complete the correction, reopen the transfer order, enter the correct quantity, and then post the order. If you're using a warehouse shipment to ship the order, create and post a new warehouse shipment.
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/transfer-items/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/transfer-items/)
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
 [Manage Inventory](inventory-manage-inventory.md)  
 [Set Up Locations](inventory-how-setup-locations.md)  

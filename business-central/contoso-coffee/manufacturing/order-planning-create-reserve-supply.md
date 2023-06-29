@@ -8,15 +8,15 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="walkthrough-use-order-planning-to-create-and-reserve-supply"></a>Walkthrough: Use Order Planning to Create and Reserve Supply
+# <a name="walkthrough-use-order-planning-to-create-and-reserve-supply"></a><a name="walkthrough-use-order-planning-to-create-and-reserve-supply"></a>Walkthrough: Use Order Planning to Create and Reserve Supply
 
 In this article, we take you through the steps to use the Contoso Coffee demo data in order planning.
 
-## <a name="scenario"></a>Scenario
+## <a name="scenario"></a><a name="scenario"></a>Scenario
 
 You are the production planner at Contoso Coffee. You created a production order for 100 units of the item **SP-SCM1009, Airpot**, and you want to plan subassemblies for this order. You use order planning to create the required production order for the supply. Because you are creating the production order to fulfil the requirements of a specific order, you decide to reserve the output of the production order.  
 
-## <a name="steps"></a>Steps
+## <a name="steps"></a><a name="steps"></a>Steps
 
 1. Create the new released production order for 100 units of item **SP-SCM1009, Airpot**.
 
@@ -59,7 +59,7 @@ You are the production planner at Contoso Coffee. You created a production order
 
 That's it for order planning in [!INCLUDE [prod_short](../../includes/prod_short.md)].  
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
 [Introduction to Contoso Coffee Demo Data](../contoso-coffee-intro.md)  
 [About Production Orders](../../production-about-production-orders.md)  

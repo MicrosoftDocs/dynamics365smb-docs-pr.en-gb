@@ -11,7 +11,7 @@ ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.custom: bap-template
 ---
-# <a name="assemble-items"></a>Assemble Items
+# <a name="assemble-items"></a><a name="assemble-items"></a>Assemble Items
 
 If the **Replenishment System** field on the item card contains **Assembly**, the default method of supplying the item is to assemble it according to an assembly BOM, and potentially by a specific resource. Learn more at [Work with Assembly BOMs](assembly-how-work-assembly-boms.md). Learn more about how to set up an assembly item at [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md).
 
@@ -27,7 +27,7 @@ This article describes the standard settings for assemble to stock. There might 
 > [!NOTE]  
 > Assembly components are handled in a special way in basic warehouse configurations. Learn more at [Handling Assemble-to-Order Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-## <a name="to-assemble-an-item-to-stock"></a>To assemble an item to stock
+## <a name="to-assemble-an-item-to-stock"></a><a name="to-assemble-an-item-to-stock"></a>To assemble an item to stock
 
 Follow the steps in this procedure to assemble an item to stock. To learn about assemble to order, go to [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).
 
@@ -61,9 +61,9 @@ Follow the steps in this procedure to assemble an item to stock. To learn about 
 
 After posting succeeds, the assembly item is posted as output to the location code and potential bin code that are defined on the assembly order. For manually created assembly orders, the location may be copied from the **Default Location for Orders** setup field. For assemble-to-order flows, the location code may be copied from the sales order line.  
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/assemble-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
 [Assembly Management](assembly-assemble-items.md)  
 [Work with Assembly BOMs](assembly-how-work-assembly-boms.md)  

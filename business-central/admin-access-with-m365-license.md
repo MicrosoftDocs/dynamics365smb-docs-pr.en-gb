@@ -11,13 +11,13 @@ ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
 
-# <a name="business-central-access-with-microsoft-365-licenses"></a>Business Central Access with Microsoft 365 Licences
+# <a name="business-central-access-with-microsoft-365-licenses"></a><a name="business-central-access-with-microsoft-365-licenses"></a>Business Central Access with Microsoft 365 Licences
 
 [!INCLUDE[prod_short](includes/prod_short.md)] users are assigned a Dynamics 365 Business Central licence that allows them to view, modify and act on their business data from any user interface. For all other employees across the organisation that only need to occasionally view data, Business Central offers access through Microsoft 365.  
 
 When an organisation has both a Dynamics 365 Business Central and Microsoft 365 subscription, administrators can configure environments to enable access with Microsoft 365 licences, and choose exactly which tables and other objects this category of user will have access to. When configured, employees that have a Microsoft 365 licence but no [!INCLUDE [prod_short](includes/prod_short.md)] licence can view [!INCLUDE [prod_short](includes/prod_short.md)] records that are shared with them in Microsoft Teams chat and channels.
 
-## <a name="why-enable-access-with-microsoft-365-licenses"></a>Why enable access with Microsoft 365 licences
+## <a name="why-enable-access-with-microsoft-365-licenses"></a><a name="why-enable-access-with-microsoft-365-licenses"></a>Why enable access with Microsoft 365 licences
 
 - Unlock master data that every employee across the organisation should have access to.
 
@@ -31,11 +31,11 @@ When an organisation has both a Dynamics 365 Business Central and Microsoft 365 
 
 - Improve data security by reducing the need for pasting screen snippets of business data outside of data governance boundaries.
 
-## <a name="use-rights"></a>Use rights
+## <a name="use-rights"></a><a name="use-rights"></a>Use rights
 
 When a person accesses [!INCLUDE [prod_short](includes/prod_short.md)] with a Microsoft 365 licence, the licence entitles the user to read (but not write) [!INCLUDE [prod_short](includes/prod_short.md)] data through a simplified user interface in Microsoft Teams. This section explains these use rights and limitations that help you plan how to configure and make the most out of this capability. For more information on this licence type compared to other [!INCLUDE [prod_short](includes/prod_short.md)] licences, consult the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544).
  
-### <a name="client-access"></a>Client access
+### <a name="client-access"></a><a name="client-access"></a>Client access
 
 Users are entitled to access [!INCLUDE [prod_short](includes/prod_short.md)] data in Microsoft Teams. The following table summarises which of the different methods of accessing the [!INCLUDE [prod_short](includes/prod_short.md)] service are allowed with this licence.
 
@@ -48,15 +48,15 @@ Users are entitled to access [!INCLUDE [prod_short](includes/prod_short.md)] dat
 |Business Central integrations with other Office applications|![No](media/x-icon.png )|
 |Business Central embedded in any other applications |![No](media/x-icon.png )|
 
-### <a name="data-access"></a>Data access
+### <a name="data-access"></a><a name="data-access"></a>Data access
 
 Users are entitled to read table data but can't modify, create or delete records. The [!INCLUDE [prod_short](includes/prod_short.md)] platform automatically prevents writing to any data tables.  
 
-### <a name="use-of-objects"></a>Use of objects
+### <a name="use-of-objects"></a><a name="use-of-objects"></a>Use of objects
 
 Access with Microsoft 365 licences doesn't restrict which Business Central objects or object ranges can be accessed. Users are entitled to access the Microsoft base application and any extensions such as customisations and add-on apps.
 
-## <a name="simplified-user-interface"></a>Simplified user interface
+## <a name="simplified-user-interface"></a><a name="simplified-user-interface"></a>Simplified user interface
 
 Users are entitled to a reduced set of features and functions provided by [!INCLUDE [prod_short](includes/prod_short.md)] in Microsoft Teams. The tables below indicate noteworthy features. This isn't an exhaustive list and is subject to change.
 
@@ -90,17 +90,17 @@ Functions of the [!INCLUDE [prod_short](includes/prod_short.md)] client embedded
 |Inline user assistance|![Yes](media/check.png) |Tooltips, links to documentation|
 |Advanced user assistance |![No](media/x-icon.png )|Page and field teaching tips, Help pane|
 
-## <a name="minimum-requirements"></a>Minimum requirements
+## <a name="minimum-requirements"></a><a name="minimum-requirements"></a>Minimum requirements
 
 This section describes the minimum requirements that must be met for your organisation to enable access with Microsoft 365 licences, and for individual Microsoft Teams users to access [!INCLUDE [prod_short](includes/prod_short.md)] data without a [!INCLUDE [prod_short](includes/prod_short.md)] licence.
 
-### <a name="requirements-to-enable-access"></a>Requirements to enable access
+### <a name="requirements-to-enable-access"></a><a name="requirements-to-enable-access"></a>Requirements to enable access
 
 - [!INCLUDE [prod_short](includes/prod_short.md)] online (SaaS).
 
 - Environments must be of platform version 21.1 or later.
 
-### <a name="requirements-for-individual-users-to-access-data-in-teams"></a>Requirements for individual users to access data in Teams
+### <a name="requirements-for-individual-users-to-access-data-in-teams"></a><a name="requirements-for-individual-users-to-access-data-in-teams"></a>Requirements for individual users to access data in Teams
 
 - Data must be accessed using the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams. Users must have the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams installed and must use one of the supported Teams clients. For a list of Teams clients supported by [!INCLUDE [prod_short](includes/prod_short.md)], see [Minimum Requirements for Using Business Central](product-requirements.md#teams).
 
@@ -138,11 +138,11 @@ This section describes the minimum requirements that must be met for your organi
 
 - The organisation must have at least one other user that is assigned a Dynamics 365 Business Central licence.
 
-## <a name="next-steps"></a>Next steps
+## <a name="next-steps"></a><a name="next-steps"></a>Next steps
 
 - Get an understanding of the user access flow to help plan your approach and configuration of Business Central to match the business needs. See [User Access Flow](admin-access-with-m365-license-flow.md).
 - Set up your environment and users for access with Microsoft 365 licences. See [Set Up Access with Microsoft 365 Licences ](admin-access-with-m365-license-setup.md).
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
 [Business Central and Microsoft Teams Integration](across-teams-overview.md)  

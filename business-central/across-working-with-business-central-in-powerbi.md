@@ -10,15 +10,15 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 09/07/2022
 ms.author: jswymer
 ---
-# <a name="work-with--data-in-power-bi"></a>Work with [!INCLUDE [prod_short](includes/prod_short.md)] Data in Power BI
+# <a name="work-with--data-in-power-bi"></a><a name="work-with--data-in-power-bi"></a>Work with [!INCLUDE [prod_short](includes/prod_short.md)] Data in Power BI
 
 In this article, you learn some of the basics about working with reports and dashboards in Power BI that use [!INCLUDE [prod_short](includes/prod_short.md)] as a data source. The article discusses some aspects that will help you get started as a [!INCLUDE[prod_short](includes/prod_short.md)] user. For general guidelines and instructions about using Power BI, see [Power BI documentation for consumers](/power-bi/consumer).
 
-## <a name="get-ready"></a>Get ready
+## <a name="get-ready"></a><a name="get-ready"></a>Get ready
 
 Sign up for the Power BI service. If you haven't already signed up, go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com). When you sign up, use a work email address and password.
 
-## <a name="get-started"></a>Get started
+## <a name="get-started"></a><a name="get-started"></a>Get started
 
 Once you have a Power BI account, you can sign in at [https://powerbi.microsoft.com/](https://powerbi.microsoft.com/).
 
@@ -30,21 +30,21 @@ With [!INCLUDE[prod_short](includes/prod_short.md)] online, you'll automatically
 
 If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you'll have to start from scratch by using Power BI Desktop. Optionally, Power BI reports can be distributed as files, that you can upload.
 
-## <a name="get-the-latest-data"></a>Get the latest data
+## <a name="get-the-latest-data"></a><a name="get-the-latest-data"></a>Get the latest data
 
 Each Power BI report is based on a dataset that gets data from the [!INCLUDE[prod_short](includes/prod_short.md)] sources. You want to make sure that the data in your Power BI reports is up to date with the data in [!INCLUDE[prod_short](includes/prod_short.md)]. This concept is referred to as *refreshing*.  Depending on how your organisation has set up Power BI, refreshing might not happen automatically. There are two ways to refresh data: manually or by scheduling a refresh. Manual refreshing is done on-demand, as needed. Scheduled refreshing lets you refresh automatically at defined time intervals.
 
-### <a name="refresh-manually"></a>Refresh manually
+### <a name="refresh-manually"></a><a name="refresh-manually"></a>Refresh manually
 
 In the navigation pane, under **Datasets**, select **More options (...)** next to the dataset, then select **Refresh now**.
 
-### <a name="schedule-a-refresh"></a>Schedule a refresh
+### <a name="schedule-a-refresh"></a><a name="schedule-a-refresh"></a>Schedule a refresh
 
 In the navigation pane, under Datasets, select More options (...) next to the dataset, then select **Schedule refresh**. Fill in the information under the **Schedule refresh** section, and select **Apply**.
 
 For more information, see [Configure scheduled refresh](/power-bi/connect-data/refresh-scheduled-refresh)
 
-## <a name="upload-reports-from-files"></a><a name="upload"></a>Upload reports from files
+## <a name="upload-reports-from-files"></a><a name="upload-reports-from-files"></a><a name="upload"></a>Upload reports from files
 
 Power BI Reports can be distributed among users as .pbix files. If you have a .pbix file, you can upload the file to a workspace. To upload a report, do the following steps:
 
@@ -62,7 +62,7 @@ For more information, see [Upload the report to the service](/power-bi/paginated
 > [!TIP]
 > If you're using [!INCLUDE[prod_short](includes/prod_short.md)] online, you can also upload a report from within [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Work with Power BI Reports in [!INCLUDE [prod_short](includes/prod_short.md)] - Upload Reports](across-working-with-powerbi.md#upload).
 
-## <a name="share-reports-with-others"></a><a name="share"></a>Share reports with others
+## <a name="share-reports-with-others"></a><a name="share-reports-with-others"></a><a name="share"></a>Share reports with others
 
 Once a report is in your workspace, you can share it with others in your organisation.
 
@@ -71,9 +71,9 @@ To share a report, in a list reports, or in an open report, select **Share**. In
 > [!NOTE]
 > You must have  [Power BI Pro licence](/power-bi/service-features-license-type), and the people you share with do too. The content must be in a workspace in a [Premium capacity](/power-bi/service-premium-what-is). For more information, see [Ways to share your work in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>See Also
+## <a name="see-also"></a><a name="see-also"></a>See Also
 
 [Business Central and Power BI](admin-powerbi.md)  
 [Building Power BI Reports to Display [!INCLUDE [prod_long](includes/prod_long.md)] Data](across-how-use-financials-data-source-powerbi.md)  

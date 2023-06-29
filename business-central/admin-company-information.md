@@ -8,7 +8,7 @@ ms.date: 08/31/2022
 ms.author: edupont
 ---
 
-# <a name="company-information-overview"></a>Company Information Overview
+# <a name="company-information-overview"></a><a name="company-information-overview"></a>Company Information Overview
 
 [!INCLUDE[prod_short](includes/prod_short.md)] organises business entities in *companies*. For each company, you must fill in some of the basic company details and relevant information on the **Company Information** page. The information on the [**Company Information**](https://businesscentral.dynamics.com/?page=1) page is used in documents, such as invoice headers. You can set up more than one company, such as a parent company and a subsidiary.  
 
@@ -22,13 +22,13 @@ The **Company Information** page contains different fields and FastTabs, dependi
 
 Once you have completed filling in the information, you can close the page.  
 
-## <a name="working-with-multiple-companies"></a>Working with multiple companies
+## <a name="working-with-multiple-companies"></a><a name="working-with-multiple-companies"></a>Working with multiple companies
 
 If your [!INCLUDE [prod_short](includes/prod_short.md)] includes multiple companies, your users might want to use *company badges* to help them quickly identify and keep track of which company they're currently working in. For more information, see [Display a company badge](#badge).
 
 There are a few features you can use to switch among companies as you work, like the company switcher (<kbd>Ctrl</kbd>+<kbd>O</kbd>). Learn more at [Switch to Another Company or Environment](ui-organization-switch.md).
 
-## <a name="display-a-company-badge"></a><a name="badge"></a>Display a company badge
+## <a name="display-a-company-badge"></a><a name="display-a-company-badge"></a><a name="badge"></a>Display a company badge
 
 When there's more than one company or environment, you'll see the company switcher on the upper-right side of the app bar, near the search icon in the app bar. By default, the company switcher uses a standard company icon, like ![company icon Launcher.](media/ui-experience/company-icon.png "Displays the company switcher icon used when there is a single environment") and ![company-icon-mult-env](media/ui-experience/company-icon-multi-env.png "Displays the company switcher icon used when there are multiple environments").
 
@@ -42,7 +42,7 @@ Using the **Company Information** page, you can replace the standard company ico
 > [!NOTE]
 > The company switcher was introduced in 2022 release wave 2, version 21. In earlier releases, the company badge isn't used for switching companies. It's shown in the upper-right corner of most pages, even when there's only one company. Selecting it will show the full company name and environment name.
 
-## <a name="change-company-display-name"></a>Change company display name
+## <a name="change-company-display-name"></a><a name="change-company-display-name"></a>Change company display name
 
 The company name is always displayed at the top left corner and works as an action that you can choose to go back to the Role Centre. You can change this name on the **Company Information** page.
 
@@ -50,13 +50,13 @@ The company name is always displayed at the top left corner and works as an acti
 2. In the **Name** field, enter the new company name.
 3. Leave the page. The system restarts and displays the new company in the top-left corner.
 
-## <a name="experience"></a>Experience
+## <a name="experience"></a><a name="experience"></a>Experience
 
 The default user experience in a [!INCLUDE [prod_short](includes/prod_short.md)] trial doesn't reveal all capabilities. You can switch on the full experience on the **Company Information** page. For more information, see [Change Which Features are Displayed](ui-experiences.md).  
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-new-companies-dynamics-365-business-central/)
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
 [Overview of Tasks to Set Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Company Information Quick Start](quick-start-company-information.md)  

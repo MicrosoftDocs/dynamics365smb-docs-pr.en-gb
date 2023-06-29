@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="setup-best-practices-reordering-policies"></a>Setup Best Practices: Reordering Policies
+# <a name="setup-best-practices-reordering-policies"></a><a name="setup-best-practices-reordering-policies"></a>Setup Best Practices: Reordering Policies
 
 The **Reordering Policy** field on item cards offers four different planning methods that determine how the individual planning parameters interact.  
 
@@ -35,9 +35,9 @@ The following table provides best practices for selecting between the four polic
 |**Fixed Reorder Qty.**|Use for C items.<br /><br /> Combine with reorder-point parameters.<br /><br /> In manufacturing, use for lowest-level components.<br /><br /> Do not use if the item is often reserved.|C items, such as tea cups, are low-value items with high and regular order velocity. The best reordering policy for C items is therefore one that guarantees constant availability by always staying above a reorder point.<br /><br /> If the user reserves a quantity for some distant demand, then the planning foundation will be disturbed. Even if the projected inventory level is acceptable with regard to the reorder point, the quantities may not be available because of the reservation.|  
 |**Maximum Qty.**|Use for C items with high carrying costs or storing limitations.<br /><br /> Combine with one or more order modifiers (Minimum/Maximum Order Quantity or Order Multiple).|C items, such as tea cups, are low-value items with high and regular order velocity. The best reordering policy for C items is therefore one that guarantees constant availability by always staying above a reorder point, but below a maximum inventory quantity.<br /><br /> To modify the suggested order, you may want the order quantity to be decreased to a specified maximum order quantity, increased to a specified minimum order quantity, or rounded up to meet a specified order multiple. **Note:**  If used with a reorder point, then inventory stays between the reorder point and the maximum quantity.|  
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/replenish-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/replenish-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
  [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)  
  [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)  

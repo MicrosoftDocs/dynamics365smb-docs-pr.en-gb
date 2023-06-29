@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 09/08/2022
 ms.author: edupont
 ---
-# <a name="create-workflows-from-workflow-templates"></a>Create Workflows from Workflow Templates
+# <a name="create-workflows-from-workflow-templates"></a><a name="create-workflows-from-workflow-templates"></a>Create Workflows from Workflow Templates
 
 To save time when creating new approval workflows, you can use workflow templates.  
 
@@ -20,7 +20,7 @@ Another way to quickly create a workflow is to import an existing workflow you h
 
 On the **Workflow** page, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. Learn more at [Create Workflows](across-how-to-create-workflows.md).  
 
-## <a name="to-create-a-workflow-from-a-workflow-template"></a>To create a workflow from a workflow template
+## <a name="to-create-a-workflow-from-a-workflow-template"></a><a name="to-create-a-workflow-from-a-workflow-template"></a>To create a workflow from a workflow template
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, then choose the related link.  
 2. Choose the **New Workflow from Template** action. The **Workflow Templates** page opens.  
@@ -29,9 +29,9 @@ On the **Workflow** page, you create a workflow by listing the involved steps on
    The **Workflow** page opens for a new workflow containing all the information of the selected template. The value in the **Code** field is extended with, for example, "-01" to indicate this is the first workflow created from the workflow template.  
 4. Proceed to create the workflow by editing the workflow steps or adding new steps. Learn more at [Create Workflows](across-how-to-create-workflows.md).  
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
 [Create Approval Workflows](across-how-to-create-workflows.md)  
 [Export and Import Approval Workflows](across-how-to-export-and-import-workflows.md)  

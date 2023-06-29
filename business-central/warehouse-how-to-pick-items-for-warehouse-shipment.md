@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.forms: '7335, 7339, 7345,'
 ---
-# <a name="pick-items-for-warehouse-shipment"></a>Pick Items for Warehouse Shipment
+# <a name="pick-items-for-warehouse-shipment"></a><a name="pick-items-for-warehouse-shipment"></a>Pick Items for Warehouse Shipment
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], you pick and ship items using one of four methods, as described in the following table.
 
@@ -39,7 +39,7 @@ You can't create a warehouse pick document from scratch. Picks are part of a wor
 >  
 > To learn more about picking components for assembly orders, including situations where assembly items aren't related to a sales shipment, go to [Pick for Production, Assembly, or Jobs in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>To create pick documents in bulk with the pick worksheet
+## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a><a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>To create pick documents in bulk with the pick worksheet
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Pick Worksheet**, and then choose the related link.  
 
@@ -89,7 +89,7 @@ You can't create a warehouse pick document from scratch. Picks are part of a wor
 
 8. Choose **OK**. [!INCLUDE [prod_short](includes/prod_short.md)] will create the pick according to your selections.  
 
-## <a name="to-pick-items-for-a-warehouse-shipment"></a>To pick items for a warehouse shipment
+## <a name="to-pick-items-for-a-warehouse-shipment"></a><a name="to-pick-items-for-a-warehouse-shipment"></a>To pick items for a warehouse shipment
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Picks**, and then choose the related link.  
 
@@ -111,9 +111,9 @@ You can't create a warehouse pick document from scratch. Picks are part of a wor
 
 You can now bring the items to the shipment dock and post the shipment, including the related source document, on the **Warehouse Shipment** page. Learn more at [Ship Items](warehouse-how-ship-items.md).
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/pick-ship-items-warehouse/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/pick-ship-items-warehouse/)
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

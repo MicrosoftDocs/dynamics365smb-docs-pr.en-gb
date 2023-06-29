@@ -9,7 +9,7 @@ ms.date: 03/20/2023
 ms.custom: bap-template
 ms.search.form: '672, 673, 674, 671'
 ---
-# <a name="use-job-queues-to-schedule-tasks"></a>Use Job Queues to Schedule Tasks
+# <a name="use-job-queues-to-schedule-tasks"></a><a name="use-job-queues-to-schedule-tasks"></a>Use Job Queues to Schedule Tasks
 
 Use the **Job Queue Entries** page to schedule and run specific reports and codeunits. You can set jobs to run one time, or on a recurring basis. For example, you might want to run the **Salesperson * Sales Statistics** report weekly to track sales by salesperson each week, or run the **Delegate Approval Requests** codeunit daily to prevent documents from piling up.
 
@@ -33,7 +33,7 @@ After job queues are set up and running, the status can change as follows within
 
 After a job finishes successfully it's removed from the list of job queue entries, unless it's a recurring job. For recurring jobs, the **Earliest Start Time** field is adjusted to show the next time that the job will run.  
 
-## <a name="monitor-status-or-errors-in-the-job-queue"></a>Monitor status or errors in the job queue
+## <a name="monitor-status-or-errors-in-the-job-queue"></a><a name="monitor-status-or-errors-in-the-job-queue"></a>Monitor status or errors in the job queue
 
 Data that the job queue generates is stored, so that you can troubleshoot errors.  
 
@@ -52,7 +52,7 @@ The following table describes the values of the **Status** field.
 > [!Tip]  
 > Job queue entries stop running when there's an error. For example, this can be a problem when an entry connects to an external service, such as a bank feed. If the service is temporarily not available and the job queue entry can't connect, the entry will show an error and stop running. You'll have to manually restart the job queue entry. However, the **Maximum No. of Attempts** and **Rerun Delay (sec.)** fields can help you avoid this situation. The **Maximum No. of Attempts** field lets you specify how many times the job queue entry can fail before it stops trying to run. The **Rerun Delay (sec.)** field lets you specify the amount of time, in seconds, between attempts. The combination of these two fields might keep the job queue entry running until the external service becomes available.
 
-### <a name="to-view-status-for-any-job"></a>To view status for any job
+### <a name="to-view-status-for-any-job"></a><a name="to-view-status-for-any-job"></a>To view status for any job
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Queue Entries**, and then choose the related link.
 2. On the **Job Queue Entries** page, select a job queue entry, and then choose the **Log Entries** action.  
@@ -60,7 +60,7 @@ The following table describes the values of the **Status** field.
 > [!TIP]
 > For in-depth analysis based on telemetry, you can use Application Insights in Microsoft Azure to review the status of job queue entries. To learn more about telemetry, go to [Monitoring and Analysing Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) and [Analysing Job Queue Lifecycle Trace Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace).
 
-## <a name="view-scheduled-tasks"></a>View scheduled tasks
+## <a name="view-scheduled-tasks"></a><a name="view-scheduled-tasks"></a>View scheduled tasks
 
 The **Scheduled Tasks** page in [!INCLUDE [prod_short](includes/prod_short.md)] shows which tasks are ready to run in the job queue. The page also shows information about the company that each task is set up to run in. However, only tasks that are marked as belonging to the current environment can run.  
 
@@ -69,7 +69,7 @@ For example, all scheduled tasks stop if the company is in an environment that's
 > [!NOTE]
 > Internal administrators and licensed users can schedule tasks to run. Delegated administrators can set up and schedule tasks to run, but only licensed users can run them.
 
-## <a name="the-my-job-queue-part"></a>The My Job Queue part
+## <a name="the-my-job-queue-part"></a><a name="the-my-job-queue-part"></a>The My Job Queue part
 
 The **My Job Queue** part on your Role Centre shows the job queues entries that you've started but aren't finished. By default the part isn't displayed, but you can add it to your Role Centre. To learn more about personalisation, go to [Personalise Your Workspace](ui-personalization-user.md).  
 
@@ -80,28 +80,28 @@ The part shows the following information:
 
 The My Job Queue part also lets you cancel a document posting.
 
-### <a name="to-view-an-error-from-the-my-job-queue-part"></a>To view an error from the My Job Queue part
+### <a name="to-view-an-error-from-the-my-job-queue-part"></a><a name="to-view-an-error-from-the-my-job-queue-part"></a>To view an error from the My Job Queue part
 
 1. On an entry with the status **Error**, choose the **Show Error** action.
 2. Review the error message and fix the problem.
 
-## <a name="examples-of-what-you-can-schedule-using-job-queue-entries"></a>Examples of what you can schedule using job queue entries
+## <a name="examples-of-what-you-can-schedule-using-job-queue-entries"></a><a name="examples-of-what-you-can-schedule-using-job-queue-entries"></a>Examples of what you can schedule using job queue entries
 
-### <a name="schedule-reports"></a>Schedule reports
+### <a name="schedule-reports"></a><a name="schedule-reports"></a>Schedule reports
 
 You can schedule a report or batch job to run at a specific date and time. Scheduled reports and batch jobs are entered in the job queue and processed at the scheduled time, similar to other jobs. You choose the **Schedule** option after you choose the **Send to** action, and then you enter information such as printer, time and date, recurrence.  
 
 To learn more about scheduling, go to [Scheduling a Report to Run](ui-work-report.md#ScheduleReport)
 
-### <a name="schedule-synchronization-between--and-includeprod_short"></a>Schedule synchronisation between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[prod_short](includes/cds_long_md.md)]
+### <a name="schedule-synchronization-between--and-includeprod_short"></a><a name="schedule-synchronization-between--and-includeprod_short"></a>Schedule synchronisation between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 If you've integrated [!INCLUDE[prod_short](includes/prod_short.md)] with [!INCLUDE[prod_short](includes/cds_long_md.md)], the job queue lets you schedule when to synchronise data. Depending on the direction and rules you've defined, the job queue entry can create records in one app to match records in the other. A good example is when you register a contact in [!INCLUDE[crm_md](includes/crm_md.md)], the job queue entry can set up that contact for you in [!INCLUDE[prod_short](includes/prod_short.md)]. To learn more about scheduling, go to [Scheduling a Synchronisation between Business Central and Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
 
-### <a name="schedule-when-to-post-sales-and-purchase-orders"></a>Schedule when to post sales and purchase orders
+### <a name="schedule-when-to-post-sales-and-purchase-orders"></a><a name="schedule-when-to-post-sales-and-purchase-orders"></a>Schedule when to post sales and purchase orders
 
 You can use job queue entries to schedule business processes to run in the background. For example, background tasks are useful when multiple users post sales orders at the same time, but only one order can be processed at a time. To learn more about background posting, go to [To set up background posting with job queues](ui-batch-posting.md#to-set-up-background-posting-with-job-queues).
 
-## <a name="handle-job-queue-entry-issues"></a>Handle job queue entry issues
+## <a name="handle-job-queue-entry-issues"></a><a name="handle-job-queue-entry-issues"></a>Handle job queue entry issues
 
 If a job queue entry shows an error, your first option to resolve the issue is to restart the job queue entry. You can set the status of the job queue entry to **On Hold** and then to **Ready**, or just restart it.
 
@@ -119,13 +119,13 @@ If you contact your Microsoft partner or Microsoft for support, please provide t
 > * For earlier versions, provide a screenshot of the **Job Queue Log Entries** page.
 > * For later versions, use the **Copy details** action on the Job Queue Log Entries page to copy the information (job queue ID, timestamp, and your timezone).
 
-## <a name="monitor-the-job-queue-with-telemetry"></a>Monitor the job queue with telemetry
+## <a name="monitor-the-job-queue-with-telemetry"></a><a name="monitor-the-job-queue-with-telemetry"></a>Monitor the job queue with telemetry
 
 Administrators can use [Azure Application Insights](/azure/azure-monitor/app/app-insights-overview) to gather and analyse telemetry that helps identify problems. To learn more about telemetry, go to [Monitoring and Analysing Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) and [Analysing Job Queue Lifecycle Trace Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace).
 
 Telemetry lets administrators set up alerts on job queue issues that send a text message, email, or a message in Teams if something isn't right. To learn more about these alerts, go to [Alert on Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-alert).
 
-## <a name="see-also"></a>See Also
+## <a name="see-also"></a><a name="see-also"></a>See Also
 
 [Administration](admin-setup-and-administration.md)  
 [Setting Up Business Central](setup.md)  

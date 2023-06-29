@@ -7,14 +7,14 @@ ms.search.form: '107, 9035, 9040'
 ms.date: 09/14/2022
 ms.author: edupont
 ---
-# <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Manage Storage by Deleting Documents or Compressing Data
+# <a name="manage-storage-by-deleting-documents-or-compressing-data"></a><a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Manage Storage by Deleting Documents or Compressing Data
 
 A central role, such as the application administrator, must regularly deal with accumulating historic documents by deleting or compressing them.  
 
 > [!TIP]
 > Learn more about other ways to reduce the amount of data stored in a database by reading [Reducing Data Stored in Business Central Databases](/dynamics365/business-central/dev-itpro/administration/database-reduce-data) in our Developer and IT pro documentation.
 
-## <a name="delete-documents"></a>Delete documents
+## <a name="delete-documents"></a><a name="delete-documents"></a>Delete documents
 
 In certain situations, you may need to delete invoiced purchase orders. However, you cannot delete them unless you've fully invoiced for and received the items in the purchase orders. [!INCLUDE[prod_short](includes/prod_short.md)] helps your out by checking for that.
 
@@ -26,7 +26,7 @@ Invoiced service orders are usually deleted automatically after they're fully in
 
 Service orders are not deleted automatically, however, if the total quantity on the order has been posted from the **Service Invoice** page rather than from service order itself. You may need to manually delete such invoiced orders by running the **Delete Invoiced Service Orders** batch job.  
 
-## <a name="compress-data-with-date-compression"></a>Compress data with date compression
+## <a name="compress-data-with-date-compression"></a><a name="compress-data-with-date-compression"></a>Compress data with date compression
 
 You can compress data in [!INCLUDE [prod_short](includes/prod_short.md)] to save space in the database&mdash;which in [!INCLUDE [prod_short](includes/prod_short.md)] online can even save you money. The compression, based on dates and functions, combines several old entries into one new entry.
 
@@ -55,7 +55,7 @@ When you're defining criteria for the compression, you can keep the contents of 
 
 After the compression, the contents of the following fields are always retained: **Posting Date**, **Supplier No.**, **Document Type**, **Currency Code**, **Posting Group**, **Amount**, **Remaining Amount**, **Original Amt. (LCY)**, **Remaining Amt. (LCY)**, **Amount (LCY)**, **Purchase (LCY)**, **Inv. Discount (LCY)**, **Pmt. Disc. Given (LCY)**, and **Pmt. Disc. Possible**.
 
-## <a name="posting-compressed-entries"></a>Posting compressed entries
+## <a name="posting-compressed-entries"></a><a name="posting-compressed-entries"></a>Posting compressed entries
 
 Compressed entries are posted slightly differently than standard posting. This is to reduce the number of new general ledger entries created by date compression, and is especially important when you keep information such as dimensions and document numbers. Date compression creates new entries as follows:
 
@@ -72,7 +72,7 @@ The number of entries that result from a date compression depends on how many fi
 > [!WARNING]
 > Date compression deletes entries, so you should always make a backup copy of the database before you run the batch job.
 
-### <a name="to-run-a-date-compression"></a>To run a date compression
+### <a name="to-run-a-date-compression"></a><a name="to-run-a-date-compression"></a>To run a date compression
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Data Administration**, then choose the related link.
 2. Do one of the following:
@@ -82,7 +82,7 @@ The number of entries that result from a date compression depends on how many fi
    > [!NOTE]
    > You can only compress data more than five years old. If you want to compress data less than five years old, contact your Microsoft partner.
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
 [Administration](admin-setup-and-administration.md)  
 

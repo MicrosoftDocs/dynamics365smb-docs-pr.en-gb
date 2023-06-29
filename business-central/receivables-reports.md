@@ -8,15 +8,15 @@ ms.search.form: 'Report_33, Report_101, Report_104, Report_109, Report_112, Repo
 ms.date: 07/13/2021
 ms.author: edupont
 ---
-# <a name="accounts-receivable-reports-and-analytics-in-business-central"></a>Accounts Receivable Reports and Analytics in Business Central
+# <a name="accounts-receivable-reports-and-analytics-in-business-central"></a><a name="accounts-receivable-reports-and-analytics-in-business-central"></a>Accounts Receivable Reports and Analytics in Business Central
 
 To help you manage your accounts receivable in [!INCLUDE [prod_short](includes/prod_short.md)], standard reports and analytics are built in. It moves beyond traditional reporting constraints to help you efficiently design various types of reports.  
 
-## <a name="reports"></a>Reports
+## <a name="reports"></a><a name="reports"></a>Reports
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
 
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
 [Analysing Financial Statements in Microsoft Excel](finance-analyze-excel.md)  
 [Work with Dimensions](finance-dimensions.md)  

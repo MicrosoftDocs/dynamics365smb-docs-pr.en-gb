@@ -11,7 +11,7 @@ ms.search.form: '389, 1290, 1294, 1287'
 ms.date: 06/22/2022
 ms.author: bholtorf
 ---
-# <a name="reconcile-payments-using-automatic-application"></a>Reconcile Payments Using Automatic Application
+# <a name="reconcile-payments-using-automatic-application"></a><a name="reconcile-payments-using-automatic-application"></a>Reconcile Payments Using Automatic Application
 
 The **Payment Reconciliation Journal** page specifies payments, either incoming or outgoing, that have been recorded as transactions on your online bank account or on a payment service. You can apply the payments to related open customer, vendor, and bank account ledger entries. Fill in the on the journal by importing a bank statement as a bank feed or file or by manually entering transactions that you make through your payment service.
 
@@ -43,7 +43,7 @@ For each journal line on the **Payment Reconciliation Journal** page, you can op
 > [!NOTE]  
 > You can start the bank transactions import at the same time as you open the **Payment Reconciliation Journal** page for an existing journal. The following procedure describes how to import bank transactions into the **Payment Reconciliation Journal** page after you have created a new journal.
 
-## <a name="to-reconcile-payments-using-automatic-application"></a>To reconcile payments using automatic application
+## <a name="to-reconcile-payments-using-automatic-application"></a><a name="to-reconcile-payments-using-automatic-application"></a>To reconcile payments using automatic application
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Reconciliation Journals**, and then choose the related link.
 2. To work in a new payment reconciliation journal, choose the **New Journal** action.
 3. On the **Payment Bank Account List** page, select the bank account that you want to reconcile payments for, and then choose the **OK** button.
@@ -88,9 +88,9 @@ You can compare the value in the **Balance on Bank Account After Posting** field
 > [!NOTE]  
 >   If you do not want to reconcile the bank account from the **Payment Reconciliation Journal** page, then you must use the **Bank Acc. Reconciliation** page. For more information, see [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md).
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/use-journals-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/use-journals-dynamics-365-business-central/)
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  

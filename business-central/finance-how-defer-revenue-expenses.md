@@ -11,13 +11,13 @@ ms.search.form: '1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="defer-revenues-and-expenses"></a>Defer Revenues and Expenses
+# <a name="defer-revenues-and-expenses"></a><a name="defer-revenues-and-expenses"></a>Defer Revenues and Expenses
 
 To recognise a revenue or an expense in a period other than the period in which the transaction was posted, you can use functionality to automatically defer revenues and expenses over a specified schedule.
 
 To distribute revenues or expenses on the involved accounting periods, you set up a deferral template for the resource, item, or G/L account that the revenue or expense will be posted for. When you post the related sales or purchase document, the revenue or expense are deferred to the involved accounting periods, according to a deferral schedule that is governed by settings in the deferral template and the posting date.
 
-## <a name="to-set-up-a-gl-account-for-deferral"></a>To set up a G/L account for deferral
+## <a name="to-set-up-a-gl-account-for-deferral"></a><a name="to-set-up-a-gl-account-for-deferral"></a>To set up a G/L account for deferral
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.
 2. Choose the **New** action.
@@ -26,7 +26,7 @@ To distribute revenues or expenses on the involved accounting periods, you set u
 
 For both types of deferral, select **Balance Sheet** in the **Type** field, and name the accounts appropriately, such as "Unearned Income" for deferred revenues and "Unpaid Expenses" for deferred expenses.
 
-## <a name="to-set-up-a-deferral-template"></a>To set up a deferral template
+## <a name="to-set-up-a-deferral-template"></a><a name="to-set-up-a-deferral-template"></a>To set up a deferral template
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Deferral Templates**, and then choose the related link.
 2. Choose the **New** action.
@@ -48,7 +48,7 @@ For both types of deferral, select **Balance Sheet** in the **Type** field, and 
 
 Example: The posting date is 02/06/2016. If you enter “Expenses deferred for %4 %6”, then the description displayed will be "Expenses deferred for February 2016".
 
-## <a name="to-assign-a-deferral-template-to-an-item"></a>To assign a deferral template to an item
+## <a name="to-assign-a-deferral-template-to-an-item"></a><a name="to-assign-a-deferral-template-to-an-item"></a>To assign a deferral template to an item
 
 > [!NOTE]  
 > The steps in this procedure are the same as when you assign a deferral template to a G/L account or a resource.
@@ -57,7 +57,7 @@ Example: The posting date is 02/06/2016. If you enter “Expenses deferred for %
 2. Open the card for the item for which revenues or expenses must be deferred to the accounting periods when the item was sold or purchased.
 3. In the **Default Deferral Template** field, select the relevant deferral template.
 
-## <a name="to-change-a-deferral-schedule-from-a-sales-invoice"></a>To change a deferral schedule from a sales invoice
+## <a name="to-change-a-deferral-schedule-from-a-sales-invoice"></a><a name="to-change-a-deferral-schedule-from-a-sales-invoice"></a>To change a deferral schedule from a sales invoice
 
 > [!NOTE]  
 > The steps in this procedure are the same as when you change a deferral schedule, for expenses, from a purchase invoice.
@@ -71,7 +71,7 @@ Example: The posting date is 02/06/2016. If you enter “Expenses deferred for %
 5. Choose the **Calculate Schedule** action.
 6. Choose the **OK** button. The deferral schedule is updated for the sales invoice. The related deferral template is unchanged.
 
-## <a name="to-preview-how-deferred-revenues-or-expenses-will-be-posted-to-the-general-ledger"></a>To preview how deferred revenues or expenses will be posted to the general ledger
+## <a name="to-preview-how-deferred-revenues-or-expenses-will-be-posted-to-the-general-ledger"></a><a name="to-preview-how-deferred-revenues-or-expenses-will-be-posted-to-the-general-ledger"></a>To preview how deferred revenues or expenses will be posted to the general ledger
 
 > [!NOTE]  
 > The steps in this procedure are the same as when you preview how expense deferrals are posted.
@@ -81,7 +81,7 @@ Example: The posting date is 02/06/2016. If you enter “Expenses deferred for %
 
 G/L entries to be posted to the specified deferral account, for example, Unearned Income, are denoted by the description that you entered in the **Period Desc.** field in the deferral template, for example, "Expenses deferred for February 2016".
 
-## <a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report"></a>To review posted deferrals in the Sales Deferral Summary report
+## <a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report"></a><a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report"></a>To review posted deferrals in the Sales Deferral Summary report
 
 > [!NOTE]  
 > The steps in this procedure are the same as when you review the Purchasing Deferral Summary report.
@@ -90,7 +90,7 @@ G/L entries to be posted to the specified deferral account, for example, Unearne
 2. On the **Sales Deferral Summary** page, in the **Balance as at** field, enter the date up to which you want to see deferred revenues.
 3. Choose the **Preview** button.
 
-## <a name="to-specify-a-period-in-which-to-allow-deferral-posting"></a>To specify a period in which to allow deferral posting
+## <a name="to-specify-a-period-in-which-to-allow-deferral-posting"></a><a name="to-specify-a-period-in-which-to-allow-deferral-posting"></a>To specify a period in which to allow deferral posting
 
 You can specify a period in which people can post transactions by entering dates in the **Allow Posting From** and **Allow Posting To** fields as follows:
 
@@ -102,9 +102,9 @@ If you've done that, you must make an exception for deferrals to allow them to b
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup** or **User Setup**, and then choose the related link.
 2. In the **Allow Deferral Posting From** and **Allow Deferral Posting To** fields, enter a start and end date for the period.
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/processing-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/processing-invoices-dynamics-365-business-central/)
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  

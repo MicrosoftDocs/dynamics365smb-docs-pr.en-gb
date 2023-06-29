@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: edupont
 ---
-# <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations
+# <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a><a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
@@ -27,7 +27,7 @@ Learn more at [Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)
 
 The following walkthrough demonstrates method D in the previous table.  
 
-## <a name="about-this-walkthrough"></a>About This Walkthrough
+## <a name="about-this-walkthrough"></a><a name="about-this-walkthrough"></a>About This Walkthrough
 
 In advanced warehouse configurations where your location is set up to require receiving processing in addition to put-away processing, you use the **Warehouse Receipt** page to record and post the receipt of items on multiple inbound orders. When the warehouse receipt is posted, one or more warehouse put-away documents are created to instruct warehouse workers to take the received items and place them in designated places according to bin setup or in other bins. The specific placement of the items is recorded when the warehouse put-away is registered. The inbound source document can be a purchase order, sales return order, inbound transfer order, or assembly or production order with output that is ready to be put away. If the receipt is created from an inbound order, more than one inbound source document can be retrieved for the receipt. By using this method you can register many items arriving from different inbound orders with one receipt.  
 
@@ -38,7 +38,7 @@ This walkthrough demonstrates the following tasks:
 -   Creating and posting a warehouse receipt document for multiple purchase order lines from specific vendors.  
 -   Registering a warehouse put-away for the received items.  
 
-## <a name="roles"></a>Roles
+## <a name="roles"></a><a name="roles"></a>Roles
 
 This walkthrough demonstrates tasks that are performed by the following user roles:  
 
@@ -47,7 +47,7 @@ This walkthrough demonstrates tasks that are performed by the following user rol
 -   Receiving Staff  
 -   Warehouse Worker  
 
-## <a name="prerequisites"></a>Prerequisites
+## <a name="prerequisites"></a><a name="prerequisites"></a>Prerequisites
 
 To complete this walkthrough, you will need:  
 
@@ -59,15 +59,15 @@ To complete this walkthrough, you will need:
 3.  In the **Location Code** field, enter WHITE.  
 4.  Select the **Default** field.  
 
-## <a name="story"></a>Story
+## <a name="story"></a><a name="story"></a>Story
 
 Ellen, the warehouse manager at CRONUS, creates two purchase orders for accessory items from vendors 10000 and 20000 to be delivered to WHITE warehouse. When the deliveries arrive at the warehouse, Sammy, who is responsible for receiving items from vendors 10000 and 20000, uses a filter to create receipt lines for purchase orders arriving from the two vendors. Sammy posts the items as received into inventory in one warehouse receipt and makes the items available for sale or other demand. John, the warehouse worker, takes the items from the receiving bin and puts them away. He puts all units away in their default bins, except 40 out of 100 received hinges that he puts away in the assembly department by splitting the put-away line. When John registers the put-away, the bin contents are updated and the items are made available for picking from the warehouse.  
 
-## <a name="reviewing-the-white-location-setup"></a>Reviewing the WHITE Location Setup
+## <a name="reviewing-the-white-location-setup"></a><a name="reviewing-the-white-location-setup"></a>Reviewing the WHITE Location Setup
 
 The setup of the **Location Card** page defines the company's warehouse flows.  
 
-### <a name="to-review-the-location-setup"></a>To review the location setup
+### <a name="to-review-the-location-setup"></a><a name="to-review-the-location-setup"></a>To review the location setup
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
 2.  Open the WHITE location card.  
@@ -79,11 +79,11 @@ The setup of the **Location Card** page defines the company's warehouse flows.
 
 This means that when you create a warehouse receipt, this bin code is copied to the header of the warehouse receipt document by default and to the lines of the resulting warehouse put-aways.  
 
-## <a name="creating-the-purchase-orders"></a>Creating the Purchase Orders
+## <a name="creating-the-purchase-orders"></a><a name="creating-the-purchase-orders"></a>Creating the Purchase Orders
 
 Purchase orders are the most common type of inbound source document.  
 
-### <a name="to-create-the-purchase-orders"></a>To create the purchase orders
+### <a name="to-create-the-purchase-orders"></a><a name="to-create-the-purchase-orders"></a>To create the purchase orders
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
 2.  Choose the **New** action.  
@@ -112,11 +112,11 @@ Purchase orders are the most common type of inbound source document.
 
     The deliveries of items from vendors 10000 and 20000 have arrived at WHITE warehouse, and Sammy starts to process the purchase receipts.  
 
-## <a name="receiving-the-items"></a>Receiving the Items
+## <a name="receiving-the-items"></a><a name="receiving-the-items"></a>Receiving the Items
 
 On the **Warehouse Receipt** page, you can manage multiple inbound orders for source documents, such as a purchase order.  
 
-### <a name="to-receive-the-items"></a>To receive the items
+### <a name="to-receive-the-items"></a><a name="to-receive-the-items"></a>To receive the items
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Receipts**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  In the **Location Code** field, enter WHITE.  
@@ -131,12 +131,12 @@ On the **Warehouse Receipt** page, you can manage multiple inbound orders for so
 
     Positive item ledger entries are created reflecting the posted purchase receipts of accessories from vendors 10000 and 20000, and the items are ready to be put away in the warehouse from the receiving bin.  
 
-## <a name="putting-the-items-away"></a>Putting the Items Away
+## <a name="putting-the-items-away"></a><a name="putting-the-items-away"></a>Putting the Items Away
 
 On the **Warehouse Put-away** page, you can manage put-aways for a specific warehouse receipt document covering multiple source documents. Like all warehouse activity documents, each item on the warehouse put-away is represented by a Take line and a Place line. In the following procedure, the bin code on the Take lines is the default receiving bin at WHITE location, W-08-0001.  
 
 
-### <a name="to-put-the-items-away"></a>To put the items away
+### <a name="to-put-the-items-away"></a><a name="to-put-the-items-away"></a>To put the items away
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-Aways**, and then choose the related link.  
 2.  Select the only warehouse put-away document in the list, and then choose the **Edit** action.  
 
@@ -157,7 +157,7 @@ On the **Warehouse Put-away** page, you can manage put-aways for a specific ware
 
     The received accessories are now put-away in the items' default bins, and 40 hinges are placed in the assembly department. The received items are now available for picking to internal demand, such as assembly orders, or to external demand, such as sales shipments.  
 
-## <a name="see-also"></a>See Also
+## <a name="see-also"></a><a name="see-also"></a>See Also
  [Put Items Away with Warehouse Put-aways](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)   
  [Move Items in advanced warehouse configurations](warehouse-how-to-move-items-in-advanced-warehousing.md)   
  [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)   

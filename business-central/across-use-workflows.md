@@ -11,7 +11,7 @@ ms.search.form: '1500, 1501, 1503, 1504, 1505'
 ms.date: 09/13/2022
 ms.author: edupont
 ---
-# <a name="use-approval-workflows"></a>Use Approval Workflows
+# <a name="use-approval-workflows"></a><a name="use-approval-workflows"></a>Use Approval Workflows
 
 A workflow is a sequence of tasks triggered by an action, a condition, or a rule. Workflows are usually implemented to integrate business logic into an organisation, such as the separation of duties, unifying processes, or to apply best practices.
 
@@ -64,9 +64,9 @@ Before you can begin using workflows, you must set up workflow users, create the
 | View workflow step instances with **Completed** status. | [View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md) |
 | Delete an approval workflow that will no longer be used. | [Delete Approval Workflows](across-how-to-delete-workflows.md) |
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
 [Setting Up Approval Workflows](across-set-up-workflows.md)  
 [Workflow](across-workflow.md)  

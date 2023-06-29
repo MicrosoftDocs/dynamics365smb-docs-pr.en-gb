@@ -11,13 +11,13 @@ ms.author: jswymer
 ms.date: 04/01/2021
 ---
 
-# <a name="inspecting-pages-in-business-central"></a>Inspecting Pages in Business Central
+# <a name="inspecting-pages-in-business-central"></a><a name="inspecting-pages-in-business-central"></a>Inspecting Pages in Business Central
 
 The page inspection feature enables you to get details about a page, providing insight into the page design, the different elements that comprise the page, and the source behind the data it displays. Page inspection is especially designed for administrators, power users, support personnel, and developers. It is ideal for learning the data model behind a page and troubleshooting. For example, if you are experiencing a problem with a page, you could use page inspection to get information to pass on to your system administrator or support personnel.
 
 [!INCLUDE [send-report-excel](includes/send-report-excel.md)]
 
-## <a name="work-with-page-inspection"></a>Work with page inspection
+## <a name="work-with-page-inspection"></a><a name="work-with-page-inspection"></a>Work with page inspection
 
 You start page inspection from the **Help & Support** page. Choose the question mark in the top right corner, choose **Help & Support**, and then choose **Inspect pages and data**. Or, you can just use the keyboard shortcut <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F1</kbd>.
 
@@ -29,13 +29,13 @@ For more information about what is shown in page inspection, see [Inspecting and
 
 If you do not see the details that you expect to see in the **Page Inspection** pane, you probably do not have the required permissions, as described in the next section.
 
-## <a name="controlling-access-to-page-inspection-details"></a>Controlling access to page inspection details
+## <a name="controlling-access-to-page-inspection-details"></a><a name="controlling-access-to-page-inspection-details"></a>Controlling access to page inspection details
 
 As an administrator, you can control access to the full details that are shown in the **Page Inspection** pane by configuring the permissions that users have. To grant a user permission to the full details, give users **Execute** permission on the **System** object **5330**. You can grant this permission by using a permission set (such as **D365 Troubleshoot**) or a user group (such as **D365 Troubleshoot**). For more information about permissions, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
 
 Users who are not granted permissions on **System object 5330** can still access the **Page Inspection** pane, but they will only see the **Page** and **Table** fields, which display basic details that they can pass on to their support team.
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

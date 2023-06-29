@@ -11,15 +11,15 @@ ms.author: a-jaaamir
 ms.date: 07/21/2022
 ---
 
-# <a name="privacy-notices-status-in-"></a>Privacy Notices Status in [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="privacy-notices-status-in-"></a><a name="privacy-notices-status-in-"></a>Privacy Notices Status in [!INCLUDE[prod_long](includes/prod_long.md)]
 
 This article discusses what a privacy notice is and explains the purpose of the **Privacy Notices Status** page in [!INCLUDE[prod_short](includes/prod_short.md)]. You'll also learn how administrators can use this page.
 
-## <a name="privacy-notice"></a>Privacy notice
+## <a name="privacy-notice"></a><a name="privacy-notice"></a>Privacy notice
 
 A privacy notice states the data collection, data processing, and data privacy policies followed by the organisations's data controller. It's a document that describes what data is collected and for what purposes, how the user's data is processed, how it's being stored, and who to contact if a user wants to ask something about their data. 
 
-## <a name="privacy-notices-status-page"></a>Privacy Notices Status page
+## <a name="privacy-notices-status-page"></a><a name="privacy-notices-status-page"></a>Privacy Notices Status page
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], if users want to integrate their data with Microsoft Exchange, Microsoft OneDrive, and Microsoft Teams, they must accept the privacy notice for each entity. Or an admin can approve the privacy notices on their behalf. Admins can see the status of privacy notices on the **Privacy Notices Status** page. You can find the **Privacy Notices Status** page in the [!INCLUDE[prod_short](includes/prod_short.md)] by typing the name of the page in the search bar.  
 
@@ -35,7 +35,7 @@ On that page, you'll find a table with approval options for each of the services
 > [!NOTE]
 > You can only view the status of privacy notices on the main **Privacy Notices Status** page. To edit the responses, go to **Edit List** on the action bar of the page where options are now clickable and not greyed out.
 
-## <a name="privacy-notice-approvals"></a>Privacy Notice Approvals
+## <a name="privacy-notice-approvals"></a><a name="privacy-notice-approvals"></a>Privacy Notice Approvals
 
 Admins can see individual approvals and manage them on the **Privacy Notice Approvals** subpage. Go to the *Action* bar of the **Privacy Notices Action** page, under *Actions*, to find the *Show individual approvals* option. This option goes to the **Privacy Notice Approvals** page.<br>
 
@@ -49,7 +49,7 @@ On that page, you'll find a table with approval options.
 | **Disagree** | The user does not approve the privacy notice. |
 | **Approver User Name** | The one who approves the privacy notice. |
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
 [Compliance Overview  ](/dynamics365/business-central/compliance/compliance-overview)  
 [Respond to Requests about Personal Data  ](/dynamics365/business-central/admin-responding-to-requests-about-personal-data)  

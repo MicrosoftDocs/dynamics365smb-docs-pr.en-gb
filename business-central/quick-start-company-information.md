@@ -12,13 +12,13 @@ ms.date: 03/14/2022
 ms.author: edupont
 ---
 
-# <a name="company-information-quick-start"></a>Company Information Quick Start
+# <a name="company-information-quick-start"></a><a name="company-information-quick-start"></a>Company Information Quick Start
 
 To help you get your company up and running in [!INCLUDE[prod_short](includes/prod_short.md)], you must first fill in some of the basic company details and relevant information based on your business needs.  
 
 You can enter all relevant data on the **Company Information** page when you set up a new company.
 
-## <a name="to-set-up-company-information"></a>To set up company information
+## <a name="to-set-up-company-information"></a><a name="to-set-up-company-information"></a>To set up company information
 
 1. Choose the ![Sprocket icon to open the Settings menu.](media/ui-experience/settings_icon_small.png) menu, and then choose the **Company Information** action.
 2. Enter the information into the FastTabs as described in the following table. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
@@ -27,9 +27,9 @@ You can enter all relevant data on the **Company Information** page when you set
 
 Once you have completed filling in the information, you can close the page.  
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-new-companies-dynamics-365-business-central/)
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
 [Company Information Overview](admin-company-information.md)  
 [Set Up Company Information in Italy](LocalFunctionality/Italy/how-to-set-up-company-information.md)  

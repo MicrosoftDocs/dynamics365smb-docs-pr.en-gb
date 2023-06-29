@@ -11,7 +11,7 @@ ms.search.form: '41, 9300'
 ms.date: 07/12/2021
 ms.author: edupont
 ---
-# <a name="make-sales-quotes"></a>Make Sales Quotes
+# <a name="make-sales-quotes"></a><a name="make-sales-quotes"></a>Make Sales Quotes
 
 You create a sales quote to record your offer to a customer or a prospect to sell certain products on certain delivery and payment terms. You can send the sales quote to the customer to communicate the offer. You can email the document as a PDF attachment. You can also have the email body prefilled with a summary of the quote. For more information, see [Send Documents by Email](ui-how-send-documents-email.md).
 
@@ -19,7 +19,7 @@ While you negotiate with the customer or prospect, you can change and resend the
 
 In most cases, you send sales quotes to prospective customers. You often have a contact person that you negotiate with. If they then accept your offer, you turn the sales quote into an order and register the prospect as a customer in [!INCLUDE [prod_short](includes/prod_short.md)]. In the following procedure, we focus on contacts, but you can also send quotes to existing customers.  
 
-## <a name="to-create-a-sales-quote"></a>To create a sales quote
+## <a name="to-create-a-sales-quote"></a><a name="to-create-a-sales-quote"></a>To create a sales quote
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Quotes**, and then choose the related link.
 2. Specify the contact or customer that you want to send the sales quote to.
@@ -88,13 +88,13 @@ In most cases, you send sales quotes to prospective customers. You often have a 
 
 The conversion removes the sales quote from the database. A sales invoice or a sales order is created based on the information in the sales quote so that you can process the sale. In the **Quote No.** field on the sales invoice or sales order, you can see the number of the sales quote that it was made from. For more information, see [Invoice Sales](sales-how-invoice-sales.md) or [Sell Products](sales-how-sell-products.md).  
 
-## <a name="external-document-number"></a>External document number
+## <a name="external-document-number"></a><a name="external-document-number"></a>External document number
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  

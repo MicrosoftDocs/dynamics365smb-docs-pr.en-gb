@@ -12,24 +12,24 @@ ms.date: 07/08/2022
 ms.author: bholtorf
 ---
 
-# <a name="the-vat-group-management-extension-for-the-united-kingdom"></a>The VAT Group Management Extension for the United Kingdom
+# <a name="the-vat-group-management-extension-for-the-united-kingdom"></a><a name="the-vat-group-management-extension-for-the-united-kingdom"></a>The VAT Group Management Extension for the United Kingdom
 
 You can connect one or more businesses in the United Kingdom to combine value-added tax (VAT) reporting under a single registration number. This type of arrangement is known as a *VAT group*. You can engage with the group as a member or as the group representative.
 
-## <a name="forming-a-vat-group"></a>Forming a VAT group
+## <a name="forming-a-vat-group"></a><a name="forming-a-vat-group"></a>Forming a VAT group
 
 VAT group members and the group representative can use the **Set Up VAT Group Management** assisted setup guide to both define their engagement with the group and create a connection between their [!INCLUDE[prod_short](includes/prod_short.md)] tenants. The group members use this connection to submit their VAT returns to the group representative. The group representative then uses a single VAT return to submit the group's VAT to tax authorities.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] supports intra-group VAT return submissions for companies using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises or online, in any combination, which influences the communication setup between businesses. This article describes various group setups.
 
-### <a name="license-requirements"></a>Licence requirements
+### <a name="license-requirements"></a><a name="license-requirements"></a>Licence requirements
 
 Participants in the group must be licensed to use [!INCLUDE[prod_short](includes/prod_short.md)]. You can't use guest accounts in VAT groups.
 
 * To calculate and submit VAT returns, a user must be a full [!INCLUDE[prod_short](includes/prod_short.md)] user.
 * To sign in and do basic tasks, such as create accounts, you need a [!INCLUDE[prod_long](includes/prod_long.md)] Team Member licence.
 
-## <a name="set-up-a-vat-group"></a>Set up a VAT group
+## <a name="set-up-a-vat-group"></a><a name="set-up-a-vat-group"></a>Set up a VAT group
 
 The following is the recommended order of steps an administrator uses to set up a VAT group:
 
@@ -44,7 +44,7 @@ The following is the recommended order of steps an administrator uses to set up 
 > [!NOTE]
 > To connect to the VAT group representative, group members must have a user account that can access the VAT group representative's [!INCLUDE[prod_short](includes/prod_short.md)]. The VAT group representative must create at least one user for this. However, for security reasons we recommended that they create a user for each VAT group member, which can be a system user account that is not related to an actual person. Make sure to distribute the user credentials to VAT group members in a secure way.
 
-### <a name="azure-active-directory-setup-for-group-members"></a>Azure Active Directory setup for group members
+### <a name="azure-active-directory-setup-for-group-members"></a><a name="azure-active-directory-setup-for-group-members"></a>Azure Active Directory setup for group members
 
 When the VAT group representative is using [!INCLUDE[prod_short](includes/prod_short.md)] online or on-premises, VAT group members must use Azure Active Directory to authenticate users when they submit VAT returns to the VAT group representative. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, members must configure single sign-on. Learn more at [Configure Azure Active Directory Authentication with WS-Federation](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-active-directory?tabs=singletenant%2Cadmintool).
 
@@ -60,7 +60,7 @@ When the VAT group member's administrator creates the app registration in Azure 
 * In the **API permissions** section, add permissions to [!INCLUDE[prod_short](includes/prod_short.md)]. Enable delegated access to **Financials.ReadWrite.All** and **user_impersonation**.
 * In the **Overview** section, note the **Application (client) ID**. The VAT group members will need the ID when they set up the connection to the group representative.
 
-### <a name="group-api-setup"></a>Group API setup
+### <a name="group-api-setup"></a><a name="group-api-setup"></a>Group API setup
 
 The VAT group representative creates and supplies an API to group members. The members use this API to connect to the representative's [!INCLUDE[prod_short](includes/prod_short.md)] tenant and submit VAT returns. VAT group members often use [!INCLUDE[prod_short](includes/prod_short.md)] in separate Azure Active Directory tenants. For that reason, setup is needed to connect the VAT group member and the representative's [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -72,7 +72,7 @@ The VAT group representative creates and supplies an API to group members. The m
 1. In the **Details** section, copy the **URL**.
 1. Open Notepad, and paste the URL. Replace `https://businesscentral.dynamics.com` with `https://api.businesscentral.dynamics.com/v2.0`.
 
-## <a name="set-up-vat-group-members"></a>Set up VAT group members
+## <a name="set-up-vat-group-members"></a><a name="set-up-vat-group-members"></a>Set up VAT group members
 
 VAT group members connect to the representative by calling a web service on the VAT group representative's tenant. The caller must be authenticated using OAuth2. When the VAT group management extension is set up, members are asked to authenticate to the VAT group representative, during which an access token is generated and saved. This access token is used when submitting VAT returns to the VAT group representative.
 
@@ -96,14 +96,14 @@ Before VAT group members start their setup (listed below), they need to contact 
 
    Then, follow the steps in either the [VAT Group Representative uses Business Central online](ui-extensions-vat-group.md#vat-group-representative-uses-business-central-online) or [VAT Group Representative uses Business Central on-premises](ui-extensions-vat-group.md#vat-group-representative-uses-business-central-on-premises) section below.
 
-### <a name="vat-group-representative-uses-business-central-online"></a>VAT group representative uses Business Central online
+### <a name="vat-group-representative-uses-business-central-online"></a><a name="vat-group-representative-uses-business-central-online"></a>VAT group representative uses Business Central online
 
 1. Enter the user credentials provided by the VAT group representative, and add the required permissions to generate the access token.
 2. Choose the VAT report configuration you use to submit VAT returns to the UK tax authorities. 
 
 After you complete the setup, [!INCLUDE[prod_short](includes/prod_short.md)] will create a new configuration based on this choice that enables you to submit VAT returns to the VAT group representative.
 
-### <a name="vat-group-representative-uses-business-central-on-premises"></a>VAT group representative uses Business Central on-premises
+### <a name="vat-group-representative-uses-business-central-on-premises"></a><a name="vat-group-representative-uses-business-central-on-premises"></a>VAT group representative uses Business Central on-premises
 
 1. Enter the user credentials provided by the VAT group representative and choose **Next**.
 2. In the **Client ID** field, specify the client ID from the app registration in [Azure Active Directory](#azure-active-directory-setup-for-group-members).
@@ -114,7 +114,7 @@ After you complete the setup, [!INCLUDE[prod_short](includes/prod_short.md)] wil
 7. When you've specified the various fields, choose **Next**, and then confirm the authentication connection to generate the access token.
 8. Choose the VAT report configuration you use to submit VAT returns to the UK tax authorities.
 
-## <a name="set-up-the-vat-group-representative"></a>Set up the VAT group representative
+## <a name="set-up-the-vat-group-representative"></a><a name="set-up-the-vat-group-representative"></a>Set up the VAT group representative
 
 > [!NOTE]
 > For on-premises, [!INCLUDE[prod_short](includes/prod_short.md)] supports only a single tenant instance of the group representative.
@@ -135,7 +135,7 @@ After you complete the setup, [!INCLUDE[prod_short](includes/prod_short.md)] wil
     3. In the **Company** field, specify the company from which the group member will submit VAT returns in [!INCLUDE[prod_short](includes/prod_short.md)], such as, **CRONUS UK Ltd**.
     4. Specify contact details for the company.
 
-## <a name="use-the-vat-group-management-features"></a>Use the VAT group management features
+## <a name="use-the-vat-group-management-features"></a><a name="use-the-vat-group-management-features"></a>Use the VAT group management features
 
 VAT group members use the standard processes to prepare VAT returns. The only difference is members must choose the **VATGROUP** report version in the **VAT Return** page to submit the VAT return to the VAT group representative rather than the authorities. Learn more at [About the VAT Return report](finance-how-report-vat.md#vatreturn).
 
@@ -144,14 +144,14 @@ VAT group members use the standard processes to prepare VAT returns. The only di
 
 The following sections describe the tasks that VAT group representatives must do to file the group VAT return.
 
-### <a name="review-vat-member-submissions"></a>Review VAT member submissions
+### <a name="review-vat-member-submissions"></a><a name="review-vat-member-submissions"></a>Review VAT member submissions
 
 The **VAT Group Submissions** page lists the VAT returns that members have submitted. The page serves as a draft location for the submissions until the VAT group representative includes them in a VAT return for the group. The representative can open the submissions to review the individual boxes containing the amount reported by each VAT group member.
 
 > [!TIP]
 > On the **VAT Return Periods** page, the **Group Member Submissions** field shows how many returns members have submitted. To ensure that this number is up to date, choose the **Get VAT Returns** action.
 
-### <a name="create-a-group-vat-return"></a>Create a group VAT return
+### <a name="create-a-group-vat-return"></a><a name="create-a-group-vat-return"></a>Create a group VAT return
 
 To report VAT for the group, on the **VAT Returns** page, create a VAT return for your company only. Afterward, include the most recent VAT submissions from VAT group members by choosing the **Include Group VAT** action.  
 
@@ -160,7 +160,7 @@ When the group representative has submitted the group's VAT return to the author
 > [!IMPORTANT]
 > The VAT group functionality is only supported in those markets where [!INCLUDE[prod_short](includes/prod_short.md)] uses a VAT framework that consists of VAT returns and VAT return periods. You cannot use VAT groups in markets with other implementations of local VAT reporting, such as Austria, Germany, Italy, Spain, and Switzerland.
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
 [United Kingdom Local Functionality in the British Version](LocalFunctionality/unitedkingdom/united-kingdom-local-functionality.md)  
 [Making Tax Digital in the United Kingdom](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)  

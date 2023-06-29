@@ -11,13 +11,13 @@ ms.search.forms: '5704, 5700, 5702, 5701'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-stockkeeping-units"></a>Set Up Stockkeeping Units
+# <a name="set-up-stockkeeping-units"></a><a name="set-up-stockkeeping-units"></a>Set Up Stockkeeping Units
 
 You can use stockkeeping units to record information about items for a specific location or a variant code.  
 
 Stockkeeping units are a supplement to item cards. They do not replace them, although they are related to them. Stockkeeping units allow you to differentiate information about an item for a specific location, such as a warehouse or distribution centre, or a specific variant, such as different shelf numbers and different replenishment information, for the same item.  
 
-## <a name="to-set-up-a-stockkeeping-unit"></a>To set up a stockkeeping unit
+## <a name="to-set-up-a-stockkeeping-unit"></a><a name="to-set-up-a-stockkeeping-unit"></a>To set up a stockkeeping unit
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Stockkeeping Units**, and then choose the related link.  
 2.  Choose the **New** action.  
@@ -34,9 +34,9 @@ To create several stockkeeping units for an item, use the **Create Stockkeeping 
 > If the SKU is supplied through production, then the **Standard Cost** field is not used when invoicing and adjusting the actual cost of the produced item. Instead, the **Standard Cost** field on the underlying item card is used, and any variances are calculated against the cost shares of that item.<br /><br />
 > Because production BOMs and routing cannot be assigned to SKUs, then the unit cost roll-up and the related calculation of cost shares are also not available on SKUs. For more information, see [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/control-inventory-multiple-locations/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/control-inventory-multiple-locations/)
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
 [Register New Items](inventory-how-register-new-items.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  

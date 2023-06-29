@@ -11,7 +11,7 @@ ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 900
 ms.date: 06/23/2021
 ms.author: jswymer
 ---
-# <a name="accessibility-and-keyboard-shortcuts"></a>Accessibility and Keyboard Shortcuts
+# <a name="accessibility-and-keyboard-shortcuts"></a><a name="accessibility-and-keyboard-shortcuts"></a>Accessibility and Keyboard Shortcuts
 
 This article provides information about the features that make [!INCLUDE[prod_short](includes/prod_short.md)] readily available to people with disabilities. [!INCLUDE[prod_short](includes/prod_short.md)] supports the following accessibility features:  
 
@@ -26,7 +26,7 @@ This article provides information about the features that make [!INCLUDE[prod_sh
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="navigation"></a><a name="Navigation"></a> Navigation
+## <a name="navigation"></a><a name="navigation"></a><a name="Navigation"></a> Navigation
   
 You can use different combinations of the Tab, Shift, and arrow keys of your keyboard to move between elements on a page. Elements include actions, fields and columns, parts, and other controls. In general, select <kbd>Tab</kbd> or <kbd>Shift</kbd>+<kbd>Tab</kbd> to move to the next or previous element.
 
@@ -34,29 +34,29 @@ When you focus on an area that contains actions, like the navigation bar on the 
 
 By using the tab order, you can also switch between the main browser page and dialogue boxes that request confirmation, for example, or the sign-in page.  
 
-## <a name="headings-in-content"></a><a name="Headings"></a> Headings in Content
+## <a name="headings-in-content"></a><a name="headings-in-content"></a><a name="Headings"></a> Headings in Content
 
 The HTML source for [!INCLUDE[prod_short](includes/prod_short.md)] content uses tags to help users of assistive technology to understand the structure and content of the page. For example, on list pages, the columns are defined in TH tags and the column headings are set with TITLE attribute inside the tag. Captions for elements, such as FastTabs, FactBoxes, and fields are included in heading tags (H1, H2, H3, and H4).  
 
-## <a name="image-and-links"></a><a name="Images"></a> Image and Links
+## <a name="image-and-links"></a><a name="image-and-links"></a><a name="Images"></a> Image and Links
 
 A descriptive text for images is set with the ALT attribute inside the IMG tag. A descriptive text for hyperlinks is set with the title attribute inside the A tag.  
 
-## <a name="assistive-technologies"></a><a name="AssistiveTech"></a> Assistive Technologies
+## <a name="assistive-technologies"></a><a name="assistive-technologies"></a><a name="AssistiveTech"></a> Assistive Technologies
 
 [!INCLUDE[prod_short](includes/prod_short.md)] supports various assistive technologies, such as high contrast, screen readers, and voice recognition software. Some assistive technologies may not work well with certain elements in [!INCLUDE[prod_short](includes/prod_short.md)] pages.  
 
-## <a name="zoom"></a><a name="zoom"></a> Zoom
+## <a name="zoom"></a><a name="zoom"></a><a name="zoom"></a> Zoom
 
 Most browsers use standard keyboard shortcuts to zoom in and out on the current page. These keyboard shortcuts aren't specific to [!INCLUDE [prod_short](includes/prod_short.md)], but they work when you use [!INCLUDE [prod_short](includes/prod_short.md)] in a browser. For a list of supported keyboard shortcuts, see [Keyboard Shortcuts for Zooming In and Out](keyboard-shortcuts.md#zoomshortcuts).
 
-## <a name="tooltips"></a>Tooltips
+## <a name="tooltips"></a><a name="tooltips"></a>Tooltips
 
 Tooltips are available on most elements in the user interface, like page fields and columns, actions, cues tiles, and charts. A tooltip provides extra text that explains an element to help you better understand its purpose. 
 
 Tooltips are accessed in different ways, depending on the client (web or mobile) and the device that you're working with. Use the following table as a guide. Some tooltips can be read by screen-readers. In this case, you access the tooltips as described in the table, then use the screen reader to navigate to the tooltip as you would with any other element.
 
-#### <a name="accessing-tooltips"></a>Accessing tooltips
+#### <a name="accessing-tooltips"></a><a name="accessing-tooltips"></a>Accessing tooltips
 
 |Element|Mouse action for web client|Keyboard shortcut for web client|Touch gesture on tablet/phone for mobile app|Screen reader support|
 |-------|-----------------|------------|--------------------------|---------------------|
@@ -73,11 +73,11 @@ Tooltips are accessed in different ways, depending on the client (web or mobile)
 
 -->
 
-## <a name="for-more-accessibility-information"></a>For more accessibility information
+## <a name="for-more-accessibility-information"></a><a name="for-more-accessibility-information"></a>For more accessibility information
 
 You can find additional information about accessibility with Microsoft products and assistive technologies on the [Microsoft Accessibility](https://go.microsoft.com/fwlink/?LinkId=262160) site.
 
-## <a name="see-also"></a>See Also
+## <a name="see-also"></a><a name="see-also"></a>See Also
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

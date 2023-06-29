@@ -11,7 +11,7 @@ ms.search.form: '5730, 5733, 5401'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="categorize-items"></a>Categorise Items
+# <a name="categorize-items"></a><a name="categorize-items"></a>Categorise Items
 
 To maintain an overview of your items and to help you sort and find items, it is useful to organise your items in item categories.
 
@@ -20,7 +20,7 @@ To find items by characteristics, you can assign item attributes to items and al
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4j4mo?rel=0]
 
-## <a name="to-create-an-item-category"></a>To create an item category
+## <a name="to-create-an-item-category"></a><a name="to-create-an-item-category"></a>To create an item category
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Categories**, and then choose the related link.
 2. On the **Item Categories** page, choose the **New** action.
 3. On the **Item Category Card** page, on the **General** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -34,19 +34,19 @@ To find items by characteristics, you can assign item attributes to items and al
 
 If you change your mind about an item category, you can delete it. However, if it has already been assigned to an item, you must remove that assignment before you can delete the item category.
 
-## <a name="to-assign-an-item-category-to-an-item"></a>To assign an item category to an item
+## <a name="to-assign-an-item-category-to-an-item"></a><a name="to-assign-an-item-category-to-an-item"></a>To assign an item category to an item
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Open the card for the item that you want to assign to an item category.
 3. Choose the lookup button in the **Item Category Code** field and select an existing item category. Alternatively, choose the **New** action to first create a new item category as explained in [To create an item category](inventory-how-categorize-items.md#to-create-an-item-category).
 
-## <a name="categories-attributes-and-variants"></a>Categories, attributes, and variants
+## <a name="categories-attributes-and-variants"></a><a name="categories-attributes-and-variants"></a>Categories, attributes, and variants
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/trade-master-data-dynamics-365-business-central/)
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
 [Work with Item Attributes](inventory-how-work-item-attributes.md)  
 [Manage Product Variants](inventory-item-variants.md)  

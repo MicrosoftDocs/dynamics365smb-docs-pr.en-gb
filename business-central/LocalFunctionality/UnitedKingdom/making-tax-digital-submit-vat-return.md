@@ -11,7 +11,7 @@ ms.search.form: '743, 10530, 10531, 10532, 10537, 10538, 10539,'
 ms.date: 02/16/2022
 ms.author: soalex
 ---
-# <a name="making-tax-digital-in-the-united-kingdom"></a>Making Tax Digital in the United Kingdom
+# <a name="making-tax-digital-in-the-united-kingdom"></a><a name="making-tax-digital-in-the-united-kingdom"></a>Making Tax Digital in the United Kingdom
 
 Her Majesty's Revenue and Customs (HMRC) has implemented the first steps of *Making Tax Digital*, which imposes new requirements on VAT registered businesses above the VAT threshold. [!INCLUDE [prod_short](../../includes/prod_short.md)] supports the first rounds of *Making Tax Digital*, which took effect in April 2019:
 
@@ -24,7 +24,7 @@ Since 2021, the electronic statements must also include information that helps p
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] supports Making Tax Digital and the GovTalk service.
 
-## <a name="making-tax-digital-for-vat-capabilities-in-dynamics-365-business-central"></a>Making Tax Digital for VAT capabilities in Dynamics 365 Business Central
+## <a name="making-tax-digital-for-vat-capabilities-in-dynamics-365-business-central"></a><a name="making-tax-digital-for-vat-capabilities-in-dynamics-365-business-central"></a>Making Tax Digital for VAT capabilities in Dynamics 365 Business Central
 
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can use the VAT Return report for creating VAT reports. The Making Tax Digital VAT features extend this capability to communicate with HMRC. For example, the Making Tax Digital VAT extension lets you:
 
@@ -35,7 +35,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can use the VAT Ret
 * View VAT payments with HMRC  
 * View VAT liabilities with HMRC  
 
-## <a name="set-up-making-tax-digital-for-vat"></a>Set up Making Tax Digital for VAT
+## <a name="set-up-making-tax-digital-for-vat"></a><a name="set-up-making-tax-digital-for-vat"></a>Set up Making Tax Digital for VAT
 
 The *Making Tax Digital* integration uses a service connection to communicate with HMRC. To make it easy to establish communications, [!INCLUDE[prod_short](../../includes/prod_short.md)] provides the **HMRC VAT Setup** service connection, which contains most of the information needed to communicate with HMRC. To finish the connection, you must give the **Dynamics 365 Business Central MTD VAT** application the authority to interact with HMRC on your behalf. Microsoft manages the **Dynamics 365 Business Central MTD VAT** application on the HMRC web site, and the application is a requirement for the connection. You give permission by requesting an authorization code from HMRC, and then copying the code to the service connection. The following steps describe how to set up the service connection.  
   
@@ -57,7 +57,7 @@ You must also fill in the fields on the **VAT Report Setup** page. [!INCLUDE [to
 > [!IMPORTANT]
 > Starting in March 2022, the **User IP Address Service** must specify an endpoint for the service that your company uses to extract and submit the IP address of the user who sends the VAT report. For more information, see [IP addresses](fraud-prevention-data.md#ip-addresses).
 
-### <a name="setup-requirements-for-on-premises-versions"></a>Setup requirements for on-premises versions
+### <a name="setup-requirements-for-on-premises-versions"></a><a name="setup-requirements-for-on-premises-versions"></a>Setup requirements for on-premises versions
 
 1. You must add a VAT report configuration on the **VAT Reports Configuration** page.  
   
@@ -84,14 +84,14 @@ You must also fill in the fields on the **VAT Report Setup** page. [!INCLUDE [to
     * Client Secret
     * Redirect URL
 
-## <a name="vat-obligations"></a>VAT obligations
+## <a name="vat-obligations"></a><a name="vat-obligations"></a>VAT obligations
 
 HMRC maintains a list of VAT obligations for companies, which are the periods for which they must report VAT and the due date for the report. HMRC exposes this information through their APIs, which enables [!INCLUDE[prod_short](../../includes/prod_short.md)] to retrieve the obligations. [!INCLUDE[prod_short](../../includes/prod_short.md)] stores VAT obligations as **VAT Return Periods**, and uses them to:
 
 * Remind you about VAT returns that are due or overdue.
 * Automatically enter start and end dates when you create VAT returns.
 
-### <a name="to-retrieve-the-vat-return-periods-from-hmrc"></a>To retrieve the VAT return periods from HMRC
+### <a name="to-retrieve-the-vat-return-periods-from-hmrc"></a><a name="to-retrieve-the-vat-return-periods-from-hmrc"></a>To retrieve the VAT return periods from HMRC
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods**, and then choose the related link.  
 2. On the **VAT Return Periods** page, choose the **Get VAT Return Periods** action.
@@ -102,11 +102,11 @@ The VAT obligations are now retrieved from HMRC and you can view them on the **V
   > [!NOTE]  
   > Do not create VAT return periods manually when submitting VAT Returns to HMRC. VAT return periods must be retrieved from HMRC using the steps above. Creating them manually will result in inability to submit VAT Returns.  
 
-## <a name="vat-returns"></a>VAT Returns
+## <a name="vat-returns"></a><a name="vat-returns"></a>VAT Returns
 
 Use this report to submit VAT for sales and purchase documents. For example, purchase and sales orders, invoices, and credit memos.
 
-### <a name="to-create-and-submit-a-vat-return"></a>To create and submit a VAT return
+### <a name="to-create-and-submit-a-vat-return"></a><a name="to-create-and-submit-a-vat-return"></a>To create and submit a VAT return
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods**, and then choose the related link.  
 2. On the **VAT Return Periods** page, choose the relevant period, and then choose the **Create VAT Return** action.
@@ -120,13 +120,13 @@ Use this report to submit VAT for sales and purchase documents. For example, pur
 
 A successful submission of the VAT Return will result in a status of *Accepted* on the VAT Return. This status is based on the submission result at the HMRC. If the status after submission is not set to *Approved*, a previously submitted VAT Return can be retrieved from the HMRC.
 
-### <a name="to-receive-previously-submitted-vat-returns-from-hmrc"></a>To receive previously submitted VAT returns from HMRC
+### <a name="to-receive-previously-submitted-vat-returns-from-hmrc"></a><a name="to-receive-previously-submitted-vat-returns-from-hmrc"></a>To receive previously submitted VAT returns from HMRC
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods**, and then choose the related link.  
 2. On the **VAT Return Periods** page, choose the relevant VAT return period.
 3. On the **VAT Return Period Card** page, choose the **Receive Submitted VAT Returns** action.
 
-### <a name="vat-return-statuses"></a>VAT Return Statuses
+### <a name="vat-return-statuses"></a><a name="vat-return-statuses"></a>VAT Return Statuses
 
 Dependding on where they are in the process, VAT returns can have one of the following statuses:
 
@@ -140,7 +140,7 @@ Dependding on where they are in the process, VAT returns can have one of the fol
 | Partially Accepted | Business Central can assign the **Partially Accepted** status related to GovTalk information that was collected using the **Get VAT Returns** method.
 | Closed | When request called Get VAT obligations check whether the obligation for which the user created the VAT return is closed. Business Central automatically marks the **VAT Return** as **Closed**. |
 
-## <a name="vat-liabilities-and-payments"></a>VAT liabilities and payments
+## <a name="vat-liabilities-and-payments"></a><a name="vat-liabilities-and-payments"></a>VAT liabilities and payments
 
 If you want to check the status of your VAT, you can retrieve information from HMRC about your VAT liabilities and payments. VAT liabilities are the amounts that you owed to HMRC, and show if there are outstanding amounts to be paid. VAT payments are the actual payments your company has made to HMRC.
 
@@ -160,7 +160,7 @@ To retrieve VAT payments from HMRC:
 
 The VAT payments are now retrieved from HMRC and you can view them on the **VAT Payments** page. A confirmation page shows how many VAT payments were retrieved.
 
-## <a name="not-in-scope-of-this-feature"></a>Not in scope of this feature
+## <a name="not-in-scope-of-this-feature"></a><a name="not-in-scope-of-this-feature"></a>Not in scope of this feature
 
 This integration to HMRC and support of Making Tax Digital for VAT does not include support for:
 
@@ -171,17 +171,17 @@ This integration to HMRC and support of Making Tax Digital for VAT does not incl
 
   Agents can submit VAT returns on behalf of their customers, and HMRC has agent services. [!INCLUDE[prod_short](../../includes/prod_short.md)] does not support agent services.
 
-## <a name="connection-errors-with-hmrc"></a>Connection errors with HMRC
+## <a name="connection-errors-with-hmrc"></a><a name="connection-errors-with-hmrc"></a>Connection errors with HMRC
 
 If you experience "The operation has timed out" errors on an on-premises installation of [!INCLUDE[prod_short](../../includes/prod_short.md)], check any firewall settings that may be blocking the communication to and from HMRC.
 
-## <a name="testing-the-integration-to-hmrc-in-a-sandbox"></a>Testing the integration to HMRC in a sandbox
+## <a name="testing-the-integration-to-hmrc-in-a-sandbox"></a><a name="testing-the-integration-to-hmrc-in-a-sandbox"></a>Testing the integration to HMRC in a sandbox
 
 Due to a limitation at HMRC, it is not possible to send test submissions of VAT Returns and test the integration in non-production scenarios. You can only send real VAT returns.  
 
 Some online documentation at HMRC uses the term *Sandbox*. A sandbox is an environment that software developers, such as Microsoft and others, can use to test features during development. This environment is not intended for customer testing, and it isn't related to [!INCLUDE[prod_short](../../includes/prod_short.md)] sandboxes.
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
 [Send Fraud Prevention Data](fraud-prevention-data.md)  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  

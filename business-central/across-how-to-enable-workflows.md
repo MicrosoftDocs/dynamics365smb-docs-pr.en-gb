@@ -10,21 +10,21 @@ ms.search.keywords: null
 ms.date: 09/08/2022
 ms.author: edupont
 ---
-# <a name="enable-approval-workflows"></a>Enable Approval Workflows
+# <a name="enable-approval-workflows"></a><a name="enable-approval-workflows"></a>Enable Approval Workflows
 
 When you've created an approval workflow and you're sure it's good to go, you must enable it.  
 
 On the **Workflow** page, create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines using fixed lists of event and response values representing scenarios supported by the application code. Learn more at [Create Workflows](across-how-to-create-workflows.md).  
 
-## <a name="enable-a-workflow"></a>Enable a workflow
+## <a name="enable-a-workflow"></a><a name="enable-a-workflow"></a>Enable a workflow
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, then choose the related link.  
 2. Open the workflow that you want to enable.  
 3. On the **Workflow** page, turn on the **Enabled** toggle.  
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
 [Create Approval Workflows](across-how-to-create-workflows.md)  
 [Use Approval Workflows](across-use-workflows.md)  

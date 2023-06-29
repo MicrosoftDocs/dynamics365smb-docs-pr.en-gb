@@ -10,7 +10,7 @@ ms.date: 01/26/2023
 ms.custom: bap-template
 ---
 
-# <a name="set-up-universal-print-printers"></a>Set Up Universal Print Printers
+# <a name="set-up-universal-print-printers"></a><a name="set-up-universal-print-printers"></a>Set Up Universal Print Printers
 
 Universal Print is a Microsoft 365 subscription-based service that runs entirely on Microsoft Azure. It gives you centralised printer management through the Universal Print portal. [!INCLUDE[prod_short](includes/prod_short.md)] makes printers set up in Universal Print available to client users through the **Universal Print Integration** extension.
 
@@ -21,7 +21,7 @@ The complete setup requires you work in both Microsoft Azure, using the [Azure p
 1. In Microsoft Azure, set up Universal Print and add the printers you want to use in Business Central to a print share. Go to [this section](#set-up-universal-print-and-printers-in-microsoft-azure).
 2. In [!INCLUDE[prod_short](includes/prod_short.md)], add the printers from the print shares in Universal Print. Go to [this section](#add-printers-in-business-central-online) for online or [here](#add-printers-in-business-central-on-premises) for on-premises.
 
-## <a name="prerequisites"></a>Prerequisites
+## <a name="prerequisites"></a><a name="prerequisites"></a>Prerequisites
 
 - Supported printers
 
@@ -55,7 +55,7 @@ The complete setup requires you work in both Microsoft Azure, using the [Azure p
 
     To register an app and set the proper permissions, follow the steps described in [Register an application in Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory).
 
-## <a name="set-up-universal-print-and-printers-in-microsoft-azure"></a>Set up Universal Print and printers in Microsoft Azure
+## <a name="set-up-universal-print-and-printers-in-microsoft-azure"></a><a name="set-up-universal-print-and-printers-in-microsoft-azure"></a>Set up Universal Print and printers in Microsoft Azure
 
 Before you can start managing Universal Print printers in Business Central, there are several tasks to get Universal Print up and running in Azure with the printers you want to use.
 
@@ -108,7 +108,7 @@ For detailed instructions on how to get set up, see [Get started: Set up Univers
 
 Now, you're ready to add the printers to [!INCLUDE[prod_short](includes/prod_short.md)], set up default printers for reports, and print.  
 
-## <a name="add-printers-in-business-central-online"></a>Add printers in Business Central online
+## <a name="add-printers-in-business-central-online"></a><a name="add-printers-in-business-central-online"></a>Add printers in Business Central online
 
 After printers are set up and shared in Universal Print, you're ready to add them to [!INCLUDE[prod_short](includes/prod_short.md)] for use. There are two ways to add Universal Print printers. You can add the printers all at once or individually, one at a time.
 
@@ -131,7 +131,7 @@ Adding printers individually let's you set up the same Universal Print printer i
 
 After a printer has been added, you can view and change its settings from the **Printer Management** page. Just select the printer, then choose **Edit printer settings**.
 
-## <a name="add-printers-in-business-central-on-premises"></a>Add printers in Business Central on-premises
+## <a name="add-printers-in-business-central-on-premises"></a><a name="add-printers-in-business-central-on-premises"></a>Add printers in Business Central on-premises
 
 <!--With [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, unlike online, users aren't automatically authenticated with the registered app in Azure used for the Universal Print service. So, before any Business Central user (including admins) can add or even use Universal Print printers, they'll have to authenticate with the Azure app and grant access to the Universal Print service. The following procedure describes how to initiate this authentication flow. Each user typically only has to do this task once.-->
 
@@ -147,7 +147,7 @@ This is typically done the first time they connect to the Azure registered app u
 > If you're an admin, we recommend you complete this task before other users. Then afterwards, inform users who will need to use Universal Print printers how to do it. If the Azure registered app for Universal Print requires admin consent for API permissions, it's easier if you grant consent on behalf of the organisation. You can grant admin consent from the Azure Portal or when you run the steps that follow. 
 
 <!-- To Do Adding printers individually lets you duplicate printers with custom , like different paper trays and paper size and orientation.  To add printers individually, you'll need to know printer's share name in Universal Print. -->
-### <a name="connect-to-universal-print-for-the-first-time"></a>Connect to Universal Print for the first-time
+### <a name="connect-to-universal-print-for-the-first-time"></a><a name="connect-to-universal-print-for-the-first-time"></a>Connect to Universal Print for the first-time
 
 Complete these steps to connect to the Universal Print service for the first-time.
 
@@ -173,11 +173,11 @@ After a printer has been added, you can view and change its settings from the **
 
 Once you complete the initial sign-in, you can use the Universal Print printers to print reports and other print jobs. For more information, go to [Printing a Report](ui-work-report.md#PrintReport). If you want to add, remove, or change any printers, just go back to the **Print Management** page and select **Universal Print**.
 
-## <a name="common-problems-and-resolutions"></a>Common problems and resolutions
+## <a name="common-problems-and-resolutions"></a><a name="common-problems-and-resolutions"></a>Common problems and resolutions
 
 In this section, you'll learn about the common problems that users may experience when trying to set up or use Universal Print printers.
 
-### <a name="you-dont-have-access-to-the-printer-your-printer"></a>You don't have access to the printer \<your-printer\>.
+### <a name="you-dont-have-access-to-the-printer-your-printer"></a><a name="you-dont-have-access-to-the-printer-your-printer"></a>You don't have access to the printer \<your-printer\>.
 
 If a user gets this message when trying to print a document to a Universal Print printer, it may be caused by one of the following conditions:
 
@@ -186,17 +186,17 @@ If a user gets this message when trying to print a document to a Universal Print
 - (On-premises) The Azure app registration used for Universal Print isn't working or has recently changed since the last time the user signed in.
 - (On-premises) The user hasn't yet signed in to Azure registered app for Universal Printer app and consented for the first time.
 
-## <a name="there-was-an-error-fetching-printers-shared-to-you"></a>There was an error fetching printers shared to you.
+## <a name="there-was-an-error-fetching-printers-shared-to-you"></a><a name="there-was-an-error-fetching-printers-shared-to-you"></a>There was an error fetching printers shared to you.
 
 If a user gets this message when trying to add a Universal Print printer from the **Printer Management** page, it's typically because they haven't yet signed in to Azure registered app for Universal Printer app and consented for the first time. 
 <!--
-### <a name="troubleshooting"></a>Troubleshooting
+### <a name="troubleshooting"></a><a name="troubleshooting"></a>Troubleshooting
 
-#### <a name="you-dont-see-the-a-printer-in-the"></a>You don't see the a printer in the
+#### <a name="you-dont-see-the-a-printer-in-the"></a><a name="you-dont-see-the-a-printer-in-the"></a>You don't see the a printer in the
 
 The printer is not shared in Universal Print.
 
-### <a name="you-get-an-error-when-tryong-to-add-all-or-a-single-printer"></a>You get an error when tryong to add all or a single printer
+### <a name="you-get-an-error-when-tryong-to-add-all-or-a-single-printer"></a><a name="you-get-an-error-when-tryong-to-add-all-or-a-single-printer"></a>You get an error when tryong to add all or a single printer
 
 You have'nt been assigned a Uincersla Print license.
 
@@ -204,7 +204,7 @@ There was an error fetching printers shared to you. You don't have access to the
 or 
 You don't seem to have access to Universal Print. Make sure you have a Universal Print subscription, and that your account has been assigned a Universal Print license.
 
-## <a name="could-not-upload-the-document-to-print-job-50"></a>Could not upload the document to print job 50.
+## <a name="could-not-upload-the-document-to-print-job-50"></a><a name="could-not-upload-the-document-to-print-job-50"></a>Could not upload the document to print job 50.
 
 There is a technical problem withe the printer. Unsupported document-format: application/pdf. Supported formats: Attribute document-format-supported: SimpleIppValue-Type:MimeMediaType-Value:application/oxps
 
@@ -213,10 +213,10 @@ There is a technical problem withe the printer. Unsupported document-format: app
 
 -->
 
-## <a name="next-steps"></a>Next steps
+## <a name="next-steps"></a><a name="next-steps"></a>Next steps
 [Set Up Default Printers](ui-specify-printer-selection-reports.md).
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
 [Printers Overview](admin-printer-setup-overview.md)  
 [Set Up Email Printers](admin-printer-setup-email.md)

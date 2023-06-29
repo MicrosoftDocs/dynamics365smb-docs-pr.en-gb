@@ -9,7 +9,7 @@ ms.workload: na
 ms.search.form: 5841
 ms.author: edupont
 ---
-# <a name="about-calculating-standard-cost"></a>About Calculating Standard Cost
+# <a name="about-calculating-standard-cost"></a><a name="about-calculating-standard-cost"></a>About Calculating Standard Cost
 
 Many manufacturing companies select a valuation base of standard cost. This also applies to companies that perform light manufacturing, such as assembly and kitting. A standard cost system determines inventory unit cost based on some reasonable historical or expected cost. Studies of past and estimated future cost data can then provide the basis for standard costs. These costs are frozen until a decision is made to change them. The actual cost to produce a product may differ from the estimated standard costs. For management control, the actual cost is compared to the standard cost for a specific item and differences, or *variances*, are identified and analysed.  
 
@@ -21,7 +21,7 @@ Standard costs can be maintained for items that are replenished through purchase
 |**Assembly**|Direct material cost, direct or fixed labour cost, and overhead cost.|  
 |**Prod. Order**|Direct material cost, labour cost, subcontractor cost, and overhead cost.|  
 
-## <a name="setting-up-standard-costs"></a>Setting Up standard costs
+## <a name="setting-up-standard-costs"></a><a name="setting-up-standard-costs"></a>Setting Up standard costs
 
 Because the standard cost of a produced or assembled item can consist of multiple cost elements, including material, capacity (labour) and direct and overhead subcontractor costs, standard costs must be established for each of these elements.  
 
@@ -38,7 +38,7 @@ The following key cost elements make up the total direct cost of a finished proc
 - Capacity cost.  
 - Subcontracting costs for produced items only.  
 
-### <a name="material-costs"></a>Material costs
+### <a name="material-costs"></a><a name="material-costs"></a>Material costs
 
 Material costs are costs that are associated with subassemblies and purchased raw material. Material unit cost can consist of direct and indirect cost elements.  
 
@@ -56,7 +56,7 @@ The material cost of a produced item can be represented in two ways that corresp
 |Single level|Produced item is equal to the total cost of all purchased or subassembled items on that item's production BOM.|  
 |Rolled-up level or multilevel|Produced item is the sum of the material cost for all subassemblies on that item's BOM and the cost of all purchased items on that item's production BOM.|  
 
-### <a name="capacity-costs"></a>Capacity costs
+### <a name="capacity-costs"></a><a name="capacity-costs"></a>Capacity costs
 
 Capacity costs are the costs that are associated with internal labour and machine costs. You must set up these costs for each resource (in assembly management) and work or machine centre on the routing (in production). As with materials, you can identify both direct and indirect elements of capacity cost. For example, the direct cost for a work centre may be the established shop rate to perform a specific function. The indirect cost for a work centre may represent some general factory expenses, such as lighting, heating, and so on. As with material costs, you can express capacity overhead as an indirect cost percentage or a fixed overhead rate.  
 
@@ -81,13 +81,13 @@ To specify setup time on the routing for planning but not include this expense i
 
 On a single-level basis, this is the labour cost that is required to produce the finished production item and is specified on the production item's routing. On a multi-level basis, this is the capacity cost that is specified for each individually produced item that is included in the parent item's BOM.  
 
-### <a name="subcontractor-costs"></a>Subcontractor costs
+### <a name="subcontractor-costs"></a><a name="subcontractor-costs"></a>Subcontractor costs
 
 Subcontractor costs are the costs that are associated with services that are provided by a company's outside vendors or subcontractors. Similar to material and capacity, subcontractor costs can consist of both direct and overhead amounts. Direct subcontractor cost represents the actual charge for each unit of services that is provided. For example, overhead subcontractor cost can represent freight and handling costs that are incurred by the company with a subcontracted order.  
 
 Because subcontracting is an outsourced capacity, you set up the cost of both direct and indirect subcontracting services on the work centre card that represents the subcontracting operation.  
 
-## <a name="updating-standard-costs"></a>Updating standard costs
+## <a name="updating-standard-costs"></a><a name="updating-standard-costs"></a>Updating standard costs
 
 To update or calculate the standard cost of assembly items, use the function from the item card.  
 
@@ -98,7 +98,7 @@ The process of updating or calculating standard costs typically consists of the 
 3.  Implementing the standard costs that are entered when you run the previous batch jobs. The standard costs do not take effect until they are implemented. Use the **Implement Standard Cost Changes** batch job, which updates the changes in the standard cost on items with the ones in the Standard Cost Worksheet table.  
 4.  Implementing the changes to update the **Unit Cost** field on the item card and perform inventory revaluation. For more information, see [Revalue Inventory](inventory-how-revalue-inventory.md).
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
 [Design Details: Costing Methods](design-details-costing-methods.md)  
 [Update Standard Costs](finance-how-to-update-standard-costs.md)  

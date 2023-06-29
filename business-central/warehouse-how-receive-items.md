@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '5768, 7330, 7332, 7333, 7342, 7363, 8510, 9008'
 ---
-# <a name="receive-items-with-warehouse-receipts"></a>Receive Items with Warehouse Receipts
+# <a name="receive-items-with-warehouse-receipts"></a><a name="receive-items-with-warehouse-receipts"></a>Receive Items with Warehouse Receipts
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], you receive items and put them away using one of four methods, as described in the following table.
 
@@ -25,7 +25,7 @@ To learn more about how to handle inbound items, go to [Inbound Warehouse Flow](
 
 The following article refers to methods C and D in the previous table.
 
-## <a name="receive-items-with-a-warehouse-receipt"></a>Receive items with a warehouse receipt
+## <a name="receive-items-with-a-warehouse-receipt"></a><a name="receive-items-with-a-warehouse-receipt"></a>Receive items with a warehouse receipt
 
 When items arrive at a warehouse that is set up to process warehouse receipts, you must get the lines of the released source document that triggered the receipt. If you use bins, you can either accept the default bin or specify the bin to put the items in. The latter might be required when you receive an item for the first time. Then, enter the quantities of the items you've received, and post the receipt.  
 
@@ -66,7 +66,7 @@ You can create warehouse receipt in one of two ways:
     > [!NOTE]  
     > If your warehouse uses cross-docking, you can check whether you can cross-dock items without putting them away. To learn more about cross-docking, go to [Cross-Dock Items](warehouse-how-to-cross-dock-items.md).
 
-## <a name="how-to-use-filters-to-get-source-documents"></a>How to use filters to get source documents
+## <a name="how-to-use-filters-to-get-source-documents"></a><a name="how-to-use-filters-to-get-source-documents"></a>How to use filters to get source documents
 
 From a warehouse receipt, you can use the **Filters to Get Source Docs.** page to retrieve the released source document lines that specify the items to receive.
 
@@ -82,7 +82,7 @@ All released source document lines that meet the filter criteria are added on th
 
 You can make an unlimited number of filter combinations. Filters are saved on the **Filters to Get Source Docs.** page, and they're available the next time you need them. You can change the criteria at any time by choosing the **Modify** action.
 
-## <a name="zone-and-bin-codes"></a>Zone and bin codes
+## <a name="zone-and-bin-codes"></a><a name="zone-and-bin-codes"></a>Zone and bin codes
 
 To receive items with warehouse class codes other than the class code of the bin in the **Bin Code** field on the document header, clear the **Bin Code** field on the header before you retrieve source document lines for the items.  
 <!-- TBD, table with comparison of various options-->
@@ -92,9 +92,9 @@ If bins are mandatory for a location, zone and bin codes are added to warehouse 
 * For advanced configurations that use directed put-away and pick, [!INCLUDE [prod_short](includes/prod_short.md)] uses the receipt bin code from the **Location Card** page for the location. If a receipt bin code isn't specified, no bin is specified. If the item and receipt bins don't match, the receipt bin code is blank.
 * In other configurations, if a receipt bin code isn't specified, [!INCLUDE [prod_short](includes/prod_short.md)] uses the bin code from the source document.
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/receive-invoice-dynamics-d365-business-central/index).
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/receive-invoice-dynamics-d365-business-central/index).
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

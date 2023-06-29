@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.form: '7335, 7337, 7339, 7340, 7341, 7362, 9008'
 ---
 
-# <a name="ship-items-with-a-warehouse-shipment"></a>Ship Items with a Warehouse Shipment
+# <a name="ship-items-with-a-warehouse-shipment"></a><a name="ship-items-with-a-warehouse-shipment"></a>Ship Items with a Warehouse Shipment
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], you pick and ship items using one of four methods, as described in the following table.
 
@@ -37,7 +37,7 @@ You can create a warehouse shipment in one of two ways:
 * In a push fashion, when work is done on an order-by-order basis. Choose the **Create Warehouse Shipment** action in the source document to create a warehouse shipment for the document.
 * In a pull fashion, where you use the **Release** action in the source document to release it to the warehouse. A warehouse employee creates a **Warehouse Shipment** for one or many released source documents. The following procedure describes how to create warehouse shipment in a pull fashion.
 
-## <a name="to-ship-items-using-a-warehouse-shipment-document"></a>To ship items using a warehouse shipment document
+## <a name="to-ship-items-using-a-warehouse-shipment-document"></a><a name="to-ship-items-using-a-warehouse-shipment-document"></a>To ship items using a warehouse shipment document
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Shipments**, then choose the related link.  
 2. Choose **New**.  
@@ -74,7 +74,7 @@ You can create a warehouse shipment in one of two ways:
 
     [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
 
-## <a name="how-to-use-filters-to-get-source-documents"></a>How to use filters to get source documents
+## <a name="how-to-use-filters-to-get-source-documents"></a><a name="how-to-use-filters-to-get-source-documents"></a>How to use filters to get source documents
 
 From a warehouse shipment, you can use the **Filters to Get Source Docs.** page to retrieve the released source document lines that define which items to ship.
 
@@ -90,14 +90,14 @@ All released source document lines that meet the filter criteria are added on th
 
 You can make an unlimited number of filter combinations. Filters are saved on the **Filters to Get Source Docs.** page and are available the next time you need them. You can change the criteria at any time by choosing the **Modify** action.
 
-## <a name="zone-and-bin-codes"></a>Zone and bin codes
+## <a name="zone-and-bin-codes"></a><a name="zone-and-bin-codes"></a>Zone and bin codes
 
 If bins are mandatory at the location, [!INCLUDE [prod_short](includes/prod_short.md)] suggests a zone and bin code on the warehouse shipment document.
 
 * For advanced configurations in which a location uses directed put-away and pick, [!INCLUDE [prod_short](includes/prod_short.md)] uses the bin specified in the **Shipment Bin Code** field on the **Location Card**. If a **Shipment Bin Code** isn't specified, the field is blank. If the item and shipment bin don't match, [!INCLUDE [prod_short](includes/prod_short.md)] leaves the shipment bin blank.
 * In other cases, [!INCLUDE [prod_short](includes/prod_short.md)] always uses the bin specified in the **Shipment Bin Code** field on the **Location Card** first. If a shipment bin code isn't specified, [!INCLUDE [prod_short](includes/prod_short.md)] uses the bin code from the source document.
 
-## <a name="handling-assemble-to-order-items-in-warehouse-shipments"></a>Handling Assemble-to-Order Items in Warehouse Shipments
+## <a name="handling-assemble-to-order-items-in-warehouse-shipments"></a><a name="handling-assemble-to-order-items-in-warehouse-shipments"></a>Handling Assemble-to-Order Items in Warehouse Shipments
 
 In assemble-to-order scenarios, use the **Qty. to Ship** field on warehouse shipment lines to record how many units are assembled. The quantity is posted as assembly output when you post the warehouse shipment. For other warehouse shipment lines, the value in the **Qty. to Ship** field is zero.
 
@@ -115,9 +115,9 @@ After you post the warehouse shipment, various fields on the sales order line ar
 >
 > The assemble-to-order quantity is handled as described in this article. The inventory quantity is handled as a regular warehouse shipment line. To learn more about combination scenarios, go to [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/ship-invoice-items-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/ship-invoice-items-dynamics-365-business-central/).
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  

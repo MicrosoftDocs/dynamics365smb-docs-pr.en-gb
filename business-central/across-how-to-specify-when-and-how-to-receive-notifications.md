@@ -11,7 +11,7 @@ ms.search.form: '663, 1500, 1512, 1513,'
 ms.date: 09/09/2022
 ms.author: bholtorf
 ---
-# <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Specify When and How to Receive Workflow Notifications
+# <a name="specify-when-and-how-to-receive-workflow-notifications"></a><a name="specify-when-and-how-to-receive-workflow-notifications"></a>Specify When and How to Receive Workflow Notifications
 
 When you set up approval users in workflows where you want someone to approve changes, such as when new records are created or when someone requests an approval, you must specify how and when to notify the approval user. For example, you can specify that an approval user will immediately receive an email when someone creates a new customer. Alternatively, you can schedule the notifications to be held and then delivered together, for example, on a weekly or monthly basis.
 
@@ -25,11 +25,11 @@ Before you can set up an approval user's notification preferences, you must set 
 > [!NOTE]
 > If you want to use email as the notification method, you must set email up for both the sender and the receiver in [!INCLUDE [prod_short](includes/prod_short.md)]. Learn more at [Set up Email](admin-how-setup-email.md).
 
-## <a name="steps-in-workflows"></a>Steps in workflows
+## <a name="steps-in-workflows"></a><a name="steps-in-workflows"></a>Steps in workflows
 
 Many approval workflow steps are about notifying users that an event they must act on has occurred. For example, on one workflow step, the event can be that User 1 requests approval of a new record. The related response is that a notification is sent to User 2, the approver. On the next workflow step, the event can be that User 2 approves the record. The related response is that a notification is sent to User 3 to start a process with the approved record. For workflow steps involving approvals, each notification is tied to an approval entry. Learn more at [Workflow](across-workflow.md).  
 
-## <a name="specify-when-and-how-approval-users-receive-notifications"></a>Specify when and how approval users receive notifications
+## <a name="specify-when-and-how-approval-users-receive-notifications"></a><a name="specify-when-and-how-approval-users-receive-notifications"></a>Specify when and how approval users receive notifications
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval User Setup**, then choose the related link.  
 2. Select the line for the user you want to set up notification preferences for, then choose the **Notification Setup** action.  
@@ -58,7 +58,7 @@ Many approval workflow steps are about notifying users that an event they must a
    |**Date of Month**|Specify if the user receives notifications on the first, last, or a specific date of the month.|
    |**Monthly Notification Date**|Specify the date of the month on which the user receives notifications when the value in the **Date of Month** field is **Custom**.|
 
-## <a name="change-when-and-how-you-receive-notifications"></a>Change when and how you receive notifications
+## <a name="change-when-and-how-you-receive-notifications"></a><a name="change-when-and-how-you-receive-notifications"></a>Change when and how you receive notifications
 
 1. On one of the notifications you've received, either as an email or a note, choose **Change Notification Settings**.  
 2. On the **Workflow Notification Setup** page, change your notification preferences as described in steps 3-5 above.
@@ -66,7 +66,7 @@ Many approval workflow steps are about notifying users that an event they must a
    2. Choose whether to receive an email or note notification under the  **Notification Method** field.
    3. Select the **Notification Schedule** to change the frequency and recurrence in which notifications are sent.
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
 [Set Up Approval Users](across-how-to-set-up-approval-users.md)  
 [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)  

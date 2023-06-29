@@ -10,14 +10,14 @@ ms.date: 12/16/2022
 ms.custom: bap-template
 ms.search.form: '103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766'
 ---
-# <a name="set-up-and-publish-kpi-web-services-based-on-financial-reports"></a>Set Up and Publish KPI Web Services Based on Financial Reports
+# <a name="set-up-and-publish-kpi-web-services-based-on-financial-reports"></a><a name="set-up-and-publish-kpi-web-services-based-on-financial-reports"></a>Set Up and Publish KPI Web Services Based on Financial Reports
 
 On the **Financial Report KPI Web Service Setup** page, you set up how to show the financial report key performance indicator (KPI) data and which specific financial reports to base the KPIs on. When you choose **Publish Web Service**, the specified financial report KPI data is added to the list of published web services on the **Web Services** page.
 
 > [!NOTE]
 > When you use this web service, closing dates are not included in your data set. You can use filters in Power BI to analyse various time periods.
 
-## <a name="set-up-and-publish-a-kpi-web-service-based-on-financial-reports"></a>Set up and publish a KPI web service based on financial reports
+## <a name="set-up-and-publish-a-kpi-web-service-based-on-financial-reports"></a><a name="set-up-and-publish-a-kpi-web-service-based-on-financial-reports"></a>Set up and publish a KPI web service based on financial reports
   
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Report KPI Web Service Setup**, then choose the related link.
 2. On the **General** FastTab, fill in the fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -32,7 +32,7 @@ You can now create financial reports in Power BI based on the web service, or se
 > [!NOTE]  
 > You can also publish the KPI web service by pointing to the **Financial Report KPI Web Service Setup** page object from the **Web Services** page. Learn more at [Publish a Web Service](across-how-publish-web-service.md).
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
 [Financial Business Intelligence](bi.md)  
 [Finance](finance.md)  

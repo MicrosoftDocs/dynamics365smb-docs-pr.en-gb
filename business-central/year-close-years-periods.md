@@ -11,7 +11,7 @@ ms.search.form: 100
 ms.date: 08/18/2022
 ms.author: jswymer
 ---
-# <a name="closing-years-and-periods"></a>Closing Years and Periods
+# <a name="closing-years-and-periods"></a><a name="closing-years-and-periods"></a>Closing Years and Periods
 
 At the end of a fiscal year, there are a number of administrative tasks you must perform, such as making sure all documents and journals are posted, ensuring currency data are up to date, closing the books, and more. The actual tasks will depend your company.
 
@@ -29,9 +29,9 @@ The following table provides an overview of tasks that you typically perform to 
 | Close accounting periods and fiscal year, transfer income statement balances to balance sheet accounts, and post the year-end closing entry. |[Closing Books](year-close-books.md) |
 | Print reports that can assist you in creating financial statements. |[Preparing Closing Statements](year-prepare-close-statement.md) |
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/close-fiscal-year-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/close-fiscal-year-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
 [Work with Accounting Periods and Financial Years](finance-accounting-periods-and-fiscal-years.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

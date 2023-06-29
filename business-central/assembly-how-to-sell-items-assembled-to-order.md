@@ -11,7 +11,7 @@ ms.search.keywords: 'kit, kitting, substitute items'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.custom: bap-template
 ---
-# <a name="sell-items-assembled-to-order"></a>Sell Items Assembled to Order
+# <a name="sell-items-assembled-to-order"></a><a name="sell-items-assembled-to-order"></a>Sell Items Assembled to Order
 
 Items that are set up for assemble-to-order aren't expected to be in inventory and will be assembled when it's included on a sales order. An item is set up for assemble-to-order when the **Assembly Policy** field on the item card contains **Assemble-to-Order**. When you enter the item on a sales order line, an assembly order is automatically created and linked to the sales order.  
 
@@ -28,7 +28,7 @@ In this procedure, you process the sale of an item that will be assembled accord
 > [!NOTE]  
 > The following procedure does not include the steps for creating a standard sales order that happen before the step where you enter the assemble-to-order item on a sales order line. Learn more about creating sales orders at [Sell Products with a Customer Sales Order](sales-how-sell-products.md).  
 
-## <a name="to-sell-an-item-that-is-assembled-to-order"></a>To sell an item that is assembled to order
+## <a name="to-sell-an-item-that-is-assembled-to-order"></a><a name="to-sell-an-item-that-is-assembled-to-order"></a>To sell an item that is assembled to order
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2. Create a sales order. 
@@ -60,9 +60,9 @@ In this procedure, you process the sale of an item that will be assembled accord
 > [!NOTE]  
 > Item substitutions don't automatically replace an item with another item, for example, when creating a sales order or in a BOM. Instead, you'll be alerted to the fact that a substitution is available.
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
 [Assembly Management](assembly-assemble-items.md)  
 [Work with Assembly BOMs](assembly-how-work-assembly-boms.md)  

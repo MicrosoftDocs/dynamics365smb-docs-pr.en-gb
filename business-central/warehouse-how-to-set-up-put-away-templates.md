@@ -10,13 +10,13 @@ ms.search.form: '7312, 7313, 7314, 7321, 7322, 7323, 7329'
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="set-up-put-away-templates"></a>Set Up Put-away Templates
+# <a name="set-up-put-away-templates"></a><a name="set-up-put-away-templates"></a>Set Up Put-away Templates
 
 With directed put-away and pick functionality, the most appropriate bin for your items at any given time is suggested, according to the put-away template that you have set up for the warehouse, the bin rankings you have given to the bins, and the minimum and maximum quantities that you have set up for fixed bins.  
 
 You can set up a number of put-away templates and select one of them to govern put-aways in general in your warehouse. You can also select a put-away template for any item or stockkeeping unit that might have special put-away requirements.  
 
-## <a name="to-set-up-put-away-templates"></a>To set up put-away templates
+## <a name="to-set-up-put-away-templates"></a><a name="to-set-up-put-away-templates"></a>To set up put-away templates
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-away Templates**, and then choose the related link.  
 2. Choose the **New** action.  
@@ -31,9 +31,9 @@ You can set up a number of put-away templates and select one of them to govern p
 
 You can create various put-away templates and then apply them as you see fit. The put-away template that you selected for the item or stockkeeping unit, if any is used first. If these fields are not filled in, then the put-away template that you selected for the warehouse on the **Bin Policies** FastTab on the location card is used.  
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/put-away-templates/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/put-away-templates/)
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

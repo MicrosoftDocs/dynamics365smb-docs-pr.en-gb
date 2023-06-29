@@ -5,7 +5,7 @@ ms.date: 10/27/2022
 ms.author: bholtorf
 ---
 
-### <a name="reversing-journals-to-correct-mistakes"></a>Reversing Journals to Correct Mistakes
+### <a name="reversing-journals-to-correct-mistakes"></a><a name="reversing-journals-to-correct-mistakes"></a>Reversing Journals to Correct Mistakes
 
 When working with journals that have many lines and something goes wrong, it's important to have an easy way to correct mistakes. The **Posted General Journal** page offers a couple of actions that can help.
 

@@ -9,7 +9,7 @@ ms.date: 03/28/2023
 ms.custom: bap-template
 ---
 
-# <a name="set-up-locations-to-use-bins"></a>Set Up Locations to Use Bins
+# <a name="set-up-locations-to-use-bins"></a><a name="set-up-locations-to-use-bins"></a>Set Up Locations to Use Bins
 
 Bins represent the basic warehouse structure, and you use them to suggest where to place items. After you create your bins you define their contents, or let them serve as floating bins without specific contents.
 
@@ -27,7 +27,7 @@ The next step is to design the item flow at the location by specifying bin codes
 > [!NOTE]  
 > You must create bin codes before you can specify them for the location. For more information, see [Create Bins](warehouse-how-to-create-individual-bins.md).  
 
-## <a name="to-set-up-a-location-to-use-bins"></a>To set up a location to use bins
+## <a name="to-set-up-a-location-to-use-bins"></a><a name="to-set-up-a-location-to-use-bins"></a>To set up a location to use bins
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
 2. Select the location where you want to use bins.  
@@ -45,15 +45,15 @@ The next step is to design the item flow at the location by specifying bin codes
 9. Optional: Fill in the fields on the **Bin Policies** FastTab. The most important fields are **Bin Capacity Policy**, **Allow Breakbulk**, and **Put-away Template Code** fields.  
 10. On the **Warehouse** FastTab, fill in the **Outbound Whse. Handling Time**, **Inbound Whse. Handling Time**, and the **Base Calendar Code** fields. To learn more, go to [Set Up Base Calendars](across-how-to-assign-base-calendars.md).
 
-## <a name="fill-in-the-consumption-bin"></a>Fill in the consumption bin
+## <a name="fill-in-the-consumption-bin"></a><a name="fill-in-the-consumption-bin"></a>Fill in the consumption bin
 
 The following flow chart shows how the **Bin Code** field on production order component lines is filled in according to your location setup.
 
 :::image type="content" source="media/binflow.png" alt-text="Bin code field on production order component lines.":::
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/configure-bins-location/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/configure-bins-location/)
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

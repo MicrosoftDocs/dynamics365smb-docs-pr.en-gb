@@ -11,7 +11,7 @@ ms.search.form: '5628, 5610, 5611, 5629, 5633'
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# <a name="dispose-of-or-retire-fixed-assets"></a>Dispose of or Retire Fixed Assets
+# <a name="dispose-of-or-retire-fixed-assets"></a><a name="dispose-of-or-retire-fixed-assets"></a>Dispose of or Retire Fixed Assets
 
 When you sell or otherwise dispose of a fixed asset, the disposal value must be posted to calculate and record the gain or loss. A disposal entry must be the last entry posted for a fixed asset. For partially disposed fixed assets, you can post more than one disposal entry. The total of all posted disposal amounts must be a credit amount.  
 
@@ -20,7 +20,7 @@ When you sell or otherwise dispose of a fixed asset, the disposal value must be 
 
 The following steps assume that you have already set up the relevant posting groups in the **FA Posting Groups** page. For more information, see [To set up fixed asset posting groups](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 
-## <a name="to-post-a-disposal-from-the-fixed-asset-gl-journal"></a>To post a disposal from the fixed asset G/L journal
+## <a name="to-post-a-disposal-from-the-fixed-asset-gl-journal"></a><a name="to-post-a-disposal-from-the-fixed-asset-gl-journal"></a>To post a disposal from the fixed asset G/L journal
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset G/L Journals**, and then choose the related link.  
 2. Create an initial journal line and fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -33,7 +33,7 @@ The following steps assume that you have already set up the relevant posting gro
 
 If you sell or dispose of part of a fixed asset, you must split up the asset before you can record the disposal transaction. For more information, see [Transfer, Split, or Combine Fixed Assets](fa-how-trans-split-combine.md).  
 
-## <a name="to-view-disposal-ledger-entries"></a>To view disposal ledger entries
+## <a name="to-view-disposal-ledger-entries"></a><a name="to-view-disposal-ledger-entries"></a>To view disposal ledger entries
 
 When you sell or dispose of a fixed asset, the disposal value is posted to the general ledger where you can view the result.  
 
@@ -45,9 +45,9 @@ When you sell or dispose of a fixed asset, the disposal value is posted to the g
 
 The **General Ledger Entries** page opens where you can see the entries that the disposal posting resulted in.  
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/dispose-fixed-assets/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/dispose-fixed-assets/)
 
-## <a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a>See also
 
 [Fixed Assets](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  
