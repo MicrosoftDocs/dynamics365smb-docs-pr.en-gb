@@ -1,5 +1,6 @@
 
-# [Welcome to Business Central](index.md)
+# [Business Central documentation](index.yml)
+# [Welcome to Business Central](welcome.md)
 # [New and Planned](product-news.md)
 # Get Started
 ## [Overview of Business Functionality](across-business-functionality.md)
@@ -157,6 +158,7 @@
 ### [Switch to Another Company or Environment](ui-organization-switch.md)
 ### [Manage Notifications](ui-smart-notifications.md)
 ### [Performance Tips for Business Users](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
+### [Analyse Performance](/dynamics365/business-central/dev-itpro/administration/performance-profiler-overview?toc=/dynamics365/business-central/toc.json)
 ### [Warnings and Error Messages](product-error-messages.md)
 ### Personalise Business Central
 #### [Personalise Your Workspace](ui-personalization-user.md)
@@ -996,6 +998,7 @@
 ### India
 #### [Overview](LocalFunctionality/India/india-local-functionality.md)
 #### [Set Up Posting Number Series](LocalFunctionality/India/posting-no-series-setup.md)
+#### [Audit trail and edit logs for accounting software in India](LocalFunctionality/India/india-audit-trail-edit-logs-accounting-software.md)
 #### Tax Engine
 ##### [Overview](LocalFunctionality/India/TaxEngine-001-Overview.md)  
 ##### [Tax Engine Import Export configuration](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
@@ -1844,6 +1847,7 @@
 ### [Administration Tasks](admin-setup-and-administration.md)
 ### Manage Access to Business Central
 #### [Overview](admin-access-overview.md)
+#### [Control Access to Business Central Using Security Groups](ui-security-groups.md)
 #### Access with Microsoft 365 Licences
 ##### [Overview](admin-access-with-m365-license.md)
 ##### [Set Up Access with Microsoft 365 Licences](admin-access-with-m365-license-setup.md)
