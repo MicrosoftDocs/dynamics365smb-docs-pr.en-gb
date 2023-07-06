@@ -12,11 +12,11 @@ ms.date: 08/15/2022
 ms.author: a-reishima
 ---
 
-# <a name="basic-reports-and-documents-output-quick-start"></a><a name="basic-reports-and-documents-output-quick-start"></a>Basic Reports and Documents Output Quick Start
+# <a name="basic-reports-and-documents-output-quick-start"></a><a name="basic-reports-and-documents-output-quick-start"></a><a name="basic-reports-and-documents-output-quick-start"></a>Basic Reports and Documents Output Quick Start
 
 To adapt [!INCLUDE[prod_short](includes/prod_short.md)] to your company needs, set and use reports and customised documents suited to your business' processes and visual identity.
 
-## <a name="add-your-company-logo-to-documents"></a><a name="add-your-company-logo-to-documents"></a>Add your company logo to documents
+## <a name="add-your-company-logo-to-documents"></a><a name="add-your-company-logo-to-documents"></a><a name="add-your-company-logo-to-documents"></a>Add your company logo to documents
 
 [!INCLUDE[prod_short](includes/prod_short.md)] has templates set to use your company's logo to save you time customising documents such as invoices, orders, and statements.
 
@@ -26,7 +26,7 @@ To adapt [!INCLUDE[prod_short](includes/prod_short.md)] to your company needs, s
 
 You can see the above instructions in [this YouTube video](https://www.youtube.com/watch?v=AatXbKF1NGg). Once the image is displayed in the **Picture** field, you can close the **Company Information** page.
 
-## <a name="run-reports"></a><a name="run-reports"></a>Run reports
+## <a name="run-reports"></a><a name="run-reports"></a><a name="run-reports"></a>Run reports
 
 Reports organise information from different sources in [!INCLUDE[prod_short](includes/prod_short.md)] and present it in a readable way that can be easily printed or digitally shared. Reports can be found on the pages they're contextually associated with. For example, the **Items** page lists reports related to inventory levels, purchases, sales, and more.
 
@@ -38,7 +38,7 @@ Reports organise information from different sources in [!INCLUDE[prod_short](inc
 
 Learn more on filtering data, scheduling reports, and more at [Run and Print Reports](ui-work-report.md).
 
-## <a name="save-reports-as-pdf-excel-or-word-documents"></a><a name="save-reports-as-pdf-excel-or-word-documents"></a>Save reports as PDF, Excel, or Word documents
+## <a name="save-reports-as-pdf-excel-or-word-documents"></a><a name="save-reports-as-pdf-excel-or-word-documents"></a><a name="save-reports-as-pdf-excel-or-word-documents"></a>Save reports as PDF, Excel, or Word documents
 
 To quickly share reports, you can save [!INCLUDE[prod_short](includes/prod_short.md)] reports directly to PDF, Microsoft Excel, or Microsoft Word documents.
 
@@ -47,7 +47,7 @@ To quickly share reports, you can save [!INCLUDE[prod_short](includes/prod_short
 3. Select the file type, then choose **OK**.
 r The generated report file is automatically saved to your browser's download folder.
 
-### <a name="change-report-and-document-layouts"></a><a name="change-report-and-document-layouts"></a>Change report and document layouts
+### <a name="change-report-and-document-layouts"></a><a name="change-report-and-document-layouts"></a><a name="change-report-and-document-layouts"></a>Change report and document layouts
 
 [!INCLUDE[prod_short](includes/prod_short.md)] comes with many built-in layouts for your reports and other generated documents, such as sales invoices. You can use applications like Microsoft Word or Excel to edit the layout templates for documents and reports, as described in the following example:
 
@@ -64,9 +64,9 @@ r The generated report file is automatically saved to your browser's download fo
 
 Learn more about how to customise reports and documents to your business needs at [Report and Document Layouts](ui-manage-report-layouts.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/work-with-reports/).
+## <a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/work-with-reports/).
 
-## <a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
 
 [Use Reports in Daily Work](reports-use-reports.md)  
 [Available Reports in [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  

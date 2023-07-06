@@ -9,7 +9,7 @@ ms.search.form: '1210, 1211, 1213, 1214, 1215, 1216, 1217'
 ms.date: 11/03/2022
 ms.author: bholtorf
 ---
-# <a name="set-up-data-exchange-definitions"></a><a name="set-up-data-exchange-definitions"></a>Set Up Data Exchange Definitions
+# <a name="set-up-data-exchange-definitions"></a><a name="set-up-data-exchange-definitions"></a><a name="set-up-data-exchange-definitions"></a>Set Up Data Exchange Definitions
 
 You can set up [!INCLUDE[prod_short](includes/prod_short.md)] to exchange data in specific tables with data on external files. For example to send and receive electronic documents, import and export bank data or other data, such as payroll, and item catalogues. Learn more at [Exchanging Data Electronically](across-data-exchange.md).  
 
@@ -26,14 +26,14 @@ This article includes the following procedures:
 * Export a data exchange definition as an XML file for use by others.
 * Import an XML file for an existing data exchange definition.
 
-## <a name="create-a-data-exchange-definition"></a><a name="create-a-data-exchange-definition"></a>Create a data exchange definition
+## <a name="create-a-data-exchange-definition"></a><a name="create-a-data-exchange-definition"></a><a name="create-a-data-exchange-definition"></a>Create a data exchange definition
 
 Creating a data exchange definition involves two tasks:  
 
 1. On the **Data Exchange Definition** page, describe the formatting of lines and columns in the file. Learn more in the [To describe the formatting of lines and columns in the file](#formatlinescolumns) section.  
 2. On the **Data Exchange Mapping** page, map columns in the data file to fields in [!INCLUDE[prod_short](includes/prod_short.md)]. Learn more in the [To map columns in the data file to fields in [!INCLUDE[prod_short](includes/prod_short.md)]](#mapfields) section.  
 
-### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a><a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a><a name=formatlinescolumns></a>To describe the formatting of lines and columns in the file
+### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a><a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a><a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a><a name=formatlinescolumns></a>To describe the formatting of lines and columns in the file
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Exchange Definitions**, then choose the related link.  
 2. Choose the **New** action.  
@@ -108,7 +108,7 @@ The next step in creating a data exchange definition is to decide which columns 
 > [!NOTE]  
 > The specific mapping depends on the business purpose of the data file to be exchanged and on local variations. Even the SEPA bank standard has local variations. [!INCLUDE[prod_short](includes/prod_short.md)] supports import of SEPA CAMT bank statement files out\-of\-the\-box. This is represented by the **SEPA CAMT** data exchange definition record code on the **Data Exchange Definitions** page. For information about the specific field mapping of this SEPA CAMT support, see [Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-### <a name="to-map-columns-in-the-data-file-to-fields-in-"></a><a name="to-map-columns-in-the-data-file-to-fields-in-"></a><a name=mapfields></a>To map columns in the data file to fields in [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="to-map-columns-in-the-data-file-to-fields-in-"></a><a name="to-map-columns-in-the-data-file-to-fields-in-"></a><a name="to-map-columns-in-the-data-file-to-fields-in-"></a><a name=mapfields></a>To map columns in the data file to fields in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 > [!TIP]
 > Sometimes the values in the fields that you want to map are different. For example, in one business app the language code for the United States is "U.S.," but in another it's "US." That means you must transform the value when you exchange data. This happens through transformation rules that you define for the fields. Learn more at [Transformation Rules](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
@@ -163,7 +163,7 @@ Starting in 2022 release wave 2, you can also group by any field, use the key in
      |**Field ID**|Specifiy the number of the field in the external file that is used for grouping and this field must be set by user.|
      |**Field Caption**|Specify the caption of the field in the external file that is used for grouping.|
 
-## <a name="transformation-rules"></a><a name="transformation-rules"></a>Transformation Rules
+## <a name="transformation-rules"></a><a name="transformation-rules"></a><a name="transformation-rules"></a>Transformation Rules
 
 If the values in the fields you are mapping differ, you must use transformation rules for data exchange definitions to make them the same. You define transformation rules for data exchange definitions by opening an existing definition, or creating a new definition, and then on the **Line Definitions** FastTab, choosing **Manage**, and then **Field Mapping**. Predefined rules are provided, but you can also create your own. The following table describes the types of transformations that you can perform.
 
@@ -188,7 +188,7 @@ If the values in the fields you are mapping differ, you must use transformation 
 > [!NOTE]  
 > Learn more about date and time formatting at [Standard Date and Time Format Strings](/dotnet/standard/base-types/standard-date-and-time-format-strings).
 
-### <a name="tip-for-developers-example-of-the-custom-option"></a><a name="tip-for-developers-example-of-the-custom-option"></a>Tip for developers: Example of the custom option
+### <a name="tip-for-developers-example-of-the-custom-option"></a><a name="tip-for-developers-example-of-the-custom-option"></a><a name="tip-for-developers-example-of-the-custom-option"></a>Tip for developers: Example of the custom option
 
 The following example shows how to implement your own transformation code.
 
@@ -206,7 +206,7 @@ codeunit 60100 "Hello World"
 
 After you define your rules, you can test them. In the **Test** FastTab, enter an example of a value that you want to transform, then check the results by choosing **Update**.
 
-## <a name="export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a><a name="export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>Export a data exchange definition as an XML file for use by others
+## <a name="export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a><a name="export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a><a name="export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>Export a data exchange definition as an XML file for use by others
 
 When you have created the data exchange definition for a specific data file, you can export the data exchange definition as an XML file that you can import. This task is described in the following procedure.  
 
@@ -217,14 +217,14 @@ When you have created the data exchange definition for a specific data file, you
 
     If a data exchange definition has already been created, you just have to import the XML file into the Data Exchange Framework. This task is described in the following procedure.  
 
-## <a name="import-an-existing-data-exchange-definition"></a><a name="import-an-existing-data-exchange-definition"></a>Import an existing data exchange definition
+## <a name="import-an-existing-data-exchange-definition"></a><a name="import-an-existing-data-exchange-definition"></a><a name="import-an-existing-data-exchange-definition"></a>Import an existing data exchange definition
 
 1. Save the XML file that represents the data exchange definition in an appropriate location.  
 2. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Exchange Definitions**, then choose the related link.  
 3. Choose the **Import Data Exchange Definition** action.  
 4. Choose the file that you saved in step 1.  
 
-## <a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
 
 [Set Up Data Exchange](across-set-up-data-exchange.md)  
 [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)  

@@ -10,13 +10,13 @@ ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, eco
 ms.date: 06/14/2022
 ms.author: edupont
 ---
-# <a name="incoming-documents"></a><a name="incoming-documents"></a>Incoming Documents
+# <a name="incoming-documents"></a><a name="incoming-documents"></a><a name="incoming-documents"></a>Incoming Documents
 
 External business documents can come into your company as an email attachment or a paper copy that you scan to file. This scenario is typical of purchases, where such incoming document files represent payment receipts for expenses or small purchases.
 
 On the **Incoming Documents** page, you can use different functions to review expense receipts, manage OCR tasks, and convert incoming document files, manually or automatically, to the relevant documents or journal lines. The external files can be attached at any process stage, including to posted documents and to the resulting vendor, customer, and general ledger entries.
 
-## <a name="usage-scenario"></a><a name="usage-scenario"></a>Usage scenario
+## <a name="usage-scenario"></a><a name="usage-scenario"></a><a name="usage-scenario"></a>Usage scenario
 
 You can register files or paper copies received from your trading partners in [!INCLUDE[prod_short](includes/prod_short.md)] and create a document record. For example, a purchase or sales invoice, credit memo or a journal line.
 
@@ -30,7 +30,7 @@ For example, when you receive an invoice in PDF format from your vendor, you can
 > [!TIP]
 > Create incoming document records in [!INCLUDE[prod_short](includes/prod_short.md)] directly from emails sent by vendors using the Outlook add-in. For more information, see [Use Business Central as your Business Inbox in Outlook](work-outlook-addin.md).
 
-## <a name="incoming-document-features"></a><a name="incoming-document-features"></a>Incoming document features
+## <a name="incoming-document-features"></a><a name="incoming-document-features"></a><a name="incoming-document-features"></a>Incoming document features
 
 The incoming document process can consist of the following main activities:
 
@@ -57,9 +57,9 @@ The incoming document process can consist of the following main activities:
 | From the **Chart of Accounts** and **General Ledger Entries** pages, use a search function to find general ledger entries for posted documents that don't have incoming document records and then centrally link to existing records or create new ones with attached document files. |[Find Posted Documents without Incoming Document Records](across-how-find-posted-documents-without-income-document-records.md) |
 | Get a better overview by setting incoming document records to *Processed* and remove them from the default view. |[Manage Many Incoming Document Records](across-how-manage-many-income-document-records.md) |
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/incoming-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
 
 [Purchasing](purchasing-manage-purchasing.md)  
 [Editing Posted Documents](across-edit-posted-document.md)  

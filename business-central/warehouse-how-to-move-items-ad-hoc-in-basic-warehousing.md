@@ -10,7 +10,7 @@ ms.date: 12/16/2022
 ms.custom: bap-template
 ms.search.form: '393, 7382'
 ---
-# <a name="move-items-internally-in-basic-warehouse-configurations"></a><a name="move-items-internally-in-basic-warehouse-configurations"></a>Move Items Internally in Basic Warehouse Configurations
+# <a name="move-items-internally-in-basic-warehouse-configurations"></a><a name="move-items-internally-in-basic-warehouse-configurations"></a><a name="move-items-internally-in-basic-warehouse-configurations"></a>Move Items Internally in Basic Warehouse Configurations
 
 You might want to move items between bins without a demand from a source document. For example, as part of the following activities:
 
@@ -25,11 +25,11 @@ In warehouse configurations where the **Bin Mandatory** setup toggle is turned o
 * On the **Internal Movement** page.
 * On the **Item Reclassification Journal** page.  
 
-## <a name="internal-movements"></a><a name="internal-movements"></a>Internal movements
+## <a name="internal-movements"></a><a name="internal-movements"></a><a name="internal-movements"></a>Internal movements
 
 The **Internal Movements** page lets you specify Take and Place lines when there isn't a demand from a source document. The Internal Movement page is like a worksheet for organising things. You can't process the actual movement directly from it. When a line is filled in, use the **Create Inventory Movement** action to send the line to the **Inventory Movement** page, which is where you process and register the movement.
 
-### <a name="to-move-items-as-an-internal-movement"></a><a name="to-move-items-as-an-internal-movement"></a>To move items as an internal movement
+### <a name="to-move-items-as-an-internal-movement"></a><a name="to-move-items-as-an-internal-movement"></a><a name="to-move-items-as-an-internal-movement"></a>To move items as an internal movement
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Internal Movements**, and then choose the related link.  
 2. Choose **New** action. Make sure that the **No.** field on the **General** FastTab is filled in.
@@ -59,7 +59,7 @@ The **Internal Movements** page lets you specify Take and Place lines when there
 
 Perform the rest of the unplanned movement on the **Inventory Movement** page in the same way as you would for a movement based on source documents.
 
-### <a name="to-record-the-inventory-movement"></a><a name="to-record-the-inventory-movement"></a>To record the inventory movement
+### <a name="to-record-the-inventory-movement"></a><a name="to-record-the-inventory-movement"></a><a name="to-record-the-inventory-movement"></a>To record the inventory movement
 
 1. On the **Inventory Movement** page, open the document to record the movement for.  
 2. In the **Bin Code** field on the movement lines, the bin where the items must be picked from is where the item is available. You can change the bin if needed.
@@ -72,7 +72,7 @@ The following happens during the posting process:
 
 * Warehouse entries indicate that the quantity is transferred from the take bins to the place bins.
 
-## <a name="to-move-items-with-the-item-reclassification-journal"></a><a name="to-move-items-with-the-item-reclassification-journal"></a>To move items with the item reclassification journal
+## <a name="to-move-items-with-the-item-reclassification-journal"></a><a name="to-move-items-with-the-item-reclassification-journal"></a><a name="to-move-items-with-the-item-reclassification-journal"></a>To move items with the item reclassification journal
 
 Instead of using movement documents, you can record movements by reclassifying bin codes on items. Learn more at [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md).
 
@@ -89,9 +89,9 @@ Instead of using movement documents, you can record movements by reclassifying b
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/manage-internal-warehouse-processes/)
 
-## <a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

@@ -10,7 +10,7 @@ ms.search.form: '99000813, 99000814, 99000815, 99000816, 99000829, 99000830, 990
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# <a name="about-production-orders"></a><a name="about-production-orders"></a>About Production Orders
+# <a name="about-production-orders"></a><a name="about-production-orders"></a><a name="about-production-orders"></a>About Production Orders
 
 Production orders are used to manage the conversion of purchased materials into manufactured items. Production orders route work through various work or machine centres on the shop floor.  
 
@@ -31,7 +31,7 @@ Production orders are the starting points for:
 - Controlling current manufacturing  
 - Tracking of finished manufacturing  
 
-## <a name="production-order-creation"></a><a name="production-order-creation"></a>Production Order Creation
+## <a name="production-order-creation"></a><a name="production-order-creation"></a><a name="production-order-creation"></a>Production Order Creation
 Production orders can be created on an order-by-order basis manually from the **Production Order** page, or generated from the **Sales Order Planning** or **Order Planning** pages. Multiple orders are created from the **Planning Worksheet** page.  
 
 Production orders are created using information from:  
@@ -42,7 +42,7 @@ Production orders are created using information from:
 - Machine centres  
 - Work centres  
 
-## <a name="limitations-on-production-order-creation"></a><a name="limitations-on-production-order-creation"></a>Limitations on Production Order Creation
+## <a name="limitations-on-production-order-creation"></a><a name="limitations-on-production-order-creation"></a><a name="limitations-on-production-order-creation"></a>Limitations on Production Order Creation
 Production orders are automatically reserved and tracked to their source when:  
 
 - Created from the **[Planning Worksheet](production-how-to-run-mps-and-mrp.md)**.  
@@ -54,16 +54,16 @@ For more information, see [Track Relations Between Demand and Supply](production
 
 Production orders created through other means are not automatically reserved and tracked.   
 
-## <a name="production-order-status"></a><a name="production-order-status"></a>Production Order Status
+## <a name="production-order-status"></a><a name="production-order-status"></a><a name="production-order-status"></a>Production Order Status
 The production order status controls how the production order behaves within application. The form and content of the production are dictated by the order's status. The production orders are displayed in different pages according to their status. You cannot change the status of a production order manually; you must use the **Change Status** function in the individual production order or in the **Change Production Order Status** window.  
 
-### <a name="simulated-production-order"></a><a name="simulated-production-order"></a>Simulated Production Order
+### <a name="simulated-production-order"></a><a name="simulated-production-order"></a><a name="simulated-production-order"></a>Simulated Production Order
 The Simulated Production Order is unique based on the following characteristics:  
 
 - As its name implies, it is a simulation and its main purpose is for quoting and costing - such as when the Research and Development department wants to get a cost estimate on a proposed item. A simulated production order serves as an example of a production order.  
 - It does not influence the planning of orders. Planning (MPS and MRP) neither considers nor is affected by simulated production orders. Also, a simulated production order cannot be used as a template because it disappears when you change its status.  
 
-### <a name="planned-production-order"></a><a name="planned-production-order"></a>Planned Production Order
+### <a name="planned-production-order"></a><a name="planned-production-order"></a><a name="planned-production-order"></a>Planned Production Order
 The Planned Production Order is unique because of the following characteristics:  
 
 - You can automatically create a planned production order from a sales order.  
@@ -72,7 +72,7 @@ The Planned Production Order is unique because of the following characteristics:
 - Their generation in planning results in a suggested "planned order release" that includes quantity, release date, and due date. The planning system logic is based on the replenishment system, reorder policies, and order modifiers that it encounters in the net requirements planning process.  
 - To view their impact, look at the load for each work centre or machine centre on the planned production order's routing.  
 
-### <a name="firm-planned-production-order"></a><a name="firm-planned-production-order"></a>Firm Planned Production Order
+### <a name="firm-planned-production-order"></a><a name="firm-planned-production-order"></a><a name="firm-planned-production-order"></a>Firm Planned Production Order
 The Firm Planned Production Order is unique because of the following characteristics:  
 
 - You can automatically create a firm planned production order from a sales order.  
@@ -81,7 +81,7 @@ The Firm Planned Production Order is unique because of the following characteris
 - Their generation in planning results in a suggested "planned order release" that includes: quantity, release date, and due date. The planning system logic is based on the replenishment system, reorder policies, and order modifiers that it encounters in the net requirements planning process.  
 - To view their impact, look at the load for each work centre or machine centre on the firm planned production order's routing.  
 
-### <a name="released-production-order"></a><a name="released-production-order"></a>Released Production Order
+### <a name="released-production-order"></a><a name="released-production-order"></a><a name="released-production-order"></a>Released Production Order
 The Released Production Order is unique based on the following characteristics:  
 
 - You can automatically create a released production order from a sales order.  
@@ -89,7 +89,7 @@ The Released Production Order is unique based on the following characteristics:
 - In a MTO (Make-to-Order) environment, it is not unusual to create a released production order immediately after the entry of the sales order.  
 - Actual material consumption and product output can be recorded manually with a released production order. In addition, automatic flushing of consumption and product output only occurs for released production orders.  
 
-### <a name="finished-production-order"></a><a name="finished-production-order"></a>Finished Production Order
+### <a name="finished-production-order"></a><a name="finished-production-order"></a><a name="finished-production-order"></a>Finished Production Order
 The Finished Production Order is unique based on the following characteristics:  
 
 - A finished production order is typically one that has been manufactured.  
@@ -97,7 +97,7 @@ The Finished Production Order is unique based on the following characteristics:
 - Finished production orders are used for statistical reporting and to support the ability to track back to other orders (sales, production, and purchase, for example). The ability to track back to a finished production order allows you to review the detailed history.  
 - Finished production orders can never be changed.  
 
-## <a name="production-order-execution"></a><a name="production-order-execution"></a>Production Order Execution
+## <a name="production-order-execution"></a><a name="production-order-execution"></a><a name="production-order-execution"></a>Production Order Execution
 Once a production order has been created and scheduled, it has to be released to the shop floor to be executed. During execution of the order, you record:  
 
 - Materials picked or consumed  
@@ -106,7 +106,7 @@ Once a production order has been created and scheduled, it has to be released to
 
 This information can be recorded manually or through automatic reporting, according to the setup in the Flushing Method field of item and work centre.  
 
-### <a name="material-consumption"></a><a name="material-consumption"></a>Material Consumption
+### <a name="material-consumption"></a><a name="material-consumption"></a><a name="material-consumption"></a>Material Consumption
 The application offers a variety of options for how a manufacturing company might want to record material consumption. For example, material consumption may be recorded manually, which might be desirable if there are frequent component substitutions or greater than expected scrap.  
 
 Consumption of materials may be processed through the [consumption journal](production-how-to-post-consumption.md), but also may be recorded automatically by application, known as automatic reporting (flushing). The reporting methods are:  
@@ -128,7 +128,7 @@ When the Production Order is refreshed, the flushing method is copied from the i
 
 For more information, see [Flush Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md)
 
-### <a name="production-output"></a><a name="production-output"></a>Production Output
+### <a name="production-output"></a><a name="production-output"></a><a name="production-output"></a>Production Output
 The application provides you with the capability to track how much time is spent working on a production order, in addition to recording the quantity produced. This information can help you more accurately determine the costs of production. Also, manufacturers using a standard costing system may want to record actual information in order to help them develop better standards.  
 
 Output may be processed through the [output journal](production-how-to-post-output-quantity.md), but also may be recorded automatically by application. The application copies the flushing method from the machine centre or work centre card to the production order routing when refreshing. As with material consumption, there are three reporting methods for output:  
@@ -143,12 +143,12 @@ Forward method records the expected output (and time), which is automatically re
 
 Backward method records the expected output (and time), which is automatically recorded at the finish of a Production Order. Routing link codes are not a factor in the back flushing of the output.  
 
-### <a name="posting-consumption-and-output"></a><a name="posting-consumption-and-output"></a>Posting Consumption and Output
+### <a name="posting-consumption-and-output"></a><a name="posting-consumption-and-output"></a><a name="posting-consumption-and-output"></a>Posting Consumption and Output
 You can use any combination of automatic flushing and manually recorded information for both consumption and output. For example, you may want to automatically forward flush components, but still use the Consumption Journal to record scrap. Similarly, you may want to automatically record output, but use the Output Journal to record scrap of the parent item or additional time spent on the order.  
 
 Finally, if you enter consumption and output manually, you need to determine the sequence in which you are going to record this information. You can record consumption first and use a shortcut method to enter the information, which is based on expected quantity of output. Or, you can enter output first, using the **Explode Routing** function. You would then record consumption based on actual quantity of output.  
 
-### <a name="production-journal"></a><a name="production-journal"></a>Production Journal
+### <a name="production-journal"></a><a name="production-journal"></a><a name="production-journal"></a>Production Journal
 The [Production Journal](production-how-to-register-consumption-and-output.md) combines the functions of the Consumption Journal and Output Journals into one journal, which is accessed directly from the Released Production Order.  
 
 The purpose of the Production Journal is to provide a single interface for you to register consumption and output from a Production Order.  
@@ -174,7 +174,7 @@ However, the Production Journal differs from the Consumption and Output journals
 
 In the production journal, consumption quantities are posted as negative item ledger entries, output quantities are posted as positive ledger entries, and times spent are posted as capacity ledger entries.  
 
-## <a name="see-also"></a><a name="see-also"></a>See Also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See Also
 [Manufacturing](production-manage-manufacturing.md)
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Planning](production-planning.md)  

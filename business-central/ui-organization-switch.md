@@ -9,11 +9,11 @@ ms.date: 08/16/2022
 ms.author: bholtorf
 ---
 
-# <a name="switching-to-another-company-or-environment"></a><a name="switching-to-another-company-or-environment"></a>Switching to Another Company or Environment
+# <a name="switching-to-another-company-or-environment"></a><a name="switching-to-another-company-or-environment"></a><a name="switching-to-another-company-or-environment"></a>Switching to Another Company or Environment
 
 [!INCLUDE [prod_short](includes/prod_short.md)] is available in many different countries and supports many different types of organisations. Your organisation may choose to organise work in [!INCLUDE [prod_short](includes/prod_short.md)] into multiple *companies* and *environments*. This article helps you understand the key differences and how to work across them.
 
-## <a name="about-companies-and-environments"></a><a name="about-companies-and-environments"></a>About companies and environments
+## <a name="about-companies-and-environments"></a><a name="about-companies-and-environments"></a><a name="about-companies-and-environments"></a>About companies and environments
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
@@ -25,7 +25,7 @@ ms.author: bholtorf
 <!--
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]-->
 
-## <a name="features-for-switching-company-or-environment"></a><a name="features-for-switching-company-or-environment"></a>Features for switching company or environment
+## <a name="features-for-switching-company-or-environment"></a><a name="features-for-switching-company-or-environment"></a><a name="features-for-switching-company-or-environment"></a>Features for switching company or environment
 
 There are a few features you can use to switch the company or environment as you work. The following table compares the capabilities of the feature, which are explained in more detail in the sections that follow.
 
@@ -36,7 +36,7 @@ There are a few features you can use to switch the company or environment as you
 |[My Settings](#use-my-settings)|![check mark](media/check.png "cheque")|||![check mark](media/check.png "cheque")|
 |[Company Hub](#use-company-hub)|![check mark](media/check.png "cheque")|![check mark](media/check.png "cheque")|![check mark](media/check.png "cheque")||
 
-## <a name="use-the-company-switcher"></a><a name="use-the-company-switcher"></a>Use the company switcher
+## <a name="use-the-company-switcher"></a><a name="use-the-company-switcher"></a><a name="use-the-company-switcher"></a>Use the company switcher
 
 Using the company switcher is probably the quickest and most versatile way to switch company. The company switcher is a pane that's readily available from any page. The pane gives an overview of all companies in all environments that you have access to, and lets you switch directly to any one of them&mdash;either in the same browser tab or a new one. It's especially useful when you work in many companies across different environments.
 
@@ -57,7 +57,7 @@ Using the company switcher is probably the quickest and most versatile way to sw
 > [!TIP]
 > Select <kbd>F5</kbd> to refresh list of environments and companies.
 
-## <a name="use-the-app-launcher"></a><a name="use-the-app-launcher"></a>Use the app launcher
+## <a name="use-the-app-launcher"></a><a name="use-the-app-launcher"></a><a name="use-the-app-launcher"></a>Use the app launcher
 
 When you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)], the environments that you can access are available on the Office.com.  
 
@@ -73,7 +73,7 @@ The following image shows tiles for accessing production and sandbox environment
 
 :::image type="content" source="media/app-picker-environments.png" alt-text="The Dynamics 365 Home page showing production and sandbox environments.":::
 -->
-## <a name="use-my-settings"></a><a name="use-my-settings"></a>Use My Settings
+## <a name="use-my-settings"></a><a name="use-my-settings"></a><a name="use-my-settings"></a>Use My Settings
 
 When you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)], you can quickly switch to another company in the same environment. After you make the switch, the company you choose becomes your default company and will open the next time you sign in.
 
@@ -88,13 +88,13 @@ When you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)], you can
 > [!TIP]
 > A good way to go directly to your default company when you sign in, and avoid having to specify an environment, is to add the the URL to your list of favourites after you sign in.
 
-## <a name="use-company-hub"></a><a name="use-company-hub"></a>Use company hub
+## <a name="use-company-hub"></a><a name="use-company-hub"></a><a name="use-company-hub"></a>Use company hub
 
 *Company hub* is a highly specialised role centre that gives a financial overview across companies and environments. Available as an [extension](ui-extensions-company-hub.md), company hub provides a dashboard with summary data for each company that you have access to. The home page displays financial KPIs and a direct link to the individual environments and companies. For more information, see [Manage Work across Multiple Companies in the Company Hub](company-hub.md).
 
 [![Shows the company hub page that lists all companies.](media/company-hub.png)](media/company-hub.png#lightbox)  
 
-## <a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
 
 [Creating New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  

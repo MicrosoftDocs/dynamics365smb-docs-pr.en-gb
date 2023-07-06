@@ -8,7 +8,7 @@ ms.search.keywords: null
 ms.date: 09/13/2022
 ms.author: edupont
 ---
-# <a name="approval-workflow-notifications"></a><a name="approval-workflow-notifications"></a>Approval Workflow Notifications
+# <a name="approval-workflow-notifications"></a><a name="approval-workflow-notifications"></a><a name="approval-workflow-notifications"></a>Approval Workflow Notifications
 
 Set up your workflows to automatically notify users when their attention is required for a step in a workflow. Many workflow responses involve notifying a user an event they must act on has occurred.
 
@@ -20,7 +20,7 @@ For example, you can set it so User 2, the approver user, receives a notificatio
 > [!IMPORTANT]  
 > All workflow notifications are sent through a job queue. Make sure the job queue in your installation is set up to handle workflow notifications, and that you've selected the **Start Automatically From Server** check box. Learn more at [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
 
-## <a name="set-up-notifications"></a><a name="set-up-notifications"></a>Set up notifications
+## <a name="set-up-notifications"></a><a name="set-up-notifications"></a><a name="set-up-notifications"></a>Set up notifications
 
 You can set up different aspects of workflow notifications in the following places:  
 
@@ -49,9 +49,9 @@ You can set up different aspects of workflow notifications in the following plac
 
   For approval workflows, add a workflow response step to notify the sender when the request has been approved or rejected. Learn more from step 9 in the [Create Workflows](across-how-to-create-workflows.md#to-create-a-workflow) section.   
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-workflows/)
 
-## <a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
 
 [Set Up Approval Users](across-how-to-set-up-approval-users.md)  
 [Set Up Workflow Users](across-how-to-set-up-workflow-users.md)  

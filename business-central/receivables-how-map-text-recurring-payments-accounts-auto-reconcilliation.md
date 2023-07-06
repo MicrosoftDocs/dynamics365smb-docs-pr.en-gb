@@ -11,7 +11,7 @@ ms.search.form: '1290, 1294, 1287'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a><a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Map Text on Recurring Payments to Accounts for Automatic Reconciliation
+# <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a><a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a><a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Map Text on Recurring Payments to Accounts for Automatic Reconciliation
 
 On the **Text-to-Account Mapping** page, which you open from the **Payment Reconciliation Journal** page, you can set up mappings between text on payments and specific debit, credit, and balancing accounts so that such payments are posted to the specified accounts when you post the payment reconciliation journal.
 
@@ -24,7 +24,7 @@ Payments posted based on text-to-account mapping are not applied to open entries
 
 On a payment reconciliation journal line where the payment has been set to posting according to text-to-account mapping, the **Match Confidence** field contains **High - Text-to-Account Mapping**, and the **Account Type** and **Account No.** fields contain the mapped accounts.
 
-## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a><a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>To map text on recurring payments to accounts for automatic reconciliation
+## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a><a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a><a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>To map text on recurring payments to accounts for automatic reconciliation
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Reconciliation Journals**, and then choose the related link.
 2. Open a payment reconciliation journal. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
@@ -44,7 +44,7 @@ On a payment reconciliation journal line where the payment has been set to posti
 
 Next time you import a bank statement file or choose the **Apply Automatically** action on the **Payment Reconciliation Journal** page, journal lines for the payments that contain the specified mapping text will contain the mapped accounts in the **Account Type** and **Account No.** fields. The **Match Confidence** field will contain **High - Text-to-Account Mapping**. This is on the condition that the automatic application function can only provide a match confidence of **Low** or **Medium**.
 
-## <a name="example-text-to-account-mapping-for-bank-fees"></a><a name="example-text-to-account-mapping-for-bank-fees"></a>Example: Text-to-Account Mapping for Bank Fees
+## <a name="example-text-to-account-mapping-for-bank-fees"></a><a name="example-text-to-account-mapping-for-bank-fees"></a><a name="example-text-to-account-mapping-for-bank-fees"></a>Example: Text-to-Account Mapping for Bank Fees
 
 To always post expenses that are related to fees from a specific bank, MyBank, to the general ledger account for bank charges and fees (account 60400), fill a line on the **Text-to-Account Mapping** page as follows.
 
@@ -52,9 +52,9 @@ To always post expenses that are related to fees from a specific bank, MyBank, t
 | --- | --- | --- | --- | --- |
 | MyBank |BLANK |60400|G/L Account |BLANK |
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/use-journals-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/use-journals-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
 
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  

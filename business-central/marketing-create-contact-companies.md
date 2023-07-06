@@ -10,7 +10,7 @@ ms.search.keywords: 'relationship, prospect'
 ms.date: 08/30/2022
 ms.author: edupont
 ---
-# <a name="create-contacts"></a><a name="create-contacts"></a>Create Contacts
+# <a name="create-contacts"></a><a name="create-contacts"></a><a name="create-contacts"></a>Create Contacts
 
 When you develop a business relationship with someone in another company, add them as a contact in [!INCLUDE[prod_short](includes/prod_short.md)]. Then, add any information about them, or their company, that could be useful in future communications. You can create the following types of contacts on the **Contact Card** page:
 
@@ -28,7 +28,7 @@ When a contact is converted to a customer, for example, the contact person or co
 >
 > However, if you're already using the built-in functionality to create customers or items automatically, this feature update does not support custom fields, and newly created customers or items will not include such data.
 
-## <a name="to-create-a-contact-manually"></a><a name="to-create-a-contact-manually"></a>To create a contact manually
+## <a name="to-create-a-contact-manually"></a><a name="to-create-a-contact-manually"></a><a name="to-create-a-contact-manually"></a>To create a contact manually
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, then choose the related link.
 2. Choose the **New** action.
@@ -37,7 +37,7 @@ When a contact is converted to a customer, for example, the contact person or co
    Alternatively, if you have set up a number series for contacts on the **Marketing Setup** page, you can select <kbd>Enter</kbd> to insert the next available contact number.
 4. Fill in the remaining fields as required. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-create-a-contact-from-a-customer-vendor-or-bank-account"></a><a name="to-create-a-contact-from-a-customer-vendor-or-bank-account"></a>To create a contact from a customer, vendor, or bank account
+## <a name="to-create-a-contact-from-a-customer-vendor-or-bank-account"></a><a name="to-create-a-contact-from-a-customer-vendor-or-bank-account"></a><a name="to-create-a-contact-from-a-customer-vendor-or-bank-account"></a>To create a contact from a customer, vendor, or bank account
 
 If you have existing customers, vendors, and bank accounts you want to create contact cards for, you can use the **Create Contacts from** batch jobs. When you create a contact this way, the contact information is later synchronised with the related customer, vendor, or bank account information. Learn more at [Synchronising Contacts with Customers, Vendors, Employees, and Bank Accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
 
@@ -56,7 +56,7 @@ The next contact numbers in the number series are assigned to the new contacts. 
 > [!TIP]  
 > You can also do this the other way around, namely by creating a customer, vendor, employee, or bank account from a contact. Learn more in the [To create a customer, vendor, employee, or bank account from a contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact) section.
 
-## <a name="to-create-a-customer-vendor-employee-or-bank-account-from-a-contact"></a><a name="to-create-a-customer-vendor-employee-or-bank-account-from-a-contact"></a>To create a customer, vendor, employee, or bank account from a contact
+## <a name="to-create-a-customer-vendor-employee-or-bank-account-from-a-contact"></a><a name="to-create-a-customer-vendor-employee-or-bank-account-from-a-contact"></a><a name="to-create-a-customer-vendor-employee-or-bank-account-from-a-contact"></a>To create a customer, vendor, employee, or bank account from a contact
 
 If you have a customer, vendor, employee, or bank account for the company you want to create a contact for, use the **Create as** action. When you create a contact this way, the contact information is later synchronised with the related customer, vendor, employee, or bank account information. Learn more at [Synchronising Contacts with Customers, Vendors, and Bank Accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).<!--Should this link include "Employees" as per the section title below?-->
 
@@ -70,7 +70,7 @@ If you have a customer, vendor, employee, or bank account for the company you wa
 
 The contact information is transferred from the contact card to a new customer, vendor, employee, or bank account card. You may want to add specific information to each of the cards, such as invoicing and payment details. For an example, see [Register New Customers](sales-how-register-new-customers.md).
 
-## <a name="to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account"></a><a name="to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account"></a>To link a contact to an existing customer, vendor, employee, or bank account
+## <a name="to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account"></a><a name="to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account"></a><a name="to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account"></a>To link a contact to an existing customer, vendor, employee, or bank account
 
 If you have a contact and either a customer, vendor, employee or bank account for the same company, you can link the two entities to synchronise data.
 
@@ -80,7 +80,7 @@ If you have a contact and either a customer, vendor, employee or bank account fo
 4. In the **Current Master Fields** field, specify the fields to prioritise if there is conflicting information in fields common to both the existing contact and the customer, vendor, employee, or bank account. So, if the salesperson code differs between the contact and customer, you can choose to keep the one on the contact card by selecting **Contact**.
 5. Choose **OK**.
 
-## <a name="to-remove-a-link-between-a-contact-and-an-existing-customer-vendor-employee-or-bank-account"></a><a name="to-remove-a-link-between-a-contact-and-an-existing-customer-vendor-employee-or-bank-account"></a>To remove a link between a contact and an existing customer, vendor, employee, or bank account
+## <a name="to-remove-a-link-between-a-contact-and-an-existing-customer-vendor-employee-or-bank-account"></a><a name="to-remove-a-link-between-a-contact-and-an-existing-customer-vendor-employee-or-bank-account"></a><a name="to-remove-a-link-between-a-contact-and-an-existing-customer-vendor-employee-or-bank-account"></a>To remove a link between a contact and an existing customer, vendor, employee, or bank account
 
 If you linked a contact with a customer, vendor, employee, or bank account that you didn't intend to, remove the link between the entities so the data no longer synchronises.
 
@@ -92,7 +92,7 @@ If you linked a contact with a customer, vendor, employee, or bank account that 
 > [!NOTE]  
 > Do not use the **Business Relations** window to change existing relations. Instead, remove the relation and use the **Link with existing** action. Learn more in the [To link a contact to an existing customer, vendor, employee, or bank account](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account) section.
 
-## <a name="synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts"></a><a name="synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts"></a>Synchronising contacts with customers, vendors, employees, and bank accounts
+## <a name="synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts"></a><a name="synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts"></a><a name="synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts"></a>Synchronising contacts with customers, vendors, employees, and bank accounts
 
 If some of your contacts are also customers, vendors, employees, or bank accounts, you can synchronise them with data from the contact and gain the following benefits:
 
@@ -112,12 +112,12 @@ There are three ways to enable data synchronisation between contacts and custome
 * When you create customers, vendors, employees, or bank accounts from contacts. Learn more in the [To create a customer, vendor, employee, or bank account from a contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact) section.
 * When you link contacts to existing customers, vendors, employees, or bank accounts from the contact card. Learn more in the [To link a contact to an existing customer, vendor, employee, or bank account](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account) section.
 
-## <a name="to-view-which-customer-vendor-employee-or-bank-account-a-contact-is-related-to"></a><a name="to-view-which-customer-vendor-employee-or-bank-account-a-contact-is-related-to"></a>To view which customer, vendor, employee, or bank account a contact is related to
+## <a name="to-view-which-customer-vendor-employee-or-bank-account-a-contact-is-related-to"></a><a name="to-view-which-customer-vendor-employee-or-bank-account-a-contact-is-related-to"></a><a name="to-view-which-customer-vendor-employee-or-bank-account-a-contact-is-related-to"></a>To view which customer, vendor, employee, or bank account a contact is related to
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then choose the related link.
 2. Select the line for a contact, choose the **Related Information** action, and then choose the **Customer/Vendor/Bank Account/Employee** action.
 
-## <a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
 
 [Managing Contacts](marketing-contacts.md)  
 [Setting Up Contacts](marketing-setup-contacts.md)  

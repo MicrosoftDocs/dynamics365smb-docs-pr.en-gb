@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.search.form: null
 ms.author: bholtorf
 ---
-# <a name="manage-notifications"></a><a name="manage-notifications"></a>Manage Notifications
+# <a name="manage-notifications"></a><a name="manage-notifications"></a><a name="manage-notifications"></a>Manage Notifications
 
 [!INCLUDE[prod_short](includes/prod_short.md)] can help you work smarter by notifying you about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance, or the available inventory is lower than the quantity you are about to sell, for example. These notifications are shown as discreet tips in the context of the task you are doing, and you can choose to ignore the notification or to see details about the issue.  
 
@@ -18,7 +18,7 @@ If you choose to see details for a notification, you can take action to resolve 
 
 Notifications can help untrained users complete unfamiliar tasks, and do not reduce productivity for the more trained user.  
 
-## <a name="to-turn-notifications-on-or-off-and-control-when-they-are-sent"></a><a name="to-turn-notifications-on-or-off-and-control-when-they-are-sent"></a>To turn notifications on or off, and control when they are sent
+## <a name="to-turn-notifications-on-or-off-and-control-when-they-are-sent"></a><a name="to-turn-notifications-on-or-off-and-control-when-they-are-sent"></a><a name="to-turn-notifications-on-or-off-and-control-when-they-are-sent"></a>To turn notifications on or off, and control when they are sent
 
 When you first start with [!INCLUDE[prod_short](includes/prod_short.md)] all notifications are turned on, but you can turn them on or off, for example, if you aren't interested in a certain event or status.  
 
@@ -31,7 +31,7 @@ Turning notifications on or off, and specifying conditions, applies only to you.
 3. In the page that appears, turn on or turn off a notification by selecting or clearing the **Enabled** check box.  
 4. To specify conditions that trigger a notification, choose the **View filter details** link, and then fill in the fields.  
 
-## <a name="see-also"></a><a name="see-also"></a>See Also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See Also
 
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

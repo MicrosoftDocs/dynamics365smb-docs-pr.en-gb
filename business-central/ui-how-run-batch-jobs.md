@@ -11,7 +11,7 @@ ms.search.form: '672, 676, 682'
 ms.date: 04/01/2021
 ms.author: solsen
 ---
-# <a name="run-batch-jobs-and-xmlports"></a><a name="run-batch-jobs-and-xmlports"></a>Run Batch Jobs and XMLports
+# <a name="run-batch-jobs-and-xmlports"></a><a name="run-batch-jobs-and-xmlports"></a><a name="run-batch-jobs-and-xmlports"></a>Run Batch Jobs and XMLports
 
 A batch job is a routine that processes data in batches, for example the **Adjust Exchange Rates** batch job. There are batch jobs that perform periodic accounting activities, such as closing the income statement at the end of a fiscal year. Many batch jobs do calculation work, such as calculation of finance charges, exchange rate adjustment, and calculation of unit prices.
 
@@ -19,13 +19,13 @@ A batch job is like a report, except the batch job uses the result of its work t
 
 You can schedule when a batch job runs. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
 
-## <a name="to-run-a-batch-job"></a><a name="to-run-a-batch-job"></a>To run a batch job
+## <a name="to-run-a-batch-job"></a><a name="to-run-a-batch-job"></a><a name="to-run-a-batch-job"></a>To run a batch job
 1. To open the request page for the relevant batch job, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter the name of the batch job, and then choose the related link.
 2. If there is an **Options** FastTab for the batch job, fill in the fields to determine what the batch job will do.
 3. The page may contain one or more FastTab with filters, which you can use to limit the data included in the batch job. You can enter criteria in the suggested filters or add more filters.
 4. Choose the **OK** button to start the batch job.
 
-## <a name="see-also"></a><a name="see-also"></a>See Also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See Also
 [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)  
 [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

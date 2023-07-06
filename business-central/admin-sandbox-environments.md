@@ -11,7 +11,7 @@ ms.search.keywords: 'sandbox, demo, develop'
 ms.date: 12/20/2021
 ms.author: solsen
 ---
-# <a name="sandbox-environments-in-"></a><a name="sandbox-environments-in-"></a>Sandbox Environments in [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="sandbox-environments-in-"></a><a name="sandbox-environments-in-"></a><a name="sandbox-environments-in-"></a>Sandbox Environments in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 With [!INCLUDE[prod_short](includes/prod_short.md)] online, you can easily get a safe environment where you can test, train, or troubleshoot without disturbing your company's work processes or business data. Such a non-production environment is called a *sandbox*. Isolated from production, a sandbox environment is the place to safely explore, learn, demo, develop, and test the service without the risk of affecting the data and settings of your production environment.  
 
@@ -35,13 +35,13 @@ The sandbox environment is not least useful because it includes a couple of hand
 <!--* [Complete sample data](#complete-sample-data)  -->
 * [Designer](#designer)  
 
-## <a name="advanced-user-experience"></a><a name="advanced-user-experience"></a>Advanced user experience
+## <a name="advanced-user-experience"></a><a name="advanced-user-experience"></a><a name="advanced-user-experience"></a>Advanced user experience
 
 It is possible to enable and try the full functionality of the standard version of [!INCLUDE[prod_short](includes/prod_short.md)] in a sandbox tenant by setting the **Experience** field on the **Company Information** page to *Premium*. Find the **Company Information** page in the :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="Settings icon."::: menu.  
 
 After you have enabled the *Premium* user experience, you get access to all the standard profiles (roles) and Role Centres in the standard version. Alternatively, contact a reselling partner for a demonstration of the capabilities. For more information, see [How do I find a reselling partner?](across-faq.yml#how-do-i-find-a-reselling-partner).  
 
-### <a name="complete-sample-data"></a><a name="complete-sample-data"></a>Complete sample data
+### <a name="complete-sample-data"></a><a name="complete-sample-data"></a><a name="complete-sample-data"></a>Complete sample data
 
 For situations where you need additional sample data, please talk to your reselling partner.
 <!-- In the sandbox environment, you can also create a new company with the **Advanced Evaluation - Complete Sample Data** option so that you can take training or step through walkthroughs that require additional sample data, such as [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md).   -->
@@ -56,7 +56,7 @@ For situations where you need additional sample data, please talk to your resell
 
 When the assisted setup guide completes, you can start exploring the new company with the complete sample data. For more information, see [Creating New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  -->
 
-## <a name="designer"></a><a name="designer"></a>Designer
+## <a name="designer"></a><a name="designer"></a><a name="designer"></a>Designer
 
 In a sandbox environment, you will find the **Designer** enabled. You can activate Designer by selecting the design icon ![Designer.](./media/across-sandbox/sandbox-inclient-design-icon.png) on a page, or by choosing the **Design** menu item in the ![Settings](media/ui-experience/settings_icon_small.png) Settings menu.  
 
@@ -64,9 +64,9 @@ For more information, see [Use Designer](/dynamics365/business-central/dev-itpro
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/admin-online-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
 
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [[!INCLUDE[prod_long](includes/prod_long.md)] Trials and Subscriptions](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

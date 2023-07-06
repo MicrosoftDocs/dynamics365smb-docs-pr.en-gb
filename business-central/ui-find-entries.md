@@ -11,7 +11,7 @@ ms.search.form: 344
 ms.date: 05/23/2022
 ms.author: jswymer
 ---
-# <a name="finding-related-entries-for-documents"></a><a name="finding-related-entries-for-documents"></a>Finding Related Entries for Documents
+# <a name="finding-related-entries-for-documents"></a><a name="finding-related-entries-for-documents"></a><a name="finding-related-entries-for-documents"></a>Finding Related Entries for Documents
 
 Learn how to find documents and entries that are related to each other based on a piece of common information, like:
 
@@ -21,7 +21,7 @@ Learn how to find documents and entries that are related to each other based on 
 
 This feature is useful for finding the ledger entries that resulted from certain transactions. When you search by document number, you can print the summary from the **Document Entries** report.
 
-## <a name="get-started"></a><a name="get-started"></a>Get started
+## <a name="get-started"></a><a name="get-started"></a><a name="get-started"></a>Get started
 
 The find entries feature is readily available from almost any page by pressing the <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd> keys. From pages that specifically display posted documents or posted document entries&mdash;for both lists and cards&mdash;you can also open the feature by choosing the **Find entries** action.
 
@@ -31,7 +31,7 @@ The **Find Entries** page includes all related documents and entries based on th
 - The middle section displays related documents based on the search.
 - The bottom section displays information about the source document that was found by searching.
 
-## <a name="search-for-entries"></a><a name="search-for-entries"></a>Search for entries
+## <a name="search-for-entries"></a><a name="search-for-entries"></a><a name="search-for-entries"></a>Search for entries
 
 You can search for entries based on information about either the document, business contact, or item reference. On the top section, select one of the following options based on the type of information you have:
 
@@ -46,9 +46,9 @@ After you make a selection, enter the relevant search information in the fields 
 > [!TIP]
 > For a couple of examples about using **Find Entries**, see [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md) and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md).
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/user-interface-dynamics-365-business-central/index)
 
-## <a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
 
 [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)  
 [Find Posted Documents without Incoming Document Records](across-how-find-posted-documents-without-income-document-records.md)  

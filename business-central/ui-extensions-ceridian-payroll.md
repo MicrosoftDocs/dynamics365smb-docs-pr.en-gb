@@ -11,7 +11,7 @@ ms.search.form: '1665,'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="the-ceridian-payroll-extension"></a><a name="the-ceridian-payroll-extension"></a>The Ceridian Payroll Extension
+# <a name="the-ceridian-payroll-extension"></a><a name="the-ceridian-payroll-extension"></a><a name="the-ceridian-payroll-extension"></a>The Ceridian Payroll Extension
 
 To account for salary payments and related transactions, you must import and post financial transactions made by your payroll provider to the general ledger.
 
@@ -19,7 +19,7 @@ To do this, you first import a file that you receive from the payroll provider i
 
 The Ceridian Payroll extension allows you to import payroll transactions from the Ceridian HR/Payroll (US) and Ceridian PowerPay (Canada) services.
 
-## <a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
 
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions ](ui-extensions.md)  
 [Finance](finance.md)  

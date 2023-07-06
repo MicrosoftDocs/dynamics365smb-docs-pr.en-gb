@@ -11,13 +11,13 @@ ms.search.form: '120, 121, 422'
 ms.date: 09/14/2022
 ms.author: edupont
 ---
-# <a name="analyze-actual-amounts-versus-budgeted-amounts"></a><a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analyse Actual Amounts Versus Budgeted Amounts
+# <a name="analyze-actual-amounts-versus-budgeted-amounts"></a><a name="analyze-actual-amounts-versus-budgeted-amounts"></a><a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analyse Actual Amounts Versus Budgeted Amounts
 
 As a part of gathering, analysing, and sharing your company data, you view actual amounts compared to budgeted amounts for all accounts and for several periods.
 
 To analyse budgeted amounts, you must first create general ledger (G/L) budgets. Learn more at [Create G/L Budgets](finance-how-create-budgets.md).
 
-## <a name="view-a-gl-budget"></a><a name="view-a-gl-budget"></a>View a G/L budget
+## <a name="view-a-gl-budget"></a><a name="view-a-gl-budget"></a><a name="view-a-gl-budget"></a>View a G/L budget
 
 In a budget with dimensions, you can filter the entries and see specific budgets.
 
@@ -34,7 +34,7 @@ In a budget with dimensions, you can filter the entries and see specific budgets
 > [!TIP]  
 > Use the **Edit Budget** action to modify the budget. On the budget page, choose an amount to view the underlying general ledger budget entries.
 
-## <a name="view-actual-and-budgeted-amounts-for-all-accounts"></a><a name="view-actual-and-budgeted-amounts-for-all-accounts"></a>View actual and budgeted amounts for all accounts
+## <a name="view-actual-and-budgeted-amounts-for-all-accounts"></a><a name="view-actual-and-budgeted-amounts-for-all-accounts"></a><a name="view-actual-and-budgeted-amounts-for-all-accounts"></a>View actual and budgeted amounts for all accounts
 
 You can view general ledger budgets and compare them with actual figures in several areas of [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -51,7 +51,7 @@ The leftmost columns contain the chart of accounts. Of the five columns on the r
 > [!TIP]  
 > Use the **View by** field on the **G/L Balance/Budget** page to select the period length. Use the **View as** field to select the way the amounts will be calculated, either **Net Change** or **Balance at Date**. Choose the **Previous Period** or **Next Period** action to change the period.  
 
-## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a><a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>To view actual and budgeted amounts for several periods
+## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a><a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a><a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>To view actual and budgeted amounts for several periods
 
 Instead of viewing the actual and budgeted amounts for all accounts within a single period, you can view a number of periods for a single account.  
 
@@ -60,9 +60,9 @@ Instead of viewing the actual and budgeted amounts for all accounts within a sin
 3. On the **Options** FastTab, fill in the fields as necessary to define what is displayed in the table.  
 4. On the **Lines** FastTab, hover over a field on the table to read a short description about the displayed amount.  
 
-## <a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index).
 
-## <a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
 
 [Financial Business Intelligence](bi.md)  
 [Work with Financial Reports](bi-how-work-account-schedule.md)  

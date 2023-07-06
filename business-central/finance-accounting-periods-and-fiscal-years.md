@@ -10,7 +10,7 @@ ms.search.form: 100
 ms.date: 08/25/2022
 ms.author: bholtorf
 ---
-# <a name="work-with-accounting-periods-and-fiscal-years"></a><a name="work-with-accounting-periods-and-fiscal-years"></a>Work with Accounting Periods and Fiscal Years
+# <a name="work-with-accounting-periods-and-fiscal-years"></a><a name="work-with-accounting-periods-and-fiscal-years"></a><a name="work-with-accounting-periods-and-fiscal-years"></a>Work with Accounting Periods and Fiscal Years
 
 Accounting periods, also known as reporting periods, are periods of time for which a company or organisation reports financial performance by generating, for example, their income statement or balance sheet. Typically, accounting periods refer to the company's fiscal year, which can contain several accounting periods, such as months or quarters.
 
@@ -20,11 +20,11 @@ For many companies the fiscal year does not align with the calendar year, for in
 
 You can use accounting periods in reporting such as when you're reviewing posted entries on the **Balance/Budget** page where the reporting interval is specified. One of the options you may specify is to report by accounting period. You can also build a financial report that compares results for different accounting periods.
 
-## <a name="creating-a-new-fiscal-year"></a><a name="creating-a-new-fiscal-year"></a>Creating a new fiscal year
+## <a name="creating-a-new-fiscal-year"></a><a name="creating-a-new-fiscal-year"></a><a name="creating-a-new-fiscal-year"></a>Creating a new fiscal year
 
 You can create accounting periods in bulk by using the **Create Fiscal Year** batch job, or by doing so manually.
 
-### <a name="how-to-create-accounting-periods-in-bulk"></a><a name="how-to-create-accounting-periods-in-bulk"></a>How to create accounting periods in bulk
+### <a name="how-to-create-accounting-periods-in-bulk"></a><a name="how-to-create-accounting-periods-in-bulk"></a><a name="how-to-create-accounting-periods-in-bulk"></a>How to create accounting periods in bulk
 
 Use the **Create Fiscal Year** batch job to divide a fiscal year into periods of equal length.  
 
@@ -35,7 +35,7 @@ Use the **Create Fiscal Year** batch job to divide a fiscal year into periods of
 5. In the **Period Length** field, enter a duration for each period. Duration identifiers include 1M for one month, 1Q for one quarter, and 1Y for one year.  
 6. Choose **OK**.  
 
-### <a name="how-to-create-accounting-periods-manually"></a><a name="how-to-create-accounting-periods-manually"></a>How to create accounting periods manually
+### <a name="how-to-create-accounting-periods-manually"></a><a name="how-to-create-accounting-periods-manually"></a><a name="how-to-create-accounting-periods-manually"></a>How to create accounting periods manually
 
 If the accounting periods in your fiscal year have different durations, such as the 4-4-5 calendar used in retail, you can manually set it up.  
   
@@ -44,7 +44,7 @@ If the accounting periods in your fiscal year have different durations, such as 
 3. Choose the **New Fiscal Year** check box to indicate that this is the first period in the year. [!INCLUDE[prod_short](includes/prod_short.md)] will use this period to determine which periods to close at year-end.
 4. Repeat steps 2 and 3 for each remaining period.  
 
-## <a name="closing-a-fiscal-year"></a><a name="closing-a-fiscal-year"></a>Closing a fiscal year
+## <a name="closing-a-fiscal-year"></a><a name="closing-a-fiscal-year"></a><a name="closing-a-fiscal-year"></a>Closing a fiscal year
 
 Closing the fiscal year is one of the tasks for closing the books. After you close a fiscal year, the **Closed** and **Date Locked** check boxes are selected for all periods in the year. You cannot reopen a year or clear the check boxes.
 
@@ -54,11 +54,11 @@ Closing the fiscal year is one of the tasks for closing the books. After you clo
 1. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the related link.  
 2. Choose the **Close Year** action.  
 
-## <a name="posting-entries-to-a-closed-fiscal-year"></a><a name="posting-entries-to-a-closed-fiscal-year"></a>Posting entries to a closed fiscal year
+## <a name="posting-entries-to-a-closed-fiscal-year"></a><a name="posting-entries-to-a-closed-fiscal-year"></a><a name="posting-entries-to-a-closed-fiscal-year"></a>Posting entries to a closed fiscal year
 
 Although a fiscal year is closed, you can still post general ledger entries to it. When you do, the entries are marked as posted to a closed fiscal year and the **Prior Year Entry** check box is selected. By default, the check box is not displayed on the page, but you can add it. The next steps are to close the income statement accounts and transfer the year's results to an account in the balance sheet. Repeat these steps each time you post entries to a closed fiscal year.
 
-## <a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
 
 [Closing the Books](year-close-books.md)  
 [Closing Years and Periods](year-close-years-periods.md)  

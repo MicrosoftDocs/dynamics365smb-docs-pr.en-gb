@@ -10,7 +10,7 @@ ms.search.form: 5841
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="update-standard-costs"></a><a name="update-standard-costs"></a>Update Standard Costs
+# <a name="update-standard-costs"></a><a name="update-standard-costs"></a><a name="update-standard-costs"></a>Update Standard Costs
 You must periodically update the standard costs of components and roll the new costs up to the parent item. The process typically consists of the following four steps:  
 
 1.  Update costs at the component and capacity levels. For more information, see the **Suggest Item Standard Cost** batch job.  
@@ -20,7 +20,7 @@ You must periodically update the standard costs of components and roll the new c
 
 For more information, see [About Calculating Standard Cost](finance-about-calculating-standard-cost.md).
   
-## <a name="to-update-standard-costs"></a><a name="to-update-standard-costs"></a>To update standard costs
+## <a name="to-update-standard-costs"></a><a name="to-update-standard-costs"></a><a name="to-update-standard-costs"></a>To update standard costs
 
 1.  Run the **Adjust Cost-Item Entries** batch job.  
 2.  Run the **Post Inventory Cost to G/L** batch job.  
@@ -35,7 +35,7 @@ For more information, see [About Calculating Standard Cost](finance-about-calcul
     7.  Run the **Implement Standard Cost Changes** batch job.  
 4.  Review and post the **Revaluation Journal** page, which has been populated with entries from the previous steps in this process.  
 
-## <a name="see-also"></a><a name="see-also"></a>See Also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See Also
 
  [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)   
  [Managing Inventory Costs](finance-manage-inventory-costs.md)   

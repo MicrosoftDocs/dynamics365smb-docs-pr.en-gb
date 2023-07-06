@@ -11,14 +11,14 @@ ms.search.form: null
 ms.date: 09/05/2022
 ms.author: bholtorf
 ---
-# <a name="use-a-power-automate-flow-for-alerts-to-dataverse-entity-changes"></a><a name="use-a-power-automate-flow-for-alerts-to-dataverse-entity-changes"></a>Use a Power Automate Flow for Alerts to Dataverse Entity Changes
+# <a name="use-a-power-automate-flow-for-alerts-to-dataverse-entity-changes"></a><a name="use-a-power-automate-flow-for-alerts-to-dataverse-entity-changes"></a><a name="use-a-power-automate-flow-for-alerts-to-dataverse-entity-changes"></a>Use a Power Automate Flow for Alerts to Dataverse Entity Changes
 
 Administrators can create an automated flow in Power Automate that notifies your [!INCLUDE[prod_short](includes/prod_short.md)] about changes to records in your [!INCLUDE [cds_long_md](includes/cds_long_md.md)] organisation.
 
 > [!NOTE]
 > This article assumes you've connected your online version of [!INCLUDE[prod_short](includes/prod_short.md)] with [!INCLUDE [cds_long_md](includes/cds_long_md.md)] and scheduled synchronisation between the two applications.
 
-## <a name="import-the-flow-template"></a><a name="import-the-flow-template"></a>Import the Flow Template
+## <a name="import-the-flow-template"></a><a name="import-the-flow-template"></a><a name="import-the-flow-template"></a>Import the Flow Template
 
 > [!TIP]
 > To make it easier to set up the flow, we've created a template that will define the flow trigger and flow condition for you. To use the template, follow the steps in this section. To create the flow yourself, skip this section and start with the steps in [Define the Flow Trigger](#define-the-flow-trigger).
@@ -30,7 +30,7 @@ Administrators can create an automated flow in Power Automate that notifies your
 3. Choose the **Notify Business Central when an account changes** template.
 4. Continue with the steps in the [Notify Business Central about a change](#notify-business-central-about-a-change) section.
 
-## <a name="define-the-flow-trigger"></a><a name="define-the-flow-trigger"></a>Define the Flow Trigger
+## <a name="define-the-flow-trigger"></a><a name="define-the-flow-trigger"></a><a name="define-the-flow-trigger"></a>Define the Flow Trigger
 
 1. Sign in to [Power Automate](https://flow.microsoft.com).
 2. Create an automated cloud flow that starts when a row for a [!INCLUDE [cds_long_md](includes/cds_long_md.md)] entity is added, modified, or deleted. For more information, see [Trigger flows when a row is added, modified, or deleted](/power-automate/dataverse/create-update-delete-trigger). This example uses the **Accounts** entity. The following image shows the settings for the first step in defining a flow trigger.
@@ -39,7 +39,7 @@ Administrators can create an automated flow in Power Automate that notifies your
 3. Use the **AssistEdit (...)** button in the upper right corner to add the connection to your [!INCLUDE [cds_long_md](includes/cds_long_md.md)] environment.
 4. Choose **Show advanced options**, and in the **Filter Rows** field, enter **customertypecode eq 3** or **customertypecode eq 11** and **statecode eq 0**. These values mean that the trigger will react only when changes are made to active accounts of the type **customer** or **vendor**.
 
-## <a name="define-the-flow-condition"></a><a name="define-the-flow-condition"></a>Define the Flow Condition
+## <a name="define-the-flow-condition"></a><a name="define-the-flow-condition"></a><a name="define-the-flow-condition"></a>Define the Flow Condition
 
 Data is synchronised between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE [cds_long_md](includes/cds_long_md.md)] through an integration user account. To ignore the changes made by the synchronisation, create a condition step in your flow that excludes changes made by the integration user account.  
 
@@ -58,7 +58,7 @@ The following image shows how to define the flow trigger and the flow condition.
 
 :::image type="content" source="media/power-automate-flow-dataverse.png" alt-text="Overview of flow trigger and condition settings":::
 
-## <a name="notify-business-central-about-a-change"></a><a name="notify-business-central-about-a-change"></a>Notify Business Central About a Change
+## <a name="notify-business-central-about-a-change"></a><a name="notify-business-central-about-a-change"></a><a name="notify-business-central-about-a-change"></a>Notify Business Central About a Change
 
 If the flow isn't stopped by the condition, you must notify [!INCLUDE[prod_short](includes/prod_short.md)] that a change occurred. Use the [!INCLUDE[prod_short](includes/prod_short.md)] Connector to do that.
 
@@ -84,7 +84,7 @@ When you add, delete, or modify an account in your [!INCLUDE [cds_long_md](inclu
 2. Use the [!INCLUDE[prod_short](includes/prod_short.md)] API to insert a record with the **entityName** set to **account** in the **Dataverse Entry Change** table. This parameter is the exact name of the Dataverse entity that you're creating the flow for.
 3. [!INCLUDE[prod_short](includes/prod_short.md)] will start the job queue entry that synchronises customers with accounts.
 
-## <a name="see-also"></a><a name="see-also"></a>See Also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See Also
 
 [Use Business Central in Power Automate Flows](across-how-use-financials-data-source-flow.md)  
 [Set Up Automated Workflows](/business-central/dev-itpro/powerplatform/automate-workflows)  

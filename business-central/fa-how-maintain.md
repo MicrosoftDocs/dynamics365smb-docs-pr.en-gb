@@ -11,7 +11,7 @@ ms.search.form: '5642, 5625'
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# <a name="maintain-fixed-assets"></a><a name="maintain-fixed-assets"></a>Maintain Fixed Assets
+# <a name="maintain-fixed-assets"></a><a name="maintain-fixed-assets"></a><a name="maintain-fixed-assets"></a>Maintain Fixed Assets
 
 Maintenance expenses are routine periodic costs undertaken to preserve the value of fixed assets. Unlike capital improvements, they do not increase values.
 
@@ -19,7 +19,7 @@ You can record and maintain an up-to-date file on maintenance and service of you
 
 Indexation is used to adjust values for general price-level changes. The **Index Fixed Assets** batch job can be used to recalculate the maintenance costs.
 
-## <a name="to-record-maintenance-work-on-a-fixed-asset"></a><a name="to-record-maintenance-work-on-a-fixed-asset"></a>To record maintenance work on a fixed asset
+## <a name="to-record-maintenance-work-on-a-fixed-asset"></a><a name="to-record-maintenance-work-on-a-fixed-asset"></a><a name="to-record-maintenance-work-on-a-fixed-asset"></a>To record maintenance work on a fixed asset
 
 Every time maintenance has been performed, such as a service visit, you can record it for the relevant fixed asset on the **Maintenance Registrations** page.  
 
@@ -27,7 +27,7 @@ Every time maintenance has been performed, such as a service visit, you can reco
 2. Select the fixed asset that you want to record maintenance for, and then choose the **Maintenance Registration** action.
 3. On the **Maintenance Registration** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-post-maintenance-costs-from-a-fixed-asset-gl-journal"></a><a name="to-post-maintenance-costs-from-a-fixed-asset-gl-journal"></a>To post maintenance costs from a fixed asset G/L journal
+## <a name="to-post-maintenance-costs-from-a-fixed-asset-gl-journal"></a><a name="to-post-maintenance-costs-from-a-fixed-asset-gl-journal"></a><a name="to-post-maintenance-costs-from-a-fixed-asset-gl-journal"></a>To post maintenance costs from a fixed asset G/L journal
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Book List**, and then choose the related link.  
 2. Select the depreciation book that is assigned to the fixed asset, and then choose the **Edit** action.
@@ -41,7 +41,7 @@ Every time maintenance has been performed, such as a service visit, you can reco
     >   Step 7 only works if you have set up the following: On the **FA Posting Group Card** page for the posting group of the fixed asset, the **Maintenance Account** field contains the general ledger debit account and the **Maintenance Bal. Account** field contains the general ledger account to which you want to post balancing entries for appreciation. For more information, see [To set up fixed asset posting groups](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 8. Choose the **Post** action.
 
-## <a name="to-follow-up-on-fixed-assets-service-visits"></a><a name="to-follow-up-on-fixed-assets-service-visits"></a>To follow up on fixed assets service visits
+## <a name="to-follow-up-on-fixed-assets-service-visits"></a><a name="to-follow-up-on-fixed-assets-service-visits"></a><a name="to-follow-up-on-fixed-assets-service-visits"></a>To follow up on fixed assets service visits
 
 You can print the **Maintenance - Next Service** report to see which assets you have scheduled a service visit for. You can also use this report when you are updating the **Next Service Date** field on fixed asset cards.  
 
@@ -49,7 +49,7 @@ You can print the **Maintenance - Next Service** report to see which assets you 
 2. Fill in the **Starting Date** and **Ending Date** fields.  
 3. Choose the **Print** or **Preview** button.
 
-## <a name="to-monitor-maintenance-costs"></a><a name="to-monitor-maintenance-costs"></a>To monitor maintenance costs
+## <a name="to-monitor-maintenance-costs"></a><a name="to-monitor-maintenance-costs"></a><a name="to-monitor-maintenance-costs"></a>To monitor maintenance costs
 
 You can view the maintenance costs when you look at the statistics of a fixed asset.  
 
@@ -60,7 +60,7 @@ You can view the maintenance costs when you look at the statistics of a fixed as
 
 The **Maintenance Ledger Entries** page opens showing the entries that make up the amount in the **Maintenance** field.
 
-## <a name="to-view-or-print-maintenance-costs-for-multiple-fixed-assets"></a><a name="to-view-or-print-maintenance-costs-for-multiple-fixed-assets"></a>To view or print maintenance costs for multiple fixed assets
+## <a name="to-view-or-print-maintenance-costs-for-multiple-fixed-assets"></a><a name="to-view-or-print-maintenance-costs-for-multiple-fixed-assets"></a><a name="to-view-or-print-maintenance-costs-for-multiple-fixed-assets"></a>To view or print maintenance costs for multiple fixed assets
 
 In the **Maintenance - Analysis** report, you can select to see maintenance based on one, two, or three maintenance codes for a specified date or period. You can see the total of all selected assets or a total for each asset.
 
@@ -68,7 +68,7 @@ In the **Maintenance - Analysis** report, you can select to see maintenance base
 2. Fill in the fields as necessary.
 3. Choose the **Print** or **Preview** button.
 
-## <a name="to-view-maintenance-ledger-entries"></a><a name="to-view-maintenance-ledger-entries"></a>To view maintenance ledger entries
+## <a name="to-view-maintenance-ledger-entries"></a><a name="to-view-maintenance-ledger-entries"></a><a name="to-view-maintenance-ledger-entries"></a>To view maintenance ledger entries
 
 You can also study maintenance costs by viewing the maintenance ledger entries.  
 
@@ -76,7 +76,7 @@ You can also study maintenance costs by viewing the maintenance ledger entries.
 2. Select the fixed asset that you want to view ledger entries for, and then choose the **Depreciation Books** action.
 3. On the **FA Depreciation Books** page, select the relevant fixed asset depreciation book, and then choose the **Maintenance Ledger Entries** action.
 
-## <a name="to-view-or-print-maintenance-ledger-entries-for-multiple-fixed-assets"></a><a name="to-view-or-print-maintenance-ledger-entries-for-multiple-fixed-assets"></a>To view or print maintenance ledger entries for multiple fixed assets
+## <a name="to-view-or-print-maintenance-ledger-entries-for-multiple-fixed-assets"></a><a name="to-view-or-print-maintenance-ledger-entries-for-multiple-fixed-assets"></a><a name="to-view-or-print-maintenance-ledger-entries-for-multiple-fixed-assets"></a>To view or print maintenance ledger entries for multiple fixed assets
 
 In the **Maintenance - Details** report, you can view or print maintenance ledger entries for one or many fixed assets.  
 
@@ -84,9 +84,9 @@ In the **Maintenance - Details** report, you can view or print maintenance ledge
 2. Fill in the fields as necessary.
 3. Choose the **Print** or **Preview** button.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/manage-fixed-assets-maintenance-insurances/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/manage-fixed-assets-maintenance-insurances/)
 
-## <a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
 
 [Fixed Assets](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  

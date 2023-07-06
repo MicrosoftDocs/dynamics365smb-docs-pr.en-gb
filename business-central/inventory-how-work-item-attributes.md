@@ -11,7 +11,7 @@ ms.search.forms: '7507, 7509, 7506, 7505, 7503, 7502, 7510, 7504, 7501, 7500, 91
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="work-with-item-attributes"></a><a name="work-with-item-attributes"></a>Work with item attributes
+# <a name="work-with-item-attributes"></a><a name="work-with-item-attributes"></a><a name="work-with-item-attributes"></a>Work with item attributes
 
 When customers inquire about an item, either in correspondence or in an integrated web shop, they may ask or search according to characteristics, such as height and model year. To provide this customer service, you can assign item attribute values of different types to your items, which can then be used when searching for items.
 
@@ -20,7 +20,7 @@ You can also assign item attributes to item categories, which then apply to the 
 > [!TIP]  
 > If you attach pictures to items, the Image Analyser extension can detect attributes in the image, and suggest the attributes so you can decide whether to assign them. The extension is ready to go. You just need to enable it. For more information, see [The Image Analyser Extension](ui-extensions-image-analyzer.md).
 
-## <a name="create-item-attributes"></a><a name="create-item-attributes"></a>Create item attributes
+## <a name="create-item-attributes"></a><a name="create-item-attributes"></a><a name="create-item-attributes"></a>Create item attributes
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Attributes**, and then choose the related link.
 2. On the **Item Attributes** page, choose the **New** action.
@@ -29,13 +29,13 @@ You can also assign item attributes to item categories, which then apply to the 
 > [!NOTE]  
 > If you select **Option** in the **Type** field you can choose the **Item Attribute Values** action to create values for the item attribute. For more information, see [To create values for item attributes of type Option](inventory-how-work-item-attributes.md#to-create-values-for-item-attributes-of-type-option).  
 
-## <a name="create-values-for-item-attributes-of-type-option"></a><a name="create-values-for-item-attributes-of-type-option"></a>Create values for item attributes of type Option
+## <a name="create-values-for-item-attributes-of-type-option"></a><a name="create-values-for-item-attributes-of-type-option"></a><a name="create-values-for-item-attributes-of-type-option"></a>Create values for item attributes of type Option
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Attributes**, and then choose the related link.
 2. On the **Item Attributes** page, select an item attribute of type **Option** that you want to create values for, and then choose the **Item Attribute Values** action.
 3. On the **Item Attribute Values** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="assign-item-attributes-to-items"></a><a name="assign-item-attributes-to-items"></a>Assign item attributes to items
+## <a name="assign-item-attributes-to-items"></a><a name="assign-item-attributes-to-items"></a><a name="assign-item-attributes-to-items"></a>Assign item attributes to items
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. On the **Items** page, select the item that you want to assign item attributes to, and then choose the **Attributes** action.
@@ -45,7 +45,7 @@ You can also assign item attributes to item categories, which then apply to the 
 6. For item attributes of type **Option**, choose the lookup button in the **Value** field and select an item attribute value. Alternatively, choose the **New** action to first create a new item attribute value as explained in [To create values for item attributes of type Option](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-items).
 7. Repeat steps 4 through 6 for all item attributes that you want to assign to the item.
 
-## <a name="assign-item-attributes-to-item-categories"></a><a name="assign-item-attributes-to-item-categories"></a>Assign item attributes to item categories
+## <a name="assign-item-attributes-to-item-categories"></a><a name="assign-item-attributes-to-item-categories"></a><a name="assign-item-attributes-to-item-categories"></a>Assign item attributes to item categories
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Categories**, and then choose the related link.
 2. On the **Item Categories** page, select the item category that you want to assign item attributes to, and then choose the **Edit** action.
@@ -57,7 +57,7 @@ You can also assign item attributes to item categories, which then apply to the 
 > [!NOTE]  
 > Item attributes for parent item categories will be inherited to child item categories. This is indicated by the **Inherited From** field on the **Attributes** FastTab. For more information, see [Categorise Items](inventory-how-categorize-items.md).
 
-## <a name="filter-by-item-attributes"></a><a name="filter-by-item-attributes"></a>Filter by item attributes
+## <a name="filter-by-item-attributes"></a><a name="filter-by-item-attributes"></a><a name="filter-by-item-attributes"></a>Filter by item attributes
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. On the **Items** page, choose the **Filter by Attributes** action.
@@ -75,9 +75,9 @@ You can also assign item attributes to item categories, which then apply to the 
 
 The items on the **Items** page are filtered by the specified item attribute values.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/trade-master-data-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
 
 [Categorise Items](inventory-how-categorize-items.md)  
 [Register New Items](inventory-how-register-new-items.md)  

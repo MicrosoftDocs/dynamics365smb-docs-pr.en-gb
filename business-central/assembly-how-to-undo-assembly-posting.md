@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ---
-# <a name="undo-assembly-posting"></a><a name="undo-assembly-posting"></a>Undo Assembly Posting
+# <a name="undo-assembly-posting"></a><a name="undo-assembly-posting"></a><a name="undo-assembly-posting"></a>Undo Assembly Posting
 
 Undo the posting of an assembly order to correct a mistake or remove an unwanted posting.
 
@@ -33,7 +33,7 @@ Assembly orders can only be restored if the number and sequence of lines on the 
 
 The following procedure describes how to undo posted assembly orders that contain items that were assembled-to-stock. To undo posted assembly orders with items that were assembled-to-order, use the **Undo Shipment** action on the related posted shipment. To learn more about undoing shipments, go to [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md). Undoing the posted assembly order happens in the same way as described in that article.  
 
-## <a name="to-undo-posting-of-an-assembly-order"></a><a name="to-undo-posting-of-an-assembly-order"></a>To undo posting of an assembly order
+## <a name="to-undo-posting-of-an-assembly-order"></a><a name="to-undo-posting-of-an-assembly-order"></a><a name="to-undo-posting-of-an-assembly-order"></a>To undo posting of an assembly order
 
 You can undo fully or partially posted assembly orders.
 
@@ -50,7 +50,7 @@ The **Reversed** field on the assembly order changes to **Yes**. The assembly or
 > [!NOTE]  
 > To restore quantities from multiple partial postings in an assembly order, you must undo all the posted assembly orders by following steps 1 through 3.  
 
-## <a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
 
 [Assembly Management](assembly-assemble-items.md)  
 [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md)  

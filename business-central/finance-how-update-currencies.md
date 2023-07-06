@@ -8,11 +8,11 @@ ms.search.form: '5, 118'
 ms.date: 03/15/2022
 ms.author: edupont
 ---
-# <a name="update-currency-exchange-rates"></a><a name="update-currency-exchange-rates"></a>Update Currency Exchange Rates
+# <a name="update-currency-exchange-rates"></a><a name="update-currency-exchange-rates"></a><a name="update-currency-exchange-rates"></a>Update Currency Exchange Rates
 
 You can define different currencies in [!INCLUDE [prod_short](includes/prod_short.md)], for example if you do trade in currencies other than your local currency. Then, to help you keep track of changes in currency exchange rates, you can manage the currencies manually, or you can set up a currency exchange rate service.
 
-## <a name="currencies"></a><a name="currencies"></a>Currencies
+## <a name="currencies"></a><a name="currencies"></a><a name="currencies"></a>Currencies
 
 > [!TIP]  
 > In [!INCLUDE[prod_short](includes/prod_short.md)] if you are looking for real time information about foreign exchange (FX) rates or historical rates, you will find it referred to as currency. In addition to this article, see also [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md).
@@ -21,11 +21,11 @@ You can define different currencies in [!INCLUDE [prod_short](includes/prod_shor
 
 You specify the currency codes in the **Currencies** list, including extra information and settings that are necessary for each currency code. For more information, see [Currencies](finance-set-up-currencies.md#curr)
 
-### <a name="example-of-a-receivable-currency-transaction"></a><a name="example-of-a-receivable-currency-transaction"></a>Example of a receivable currency transaction
+### <a name="example-of-a-receivable-currency-transaction"></a><a name="example-of-a-receivable-currency-transaction"></a><a name="example-of-a-receivable-currency-transaction"></a>Example of a receivable currency transaction
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="exchange-rates"></a><a name="exchange-rates"></a>Exchange Rates
+## <a name="exchange-rates"></a><a name="exchange-rates"></a><a name="exchange-rates"></a>Exchange Rates
 
 The exchange rates are the tool to calculate the local currency value (LCY) of each currency transaction. The **Exchange Rates** page includes the following fields:
 
@@ -54,7 +54,7 @@ The adjustment exchange rate amount or relational adjustment exchange rate amoun
 >
 > `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
-## <a name="adjusting-exchange-rates"></a><a name="adjusting-exchange-rates"></a>Adjusting Exchange Rates
+## <a name="adjusting-exchange-rates"></a><a name="adjusting-exchange-rates"></a><a name="adjusting-exchange-rates"></a>Adjusting Exchange Rates
 
 Because exchange rates fluctuate constantly, additional currency equivalents in your system must be adjusted periodically. If these adjustments are not done, amounts that have been converted from foreign (or additional) currencies and posted to the general ledger in LCY may be misleading. In addition, daily entries posted before a daily exchange rate is entered into application must be updated after the daily exchange rate information is entered.
 
@@ -69,28 +69,28 @@ You can preview the effect that an adjustment will have on posting before you ac
 - **By G/L Account**: G/L entries for unrealised gains and losses will have dimensions values transferred from the unrealised gains and losses G/L account's dimension settings source entry.
 - **No Transfer**: G/L entries for unrealised gains and losses won't have dimensions values.
 
-### <a name="effect-on-customers-and-vendors"></a><a name="effect-on-customers-and-vendors"></a>Effect on Customers and Vendors
+### <a name="effect-on-customers-and-vendors"></a><a name="effect-on-customers-and-vendors"></a><a name="effect-on-customers-and-vendors"></a>Effect on Customers and Vendors
 
 For customer and vendor accounts, the batch job adjusts the currency by using the exchange rate that is valid on the posting date that is specified in the batch job. The batch job calculates the differences for the individual currency balances and posts the amounts to the general ledger account that is specified in the **Unrealised Gains Acc.** field or the **Unrealised Losses Acc.** field on the **Currencies** page. Balancing entries are automatically posted to the receivables/payables account in the general ledger.
 
 The batch job processes all open customer ledger entries and vendor ledger entries. If there is an exchange rate difference for an entry, the batch job creates a new detailed customer or vendor ledger entry, which reflects the adjusted amount on the customer or vendor ledger entry.
 
-#### <a name="dimensions-on-customer-and-vendor-ledger-entries"></a><a name="dimensions-on-customer-and-vendor-ledger-entries"></a>Dimensions on Customer and Vendor Ledger Entries
+#### <a name="dimensions-on-customer-and-vendor-ledger-entries"></a><a name="dimensions-on-customer-and-vendor-ledger-entries"></a><a name="dimensions-on-customer-and-vendor-ledger-entries"></a>Dimensions on Customer and Vendor Ledger Entries
 
 The adjustment entries are assigned the dimensions from the customer/vendor ledger entries, and the adjustments are posted per combination of dimension values.
 
-### <a name="effect-on-bank-accounts"></a><a name="effect-on-bank-accounts"></a>Effect on Bank Accounts
+### <a name="effect-on-bank-accounts"></a><a name="effect-on-bank-accounts"></a><a name="effect-on-bank-accounts"></a>Effect on Bank Accounts
 
 For bank accounts, the batch job adjusts the currency by using the exchange rate that is valid on the posting date specified in the batch job. The batch job calculates the differences for each bank account that has a currency code and posts the amounts to the general ledger account that is specified in the **Realised Gains Acc.** field or the **Realised Losses Acc.** field on the **Currencies** page. Balancing entries are automatically posted to the general ledger bank accounts that are specified in the bank account posting groups. The batch job calculates one entry per currency per posting group.
 
-#### <a name="dimensions-on-bank-account-entries"></a><a name="dimensions-on-bank-account-entries"></a>Dimensions on Bank Account Entries
+#### <a name="dimensions-on-bank-account-entries"></a><a name="dimensions-on-bank-account-entries"></a><a name="dimensions-on-bank-account-entries"></a>Dimensions on Bank Account Entries
 
 The adjustment entries for the bank account's general ledger account and for the gain/loss account are assigned the bank account's default dimensions.
 
-### <a name="effect-on-gl-accounts"></a><a name="effect-on-gl-accounts"></a>Effect on G/L Accounts
+### <a name="effect-on-gl-accounts"></a><a name="effect-on-gl-accounts"></a><a name="effect-on-gl-accounts"></a>Effect on G/L Accounts
 If you post in an additional reporting currency, you can have the batch job create new general ledger entries for currency adjustments between LCY and the additional reporting currency. The batch job calculates the differences for each general ledger entry and adjusts the general ledger entry depending on the contents of the **Exchange Rate Adjustment** field for each general ledger account.
 
-##### <a name="dimensions-on-gl-account-entries"></a><a name="dimensions-on-gl-account-entries"></a>Dimensions on G/L Account Entries
+##### <a name="dimensions-on-gl-account-entries"></a><a name="dimensions-on-gl-account-entries"></a><a name="dimensions-on-gl-account-entries"></a>Dimensions on G/L Account Entries
 The adjustment entries are assigned the default dimensions from the accounts they are posted to.
 
 > [!Important]
@@ -98,7 +98,7 @@ The adjustment entries are assigned the default dimensions from the accounts the
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
 
-## <a name="to-set-up-a-currency-exchange-rate-service"></a><a name="to-set-up-a-currency-exchange-rate-service"></a>To set up a currency exchange rate service
+## <a name="to-set-up-a-currency-exchange-rate-service"></a><a name="to-set-up-a-currency-exchange-rate-service"></a><a name="to-set-up-a-currency-exchange-rate-service"></a>To set up a currency exchange rate service
 You can use an external service to keep your currency exchange rates up to date, such as FloatRates. 
 
 > [!NOTE]
@@ -116,15 +116,15 @@ You can use an external service to keep your currency exchange rates up to date,
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
 
-## <a name="to-update-currency-exchange-rates-through-a-service"></a><a name="to-update-currency-exchange-rates-through-a-service"></a>To update currency exchange rates through a service
+## <a name="to-update-currency-exchange-rates-through-a-service"></a><a name="to-update-currency-exchange-rates-through-a-service"></a><a name="to-update-currency-exchange-rates-through-a-service"></a>To update currency exchange rates through a service
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currencies**, and then choose the related link.
 2. Choose the **Update Exchange Rates** action.
 
 The value in the **Exchange Rate** field on the **Currencies** page is updated with the latest currency exchange rate.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>See Also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See Also
 
 [Currencies in Business Central](finance-currencies.md)  
 [Set Up Currencies](finance-set-up-currencies.md)  

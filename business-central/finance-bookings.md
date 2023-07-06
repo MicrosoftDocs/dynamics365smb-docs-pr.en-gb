@@ -11,11 +11,11 @@ ms.search.form: '1638, 6702, 6704'
 ms.date: 05/20/2022
 ms.author: edupont
 ---
-# <a name="bulk-invoicing-for-microsoft-bookings-in-"></a><a name="bulk-invoicing-for-microsoft-bookings-in-"></a>Bulk Invoicing for Microsoft Bookings in [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="bulk-invoicing-for-microsoft-bookings-in-"></a><a name="bulk-invoicing-for-microsoft-bookings-in-"></a><a name="bulk-invoicing-for-microsoft-bookings-in-"></a>Bulk Invoicing for Microsoft Bookings in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 If your company uses the Bookings app in Microsoft 365, you can do bulk invoicing for appointments. The **Bookings Not Invoiced** page in [!INCLUDE[prod_short](includes/prod_short.md)] provides a list of the company's completed bookings. In this page you can quickly select the appointments that you want to invoice and create draft invoices for the services provided.  
 
-## <a name="connect-to-bookings"></a><a name="connect-to-bookings"></a>Connect to Bookings
+## <a name="connect-to-bookings"></a><a name="connect-to-bookings"></a><a name="connect-to-bookings"></a>Connect to Bookings
 
 To connect your [!INCLUDE[prod_short](includes/prod_short.md)] with Bookings, you must specify your Bookings company, what to synchronize with Bookings, how often to synchronize, and which templates to use. You set up this information on the **Booking Sync. Setup** page, which you can launch from the **Exchange Sync. Setup** page, which you can find through [Search](ui-search.md).  
 
@@ -29,7 +29,7 @@ Similarly, if you want to synchronise service items between Bookings and [!INCLU
 > [!NOTE]
 > Only items of type *Service* will synchronise between Bookings and [!INCLUDE[prod_short](includes/prod_short.md)]. The template that you set up in the **Configuration Templates** page so it can be used for the item synchronisation must define the type as *Service*.
 
-## <a name="invoice-appointments"></a><a name="invoice-appointments"></a>Invoice Appointments
+## <a name="invoice-appointments"></a><a name="invoice-appointments"></a><a name="invoice-appointments"></a>Invoice Appointments
 
 When it is time to send invoices for the completed bookings, you go to the **Bookings Not Invoiced** page. Depending on how often the information is synchronised, the list is long or short. You can create invoices for all bookings in the list or one booking at a time. You can select one or more entries in the list and invoice those only.  
 
@@ -38,7 +38,7 @@ The support for invoicing appointments from Bookings is simpler than the fuller 
 > [!NOTE]
 > In May 2022, we discovered an issue in the integration with Bookings. Currently, the sync from Bookings to [!INCLUDE [prod_short](includes/prod_short.md)] requires you to manually associate the invoices with customers in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="see-also"></a><a name="see-also"></a>See Also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See Also
 
 [Finance](finance.md)  
 [Invoice Sales](sales-how-invoice-sales.md)  

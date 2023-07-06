@@ -10,7 +10,7 @@ ms.search.keywords: 'business intelligence, KPI, Odata, Power App, SOAP, analysi
 ms.date: 06/11/2021
 ms.author: jswymer
 ---
-# <a name="creating-power-bi-reports-for-displaying-list-data-in-"></a><a name="creating-power-bi-reports-for-displaying-list-data-in-"></a>Creating Power BI Reports for Displaying List Data in [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="creating-power-bi-reports-for-displaying-list-data-in-"></a><a name="creating-power-bi-reports-for-displaying-list-data-in-"></a><a name="creating-power-bi-reports-for-displaying-list-data-in-"></a>Creating Power BI Reports for Displaying List Data in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[prod_long](includes/prod_long.md)] includes a Power BI FactBox control element on many key list pages. The purpose of this FactBox is to display Power BI reports that are related to records in the lists, providing extra insight into the data. The idea is that as you move between rows in the list, the report updates for the selected entry.
 
@@ -19,7 +19,7 @@ ms.author: jswymer
 > [!NOTE]
 > For general information about creating and publishing Power BI reports for Business Central, see [Building Power BI Reports to Display [!INCLUDE [prod_long](includes/prod_long.md)] Data](across-how-use-financials-data-source-powerbi.md). 
 
-## <a name="prerequisites"></a><a name="prerequisites"></a>Prerequisites
+## <a name="prerequisites"></a><a name="prerequisites"></a><a name="prerequisites"></a>Prerequisites
 
 - A Power BI account.
 - Power BI Desktop.
@@ -27,7 +27,7 @@ ms.author: jswymer
 <!-- 
 For more information about getting started, see [Use [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).-->
 
-## <a name="create-a-report-for-a-list-page"></a><a name="create-a-report-for-a-list-page"></a>Create a report for a list page
+## <a name="create-a-report-for-a-list-page"></a><a name="create-a-report-for-a-list-page"></a><a name="create-a-report-for-a-list-page"></a>Create a report for a list page
 
 1. Start Power BI Desktop.
 2. Select **Get Data**, and start choosing the data source for the report.
@@ -75,7 +75,7 @@ For more information about getting started, see [Use [!INCLUDE[prod_short](inclu
 
     If designed correctly, the report displays.  
 
-## <a name="set-the-report-size-and-color"></a><a name="set-the-report-size-and-color"></a>Set the report size and colour
+## <a name="set-the-report-size-and-color"></a><a name="set-the-report-size-and-color"></a><a name="set-the-report-size-and-color"></a>Set the report size and colour
 
 The size of the report must be set to 325 pixels by 310 pixels. This size provides the proper scaling of the report in the available space of the Power BI FactBox control in [!INCLUDE[prod_short](includes/prod_short.md)]. To define the size of the report, place focus outside of the report layout area, and then choose the paint roller icon.
 
@@ -88,37 +88,37 @@ If you want the background of the report to blend with the background colour of 
 > [!TIP]
 > Use the [!INCLUDE [prod_short](includes/prod_short.md)] theme file to build reports with the same colour styling as the [!INCLUDE [prod_short](includes/prod_short.md)] apps. For more information, see [Use the [!INCLUDE [prod_short](includes/prod_short.md)] report theme](across-how-use-financials-data-source-powerbi.md#theme).
 
-## <a name="reports-with-multiple-pages"></a><a name="reports-with-multiple-pages"></a>Reports with multiple pages
+## <a name="reports-with-multiple-pages"></a><a name="reports-with-multiple-pages"></a><a name="reports-with-multiple-pages"></a>Reports with multiple pages
 
 With Power BI, you can create a single report with multiple pages. However, for reports that will display with list pages, we recommend that they don't have more than one page. The Power BI FactBox will only show the first page of your report.
 
-## <a name="fixing-problems"></a><a name="fixing-problems"></a>Fixing problems
+## <a name="fixing-problems"></a><a name="fixing-problems"></a><a name="fixing-problems"></a>Fixing problems
 
 This section explains how to fix problems that you might run into when you try to view a Power BI report for a list page in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-### <a name="you-cant-see-the-power-bi-factbox-on-a-list-page"></a><a name="you-cant-see-the-power-bi-factbox-on-a-list-page"></a>You can't see the Power BI FactBox on a list page
+### <a name="you-cant-see-the-power-bi-factbox-on-a-list-page"></a><a name="you-cant-see-the-power-bi-factbox-on-a-list-page"></a><a name="you-cant-see-the-power-bi-factbox-on-a-list-page"></a>You can't see the Power BI FactBox on a list page
 
 By default, the Power BI FactBox is hidden from view. To show the FactBox on a page, from the action bar, select **Actions** > **Display** > **Show/Hide Power BI Reports**.
 
-### <a name="you-cant-see-the-report-in-the-select-report-pane"></a><a name="you-cant-see-the-report-in-the-select-report-pane"></a>You can't see the report in the Select Report pane
+### <a name="you-cant-see-the-report-in-the-select-report-pane"></a><a name="you-cant-see-the-report-in-the-select-report-pane"></a><a name="you-cant-see-the-report-in-the-select-report-pane"></a>You can't see the report in the Select Report pane
 
 The report's name doesn't contain the name of the list page that's being shown. Clear the filter to get a full list of Power BI reports available.  
 
-### <a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a><a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a>Report is loaded but blank, not filtered, or filtered incorrectly
+### <a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a><a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a><a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a>Report is loaded but blank, not filtered, or filtered incorrectly
 
 Verify the report filter contains the right primary key. In most cases, this field is the **No.** field, but in the **G/L Entry** table, for example, you must use the **Entry No.** field.
 
-### <a name="report-is-loaded-but-it-shows-a-page-you-didnt-expect"></a><a name="report-is-loaded-but-it-shows-a-page-you-didnt-expect"></a>Report is loaded, but it shows a page you didn't expect
+### <a name="report-is-loaded-but-it-shows-a-page-you-didnt-expect"></a><a name="report-is-loaded-but-it-shows-a-page-you-didnt-expect"></a><a name="report-is-loaded-but-it-shows-a-page-you-didnt-expect"></a>Report is loaded, but it shows a page you didn't expect
 
 Verify that the page you want displayed is the first page in your report.  
 
-### <a name="report-appears-with-an-unwanted-gray-boarder-or-its-too-small-or-too-large"></a><a name="report-appears-with-an-unwanted-gray-boarder-or-its-too-small-or-too-large"></a>Report appears with an unwanted grey border, or it's too small or too large
+### <a name="report-appears-with-an-unwanted-gray-boarder-or-its-too-small-or-too-large"></a><a name="report-appears-with-an-unwanted-gray-boarder-or-its-too-small-or-too-large"></a><a name="report-appears-with-an-unwanted-gray-boarder-or-its-too-small-or-too-large"></a>Report appears with an unwanted grey border, or it's too small or too large
 
 Verify that the report size is set to 325 pixels x 310 pixels. Save the report, and then refresh the list page.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a><a name="see-also"></a>See Also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See Also
 
 [Enabling Your Business Data for Power BI](admin-powerbi.md)  
 [Use [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  

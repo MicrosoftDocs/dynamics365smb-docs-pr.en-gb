@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'sales, crm, integration, sync, synchronize'
 ---
 
-# <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a><a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Scheduling a Synchronisation between Business Central and Dataverse
+# <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a><a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a><a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Scheduling a Synchronisation between Business Central and Dataverse
 
 You can synchronise [!INCLUDE[prod_short](includes/prod_short.md)] with [!INCLUDE[cds_long_md](includes/cds_long_md.md)] on scheduled intervals by setting up jobs in the job queue. The synchronisation jobs synchronise data in [!INCLUDE[prod_short](includes/prod_short.md)] records and [!INCLUDE[cds_long_md](includes/cds_long_md.md)] records that are coupled. For records that are not already coupled, depending on the synchronisation direction and rules, the synchronisation jobs can create and couple new records in the destination system.
 
@@ -24,7 +24,7 @@ There are several synchronisation jobs that are available out-of-the-box. The jo
 
 You can view the jobs on the **Job Queue Entries** page. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
 
-## <a name="default-synchronization-job-queue-entries"></a><a name="default-synchronization-job-queue-entries"></a>Default synchronisation job queue entries
+## <a name="default-synchronization-job-queue-entries"></a><a name="default-synchronization-job-queue-entries"></a><a name="default-synchronization-job-queue-entries"></a>Default synchronisation job queue entries
 
 The following table describes the default synchronisation jobs for [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 
@@ -36,7 +36,7 @@ The following table describes the default synchronisation jobs for [!INCLUDE[cds
 | SUPPLIER - Common Data Service synchronisation job | Synchronises [!INCLUDE[cds_long_md](includes/cds_long_md.md)] accounts with [!INCLUDE[prod_short](includes/prod_short.md)] customers. | Bidirectional | SUPPLIER | 30 | 720<br> (12 hrs) |
 | SALESPEOPLE - Common Data Service synchronisation job | Synchronises [!INCLUDE[prod_short](includes/prod_short.md)] salespeople with [!INCLUDE[cds_long_md](includes/cds_long_md.md)] users. | From [!INCLUDE[cds_long_md](includes/cds_long_md.md)] to [!INCLUDE[prod_short](includes/prod_short.md)] | SALESPEOPLE | 30 | 1440<br> (24 hrs) |
 
-## <a name="synchronization-process"></a><a name="synchronization-process"></a>Synchronisation process
+## <a name="synchronization-process"></a><a name="synchronization-process"></a><a name="synchronization-process"></a>Synchronisation process
 
 Each synchronisation job queue entry uses a specific integration table mapping that specifies which [!INCLUDE[prod_short](includes/prod_short.md)] table and [!INCLUDE[cds_long_md](includes/cds_long_md.md)] table to synchronise. The table mappings also include some settings that control which records in the [!INCLUDE[prod_short](includes/prod_short.md)] table and [!INCLUDE[cds_long_md](includes/cds_long_md.md)] table to synchronise.  
 
@@ -57,7 +57,7 @@ To synchronise data, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] table reco
 
 - With bidirectional synchronisation, the job synchronises from [!INCLUDE[prod_short](includes/prod_short.md)] to [!INCLUDE[cds_long_md](includes/cds_long_md.md)], and then from [!INCLUDE[cds_long_md](includes/cds_long_md.md)] to [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="about-inactivity-timeouts"></a><a name="about-inactivity-timeouts"></a>About inactivity timeouts
+## <a name="about-inactivity-timeouts"></a><a name="about-inactivity-timeouts"></a><a name="about-inactivity-timeouts"></a>About inactivity timeouts
 
 Some job queue entries, such as those that schedule synchronisation between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)], use the **Inactivity Timeout** field on the Job Queue Entry PAGE to prevent the job queue entry from running unnecessarily.  
 
@@ -70,7 +70,7 @@ For example, by default, the CURRENCY job queue entry, which synchronises curren
 > [!Note]
 > [!INCLUDE[prod_short](includes/prod_short.md)] will automatically activate job queue entries that are on hold only when changes happen in [!INCLUDE[prod_short](includes/prod_short.md)]. Changes in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] will not activate job queue entries.
 
-## <a name="to-view-the-synchronization-job-log"></a><a name="to-view-the-synchronization-job-log"></a>To view the synchronisation job log
+## <a name="to-view-the-synchronization-job-log"></a><a name="to-view-the-synchronization-job-log"></a><a name="to-view-the-synchronization-job-log"></a>To view the synchronisation job log
 
 1. Choose the :::image type="icon" source="media/ui-search/search_small.png" border="false"::: icon, enter **Integration Synchronisation Log**, and then choose the related link.
 2. If one or more error occurred for a synchronisation job, the number of errors appears in the **Failed** column. To view the errors for the job, choose the number.  
@@ -78,16 +78,16 @@ For example, by default, the CURRENCY job queue entry, which synchronises curren
     > [!TIP]  
     > You can view all synchronisation job errors by opening the synchronisation job error log directly.
 
-## <a name="to-view-the-synchronization-job-log-from-the-table-mappings"></a><a name="to-view-the-synchronization-job-log-from-the-table-mappings"></a>To view the synchronisation job log from the table mappings
+## <a name="to-view-the-synchronization-job-log-from-the-table-mappings"></a><a name="to-view-the-synchronization-job-log-from-the-table-mappings"></a><a name="to-view-the-synchronization-job-log-from-the-table-mappings"></a>To view the synchronisation job log from the table mappings
 
 1. Choose the :::image type="icon" source="media/ui-search/search_small.png" border="false"::: icon, enter **Integration Table Mappings**, and then choose the related link.
 2. In the **Integration Table Mappings** page, select an entry, and then choose **Integration Synch. Job Log**.  
 
-## <a name="to-view-the-synchronization-error-log"></a><a name="to-view-the-synchronization-error-log"></a>To view the synchronisation error log
+## <a name="to-view-the-synchronization-error-log"></a><a name="to-view-the-synchronization-error-log"></a><a name="to-view-the-synchronization-error-log"></a>To view the synchronisation error log
 
 - Choose the :::image type="icon" source="media/ui-search/search_small.png" border="false"::: icon, enter **Integration Synchronisation Errors**, and then choose the related link.
 
-## <a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
 
 [Synchronising Data in Business Central and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md)  
 [Manually Synchronise Table Mappings](admin-manual-synchronization-of-table-mappings.md)  

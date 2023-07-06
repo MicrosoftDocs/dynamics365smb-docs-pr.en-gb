@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/11/2021
 ms.author: edupont
 ---
-# <a name="setting-up-data-exchange"></a><a name="setting-up-data-exchange"></a>Setting Up Data Exchange
+# <a name="setting-up-data-exchange"></a><a name="setting-up-data-exchange"></a><a name="setting-up-data-exchange"></a>Setting Up Data Exchange
 
 Before you can send and receive electronic documents or import and export bank files, you must set up the data exchange framework to process the involved files. In addition, you must set up related areas, such as the customers that you send electronic invoices to, or the AMC Banking 365 Fundamentals extension if you use the external service provider to convert your bank files. For more information, see [Exchanging Data Electronically](across-data-exchange.md).  
 
@@ -33,9 +33,9 @@ Before you can send and receive electronic documents or import and export bank f
 |Prepare to set up a new data exchange definition for a data file or stream by using the file’s XML schema to prefill the **Column Definitions** FastTab on the **Posting Exchange Definition** page.|[Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
 |Set up the Data Exchange Framework to enable users to receive a new purchase document format, send a new sales document format, import a new bank file, or other data exchange.|[Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)|  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/electronic-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/electronic-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
 
 [Exchanging Data Electronically](across-data-exchange.md)  
 [Incoming Documents](across-income-documents.md)  

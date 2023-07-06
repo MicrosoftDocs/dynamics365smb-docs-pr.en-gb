@@ -12,15 +12,15 @@ ms.date: 12/20/2021
 ms.author: edupont
 ---
 
-# <a name="cash-flow-overview"></a><a name="cash-flow-overview"></a>Cash Flow Overview
+# <a name="cash-flow-overview"></a><a name="cash-flow-overview"></a><a name="cash-flow-overview"></a>Cash Flow Overview
 
 Understanding cash inflows and outflows is the key to running a successful business. You can use cash flow to easily create a short-term forecast that predicts how and when you expect money to be received and paid out by your business. It is important for you to know that your business will have enough cash to pay creditors and expenses when they fall due.
 
-## <a name="definition-of-cash-flow"></a><a name="definition-of-cash-flow"></a>Definition of Cash Flow
+## <a name="definition-of-cash-flow"></a><a name="definition-of-cash-flow"></a><a name="definition-of-cash-flow"></a>Definition of Cash Flow
 
 The term *cash flow* is used to designate cash receipts minus cash payments over a selected period. It is an estimate of the amount of money that you expect to flow in and out of your business, and it includes all your forecasted income and expenses.
 
-## <a name="work-with-cash-flow"></a><a name="work-with-cash-flow"></a>Work with Cash Flow
+## <a name="work-with-cash-flow"></a><a name="work-with-cash-flow"></a><a name="work-with-cash-flow"></a>Work with Cash Flow
 
 The following illustration shows an overview of how you can work with cash flow.
 
@@ -39,7 +39,7 @@ The following illustration shows an overview of how you can work with cash flow.
 - You use a batch job to transfer information from the areas of general ledger, sales, purchasing, service, and fixed assets to the worksheet Then, you register worksheet lines to make a cash flow forecast.  
 - You use various windows, reports, and charts to analyse and print a cash flow forecast that relates to availability and timeline overviews.  
 
-## <a name="making-a-cash-flow-forecast"></a><a name="making-a-cash-flow-forecast"></a>Making a Cash Flow Forecast
+## <a name="making-a-cash-flow-forecast"></a><a name="making-a-cash-flow-forecast"></a><a name="making-a-cash-flow-forecast"></a>Making a Cash Flow Forecast
 
 Based on the registered worksheet lines, you can periodically make a cash flow forecast. The following layout is a frequently used layout for a cash flow forecast. The layout has three sections:
 
@@ -67,7 +67,7 @@ Net cash flow or cash-in-hand is calculated as total receipts minus total disbur
 
 The forecast can then be used as an internal management decision-making tool that helps you plan ahead and make important strategic decisions about the operation of the business.
 
-## <a name="see-also"></a><a name="see-also"></a>See Also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See Also
 
 [Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)  
 [Analyse Cash Flow](finance-analyze-cash-flow.md)  

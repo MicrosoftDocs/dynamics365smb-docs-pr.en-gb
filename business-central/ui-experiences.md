@@ -11,7 +11,7 @@ ms.search.form: 1
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="change-which-features-are-displayed"></a><a name="change-which-features-are-displayed"></a>Change Which Features are Displayed
+# <a name="change-which-features-are-displayed"></a><a name="change-which-features-are-displayed"></a><a name="change-which-features-are-displayed"></a>Change Which Features are Displayed
 [!INCLUDE[prod_short](includes/prod_short.md)] is designed to help you run your business regardless of the size and complexity. At the core of the product, you find essential features, such as financial reporting, sales, purchasing, and inventory management. As business complexity increases, you can turn on functionality for manufacturing and service management, for example.
 
 You can define the product complexity level, and thereby which features the company's users get access to, by changing the **Experience** setting on the **Company Information** page. Note that the experience setting can also be changed by adding certain extensions from AppSource. For more information, see [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md).
@@ -32,10 +32,10 @@ Prior to defining a company's experience setting, you define users' access to sp
 
 The **Experience** setting applies to all users in a company, but each user can personalise their own experience further by changing page layouts and content. For more information, see [Personalise Your Workspace](ui-personalization-user.md).
 
-## <a name="enabling-premium-features-after-upgrading-a-plan"></a><a name="enabling-premium-features-after-upgrading-a-plan"></a>Enabling Premium Features after Upgrading a Plan
+## <a name="enabling-premium-features-after-upgrading-a-plan"></a><a name="enabling-premium-features-after-upgrading-a-plan"></a><a name="enabling-premium-features-after-upgrading-a-plan"></a>Enabling Premium Features after Upgrading a Plan
 Users are assigned to plans in Microsoft 365 Admin Centre in connection with the general work to create the Business Central users. For more information, see [Add users and assign licences at the same time](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true).
 
-### <a name="to-update-plan-changes-in-users-groups"></a><a name="to-update-plan-changes-in-users-groups"></a>To update plan changes in users groups
+### <a name="to-update-plan-changes-in-users-groups"></a><a name="to-update-plan-changes-in-users-groups"></a><a name="to-update-plan-changes-in-users-groups"></a>To update plan changes in users groups
 When you have made a change to users plans in Microsoft 365 Admin Centre, such as assigned more users to the Premium plan, you must reflect the change in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. Sign is as an administrator.
@@ -44,15 +44,15 @@ When you have made a change to users plans in Microsoft 365 Admin Centre, such a
 
 All new information about the users' plans and their assigned user groups are now updated according to the plan changes.
 
-### <a name="to-select-the-premium-experience"></a><a name="to-select-the-premium-experience"></a>To select the Premium experience
+### <a name="to-select-the-premium-experience"></a><a name="to-select-the-premium-experience"></a><a name="to-select-the-premium-experience"></a>To select the Premium experience
 You can now proceed to select the new experience.
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.
 2. On the **Company Information** page, on the **User Experience** FastTab, select Premium  in the **Experience** field.
 
-## <a name="help-assumes-premium-experience"></a><a name="help-assumes-premium-experience"></a>Help Assumes Premium Experience
+## <a name="help-assumes-premium-experience"></a><a name="help-assumes-premium-experience"></a><a name="help-assumes-premium-experience"></a>Help Assumes Premium Experience
 All feature descriptions in user documentation for [!INCLUDE[prod_short](includes/prod_short.md)] assume the **Premium** experience, meaning the descriptions cover the full scope of UI elements.
 
-## <a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
 [Personalise Your Workspace](ui-personalization-user.md)  
 [Customising Business Central](ui-customizing-overview.md)  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  

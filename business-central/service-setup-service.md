@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ---
 
-# <a name="setting-up-service-management"></a><a name="setting-up-service-management"></a>Setting Up Service Management
+# <a name="setting-up-service-management"></a><a name="setting-up-service-management"></a><a name="setting-up-service-management"></a>Setting Up Service Management
 Before you can start using Service Management features in [!INCLUDE[prod_short](includes/prod_short.md)], there are a few things to set up. For example, you can establish coding for standard services, symptoms, and fault codes, and the service items and service item types that your company's customer service needs require.  
 
 When you set up Service Management, you must decide what services to offer customers and the schedule for those services. A service is a type of work performed by one or more resources and provided to a customer. For example, a service could be a type of computer repair. A service item is the equipment or item needing servicing, for example, the computer needing repair, installed at a specific customer. You can set up services as part of a group of related repair or maintenance items.  
@@ -35,7 +35,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Set up service items and service item components. |[Set Up Service Items](service-how-setup-service-items.md) |
 | Lay the groundwork for creating service contracts and contract quotes. |[Set Up Service Contracts](service-how-setup-service-contracts.md) |
 
-## <a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
 [Service Management](service-service.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 

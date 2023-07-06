@@ -10,10 +10,10 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a><a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Change the Annual Amount on Service Contracts or Contract Quotes
+# <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a><a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a><a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Change the Annual Amount on Service Contracts or Contract Quotes
 You can change the annual amount of the service contract or contract quote to correct the amount that will be invoiced annually.  
 
-## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a><a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>To change the annual amount of the service contract or contract quote
+## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a><a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a><a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>To change the annual amount of the service contract or contract quote
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Contracts** or **Service Contract Quotes**,and then choose the related link.  
 2. Choose the contract or contract quote.  
@@ -22,14 +22,14 @@ You can change the annual amount of the service contract or contract quote to co
 5. Change the contents of the **Annual Amount** field. You cannot sign, that is, convert into a service contract if you are working on a contract quote, or lock a service contract that has a negative annual amount. If you set the annual amount to zero, the contents of the **Invoice Period** field must be **None** when either signing or locking the service contract.  
 6. Depending on whether the **Allow Unbalanced Amounts** check box is selected, run either the manual or automatic distribution of the annual amount difference. The contract lines will be updated so that the **Calcd. Annual Amount** field value is equal to the new annual amount.  
 
-## <a name="distributing-differences-between-new-and-calculated-annual-amounts"></a><a name="distributing-differences-between-new-and-calculated-annual-amounts"></a>Distributing Differences Between New and Calculated Annual Amounts
+## <a name="distributing-differences-between-new-and-calculated-annual-amounts"></a><a name="distributing-differences-between-new-and-calculated-annual-amounts"></a><a name="distributing-differences-between-new-and-calculated-annual-amounts"></a>Distributing Differences Between New and Calculated Annual Amounts
 If you change the annual amount of a service contract or contract quote, you may want to distribute the difference between its new and calculated annual amounts on the contract lines. There are three ways to distribute amounts:
 
 * Even distribution  
 * Distribution based on line amounts  
 * Distribution based on Profit
 
-### <a name="even-distribution"></a><a name="even-distribution"></a>Even Distribution
+### <a name="even-distribution"></a><a name="even-distribution"></a><a name="even-distribution"></a>Even Distribution
 If you change the annual amount of the service contract or contract quote, you may want to distribute the difference between its new and calculated annual amounts on the contract lines. Even distribution is one of the automatic distribution methods that can help you spread equally the new and calculated annual amounts difference between line amounts on the contract lines. The following list of distribution procedure steps describe the main idea of this method:  
 
 1. The difference between the new **Annual Amount** and **Calcd. Annual Amount** field values is divided by the number of the contract lines in the service contract or contract quote.  
@@ -41,7 +41,7 @@ If you change the annual amount of the service contract or contract quote, you m
 
  The steps are repeated for each contract line.  
 
-#### <a name="example"></a><a name="example"></a>Example
+#### <a name="example"></a><a name="example"></a><a name="example"></a>Example
 The **Allow Unbalanced Amounts** check box is not selected in the service contract that contains three contract lines with such information.  
 
 |Item|Line Cost|Line Value|Line Discount %|Line Discount Amount|Line Amount|Profit|  
@@ -62,7 +62,7 @@ Finally, the contract lines will contain this data.
 |Item 2|40.00|50.00|16.00|8.00|42.00|2.00|  
 |Item 3|50.00|70.00|14.29|10.00|60.00|10.00|  
 
-### <a name="distribution-based-on-line-amount"></a><a name="distribution-based-on-line-amount"></a>Distribution Based on Line Amount
+### <a name="distribution-based-on-line-amount"></a><a name="distribution-based-on-line-amount"></a><a name="distribution-based-on-line-amount"></a>Distribution Based on Line Amount
 If you change the annual amount of the service contract or contract quote, you may want to distribute the difference between its new and calculated annual amounts on the contract lines. Distribution Based on Line Amount is an automatic method that can help you spread the new and calculated annual amounts difference between the line amounts on the contract lines. This distribution will be performed proportionally to their line amount shares in the calculated annual amount. The following list of distribution procedure steps for each contract line describe the main idea of this method:  
 
 1. The line amount percentage contribution is calculated as follows: the contents of the **Line Amount** field is divided by the **Calcd. Annual Amount** field values on all contract lines.  
@@ -75,7 +75,7 @@ If you change the annual amount of the service contract or contract quote, you m
 
 The steps are repeated for each contract line.  
 
-#### <a name="example-1"></a><a name="example-1"></a>Example
+#### <a name="example-1"></a><a name="example-1"></a><a name="example-1"></a>Example
 The **Allow Unbalanced Amounts** check box is not selected in the service contract that contains three contract lines with such information.  
 
 |Item|Line Cost|Line Value|Line Discount %|Line Discount Amount|Line Amount|Profit|  
@@ -102,7 +102,7 @@ Finally, the contract lines will contain this data.
 |Item 2|20.00|23.00|8.65|1.99|21.01|1.01|  
 |Item 3|24.00|27.00|11.37|3.07|23.93|-0.07|  
 
-### <a name="distribution-based-on-profit"></a><a name="distribution-based-on-profit"></a>Distribution Based on Profit
+### <a name="distribution-based-on-profit"></a><a name="distribution-based-on-profit"></a><a name="distribution-based-on-profit"></a>Distribution Based on Profit
 If you change the annual amount of the service contract or contract quote, you may want to distribute the difference between its new and calculated annual amounts on the contract lines. Distribution Based on Profit is one of the automatic methods that can help you spread the new and calculated annual amounts difference between the line amounts on the contract lines. This distribution will be performed proportionally to their profit shares in the total contract or contract quote profit. The following list of distribution procedure steps for each contract line describe the main idea of this method:  
 
 1. The profit percentage contribution is calculated as follows: the contents of the **Profit** field is divided by the sum of **Profit** field values on all contract lines.  
@@ -113,7 +113,7 @@ If you change the annual amount of the service contract or contract quote, you m
     * Line Discount % = Line Discount Amount / Line Value * 100  
     * Profit = Line Amount - Line Cost  
 
-#### <a name="example-2"></a><a name="example-2"></a>Example
+#### <a name="example-2"></a><a name="example-2"></a><a name="example-2"></a>Example
 The **Allow Unbalanced Amounts** check box is not selected in the service contract that contains three contract lines with such information.  
 
 |Item|Line Cost|Line Value|Line Discount %|Line Discount Amount|Line Amount|Profit|  
@@ -140,7 +140,7 @@ Finally, the contract lines will contain this data.
 |Item 2|50.00|58.00|9.93|5.76|52.24|2.24|  
 |Item 3|100.00|115.00|8.20|9.43|105.57|5.57|  
 
-## <a name="see-also"></a><a name="see-also"></a>See Also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See Also
 [Create Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Setting Up Service Management](service-setup-service.md)  
 

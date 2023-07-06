@@ -10,7 +10,7 @@ ms.search.form: '1100, 1103, 1104, 1108, 1113, 1135'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="transferring-and-posting-cost-entries"></a><a name="transferring-and-posting-cost-entries"></a>Transferring and Posting Cost Entries
+# <a name="transferring-and-posting-cost-entries"></a><a name="transferring-and-posting-cost-entries"></a><a name="transferring-and-posting-cost-entries"></a>Transferring and Posting Cost Entries
 
 Before you define cost allocations, you must understand how cost entries come from the following sources:  
 
@@ -19,7 +19,7 @@ Before you define cost allocations, you must understand how cost entries come fr
 - Automatic allocation postings for actual costs.  
 - Transfer of budget entries to actual.
 
-## <a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a><a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a>Criteria for Transferring General Ledger Entries to Cost Entries
+## <a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a><a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a><a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a>Criteria for Transferring General Ledger Entries to Cost Entries
 
 It is important to understand the criteria for transferring general ledger entries to cost entries. During the transfer, the **Transfer GL Entries to CA** batch job uses the following criteria to determine if and how the general ledger entries are transferred.  
 
@@ -40,13 +40,13 @@ General ledger entries are not transferred if:
 - The entries have a posting date before the **Starting Date for G/L Transfer**.  
 - The entries have been posted with a closing date. These are typically entries that set back the balance of the income statement at the end of the year.
 
-## <a name="transferring-general-ledger-entries-to-cost-entries"></a><a name="transferring-general-ledger-entries-to-cost-entries"></a>Transferring General Ledger Entries to Cost Entries
+## <a name="transferring-general-ledger-entries-to-cost-entries"></a><a name="transferring-general-ledger-entries-to-cost-entries"></a><a name="transferring-general-ledger-entries-to-cost-entries"></a>Transferring General Ledger Entries to Cost Entries
 
 You can transfer general ledger entries to cost entries.  
 
 Before you run the process for transferring general ledger entries to cost entries, you must prepare the transfer to avoid manual correction posting.  
 
-### <a name="to-prepare-the-transfer"></a><a name="to-prepare-the-transfer"></a>To prepare the transfer
+### <a name="to-prepare-the-transfer"></a><a name="to-prepare-the-transfer"></a><a name="to-prepare-the-transfer"></a>To prepare the transfer
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Accounting Setup**, and then choose the related link.  
 2.  On the **Cost Accounting Setup** page, verify that the **Starting Date for G/L Transfer** field is set to the correct value.  
@@ -56,14 +56,14 @@ Before you run the process for transferring general ledger entries to cost entri
 6.  For each relevant general ledger account, on the **G/L Account Card** page, verify that the **Cost Type No.** field is linked correctly to a cost type. For more information, see [Setting Up Cost Accounting](finance-set-up-cost-accounting.md).  
 7.  Verify that all relevant general ledger entries have dimension values that correspond to a cost centre and a cost object.  
 
-### <a name="to-transfer-general-ledger-entries-to-cost-entries"></a><a name="to-transfer-general-ledger-entries-to-cost-entries"></a>To transfer general ledger entries to cost entries
+### <a name="to-transfer-general-ledger-entries-to-cost-entries"></a><a name="to-transfer-general-ledger-entries-to-cost-entries"></a><a name="to-transfer-general-ledger-entries-to-cost-entries"></a>To transfer general ledger entries to cost entries
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer GL Entries to CA**, and then choose the related link.  
 2.  Choose the **Yes** button to start the transfer. The process transfers all general ledger entries that have not already been transferred.  
 
 During the transfer, the process creates connections in the entries in the **Cost Entry** table and the **Cost Register** table. This makes it possible to trace the source of cost entries.
 
-## <a name="automatic-transfer-and-combined-entries"></a><a name="automatic-transfer-and-combined-entries"></a>Automatic Transfer and Combined Entries
+## <a name="automatic-transfer-and-combined-entries"></a><a name="automatic-transfer-and-combined-entries"></a><a name="automatic-transfer-and-combined-entries"></a>Automatic Transfer and Combined Entries
 
 In cost accounting, you can transfer general ledger entries to a cost type by using a combined posting. You can specify if a cost type receives combined entries in the **Combine Entries** field in the cost type definition. The following table describes the different options.  
 
@@ -76,15 +76,15 @@ In cost accounting, you can transfer general ledger entries to a cost type by us
 > [!IMPORTANT]  
 >  If you have selected the **Auto Transfer from G/L** check box on the **Cost Accounting Setup** page, [!INCLUDE[prod_short](includes/prod_short.md)] updates the cost accounting after every posting in the general ledger. Combined entries are not possible.
 
-## <a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a><a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a>Results of Transferring General Ledger Entries to Cost Entries
+## <a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a><a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a><a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a>Results of Transferring General Ledger Entries to Cost Entries
 
 During the transfer of general ledger entries to cost entries, [!INCLUDE[prod_short](includes/prod_short.md)] creates connections in the entries in the **G/L Entry** table, the **Cost Entry** table, and the **Cost Register** table to make it possible to trace the connections between cost entries and general ledger entries.  
 
-### <a name="general-ledger-entries"></a><a name="general-ledger-entries"></a>General Ledger Entries
+### <a name="general-ledger-entries"></a><a name="general-ledger-entries"></a><a name="general-ledger-entries"></a>General Ledger Entries
 
 For each general ledger entry that is transferred to cost accounting, [!INCLUDE[prod_short](includes/prod_short.md)] fills the cost **Entry No.** field.  
 
-### <a name="cost-entries"></a><a name="cost-entries"></a>Cost Entries
+### <a name="cost-entries"></a><a name="cost-entries"></a><a name="cost-entries"></a>Cost Entries
 
 For each cost entry, [!INCLUDE[prod_short](includes/prod_short.md)] saves the entry number of the corresponding general ledger entry in the **G/L Entry No.** field in the **Cost Entry** table.  
 
@@ -94,13 +94,13 @@ The **G/L Account** field in the **Cost Entry** table contains the number of the
 
 For single cost entries, [!INCLUDE[prod_short](includes/prod_short.md)] transfers the posting text from the general ledger entry to the **Description** text field. For combined entries, the text field shows these entries are transferred as combined entries. For example, for a combined entry for the month of October in 2013, the text can be **Combined Entries, October 2013**.  
 
-### <a name="cost-register"></a><a name="cost-register"></a>Cost Register
+### <a name="cost-register"></a><a name="cost-register"></a><a name="cost-register"></a>Cost Register
 
 In the **Cost Register** table, [!INCLUDE[prod_short](includes/prod_short.md)] creates an entry with the source transfer from general ledger. The entry records the first and last entry numbers of the general ledger entries that are transferred, in addition to the first and last entry numbers of the cost entries that are created.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/transfer-gl-entries-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/transfer-gl-entries-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
 
  [About Cost Accounting](finance-about-cost-accounting.md)  
  [Setting Up Cost Accounting](finance-set-up-cost-accounting.md)  

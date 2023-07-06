@@ -7,18 +7,18 @@ ms.topic: article
 ms.date: 07/04/2022
 ms.author: a-reishima
 ---
-# <a name="set-up-vendor-bank-accounts"></a><a name="set-up-vendor-bank-accounts"></a>Set Up Vendor Bank Accounts
+# <a name="set-up-vendor-bank-accounts"></a><a name="set-up-vendor-bank-accounts"></a><a name="set-up-vendor-bank-accounts"></a>Set Up Vendor Bank Accounts
 
 Just as you can use bank account information on [!INCLUDE [prod_short](includes/prod_short.md)] to keep track of your company's banking transactions, you can also set banking details for vendors. Vendor bank account data can simplify payments to suppliers when combined with the [AMC Banking 365 Fundamentals Extension](ui-extensions-amc-banking.md) or the [Export Payments to a Bank File](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md) feature, for example.
 
-## <a name="add-or-edit-a-vendor-bank-account"></a><a name="add-or-edit-a-vendor-bank-account"></a>Add or edit a vendor bank account
+## <a name="add-or-edit-a-vendor-bank-account"></a><a name="add-or-edit-a-vendor-bank-account"></a><a name="add-or-edit-a-vendor-bank-account"></a>Add or edit a vendor bank account
 
 [!INCLUDE [purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
 > [!TIP]
 > You can set additional vendor bank accounts on the **Vendor Bank Account List** page.
 
-## <a name="set-up-a-preferred-vendor-bank-account"></a><a name="set-up-a-preferred-vendor-bank-account"></a>Set up a preferred vendor bank account
+## <a name="set-up-a-preferred-vendor-bank-account"></a><a name="set-up-a-preferred-vendor-bank-account"></a><a name="set-up-a-preferred-vendor-bank-account"></a>Set up a preferred vendor bank account
 
 If a vendor has one or more bank accounts and you want to set a preferred option for the payment journal lines, follow these steps:
 
@@ -26,9 +26,9 @@ If a vendor has one or more bank accounts and you want to set a preferred option
 2. Open the card for the vendor.
 3. On the **Payments** FastTab, choose the default vendor bank account in the **Preferred Bank Account Code** field.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/cash-management-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
 
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
 [Register New Suppliers](purchasing-how-register-new-vendors.md)  

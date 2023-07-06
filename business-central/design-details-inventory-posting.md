@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# <a name="design-details-inventory-posting"></a><a name="design-details-inventory-posting"></a>Design Details: Inventory Posting
+# <a name="design-details-inventory-posting"></a><a name="design-details-inventory-posting"></a><a name="design-details-inventory-posting"></a>Design Details: Inventory Posting
 
 Each inventory transaction, such as a purchase receipt or a sales shipment, posts two entries of different types.  
 
@@ -27,26 +27,26 @@ Each inventory transaction, such as a purchase receipt or a sales shipment, post
 
  ![Entry flow when reconciling inventory with G/L.](media/design_details_inventory_costing_1_entry_flow.png "Entry flow when reconciling inventory with G/L")  
 
-## <a name="example"></a><a name="example"></a>Example
+## <a name="example"></a><a name="example"></a><a name="example"></a>Example
 
 The following example shows how item ledger entries, value entries, and item application entries result in general ledger entries.  
 
  You post a purchase order as received and invoiced for 10 items with a direct unit cost of LCY 7 and an overhead rate of LCY 1. The posting date is 01-01-20. The following entries are created.  
 
-### <a name="item-ledger-entries-1"></a><a name="item-ledger-entries-1"></a>Item Ledger Entries (1)
+### <a name="item-ledger-entries-1"></a><a name="item-ledger-entries-1"></a><a name="item-ledger-entries-1"></a>Item Ledger Entries (1)
 
 |Posting Date|Entry Type|Cost Amount (Actual)|Quantity|Entry No.|  
 |------------|----------|--------------------|--------|---------|  
 |01-01-20|Purchase|80.00|10|1|  
 
-### <a name="value-entries-1"></a><a name="value-entries-1"></a>Value Entries (1)
+### <a name="value-entries-1"></a><a name="value-entries-1"></a><a name="value-entries-1"></a>Value Entries (1)
 
 |Posting Date|Entry Type|Cost Amount (Actual)|Item Ledger Entry No.|Entry No.|  
 |------------|----------|--------------------|---------------------|---------|  
 |01-01-20|Direct Cost|70.00|1|1|  
 |01-01-20|Indirect Cost|10.00|1|2|  
 
-### <a name="item-application-entries-1"></a><a name="item-application-entries-1"></a>Item Application Entries (1)
+### <a name="item-application-entries-1"></a><a name="item-application-entries-1"></a><a name="item-application-entries-1"></a>Item Application Entries (1)
 
 |Entry No.|Item Ledger Entry No.|Inbound Item Entry No.|Outbound Item Entry No.|Quantity|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -54,19 +54,19 @@ The following example shows how item ledger entries, value entries, and item app
 
  Next, you post a sale of 10 units of the item with a posting date of 01-15-20.  
 
-### <a name="item-ledger-entries-2"></a><a name="item-ledger-entries-2"></a>Item Ledger Entries (2)
+### <a name="item-ledger-entries-2"></a><a name="item-ledger-entries-2"></a><a name="item-ledger-entries-2"></a>Item Ledger Entries (2)
 
 |Posting Date|Entry Type|Cost Amount (Actual)|Quantity|Entry No.|  
 |------------|----------|--------------------|--------|---------|  
 |01-15-20|Sale|-80.00|-10|2|  
 
-### <a name="value-entries-2"></a><a name="value-entries-2"></a>Value Entries (2)
+### <a name="value-entries-2"></a><a name="value-entries-2"></a><a name="value-entries-2"></a>Value Entries (2)
 
 |Posting Date|Entry Type|Cost Amount (Actual)|Item Ledger Entry No.|Entry No.|  
 |------------|----------|--------------------|---------------------|---------|  
 |01-15-20|Direct Cost|-80.00|2|3|  
 
-### <a name="item-application-entries-2"></a><a name="item-application-entries-2"></a>Item Application Entries (2)
+### <a name="item-application-entries-2"></a><a name="item-application-entries-2"></a><a name="item-application-entries-2"></a>Item Application Entries (2)
 
 |Entry No.|Item Ledger Entry No.|Inbound Item Entry No.|Outbound Item Entry No.|Quantity|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -78,7 +78,7 @@ At the end of the accounting period, you run the **Post Inventory Cost to G/L** 
 
  The following tables show the result of reconciling the inventory transactions in this example with the general ledger.  
 
-### <a name="value-entries-3"></a><a name="value-entries-3"></a>Value Entries (3)
+### <a name="value-entries-3"></a><a name="value-entries-3"></a><a name="value-entries-3"></a>Value Entries (3)
 
 |Posting Date|Entry Type|Cost Amount (Actual)|Cost Posted to G/L|Item Ledger Entry No.|Entry No.|  
 |------------|----------|--------------------|------------------|---------------------|---------|  
@@ -86,7 +86,7 @@ At the end of the accounting period, you run the **Post Inventory Cost to G/L** 
 |01-01-20|Indirect Cost|10.00|10.00|1|2|  
 |01-15-20|Direct Cost|-80.00|-80.00|2|3|  
 
-### <a name="general-ledger-entries-3"></a><a name="general-ledger-entries-3"></a>General Ledger Entries (3)
+### <a name="general-ledger-entries-3"></a><a name="general-ledger-entries-3"></a><a name="general-ledger-entries-3"></a>General Ledger Entries (3)
 
 |Posting Date|G/L Account|Account No. (En-US Demo)|Amount|Entry No.|  
 |------------|-----------|------------------------|------|---------|  
@@ -104,7 +104,7 @@ At the end of the accounting period, you run the **Post Inventory Cost to G/L** 
 
  The relation between value entries and general ledger entries is stored in the **G/L - Item Ledger Relation** table.  
 
-### <a name="relation-entries-in-the-gl--item-ledger-relation-table-3"></a><a name="relation-entries-in-the-gl--item-ledger-relation-table-3"></a>Relation Entries in the G/L – Item Ledger Relation table (3)
+### <a name="relation-entries-in-the-gl--item-ledger-relation-table-3"></a><a name="relation-entries-in-the-gl--item-ledger-relation-table-3"></a><a name="relation-entries-in-the-gl--item-ledger-relation-table-3"></a>Relation Entries in the G/L – Item Ledger Relation table (3)
 
 |G/L Entry No.|Value Entry No.|G/L Register No.|  
 |-------------|---------------|----------------|  
@@ -115,13 +115,13 @@ At the end of the accounting period, you run the **Post Inventory Cost to G/L** 
 |5|3|1|  
 |6|3|1|  
 
-## <a name="assembly-and-production-posting"></a><a name="assembly-and-production-posting"></a>Assembly and Production Posting
+## <a name="assembly-and-production-posting"></a><a name="assembly-and-production-posting"></a><a name="assembly-and-production-posting"></a>Assembly and Production Posting
 
 Capacity and resource ledger entries represent the time that is posted as consumed in production or assembly. These process costs are posted as value entries to the general ledger along with the involved material costs in a similar structure as described for item ledger entries in this topic.  
 
 For more information, see [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md).  
 
-## <a name="see-also"></a><a name="see-also"></a>See Also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See Also
 
  [Design Details: Inventory Costing](design-details-inventory-costing.md)  
  [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md)  

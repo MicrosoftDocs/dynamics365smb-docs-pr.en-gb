@@ -9,14 +9,14 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="run-tasks-in-the-background"></a><a name="run-tasks-in-the-background"></a>Run Tasks in the Background
+# <a name="run-tasks-in-the-background"></a><a name="run-tasks-in-the-background"></a><a name="run-tasks-in-the-background"></a>Run Tasks in the Background
 
 It's efficient to run some tasks simultaneously and in an automated manner. You can perform such tasks in the background and can also set a schedule when you want those tasks to run automatically. To run tasks in the background, two modes are supported:
 
 - Manually triggered tasks are scheduled immediately via **Job Queue Entries**.
 - Recurring tasks are scheduled in **Job Queue Entries**.
 
-## <a name="run-tasks-in-the-background-for-a-specific-shop"></a><a name="run-tasks-in-the-background-for-a-specific-shop"></a>Run tasks in the background for a specific shop
+## <a name="run-tasks-in-the-background-for-a-specific-shop"></a><a name="run-tasks-in-the-background-for-a-specific-shop"></a><a name="run-tasks-in-the-background-for-a-specific-shop"></a>Run tasks in the background for a specific shop
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
 2. Select the shop for which you want to run synchronisation in background to open the **Shopify Shop Card** page.
@@ -24,7 +24,7 @@ It's efficient to run some tasks simultaneously and in an automated manner. You 
 
 Now, when the sync action is triggered, instead of a task running in the foreground, it will ask you to wait. When it's completed, you can proceed to the next action. The task is created as a **Job Queue Entry** and starts immediately.
 
-## <a name="to-schedule-recurring-tasks"></a><a name="to-schedule-recurring-tasks"></a>To schedule recurring tasks
+## <a name="to-schedule-recurring-tasks"></a><a name="to-schedule-recurring-tasks"></a><a name="to-schedule-recurring-tasks"></a>To schedule recurring tasks
 
 You can schedule the following recurring activities to be performed in an automated manner. Learn more about scheduling tasks at [Job Queue](../admin-job-queues-schedule-tasks.md).
 
@@ -51,6 +51,6 @@ You can use the **Shopify Order No.** field to identify sales documents that wer
 
 To learn more about posting sales orders in a batch, go to [To create a job queue entry for batch posting of sales orders](../ui-batch-posting.md#to-create-a-job-queue-entry-for-batch-posting-of-sales-orders).
 
-## <a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
 
 [Get Started with the Connector for Shopify](get-started.md)  

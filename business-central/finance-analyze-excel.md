@@ -8,7 +8,7 @@ ms.search.form: 9027
 ms.date: 08/23/2022
 ms.author: edupont
 ---
-# <a name="analyzing-financial-statements-in-microsoft-excel"></a><a name="analyzing-financial-statements-in-microsoft-excel"></a>Analysing Financial Statements in Microsoft Excel
+# <a name="analyzing-financial-statements-in-microsoft-excel"></a><a name="analyzing-financial-statements-in-microsoft-excel"></a><a name="analyzing-financial-statements-in-microsoft-excel"></a>Analysing Financial Statements in Microsoft Excel
 
 [!INCLUDE [prod_short](includes/prod_short.md)] provides KPIs and get overviews of your company's finances. The following are examples of ways to analyse KPIs and overviews in Excel:
 
@@ -18,7 +18,7 @@ ms.author: edupont
 > [!TIP]
 > By default, the reports you can view in Excel are designed to help you analyse the current year. The Income Statement report is an exception, however. That report lets you filter the data to include previous years in your analyses.
 
-## <a name="getting-the-overview-and-the-details-in-excel"></a><a name="getting-the-overview-and-the-details-in-excel"></a>Getting the Overview and the Details in Excel
+## <a name="getting-the-overview-and-the-details-in-excel"></a><a name="getting-the-overview-and-the-details-in-excel"></a><a name="getting-the-overview-and-the-details-in-excel"></a>Getting the Overview and the Details in Excel
 
 In the Business Manager and Accountant Role Centres, the **Reports** action lets you choose the financial statements to view in Excel. When you choose a statement, it will be opened in Excel or Excel Online. An add-in connects the data to [!INCLUDE [prod_short](includes/prod_short.md)]. However, you have to sign in with the same account that you use with [!INCLUDE [prod_short](includes/prod_short.md)]. The following table lists the reports and where they're available.  
 
@@ -38,21 +38,21 @@ Let's say you want to dig deeper into your cash flow. From the Business Manager 
 
 In Excel, you see a tab where the data is laid out for you on the first worksheet. All the data that was exported is also present in other worksheets in case you need it. You can print the report right away, or you can modify it until you have the overview and the details that you want. Use the [!INCLUDE [prod_short](includes/prod_short.md)] Excel Add-in to further filter and analyse data.  
 
-### <a name="understanding-the-excel-templates"></a><a name="understanding-the-excel-templates"></a>Understanding the Excel templates
+### <a name="understanding-the-excel-templates"></a><a name="understanding-the-excel-templates"></a><a name="understanding-the-excel-templates"></a>Understanding the Excel templates
 
 The predefined Excel reports are based on the data in the current company. For example, the demonstration company has set up the chart of accounts to list three cash accounts under *Current Assets*: 10100 **Current account**, 10200 **Saving account** and 10300 **Petty Cash**. The accounts have the **Account Subcategory** field set to *Cash*, and it's their combined amount that shows up as *Cash* in the **Balance Sheet** Excel report.  
 
 Other sheets in the Excel workbook show the data behind the report. To find out what's behind the groupings in the Excel reports, you might have to filter the lists in [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## <a name="the--excel-add-in"></a><a name="the--excel-add-in"></a>The [!INCLUDE [prod_short](includes/prod_short.md)] Excel add-in
+## <a name="the--excel-add-in"></a><a name="the--excel-add-in"></a><a name="the--excel-add-in"></a>The [!INCLUDE [prod_short](includes/prod_short.md)] Excel add-in
 
 Your [!INCLUDE [prod_short](includes/prod_short.md)] experience includes an add-in for Excel. Depending on your subscription, you're signed in automatically, or you must provide your sign-in details for [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Viewing and Editing in Excel From Business Central](across-work-with-excel.md).  
 
 The add-in lets you get fresh data from [!INCLUDE [prod_short](includes/prod_short.md)], and you can push changes back to [!INCLUDE [prod_short](includes/prod_short.md)]. However, the ability to push data back to the database is not available for the financial reports you can view in Excel.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a><a name="see-also"></a>See Also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See Also
 
 [Viewing and Editing in Excel From Business Central](across-work-with-excel.md)  
 [Finance](finance.md)  

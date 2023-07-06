@@ -10,10 +10,10 @@ ms.search.form: '6560, 42, 50, 507, 509'
 ms.date: 06/11/2021
 ms.author: edupont
 ---
-# <a name="track-document-lines"></a><a name="track-document-lines"></a>Track Document Lines
+# <a name="track-document-lines"></a><a name="track-document-lines"></a><a name="track-document-lines"></a>Track Document Lines
 You can view documents that are related to sales order lines and purchase order lines, including from archived order lines. Related documents that you can track include quotes, shipments, receipts, and blanket orders. This helps you to identify documents used to process orders.  
 
-## <a name="to-track-documents-related-to-a-sales-order-line"></a><a name="to-track-documents-related-to-a-sales-order-line"></a>To track documents related to a sales order line
+## <a name="to-track-documents-related-to-a-sales-order-line"></a><a name="to-track-documents-related-to-a-sales-order-line"></a><a name="to-track-documents-related-to-a-sales-order-line"></a>To track documents related to a sales order line
 The following procedure describes how to track from a sales order line. The steps are similar for purchase order and blanket order lines.
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
@@ -24,7 +24,7 @@ The following procedure describes how to track from a sales order line. The step
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 
-## <a name="see-also"></a><a name="see-also"></a>See Also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See Also
 [Sales](sales-manage-sales.md)  
 [General Business Functionality](ui-across-business-areas.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

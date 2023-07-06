@@ -11,7 +11,7 @@ ms.search.form: '555, 556, 557, 558, 9372, 9370, 9371'
 ms.date: 09/22/2022
 ms.author: edupont
 ---
-# <a name="create-analysis-reports"></a><a name="create-analysis-reports"></a>Create Analysis Reports
+# <a name="create-analysis-reports"></a><a name="create-analysis-reports"></a><a name="create-analysis-reports"></a>Create Analysis Reports
 
 Sales managers need to analyse turnover, gross profit, and other key sales performance indicators on a regular basis. Purchasers are more interested in the dynamics of purchase volumes, vendor performance, and purchase prices. Whereas logistics/inventory managers need information on inventory turnover, analysis of inventory movement, and statistics on inventory value. So there's no one-size-fits-all analysis report.
 
@@ -23,7 +23,7 @@ The analysis report consists of the objects you want to analyse (such as custome
 
 In addition to analysis reports, you can create and view similar information in analysis views (based on dimensions). Learn more at [Analyse Data by Dimensions](bi-how-analyze-data-dimension.md).
 
-## <a name="example"></a><a name="example"></a>Example
+## <a name="example"></a><a name="example"></a><a name="example"></a>Example
 
 You can set up these lines (objects you want to analyse):  
 
@@ -37,7 +37,7 @@ Then you can set up these columns (how you want the objects analyzed):
 - Sales Last Month  
 - Sales in Pct. of last Month  
 
-## <a name="setting-up-line-and-column-layouts"></a><a name="setting-up-line-and-column-layouts"></a>Setting up line and column layouts
+## <a name="setting-up-line-and-column-layouts"></a><a name="setting-up-line-and-column-layouts"></a><a name="setting-up-line-and-column-layouts"></a>Setting up line and column layouts
 
 On the **Analysis Report** page, you can view different line and column layouts that you set up on the:
 
@@ -57,7 +57,7 @@ Based on the lines and columns you set up, [!INCLUDE[prod_short](includes/prod_s
 
 You can, for example, set up one group of lines and several groups of column layouts to show monthly and annual reports, respectively.
 
-## <a name="set-up-analysis-column-templates"></a><a name="set-up-analysis-column-templates"></a>Set up analysis column templates
+## <a name="set-up-analysis-column-templates"></a><a name="set-up-analysis-column-templates"></a><a name="set-up-analysis-column-templates"></a>Set up analysis column templates
 
 The following procedure is based on sales analysis views. The steps are similar for purchase and inventory analysis views.
 
@@ -74,7 +74,7 @@ An analysis column template contains a set of lines, each representing an analys
     Also, in the **Ledger Entry Type** field, if you select **Item Entries**, the actual figures from the item ledger entry are copied. If you select **Item Budget Entries**, the budgeted figures from the budget are copied.  
 5. Choose **OK** to save your changes.  
 
-## <a name="set-up-analysis-line-templates"></a><a name="set-up-analysis-line-templates"></a>Set up analysis line templates
+## <a name="set-up-analysis-line-templates"></a><a name="set-up-analysis-line-templates"></a><a name="set-up-analysis-line-templates"></a>Set up analysis line templates
 
 The following procedure is based on analysis reports for sales. The steps are similar for purchase and inventory analysis reports.
 
@@ -88,7 +88,7 @@ An analysis line template contains a set of lines, each representing an analysis
 > [!NOTE]  
 > Alternatively, to create many individual lines for each item, customer, and so on, you can select the appropriate insert option to fill in all the relevant fields on the line. If you need to, you can then edit the lines manually. To insert lines, choose the **Insert Items** or **Insert Item Groups** action.  
 
-## <a name="create-a-new-sales-analysis-report"></a><a name="create-a-new-sales-analysis-report"></a>Create a new sales analysis report
+## <a name="create-a-new-sales-analysis-report"></a><a name="create-a-new-sales-analysis-report"></a><a name="create-a-new-sales-analysis-report"></a>Create a new sales analysis report
 
 The following procedure is based on analysis reports for sales. The steps are similar for purchase and inventory analysis reports.
 
@@ -103,7 +103,7 @@ With analysis reports you can analyse the dynamics of your sales according to ke
 > [!NOTE]  
 > Building combinations of line and column templates to create reports and assigning them unique names is optional. If you do this, you won't need to select line and column templates on the **Sales Analysis Report** page. After you have chosen a report name, you can change line and column templates independently and then later select the report name again to restore the original combination.
 
-## <a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
 
 [Financial Business Intelligence](bi.md)  
 [Finance](finance.md)  

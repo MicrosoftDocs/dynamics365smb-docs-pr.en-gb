@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="handling-inventory-and-manufacturing-costs"></a><a name="handling-inventory-and-manufacturing-costs"></a>Handling Inventory and Manufacturing Costs
+# <a name="handling-inventory-and-manufacturing-costs"></a><a name="handling-inventory-and-manufacturing-costs"></a><a name="handling-inventory-and-manufacturing-costs"></a>Handling Inventory and Manufacturing Costs
 
 Although much of the cost accounting functionality is expressed in underlying processes with no user interaction, such as entry application and automatic cost adjustment, a number of fields, pages, and reports are aimed at users who directly or indirectly manage the cost of items or operations.  
 
@@ -29,7 +29,7 @@ Although much of the cost accounting functionality is expressed in underlying pr
 |Manually undo an item application or reapply item ledger entries created by application.|[Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Use the **Applies-from Entry** field in the item journal to manually create a fixed application between an inbound transaction and the original outbound transaction.|[Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
-## <a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
 
 [Manage Inventory Costs](finance-manage-inventory-costs.md)
 [Design Details: Inventory Costing](design-details-inventory-costing.md)

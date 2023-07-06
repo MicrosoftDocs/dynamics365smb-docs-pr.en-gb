@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ---
-# <a name="assembly-management"></a><a name="assembly-management"></a>Assembly Management
+# <a name="assembly-management"></a><a name="assembly-management"></a><a name="assembly-management"></a>Assembly Management
 
 Companies can supply products to customers by combining components without using manufacturing features. Features for assembling items integrate with related features such as sales, planning, reservations, and warehousing.  
 
@@ -51,9 +51,9 @@ The following table describes a sequence of tasks, with links to the articles th
 |Learn how to work with assembly BOMs and how they differ from production BOMs.|[Work with Assembly BOMs](assembly-how-work-assembly-boms.md)|
 |Learn about posting assembly consumption and output, and how [!INCLUDE [prod_short](includes/prod_short.md)] distributes item and resource costs to the general ledger.|[Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)|  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/assemble-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
 
 [Work with Bills of Material](inventory-how-work-BOMs.md)  
 [Inventory](inventory-manage-inventory.md)  
