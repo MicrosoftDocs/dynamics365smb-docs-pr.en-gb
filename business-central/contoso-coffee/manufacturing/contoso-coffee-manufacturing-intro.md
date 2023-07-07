@@ -9,7 +9,7 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="introduction-to-contoso-coffee-manufacturing"></a><a name="introduction-to-contoso-coffee-manufacturing"></a><a name="introduction-to-contoso-coffee-manufacturing"></a>Introduction to Contoso Coffee Manufacturing
+# <a name="introduction-to-contoso-coffee-manufacturing"></a>Introduction to Contoso Coffee Manufacturing
 
 Contoso Coffee is a fictitious company that produces consumer and commercial coffee makers. The **Contoso Coffee** apps for Business Central add demo data that you can use to learn how to use the manufacturing capabilities in Business Central.  
 
@@ -36,7 +36,7 @@ The manufacturing activities for all scenarios use the *NORTH* location.
 > [!IMPORTANT]
 > Before you run any of the scenarios for Contoso Coffee, post any item journal lines with opening balances. For more requirements, see the [Set up Contoso Coffee data](#set-up-contoso-coffee-manufacturing-data) section.
 
-## <a name="set-up-contoso-coffee-manufacturing-data"></a><a name="set-up-contoso-coffee-manufacturing-data"></a><a name="set-up-contoso-coffee-manufacturing-data"></a>Set up Contoso Coffee Manufacturing data
+## <a name="set-up-contoso-coffee-manufacturing-data"></a>Set up Contoso Coffee Manufacturing data
 
 To use the Contoso Coffee Manufacturing demo data, you must install two apps in the relevant company in [!INCLUDE [prod_short](../../includes/prod_short.md)]:  
 
@@ -67,7 +67,7 @@ Once the relevant apps are installed, go to the [Contoso Coffee Demo Data](https
 
 Once you're ready, choose the **Create Demo Data** action. It takes a few minutes to add the data to the underlying database, but then you're ready to run the various scenarios.  
 
-## <a name="scenarios"></a><a name="scenarios"></a><a name="scenarios"></a>Scenarios
+## <a name="scenarios"></a>Scenarios
 
 The Contoso Coffee manufacturing demo data currently supports the following scenarios for test and training:
 
@@ -85,7 +85,7 @@ Read the steps for each scenario in the relevant article.
 > [!IMPORTANT]
 > These walkthroughs require that the user experience is set to *Premium* in the **Company Information** page.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a>See also
 
 [Manufacturing](../../production-manage-manufacturing.md)  
 [Production Reports and Analytics in Business Central](../../production-reports.md)  

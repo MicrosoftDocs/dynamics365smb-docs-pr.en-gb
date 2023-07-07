@@ -8,7 +8,7 @@ ms.search.keywords: null
 ms.date: 08/03/2022
 ms.author: jswymer
 ---
-# <a name="opening-and-sharing-business-central-files-in-microsoft-onedrive"></a><a name="opening-and-sharing-business-central-files-in-microsoft-onedrive"></a><a name="opening-and-sharing-business-central-files-in-microsoft-onedrive"></a>Opening and Sharing Business Central Files in Microsoft OneDrive
+# <a name="opening-and-sharing-business-central-files-in-microsoft-onedrive"></a>Opening and Sharing Business Central Files in Microsoft OneDrive
 
 [!INCLUDE[prod_short](includes/prod_short.md)] makes it easy to store, manage, and share files with other people through Microsoft OneDrive for Business. On most pages with available files, such as the Report Inbox or when files are attached to records, you'll find **Open in OneDrive** and **Share** actions.
 
@@ -19,7 +19,7 @@ ms.author: jswymer
 :::image type="content" source="media/one-drive-attachments-w-outline.png" alt-text="The Open in OneDrive and Share actions for attachments":::
 
 
-## <a name="open-in-onedrive"></a><a name="open-in-onedrive"></a><a name="open-in-onedrive"></a>Open in OneDrive
+## <a name="open-in-onedrive"></a>Open in OneDrive
 
 The **Open in OneDrive** action copies the file to your OneDrive and then opens the file in an application such as Microsoft Excel online, Microsoft Word online, or Microsoft PowerPoint online. 
 
@@ -31,7 +31,7 @@ Using the online versions of these applications, you can annotate, edit, and col
 
 For other popular file types, such as PDFs, text files, and images, OneDrive provides file viewers that offer features for printing, sharing, and more. If a file can't be viewed in OneDrive, you might be prompted to download it.
 
-## <a name="share"></a><a name="share"></a><a name="share"></a>Share
+## <a name="share"></a>Share
 
 The **Share** action copies the file to your OneDrive so you can see with whom you've already shared it as well as share the file with other people. When you select the **Share** action, the following page opens.
 
@@ -53,7 +53,7 @@ The sharing feature in Business Central is based on OneDrive. Learn more about O
 > [!NOTE]
 > The **Share** action isn't available in the Business Central app for mobile devices.
 
-## <a name="first-time-sign-in-from-business-central"></a><a name="first-time-sign-in-from-business-central"></a><a name="first-time-sign-in-from-business-central"></a>First-time sign in from Business Central
+## <a name="first-time-sign-in-from-business-central"></a>First-time sign in from Business Central
 
 When you use the **Open in OneDrive** or **Share** action for the first time, [!INCLUDE[prod_short](includes/prod_short.md)] does the following things:
 
@@ -64,7 +64,7 @@ When you use the **Open in OneDrive** or **Share** action for the first time, [!
 
 Then, the next time you use the **Open in OneDrive** or **Share** action, [!INCLUDE[prod_short](includes/prod_short.md)] only copies and opens the file. 
 
-## <a name="managing-multiple-copies-of-a-file"></a><a name="managing-multiple-copies-of-a-file"></a><a name="managing-multiple-copies-of-a-file"></a>Managing multiple copies of a file
+## <a name="managing-multiple-copies-of-a-file"></a>Managing multiple copies of a file
 
 When you choose **Open in OneDrive** or **Share**, the file is copied from [!INCLUDE[prod_short](includes/prod_short.md)] to your folder in OneDrive. If you edit the file in OneDrive, that file will be different from the [!INCLUDE[prod_short](includes/prod_short.md)] file. To update [!INCLUDE[prod_short](includes/prod_short.md)] with the latest file version, remove the existing file from [!INCLUDE[prod_short](includes/prod_short.md)] and upload the latest copy.
 
@@ -82,7 +82,7 @@ If a file with the same name already exists in OneDrive, you'll be given the fol
  
   This option keeps the existing file as-is and saves the file you selected from Business Central under a different name. The new name is similar to the existing name, except with a suffix number such  “Items (2).xlsx”.
 
-## <a name="about-your-business-central-folder-on-onedrive"></a><a name="about-your-business-central-folder-on-onedrive"></a><a name="about-your-business-central-folder-on-onedrive"></a>About your Business Central folder on OneDrive
+## <a name="about-your-business-central-folder-on-onedrive"></a>About your Business Central folder on OneDrive
 
 The folder and its content are private until you decide to share them with others. So you might decide to share content with one or more of your coworkers, or even people outside of your organisation. 
 
@@ -93,7 +93,7 @@ You can access your OneDrive from the **My Settings** page by choosing the link 
 <!--## Extending the Connection to OneDrive
 You can create an extension and connect it to... For more information, see...-->
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a>See also
 
 [Business Central and OneDrive Integration](across-onedrive-overview.md)  
 [Managing OneDrive Integration with Business Central](admin-onedrive-integration.md)  

@@ -10,7 +10,7 @@ ms.search.keywords: 'SMTP, mail, Microsoft 365, setup, wizard, experience'
 ms.date: 05/25/2022
 ms.author: edupont
 ---
-# <a name="get-ready-for-doing-business"></a><a name="get-ready-for-doing-business"></a><a name="get-ready-for-doing-business"></a>Get Ready for Doing Business
+# <a name="get-ready-for-doing-business"></a>Get Ready for Doing Business
 
 Congratulations, you have just initiated your first company in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -23,7 +23,7 @@ You can also find the list of assisted setup guides if you choose the ![Lightbul
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-## <a name="get-started"></a><a name="get-started"></a><a name="get-started"></a>Get started
+## <a name="get-started"></a>Get started
 
 When you sign in for the first time or launch a new company, the **Get Started** checklist takes you through the steps to make you ready for business. The steps vary depending on your country and any industry-specific functionality that you have added to your [!INCLUDE [prod_short](includes/prod_short.md)]. Starting with 2021 release wave 2, when you first sign in to the CRONUS demonstration company, your home page is optimised for your first experiences. If you prefer to see more links to more pages, just switch to the Business Manager role. For more information, see [Change Basic Settings](ui-change-basic-settings.md).  
 
@@ -38,7 +38,7 @@ If an area is not covered by an assisted setup, choose the ![Sprocket icon to op
 
 When you have run an assisted setup guide, it is marked as **Completed**.  
 
-## <a name="teaching-tips-and-tours"></a><a name="teaching-tips-and-tours"></a><a name="teaching-tips-and-tours"></a>Teaching tips and tours
+## <a name="teaching-tips-and-tours"></a>Teaching tips and tours
 
 [!INCLUDE [2021_releasewave1](includes/2021_releasewave1.md)]
 
@@ -46,7 +46,7 @@ When you have run an assisted setup guide, it is marked as **Completed**.
 
 Teaching tips are short messages that inform, remind, or teach you about important and new capabilities that launch automatically when you open a page. For example, to see the teaching tip for the **Sales Invoice** card, choose the link in the top left corner of the page where it says *Sales Invoice*. This launches a callout with a short description of the page and what you can do there. If a tour exists for the page, a link invites you to take the tour. The *Learn more* link takes you to the product Help for the page.
 
-## <a name="role-specific-home-pages"></a><a name="role-specific-home-pages"></a><a name="role-specific-home-pages"></a>Role-specific home pages
+## <a name="role-specific-home-pages"></a>Role-specific home pages
 
 Depending on your role, the home page provides an overview of the business. At the top, you see a navigation bar that gives you easy access to customers, vendors, items, and so on. In the centre you find the **Activities** tiles. **Activities** show current data and can be clicked or tapped for easy access to the selected document.
 
@@ -57,21 +57,21 @@ Use the arrows to collapse a part of the page and make more room to show specifi
 > [!TIP]  
 > You can get back to the home page by selecting the company name in the upper left corner.
 
-## <a name="company-information"></a><a name="company-information"></a><a name="company-information"></a>Company information
+## <a name="company-information"></a>Company information
 
 Under **Company Settings** you can view and edit setup information about the current company, much of this was prefilled if you completed the **Set Up Company** assisted setup when signing up for [!INCLUDE[prod_short](includes/prod_short.md)]. If you want to change the company logo, contact information, bank settings, or tax information, you can do it from this page.  
 
-## <a name="adding-users-and-permissions"></a><a name="adding-users-and-permissions"></a><a name="adding-users-and-permissions"></a>Adding users and permissions
+## <a name="adding-users-and-permissions"></a>Adding users and permissions
 
 If you need to add more users, this is done from Microsoft 365 Admin Centre. For more information, see [Create Users According to Licences](ui-how-users-permissions.md).
 
 When users are created in Microsoft 365, they can be imported into the **Users** page by using the **Get Updates from Office 365** action. You can then proceed to assign permissions to users and to organise them in user groups. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
 
-## <a name="product-help"></a><a name="product-help"></a><a name="product-help"></a>Product Help
+## <a name="product-help"></a>Product Help
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] For more information, see [Resources for Help and Support](product-help-and-support.md).  
 
-### <a name="set-up-your-company-in-"></a><a name="set-up-your-company-in-"></a><a name="set-up-your-company-in-"></a>Set up your company in [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="set-up-your-company-in-"></a>Set up your company in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 The [quick start](quick-start-business-central.md) articles can help you take the first steps into setting up [!INCLUDE [prod_short](includes/prod_short.md)] for your organisation. Inside [!INCLUDE [prod_short](includes/prod_short.md)], the **Assisted Setup** page lists the assisted setup guides that can help you. Depending on your role and country or region, the page shows different assistant setup guides as illustrated in the following table:
 
@@ -93,11 +93,11 @@ The [quick start](quick-start-business-central.md) articles can help you take th
 
 The **Assisted Setup** page may contain other entries. When you go through a setup, the setup will be marked as **Completed**. You can set up other areas of the company by using manual setup. For more information, see [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
-## <a name="next-steps"></a><a name="next-steps"></a><a name="next-steps"></a>Next steps
+## <a name="next-steps"></a>Next steps
 
 Based on your migrated data, you can now proceed to create new sales or purchase documents. Use the **Actions** section of your home page to quickly create a new sales quote, sales invoice, sales order, purchase invoice, or payment registration. Check out the [quick start](quick-start-business-central.md) articles to help you take the first steps.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a>See also
 
 [Business Central Quick Starts](quick-start-business-central.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

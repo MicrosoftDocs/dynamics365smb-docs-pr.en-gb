@@ -10,14 +10,14 @@ ms.search.form: '44, 48, 42, 50, 52, 9305, 9307'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="correct-prepayments"></a><a name="correct-prepayments"></a><a name="correct-prepayments"></a>Correct Prepayments
+# <a name="correct-prepayments"></a>Correct Prepayments
 
 You can make a correction to an order after you have posted a prepayment invoice for the order. You can add new lines to an order after issuing a prepayment, and then you can post another prepayment invoice, but you cannot delete a line from an order after a prepayment has been invoiced for the line.  
 
 > [!TIP]
 > If you have posted a prepayment invoice for a sales invoice that you then correct or cancel, you must correct or cancel the prepayment as well.
 
-## <a name="to-correct-a-prepayment"></a><a name="to-correct-a-prepayment"></a><a name="to-correct-a-prepayment"></a>To correct a prepayment
+## <a name="to-correct-a-prepayment"></a>To correct a prepayment
 
 The following procedure shows how to issue a prepayment credit memo to cancel all invoiced prepayments for a sales order.  
 
@@ -32,9 +32,9 @@ The following procedure shows how to issue a prepayment credit memo to cancel al
 5. To make a prepayment invoice for any new lines in the sales credit memo, choose the **Prepayment** action, and then choose the **Post Prepayment Invoice** action or the **Post and Print Prepmt. Invoice** action.  
 6. To issue an additional prepayment invoice, increase the prepayment amount on one or more lines and post the prepayment invoice. A new invoice will be created for the difference between the prepayment amounts invoiced and the new prepayment amounts.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/prepayment-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a>See also
 
 [Invoicing Prepayments](finance-invoice-prepayments.md)  
 [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

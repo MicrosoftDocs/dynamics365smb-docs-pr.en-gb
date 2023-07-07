@@ -7,19 +7,19 @@ ms.topic: conceptual
 ms.author: margoc
 ---
 
-# <a name="business-decision-makers-learning-catalog"></a><a name="business-decision-makers-learning-catalog"></a><a name="business-decision-makers-learning-catalog"></a>Business Decision Makers Learning Catalogue
+# <a name="business-decision-makers-learning-catalog"></a>Business Decision Makers Learning Catalogue
 
 Do you decide whether to invest in new technologies?
 
 The following catalogue is organised from core knowledge to specific domains, and from most basic to most advanced. If content exists in multiple formats, we'll let you know, so that you can choose the training format that best meets your needs.  
 
-## <a name="business-value"></a><a name="business-value"></a><a name="business-value"></a>Business value<a name="busvalue"></a>
+## <a name="business-value"></a><a name="busvalue"></a>Business value
 
 | Content                                                                 | Description                                                                                                | Format                                | Length     |
 |----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------|------------|
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/) | This module shows application features, benefits, and examples of Dynamics 365 Business Central in action. | Free, self-paced online learning path | 24 minutes |
 
-## <a name="getting-started"></a><a name="getting-started"></a><a name="getting-started"></a>Getting started<a name="get-started"></a>
+## <a name="getting-started"></a><a name="get-started"></a>Getting started
 
 | Content                                                                                                                             | Description                                                                                                                                                                                                                                                                                      | Format                                | Length             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|

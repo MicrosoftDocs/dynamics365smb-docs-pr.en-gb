@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="setup-best-practices-global-planning-setup"></a><a name="setup-best-practices-global-planning-setup"></a><a name="setup-best-practices-global-planning-setup"></a>Setup Best Practices: Global Planning Setup
+# <a name="setup-best-practices-global-planning-setup"></a>Setup Best Practices: Global Planning Setup
 The **Planning** FastTab on the **Manufacturing Setup** page contains several fields that define global rules for supply planning.  
 
  The following table provides best practices on how to set up selected global planning parameter fields. For more information about a field, choose the link in the **Setup field** column.  
@@ -23,7 +23,7 @@ The **Planning** FastTab on the **Manufacturing Setup** page contains several fi
 |Default Dampener Period|Set between 1D and 5D.<br /><br /> If new to planning in [!INCLUDE[prod_short](includes/prod_short.md)], then set a longer period.|When users are more familiar with the different reasons for action messages, then shorten the dampener period to allow more change suggestions.|  
 |Default Dampener Quantity %|Set between 5 and 20 percent of the item’s lot size.||  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See Also
+## <a name="see-also"></a>See Also
  [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)   
  [Design Details: Supply Planning](design-details-supply-planning.md)   
  [Set Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  

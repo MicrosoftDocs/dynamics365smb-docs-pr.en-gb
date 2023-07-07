@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: edupont
 ---
-# <a name="business-process-walkthroughs"></a><a name="business-process-walkthroughs"></a><a name="business-process-walkthroughs"></a>Business Process Walkthroughs
+# <a name="business-process-walkthroughs"></a>Business Process Walkthroughs
 
 This selection of walkthroughs provides step-by-step, end-to-end business processes that you can perform using the CRONUS demonstration company. The walkthroughs consist of multiple procedures, some of which would normally be performed by one user, while others incorporate several different user roles. In order to simulate the working environment, some of the walkthroughs contain setup steps necessary to complete the exercises as described. These steps can provide insight into the kind of information users need to share with their company's IT professionals.  
 
@@ -36,7 +36,7 @@ This selection of walkthroughs provides step-by-step, end-to-end business proces
 <!-- |Put received items away in advanced warehouse configurations. **Requires complete sample data**|[Walkthrough: Receiving and Putting Away in advanced warehouse configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|   -->
 <!-- |Perform defects management. **Requires complete sample data** |[Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)| -->
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See Also
+## <a name="see-also"></a>See Also
 
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

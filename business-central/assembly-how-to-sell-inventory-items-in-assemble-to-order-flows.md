@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ---
-# <a name="selling-inventory-items-in-assemble-to-order-flows"></a><a name="selling-inventory-items-in-assemble-to-order-flows"></a><a name="selling-inventory-items-in-assemble-to-order-flows"></a>Selling Inventory Items in Assemble-to-Order Flows
+# <a name="selling-inventory-items-in-assemble-to-order-flows"></a>Selling Inventory Items in Assemble-to-Order Flows
 
 If the **Assembly Policy** field on the item card of an assembly item contains **Assemble-to-Order**, the sales order process assumes that the item isn't in inventory and must be assembled for sales orders. When you add the item to a line on a sales order, [!INCLUDE [prod_short](includes/prod_short.md)] creates an assembly order that's linked to the sales order. To learn more about how to sell assemble-to-order items, go to [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md). However, if some of the sales order quantity is already available in inventory, you can decrease the assembly order quantity by changing the **Qty. to Assemble to Order** field on the sales order line.  
 
@@ -30,7 +30,7 @@ In this procedure, you replace assemble-to-order quantities with inventory quant
 2. Reducing that quantity from the linked assembly order.
 3. Reserve the inventory quantity to make sure that it's picked and shipped for the order.  
 
-## <a name="to-sell-inventory-items-in-assemble-to-order-flows"></a><a name="to-sell-inventory-items-in-assemble-to-order-flows"></a><a name="to-sell-inventory-items-in-assemble-to-order-flows"></a>To sell inventory items in assemble-to-order flows
+## <a name="to-sell-inventory-items-in-assemble-to-order-flows"></a>To sell inventory items in assemble-to-order flows
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2. Create a sales order. To learn about creating sales orders, go to [Sell Products](sales-how-sell-products.md).  
@@ -47,9 +47,9 @@ In this procedure, you replace assemble-to-order quantities with inventory quant
 > [!CAUTION]  
 > The **Bin Code** field on the sales order might contain the value from the **Assemble-to-Order Shpt. Bin Code** or **From-Assembly Bin Code** fields on the location card. If it does, the **Bin Code** field on the sales order line might be incorrect for this combination of assemble-to-order and assemble-to-stock quantities. It's a good idea to double-check that the bin in the **Bin Code** field works for all quantities. Alternatively, enter the two different quantities on separate sales order lines.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a>See also
 
 [Assembly Management](assembly-assemble-items.md)  
 [Reserve Items](inventory-how-to-reserve-items.md)  

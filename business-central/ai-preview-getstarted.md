@@ -9,13 +9,13 @@ ms.date: 03/16/2023
 ms.custom: bap-template
 ---
 
-# <a name="get-started-with-a-business-central-preview-version-for-copilot"></a><a name="get-started-with-a-business-central-preview-version-for-copilot"></a><a name="get-started-with-a-business-central-preview-version-for-copilot"></a>Get started with a Business Central preview version for Copilot
+# <a name="get-started-with-a-business-central-preview-version-for-copilot"></a>Get started with a Business Central preview version for Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
 You can try AI-powered item marketing text with Copilot whether you're an existing Business Central customer or a potential customer, that is, someone who's just interested in exploring Business Central and trying out the new capability. To get started, you'll need access to a Business Central online version that supports the new capability. Complete the section below that applies to you.
 
-## <a name="your-organization-already-uses-business-central"></a><a name="your-organization-already-uses-business-central"></a><a name="your-organization-already-uses-business-central"></a>Your organisation already uses Business Central
+## <a name="your-organization-already-uses-business-central"></a>Your organisation already uses Business Central
 
 As an existing customer or partner, you'll need an admin with access to the Business Central admin centre to set up an environment that runs the preview version that includes Copilot. Once the environment is up and running, users can try out the new feature.
 
@@ -39,7 +39,7 @@ For more information about how to create environments, go to [Create an environm
 > [!IMPORTANT]
 > If you have preview sandboxes that run on **22.0.54157.54311 (Preview - Copilot edition)**, be aware that these environments are only available until 01 May 2023. After this date, you'll need to provision a new environment or upgrade any of your other environments to version 22.0 or later to continue trying the preview of AI-powered item marketing text.
 
-## <a name="your-organization-doesnt-use-business-central"></a><a name="your-organization-doesnt-use-business-central"></a><a name="your-organization-doesnt-use-business-central"></a>Your organisation doesn't use Business Central
+## <a name="your-organization-doesnt-use-business-central"></a>Your organisation doesn't use Business Central
 
 If you're not a Business Central customer, sign up for a free trial to try out the new AI capabilities. Signing up for the trial is simple. You'll be guided through a few steps where you'll have to provide some information, like your email address, telephone number, and name. To get the trial, complete the following steps:
 
@@ -95,7 +95,7 @@ If you're not a Business Central customer, sign up for a free trial to try out t
    > [!TIP]
    > If you don't see **Your Checklist**, select the **Show demo tours** button first.
 
-## <a name="next-steps"></a><a name="next-steps"></a><a name="next-steps"></a>Next steps
+## <a name="next-steps"></a>Next steps
 
 The AI capabilities provided by Copilot must be enabled before you or anyone else can use Copilot. To enable the AI capabilities, an administrator must consent to the terms and conditions of the [preview](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839) on behalf of the organisation.
 
@@ -108,7 +108,7 @@ There are two ways to consent as an admin:
 
 - The other way is to use the **Privacy Notices Status** page in Business Central and agree to the **Azure OpenAI** integration for all users. To learn more, go to [Consent to terms and conditions](enable-ai.md#consent-to-or-reject-the-preview-and-privacy-terms-and-conditions-for-all-users).
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a>See also
 
 [Overview of AI-powered item marketing text with Copilot](ai-overview.md)  
 [Configure AI-powered item marketing text with Copilot as an admin](enable-ai.md)  

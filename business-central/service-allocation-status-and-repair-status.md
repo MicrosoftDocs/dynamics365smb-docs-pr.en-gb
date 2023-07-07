@@ -10,10 +10,10 @@ ms.search.keywords: 'resources, allocation, status, repairs'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="allocation-status-and-repair-status-of-service-items"></a><a name="allocation-status-and-repair-status-of-service-items"></a><a name="allocation-status-and-repair-status-of-service-items"></a>Allocation Status and Repair Status of Service Items
+# <a name="allocation-status-and-repair-status-of-service-items"></a>Allocation Status and Repair Status of Service Items
 The repair status of service items and the allocation status of the allocation entries for the service items have a certain relationship in Service Management. The allocation status changes when you change the repair status of the service item to **Finished** or **Partly Serviced** and when you convert a service quote to a service order. The repair status of the service item changes when you cancel the service item allocation or reallocate the service item to another resource. You can view the repair status of service items on the **Service Tasks** page and you can update the repair status in the **Repair Status Code** field on the **Service Item Worksheet** page. You can view the allocation status in the **Status** field on the **Resource Allocations** page.  
   
-## <a name="changing-repair-status"></a><a name="changing-repair-status"></a><a name="changing-repair-status"></a>Changing Repair Status
+## <a name="changing-repair-status"></a>Changing Repair Status
 When you change the repair status of a service item on a service item line, there is a search for a corresponding allocation entry for this service item that has the status **Active**. If such an allocation entry is found, the status is updated in one of the following ways:  
   
 * If you change the repair status to **Finished**, the allocation status is changed from **Active** to **Finished**.  
@@ -23,14 +23,14 @@ When you change the repair status of a service item on a service item line, ther
   
 The allocation status reflects when the service process is finished, or when another resource is necessary in order to finish the service of the service item.  
   
-## <a name="converting-service-quotes-to-service-orders"></a><a name="converting-service-quotes-to-service-orders"></a><a name="converting-service-quotes-to-service-orders"></a>Converting Service Quotes to Service Orders
+## <a name="converting-service-quotes-to-service-orders"></a>Converting Service Quotes to Service Orders
 When you convert a service quote to a service order, the service order, the service items in the order and their allocation entries are updated in the following ways:  
   
 * The repair status of the service items is changed to **Initial**.  
 * The service order status is changed to **Pending**.  
 * There is a search for allocation entries for all the service items in the service order that have the status **Active**. If such allocation entries are found, their allocation status is changed from **Active** to **Reallocation Needed**.  
   
-## <a name="canceling-allocations"></a><a name="canceling-allocations"></a><a name="canceling-allocations"></a>Cancelling Allocations
+## <a name="canceling-allocations"></a>Cancelling Allocations
 When you cancel an allocation for a service item, [!INCLUDE[prod_short](includes/prod_short.md)] updates the allocation status of the corresponding allocation entry from **Active** to **Reallocation Needed**.
 
 The repair status of the service item in the allocation entry is updated in the following ways:  
@@ -38,7 +38,7 @@ The repair status of the service item in the allocation entry is updated in the 
 * If the repair status is **Initial**, the repair status is changed to **Referred** (no service has been started).  
 * If the repair status is **In Process**, the repair status is changed to **Partly Serviced** (some service has been completed).  
   
-## <a name="reallocating-an-active-allocation-entry"></a><a name="reallocating-an-active-allocation-entry"></a><a name="reallocating-an-active-allocation-entry"></a>Reallocating an Active Allocation Entry
+## <a name="reallocating-an-active-allocation-entry"></a>Reallocating an Active Allocation Entry
 When you reallocate a service item in an allocation entry that is **Active**, the allocation entry is updated in the following ways:  
   
 * If service was started when the allocation was **Active** (that is, if the repair status of the service item in the entry was changed to **In Process**), the allocation status is changed from **Active** to **Finished**.  
@@ -51,7 +51,7 @@ The repair status of the service item in the allocation entry is updated in the 
   
 A new allocation entry that contains the new resource is created that has the status **Active**.  
   
-## <a name="reallocating-a-service-item"></a><a name="reallocating-a-service-item"></a><a name="reallocating-a-service-item"></a>Reallocating a Service Item
+## <a name="reallocating-a-service-item"></a>Reallocating a Service Item
 When you reallocate a service item in an allocation entry that has the status **Reallocation Needed**, the allocation entry is updated in the following ways:  
   
 * If service was started when the allocation was **Active** (that is, if the repair status of the service item in the entry was changed to **In Process**), the allocation status is changed from **Reallocation Needed** to **Finished**.  
@@ -59,7 +59,7 @@ When you reallocate a service item in an allocation entry that has the status **
   
 A new allocation entry that contains the new resource is created that has the status **Active**.  
   
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See Also
+## <a name="see-also"></a>See Also
 [Set Up Resource Allocations](service-how-setup-resource-allocation.md)  
 [Allocate Resources](service-how-to-allocate-resources.md)  
 

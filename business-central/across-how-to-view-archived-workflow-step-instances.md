@@ -11,7 +11,7 @@ ms.search.form: '1530,'
 ms.date: 09/09/2022
 ms.author: edupont
 ---
-# <a name="view-archived-workflow-step-instances"></a><a name="view-archived-workflow-step-instances"></a><a name="view-archived-workflow-step-instances"></a>View Archived Workflow Step Instances
+# <a name="view-archived-workflow-step-instances"></a>View Archived Workflow Step Instances
 
 All completed workflow step instances are saved on the **Archived Workflow Step Instances** page.  
 
@@ -20,7 +20,7 @@ On the **Workflow** page, you create a workflow by listing the involved steps on
 > [!NOTE]
 > To view the history and status of workflows using Power Automate integration, choose the **My flows** action on the **Power Automate** page, then choose a flow to view its run history and status.
 
-## <a name="to-view-archived-workflow-step-instances"></a><a name="to-view-archived-workflow-step-instances"></a><a name="to-view-archived-workflow-step-instances"></a>To view archived workflow step instances
+## <a name="to-view-archived-workflow-step-instances"></a>To view archived workflow step instances
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, then choose the related link.  
 2. Open the workflow for which you want to view all archived workflow step instances.  
@@ -31,7 +31,7 @@ On the **Workflow** page, you create a workflow by listing the involved steps on
 
    The **Archived Workflow Step Instances** page opens showing all archived workflow step instances. In the **Workflow Code** field, you can see which workflow the archived workflow step instance belonged to.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a>See also
 
 [Delete Approval Workflows](across-how-to-delete-workflows.md)  
 [Create Approval Workflows](across-how-to-create-workflows.md)  

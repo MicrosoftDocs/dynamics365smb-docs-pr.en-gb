@@ -12,11 +12,11 @@ ms.date: 08/17/2022
 ms.author: a-reishima
 ---
 
-# <a name="business-intelligence-quick-start"></a><a name="business-intelligence-quick-start"></a><a name="business-intelligence-quick-start"></a>Business Intelligence Quick Start
+# <a name="business-intelligence-quick-start"></a>Business Intelligence Quick Start
 
 Being able to collect and analyse the ever-increasing amounts of data in an actionable way is an invaluable part of doing business these days. [!INCLUDE[prod_short](includes/prod_short.md)] offers many business intelligence (BI) tools&mdash;both built-in and integrated with other services&mdash;to help your company in the decision-making process.
 
-## <a name="get-insights-on-your-key-points-of-interest"></a><a name="get-insights-on-your-key-points-of-interest"></a><a name="get-insights-on-your-key-points-of-interest"></a>Get insights on your key points of interest
+## <a name="get-insights-on-your-key-points-of-interest"></a>Get insights on your key points of interest
 
 [!INCLUDE[prod_short](includes/prod_short.md)] includes built-in charts that can be displayed in the **Insights** part on your home page, covering *income & expense*, *cash flow*, *sales trends* and other reports. You can find additional key performance indicators (KPIs) on the **Intelligent Cloud Insights** page, which displays actionable information from finance, inventory, sales, and procurement:
 
@@ -24,7 +24,7 @@ Being able to collect and analyse the ever-increasing amounts of data in an acti
 
 The available data cards and insights can be selected to open the related ledger page. The **Intelligent Cloud Insights** page also uses a connection with existing Power BI and Azure Machine Learning subscriptions to display analysis and forecast dashboards.
 
-## <a name="set-up-power-bi-integration"></a><a name="set-up-power-bi-integration"></a><a name="set-up-power-bi-integration"></a>Set up Power BI integration
+## <a name="set-up-power-bi-integration"></a>Set up Power BI integration
 
 You can connect [!INCLUDE[prod_short](includes/prod_short.md)] with Power BI to create penetrating reports and powerful dashboards. Power BI integration provides many options to give insights based on your business' data, including a wide range of visual, filtering, and display customisations.
 
@@ -40,9 +40,9 @@ The Power BI integration with [!INCLUDE[prod_short](includes/prod_short.md)] inc
 
 You can also create visual reports based on [!INCLUDE[prod_short](includes/prod_short.md)] by using the **Microsoft Excel Document (data only)** file type option on report request pages. Learn more at [Run and Print Reports](ui-work-report.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/use-power-bi).
+## <a name="see-related-training-at-microsoft-learn"></a>See related training at [Microsoft Learn](/learn/paths/use-power-bi).
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a>See also
 
 [Business Analysis and Financial Reporting](bi.md)  
 [Business Central Quick Starts](quick-start-business-central.md)  

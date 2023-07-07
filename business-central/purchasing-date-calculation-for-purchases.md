@@ -11,7 +11,7 @@ ms.search.forms: null
 ms.date: 10/28/2022
 ms.author: bholtorf
 ---
-# <a name="calculate-dates-for-purchases"></a><a name="calculate-dates-for-purchases"></a><a name="calculate-dates-for-purchases"></a>Calculate Dates for Purchases
+# <a name="calculate-dates-for-purchases"></a>Calculate Dates for Purchases
 
 If you want to have items in inventory on a certain date, [!INCLUDE[prod_short](includes/prod_short.md)] can automatically calculate the date on which you must order them. 
 
@@ -26,7 +26,7 @@ The receipt date is also the date when the items will be available for picking.
 > [!TIP]
 > By default, many of the date fields this article mentions are hidden on purchase order lines. If a field isn't available, you can add it by personalising the page. For more information, see [Personalise Your Workspace](ui-personalization-user.md).
 
-## <a name="calculating-with-a-requested-receipt-date"></a><a name="calculating-with-a-requested-receipt-date"></a><a name="calculating-with-a-requested-receipt-date"></a>Calculating with a requested receipt date
+## <a name="calculating-with-a-requested-receipt-date"></a>Calculating with a requested receipt date
 
 If there's a requested receipt date on the purchase order line, that date is the basis for the following calculations:  
 
@@ -38,7 +38,7 @@ If you specify a requested receipt date on a purchase order line, that date is a
 > [!NOTE]
 > If your process is based on backward calculation, for example, if you use the requested receipt date to get the order date, we recommend that you use date formulas that have fixed durations, such as "5D" for five days or "1W" for one week. Date formulas without fixed durations, such as "CW" for current week or CM for current month, can result in incorrect date calculations. For more information about date formulas, see [Work with Calendar Dates and Times](ui-enter-date-ranges.md).
 
-## <a name="calculating-without-a-requested-receipt-date"></a><a name="calculating-without-a-requested-receipt-date"></a><a name="calculating-without-a-requested-receipt-date"></a>Calculating without a requested receipt date
+## <a name="calculating-without-a-requested-receipt-date"></a>Calculating without a requested receipt date
 
 If you enter a purchase order line without a requested receipt date, the **Order Date** field on the line shows the date in the **Order Date** field on the purchase order header. This date is either the date you entered or the work date. The dates are then calculated for the purchase order line, with the order date as the starting point, as follows:  
 
@@ -47,7 +47,7 @@ If you enter a purchase order line without a requested receipt date, the **Order
 
 If you change the order date on the line, [!INCLUDE[prod_short](includes/prod_short.md)] recalculates the other dates.  
 
-## <a name="default-values-for-lead-time-calculation"></a><a name="default-values-for-lead-time-calculation"></a><a name="default-values-for-lead-time-calculation"></a>Default values for lead time calculation
+## <a name="default-values-for-lead-time-calculation"></a>Default values for lead time calculation
 
 [!INCLUDE[prod_short](includes/prod_short.md)] uses the date formula in the **Lead Time Calculation** field on the purchase order line to calculate the order and expected receipt dates.  
 
@@ -58,9 +58,9 @@ You can manually specify the date formula on lines. Otherwise, [!INCLUDE[prod_sh
 3. Stockkeeping Unit Card
 4. Vendor Card
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a>See also
 
 [Date Calculation for Sales](sales-date-calculation-for-sales.md)  
 [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)  

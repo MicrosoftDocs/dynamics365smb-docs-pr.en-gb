@@ -8,11 +8,11 @@ ms.search.form: '2500, 2502, 20350, 20353'
 ms.date: 09/27/2022
 ms.author: edupont
 ---
-# <a name="customizing-business-central-online-with-apps"></a><a name="customizing-business-central-online-with-apps"></a><a name="customizing-business-central-online-with-apps"></a>Customising Business Central Online with Apps
+# <a name="customizing-business-central-online-with-apps"></a>Customising Business Central Online with Apps
 
 You can change [!INCLUDE[prod_short](includes/prod_short.md)] online by installing apps that add functionality, changes behaviour, or gives you access to new online services, for example. These apps are also called *extensions* because they *extend* [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="manage-apps"></a><a name="manage-apps"></a><a name="manage-apps"></a>Manage apps
+## <a name="manage-apps"></a>Manage apps
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -49,7 +49,7 @@ Some apps are provided by Microsoft, and other apps are provided by [other compa
 > [!NOTE]  
 > You can keep an eye out for new apps from Microsoft and other suppliers at [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
-## <a name="apps-and-data-transfer"></a><a name="apps-and-data-transfer"></a><a name="apps-and-data-transfer"></a>Apps and data transfer
+## <a name="apps-and-data-transfer"></a>Apps and data transfer
 
 Because the following apps communicate with other services, they might transfer data out of the geography of the [!INCLUDE[prod_short](includes/prod_short.md)] environment:
 
@@ -69,7 +69,7 @@ This also applies to some functionality in the base application, such as the fol
 * Online Map
 * EU VAT Reg. No. Service
 
-## <a name="connect-your-business"></a><a name="connect-your-business"></a><a name="connect-your-business"></a>Connect your business
+## <a name="connect-your-business"></a>Connect your business
 
 Starting in 2022 release wave 2, [!INCLUDE [prod_short](includes/prod_short.md)] online environments can list one or more apps on the **Connectivity Apps** and **Banking Apps** pages. These apps can connect your business to external services that increase productivity by automating processes. For example, you can connect to your banks and automatically import bank transactions. The apps are easy to install and set up directly from this page. Choose an app to learn more about capabilities and pricing.  
 
@@ -80,16 +80,16 @@ View the list of suggested apps by choosing the **Connectivity Apps** action in 
 
 This external service will generate a list of relevant apps based on your country or region
 
-## <a name="recommended-apps"></a><a name="recommended-apps"></a><a name="recommended-apps"></a>Recommended apps
+## <a name="recommended-apps"></a>Recommended apps
 
 Microsoft partners and resellers can create an app that they can use to compile lists of apps that they often recommend to their customers. If they do, and have deployed the app to your tenant, the apps will be available on the **Recommended Apps** page. There you can read about each app and decide whether to install them.
 
 > [!NOTE]
 > If you are a Microsoft partner or reseller, and you're interested in providing a list of recommended apps, see [Recommend Apps from AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps) in the administration content.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/customize-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/customize-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a>See also
 
 [Install and Uninstall Apps](ui-extensions-install-uninstall.md)  
 [Customise Business Central](ui-customizing-overview.md)  

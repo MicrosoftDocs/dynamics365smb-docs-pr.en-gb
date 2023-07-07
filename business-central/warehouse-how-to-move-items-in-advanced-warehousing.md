@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.form: '7351,'
 ---
 
-# <a name="move-items-in-advanced-warehouse-configurations-that-use-directed-put-away-and-pick"></a><a name="move-items-in-advanced-warehouse-configurations-that-use-directed-put-away-and-pick"></a><a name="move-items-in-advanced-warehouse-configurations-that-use-directed-put-away-and-pick"></a>Move Items in Advanced Warehouse Configurations That Use Directed Put-away and Pick
+# <a name="move-items-in-advanced-warehouse-configurations-that-use-directed-put-away-and-pick"></a>Move Items in Advanced Warehouse Configurations That Use Directed Put-away and Pick
 
 You can move items between bins without a demand from a source document. For example, you might want to do that as part of the following activities:
 
@@ -36,9 +36,9 @@ The **Movement Worksheet** , **Warehouse Internal Pick**, and  **Warehouse Inter
 * Put-aways use put-away templates
 * Picking uses bin ranking and availability
 
-## <a name="warehouse-movement-worksheet"></a><a name="warehouse-movement-worksheet"></a><a name="warehouse-movement-worksheet"></a>Warehouse movement worksheet
+## <a name="warehouse-movement-worksheet"></a>Warehouse movement worksheet
 
-### <a name="to-move-items-with-the-warehouse-movement-worksheet"></a><a name="to-move-items-with-the-warehouse-movement-worksheet"></a><a name="to-move-items-with-the-warehouse-movement-worksheet"></a>To move items with the warehouse movement worksheet
+### <a name="to-move-items-with-the-warehouse-movement-worksheet"></a>To move items with the warehouse movement worksheet
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Movement Worksheet**, and then choose the related link.  
 2. Fill in the fields on the worksheet lines manually, or use one of the following actions to automatically fill in the lines:
@@ -55,7 +55,7 @@ The **Movement Worksheet** , **Warehouse Internal Pick**, and  **Warehouse Inter
 
 3. Choose the **Create Movement** action to create the movement. When the move is complete, you can register it.  
 
-### <a name="to-register-the-warehouse-movement"></a><a name="to-register-the-warehouse-movement"></a><a name="to-register-the-warehouse-movement"></a>To register the warehouse movement
+### <a name="to-register-the-warehouse-movement"></a>To register the warehouse movement
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Movements**, and then choose the related link.  
 2. Open the movement document to register.  
@@ -71,9 +71,9 @@ The **Movement Worksheet** , **Warehouse Internal Pick**, and  **Warehouse Inter
 > [!NOTE]  
 > For locations that use directed put-away and pick, you can't manually move items in bins of the type **RECEIVE** because they aren't yet considered as available inventory. You must put away the items in these bins before they're available for movements.
 
-## <a name="internal-pick"></a><a name="internal-pick"></a><a name="internal-pick"></a>Internal pick
+## <a name="internal-pick"></a>Internal pick
 
-### <a name="to-create-an-internal-pick"></a><a name="to-create-an-internal-pick"></a><a name="to-create-an-internal-pick"></a>To create an internal pick
+### <a name="to-create-an-internal-pick"></a>To create an internal pick
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Whse. Internal Pick**, and then choose the related link.  
 2. Choose the **New** action.
@@ -82,7 +82,7 @@ The **Movement Worksheet** , **Warehouse Internal Pick**, and  **Warehouse Inter
 5. Choose the **Create Pick** action. A warehouse pick instruction is now ready for a warehouse employee to perform. Alternatively, choose the **Release** action and create warehouse picks using the **Pick Worksheet** page. To learn more about pick worksheets, go to [Create pick documents in bulk with the pick worksheet](warehouse-how-to-pick-items-for-warehouse-shipment.md#to-create-pick-documents-in-bulk-with-the-pick-worksheet).
 6. When the pick is complete, you can register it.  
 
-### <a name="to-register-the-warehouse-pick"></a><a name="to-register-the-warehouse-pick"></a><a name="to-register-the-warehouse-pick"></a>To register the warehouse pick
+### <a name="to-register-the-warehouse-pick"></a>To register the warehouse pick
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Picks**, and then choose the related link.  
 
@@ -94,9 +94,9 @@ The **Movement Worksheet** , **Warehouse Internal Pick**, and  **Warehouse Inter
 
 4. After you pick and place the items in the shipping area or shipping bin, choose the **Register Pick** action.  
 
-## <a name="internal-put-away"></a><a name="internal-put-away"></a><a name="internal-put-away"></a>Internal put-away
+## <a name="internal-put-away"></a>Internal put-away
 
-### <a name="to-create-an-internal-put-away"></a><a name="to-create-an-internal-put-away"></a><a name="to-create-an-internal-put-away"></a>To create an internal put-away
+### <a name="to-create-an-internal-put-away"></a>To create an internal put-away
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Internal Put-aways**, and then choose the related link.  
 2. Choose the **New** action.
@@ -110,7 +110,7 @@ The **Movement Worksheet** , **Warehouse Internal Pick**, and  **Warehouse Inter
 6. Choose the **Create Put-away** action. A warehouse put-away instruction is now ready for a warehouse employee. Alternatively, choose the **Release** action to create warehouse put-aways using the **Put-away worksheet** page. To learn more about put-away worksheets, go to [Create put-away documents in bulk with the put-away worksheet](warehouse-how-to-put-items-away-with-warehouse-put-aways.md#to-create-put-away-documents-in-bulk-with-the-put-away-worksheet).
 6. When the put-away is complete, you can register it.  
 
-### <a name="to-register-the-warehouse-put-away"></a><a name="to-register-the-warehouse-put-away"></a><a name="to-register-the-warehouse-put-away"></a>To register the warehouse put away
+### <a name="to-register-the-warehouse-put-away"></a>To register the warehouse put away
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-aways**, and then choose the related link.
 2. Open the warehouse put-away that's ready to handle.  
@@ -130,7 +130,7 @@ The **Movement Worksheet** , **Warehouse Internal Pick**, and  **Warehouse Inter
 
 5. When you have placed all the items in bins as instructed, choose the **Register Put-away** action.  
 
-## <a name="to-register-a-movement-that-has-already-happened"></a><a name="to-register-a-movement-that-has-already-happened"></a><a name="to-register-a-movement-that-has-already-happened"></a>To register a movement that has already happened
+## <a name="to-register-a-movement-that-has-already-happened"></a>To register a movement that has already happened
 
 If you must register the fact that items has been already moved to other bins without a put-away, pick, or movement, you can use the **Whse. Reclassification Journal** page to register the movement.
 
@@ -138,9 +138,9 @@ If you must register the fact that items has been already moved to other bins wi
 2. Fill in the **Item No.**, **From Zone Code**, **From Bin Code**, **To Zone Code**, and **To Bin Code** fields.  
 3. Choose the **Register** action.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/manage-internal-warehouse-processes/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See Also
+## <a name="see-also"></a>See Also
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

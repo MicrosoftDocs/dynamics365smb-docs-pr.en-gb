@@ -10,11 +10,11 @@ ms.search.form: '5638, 5636, 5640, 5637'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="transfer-split-or-combine-fixed-assets"></a><a name="transfer-split-or-combine-fixed-assets"></a><a name="transfer-split-or-combine-fixed-assets"></a>Transfer, Split, or Combine Fixed Assets
+# <a name="transfer-split-or-combine-fixed-assets"></a>Transfer, Split, or Combine Fixed Assets
 
 You use the fixed asset reclassification journal to transfer, split up, and combine fixed assets. You view or print the results of fixed asset reclassification with the **Fixed Asset-Book Value 02** report.
 
-## <a name="to-transfer-a-fixed-asset-to-a-different-department"></a><a name="to-transfer-a-fixed-asset-to-a-different-department"></a><a name="to-transfer-a-fixed-asset-to-a-different-department"></a>To transfer a fixed asset to a different department
+## <a name="to-transfer-a-fixed-asset-to-a-different-department"></a>To transfer a fixed asset to a different department
 
 You may need to transfer a fixed asset to a different department when, for example, you place an asset in the production department while it is under construction and then move it to the administration department when it is finished.  
 
@@ -30,7 +30,7 @@ You may need to transfer a fixed asset to a different department when, for examp
 
 If you have posted an acquisition cost for one asset, you can use the fixed asset reclassification journal to split the acquisition cost among several assets.  
 
-## <a name="to-split-a-fixed-asset-into-three-fixed-assets"></a><a name="to-split-a-fixed-asset-into-three-fixed-assets"></a><a name="to-split-a-fixed-asset-into-three-fixed-assets"></a>To split a fixed asset into three fixed assets
+## <a name="to-split-a-fixed-asset-into-three-fixed-assets"></a>To split a fixed asset into three fixed assets
 You can split one fixed asset into multiple fixed assets, for example when you need to distribute a fixed asset onto three different departments. In that case, you can move, for example, 25 percent of the acquisition cost and depreciation for the original fixed asset to the second fixed asset and 45 percent to the third asset. The remaining 30 percent will remain on the original fixed asset.
 
 1. Set up two new fixed assets. Enter the relevant departments as dimensions.  
@@ -46,7 +46,7 @@ You can split one fixed asset into multiple fixed assets, for example when you n
 9. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.
 10. On the **Fixed Asset G/L Journal** page, choose the **Post** action to post the reclassification that you performed in steps 4 through 8.
 
-## <a name="to-combine-two-fixed-assets-into-one"></a><a name="to-combine-two-fixed-assets-into-one"></a><a name="to-combine-two-fixed-assets-into-one"></a>To combine two fixed assets into one
+## <a name="to-combine-two-fixed-assets-into-one"></a>To combine two fixed assets into one
 
 You can combine multiple fixed assets into one fixed asset, for example when you move distributed fixed assets into one department. If you have posted acquisition costs and depreciation for the fixed asset to be moved, those values will be combined in the single fixed asset.
 
@@ -60,15 +60,15 @@ You can combine multiple fixed assets into one fixed asset, for example when you
 6. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset G/L Journals**, and then choose the related link.
 7. On the **Fixed Asset G/L Journal** page, choose the **Post** action to post the reclassification that you performed in steps 2 through 5.
 
-## <a name="to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification"></a><a name="to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification"></a><a name="to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification"></a>To view changed depreciation book values due to fixed asset reclassification
+## <a name="to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification"></a>To view changed depreciation book values due to fixed asset reclassification
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset Book Value 02**, and then choose the related link.
 2. Fill in the fields as necessary.
 3. Choose the **Print** or **Preview** button.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/reclassify-fixed-assets/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/reclassify-fixed-assets/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a>See also
 
 [Fixed Assets](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  

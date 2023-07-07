@@ -10,7 +10,7 @@ author: jswymer
 ms.service: dynamics365-business-central
 ---
 
-# <a name="ai-powered-item-marketing-text-preview-with-copilot-faq"></a><a name="ai-powered-item-marketing-text-preview-with-copilot-faq"></a><a name="ai-powered-item-marketing-text-preview-with-copilot-faq"></a>AI-powered item marketing text (preview) with Copilot FAQ
+# <a name="ai-powered-item-marketing-text-preview-with-copilot-faq"></a>AI-powered item marketing text (preview) with Copilot FAQ
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
@@ -18,7 +18,7 @@ This article uses questions and answers to explain important aspects about the A
 
 ## [General](#tab/general)
 
-### <a name="what-is-copilot"></a><a name="what-is-copilot"></a><a name="what-is-copilot"></a>What is Copilot?
+### <a name="what-is-copilot"></a>What is Copilot?
 
 Copilot provides AI-generated text suggestions for items in Business Central. It's intended for users who write marketing text for items to help them produce engaging and compelling content. Some key benefits include:
 
@@ -28,7 +28,7 @@ Copilot provides AI-generated text suggestions for items in Business Central. It
 
 Users should consider the AI-generated text as a suggestion that must be reviewed and edited for accuracy before it's publicly available.
 
-### <a name="why-isnt-copilot-available-for-marketing-text-on-my-items-in-business-central"></a><a name="why-isnt-copilot-available-for-marketing-text-on-my-items-in-business-central"></a><a name="why-isnt-copilot-available-for-marketing-text-on-my-items-in-business-central"></a>Why isn't Copilot available for marketing text on my items in Business Central?
+### <a name="why-isnt-copilot-available-for-marketing-text-on-my-items-in-business-central"></a>Why isn't Copilot available for marketing text on my items in Business Central?
 
 For Copilot to be available, the following requirements must be met:
 
@@ -45,21 +45,21 @@ For Copilot to be available, the following requirements must be met:
 
    For more information, go to [Consent to or reject the preview and privacy terms and conditions for all users](enable-ai.md#consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users).
 
-### <a name="is-copilot-available-for-preview-in-business-central-on-premises"></a><a name="is-copilot-available-for-preview-in-business-central-on-premises"></a><a name="is-copilot-available-for-preview-in-business-central-on-premises"></a>Is Copilot available for preview in Business Central on-premises?
+### <a name="is-copilot-available-for-preview-in-business-central-on-premises"></a>Is Copilot available for preview in Business Central on-premises?
 
 No, it's currently not supported in Business Central on-premises.
 
-### <a name="how-does-copilot-work-where-does-the-suggested-text-come-from"></a><a name="how-does-copilot-work-where-does-the-suggested-text-come-from"></a><a name="how-does-copilot-work-where-does-the-suggested-text-come-from"></a>How does Copilot work, where does the suggested text come from?
+### <a name="how-does-copilot-work-where-does-the-suggested-text-come-from"></a>How does Copilot work, where does the suggested text come from?
 
 Copilot uses [Microsoft's Azure OpenAI Service](/azure/cognitive-services/openai/overview) to access powerful language models that analyse and generate natural language. These models have been trained on a wide body of text datasets. As a result, Copilot can generate suggested, personalised responses in English based on a minimal amount of input data, like an item's attributes, category, or description. 
 
-### <a name="whats-the-quality-of-the-text-suggested-by-copilot"></a><a name="whats-the-quality-of-the-text-suggested-by-copilot"></a><a name="whats-the-quality-of-the-text-suggested-by-copilot"></a>What's the quality of the text suggested by Copilot?
+### <a name="whats-the-quality-of-the-text-suggested-by-copilot"></a>What's the quality of the text suggested by Copilot?
 
 Because the underlying technology behind Copilot uses AI that has been trained on a wide range of sources, the generated content isn't always factual or suitable. Some suggestions may even include questionable or inappropriate content. It's your responsibility to review and edit generated suggestions to ensure it's accurate and appropriate.
 
 For information about inappropriate suggestions, go to [What's done about abusive and harmful text suggestions?](/dynamics365/business-central/ai-faq?&tabs=oversight#whats-done-about-abusive-and-harmful-text-suggestions).
 
-### <a name="how-can-i-improve-the-suggestions-i-get-from-copilot"></a><a name="how-can-i-improve-the-suggestions-i-get-from-copilot"></a><a name="how-can-i-improve-the-suggestions-i-get-from-copilot"></a>How can I improve the suggestions I get from Copilot?
+### <a name="how-can-i-improve-the-suggestions-i-get-from-copilot"></a>How can I improve the suggestions I get from Copilot?
 
 There are a few things you can do to get the most out of suggestions from Copilot:
 
@@ -70,13 +70,13 @@ There are a few things you can do to get the most out of suggestions from Copilo
 
 To learn more, go to [Improve and tailor text suggestions](item-marketing-text.md#improve-and-tailor-text-suggestions).
 
-### <a name="what-if-im-not-satisfied-with-the-generated-text"></a><a name="what-if-im-not-satisfied-with-the-generated-text"></a><a name="what-if-im-not-satisfied-with-the-generated-text"></a>What if I'm not satisfied with the generated text?
+### <a name="what-if-im-not-satisfied-with-the-generated-text"></a>What if I'm not satisfied with the generated text?
 
 To help us improve the text, select **Is this a good suggestion?** on the **Create with Copilot** page, which you can answer with a thumbs-up (I like it) or thumbs-down (Needs improvement).
 
 ![Shows an item card with Marketing Text pane](media/create-with-copilot-window-feedback.png)
 
-### <a name="can-admins-disable-copilot-if-so-how"></a><a name="can-admins-disable-copilot-if-so-how"></a><a name="can-admins-disable-copilot-if-so-how"></a>Can admins disable Copilot? If so, how?
+### <a name="can-admins-disable-copilot-if-so-how"></a>Can admins disable Copilot? If so, how?
 
 Business Central offers admins two ways to disable Copilot in the preview:
 
@@ -90,13 +90,13 @@ To learn more, go to [Configure AI-powered item marketing text (preview) with Co
 
 ## [Fairness](#tab/fairness)
 
-### <a name="does-copilot-work-with-languages-other-than-english"></a><a name="does-copilot-work-with-languages-other-than-english"></a><a name="does-copilot-work-with-languages-other-than-english"></a>Does Copilot work with languages other than English?
+### <a name="does-copilot-work-with-languages-other-than-english"></a>Does Copilot work with languages other than English?
 
 Currently, Copilot only supports English. Inaccurate responses may be returned when users converse with the system in languages other than English.
 
 ## [Human oversight](#tab/oversight)
 
-### <a name="whats-done-about-abusive-and-harmful-text-suggestions"></a><a name="whats-done-about-abusive-and-harmful-text-suggestions"></a><a name="whats-done-about-abusive-and-harmful-text-suggestions"></a>What's done about abusive and harmful text suggestions?
+### <a name="whats-done-about-abusive-and-harmful-text-suggestions"></a>What's done about abusive and harmful text suggestions?
 
 The Azure OpenAI Service stores prompts and completions from the service to monitor for abusive use and to develop and improve the quality of Azure OpenAI’s content management systems. [Learn more about our content management and filtering.](/azure/cognitive-services/openai/concepts/content-filter)
 
@@ -104,7 +104,7 @@ Authorised Microsoft employees can access your prompt and completion data that h
 
 For more information, see [Data, privacy, and security for Azure OpenAI Service](/legal/cognitive-services/openai/data-privacy#abuse-and-harmful-content-generation).
 
-### <a name="can-i-opt-out-of-the-logging-and-human-review-process"></a><a name="can-i-opt-out-of-the-logging-and-human-review-process"></a><a name="can-i-opt-out-of-the-logging-and-human-review-process"></a>Can I opt out of the logging and human review process?
+### <a name="can-i-opt-out-of-the-logging-and-human-review-process"></a>Can I opt out of the logging and human review process?
 
 As part of providing the Azure OpenAI previews, Microsoft will process and store customer data submitted to the service, as well as output content, for purposes of monitoring for and preventing abusive or harmful uses or outputs of the service; and for developing, testing, and improving capabilities designed to prevent abusive use of or harmful outputs from the service. 
 
@@ -112,7 +112,7 @@ Authorised Microsoft personnel may review data that has triggered our automated 
 
 ## [Privacy](#tab/privacy)
 
-### <a name="what-data-does-the-capability-collect-how-is-the-data-used"></a><a name="what-data-does-the-capability-collect-how-is-the-data-used"></a><a name="what-data-does-the-capability-collect-how-is-the-data-used"></a>What data does the capability collect? How is the data used?
+### <a name="what-data-does-the-capability-collect-how-is-the-data-used"></a>What data does the capability collect? How is the data used?
 
 The capability collects your answer to the **Is this a good suggestion?** question on the **Create with Copilot** page, which can be either a thumbs-up (I like it) or thumbs-down (Needs improvement).
 
@@ -122,7 +122,7 @@ We use this data to evaluate and improve the quality of the capability. More inf
 
 ---
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a>See also
 
 [Overview of AI-powered item marketing text with Copilot](ai-overview.md)  
 [Configure AI-powered item marketing text with Copilot as an admin](enable-ai.md)  

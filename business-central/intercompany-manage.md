@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: '605,'
 ---
-# <a name="managing-intercompany-transactions"></a><a name="managing-intercompany-transactions"></a><a name="managing-intercompany-transactions"></a>Managing Intercompany Transactions
+# <a name="managing-intercompany-transactions"></a>Managing Intercompany Transactions
 
 Businesses with more than one legal entity with separate accounting functions can benefit from intercompany transactions. For example, it's useful for businesses that have subsidiaries in multiple international markets or regions. Or, an organisation might have several companies but lack the equivalent number of accounting and administrative teams. Intercompany transactions simplify and streamline business processes and transactions between companies in the intercompany partnership.
 
@@ -23,7 +23,7 @@ There are four main benefits to the intercompany functionality:
 * Complete audit trail and full visibility into business activities and transaction histories  
 * Efficient, cost-effective transactions with affiliate and subsidiary companies  
 
-## <a name="streamline-the-flow-of-business-activities"></a><a name="streamline-the-flow-of-business-activities"></a><a name="streamline-the-flow-of-business-activities"></a>Streamline the flow of business activities
+## <a name="streamline-the-flow-of-business-activities"></a>Streamline the flow of business activities
 
 Intercompany transactions let you distribute sales and purchasing documents and general journal entries to all of your satellite offices, sales offices, or subsidiary companies. Distributing transactions saves time and increases efficiency throughout the organisation by reducing data entry. It cuts down on the need to send, receive, print, and archive sales and purchasing documents.  
 
@@ -68,7 +68,7 @@ The following table describes a sequence of tasks, with links to the articles th
 |Organise and process incoming and outgoing transactions that you exchange with your intercompany partners.|[Manage the Intercompany Inbox and Outbox](intercompany-how-manage-intercompany-inbox.md)|
 |Use intercompany transactions to distribute costs between partner companies.|[Allocate Costs to Intercompany Partners](intercompany-allocate-costs.md)|
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See Also
+## <a name="see-also"></a>See Also
 
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  

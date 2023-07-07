@@ -11,7 +11,7 @@ ms.search.form: '138, 140, 146'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="correct-or-cancel-unpaid-purchase-invoices"></a><a name="correct-or-cancel-unpaid-purchase-invoices"></a><a name="correct-or-cancel-unpaid-purchase-invoices"></a>Correct or Cancel Unpaid Purchase Invoices
+# <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Correct or Cancel Unpaid Purchase Invoices
 
 You can correct or cancel a posted purchase invoice. This is useful if you want to correct a typing mistake, or if you want to change the purchase early in the order process.
 
@@ -21,7 +21,7 @@ On the **Posted Purchase Invoice** page, you can choose the **Correct** button o
 <br><br>
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4dhoc?rel=0]
 
-## <a name="to-correct-a-posted-purchase-invoice"></a><a name="to-correct-a-posted-purchase-invoice"></a><a name="to-correct-a-posted-purchase-invoice"></a>To correct a posted purchase invoice
+## <a name="to-correct-a-posted-purchase-invoice"></a>To correct a posted purchase invoice
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Purchase Invoices**, and then choose the related link.  
 2. Select the posted purchase invoice that you want to correct.  
@@ -35,7 +35,7 @@ On the **Posted Purchase Invoice** page, you can choose the **Correct** button o
     A purchase credit memo is automatically created and posted to void the initial posted purchase invoice.
 4. Choose **Show Corrective Credit Memo** to view the posted purchase credit memo that voids the initial posted purchase invoice.
 
-## <a name="to-cancel-a-posted-purchase-invoice"></a><a name="to-cancel-a-posted-purchase-invoice"></a><a name="to-cancel-a-posted-purchase-invoice"></a>To cancel a posted purchase invoice
+## <a name="to-cancel-a-posted-purchase-invoice"></a>To cancel a posted purchase invoice
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Purchase Invoices**, and then choose the related link.  
 2. Select the posted purchase invoice that you want to cancel.
@@ -47,13 +47,13 @@ On the **Posted Purchase Invoice** page, you can choose the **Correct** button o
     A purchase credit memo is automatically created and posted to void the initial posted purchase invoice. The **Cancelled** field on the initial posted purchase invoice is changed to **Yes**.
 4. Choose **Show Corrective Credit Memo** to view the posted purchase credit memo that voids the initial posted purchase invoice.
 
-### <a name="partial-invoice-posting-also-supported"></a><a name="partial-invoice-posting-also-supported"></a><a name="partial-invoice-posting-also-supported"></a>Partial Invoice Posting also Supported
+### <a name="partial-invoice-posting-also-supported"></a>Partial Invoice Posting also Supported
 
 If the cancellation is related to a partial invoice posting, then the originating purchase order line is updated to reflect the cancelled invoiced quantity. The **Qty. to Invoice** and **Qty. Invoiced** fields on the related purchase order line are reset to the values before the partial posting.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/receive-invoice-dynamics-d365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/receive-invoice-dynamics-d365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a>See also
 
 [Purchasing](purchasing-manage-purchasing.md)  
 [Record Purchases](purchasing-how-record-purchases.md)  

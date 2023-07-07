@@ -12,11 +12,11 @@ ms.date: 06/24/2021
 ms.author: bholtorf
 ---
 
-# <a name="the-quickbooks-online-data-migration-extension"></a><a name="the-quickbooks-online-data-migration-extension"></a><a name="the-quickbooks-online-data-migration-extension"></a>The QuickBooks Online Data Migration Extension
+# <a name="the-quickbooks-online-data-migration-extension"></a>The QuickBooks Online Data Migration Extension
 
 This extension is included in the **Data Migration** assisted setup guide to help you migrate important business data from QuickBooks Online to [!INCLUDE[prod_short](includes/prod_short.md)]. For example, this is useful when your business is growing, and you've decided to upgrade your business management app by starting to use [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="what-data-can-i-import-from-quickbooks-online"></a><a name="what-data-can-i-import-from-quickbooks-online"></a><a name="what-data-can-i-import-from-quickbooks-online"></a>What data can I import from QuickBooks Online?
+## <a name="what-data-can-i-import-from-quickbooks-online"></a>What data can I import from QuickBooks Online?
 
 You can import the following data from QuickBooks Online to [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
@@ -33,7 +33,7 @@ We migrate only full amounts on sales and purchase documents. We do not update p
 > [!NOTE]  
 > We do not migrate purchase orders or sales orders.
 
-## <a name="before-you-start"></a><a name="before-you-start"></a><a name="before-you-start"></a>Before you start
+## <a name="before-you-start"></a>Before you start
 
 An important part of the migration process is to specify the accounts to migrate transactions to. It's a good idea to plan this mapping before you migrate data. For example, the accounts where you post transactions for:  
 
@@ -45,14 +45,14 @@ An important part of the migration process is to specify the accounts to migrate
 
 If transactions in QuickBooks Online have tax amounts, you must set up a tax account for your tax jurisdictions in [!INCLUDE[prod_short](includes/prod_short.md)] before you can post transactions.
 
-## <a name="how-do-i-start-using-the-extension"></a><a name="how-do-i-start-using-the-extension"></a><a name="how-do-i-start-using-the-extension"></a>How do I start using the extension?
+## <a name="how-do-i-start-using-the-extension"></a>How do I start using the extension?
 
 Getting started is easy. All you need to do is run the **Data Migration** assisted setup guide. Here's how:
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose **Migrate business data**.
 2. Follow the instructions on each step in the assisted setup guide.
 
-## <a name="what-do-i-do-after-i-migrate-data"></a><a name="what-do-i-do-after-i-migrate-data"></a><a name="what-do-i-do-after-i-migrate-data"></a>What do I do after I migrate data?
+## <a name="what-do-i-do-after-i-migrate-data"></a>What do I do after I migrate data?
 
 After you migrate data, transactions have the status **Unposted**, so you can review them and make adjustments. To review the transactions, go to the page where you would normally find them. For example, to review unposted sales invoices, go to the **Sales Invoices** page. To review payment journals, go to the **Payment Journals** page.  
 
@@ -62,9 +62,9 @@ There are a few things in particular that you should do:
 * If you are using value added tax (VAT), you may need to add a business posting group and a product posting group to the posting setup so that you can post VAT amounts.
 * Verify the beginning balances for accounts in the general ledger. QuickBooks Online does not store the current balance for all accounts, so you might need to correct beginning balances.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/migrate-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/migrate-data-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a>See also
 
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  

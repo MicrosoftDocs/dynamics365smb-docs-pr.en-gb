@@ -8,14 +8,14 @@ ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="posting-the-year-end-closing-entry"></a><a name="posting-the-year-end-closing-entry"></a><a name="posting-the-year-end-closing-entry"></a>Posting the Year-End Closing Entry
+# <a name="posting-the-year-end-closing-entry"></a>Posting the Year-End Closing Entry
 
 After you use the **Close Income Statement** batch job to generate the year-end closing entry or entries, you must open the journal you specified in the batch job, and then review and post the entries.  
 
 > [!TIP]
 > Depending on your organisations work processes, you can choose to close or not close accounting periods and fiscal years in [!INCLUDE [prod_short](includes/prod_short.md)]. The following procedure assumes that you have closed the fiscal year using the *Accounting Periods* option, generated a year-end closing entry using the **Close Income Statement** batch job, and are now ready to post the year-end closing entry along with the offsetting equity account entries. Your organisation can choose to work differently, such as post the year-end closing entry as part of closing the fiscal year.
 
-## <a name="to-post-the-year-end-closing-entry"></a><a name="to-post-the-year-end-closing-entry"></a><a name="to-post-the-year-end-closing-entry"></a>To post the year end closing entry
+## <a name="to-post-the-year-end-closing-entry"></a>To post the year end closing entry
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journal**, and then choose the related link.
 2. On the **General Journal** page, in the **Batch Name** field, select the batch that contains the closing entries.
@@ -25,7 +25,7 @@ After you use the **Close Income Statement** batch job to generate the year-end 
 > [!NOTE]  
 > If an error is detected, an error message is displayed. If the posting is successful, the posted entries are removed from the journal. After posting is complete, an entry is posted to each income statement account so that its balance becomes zero and the year's result is transferred to the balance sheet.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See Also
+## <a name="see-also"></a>See Also
 
 [Close Accounting Periods](year-close-account-periods.md)  
 [Closing Books](year-close-books.md)  

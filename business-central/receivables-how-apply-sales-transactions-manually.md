@@ -11,7 +11,7 @@ ms.search.form: '25, 255'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a><a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a><a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries
+# <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries
 
 When you receive a cash payment from a customer or give a cash refund you can apply the payment or refund to close open debits or credits. You can specify the amount to apply. For example, you can apply partial payments to customer ledger entries. Closing customer ledger entries keeps customer statistics, account statements, finance charges, and so on, up-to-date.
 
@@ -31,7 +31,7 @@ You can apply customer ledger entries in several ways:
 > [!NOTE]  
 >   If the **Application Method** field on the customer card contains **Apply to Oldest**, payments are applied to the oldest open credit entry, unless you manually specify an entry. If the application method is **Manual**, you always apply entries manually.
 
-## <a name="to-fill-and-post-a-cash-receipt-journal"></a><a name="to-fill-and-post-a-cash-receipt-journal"></a><a name="to-fill-and-post-a-cash-receipt-journal"></a>To fill and post a cash receipt journal
+## <a name="to-fill-and-post-a-cash-receipt-journal"></a>To fill and post a cash receipt journal
 A cash receipt journal is a type of general journal. You can use it to post transactions to general ledger, bank, customer, vendor, and fixed assets accounts. You can apply the payment to one or more debit entries when you post the payment. You can also apply from the posted entries later.
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Receipt Journal**, and then choose the related link.
 2. Choose the **Edit Journal** action.
@@ -48,7 +48,7 @@ A cash receipt journal is a type of general journal. You can use it to post tran
 11. In the **Balancing Account No.** field, select the cash account for cash payments, or the relevant bank account for other payments.
 12. Post the journal.
 
-## <a name="to-apply-a-payment-to-a-single-customer-ledger-entry"></a><a name="to-apply-a-payment-to-a-single-customer-ledger-entry"></a><a name="to-apply-a-payment-to-a-single-customer-ledger-entry"></a>To apply a payment to a single customer ledger entry
+## <a name="to-apply-a-payment-to-a-single-customer-ledger-entry"></a>To apply a payment to a single customer ledger entry
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Receipt Journal** and choose the related link.
 2. Choose the **Edit Journal** action.
 3. On the first journal line, enter the relevant information about the entry to be applied.
@@ -63,7 +63,7 @@ A cash receipt journal is a type of general journal. You can use it to post tran
 10. Choose the **OK** button. The **Cash Receipt Journal** page now shows the entry in the **Applies-to Doc. Type** and **Applies-to Doc. No.** fields.
 11. Post the cash receipt journal.
 
-## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a><a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a><a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a>To apply a payment to multiple customer ledger entries
+## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a>To apply a payment to multiple customer ledger entries
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Receipt Journal**, and then choose the related link.
 2. Choose the **Edit Journal** action.
 3. On the first journal line, enter the relevant information about the entry to be applied.
@@ -79,7 +79,7 @@ A cash receipt journal is a type of general journal. You can use it to post tran
 11. Choose the **OK** button.
 12. Post the cash receipt journal.
 
-## <a name="to-apply-a-credit-memo-to-a-single-customer-ledger-entry"></a><a name="to-apply-a-credit-memo-to-a-single-customer-ledger-entry"></a><a name="to-apply-a-credit-memo-to-a-single-customer-ledger-entry"></a>To apply a credit memo to a single customer ledger entry
+## <a name="to-apply-a-credit-memo-to-a-single-customer-ledger-entry"></a>To apply a credit memo to a single customer ledger entry
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Credit Memos**, and then choose the related link.
 2. Open the relevant sales credit memo.
 3. To apply the credit memo to a single customer ledger entry when posting, in the **Applies-to Doc. No.** field, select the entry to which you want to apply the payment.
@@ -89,7 +89,7 @@ A cash receipt journal is a type of general journal. You can use it to post tran
 5. Choose the **OK** button. The **Sales Credit Memo** page now shows the entry you have selected entered in the **Applies-to Doc. Type** and **Applies-to Doc. No.** fields. And the amount of the credit memo to be posted, adjusted for any possible payment discounts.
 6. Post the credit memo.
 
-## <a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a><a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a><a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a>To apply a credit memo to multiple customer ledger entries
+## <a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a>To apply a credit memo to multiple customer ledger entries
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Credit Memos**, and then choose the related link.
 2. Open the relevant sales credit memo.
 3. To apply the credit memo to multiple customer ledger entries when posting, choose the **Apply Entries** action.
@@ -100,7 +100,7 @@ A cash receipt journal is a type of general journal. You can use it to post tran
 6. Choose the **OK** button. The **Sales Credit Memo** page now shows the amount of the credit memo to be posted, adjusted for any possible payment discounts.
 7. Post the credit memo.
 
-## <a name="to-apply-posted-customer-ledger-entries"></a><a name="to-apply-posted-customer-ledger-entries"></a><a name="to-apply-posted-customer-ledger-entries"></a>To apply posted customer ledger entries
+## <a name="to-apply-posted-customer-ledger-entries"></a>To apply posted customer ledger entries
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the customer card for the customer with entries that you want to apply.
 3. Choose the **Ledger Entries** action, and then select the line with the entry that will be the applying entry.
@@ -120,7 +120,7 @@ On the ledger entry list, on the line that contains the ledger entry that was fu
 > [!NOTE]  
 >   After you select an entry on the **Apply Customer Entries** page, or several entries by setting the **Applies-to ID**, the **Applied Amount** field on the journal line will contain the sum of the remaining amounts for the posted entries you've selected, unless the field contains something already. If you select **Apply to Oldest** in the **Application Method** field on the customer card, the application occurs automatically.
 
-## <a name="to-apply-customer-ledger-entries-in-different-currencies-to-one-another"></a><a name="to-apply-customer-ledger-entries-in-different-currencies-to-one-another"></a><a name="to-apply-customer-ledger-entries-in-different-currencies-to-one-another"></a>To apply customer ledger entries in different currencies to one another
+## <a name="to-apply-customer-ledger-entries-in-different-currencies-to-one-another"></a>To apply customer ledger entries in different currencies to one another
 If you sell to a customer in one currency and receive payment in another currency, you can still apply the invoice to the payment.  
 
 Here's an example. You apply Entry 1 in one currency to Entry 2 in another currency. The posting date on Entry 1 is used to find the exchange rate to use to convert amounts on Entry 2. The exchange rate is found on the **Currency Exchange Rates** page.  
@@ -137,7 +137,7 @@ Applying customer ledger entries in different currencies must be enabled. For mo
 > [!IMPORTANT]  
 >   When you apply entries in different currencies, the entries are converted to GBP. Although the exchange rates for the two currencies are fixed, for example between GBP and EUR, there may be a small residual amount when they are converted to GBP. These small residual amounts are posted as gains and losses to the account specified in the **Realised Gains Account** or **Realised Losses Account** fields on the **Currencies** page. The **Amount (USD)** field is also adjusted on the vendor ledger entries.  
 
-## <a name="to-correct-an-application-of-customer-entries"></a><a name="to-correct-an-application-of-customer-entries"></a><a name="to-correct-an-application-of-customer-entries"></a>To correct an application of customer entries
+## <a name="to-correct-an-application-of-customer-entries"></a>To correct an application of customer entries
 When you correct an application, correcting entries are created and posted for all entries. The correcting entries are the same as the originals but have an opposite sign in the **Amount** field. The correcting entries include all general ledger entries derived from the application. For example, the payment discount and currency gains/losses. The entries that were closed by the application are reopened.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
@@ -151,7 +151,7 @@ When you correct an application, correcting entries are created and posted for a
 > [!IMPORTANT]  
 >   If an entry has been applied by more than one application entry, you must unapply the latest application entry first.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See Also
+## <a name="see-also"></a>See Also
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

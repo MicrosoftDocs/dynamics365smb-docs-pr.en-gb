@@ -11,11 +11,11 @@ ms.search.form: '18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790
 ms.date: 08/24/2022
 ms.author: edupont
 ---
-# <a name="understanding-the-general-ledger-and-chart-of-accounts"></a><a name="understanding-the-general-ledger-and-chart-of-accounts"></a><a name="understanding-the-general-ledger-and-chart-of-accounts"></a>Understanding the General Ledger and Chart of Accounts
+# <a name="understanding-the-general-ledger-and-chart-of-accounts"></a>Understanding the General Ledger and Chart of Accounts
 
 The general ledger (G/L) stores your financial data, and the chart of accounts (COA) shows the accounts all general ledger entries are posted to. [!INCLUDE[prod_short](includes/prod_short.md)] includes a standard chart of accounts that is ready to support your business.
 
-## <a name="general-ledger-setup-and-general-posting-setup"></a><a name="general-ledger-setup-and-general-posting-setup"></a><a name="general-ledger-setup-and-general-posting-setup"></a>General ledger setup and general posting setup
+## <a name="general-ledger-setup-and-general-posting-setup"></a>General ledger setup and general posting setup
 
 The setup of the general ledger is at the core of financial processes because it defines how you post data. Two pages in particular play an important part in configuring your finance processes:  
 
@@ -41,7 +41,7 @@ The setup of the general ledger is at the core of financial processes because it
 
   Open the page [here](https://businesscentral.dynamics.com/?page=314).
 
-## <a name="the-chart-of-accounts"></a><a name="the-chart-of-accounts"></a><a name="the-chart-of-accounts"></a>The chart of accounts
+## <a name="the-chart-of-accounts"></a>The chart of accounts
 
 The chart of accounts shows all general ledger accounts. From the chart of accounts, you can do things like:  
 
@@ -53,7 +53,7 @@ The chart of accounts shows all general ledger accounts. From the chart of accou
 
 You can add, change, or delete general ledger accounts. However, to prevent discrepancies, you can't delete a general ledger account if its data is used in the chart of accounts. Also, starting with 2022 release wave 2, you can also block the accidental deletion of accounts in sensitive periods. Learn more in the [Deleting accounts](finance-setup-chart-accounts.md#delete-accounts) section.  
 
-## <a name="account-categories"></a><a name="account-categories"></a><a name="account-categories"></a>Account categories
+## <a name="account-categories"></a>Account categories
 
 You can personalise the structure of your financial statements by mapping general ledger accounts to account categories.  
 
@@ -63,7 +63,7 @@ You can create a category group by indenting other subcategories under a line on
 
 You can define whether specific types of reports must include the accounts in each subcategory. The account categories help define the layout of your financial statements.  
 
-### <a name="example"></a><a name="example"></a><a name="example"></a>Example
+### <a name="example"></a>Example
 
 For example, the default balance statement has a subcategory for *Cash* under *Current Assets*. If you want the balance statement to consider petty cash and checking, you need to take the following steps:
 
@@ -90,17 +90,17 @@ When you choose the **Generate Financial Reports** action—or the next time the
 > [!NOTE]
 > If you create a G/L account without assigning an account category, when you assign the account to a posting group [!INCLUDE[prod_short](includes/prod_short.md)] automatically assigns the account category from the G/L account immediately above the account in your chart of accounts. However, to include the new account in your financial reports, you must choose the **Generate Financial Reports** action on the **G/L Account Categories** page. Alternatively, you can open the G/L account card page, specify the account category, and then regenerate your financial report.
 
-## <a name="get-a-quick-overview"></a><a name="get-a-quick-overview"></a><a name="get-a-quick-overview"></a>Get a quick overview
+## <a name="get-a-quick-overview"></a>Get a quick overview
 
 The **Chart of Accounts** page displays accounts in a hierarchical list that offers fast access to the key information for each account. However, the list is static, and if you have many accounts, you might have to scroll to view different accounts. If you just want a quick overview of the basics, such as net changes and balances, the **Chart of Accounts Overview** page is a useful alternative. The column layout on the page is now the same as you'll find on the **Chart of Accounts** page (though with fewer columns), so you won't have to reorient yourself. You can expand or collapse the hierarchical levels to condense the view. To make it easy to switch between the pages, the **Chart of Accounts Overview** page is available from the **Chart of Accounts** page.
 
-## <a name="access-to-create-and-edit-accounts-and-account-categories"></a><a name="access-to-create-and-edit-accounts-and-account-categories"></a><a name="access-to-create-and-edit-accounts-and-account-categories"></a>Access to create and edit accounts and account categories
+## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Access to create and edit accounts and account categories
 
 In a small organisation, such as the CRONUS demonstration company, most users can edit the chart of accounts, except those users with a TEAM MEMBER licence. However, larger organisations typically use roles and permissions to limit access to editing the chart of accounts. If you're an administrator, or have the *Business Manager* or *Accountant* role, you can control user permissions to give the right people access to the relevant tables. Learn more in the [To get an overview of a user's permissions](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions) section.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/business-central-configure-general-ledger-setup/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/business-central-configure-general-ledger-setup/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a>See also
 
 [Set Up or Changing the Chart of Accounts](finance-setup-chart-accounts.md)  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  

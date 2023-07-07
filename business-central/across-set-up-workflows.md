@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 09/13/2022
 ms.author: edupont
 ---
-# <a name="set-up-approval-workflows"></a><a name="set-up-approval-workflows"></a><a name="set-up-approval-workflows"></a>Set Up Approval Workflows
+# <a name="set-up-approval-workflows"></a>Set Up Approval Workflows
 
 You can set up and use workflows that connect business-process tasks performed by different users. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps. Learn more at [Use Approval Workflows](across-use-workflows.md).
 
@@ -35,16 +35,16 @@ The following table describes a sequence of tasks, with links to the articles th
 |Share workflows with other [!INCLUDE[prod_short](includes/prod_short.md)] databases.|[Export and Import Approval Workflows](across-how-to-export-and-import-workflows.md)|  
 |Learn how to set up a workflow for approving sales documents by following an end-to-end procedure.|[Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 
-## <a name="example-of-an-approval-workflow"></a><a name="example-of-an-approval-workflow"></a><a name="example-of-an-approval-workflow"></a>Example of an approval workflow
+## <a name="example-of-an-approval-workflow"></a>Example of an approval workflow
 
 This video shows how to set up a workflow requiring a user to request someone else's approval before they can change information about an existing customer or create a new customer.  
 <br><br>  
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/create-workflows/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a>See also
 
 [Use Approval Workflows](across-use-workflows.md)  
 [Workflow](across-workflow.md)  

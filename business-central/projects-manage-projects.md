@@ -9,7 +9,7 @@ ms.search.form: '89, 200, 289, 290, 376, 462, 463, 1029, 1615, 8904, 9014, 9015'
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# <a name="project-management"></a><a name="project-management"></a><a name="project-management"></a>Project Management
+# <a name="project-management"></a>Project Management
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], you can perform common project management tasks, such as configuring a job and scheduling a resource, as well as providing the information needed to manage budgets and monitor progress. You can track machine and employee hours on the project by using time sheets. As a project manager, you have a good overview, not only of individual jobs, but also of the allocation of employees, machinery and other resources being used in all projects.
 
@@ -29,11 +29,11 @@ The following table describes a sequence of tasks, with links to the topics that
 | Post the consumption of materials, resources, and other expenses of job work in progress (WIP) to monitor its financial value and to maintain correct financial statements even though you post job expenses before invoicing the job. |[Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md) |
 | Record job costs for resource usage, materials, and job-related purchases on an on-going basis and invoice the customer, either when the job is finished or according to an invoicing schedule. |[Invoice Jobs](projects-how-invoice-jobs.md) |
 
-## <a name="get-started-with-projects"></a><a name="get-started-with-projects"></a><a name="get-started-with-projects"></a>Get started with projects
+## <a name="get-started-with-projects"></a>Get started with projects
 
 Project management is complicated enough in itself, and learning how to create jobs and managing work in progress in a new tool can be another complication. To help you get started with project management in [!INCLUDE[prod_short](includes/prod_short.md)], you can see [a video about creating jobs](https://www.youtube.com/watch?v=VqaPWr7BWmw) on the [!INCLUDE[prod_short](includes/prod_short.md)] YouTube channel.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See Also
+## <a name="see-also"></a>See Also
 
 [Setting Up Project Management](projects-setup-projects.md)  
 [Video: How to create a job in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

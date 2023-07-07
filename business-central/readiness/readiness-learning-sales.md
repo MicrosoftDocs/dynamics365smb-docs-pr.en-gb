@@ -7,13 +7,13 @@ ms.topic: conceptual
 ms.author: margoc
 ---
 
-# <a name="partner-sales-and-marketing-learning-catalog"></a><a name="partner-sales-and-marketing-learning-catalog"></a><a name="partner-sales-and-marketing-learning-catalog"></a>Partner Sales and Marketing Learning Catalogue
+# <a name="partner-sales-and-marketing-learning-catalog"></a>Partner Sales and Marketing Learning Catalogue
 
 Are you responsible for helping your customers buy the right solution?
 
 The following catalogue is organised from core knowledge to specific domains, and from most basic to most advanced. If content exists in multiple formats, we'll let you know, so that you can choose the training format that best meets your needs.  
 
-## <a name="business-value"></a><a name="business-value"></a><a name="business-value"></a>Business value<a name="busvalue"></a>
+## <a name="business-value"></a><a name="busvalue"></a>Business value
 
 | Content     | Description    | Format                                | Length              |
 |-------------|----------------|---------------------------------------|---------------------|
@@ -21,7 +21,7 @@ The following catalogue is organised from core knowledge to specific domains, an
 | [Explore Dynamics 365 Business Central Capabilities](https://dynamics.microsoft.com/business-central/capabilities/) | Explore Dynamics 365 Business Central Capabilities    | Website    |                     |
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/)            | This module shows application features, benefits, and examples of Dynamics 365 Business Central in action.    | Free, self-paced online learning path | 24 minutes          |
 
-## <a name="getting-started"></a><a name="getting-started"></a><a name="getting-started"></a>Getting started<a name="get-started"></a>
+## <a name="getting-started"></a><a name="get-started"></a>Getting started
 
 | Content   | Description   | Format                                | Length              |
 |-----------|---------------|---------------------------------------|---------------------|
@@ -30,7 +30,7 @@ The following catalogue is organised from core knowledge to specific domains, an
 | [Work like a pro with data in Business Central](/training/paths/work-pro-data-dynamics-365-business-central) | Are you just getting started with Business Central? This learning path will help prepare you for the types of data in Business Central and how to find information you need in the application.      | Free, self-paced online learning path | 2 hours 27 minutes  |
 | [Business Central YouTube playlist](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4) | YouTube landing page for Dynamics 365 Business Central videos  | YouTube Videos  |                     |
 
-## <a name="grow-your-business"></a><a name="grow-your-business"></a><a name="grow-your-business"></a>Grow your business<a name="grow"></a>
+## <a name="grow-your-business"></a><a name="grow"></a>Grow your business
 
 | Content   | Description        | Format                                | Length                |
 |-----------|--------------------|---------------------------------------|-----------------------|

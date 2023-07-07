@@ -11,7 +11,7 @@ ms.search.form: '977, 462, 76, 77'
 ms.date: 12/13/2021
 ms.author: edupont
 ---
-# <a name="set-up-time-sheets"></a><a name="set-up-time-sheets"></a><a name="set-up-time-sheets"></a>Set Up Time Sheets
+# <a name="set-up-time-sheets"></a>Set Up Time Sheets
 
 Time sheets in [!INCLUDE[prod_short](includes/prod_short.md)] handle time registration in weekly increments of seven days. You can use them to track the time used on projects, and you can use them to record simple resource time registration. Before you can use time sheets, you must specify which users will submit time sheets and how you want to configure time sheets.  
 
@@ -25,7 +25,7 @@ Optionally, specify if and how time sheets are approved. Depending on the needs 
 
 When you have set up time sheets, you can create time sheets for resources, and the resources can post time sheet lines. Optionally, assign time sheets to job planning lines. For more information, see [Use Time Sheets](projects-how-use-time-sheets.md).  
 
-## <a name="set-up-time-sheets-with-the-assisted-setup-guide"></a><a name="set-up-time-sheets-with-the-assisted-setup-guide"></a><a name="set-up-time-sheets-with-the-assisted-setup-guide"></a>Set up time sheets with the assisted setup guide
+## <a name="set-up-time-sheets-with-the-assisted-setup-guide"></a>Set up time sheets with the assisted setup guide
 
 [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
 
@@ -53,11 +53,11 @@ The assisted setup guide takes you through the following steps:
 
 At the end of the setup guide, you can choose to let [!INCLUDE [prod_short](includes/prod_short.md)] create time sheets based on your configuration. View the new time sheets in the **Time Sheets** page, which you can open [here](https://businesscentral.dynamics.com/?page=951). Alternatively, run the assisted setup guide again, or complete the setup manually.  
 
-## <a name="set-up-time-sheets-manually"></a><a name="set-up-time-sheets-manually"></a><a name="set-up-time-sheets-manually"></a>Set up time sheets manually
+## <a name="set-up-time-sheets-manually"></a>Set up time sheets manually
 
 The following sections describe how to set up time sheets if you do not use the **Set Up Time Sheets** assisted setup guide.  
 
-### <a name="to-set-up-general-information-for-time-sheets-manually"></a><a name="to-set-up-general-information-for-time-sheets-manually"></a><a name="to-set-up-general-information-for-time-sheets-manually"></a>To set up general information for time sheets manually
+### <a name="to-set-up-general-information-for-time-sheets-manually"></a>To set up general information for time sheets manually
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resources Setup**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -69,7 +69,7 @@ The following sections describe how to set up time sheets if you do not use the 
 | **Always** |The user in the **Person Responsible** field on the job card approves the time sheet. |
 | **Machine Only** |If the machine time sheet is linked with a job, then the user in the **Person Responsible** field on the job card approves the time sheet. If the machine time sheet is linked with a resource, then the user in the **Time Sheet Approver User ID** field on the resource card approves the time sheet. |
 
-### <a name="to-assign-a-time-sheet-administrator-manually"></a><a name="to-assign-a-time-sheet-administrator-manually"></a><a name="to-assign-a-time-sheet-administrator-manually"></a>To assign a time sheet administrator manually
+### <a name="to-assign-a-time-sheet-administrator-manually"></a>To assign a time sheet administrator manually
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Setup**, and then choose the related link.  
 2. Add a new user if the user list does not include the person who you want to be the time sheet administrator. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
@@ -78,7 +78,7 @@ The following sections describe how to set up time sheets if you do not use the 
 > [!TIP]  
 > It is recommended that you designate only one user to be the time sheet administrator for a company. In the following procedure, you set up a time sheet owner and approver where the time sheet approver is assigned for each resource.  
 
-### <a name="to-assign-a-time-sheets-owner-and-approver-manually"></a><a name="to-assign-a-time-sheets-owner-and-approver-manually"></a><a name="to-assign-a-time-sheets-owner-and-approver-manually"></a>To assign a time sheets owner and approver manually
+### <a name="to-assign-a-time-sheets-owner-and-approver-manually"></a>To assign a time sheets owner and approver manually
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resources**, and then choose the related link.
 2. Select the resource for which you want to set up the ability to use time sheets, and then select the **Use Time Sheet** check box.  
@@ -88,9 +88,9 @@ The following sections describe how to set up time sheets if you do not use the 
 > [!NOTE]  
 > You cannot change the ID of the time sheet approver if there are time sheets that have not yet been processed and have the status of **Submitted** or **Open**.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/set-up-jobs-resources/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a>See also
 
 [Use Time Sheets for Projects](projects-how-use-time-sheets.md)  
 [How To Create Time Sheets](projects-how-use-time-sheets.md#to-create-time-sheets)  

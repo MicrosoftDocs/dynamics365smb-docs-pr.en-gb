@@ -10,14 +10,14 @@ ms.search.keywords: 'SMTP, mail, Microsoft 365'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="use-business-central-without-outlook"></a><a name="use-business-central-without-outlook"></a><a name="use-business-central-without-outlook"></a>Use Business Central without Outlook
+# <a name="use-business-central-without-outlook"></a>Use Business Central without Outlook
 [!INCLUDE[prod_short](includes/prod_short.md)] has deep integration with Microsoft 365, and you can use [!INCLUDE[prod_short](includes/prod_short.md)] as your business inbox in Outlook. But if you do not have Outlook, you can work with [!INCLUDE[prod_short](includes/prod_short.md)] in the browser or on your mobile device.  
 
-## <a name="sending-email"></a><a name="sending-email"></a><a name="sending-email"></a>Sending Email
+## <a name="sending-email"></a>Sending Email
 You can send documents such as invoices as email using your business email address. From your Role Centre, you can access an assisted setup guide that helps you set up email. If you do not use a Microsoft 365 email account, you must specify technical information about your mail server. If you do not have this information available, please contact your IT support staff.  
 
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See Also
+## <a name="see-also"></a>See Also
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Use Business Central as your Business Inbox in Outlook](admin-outlook.md)  
 [Getting Business Central on my Mobile Device](install-mobile-app.md)  

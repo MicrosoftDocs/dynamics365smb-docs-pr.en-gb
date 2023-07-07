@@ -11,15 +11,15 @@ ms.date: 09/17/2021
 ms.author: edupont
 ---
 
-# <a name="posting-date-on-adjustment-value-entry-compared-to-the-source-entry"></a><a name="posting-date-on-adjustment-value-entry-compared-to-the-source-entry"></a><a name="posting-date-on-adjustment-value-entry-compared-to-the-source-entry"></a>Posting Date on Adjustment Value Entry Compared to the Source Entry
+# <a name="posting-date-on-adjustment-value-entry-compared-to-the-source-entry"></a>Posting Date on Adjustment Value Entry Compared to the Source Entry
 
 This article compares the Posting Date on the Adjustment Value Entry with the Posting Date on the entry causing the running of the Adjust Cost - Item Entries batch job, in particular a Revaluation scenario and an Item Charge scenario.
 
 The **Adjust Cost - Item Entries** batch job will process your data depending on your scenario and configuration of [!INCLUDE[prod_short](includes/prod_short.md)]. In this section, we describe two separate processes, and for each one we show the type of impact the Adjust Cost - Item Entries batch job has on the data.
 
-## <a name="revaluation-scenario"></a><a name="revaluation-scenario"></a><a name="revaluation-scenario"></a>Revaluation scenario
+## <a name="revaluation-scenario"></a>Revaluation scenario
 
-### <a name="prerequisites"></a><a name="prerequisites"></a><a name="prerequisites"></a>Prerequisites
+### <a name="prerequisites"></a>Prerequisites
 
 Please enter the following values:
 
@@ -45,7 +45,7 @@ Please enter the following values:
 
 - Allow Posting To = Empty  
 
-### <a name="to-test-the-scenario"></a><a name="to-test-the-scenario"></a><a name="to-test-the-scenario"></a>To test the scenario
+### <a name="to-test-the-scenario"></a>To test the scenario
 
 Test this scenario by carrying out the following steps.
 
@@ -150,15 +150,15 @@ The adjustment made for the Negative Adjustment in step 3 causes discussion. The
 
 To achieve adjustment in December of the Negative Adjustment in step 3, the General Ledger Setup, Allow Posting From field, needs to state a date in December.  
 
-### <a name="conclusion"></a><a name="conclusion"></a><a name="conclusion"></a>Conclusion
+### <a name="conclusion"></a>Conclusion
 
 With the experience gained in this scenario, when considering the most suitable setup for an allowed posting date range for a company, you might want to consider the following. As long as you allow changes in the inventory value to be posted in a period, such as December in this case, the setup that the company uses for allowed posting date ranges should be aligned with this decision. The Allow Posting From in the General Ledger Setup, stating December 1, would allow the revaluation made in December to be forwarded to affected outbound entries in the same period.  
 
 User groups not allowed to post in December but in January, which was probably intended to be limited by the General Ledger Setup in this scenario, should instead be addressed via the User setup.  
 
-## <a name="item-charge-scenario"></a><a name="item-charge-scenario"></a><a name="item-charge-scenario"></a>Item charge scenario
+## <a name="item-charge-scenario"></a>Item charge scenario
 
-### <a name="prerequisites-1"></a><a name="prerequisites-1"></a><a name="prerequisites-1"></a>Prerequisites
+### <a name="prerequisites-1"></a>Prerequisites
 
 Please enter the following values:
 
@@ -184,7 +184,7 @@ Please enter the following values:
 
 - Allow Posting to = Empty  
 
-### <a name="to-test-the-scenario-1"></a><a name="to-test-the-scenario-1"></a><a name="to-test-the-scenario-1"></a>To test the scenario
+### <a name="to-test-the-scenario-1"></a>To test the scenario
 
 Test this scenario by carrying out the following steps:
 
@@ -350,7 +350,7 @@ It is a challenge to get the Inventory Valuation report to demonstrate Quantity 
 
 In this scenario one option could have been to have the General Ledger Setup, field Allow Posting From, stating a date in December for a couple of more days and the posting of the first item charge postponed to allow all costs for the previous period/fiscal year to be recognised for the period they belong to first, having the Adjust Cost – Item entries batch job run and thereafter move the allowed posting date to the new period\/fiscal year. The first item charge with posting date January 2 could then be posted.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See Also
+## <a name="see-also"></a>See Also
 
 [Design Details: Posting Date on Adjustment Value Entry](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  

@@ -9,11 +9,11 @@ ms.date: 02/27/2023
 ms.custom: bap-template
 ms.search.form: '99000883, 99000884,'
 ---
-# <a name="create-production-orders-from-sales-orders"></a><a name="create-production-orders-from-sales-orders"></a><a name="create-production-orders-from-sales-orders"></a>Create Production Orders from Sales Orders
+# <a name="create-production-orders-from-sales-orders"></a>Create Production Orders from Sales Orders
 
 You can create production orders for produced items directly from sales orders.  
 
-## <a name="to-create-a-production-order-from-a-sales-order"></a><a name="to-create-a-production-order-from-a-sales-order"></a><a name="to-create-a-production-order-from-a-sales-order"></a>To create a production order from a sales order
+## <a name="to-create-a-production-order-from-a-sales-order"></a>To create a production order from a sales order
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2. Select the sales order you want to create a production order for.  
@@ -27,7 +27,7 @@ You can create production orders for produced items directly from sales orders.
     >
     > When you create production orders for sales orders with the Sales Order Planning page, order-to-order links are applied between demand and supply. When order-to-order links exist, the planning system doesn't include linked supply or inventory in the balancing procedure. To learn more about balancing, go to [Order-to-order links](design-details-central-concepts-of-the-planning-system.md#order-to-order-links).
 
-## <a name="order-type"></a><a name="order-type"></a><a name="order-type"></a>Order type
+## <a name="order-type"></a>Order type
 
 The following table describes two ways to create production orders.
 
@@ -36,7 +36,7 @@ The following table describes two ways to create production orders.
 |Item Order|One production order is created for each item represented by a line in the **Sales Order Planning** page.|
 |Project Order|One multiline production order is created for all items represented by lines on the **Sales Order Planning** page. When you use project orders, the **Source Type** field of the production order contains **Sales Header**. The order has one line for each sales line item that must be produced.|
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See Also
+## <a name="see-also"></a>See Also
 
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)  

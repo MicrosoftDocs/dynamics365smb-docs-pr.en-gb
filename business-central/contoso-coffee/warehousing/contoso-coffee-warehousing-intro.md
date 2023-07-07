@@ -9,7 +9,7 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="introduction-to-contoso-coffee-warehousing"></a><a name="introduction-to-contoso-coffee-warehousing"></a><a name="introduction-to-contoso-coffee-warehousing"></a>Introduction to Contoso Coffee Warehousing
+# <a name="introduction-to-contoso-coffee-warehousing"></a>Introduction to Contoso Coffee Warehousing
 
 Contoso Coffee is a fictitious company that produces consumer and commercial coffee makers. The **Contoso Coffee** apps for Business Central add demo data that you can use to learn how to use the warehousing capabilities in Business Central. You can configure warehouse features in various ways, see [Overview of different configuration options](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
@@ -27,7 +27,7 @@ The app provides three locations that are optimised for different scenarios:
 
   This Location uses the Advanced Warehouse configuration with directed put-aways and picks, which enables more advanced rules to how items move throughout Warehouse.
 
-## <a name="set-up-contoso-coffee-warehousing-data"></a><a name="set-up-contoso-coffee-warehousing-data"></a><a name="set-up-contoso-coffee-warehousing-data"></a>Set up Contoso Coffee Warehousing data
+## <a name="set-up-contoso-coffee-warehousing-data"></a>Set up Contoso Coffee Warehousing data
 
 To use the Contoso Coffee Warehousing demo data, you must install two apps in the relevant company in [!INCLUDE [prod_short](../../includes/prod_short.md)]:  
 
@@ -70,7 +70,7 @@ Once you're ready, choose the **Create Demo Data** action. It takes a few minute
 > [!IMPORTANT]
 > If you are running the Scenarios, you may want to verify that your user has been added as for selected locations. For more information, see [Set Up Warehouse Employees](../../warehouse-how-to-set-up-warehouse-employees.md).
 
-## <a name="scenarios"></a><a name="scenarios"></a><a name="scenarios"></a>Scenarios
+## <a name="scenarios"></a>Scenarios
 
 The Contoso Coffee warehousing demo data currently supports the following scenarios for test and training:
 
@@ -80,7 +80,7 @@ The Contoso Coffee warehousing demo data currently supports the following scenar
 
 Read the steps for each scenario in the relevant article.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See also
+## <a name="see-also"></a>See also
 
 [Setting Up Inventory](../../inventory-setup-inventory.md) 
 [How to Setup Locations](../../inventory-how-setup-locations.md) 

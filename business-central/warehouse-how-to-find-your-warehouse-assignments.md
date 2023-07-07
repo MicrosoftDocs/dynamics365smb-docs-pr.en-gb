@@ -10,11 +10,11 @@ ms.search.form: 9000
 ms.date: 06/24/2021
 ms.author: edupont
 ---
-# <a name="find-your-warehouse-assignments"></a><a name="find-your-warehouse-assignments"></a><a name="find-your-warehouse-assignments"></a>Find Your Warehouse Assignments
+# <a name="find-your-warehouse-assignments"></a>Find Your Warehouse Assignments
 
 To find your warehouse assignments, open the card page for a selected item. If warehouse instructions have been created, Take and Place lines are visible, and you can begin working on an assignment. In some warehouses, the manager may have assigned specific instructions to each employee. For more information, see [Set Up Warehouse Employees](warehouse-how-to-set-up-warehouse-employees.md).
 
-## <a name="to-find-an-instruction-assigned-to-you"></a><a name="to-find-an-instruction-assigned-to-you"></a><a name="to-find-an-instruction-assigned-to-you"></a>To find an instruction assigned to you
+## <a name="to-find-an-instruction-assigned-to-you"></a>To find an instruction assigned to you
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Put-aways**, **Warehouse Picks**, or **Warehouse Movement**, and then choose the related link.
 
@@ -25,7 +25,7 @@ To find your warehouse assignments, open the card page for a selected item. If w
 
 You can use the **Assigned User ID** field on the header to claim work assignments, if the warehouse manager does not assign particular instructions to individuals. Simply enter your user ID in the header of the warehouse before you begin work on an instruction. Your co-workers can then choose to work on other instructions, and the warehouse will avoid a duplication of effort.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See Also
+## <a name="see-also"></a>See Also
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

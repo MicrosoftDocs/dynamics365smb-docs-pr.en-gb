@@ -11,7 +11,7 @@ ms.date: 04/12/2021
 ms.author: jswymer
 ---
 
-# <a name="searching-for-customers-vendors-and-other-contacts-from-microsoft-teams"></a><a name="searching-for-customers-vendors-and-other-contacts-from-microsoft-teams"></a><a name="searching-for-customers-vendors-and-other-contacts-from-microsoft-teams"></a>Searching for Customers, Vendors, and Other Contacts from Microsoft Teams
+# <a name="searching-for-customers-vendors-and-other-contacts-from-microsoft-teams"></a>Searching for Customers, Vendors, and Other Contacts from Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]. Introduced in 2021 release wave 1.
 
@@ -21,7 +21,7 @@ ms.author: jswymer
 - Share a contact as a card in a Teams conversation.
 - View details about the contact, interaction history, and other insights like outstanding payments or open documents.
 
-## <a name="prerequisites"></a><a name="prerequisites"></a><a name="prerequisites"></a>Prerequisites
+## <a name="prerequisites"></a>Prerequisites
 
 - You have access to Microsoft Teams.
 - You've installed the [!INCLUDE [prod_short](includes/prod_short.md)] app in Teams. For more information, see [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)
@@ -30,7 +30,7 @@ ms.author: jswymer
 > [!NOTE]
 > Whether you searching from the command box or message compose box, you may be asked to sign in or set up the app the first time. This step is necessary to search for contacts in the right Business Central company. For information about setting up the app to choose your company, see [Changing Company and Other Settings in Teams](across-teams-settings.md).
 
-## <a name="look-up-contacts-from-the-command-box"></a><a name="look-up-contacts-from-the-command-box"></a><a name="look-up-contacts-from-the-command-box"></a>Look up contacts from the command box
+## <a name="look-up-contacts-from-the-command-box"></a>Look up contacts from the command box
 
 The command box is at the top of every screen in Teams. It lets you search, take quick actions, or launch apps, like the [!INCLUDE [prod_short](includes/prod_short.md)] app. Searching from the command box is great for quickly looking up contacts and their related data for your own use. For example, suppose you want to look up an email address of a vendor to set up a calendar meeting. Or maybe you want to look up interaction history during a meeting with a customer.
 
@@ -51,7 +51,7 @@ The command box is at the top of every screen in Teams. It lets you search, take
 
 For more general information about the command box in Teams, see [Teams - Use the command box](https://support.microsoft.com/en-us/office/use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b).
 
-## <a name="look-up-contacts-from-the-message-compose-box"></a><a name="look-up-contacts-from-the-message-compose-box"></a><a name="look-up-contacts-from-the-message-compose-box"></a>Look up contacts from the message compose box
+## <a name="look-up-contacts-from-the-message-compose-box"></a>Look up contacts from the message compose box
 
 The advantage of using the message compose box is that you can add a contact card directly to a conversation, for others to see.
 
@@ -73,13 +73,13 @@ The advantage of using the message compose box is that you can add a contact car
     > [!NOTE]
     > The contact card isn't sent to the conversation right away for others to see. You have the opportunity to review the contents of the card, and add text before or after it as you like. Then, send your message to the chat when ready.
 
-### <a name="heres-another-way"></a><a name="heres-another-way"></a><a name="heres-another-way"></a>Here's another way
+### <a name="heres-another-way"></a>Here's another way
 
 1. Instead of using the **Business Central** icon, type **@Business Central** directly in the message compose box.
 2. Enter your search terms in the box.
 3. Use the up and down arrow keys on the keyboard to choose a contact, then select <kbd>Enter</kbd> to select it.
 
-## <a name="viewing-contact-card-details"></a><a name="viewing-contact-card-details"></a><a name="viewing-contact-card-details"></a>Viewing contact card details
+## <a name="viewing-contact-card-details"></a>Viewing contact card details
 
 The contact card in Teams gives you a quick overview of the customer, vendor, or contact. The card is interactive&mdash;meaning you can view more information or even modify a contact by using the **Details** or **Pop-out** buttons.
 
@@ -90,7 +90,7 @@ The contact card works just like cards for records, like items, customers, or sa
 > [!NOTE]
 > All participants in a Teams conversation will be able to view cards for Business Central contact that you submit to a conversation. But to view more details about records, by using the **Details** or **Pop out** buttons on a card, they'll need access to [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Managing Microsoft Teams Integration](admin-teams-integration.md#minimum-requirements-1).
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See Also
+## <a name="see-also"></a>See Also
 
 [Business Central and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)  

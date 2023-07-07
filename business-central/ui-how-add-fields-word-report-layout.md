@@ -11,7 +11,7 @@ ms.date: 11/25/2021
 ms.author: jswymer
 ---
 
-# <a name="work-with-word-layouts"></a><a name="work-with-word-layouts"></a><a name="work-with-word-layouts"></a>Work with Word Layouts
+# <a name="work-with-word-layouts"></a>Work with Word Layouts
 
 A Word report layout determines the content and format of a report when it is previewed and printed from Business Central. You create and modify these layouts using Microsoft Word.
 
@@ -26,18 +26,18 @@ If you're designing a Word report layout from scratch or adding new data fields,
 > [!TIP]  
 > Show the table gridlines so that you see the boundaries of table cells. Remember to hide the gridlines when you're done editing. To show or hide table gridlines, select the table, and then under **Layout** on the **Table** tab, choose **View Gridlines**.
 
-## <a name="embedding-fonts-in-word-layouts-for-consistency"></a><a name="embedding-fonts-in-word-layouts-for-consistency"></a><a name="embedding-fonts-in-word-layouts-for-consistency"></a>Embedding Fonts in Word Layouts for Consistency
+## <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Embedding Fonts in Word Layouts for Consistency
 
 To ensure that reports always display and print with the intended fonts, wherever users open or print the reports, you can embed the fonts in the Word document. However, embedding fonts can significantly increase the size of the Word files. For more information about embedding fonts in Word, see [Embed fonts in Word, PowerPoint, or Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
-## <a name="adding-data-fields"></a><a name="adding-data-fields"></a><a name="adding-data-fields"></a>Adding data fields
+## <a name="adding-data-fields"></a>Adding data fields
 
 A report dataset can consist of fields that display labels, data, and images. This topic describes the procedure for adding fields of a report dataset to an existing Word report layout for a report. You add fields by using the Word custom XML part for the report and adding content controls that map to the fields of the report dataset. Adding fields requires that you have some knowledge of the report's dataset so that you can identify the fields that you want to add to the layout.  
   
 > [!NOTE]  
 >  You cannot modify built-in report layouts<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
 
-### <a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="OpenXMLPart"></a>To open the Custom XML part for the Report in Word
+### <a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="OpenXMLPart"></a>To open the Custom XML part for the Report in Word
   
 1. If not already open, then open the Word report layout document in Word.  
   
@@ -59,7 +59,7 @@ A report dataset can consist of fields that display labels, data, and images. Th
   
      After you select the custom XML part, the XML Mapping pane displays the labels and field controls that are available for the report.  
   
-### <a name="to-add-a-label-or-data-field"></a><a name="to-add-a-label-or-data-field"></a><a name="to-add-a-label-or-data-field"></a>To add a label or data field
+### <a name="to-add-a-label-or-data-field"></a>To add a label or data field
   
 1. Place your cursor in the document where you want to add the control.  
   
@@ -68,7 +68,7 @@ A report dataset can consist of fields that display labels, data, and images. Th
     > [!NOTE]  
     >  You cannot add a field by manually typing the dataset field name in the content control. You must use the **XML Mapping** pane to map the fields.  
   
-### <a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a><a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a><a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a>To add repeating rows of data fields to create a list
+### <a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a>To add repeating rows of data fields to create a list
   
 1. In a table, add a table row that includes a column for each field that you want repeated.  
   
@@ -86,7 +86,7 @@ A report dataset can consist of fields that display labels, data, and images. Th
   
     3. For each field, repeat steps a and b.  
   
-## <a name="adding-image-fields"></a><a name="adding-image-fields"></a><a name="adding-image-fields"></a>Adding image fields
+## <a name="adding-image-fields"></a>Adding image fields
 
 A report dataset can include a field that contains an image, such as a company logo or a picture of an item. To add an image from the report dataset, you insert a **Picture** content control.  
   
@@ -95,7 +95,7 @@ Images align in the top-left corner of the content control and resize automatica
 > [!IMPORTANT]  
 > You can only add images that have a format that is supported by Word, such as .bmp, .jpeg, and .png file types. If you add an image that has a format that is not supported by Word, you will get an error when you run the report from the [!INCLUDE[prod_short](includes/prod_short.md)] client.  
   
-### <a name="to-add-an-image"></a><a name="to-add-an-image"></a><a name="to-add-an-image"></a>To add an image
+### <a name="to-add-an-image"></a>To add an image
   
 1. Place your pointer in the document where you want to add the control.  
   
@@ -103,7 +103,7 @@ Images align in the top-left corner of the content control and resize automatica
   
 3. To increase or decrease the image size, drag a sizing handle away from or towards the centre of the content control.  
 
-## <a name="removing-label-and-data-fields"></a><a name="removing-label-and-data-fields"></a><a name="removing-label-and-data-fields"></a><a name="RemoveField"></a> Removing label and data fields
+## <a name="removing-label-and-data-fields"></a><a name="RemoveField"></a>Removing label and data fields
 
 Label and data fields of a report are contained in content controls in Word. The following figure illustrates a content control when it's selected in the Word document.  
 
@@ -111,7 +111,7 @@ Label and data fields of a report are contained in content controls in Word. The
 
 The name of the label or data field name displays in the content control. In the example, the field name is CompanyAddr1.  
 
-### <a name="to-remove-a-label-or-data-field"></a><a name="to-remove-a-label-or-data-field"></a><a name="to-remove-a-label-or-data-field"></a>To remove a label or data field
+### <a name="to-remove-a-label-or-data-field"></a>To remove a label or data field
 
 1. Right-click the field that you want to delete, and then choose **Remove Content Control**.  
 
@@ -119,11 +119,11 @@ The name of the label or data field name displays in the content control. In the
 
 2. Delete the remaining text as needed.
 
-## <a name="custom-xml-part-overview"></a><a name="custom-xml-part-overview"></a><a name="custom-xml-part-overview"></a>Custom XML Part Overview
+## <a name="custom-xml-part-overview"></a>Custom XML Part Overview
 
 Word report layouts are built on *custom XML parts*. A custom XML part for a report consists of elements that correspond to the data items, columns, and labels that comprise the report's dataset. <!--OnPrem The data as defined in the Report Dataset Designer in Microsoft Dynamics NAV Development Environment. -->The custom XML part is used to map the data into a report when the report is run.
 
-### <a name="xml-structure-of-custom-xml-part"></a><a name="xml-structure-of-custom-xml-part"></a><a name="xml-structure-of-custom-xml-part"></a>XML structure of custom XML part
+### <a name="xml-structure-of-custom-xml-part"></a>XML structure of custom XML part
 
 The following table provides a simplified overview of the XML of a custom XML part.  
   
@@ -136,7 +136,7 @@ The following table provides a simplified overview of the XML of a custom XML pa
 |`....<DataItem2>`<br /><br /> `......<DataItem2Column1>DataItem2Column1</DataItem2Column1>`<br /><br /> `....</DataItem2>`<br /><br /> `....<DataItem3>`<br /><br /> `......<DataItem3Column1>DataItem3Column1</DataItem3Column1>`<br /><br /> `....</DataItem3>`|Data items and columns that are nested in the top-level data item. Columns are listed in alphabetical order under the respective data item.|  
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Closing element.|  
   
-### <a name="custom-xml-part-in-word"></a><a name="custom-xml-part-in-word"></a><a name="custom-xml-part-in-word"></a>Custom XML part in Word
+### <a name="custom-xml-part-in-word"></a>Custom XML part in Word
 
  In Word, you open the custom XML part in the **XML Mapping** pane, and then use the pane to map elements to content controls in the Word document. The **XML Mapping** pane is accessible from the **Developer** tab (for more information, see [Show the Developer Tab on the Ribbon](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon)).  
   
@@ -154,7 +154,7 @@ The following table provides a simplified overview of the XML of a custom XML pa
   
 * The language of the label that is displayed when you run the report depends on the language setting of the report object.  
   
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>See Also
+## <a name="see-also"></a>See Also
 
 [Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md)   
 
