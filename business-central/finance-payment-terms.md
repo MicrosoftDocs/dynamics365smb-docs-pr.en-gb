@@ -7,7 +7,7 @@ ms.search.form: 4
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-payment-terms"></a>Set Up Payment Terms
+# Set Up Payment Terms
 
 Payment terms determine how you manage due dates and payment discounts. You can set up any number of payment term codes and use date formulas to define the payment terms. When you first sign up for [!INCLUDE [prod_short](includes/prod_short.md)], the demonstration company provides a few payment methods that businesses often use. You can, however, add as many as you need.  
 
@@ -19,7 +19,7 @@ Similarly, when you post a credit memo, [!INCLUDE [prod_short](includes/prod_sho
 
 If you want to send your customers reminders of overdue payments, you must set up reminder levels and terms. For more information, see [Set Up Reminder Terms and Levels](finance-setup-reminders.md).  
 
-## <a name="to-set-up-payment-terms"></a>To set up payment terms
+## To set up payment terms
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Terms**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -29,9 +29,9 @@ After you set up the payment terms, you assign them to customers and vendors. Op
 > [!TIP]
 > In the base version of [!INCLUDE [prod_short](includes/prod_short.md)], payment terms with partial payments are not supported. Instead, you must use the prepayments functionality. For more information, see [Set Up Prepayments](finance-set-up-prepayments.md).
 >
-> In certain countries, you *can* set up payment terms with partial payments. To learn if this capability is supported in your country, see the **Local Functionality** section in the navigation pane on the left side of a [Microsoft Learn](about-localization.md) article.
+> In certain countries/regions, you *can* set up payment terms with partial payments. To learn if this capability is supported in your country/region, see the **Local Functionality** section in the navigation pane on the left side of a [Microsoft Learn](about-localization.md) article.
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Set Up Payment Methods](finance-payment-methods.md)  
 [Set Up Prepayments](finance-set-up-prepayments.md)  
