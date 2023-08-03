@@ -10,7 +10,7 @@ ms.workload: na
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# <a name="the-worldpay-payments-standard-extension"></a>The WorldPay Payments Standard Extension
+# The WorldPay Payments Standard Extension
 
 > [!CAUTION]
 > The WorldPay Payments Standard extension will be deprecated. The code is market as obsolete starting in 2023 release wave 2. The app will be active for the next three major releases and then it will be removed.   
@@ -20,7 +20,7 @@ If you enable the extension, and send a sales invoice or sales order by email, t
 
 Enabling payment service extensions is free in [!INCLUDE[prod_short](includes/prod_short.md)], however, you will need to contact the payment service to get an account. For more information, see [Enable Customer Payment Through Payment Services](sales-how-enable-payment-service-extensions.md).
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
 [Setting Up Sales](sales-setup-sales.md)  
