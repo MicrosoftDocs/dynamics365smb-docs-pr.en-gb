@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# Set Up Shipping Agents
+# <a name="set-up-shipping-agents"></a>Set Up Shipping Agents
 You can set up a code for each of your shipping agents and enter information about them.  
 
 If you enter an Internet address for the shipping agent, and the agent provides package tracking services on the Internet, you can use the automatic package tracking feature. For more information, see [Track Packages](sales-how-track-packages.md).
@@ -20,7 +20,7 @@ For each shipping agent, you can set up an unlimited number of services, and you
 
 When you have assigned a shipping agent service to a sales order line, the shipping time of the service will be included in the order promising calculation, for that line. For more information, see [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md).
 
-## To set up a shipping agent  
+## <a name="to-set-up-a-shipping-agent"></a>To set up a shipping agent
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shipping Agents**, and then choose the related link.  
 2.  Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
 3.  Choose the **Shipping Agent Services** action.
@@ -29,7 +29,7 @@ When you have assigned a shipping agent service to a sales order line, the shipp
 > [!NOTE]  
 >  If you delete the shipping agent on the order line, the shipping agent service code is also deleted. The contents of fields that were based in part on the shipping agent service are recalculated.  
 
-## See Also
+## <a name="see-also"></a>See Also
 [Set Up Shipment Methods](sales-how-set-up-shipment-methods.md)  
 [Track Packages](sales-how-track-packages.md)    
 [Warehouse Management Overview](design-details-warehouse-management.md)
