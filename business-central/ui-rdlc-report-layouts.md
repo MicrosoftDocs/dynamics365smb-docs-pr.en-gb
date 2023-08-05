@@ -11,13 +11,13 @@ ms.search.form: '9650, 9652'
 ms.date: 03/14/2022
 ms.author: jswymer
 ---
-# <a name="working-with-rdlc-layouts"></a>Working with RDLC Layouts
+# Working with RDLC Layouts
 
 RDLC layouts are based on client report definition layout files (.rdl or .rdlc file types). The design concepts for RDLC layouts are similar to other layout types. The layout determines what fields to show and how they're arranged. However, designing RDLC layouts is more advanced than Word and Excel layouts.
 
 [![Shows the different elements of an RDLC layout.](media/rdlc-layout.png)](media/rdlc-layout.png#lightbox)
 
-## <a name="required-tools"></a>Required tools
+## Required tools
 
 To modify RDL layouts, you can use either Microsoft SQL Server Report Builder or Microsoft RDLC Report Designer.
 
@@ -25,7 +25,7 @@ To modify RDL layouts, you can use either Microsoft SQL Server Report Builder or
 
 - RDLC Report Designer is an extension for Visual Studio 2017 and later. You can download and install RDLC Report Designer from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftRdlcReportDesignerforVisualStudio-18001).
 
-## <a name="create-and-modify-rdlc-layouts"></a>Create and modify RDLC layouts
+## Create and modify RDLC layouts
 
 Creating and modifying RDLC layouts is an advanced task, which is typically done by power users or developers. The basic concepts aren't specific to Business Central report layouts. For this reason, we refer you to the following documentation:
 
@@ -41,9 +41,9 @@ behind RDL/RDLC, and how to use Report Builder.
 > [!NOTE]
 > Report Builder only recognises .rdl file type;, not .rdlc. Layout files exported from Business Central are .rdlc file types. So to modify these layout in Report Builder, rename the file type to .rdl.
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/index)
+## See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Managing Report Layouts](ui-manage-report-layouts.md)  
 [Set the Layout Used by a Report](ui-set-report-layout.md)  

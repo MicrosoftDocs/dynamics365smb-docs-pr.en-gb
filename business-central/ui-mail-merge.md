@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.forms: '9989, 13,'
 ---
 
-# <a name="use-word-templates-for-bulk-communication"></a>Use Word Templates for Bulk Communication
+# Use Word Templates for Bulk Communication
 
 Microsoft Word templates can make it easier to mass communicate in print or email with entities such as contacts, customers, and vendors. For example, you can create:
 
@@ -21,7 +21,7 @@ Microsoft Word templates can make it easier to mass communicate in print or emai
 > [!NOTE]
 > When you set up Word templates, you must use a device with Microsoft Word 2019 or newer and the Windows operating system installed.
 
-## <a name="set-up-the-source-of-data"></a>Set up the source of data
+## Set up the source of data
 
 Use entities in [!INCLUDE[prod_short](includes/prod_short.md)] as the source of data for the template, and add merge fields to personalise documents for each entity. The merge fields come from the entity in [!INCLUDE[prod_short](includes/prod_short.md)]. When you apply a Word template to an entity, data from the merge fields is inserted in the document.
 
@@ -42,7 +42,7 @@ When you download a template, you get a .zip file that includes two files.
 
 To learn about setting up a template in Word, go to [Set Up the Template in Word](#set-up-the-template-in-word).
 
-## <a name="add-entries-that-are-related-or-unrelated-to-the-source-entity"></a>Add entries that are related or unrelated to the source entity
+## Add entries that are related or unrelated to the source entity
 
 You can also merge data from other entities. To add other entities as data sources, use one of the following actions on the **Word Templates** page or when you're using the assisted setup guide:
 
@@ -57,7 +57,7 @@ You can create a hierarchy of entities, both related and unrelated. The relation
 
 When you add entities, use the **Field Prefix** field to specify a prefix for the field names. Later, when you add fields to the template, the prefix helps distinguish between fields from the source and other entities.
 
-### <a name="select-the-fields-to-include"></a>Select the fields to include
+### Select the fields to include
 
 For each entity, you can specify the fields that you want to be available for the template. Choose the number in the **Number of Selected fields** column to access a list of fields that are available. On the **Field Selection** page, use the **Include** checkbox to specify the fields. For some entities, fields that businesses typically use are included by default. You can edit the list, for example, to remove the default fields. Your changes apply only to the template you're working on.
 
@@ -67,7 +67,7 @@ For each entity, you can specify the fields that you want to be available for th
 > [!NOTE]
 > You or your Microsoft partner can add custom fields to entities. When you do, we prefix the name of the fields with **CALC** and give them the field type **Calculated**. The field type is called calculated to indicate the field can show different types of values, such as text, numbers, dates, and so on.
 
-## <a name="to-create-a-word-template-in-business-central"></a>To create a Word template in Business Central
+## To create a Word template in Business Central
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Word Templates**, and then choose the related link.
 2. Choose **New**, then **Create a Template**, and then follow the steps in the assisted setup guide. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -75,19 +75,19 @@ For each entity, you can specify the fields that you want to be available for th
 > [!TIP]
 > You can also create a template directly from the page for an entity by choosing the **Apply Word Template** action to open the assisted setup guide, and then **New Template**. When you do, the data source is chosen for you based on the type of entity.
 
-## <a name="set-up-the-template-in-word"></a>Set up the template in Word
+## Set up the template in Word
 
 When you're setting up a template in Word, on the **Mailings** tab you can add merge fields by choosing **Insert Merge Field**. The merge fields come from the data source file that you downloaded for the entity. They act as placeholders that tell Word where in the document to put the information about the entity.
 
 :::image type="content" source="media/word-tmpl-merge-field.PNG" alt-text="Adding merge fields in Microsoft Word":::
 
-## <a name="apply-a-template"></a>Apply a template
+## Apply a template
 
 When your Word template is ready, on the **Word Templates** page you can choose **Apply** to generate the documents. When you apply a Word template to an entity, data from the merge fields is inserted in the document. You can either create one document that contains sections for each entity, or choose **Split** to create a new document for each entity.
 
 You can use the **Apply Word Templates** action to apply templates to one or more of the same type of entity, such as a customer, directly in the context of the page for the entity. For example, the **Customer** or **Vendor** pages.
 
-## <a name="use-word-templates-with-email"></a>Use Word templates with email
+## Use Word templates with email
 
 You can use Word templates to add content to email messages. When you compose an email, you can choose the **Use Word Template** action to apply the content of a template to the message. You must have created templates for the entity. You can use one template at a time, and when you switch between templates the message changes to reflect the content from the chosen template.
 
@@ -95,7 +95,7 @@ Additionally, you can use the **Add File from Word Template** action to attach t
 
 :::image type="content" source="media/email-word-tmpl.PNG" alt-text="Options for using content from a Word template in an email":::
 
-## <a name="edit-a-word-template"></a>Edit a Word template
+## Edit a Word template
 
 You can make the following changes to your Word templates:
 
@@ -104,7 +104,7 @@ You can make the following changes to your Word templates:
 * To replace the Word template with a new template, use the **Upload** action
 * Delete the template
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
 [Set Up Email](admin-how-setup-email.md)  

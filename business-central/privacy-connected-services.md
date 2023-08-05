@@ -9,7 +9,7 @@ ms.date: 10/28/2022
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
-# <a name="trial-features-that-connect-to-other-microsoft-services"></a>Trial features that connect to other Microsoft services
+# Trial features that connect to other Microsoft services 
 
 [!INCLUDE[prod_long](includes/prod_long.md)] is a comprehensive business management solution that is deeply integrated with Microsoft 365 productivity apps and Power Platform. Your free trial of Business Central can connect to many different Microsoft services that you must first configure and enable. To get the most out of your free trial, some of these features have been automatically enabled for you. Even though the connection from [!INCLUDE[prod_short](includes/prod_short.md)] is enabled, these services aren't included with your trial and must be purchased separately unless you have them already.
 
@@ -32,6 +32,6 @@ The following table indicates the connections to Microsoft services that are aut
 
 Your privacy is important to us. To learn more about how Microsoft processes your data, view the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?linkid=521839).
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

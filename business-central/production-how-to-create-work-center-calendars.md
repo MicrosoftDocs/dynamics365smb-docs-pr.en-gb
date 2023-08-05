@@ -10,7 +10,7 @@ ms.search.form: '9291, 9293, 9295, 99000750, 99000751, 99000752, 99000753, 99000
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# <a name="set-up-shop-calendars"></a>Set Up Shop Calendars
+# Set Up Shop Calendars
 
 A work centre or machine calendar specifies the working days and hours, shifts, holidays, and absences that determine the centre’s gross available capacity, measured in time, according to its defined efficiency and capacity values.
 
@@ -18,7 +18,7 @@ As a foundation for calculating a specific work or machine centre calendar, you 
 
 The following describes how to set up work centre calendars. The steps are similar when setting up machine centre calendars.  
 
-## <a name="to-create-work-shifts"></a>To create work shifts
+## To create work shifts  
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Shifts**, and then choose the related link.  
 2.  On a blank line, enter a number in the **Code** field to identify the work shift, for example, **1**.  
 3.  Describe the work shift in the **Description** field, for example, **1st shift**.  
@@ -26,7 +26,7 @@ The following describes how to set up work centre calendars. The steps are simil
 
 Even if your work centres do not work in different work shifts, enter at least one work shift code.  
 
-## <a name="to-set-up-a-shop-calendar"></a>To set up a shop calendar
+## To set up a shop calendar  
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shop Calendars**, and then choose the related link.  
 2.  On a blank line, enter a number in the **Code** field to identify the shop calendar.  
 3.  Describe the shop calendar in the **Description** field.  
@@ -60,7 +60,7 @@ The defined holidays will have zero available capacity in a work centre calendar
 
 The shop calendar can now be assigned to a work centre to calculate the work shop calendar that will govern all operation scheduling at that work centre.  
 
-## <a name="to-calculate-a-work-center-calendar"></a>To calculate a work centre calendar
+## To calculate a work centre calendar  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Centres**, and then choose the related link.
 2. Open the work centre that you want to update.  
@@ -88,7 +88,7 @@ Calendar entries are now created or updated displaying the available capacity fo
 
 The calculated work centre calendar will now define when and how much capacity is available at this work centre. This controls the detailed scheduling of operations performed at the work centre.  
 
-## <a name="to-record-work-center-absence"></a>To record work centre absence
+## To record work centre absence  
 1.  On the **Work Centre Calendar** page, choose the **Show Matrix** action.
 2. On the **Work Centre Calendar Matrix** page, select the work centre and calendar day when the absence time should be recorded, and then choose the **Absence** action.  
 3.  On the **Absence** page, define the starting time, ending time, and description of that day’s absence. For example:  
@@ -99,7 +99,7 @@ The calculated work centre calendar will now define when and how much capacity i
 
 The capacity of the selected day has now decreased by the recorded absence time.  
 
-## <a name="see-also"></a>See Also
+## See Also  
 [Set Up Base Calendars](across-how-to-assign-base-calendars.md)  
 [Set Up Work Centres and Machine Centres](production-how-to-set-up-work-and-machine-centers.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  

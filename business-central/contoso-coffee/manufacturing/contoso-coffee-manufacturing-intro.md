@@ -9,7 +9,7 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="introduction-to-contoso-coffee-manufacturing"></a>Introduction to Contoso Coffee Manufacturing
+# Introduction to Contoso Coffee Manufacturing
 
 Contoso Coffee is a fictitious company that produces consumer and commercial coffee makers. The **Contoso Coffee** apps for Business Central add demo data that you can use to learn how to use the manufacturing capabilities in Business Central.  
 
@@ -36,7 +36,7 @@ The manufacturing activities for all scenarios use the *NORTH* location.
 > [!IMPORTANT]
 > Before you run any of the scenarios for Contoso Coffee, post any item journal lines with opening balances. For more requirements, see the [Set up Contoso Coffee data](#set-up-contoso-coffee-manufacturing-data) section.
 
-## <a name="set-up-contoso-coffee-manufacturing-data"></a>Set up Contoso Coffee Manufacturing data
+## Set up Contoso Coffee Manufacturing data
 
 To use the Contoso Coffee Manufacturing demo data, you must install two apps in the relevant company in [!INCLUDE [prod_short](../../includes/prod_short.md)]:  
 
@@ -45,7 +45,7 @@ To use the Contoso Coffee Manufacturing demo data, you must install two apps in 
     This app delivers demo data for the base application.  
 - **Contoso Coffee Demo Dataset (country ID)**  
 
-    This app adds country-specific content on top of the base application.
+    This app adds country or region-specific content on top of the base application.
 
 Add the apps to an empty company in a paid subscription or as part of a trial. For example, create a new company with no sample data from the **Create New Company** assisted setup guide that you can open from the **Companies** list. Then add the apps from the [marketplace](../../ui-extensions-install-uninstall.md#install) if they are not already listed in the **Extension Management** page.  
 
@@ -67,7 +67,7 @@ Once the relevant apps are installed, go to the [Contoso Coffee Demo Data](https
 
 Once you're ready, choose the **Create Demo Data** action. It takes a few minutes to add the data to the underlying database, but then you're ready to run the various scenarios.  
 
-## <a name="scenarios"></a>Scenarios
+## Scenarios
 
 The Contoso Coffee manufacturing demo data currently supports the following scenarios for test and training:
 
@@ -85,7 +85,7 @@ Read the steps for each scenario in the relevant article.
 > [!IMPORTANT]
 > These walkthroughs require that the user experience is set to *Premium* in the **Company Information** page.
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Manufacturing](../../production-manage-manufacturing.md)  
 [Production Reports and Analytics in Business Central](../../production-reports.md)  

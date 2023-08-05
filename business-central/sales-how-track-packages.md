@@ -8,12 +8,12 @@ ms.search.form: '142, 800, 806'
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# <a name="track-packages"></a>Track Packages
+# Track Packages
 Most shipping agents provide a web service that let you track the status of your packages while they're en route. That information can be useful in many business processes, for example, when providing customer service. If you use one or more shipping agents, you can enter some basic information about them, and then use their package tracking service directly from the Posted Sales Shipments, Posted Sales Invoices, Posted Sales Credit Memos, and Posted Return Receipt pages. For more information, see [Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md). 
 
 The following procedure shows how to track a package from a posted sales shipment, but the same steps apply to enable package tracking from the Posted Sales Invoice, Posted Sales Credit Memo, and Posted Return Receipt pages.  
 
-## <a name="to-track-a-package"></a>To track a package
+## To track a package
 
 > [!NOTE]
 > The following procedure uses the Posted Sales Shipment page as an example. The steps to track a package are the same on the Posted Sales Invoices, Posted Sales Credit Memos, and Posted Return Receipt pages.
@@ -24,7 +24,7 @@ The following procedure shows how to track a package from a posted sales shipmen
 4. Make sure that the correct shipping agent and the level of service are correct, and then close the page.
 5. Choose the **Track Package** action to open the shipping agent's package tracking service.
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)  
 [Sales](sales-manage-sales.md)  

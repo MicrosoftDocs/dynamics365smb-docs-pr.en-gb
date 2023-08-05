@@ -10,11 +10,11 @@ ms.review: jswymer
 ms.author: jswymer
 ms.service: dynamics365-business-central
 ---
-# <a name="minimum-requirements-for-using-business-central"></a>Minimum Requirements for Using Business Central
+# Minimum Requirements for Using Business Central
 
 Before you access [!INCLUDE[prod_short](includes/prod_short.md)] online, we recommend that you verify that your computer or mobile device meets or exceeds the minimum system requirements for the product. This article lists the requirements.  
 
-## <a name="browsers"></a>Browsers
+## Browsers
 
 **Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] is designed to work with the current version of Microsoft Edge.
   
@@ -25,13 +25,13 @@ Before you access [!INCLUDE[prod_short](includes/prod_short.md)] online, we reco
 > [!TIP]
 > Install the [!INCLUDE[prod_short](includes/prod_short.md)] [app in the Start menu](install-desktop-app.md#install-the-app-for-business-central-online) using the Microsoft Edge or Chrome browsers.
 
-## <a name="mobile-devices"></a>Mobile devices
+## Mobile devices
 
 **Android (tablet and phone):** One of the latest three major operating system versions and their updates.
 
 **iOS (iPad and iPhone):** One of the latest three major operating system versions and their updates.
 
-## <a name="outlook"></a>Outlook
+## Outlook
 
 **Outlook applications:** To use [!INCLUDE[prod_short](includes/prod_short.md)] online as your business inbox in Outlook, you'll need Outlook 2019 or later, Outlook on the web, Outlook for iOS, or Outlook for Android. Your organisation must also use Microsoft 365. You can't use [!INCLUDE[prod_short](includes/prod_short.md)] online as your business inbox in Outlook if your organisation uses Exchange Server on-premises. 
 
@@ -39,7 +39,7 @@ Before you access [!INCLUDE[prod_short](includes/prod_short.md)] online, we reco
 
 **Platforms:** When using the [!INCLUDE[prod_short](includes/prod_short.md)] Outlook Add-In in Outlook for iOS or Outlook for Android, the add-in requires that your mobile device is running one of the listed supported mobile devices for [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="teams"></a>Teams
+## Teams
 
 **Teams desktop applications:** The [!INCLUDE[prod_short](includes/prod_short.md)] app for Teams supports the latest version of the Teams Windows desktop client. 
 
@@ -49,11 +49,11 @@ Before you access [!INCLUDE[prod_short](includes/prod_short.md)] online, we reco
 
 **Supported subscription:** The [!INCLUDE[prod_short](includes/prod_short.md)] app for Teams supports Microsoft 365 Business and Enterprise subscriptions, but not standalone Teams subscriptions such as Microsoft Teams (free) or Microsoft Teams Essentials.
 
-## <a name="excel"></a>Excel
+## Excel
 
 **Edit in Excel:** To use the Excel add-in to make changes in Excel and push the changes back into [!INCLUDE[prod_short](includes/prod_short.md)], you need Excel 2019 or later. For more information, see [Analysing Financial Statements in Microsoft Excel](finance-analyze-excel.md).  
 
-## <a name="using-the-business-central-administration-center"></a><a name="TAC"></a>Using the Business Central Administration Centre
+## <a name="TAC"></a> Using the Business Central Administration Centre
 
 The administration centre is designed to work with the current version of the following browsers:
 
@@ -62,11 +62,11 @@ The administration centre is designed to work with the current version of the fo
 - Firefox for Windows
 - Safari for macOS
 
-## <a name="use-business-central-on-premises"></a>Use Business Central on-premises
+## Use Business Central on-premises
 
 If you want to deploy Business Central on-premises, you should check the system requirements. For more information, see [System Requirements for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v22) and [Deployment Overview](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [System Requirements for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v20)  

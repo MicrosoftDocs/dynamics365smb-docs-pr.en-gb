@@ -7,17 +7,17 @@ ms.search.form: 810
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="publish-a-web-service"></a>Publish a Web Service
+# Publish a Web Service
 
 Web services are a lightweight way to make application functionality available to different kinds of external systems and users. By default, [!INCLUDE[prod_short](includes/prod_short.md)] exposes a number of objects as web services for better integration with other Microsoft services. You can add other web services as your business requires.  
 
 Set up a web service in [!INCLUDE[prod_short](includes/prod_short.md)], and then publish the web service so that it is available to authenticated users. All authorised users can access metadata for web services, but only users who have sufficient permissions can access actual data.  
 
-## <a name="creating-and-publishing-a-web-service"></a>Creating and Publishing a Web Service
+## Creating and Publishing a Web Service
 
 The following steps explain how to create and publish a web service.  
 
-### <a name="to-create-and-publish-a-web-service"></a>To create and publish a web service
+### To create and publish a web service  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Web Services**, and then choose the related link.  
 2. On the **Web Services** page, choose **New**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -37,7 +37,7 @@ You can test the web service immediately by choosing the links in the **OData UR
 
 After you publish a web service, it is available to external parties. You can verify the availability of that web service by using a browser, or choose the link in the **OData URL** and **SOAP URL** fields on the **Web Services** page. The following procedure illustrates how you can verify the availability of the web service for later use.  
 
-### <a name="to-verify-the-availability-of-a-web-service"></a>To verify the availability of a web service
+### To verify the availability of a web service  
 
 1. In your browser, enter the relevant URL. The following table illustrates the types of URLs that you can enter for different web service types.  
 
@@ -59,7 +59,7 @@ https://api.businesscentral.dynamics.com/v1.0/OData/Company('CRONUS Internationa
 https://api.businesscentral.dynamics.com/v1.0/OData/Customer?company='CRONUS International Ltd.'  
 ```
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Administration](admin-setup-and-administration.md)  
 [Business Central Web Services for developers](/dynamics365/business-central/dev-itpro/webservices/web-services)  

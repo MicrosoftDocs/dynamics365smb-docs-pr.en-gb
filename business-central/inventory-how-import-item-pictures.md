@@ -11,12 +11,12 @@ ms.search.form: '30, 461'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="import-multiple-item-pictures"></a>Import Multiple Item Pictures
+# Import Multiple Item Pictures
 You can import multiple item pictures in one go. Simply name your picture files with names corresponding to your item numbers, compress them to a zip file, and then use the Import Item Pictures page to manage which item pictures to import.
 
 All common file formats are supported.
 
-## <a name="to-name-picture-files-by-the-item-names-and-prepare-the-zip-file"></a>To name picture files by the item names and prepare the ZIP file
+## To name picture files by the item names and prepare the ZIP file
 1. At the location where your item pictures are stored, name each files according to the number of the related item. For example:
 
     |Item No.|File Name|
@@ -27,7 +27,7 @@ All common file formats are supported.
 
 2. Collect all the files in a ZIP file. For example, in Windows Explorer, select the files, and then choose **Send to**, **Compressed (zipped) folder**.     
 
-## <a name="to-import-item-pictures"></a>To import item pictures
+## To import item pictures
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.
 2. Choose the **Import Item Pictures** action.
 3. In the **Select a ZIP file** field, select the relevant ZIP folder, and then choose the **Open** button.
@@ -41,7 +41,7 @@ All common file formats are supported.
 
 The **Import Status** field is updated to show if the picture import was skipped or completed.       
 
-## <a name="see-also"></a>See Also
+## See Also
 [Register New Items](inventory-how-register-new-items.md)  
 [Create Number Series](ui-create-number-series.md)  
 [Inventory](inventory-manage-inventory.md)  

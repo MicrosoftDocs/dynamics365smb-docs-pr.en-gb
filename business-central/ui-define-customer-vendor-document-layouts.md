@@ -11,7 +11,7 @@ ms.search.form: '21, 9650'
 ms.date: 04/07/2022
 ms.author: edupont
 ---
-# <a name="define-document-layouts-for-customers-and-vendors"></a>Define Document Layouts for Customers and Vendors
+# Define Document Layouts for Customers and Vendors
 
 Document layouts use report layouts to define the look and feel of documents that you send to customers and vendors. Business Central provides standard layouts, but you can also tailor custom layouts for each of your business partners. For more information, see [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md). You select standard and custom document layouts from customer and vendor cards by choosing the **Document Layouts** action. The value in the **Usage** field defines the process for which the document layout is used. For example, for customers, you might use **Reminder**, **Shipment**, and **Confirmation** types of document layouts.
 
@@ -21,7 +21,7 @@ Before you can define which document layout to use for which processes, and whic
 
 The steps in the following sections describe how to define sales document layouts from the **Customer Card** page. For vendors, the steps are the same from the **Vendor Card** page.
 
-## <a name="to-load-the-standard-document-layouts-for-sales-documents-for-a-customer"></a>To load the standard document layouts for sales documents for a customer
+## To load the standard document layouts for sales documents for a customer
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the **Customer Card** page for the customer, and then choose the **Document Layouts** action.
@@ -29,7 +29,7 @@ The steps in the following sections describe how to define sales document layout
 
 The **Document Layouts** page displays all layouts that are available for sales documents. 
 
-## <a name="to-select-a-custom-report-layout-to-use-for-the-sales-document-layout"></a>To select a custom report layout to use for the sales document layout
+## To select a custom report layout to use for the sales document layout
 
 If you haven't already created a custom report layout for the type of document, you'll need to do that first. For more information, see [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md).
 
@@ -38,16 +38,16 @@ If you haven't already created a custom report layout for the type of document, 
 3. On the **Document Layouts** page, on the line for a report layout that you want to use a custom layout for, choose the **Custom Layout Description** field.
 4. On the **Custom Report Layouts** page, select the document layout that you want to use for the type of sales document. For more information, see [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md).
 
-## <a name="to-specify-which-contact-will-receive-which-document-layout-for-a-customer"></a>To specify which contact will receive which document layout for a customer
+## To specify which contact will receive which document layout for a customer
 
 To save time when you send documents to customer and vendor contacts by email, specify their email addresses on document layouts. For example, you can always send customer statements to their accountant contacts and sales orders to their purchasers, or purchase orders to vendor salespeople.
 
 1. On the **Document Layouts** page, on the line for a report layout that you want to send to a specific contact for the customer, choose the **Select Email from Contacts** action.
 2. On the **Contacts** page, select one or more contacts, and then choose **OK**.
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/)
+## See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Update Custom Report Layouts](ui-update-report-layouts.md)  
 [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)  

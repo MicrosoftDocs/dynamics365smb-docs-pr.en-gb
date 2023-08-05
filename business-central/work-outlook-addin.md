@@ -10,7 +10,7 @@ ms.search.keywords: 'SMTP, mail, Microsoft 365'
 ms.date: 04/21/2022
 ms.author: jswymer
 ---
-# <a name="use-business-central-as-your-business-inbox-in-outlook"></a>Use Business Central as your Business Inbox in Outlook
+# Use Business Central as your Business Inbox in Outlook
 
 [!INCLUDE[prod_short](includes/prod_short.md)] offers an add-in that lets you manage business interactions with your customers and vendors, directly in Microsoft Outlook. With the [!INCLUDE[prod_short](includes/prod_short.md)] add-in for Outlook, you can see financial data related to customers and vendors, and create and send financial documents, such as quotes and invoices.
 
@@ -24,7 +24,7 @@ ms.author: jswymer
 
    When a business document is sent in an email, the add-in provides a direct link from email to the actual business document in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="get-started"></a>Get started
+## Get started
 
 1. The first thing to do is get the [!INCLUDE[prod_short](includes/prod_short.md)] add-in installed in Outlook. Your administrator may have already installed the add-in for you. So if you're not sure, check with your administrator or see the next step to verify whether it's installed.
 
@@ -45,7 +45,7 @@ The first time you use the add-in, in [!INCLUDE[prod_short](includes/prod_short.
 
 For more information, see [Use add-ins in Outlook on the web](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
 
-## <a name="work-with-contacts-and-documents-using-the-contact-insights-add-in"></a>Work with contacts and documents using the Contact Insights add-in
+## Work with contacts and documents using the Contact Insights add-in
 
 Let's say that you get an email from a customer that wants to get a quote on some items. Directly in Outlook, you open the [!INCLUDE[prod_short](includes/prod_short.md)] add-in, which recognises the sender as a customer, and opens the customer card for that company. From this dashboard, you see overview information for the customer, and drill down for more detail on specific documents. You can also dig into the sales history for the customer. If it's a new contact, you can create them as a new customer in [!INCLUDE[prod_short](includes/prod_short.md)] without leaving Outlook.  
 
@@ -58,7 +58,7 @@ Sometimes you want to see more fields than you can see in the add-in, such as wh
 > [!TIP]
 > The tasks explain how to use the add-in from an email message. But you can do the same from a calendar appointment in Outlook.
 
-### <a name="look-up-a-business-contact-when-composing-an-email"></a>Look up a business contact when composing an email
+### Look up a business contact when composing an email
 
 1. Create a new email message.
 2. In the ribbon, go to **[!INCLUDE[prod_short](includes/prod_short.md)]** and choose **Contact Insights**. Or if you're using Outlook on the web, go to the bottom of the message, choose ![Business Central add-in icon in Outlook.](media/outlook-business-central-icon.png) > **Contact Insights**.
@@ -66,7 +66,7 @@ Sometimes you want to see more fields than you can see in the add-in, such as wh
 
     An overview of the contact displays in the pane and the contact is added in the **To** line of the email.
 
-### <a name="view-and-change-the-contact-details-or-switch-company"></a>View and change the contact details or switch company
+### View and change the contact details or switch company
 
 The action bar at the top of the [!INCLUDE[prod_short](includes/prod_short.md)] add-in pane includes several actions that let your dig deeper into details about the contact and change things.
 
@@ -74,7 +74,7 @@ The action bar at the top of the [!INCLUDE[prod_short](includes/prod_short.md)] 
 
 For example, you can open the full contact details as you would see them in [!INCLUDE[prod_short](includes/prod_short.md)]. If you work with more that one [!INCLUDE[prod_short](includes/prod_short.md)] company, you can easily switch between companies.
 
-### <a name="track-incoming-documents"></a>Track incoming documents
+### Track incoming documents
 
 Perhaps you use the **Incoming Documents** list in [!INCLUDE[prod_short](includes/prod_short.md)] to track documents for processing that vendors send to you, such as a purchase invoice that needs to be paid. If you do, you can easily create Incoming Documents records from the Outlook add-in and include the email attachments.
 
@@ -82,13 +82,13 @@ Perhaps you use the **Incoming Documents** list in [!INCLUDE[prod_short](include
 
 2. In the action bar of the add-in, choose **Show more actions**, then choose the **Send to Incoming Documents…** action.  
 
-### <a name="create-and-send-new-document-to-a-contact"></a>Create and send new document to a contact
+### Create and send new document to a contact
 
 1. In the ribbon or at the bottom of the email message, choose ![Business Central add-in icon in Outlook.](media/outlook-business-central-icon.png) **[!INCLUDE[prod_short](includes/prod_short.md)]** > **New**, then choose the type of document you want to create, such as **Sales Quote**.
 2. Make changes to the document in the **[!INCLUDE[prod_short](includes/prod_short.md)]** add-in pane.
 3. When the document is ready to send to the contact, in the action bar, choose **Show more actions**, then choose the **Send by Email** action.
 
-### <a name="attach-files-to-records"></a>Attach files to records
+### Attach files to records
 
 Your email inbox often serves as a source of incoming files that initiate or unblock workflows. Files can include things like PDF invoice payments, photos of goods, or requirements in a Word document. When working in Outlook with Business Central records like vendors, customers, purchase invoices, or sales orders, you can attach these files to the records.
 
@@ -98,7 +98,7 @@ There's a couple ways you can attach files. One way is to upload files from your
 
 After attaching a file, coworkers can instantly download and view the file from the **Attachments** FactBox in any of their Business Central clients. Or, they can open the file in OneDrive to share and collaborate with their department.
 
-#### <a name="how-to-attach-a-file"></a>How to attach a file
+#### How to attach a file
 
 1. Open the email, choose ![Business Central add-in icon in Outlook.](media/outlook-business-central-icon.png) **[!INCLUDE[prod_short](includes/prod_short.md)]**  > **Contact Insights**.
 2. In the action bar of the add-in, choose **Show more actions** > **Attachments**.
@@ -112,7 +112,7 @@ After attaching a file, coworkers can instantly download and view the file from 
 > [!NOTE]
 > You can't attach files to all records. This feature is available for records that use the **Attachments** FactBox, such as a vendor, customer, purchase invoice, or sales order.
 
-## <a name="view-a-document-from-an-email-using-the-document-view-add-in"></a>View a document from an email using the Document View add-in
+## View a document from an email using the Document View add-in
 
 Whether it's an email you sent or received, you can surface any [!INCLUDE[prod_short](includes/prod_short.md)] document, like the sales quote, directly in Outlook. From there, you can make changes and navigate to related information&mdash;just as you would from within [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -122,9 +122,9 @@ If you're using the Outlook app, just choose **Document Link** at the top of the
 > Starting in 2022 release wave 1, documents open in a new browser window with all the capabilities that you know from [!INCLUDE [prod_short](includes/prod_short.md)]. You can navigate from a document to a list and back again, open lists in Excel, send documents to be printed, and run or preview related reports. You also have all of the familiar keyboard shortcuts right there when you open documents from Outlook.  
 
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## See related [Microsoft training](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Getting Business Central on my Mobile Device](install-mobile-app.md)  

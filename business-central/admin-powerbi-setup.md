@@ -10,11 +10,11 @@ ms.search.keywords: 'Power BI, setup, analysis, reporting, financial report, bus
 ms.date: 07/13/2022
 ms.author: jswymer
 ---
-# <a name="enabling-power-bi-integration-with-"></a>Enabling Power BI Integration With [!INCLUDE[prod_short](includes/prod_short.md)]
+# Enabling Power BI Integration With [!INCLUDE[prod_short](includes/prod_short.md)]
 
 This article describes how to get [!INCLUDE[prod_short](includes/prod_short.md)] ready for integration with Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online is already enabled for integration, although there's some information about licensing that you might want to read. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you'll have set up your environment to connect to Power BI before users can work with it.
 
-## <a name="power-bi-licensing"></a><a name="license"></a>Power BI Licensing
+## <a name="license"></a>Power BI Licensing
 
 With [!INCLUDE[prod_short](includes/prod_short.md)], users get a free Power BI licence that provides access to the most common features in [!INCLUDE[prod_short](includes/prod_short.md)] and Power BI. You can also purchase a Power BI Pro licence that provides access to additional features. The following table provides an overview of the features available with each licence.
 
@@ -25,11 +25,11 @@ With [!INCLUDE[prod_short](includes/prod_short.md)], users get a free Power BI l
 
 For more information, see [Licensing the Power BI service for users in your organisation](/power-bi/admin/service-admin-licensing-organization) or [Sign up for the Power BI service as an individual](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
 
-## <a name="expose-data-through-api-or-odata-web-services"></a><a name="exposedata"></a>Expose data through API or OData web services
+## <a name="exposedata"></a>Expose data through API or OData web services
 
 Business Central offers two ways to expose data that can be consumed by Power BI reports: API pages or queries, and Open Data Protocol (OData) web services.
 
-### <a name="api-pages-and-queries"></a>API pages and queries
+### API pages and queries
 
 > **APPLIES TO:** Business Central online only
 
@@ -44,17 +44,17 @@ Business Central online also supports custom APIs. Application developers of Bus
 >
 > In rare cases, the behaviour will cause an error when a user tries get data from the API for a report in Power BI Desktop. However, if database modifications are necessary in the custom API, Power BI Desktop users can force the behaviour. For more information, see [Building Power BI Reports to Display Business Central Data](across-how-use-financials-data-source-powerbi.md#fixing-problems).
 
-### <a name="odata-web-services"></a>OData web services
+### OData web services
 
 You can publish Business Central application objects, like codeunits, page, and queries, as [OData web services](/dynamics365/business-central/dev-itpro/webservices/odata-web-services). With Business Central online, there are many web services published by default. An easy way to find the web services is to search for *web services* in [!INCLUDE[prod_short](includes/prod_short.md)]. In the **Web Services** page, make sure the **Publish** field is selected for the web services listed above. For more information about publishing web services, see [Publish a Web Service](across-how-publish-web-service.md).
 
 To learn about what you can do to ensure the best performance of web services, as seen from the Business Central server (the endpoint) and from the consumer (the client), read [Writing efficient Web Services](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-web-services).
 
-### <a name="choosing-whether-to-use-api-pages-or-odata-web-services"></a>Choosing whether to use API pages or OData web services
+### Choosing whether to use API pages or OData web services
 
 Whenever possible, you're encouraged to use API pages instead of OData web service. API pages are generally faster at loading data in Power BI reports than OData web services. Plus, they're more flexible because they let you get data from table fields that aren't defined in a page object.
 
-## <a name="set-up--on-premises-for-power-bi-integration"></a><a name="setup"></a>Set up [!INCLUDE[prod_short](includes/prod_short.md)] on-premises for Power BI integration
+## <a name="setup"></a>Set up [!INCLUDE[prod_short](includes/prod_short.md)] on-premises for Power BI integration
 
 This section explains the requirements for a [!INCLUDE[prod_short](includes/prod_short.md)] on-premises deployment to integrate with Power BI.
 
@@ -92,9 +92,9 @@ This section explains the requirements for a [!INCLUDE[prod_short](includes/prod
     To make the initial connection, open [!INCLUDE[prod_short](includes/prod_short.md)], and run **Get Started with Power BI** from the Home page. This action will lead you through the consent process, and check your Power BI licence. When prompted sign in using an Azure admin account. For more information, see [Connect to Power BI - one time only](across-working-with-powerbi.md#connect).
 
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
+## See related [Microsoft training](/training/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Business Central and Power BI](admin-powerbi.md)  
 [Power BI Integration Component and Architecture Overview for [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  

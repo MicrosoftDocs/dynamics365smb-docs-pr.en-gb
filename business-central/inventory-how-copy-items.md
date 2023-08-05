@@ -11,11 +11,11 @@ ms.search.forms: 729
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="copy-existing-items-to-create-new-items"></a>Copy Existing Items to Create New Items
+# Copy Existing Items to Create New Items
 
 When you add a new item, to save time, you can use the **Copy Item** function to copy an existing item to use as a template for a new item.  
 
-## <a name="to-copy-an-existing-item-to-a-new-item"></a>To copy an existing item to a new item
+## To copy an existing item to a new item
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2. Select the item that you want to copy, and then choose the **Copy Item** action.  
@@ -29,7 +29,7 @@ When you add a new item, to save time, you can use the **Copy Item** function to
 
 4. To copy your selections to the new item, choose the **OK** button.  
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Register New Items](inventory-how-register-new-items.md)  
 [Setting Up Inventory](inventory-setup-inventory.md)  
