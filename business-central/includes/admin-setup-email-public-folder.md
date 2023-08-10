@@ -15,7 +15,7 @@ Before you can set up email logging, you must prepare Office 365 [public folders
 
 Follow the steps below to set up Exchange Online, with links to where you can learn more.
 
-### Create an admin role group
+### <a name="create-an-admin-role-group"></a>Create an admin role group
 
 Create an admin role group for public folders based on the information in the following table:
 
@@ -27,7 +27,7 @@ Create an admin role group for public folders based on the information in the fo
 
 For more information, see [Manage role groups in Exchange Online](/exchange/permissions-exo/role-groups).
 
-### Create a new public folder mailbox
+### <a name="create-a-new-public-folder-mailbox"></a>Create a new public folder mailbox
 
 Create a new public folder mailbox based on the information in the following table:
 
@@ -37,7 +37,7 @@ Create a new public folder mailbox based on the information in the following tab
 
 For more information, see [Create a public folder mailbox](/exchange/collaboration-exo/public-folders/create-public-folder-mailbox).
 
-### Create new public folders
+### <a name="create-new-public-folders"></a>Create new public folders
 
 1. Create a new public folder with the name **Email Logging** in the root so that the full path to the folder becomes `\Email Logging\`.
 2. Create two sub-folders so that the the result is the following full paths to the folders:
@@ -47,23 +47,23 @@ For more information, see [Create a public folder mailbox](/exchange/collaborati
 
 For more information, see [Create a public folder](/exchange/collaboration-exo/public-folders/create-public-folder).
 
-### Set public folder ownership
+### <a name="set-public-folder-ownership"></a>Set public folder ownership
 
 Set the email logging user as an owner of both public folders, *Queue* and *Storage*.
 
 For more information, see [Assign permissions to the public folder](/exchange/collaboration-exo/public-folders/set-up-public-folders#step-3-assign-permissions-to-the-public-folder).
 
-### Mail-enable the *Queue* public folder
+### <a name="mail-enable-the-queue-public-folder"></a>Mail-enable the *Queue* public folder
 
   For more information, see [Mail-enable or mail-disable a public folder](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder).
 
-### Mail-enable sending emails to the *Queue* public folder
+### <a name="mail-enable-sending-emails-to-the-queue-public-folder"></a>Mail-enable sending emails to the *Queue* public folder
 
 Mail-enable sending emails to the *Queue* public folder using Outlook or the Exchange Management Shell.
 
 For more information, see [Allow anonymous users to send email to a mail-enabled public folder](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder#allow-anonymous-users-to-send-email-to-a-mail-enabled-public-folder?preserve-view=true).
 
-### Create mail flow rules
+### <a name="create-mail-flow-rules"></a>Create mail flow rules
 
 Create two mail flow rules based on the information in the following table:
 

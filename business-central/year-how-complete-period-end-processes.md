@@ -10,11 +10,11 @@ ms.search.keywords: 'year closing, close accounting period, close fiscal year, a
 ms.date: 08/29/2022
 ms.author: jswymer
 ---
-# Overview of Tasks to Close Accounting Periods
+# <a name="overview-of-tasks-to-close-accounting-periods"></a>Overview of Tasks to Close Accounting Periods
 
 [!INCLUDE[prod_short](includes/prod_short.md)] does not force you to close periods, however, there are many period-end (month-end) activities that you can do. This topic provides an overview of optional processes and activities for closing periods.  
 
-## General ledger
+## <a name="general-ledger"></a>General ledger
 
 * Specify system-wide and user-specific posting periods.  
 
@@ -25,7 +25,7 @@ ms.author: jswymer
 * Run financial reports as follows:  
   * Open the **Financial Reports** page, then choose the **Print** action.  
 
-## Sales and receivables
+## <a name="sales-and-receivables"></a>Sales and receivables
 
 * Post all sales orders, invoices, credit memos, and return orders.  
 * Post all cash receipt journals.  
@@ -33,7 +33,7 @@ ms.author: jswymer
 * Reconcile accounts receivable to the general ledger.  
 * Run the **Delete Invoiced Sales Orders** batch job.  
 
-## Purchases and payables
+## <a name="purchases-and-payables"></a>Purchases and payables
 
 * Post all purchase orders, invoices, credit memos, and return orders.  
 * Post all payment journals.  
@@ -41,7 +41,7 @@ ms.author: jswymer
 * Run the **Aged Accounts Payable** report and reconcile accounts payable to the general ledger.  
 * Run the **Delete Invoiced Purchase Orders** batch job.  
 
-## Fixed assets
+## <a name="fixed-assets"></a>Fixed assets
 
 * Post all maintenance costs that have been posted through the fixed asset journals or invoices.
 * Post adjustments.
@@ -49,17 +49,17 @@ ms.author: jswymer
 * Post depreciation.
 * Update and post the recurring fixed asset journal.
 
-## Intercompany
+## <a name="intercompany"></a>Intercompany
 
 * Process intercompany transactions.
 
-## Calculate and process VAT
+## <a name="calculate-and-process-sales-tax"></a>Calculate and process VAT
 
 * Complete VAT statements.  
 
-## See related [Microsoft training](/training/modules/close-fiscal-year-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/close-fiscal-year-dynamics-365-business-central/)
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Closing Years and Periods](year-close-years-periods.md)  
 [Closing Books](year-close-books.md)  

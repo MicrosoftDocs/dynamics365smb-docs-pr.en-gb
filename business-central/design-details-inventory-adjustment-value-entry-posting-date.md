@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 09/17/2021
 ms.author: edupont
 ---
-# Design Details: Posting Date on Adjustment Value Entry
+# <a name="design-details-posting-date-on-adjustment-value-entry"></a>Design Details: Posting Date on Adjustment Value Entry
 
 This article provides guidance for users of the Inventory Costing functionality in [!INCLUDE[prod_short](includes/prod_short.md)], and in particular for how the **Adjust Cost - Item Entries** batch job identifies and assigns a posting date to the value entries that the batch job is about to create.
 
-## How posting dates are assigned
+## <a name="how-posting-dates-are-assigned"></a>How posting dates are assigned
 
 The **Adjust Cost – Item Entries** batch job assigns a posting date to the value entry it is about to create in the following steps:  
 
@@ -26,7 +26,7 @@ The **Adjust Cost – Item Entries** batch job assigns a posting date to the val
 
 Let’s review this process more in practice. Assume we have an Item Ledger Entry of Sale. The item was shipped on September 5, 2020 and it was invoiced the day after.  
 
-#### Item Ledger Entry
+#### <a name="item-ledger-entry"></a>Item Ledger Entry
 
 |Entry No.  |Item No.  |Posting Date  |Entry Type  | Document No. |Location Code  |Quantity  |Cost Amount (Actual)  |Invoiced Quantity  |Remaining Quantity  |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
@@ -52,7 +52,7 @@ To assign the posting date for **Entry No. 391** the following steps were applie
 
 Let’s review the above mentioned Sale by adding setup of allowed posting date ranges.  
   
-#### Inventory Periods
+#### <a name="inventory-periods"></a>Inventory Periods
 
 |Ending Date  |Name  |Closed  |
 |---------|---------|---------|
@@ -71,7 +71,7 @@ Let’s review the above mentioned Sale by adding setup of allowed posting date 
 
 The first allowed posting date is the first day in the first open period, which is September 1, 2020.  
 
-#### General Ledger Setup
+#### <a name="general-ledger-setup"></a>General Ledger Setup
 
 |Field|Value  |
 |---------|---------|
@@ -93,19 +93,19 @@ The initial assigned Posting Date was September 6 as illustrated in step 1. Howe
 |381     |  A       |    2020-09-06     |    Sale     | Direct Cost   | 103022        |319     | Blue        |  0       |-1        |-10       |    10     | No  |0      |       Sales   |
 |391     |  A       |    **2020-09-10**     |    Sale     | Direct Cost   | 103022        |319     | Blue        |  0       |0         |-1        |    0     |Yes   |    181   | INVTADJMT   |
 
-## Common problems with the "Adjust Cost - Item entries"-batch job
+## <a name="common-problems-with-the-adjust-cost---item-entries-batch-job"></a>Common problems with the "Adjust Cost - Item entries"-batch job
 
 There are two scenarios that the support team encounters frequently enough for them to warrant their own problem resolution articles.
 
-### Error message: "Posting Date is not within your range of allowed posting dates…"
+### <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Error message: "Posting Date is not within your range of allowed posting dates…"
 
 If you encounter this error you need to adjust the dates for which the user is allowed to post entries. To learn more, see [Error Message "Posting Date is not within your range of allowed posting dates"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md).
 
-### Posting Date on Adjustment Value Entry versus Posting Date on entry causing the adjustment such as Revaluation or Item charge
+### <a name="posting-date-on-adjustment-value-entry-versus-posting-date-on-entry-causing-the-adjustment-such-as-revaluation-or-item-charge"></a>Posting Date on Adjustment Value Entry versus Posting Date on entry causing the adjustment such as Revaluation or Item charge
 
 To learn more, see [Posting Date on Adjustment Value Entry Compared to the Source Entry](design-details-inventory-adjustment-value-entry-source-entry.md).
 
-## See Also  
+## <a name="see-also"></a>See Also
 
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  
 [Design Details: Item Application](design-details-item-application.md)  

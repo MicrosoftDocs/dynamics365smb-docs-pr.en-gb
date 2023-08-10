@@ -11,10 +11,10 @@ ms.search.form: '283, 284'
 ms.date: 06/29/2021
 ms.author: edupont
 ---
-# Use Allocation Keys in General Journals
+# <a name="use-allocation-keys-in-general-journals"></a>Use Allocation Keys in General Journals
 You can allocate an entry in a general journal to several different accounts when you post the journal. The allocation can be made by quantity, percentage, or amount.
 
-## To set up allocation keys
+## <a name="to-set-up-allocation-keys"></a>To set up allocation keys
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Recurring General Journal**, and then choose the related link.
 2. Choose the **Batch Name** field to open the **General Journal Batches** page.
 3. You can either modify allocations on an existing batch in the list or create a new batch with allocations.
@@ -29,13 +29,13 @@ You can allocate an entry in a general journal to several different accounts whe
 10. After entering the allocations lines, choose **OK** to return to the **Recurring General Journal** page. The **Allocated Amt. (USD)** field is filled in and matches the **Amount** field.
 11. Post the journal.
 
-## To change an allocation key that has already been set up
+## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>To change an allocation key that has already been set up
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Recurring General Journal**, and then choose the related link.
 2. On the **Recurring General Journal** page, select the journal with the allocation.
 3. Choose the line with the allocation, and then choose **Allocations** action.
 4. Change the relevant fields, and then choose the **OK** button.
 
-## See Also
+## <a name="see-also"></a>See Also
 [Work with General Journals](ui-work-general-journals.md)  
 [Posting Documents and Journals](ui-post-documents-journals.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -11,13 +11,13 @@ ms.date: 08/23/2022
 ms.author: jswymer
 ---
 
-# Viewing Table Information
+# <a name="viewing-table-information"></a>Viewing Table Information
 
 The **8700 Table Information** page provides information about the number of records in all system and business tables in [!INCLUDE[prod_short](includes/prod_short.md)], and how much data each table contains.
 
 This information is useful for troubleshooting performance problems, because let's you see the distribution of data size across tables.
 
-## Viewing table information
+## <a name="viewing-table-information-1"></a>Viewing table information
 
 To open this page, select the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Table Information**, and then choose the related link.
 
@@ -38,7 +38,7 @@ The following table describes the information provided for each table:
 > [!NOTE]
 > If you delete data in a table, [!INCLUDE[prod_short](includes/prod_short.md)] starts several processes behind the scenes to make sure that everything is cleaned up in your database. The values on the Table Information page will not update until those processes are complete, which can take a while. The amount of time you'll have to wait can vary, depending on the size of your database.
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Inspecting Pages](across-inspect-page.md)  
 [Performance Articles For Developers](/dynamics365/business-central/dev-itpro/performance/performance-developer)  

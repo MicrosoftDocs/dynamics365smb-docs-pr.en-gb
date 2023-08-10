@@ -10,10 +10,10 @@ ms.search.form: 256
 ms.date: 06/21/2021
 ms.author: edupont
 ---
-# Print Remittance Advice in the British Version
+# <a name="print-remittance-advice-in-the-british-version"></a>Print Remittance Advice in the British Version
 You can print remittance advice before posting a payment journal and after posting a payment. This advice displays vendor invoice numbers, which helps vendors to perform reconciliations.  
 
-## To print remittance advice  
+## <a name="to-print-remittance-advice"></a>To print remittance advice
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
 2.  On the **Payment Journal** page, select the payment for which remittance advice must be printed.  
@@ -26,7 +26,7 @@ You can print remittance advice before posting a payment journal and after posti
 5.  On the **Vendor** FastTab, select the appropriate filters.  
 6.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
-## See Also  
+## <a name="see-also"></a>See Also
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)
 
 

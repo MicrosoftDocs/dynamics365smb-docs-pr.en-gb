@@ -10,11 +10,11 @@ ms.date: 02/10/2023
 ms.custom: bap-template
 ---
 
-# Printer Setup and Management Overview
+# <a name="printer-setup-and-management-overview"></a>Printer Setup and Management Overview
 
 Printing documents and reports from [!INCLUDE[prod_short](includes/prod_short.md)] is an important task for business users. You'll typically want to send print jobs directly to one of your organisation's printers&mdash;no matter the [!INCLUDE[prod_short](includes/prod_short.md)] client or app you're using. Because [!INCLUDE[prod_short](includes/prod_short.md)] online is a cloud service, it can't directly reach local printers connected to users' devices, but you can connect it to cloud-enabled printers.
 
-## What are your printer possibilities in Business Central
+## <a name="what-are-your-printer-possibilities-in-business-central"></a>What are your printer possibilities in Business Central
 
 To support your print needs, [!INCLUDE[prod_short](includes/prod_short.md)] offers the following features:
 
@@ -29,13 +29,13 @@ Most of the work for setting up printers can be done from the **Printer Manageme
 > [!IMPORTANT]
 > For Business Central on-premises, Universal Print and Email Print require that Azure Active Directory (AD) or NavUserPassword authentication is used.
 
-## Custom printer extensions
+## <a name="custom-printer-extensions"></a>Custom printer extensions
 
 [!INCLUDE[prod_short](includes/prod_short.md)] supports other custom printer extensions that add even more print features. So if you have any custom printer extensions installed, your application may include print features not described in this article.
 
 If you're an AL developer and want to learn about how to create printer extensions, go to [Developing Printer Extensions in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-reports-printing).
 
-## Next steps
+## <a name="next-steps"></a>Next steps
 
 - [Set Up Universal Print Printers](admin-printer-setup-universal-print.md)  
 - [Set Up Email Printers](admin-printer-setup-email.md)  

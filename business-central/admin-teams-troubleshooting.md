@@ -11,36 +11,36 @@ ms.date: 10/01/2021
 ms.author: jswymer
 ---
 
-# Troubleshooting Microsoft Teams Integration with [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="troubleshooting-microsoft-teams-integration-with-"></a>Troubleshooting Microsoft Teams Integration with [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 This article provides information on how to identify and fix problems you may experience when using Microsoft Teams with [!INCLUDE [prod_short](includes/prod_short.md)], as a typical user or administrator.
 
-## The sign-in link doesn't work
+## <a name="the-sign-in-link-doesnt-work"></a>The sign-in link doesn't work
 
 If you try to sign in to the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams immediately after installing the app, and the sign-in link doesn't react, it may be because the app hasn't fully completed installation. To try to fix the issue, sign out of your Teams client and then sign in again.
 
-## The Settings page is empty
+## <a name="the-settings-page-is-empty"></a>The Settings page is empty
 
 You must first sign in to reach your settings. To sign into the app, either paste a link to a [!INCLUDE [prod_short.md](includes/prod_short.md)] record, or try to search for contacts. Both of these actions will lead you through a sign-up experience, after which you can use the **Settings** page.
 
-## I changed company but it didn't seem to work
+## <a name="i-changed-company-but-it-didnt-seem-to-work"></a>I changed company but it didn't seem to work
 
 After you change the company on the **Settings** page, you might notice that the command box drop-down indicates you're still searching the previous company. This issue happens when you open the **Settings** page directly from the command box. In this case, the company was successfully changed, and you'll in fact search the company you switched to. The problem is that the command box drop-down just hasn't been updated yet. For the drop-down accurately reflect the company you'll search in, close or unpin [!INCLUDE [prod_short.md](includes/prod_short.md)] from the command box, and then open the app again.
 
 
 <!--When you change company from the **Settings** page that you reach from the command box, returning to the command box drop-down continues to show the previous company even though the company was successfully changed. For the drop-down accurately reflect the company you'll search in, you must close or unpin [!INCLUDE [prod_short.md](includes/prod_short.md)] from the command box and then find it again.-->
 
-## "Something went wrong" error when searching for contacts
+## <a name="something-went-wrong-error-when-searching-for-contacts"></a>"Something went wrong" error when searching for contacts
 
 You may experience this error when you search in a company that hasn't been initialised or is in an unresponsive state. For example, you can't search in a new trial company that hasn't yet accepted the terms of use. To resolve this issue, try to sign in to the [!INCLUDE [prod_short.md](includes/prod_short.md)] Web client, and act on or dismiss any initial dialogues that appear.
 
-## "Cannot find the contact/contact summary API" error when searching for contacts
+## <a name="cannot-find-the-contactcontact-summary-api-error-when-searching-for-contacts"></a>"Cannot find the contact/contact summary API" error when searching for contacts
 
 This problem can be caused by customisations or industry solutions that affect or modify [!INCLUDE [prod_short.md](includes/prod_short.md)], or they don't provide a contact or contact summary API. If the problem continues, contact your administrator or supporting partner.
 
-## None of my links expand into a card 
+## <a name="none-of-my-links-expand-into-a-card"></a>None of my links expand into a card
 
 If you're experiencing this problem, here are a few things to try:
 
@@ -61,7 +61,7 @@ If you're experiencing this problem, here are a few things to try:
 
 4. Your organisation may also restrict you from pasting links that expand into cards. Contact your administrator to understand the Teams organisational policies that may apply to you.
 
-## My link sometimes doesn’t expand into a card 
+## <a name="my-link-sometimes-doesnt-expand-into-a-card"></a>My link sometimes doesn’t expand into a card
 
 A link won't expand into a card in the following situations:
 
@@ -83,7 +83,7 @@ For example:
 
 For technical details about [!INCLUDE [prod_short](includes/prod_short.md)] URLs, see [Web Client URL](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls) in the [!INCLUDE [prod_short](includes/prod_short.md)] Developer and IT Pro Help.
 
-## The details window opens, but shows an error before details are shown
+## <a name="the-details-window-opens-but-shows-an-error-before-details-are-shown"></a>The details window opens, but shows an error before details are shown
 
 This problem can be caused by a couple things: lack of permissions in [!INCLUDE [prod_short](includes/prod_short.md)] or browser settings (when using Teams in the browser).
 
@@ -101,7 +101,7 @@ This problem can be caused by a couple things: lack of permissions in [!INCLUDE 
 
     For more information about minimum browser requirements, see [Minimum Requirements for Using [!INCLUDE [prod_short](includes/prod_short.md)]](product-requirements.md#browsers) 
 
-## I'm having problems with the camera or location in Teams
+## <a name="im-having-problems-with-the-camera-or-location-in-teams"></a>I'm having problems with the camera or location in Teams
 
 When using [!INCLUDE [prod_short](includes/prod_short.md)] features in the details window that require access to your location or device camera, you must first give your consent for Teams to access these device capabilities.  
 
@@ -115,7 +115,7 @@ The [!INCLUDE [prod_short](includes/prod_short.md)] app doesn't support location
 
 Some browsers, such as the new Microsoft Edge, allow you to choose which device camera to use when your device supports multiple cameras. 
 
-## Teams displays mixed languages for my cards and card details
+## <a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a>Teams displays mixed languages for my cards and card details
 
 For cards and card details to display consistently in the same language in Teams, the language of your Teams client and the language you use in [!INCLUDE [prod_short](includes/prod_short.md)] Web client must match.
 
@@ -125,11 +125,11 @@ For cards and card details to display consistently in the same language in Teams
 
 For more information on how languages work between Teams and [!INCLUDE [prod_short](includes/prod_short.md)], see [Teams FAQ](teams-faq.md#language).
 
-## I edited a field in the details window, but my change wasn't saved
+## <a name="i-edited-a-field-in-the-details-window-but-my-change-wasnt-saved"></a>I edited a field in the details window, but my change wasn't saved
 
 Changes you make to a field in the details windows are automatically saved when you leave the field. Before you close the window after changing a field, be sure to select the <kbd>Tab</kbd> key or click/tap outside the field.
 
-## A new tile appeared in the App Launcher. How do I remove it?
+## <a name="a-new-tile-appeared-in-the-app-launcher-how-do-i-remove-it"></a>A new tile appeared in the App Launcher. How do I remove it?
 
 When you view your apps on the Office 365 home page (https://home.office.com) or in the app launcher, a new tile named "Business Central Teams Integration Service Connector" will appear after installing the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams. This tile provides no value in itself and can be safely hidden.
 
@@ -143,19 +143,19 @@ As an administrator, who has Azure Active Directory admin permissions, you can h
 > [!NOTE]
 > It will be a while before this change takes effect.
 
-## Duplicate text in the Share to Teams window
+## <a name="duplicate-text-in-the-share-to-teams-window"></a>Duplicate text in the Share to Teams window
 
 When you paste text into the message box in the **Share to Teams** window, the text is duplicated. This problem is known to Microsoft and will be addressed in a later update. 
 
-## Unable to sign into the Share to Teams window 
+## <a name="unable-to-sign-into-the-share-to-teams-window"></a>Unable to sign into the Share to Teams window
 
 This problem can be caused by a various reasons. For example, the identity you are using to sign in must have access to Microsoft Teams, such as through a Microsoft 365 subscription.
 
-## My cards no longer have a popout button
+## <a name="my-cards-no-longer-have-a-popout-button"></a>My cards no longer have a popout button
 
 As of April 2022, links that are displayed as compact card in Teams will no longer contain the **Popout** button. To open that card in its own window, choose the **Details** button, then choose **Open in browser** from the ellipses menu (**...**) in the upper right corner of the window.
 
-## Can't pin a card to tab
+## <a name="cant-pin-a-card-to-tab"></a>Can't pin a card to tab
 
 There are couple reasons for this problem.
 
@@ -163,16 +163,16 @@ There are couple reasons for this problem.
 
 - Cannot pin until you add your first Business Central tab. This issue is known in Teams. 
 
-## Someone added a tab, but the tab doesn’t show up for me
+## <a name="someone-added-a-tab-but-the-tab-doesnt-show-up-for-me"></a>Someone added a tab, but the tab doesn’t show up for me
 
 This problem is because you don’t have the BC app for Teams installed. Only those with the app installed will see Business Central tabs.
 
-## Others see different sorting or column layout than what the tab author sees
+## <a name="others-see-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a>Others see different sorting or column layout than what the tab author sees
 
 This problem is likely because you shared a list view that is a personal view. In this case, work with your administrator to create either role-specific list views that covers the different roles in the channel/chat, or create this view for the whole organisation so that everyone can get a consistent view.
 
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [[!INCLUDE [prod_short](includes/prod_short.md)] and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)  

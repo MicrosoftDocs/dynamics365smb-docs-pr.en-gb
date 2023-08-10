@@ -8,11 +8,11 @@ ms.search.form: '5, 118'
 ms.date: 03/15/2022
 ms.author: edupont
 ---
-# Currencies in Business Central
+# <a name="currencies-in-business-central"></a>Currencies in Business Central
 
 [!INCLUDE [finance-currencies-lcy-def](includes/finance-currencies-lcy-def.md)]
 
-## Currencies
+## <a name="currencies"></a>Currencies
 
 > [!TIP]  
 > In [!INCLUDE[prod_short](includes/prod_short.md)] if you are looking for real time information about foreign exchange (FX) rates or historical rates, you will find it referred to as currency. In addition to this article, see also [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md).
@@ -21,17 +21,17 @@ ms.author: edupont
 
 You specify the currency codes in the **Currencies** list, including extra information and settings that are necessary for each currency code. For more information, see [Currencies](finance-set-up-currencies.md#curr)
 
-### Example of a receivable currency transaction
+### <a name="example-of-a-receivable-currency-transaction"></a>Example of a receivable currency transaction
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## Exchange Rates
+## <a name="exchange-rates"></a>Exchange Rates
 
 The exchange rates are the tool to calculate the local currency value (LCY) of each currency transaction. For more information, see [Update Currency Exchange Rates](finance-how-update-currencies.md).  
 
-## See related [Microsoft training](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Set Up Currencies](finance-set-up-currencies.md)  
 [Update Currency Exchange Rates](finance-how-update-currencies.md)  

@@ -12,17 +12,17 @@ ms.date: 06/07/2022
 ms.author: solsen
 ---
 
-# Configure API Templates
+# <a name="configure-api-templates"></a>Configure API Templates
 
 The API library for [!INCLUDE[prod_short_md](includes/prod_short.md)] provides a simplified representation of the underlying entities. All the properties in the application are not exposed through the associated API. The **API Setup** page allows you to define templates that are used to populate empty properties on an entity when you create a POST action through the API. 
 
 For example, if a configuration template is defined for the item entity, when a new item record is created through the items API, any properties for the new item that are not defined in the API call will be populated from the selected template. If, for example, no value is defined for the **Gen. Prod. Posting Group** field through the API, but a value is defined in the selected template, then the posting group value defined in the template will be applied to the new item. 
 
-## Setting up the Entity Template
+## <a name="setting-up-the-entity-template"></a>Setting up the Entity Template
 
 To use templates with the API library, you must first set up and define properties for the templates. You can set up these templates on the **Configuration Templates** page. For more information, see [Migrate On-Premises Data to Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) (in English only) in the administration content.  
 
-## Assign the template to an API
+## <a name="assign-the-template-to-an-api"></a>Assign the template to an API
 
 To assign a template to an API, you must go through the following steps.
 
@@ -45,7 +45,7 @@ To assign a template to an API, you must go through the following steps.
 
     The defined template is applied to a new record created through the API if, and only if, the conditions defined in the **Conditions** field are met by the values already defined for the new instance of the entity.
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [API Documentation](/dynamics-nav/fin-graph)  
 [Develop Connect Apps for [!INCLUDE[prod_short_md](includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
