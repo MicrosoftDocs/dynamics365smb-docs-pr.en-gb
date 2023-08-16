@@ -10,14 +10,14 @@ ms.custom: bap-template
 ms.search.forms: '5704, 5700, 5702, 5701'
 ---
 
-# <a name="set-up-stockkeeping-units"></a>Set Up Stockkeeping Units
+# Set Up Stockkeeping Units
 
 Use stockkeeping units (SKUs) to record information about items for a specific location or a variant. They let you add different information about an item for a specific location, for example:
 
 * A warehouse or distribution centre
 * Variants, such as different shelf numbers and different replenishment information, for the same item  
 
-## <a name="to-set-up-a-stockkeeping-unit"></a>To set up a stockkeeping unit
+## To set up a stockkeeping unit  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Stockkeeping Units**, and then choose the related link.  
 2. Choose the **New** action.  
@@ -34,9 +34,9 @@ To create several stockkeeping units for an item, use the **Create Stockkeeping 
 > If the SKU is supplied through production, the **Standard Cost** field isn't used when invoicing and adjusting the actual cost of the produced item. Instead, [!INCLUDE [prod_short](includes/prod_short.md)] uses the value in the **Standard Cost** field on the item card, and variances are calculated against the cost shares of that item.<br><br>
 > Although you can assign production BOMs and routings to SKUs, the unit cost roll-up and the related calculation of cost shares aren't available on SKUs. To learn more about standard costs, go to [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/control-inventory-multiple-locations/)
+## See related [Microsoft training](/training/modules/control-inventory-multiple-locations/)
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Register New Items](inventory-how-register-new-items.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  

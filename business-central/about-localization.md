@@ -11,13 +11,13 @@ ms.search.form: null
 ms.date: 06/11/2021
 ms.author: edupont
 ---
-# <a name="local-functionality-in-"></a>Local Functionality in [!INCLUDE[prod_long](includes/prod_long.md)]
+# Local Functionality in [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] has a combined localisation strategy inclusive of both Microsoft-led and partner-led models. In this section, you can see descriptions of functionality that applies to the countries/regions where Microsoft provides the regulatory compliance and other local functionality.  
 
 For a list of currently supported markets, see [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
-## <a name="local-functionality"></a>Local Functionality
+## Local Functionality
 
 To learn about the local functionality for each country/region, choose the related link:
 
@@ -48,11 +48,11 @@ To learn about the local functionality for each country/region, choose the relat
 |        | India | [India Local Functionality](LocalFunctionality/India/india-local-functionality.md) |
 |        | New Zealand | [New Zealand Local Functionality](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
-### <a name="other-countriesregions"></a>Other Countries/Regions
+### Other Countries/Regions
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is also available in other markets through localisation apps. If a Microsoft partner has developed a localisation app for your country/region, you can find it in [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-## <a name="see-also"></a>See Also
+## See Also
 [Create environments](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Compliance](compliance/compliance-overview.md)  

@@ -9,7 +9,7 @@ ms.search.form: '654, 662, 1500,'
 ms.date: 09/12/2022
 ms.author: edupont
 ---
-# <a name="how-to-use-approval-workflows"></a>How To Use Approval Workflows
+# How To Use Approval Workflows
 
 When a record, such as a purchase document or a customer card, needs to be approved by someone in your organisation, you send an approval request as part of a workflow. Based on how the workflow is set up, the appropriate approver is then notified that the record requires their approval.
 
@@ -19,7 +19,7 @@ In addition to the approval workflows described in this article, you can perform
 
 Core approval workflows for purchases documents, sales documents, payment journals, customer cards, and item cards are ready to start as guides. Learn more at [Getting Ready for Doing Business](ui-get-ready-business.md).
 
-## <a name="request-a-record-approval"></a>Request a record approval
+## Request a record approval
 
 The following task is performed by an approval user.
 
@@ -30,7 +30,7 @@ The status of the approval entry is updated from **Created** to **Open**. The st
 
 When all required approvers have approved the record, the status changes to **Released**. You can then continue working with the record.
 
-## <a name="cancel-approval-requests"></a>Cancel approval requests
+## Cancel approval requests
 
 The following task is performed by an approval user with approver rights.
 
@@ -40,7 +40,7 @@ A customer may want to change an order after it's been submitted for approval. I
 
 When the approval request has been cancelled, the status of the related approval entry is changed to **Cancelled**. The status of the record is updated from **Pending Approval** to **Open**. At this point, the approval process can start again.
 
-## <a name="approve-or-reject-approval-requests"></a>Approve or reject approval requests
+## Approve or reject approval requests
 
 The following task is performed by an approval user with approver rights.
 
@@ -56,7 +56,7 @@ If an approver hierarchy is set up, the record status is **Pending Approval** un
 
 At the same time, the approval status changes from **Created** to **Open** as soon as an approval request for the record is created. If the request is rejected, the approval status changes to **Rejected**. The status remains **Open** or **Rejected** until all approvers have approved the request.
 
-## <a name="delegate-approval-requests"></a>Delegate approval requests
+## Delegate approval requests
 
 The following task is performed by an approval user with approver rights.
 
@@ -67,7 +67,7 @@ To prevent records from piling up or otherwise blocking the workflow, the approv
 
 A notification to approve the request is sent to the substitute approver.
 
-## <a name="manage-overdue-approval-requests"></a>Manage overdue approval requests
+## Manage overdue approval requests
 
 The following task is performed by an approval user with approver rights.
 
@@ -78,9 +78,9 @@ The **Send Overdue Approval Notifications** function checks for all open approva
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Overdue Approval Requests**, and then choose the related link.
 2. On the **Overdue Approval Requests** page, choose the **Send Overdue Approval Notifications** action.
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/use-approval-workflows/)
+## See related [Microsoft training](/training/modules/use-approval-workflows/)
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Use Approval Workflows](across-use-workflows.md)  
 [Workflow](across-workflow.md)  

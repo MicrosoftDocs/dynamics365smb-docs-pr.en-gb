@@ -10,21 +10,21 @@ ms.date: 04/04/2023
 ms.custom: bap-template
 ---
 
-# <a name="set-up-contact-sync-with-outlook-for-business-central-on-premises"></a>Set up contact sync with Outlook for Business Central on-premises
+# Set up contact sync with Outlook for Business Central on-premises
 
 In this article, you learn how to set up [!INCLUDE[prod_short](includes/prod_short.md)] on-premises to synchronise contacts in [!INCLUDE[prod_short](includes/prod_short.md)] with contacts in Outlook. For more information the feature, go to [Synchronise Contacts in Business Central with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md).
 
-## <a name="introduction"></a>Introduction
+## Introduction
 
 Contact synchronisation requires using the OAuth 2.0 protocol for authentication with Exchange Online. Previously, basic authentication was also supported, but it's been deprecated and no longer supported with Exchange Online. You can read more about the deprecation at [Deprecation of Basic authentication in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online). This change means that contact synchronisation in Business Central may have stopped working on your on-premises environment. This article will explain how to get it working again.
 
-## <a name="prerequisites"></a>Prerequisites
+## Prerequisites
 
 - Exchange Online, either a standalone version or through Microsoft 365 plan  
 - Access to the Azure Active Directory (Azure AD) tenant used by Exchange Online
 - [!INCLUDE[prod_short](includes/prod_short.md)] users have a Microsoft 365 or Exchange Online email account, which is assigned to their accounts in [!INCLUDE[prod_short](includes/prod_short.md)]. You can check this setting in the **Microsoft 365 Authentication** section of user profile in the **Users** list. 
 
-## <a name="set-up-contact-sync"></a>Set up contact sync
+## Set up contact sync
 
 Complete the following steps to set up contact sync. If you're running [!INCLUDE[prod_short](includes/prod_short.md)] Spring 2019 (v.14), you'll have to do an extra step that either modifies application code or sets up a connection to Power BI.
 
@@ -59,6 +59,6 @@ Complete the following steps to set up contact sync. If you're running [!INCLUDE
 
    After the solution you choose is in place, ask users to either run the new/modified page or [connect to Power BI](across-working-with-powerbi.md#connect). They'll only need to do this step once.
 
-## <a name="next-steps"></a>Next steps
+## Next steps
 
 [Synchronise Contacts in Business Central with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)  

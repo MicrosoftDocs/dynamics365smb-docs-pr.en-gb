@@ -12,7 +12,7 @@ ms.date: 08/01/2021
 ms.author: jswymer
 ---
 
-# <a name="finding-pages-with-the-role-explorer"></a>Finding Pages with the Role Explorer
+# Finding Pages with the Role Explorer
 
 You can get an overview of all the business features that are available for your role, and for other roles if you go a step further. In the following documentation, this feature overview is referred to as the *role explorer*.
 
@@ -20,7 +20,7 @@ Each element on the role explorer is an action that opens a page. Accordingly, y
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="open-the-role-explorer"></a>Open the role explorer
+## Open the role explorer
 
 You can open the role explorer from the Role Centre and all list pages and from the **Tell Me** window.
 
@@ -29,7 +29,7 @@ You can open the role explorer from the Role Centre and all list pages and from 
 
 When you first open the role centre, it shows links to most features available for your role.
 
-## <a name="navigate-features"></a>Navigate features
+## Navigate features
 
 The actions that open pages are organised under nodes named after the features or application areas. Each node can be collapsed or expanded individually and you can collapse/expand all nodes together.
 
@@ -37,11 +37,11 @@ The actions that open pages are organised under nodes named after the features o
 - To expand/collapse all top-level nodes on the page, but leave the sub-nodes as they are, choose **...** at the top, then choose **Expand** or **Collapse**.
 - To expand/collapse all top-levels node and all sub nodes under it, choose **...** at the top, then choose the **Expand All** or **Collapse All** action.
 
-## <a name="search-for-features"></a>Search for features
+## Search for features
 
 To quickly locate features, select **Find**, then enter a word or phrase for the feature your trying to find. The role centre will highlight any matching text. If a feature is hidden from view in collapsed node, the collapsed node is marked with a dot. 
 
-## <a name="explore-other-roles"></a>Explore other roles
+## Explore other roles
 
 To explore roles other than your own, select **Explore more roles**. The role centre displays each role under its own heading, with links to its features. You can then navigate and find features just like you do when exploring your role.
 
@@ -57,7 +57,7 @@ When exploring other roles, you can also narrow the exploration down by using th
 > For developers, you categorise pages and reports by setting the [UsageCategory property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-usagecategory-property) in the object's AL code.
 <!--
  
-## <a name="role-explorer-actions"></a>Role explorer actions
+## Role explorer actions
 
 There a several actions along the top of the role explorer to help you locate features of your role and other roles.
 
@@ -80,7 +80,7 @@ Choose the **Explore more roles** action at the top of the role explorer to get 
 > Only Role Center actions for profiles where the **Show in Role Explorer** check box is selected will appear on the extended version of the role explorer (shown with the **Explore more roles** action). For more information, see [Manage Profiles](admin-users-profiles-roles.md).
 -->
 
-## <a name="expand-and-collapse-nodes-on-the-role-explorer"></a>Expand and collapse nodes on the role explorer
+## Expand and collapse nodes on the role explorer
 
 The actions that open pages are organised under nodes named after the features or application areas. Each node can be collapsed or expanded individually and you can collapse/expand all nodes together.
 
@@ -90,7 +90,7 @@ The actions that open pages are organised under nodes named after the features o
   - Select the <kbd>Ctrl</kbd>+<kbd>Shift</kbd> keys while you choose the **Expand** or **Collapse** action in the top-right corner.
   - Choose **...** in the top-right corner, then choose the **Expand All** or **Collapse All** action.
 
-## <a name="see-also"></a>See Also
+## See Also
 [Finding Pages and Information with Tell Me](ui-search.md)  
 [Manage Profiles](admin-users-profiles-roles.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
