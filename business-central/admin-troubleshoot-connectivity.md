@@ -11,7 +11,7 @@ ms.date: 06/17/2021
 ms.author: jswymer
 ROBOTS: NOINDEX
 ---
-# Troubleshoot Connectivity for Business Central
+# <a name="troubleshoot-connectivity-for-business-central"></a>Troubleshoot Connectivity for Business Central
 
 > **APPLIES TO:** [!INCLUDE[prod_short](includes/prod_short.md)] Online
 >
@@ -22,7 +22,7 @@ ROBOTS: NOINDEX
 > [!NOTE]
 > The **Troubleshooting Connectivity** page doesn't test network performance or reliability, like the speed of your connection. It only verifies connectivity to different resources.
 
-## Start the connectivity check 
+## <a name="start-the-connectivity-check"></a>Start the connectivity check
 
 1. Open an Internet browser.
 2. In the address, enter the URL that you use to open Business Central and add `/connectivity` at the end. 
@@ -51,7 +51,7 @@ ROBOTS: NOINDEX
 
 The following sections explain the checks that are run, and provide some tips for fixing any problems.
 
-## Basic internet connectivity
+## <a name="basic-internet-connectivity"></a>Basic internet connectivity
 
 Checks that you have connection to the Internet by verifying that you can access a known public domain, like www.bing.com.
 
@@ -60,7 +60,7 @@ Checks that you have connection to the Internet by verifying that you can access
 |Your browser does not support this check|Open the page in a supported browser, and try again. For a list of supported browsers, see [Minimum Requirements for Using Business Central - Browsers](product-requirements.md#browsers)|
 |Failed to ping the server at the following URL: {url}|Check Firewall settings.|
 
-## CDN (content delivery network) resources loading
+## <a name="cdn-content-delivery-network-resources-loading"></a>CDN (content delivery network) resources loading
 
 [!INCLUDE[prod_short](includes/prod_short.md)] uses Azure Content Delivery Network (CDN) to provide resources that are required to run the Business Central Web client. This check verifies that the required resources are available and accessible by pinging the Business Central instance in CDN.
 
@@ -69,7 +69,7 @@ Checks that you have connection to the Internet by verifying that you can access
 |Your browser does not support this check|See **Basic Internet connectivity** check.|
 |Failed to ping the server at the following URL: {url}|Check Firewall settings.|
 
-## User authentication
+## <a name="user-authentication"></a>User authentication
 
 Checks that the current user has signed in with a valid Business Central account.
 
@@ -77,7 +77,7 @@ Checks that the current user has signed in with a valid Business Central account
 |-------|-------------|
 |No user is currently authenticated|Sign in to Business Central with valid user name and password.|
 
-## Business Central environments discovery
+## <a name="business-central-environments-discovery"></a>Business Central environments discovery
 
 Checks for Business Central environments that are available to an authenticated user, then verifies whether the user can be authenticated in the environment.
 <!-- example: Your user name or password is incorrect, or you do not have a valid account.. Request duration: 332 milliseconds)-->
@@ -88,7 +88,7 @@ Checks for Business Central environments that are available to an authenticated 
 |Failed to retrieve available environments for your account.|Check the list of available environments in the Business Central admin centre.|
 |Your user name or password is incorrect, or you do not have a valid account.| Verify that you've signed in using the correct user name and password.|
 
-## Application service connectivity
+## <a name="application-service-connectivity"></a>Application service connectivity
 
 Checks that the authenticated user can connect to a discovered environment, typically starting with the production environment.
 
@@ -99,7 +99,7 @@ Checks that the authenticated user can connect to a discovered environment, typi
 |No cluster address to perform this check for|Check the list of available environments in the Business Central admin centre.|
 |Version endpoint does not exist|Check the list of available environments in the Business Central admin centre.|
 
-## Web server connectivity
+## <a name="web-server-connectivity"></a>Web server connectivity
 
 Checks that the authenticated user can successfully establish connections with the web server.
 
@@ -110,7 +110,7 @@ Checks that the authenticated user can successfully establish connections with t
 |No cluster address to perform this check for|Check the list of available environments in the Business Central admin centre.|
 |Failed to establish a connection with the web server|Clear the cache and reload the page.|
 
-## Service health status
+## <a name="service-health-status"></a>Service health status
 
 Reports Business Central's service health status by checking for declared outages.
 
@@ -119,7 +119,7 @@ Reports Business Central's service health status by checking for declared outage
 |No authenticated user to perform this check for|See the **User authentication check**.|
 |Sorry, Business Central is temporarily unavailable. Please try again later.|Try again later.|
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Resources for Help and Support](product-help-and-support.md)  
 [Overview of Tasks to Set Up Business Central](setup.md)  

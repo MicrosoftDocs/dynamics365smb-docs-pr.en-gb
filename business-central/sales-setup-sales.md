@@ -11,7 +11,7 @@ ms.search.form: '170, 172, 300, 301, 428, 456, 459, 1401'
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# Setting Up Sales
+# <a name="setting-up-sales"></a>Setting Up Sales
 
 Before you can manage sales processes, you must configure the rules and values that define the company's sales policies.
 
@@ -35,9 +35,9 @@ Finance-related sales setup, such as payment methods and currencies, are covered
 |Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|
 |Specify whether users are allowed to post sales invoices, and whether they must post them together with a shipment. |[Define an invoice posting policy for users](admin-setup-invoice-posting-policy.md)|
 
-## See related [Microsoft training](/training/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/trade-get-started-dynamics-365-business-central/)
 
-## See Also
+## <a name="see-also"></a>See Also
 [Sales](sales-manage-sales.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

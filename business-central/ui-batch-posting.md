@@ -11,11 +11,11 @@ ms.reviewer: edupont
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# Post Multiple Documents at the Same Time
+# <a name="post-multiple-documents-at-the-same-time"></a>Post Multiple Documents at the Same Time
 
 Instead of posting individual documents one by one, you can select multiple non-posted documents in a list for immediate posting or for batch posting according to a schedule, such as at the end of the day. This may be useful if only a supervisor can post documents created by other users or to avoid system performance issues from posting during work hours.
 
-## To post multiple purchase orders immediately
+## <a name="to-post-multiple-purchase-orders-immediately"></a>To post multiple purchase orders immediately
 
 The following procedure explains how to post multiple purchase orders immediately. The steps are similar for all purchase and sales documents.
 
@@ -26,7 +26,7 @@ The following procedure explains how to post multiple purchase orders immediatel
 5. Choose the **Posting** action, and then choose the **Post** action.
 6. Choose the **Yes** button on the confirmation message.
 
-## To batch post multiple purchase orders
+## <a name="to-batch-post-multiple-purchase-orders"></a>To batch post multiple purchase orders
 
 The following procedure explains how to batch post purchase orders. The steps are similar for all purchase and sales documents where the **Batch Post** action is available.
 
@@ -42,7 +42,7 @@ The following procedure explains how to batch post purchase orders. The steps ar
 > [!NOTE]
 > Posting of multiple documents might take some time and block other users. Consider enabling background posting. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
 
-## To set up background posting with job queues
+## <a name="to-set-up-background-posting-with-job-queues"></a>To set up background posting with job queues
 Job queues are an effective tool to schedule the running of business processes in the background, such as when multiple users are trying to post sales orders, but only one order can be processed at a time.  
 
 The following procedure explains how to set up background posting of sales orders. The steps are similar for purchasing.  
@@ -67,14 +67,14 @@ The following procedure explains how to set up background posting of sales order
 4. To verify that the job queue is working as expected, post a sales order. For more information, see [Sell Products](sales-how-sell-products.md).
     The sales order will now be added to a dedicated job queue entry, which defines when the documents are posted. 
 
-### To view status from a sales or purchase document
+### <a name="to-view-status-from-a-sales-or-purchase-document"></a>To view status from a sales or purchase document
 If the job queue cannot post the sales order, the status is changed to **Error** and the sales order is added to the list of sales orders that the user must handle manually.
 1. From the document that you have tried to post with background posting, choose the **Job Queue Status** field, which will contain **Error**.
 2. Review the error message and fix the problem.
 
 Alternatively, you can review on the **Job Queue Log Entries** page if the sales order was posted successfully. For more information, see the [Monitor the job queue](#monitor-the-job-queue) section.
 
-## To create a job queue entry for batch posting of sales orders
+## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>To create a job queue entry for batch posting of sales orders
 
 Alternatively, you can postpone postings for when it is convenient for your organisation. For example, in your business it might make sense to run certain routines when most of the data entry for the day has concluded. You can achieve this by setting the job queue up to run various batch-posting reports, such as the **Batch Post Sales Orders**, **Batch Post Sales Invoices**, and similar reports. [!INCLUDE[prod_short](includes/prod_short.md)] supports background posting for all sales, purchasing, and service documents.
 
@@ -111,13 +111,13 @@ The following procedure shows how to set the **Batch Post Sales Orders** report 
 
 Sales orders that are within defined filters will now be posted every weekday at 4 PM.
 
-## Monitor the job queue
+## <a name="monitor-the-job-queue"></a>Monitor the job queue
 
 If you set up background posting with job queues, make it a regular task to monitor the job queue to catch any issues. You can track the status in the **Job Queue Entries** page. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).  
 
 As an administrator, you can use [Application Insights](/azure/azure-monitor/app/app-insights-overview) to gather and analyse telemetry that you can use to identify problems. For more information, see [Monitoring and Analysing Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) in the developer and administration content.  
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Posting Documents and Journals](ui-post-documents-journals.md)  
 [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)  

@@ -11,18 +11,18 @@ ms.search.form: '1231, 1232, 1233, 1234'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Export a Positive Pay File
+# <a name="export-a-positive-pay-file"></a>Export a Positive Pay File
 To make sure that your bank only clears validated cheques and amounts, you can export a Positive Pay file that contains vendor information, cheque number, and payment amount, which you send to the bank for reference when you process payments.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is preconfigured to support Positive Pay files for Bank of America and City Bank.
 
-## To set up a bank account for Positive Pay
+## <a name="to-set-up-a-bank-account-for-positive-pay"></a>To set up a bank account for Positive Pay
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
 2. Open the card for the bank that you want to use Positive Pay for.
 3. In the **Positive Pay Export Code** field, enter POSPAYBANK.
 4. Close the page.
 
-## To export a Positive Pay file
+## <a name="to-export-a-positive-pay-file"></a>To export a Positive Pay file
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
 2. Select the bank account that you want to export a Positive Pay file for.
 3. Choose **Positive Pay Export** action.
@@ -52,7 +52,7 @@ To reexport Positive Pay files
 4. Select the line for the Positive Pay export file that you want to reexport.
 5. On the **Positive Pay Entries** page, choose the **Reexport Positive Pay to File** action.
 
-## See Also
+## <a name="see-also"></a>See Also
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [Work with General Journals](ui-work-general-journals.md)  

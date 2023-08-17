@@ -8,11 +8,11 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: soalex
 ---
-# Submit Alerts about Country/Region-Specific Regulatory Features
+# <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Submit Alerts about Country/Region-Specific Regulatory Features
 
 We invite you to use Microsoft Dynamics Lifecycle Services (LCS) to submit regulatory alerts through the Dynamics regulatory alert submission service.  
 
-## To submit a regulatory alert in LCS
+## <a name="to-submit-a-regulatory-alert-in-lcs"></a>To submit a regulatory alert in LCS
 
 1. Go to [https://lcs.dynamics.com](https://lcs.dynamics.com) and sign in  
 
@@ -65,7 +65,7 @@ We invite you to use Microsoft Dynamics Lifecycle Services (LCS) to submit regul
 
       After you submit the alert, you will get a confirmation that the alert was successfully submitted to Microsoft.
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Local Functionality in [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Changing Language and Locale](about-locale-language.md)  
