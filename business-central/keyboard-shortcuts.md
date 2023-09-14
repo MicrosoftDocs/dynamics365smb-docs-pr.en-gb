@@ -90,7 +90,7 @@ The following table describes the keyboard shortcuts that you can use on a list 
 |*<kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>F</kbd>*|Send suggested lines on the cash flow worksheets page.|Not applicable.|
 |*<kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>I</kbd>*|View serial and lot numbers assigned to the line item on the document or journal.|Not applicable.|
 
-### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigating Between Rows and Columns
+### <a name="navigate-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigating Between Rows and Columns
 
 Grids containing rows and columns exist on many page types in [!INCLUDE[prod_short](includes/prod_short.md)], such as list pages and **Lines** parts on documents. Moving from one cell to another across a grid is fully keyboard-enabled.
 
@@ -111,7 +111,7 @@ Grids containing rows and columns exist on many page types in [!INCLUDE[prod_sho
 | <kbd>Tab</kbd> | In editable list, move in the same row to the next field to the right. | Not applicable. | 
 | <kbd>Shift</kbd>+<kbd>Tab</kbd> | In editable list, move in the same row to the previous field to the left. | Not applicable. |
 
-### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Selecting, Copying, and Pasting
+### <a name="select-copy-and-paste"></a><a name="CopyRows"></a>Selecting, Copying, and Pasting
 
 |Select these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |
 |--------------------------------|--------------------------|--------------------------|
@@ -129,7 +129,7 @@ Grids containing rows and columns exist on many page types in [!INCLUDE[prod_sho
 |<kbd>Shift</kbd>+<kbd>Page Down</kbd><br /><br />(<kbd>Shift</kbd>+<kbd>Fn</kbd>+<kbd>Up Arrow</kbd>)|Extend the selection of rows to include all visible rows below the current selection of rows.|Not applicable.|
 |<kbd>F8</kbd>|Copy the field in the same column of the row above, and paste it into the current row. You can only do this in editable lists. Using this shortcut followed by a <kbd>Tab</kbd> lets you quickly fill out fields in line items that you want to have the same value as the row above.|Not applicable.|
 
-### <a name="searching-and-filtering-lists"></a><a name="KeyboardFilter"></a>Searching and Filtering Lists
+### <a name="search-and-filter-lists"></a><a name="KeyboardFilter"></a>Searching and Filtering Lists
 
 |Select these keys<br />(in macOS)|To do this|
 |--------------------------------|----------|

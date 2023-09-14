@@ -4,11 +4,11 @@ ms.topic: include
 ms.date: 05/27/2021
 ms.author: bholtorf
 ---
-## Setting Up the Location
+## <a name="setting-up-the-location"></a>Setting Up the Location
 
 The setup of the **Location Card** page defines the company's warehouse flows. Use the Locations card to set up a location with the code name *SOUTH*.
 
-### To set up the location SOUTH
+### <a name="to-set-up-the-location-south"></a>To set up the location SOUTH
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
 2. Create a location card named *SOUTH*.  

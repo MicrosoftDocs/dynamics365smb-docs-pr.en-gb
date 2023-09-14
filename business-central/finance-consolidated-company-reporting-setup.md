@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# Set Up Company Consolidation
+# <a name="set-up-company-consolidation"></a>Set Up Company Consolidation
 
 Before you can consolidate the general ledger entries of two or more separate companies (subsidiaries) into a consolidated company, you must prepare the charts of accounts and the consolidation company.  
 
@@ -23,7 +23,7 @@ Depending on the complexity of your businesses, there are two ways to set up con
   * In each business unit, specify which general ledger accounts are to be included in the consolidation, and specify the consolidation translation method for each account.
   * In the consolidation company, set up a business unit card for each company to be included in the consolidation. The business unit card includes information, such as the dates of the business unit's fiscal year, and the percentage of each account that must be included in the consolidation.
 
-## Simple consolidation setup
+## <a name="simple-consolidation-setup"></a>Simple consolidation setup
 
 [!INCLUDE [2021_releasewave1](includes/2021_releasewave1.md)]
 If your consolidation is straightforward, for example because you wholly-own the business units to consolidate, the **Company Consolidation** assisted setup guide will help you through the following steps:
@@ -36,11 +36,11 @@ To use the assisted setup guide, follow these steps:
 1. On the **Accountant** Role Centre, choose the **Assisted Setup** action.
 2. Choose **Set up consolidation reporting**, and then complete each step in the assisted setup guide.
 
-## Advanced consolidation setup
+## <a name="advanced-consolidation-setup"></a>Advanced consolidation setup
 
 If you need more advanced settings for your consolidation, you can set up consolidation manually. For example, if you have companies that you own only partially, or you have companies that you do not want to include in the consolidation.  
 
-### Set up the consolidated company
+### <a name="set-up-the-consolidated-company"></a>Set up the consolidated company
 
 First, you must set up the consolidated company. You set up the consolidated company in the same way that you set up other companies. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).  
 
@@ -64,7 +64,7 @@ The following list illustrates key aspects of the consolidated company.
 
     For more information, see the [Include or exclude dimensions](#dim) section.
 
-### <a name="busunit"></a>Add business units
+### <a name="add-business-units"></a><a name="busunit"></a>Add business units
 
 [!INCLUDE[prod_short](includes/prod_short.md)] lets you set up a list of business units to consolidate, verify the accounting data before you consolidate it, import files, and generate consolidation reports.  
 
@@ -78,7 +78,7 @@ The following list illustrates key aspects of the consolidated company.
 
 If your business unit uses a foreign currency, you must specify the exchange rate to use in the consolidation. You must also enter consolidation information about the business unit's general ledger accounts. These processes are described in the following sections.
 
-### <a name="glacc"></a>Prepare general ledger accounts for consolidation
+### <a name="prepare-general-ledger-accounts-for-consolidation"></a><a name="glacc"></a>Prepare general ledger accounts for consolidation
 
 The chart of accounts for a company that will be consolidated must specify accounts for consolidation. For each posting general ledger account in each company, you must specify the general ledger account in the consolidated company to which the balance will be transferred on consolidation. This is a mapping that will allow companies with different chart of accounts to be consolidated together.
 
@@ -87,7 +87,7 @@ If the chart of accounts in the business unit differs from the consolidated comp
 1. In each business unit's [!INCLUDE [prod_short](includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
 2. Open the card for the account, and then fill in the fields on the **Consolidation** FastTab. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-### <a name="exchrates"></a>Specify exchange rates for consolidations
+### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Specify exchange rates for consolidations
 
 If a business unit uses a different currency than the consolidated company, you must specify exchange rate methods for each account before you consolidate. For each account, the content of the **Consol. Translation Method** field determines the exchange rate. In the consolidated company, on each business unit card, in the **Currency Exchange Rate Table** field, you specify whether consolidation will use exchange rates from the business unit or the consolidated company. If you use exchange rates from the consolidated company, you can change the exchange rates for a business unit. For business units, if the **Currency Exchange Rate Table** field on the business unit card contains **Local**, you can change the exchange rate from the business unit card. The exchange rates are copied from the **Currency Exchange Rate** table, but you can change them before consolidating.
 
@@ -110,7 +110,7 @@ To specify exchange rates for business units, follow these steps:
 4. Choose the **Closing Rate** action.  
 5. In the **Relational Exch. Rate Amount** field, enter the exchange rate.
 
-### <a name="dim"></a>Include or exclude dimensions
+### <a name="include-or-exclude-dimensions"></a><a name="dim"></a>Include or exclude dimensions
 
 You can consolidate dimension information and general ledger accounts.
 
@@ -120,15 +120,15 @@ You can consolidate dimension information and general ledger accounts.
   * To consolidate the dimension value code in the business unit with a different dimension value code in the consolidated company, fill in the **Consolidation Code** field on the relevant dimensions.  
 * Add the relevant dimensions to the relevant general ledger accounts
 
-### <a name="exclude"></a>Exclude a company from consolidation
+### <a name="exclude-a-company-from-consolidation"></a><a name="exclude"></a>Exclude a company from consolidation
 
 If you do not want to include a business unit in the consolidation, you can exclude it. To do that, go to the business unit card, and clear the **Consolidate** check box.
 
-### <a name="include"></a>Include a partially-owned company in consolidation
+### <a name="include-a-partially-owned-company-in-consolidation"></a><a name="include"></a>Include a partially-owned company in consolidation
 
 If you own only part of a company, you can include a percentage of each transaction that corresponds to the percentage of the company you own. For example, if you own 70% of the company, consolidation will include $70 of an invoice for $100. To specify the percentage of the company you own, go to the business unit card, and enter the percentage in the **Consolidation %** field.  
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)  
 [Managing Intercompany Transactions](intercompany-manage.md)  

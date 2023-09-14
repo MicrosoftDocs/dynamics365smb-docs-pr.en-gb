@@ -11,7 +11,7 @@ ms.date: 09/17/2021
 ms.author: bholtorf
 ---
 
-# Error message: "Posting Date is not within your range of allowed posting dates…"
+# <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Error message: "Posting Date is not within your range of allowed posting dates…"
 
 When using the **Adjust Cost - Item Entries** batch job you may run into the following error message:
 
@@ -19,7 +19,7 @@ When using the **Adjust Cost - Item Entries** batch job you may run into the fol
 
 This error message indicates that the user is not allowed to post entries for the date in question, and this can be remedied by changing the user setup.
 
-## Change the user setup  
+## <a name="change-the-user-setup"></a>Change the user setup
 
 |User ID  |Allow Posting From  | Allow Posting To  |
 |---------|---------|--------|
@@ -27,9 +27,9 @@ This error message indicates that the user is not allowed to post entries for th
 
 The user in this case has an allowed posting date range from September 11th to September 30th and is therefore not allowed to post the Adjustment Value Entry with Posting Date September 10th.  
 
-### Overview of involved posting date setup
+### <a name="overview-of-involved-posting-date-setup"></a>Overview of involved posting date setup
 
-#### Inventory Periods
+#### <a name="inventory-periods"></a>Inventory Periods
 
 |Ending Date  |Name  |Closed  |
 |---------|---------|---------|
@@ -46,7 +46,7 @@ The user in this case has an allowed posting date range from September 11th to S
 |2020-11-30     |November   2020   |         |
 |2020-12-31     |December   2020   |         |  
 
-#### General Ledger Setup
+#### <a name="general-ledger-setup"></a>General Ledger Setup
 
 |Field|Value|
 |---------|---------|
@@ -55,7 +55,7 @@ The user in this case has an allowed posting date range from September 11th to S
 |Register Time:       |         |
 |Local Address Format:|   postcode      |  
 
-#### User Setup
+#### <a name="user-setup"></a>User Setup
 
 |User ID  |Allow Posting From  | Allow Posting To  |
 |---------|---------|--------|
@@ -63,7 +63,7 @@ The user in this case has an allowed posting date range from September 11th to S
 
 Assigning a wider allowed posting date range, as in Inventory Period or General Ledger Setup, makes it possible to avoid the conflict that causes the error message. The Adjustment Value Entry with Posting Date September 10th will be posted successfully with this setup.
   
-## See Also  
+## <a name="see-also"></a>See Also
 
 [Design Details: Posting Date on Adjustment Value Entry](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  
