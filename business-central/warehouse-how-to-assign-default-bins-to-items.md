@@ -1,7 +1,7 @@
 ---
 title: Assign Default Bins to Items
 description: 'If you are using bins at a location, assigning default bins to your items can make the process of shipping, receiving, and moving your items much easier.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: null
 ms.search.form: '7371, 7374, 7379'
 ms.date: 06/25/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="assign-default-bins-to-items"></a>Assign Default Bins to Items
+# Assign Default Bins to Items
 If you are using bins at a location, assigning default bins to your items can make the process of shipping, receiving, and moving your items much easier. When a default bin is assigned to an item, this bin is suggested every time you initiate a transaction for this item. Default bins are defined on the **Bin Content** page.  
 
-## <a name="to-assign-a-default-bin-to-an-item"></a>To assign a default bin to an item
+## To assign a default bin to an item
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bin Content Creation Worksheet**, and choose the related link.  
 2.  Fill in the bin code and item information for each bin that you would like to set up as a default for an item. Make sure to select the **Default** field.  
 3.  Choose the **Create Bin Content** action. Default bins are now assigned for your item.  
@@ -22,7 +22,7 @@ If you are using bins at a location, assigning default bins to your items can ma
 > [!NOTE]  
 >  When an item is put away, if the item does not have a default bin assigned, the bin where the item is put away is assigned as the default.  
 
-## <a name="to-change-the-default-bin-for-an-item"></a>To change the default bin for an item
+## To change the default bin for an item  
 You may need to change the default bin assignment for an item or assign a default bin to a new item.
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bin Contents**, and then choose the related link.  
 2.  In the **Location Filter** field, select the appropriate location code.  
@@ -32,7 +32,7 @@ You may need to change the default bin assignment for an item or assign a defaul
 > [!NOTE]  
 >  When an item is put away for the first time, and the item does not have a default bin assigned, the system will assign the bin where the item is put away as the default bin for the item.  
 
-## <a name="see-also"></a>See Also
+## See Also  
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md) 

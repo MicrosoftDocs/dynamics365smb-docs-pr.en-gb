@@ -1,8 +1,8 @@
 ---
 title: Install and Uninstall Apps
 description: Learn how you can install and uninstall apps and extensions in Business Central.
-author: SusanneWindfeldPedersen
-ms.author: solsen
+author: brentholtorf
+ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 04/24/2023
@@ -11,7 +11,7 @@ ms.search.keywords: 'app, add-in, manifest, customize, install, uninstall'
 ms.search.form: '2500, 20350'
 ---
 
-# <a name="install-and-uninstall-extensions-apps-in-business-central"></a>Install and Uninstall Extensions (Apps) in Business Central
+# Install and Uninstall Extensions (Apps) in Business Central
 
 You can change [!INCLUDE[prod_short](includes/prod_short.md)] by installing apps that, for example, add functionality, change behaviour, or give you access to new online services. For more information, see [Customising Business Central Using Extensions](ui-extensions.md).
 
@@ -22,7 +22,7 @@ You can change [!INCLUDE[prod_short](includes/prod_short.md)] by installing apps
 
 To use an extension, you must be assigned the permission sets that come with it.
 
-## <a name="install-an-extension"></a><a name="install"></a>Install an extension
+## <a name="install"></a>Install an extension
 
 You manage apps and extensions on the **Extension Management** page. You can access this page from Home. Alternatively, choose the **Search for Page or Report** icon ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") in the top-right corner, enter **Extension**, and then choose the related link.  
 
@@ -69,19 +69,19 @@ Microsoft provides the following apps:
 * [The GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [US/CA/UK/AU/NZ/ZA - Send Remittance Advice](ui-extensions-send-remittance-advice.md)
 
-## <a name="set-up-an-app"></a>Set up an app
+## Set up an app
 
 After you install an app, you might have to set it up. For example, for the **PayPal Payments Standard for [!INCLUDE[prod_short](includes/prod_short.md)]** app you must specify the PayPal account to use. If that's the case, when installation completes [!INCLUDE[prod_short](includes/prod_short.md)] will ask whether you want to set up the app right away. Setups can be required for the app to work, or optional.
 
 If you choose to set up your app right away, and it has a required setup, [!INCLUDE[prod_short](includes/prod_short.md)] will open the required setup. The setup can be either a page where you enter information, or an assisted setup guide that helps you through the steps. If you don't complete the setup in one go, you can use the **Setups for _name of app_** page, which lists all setups for the app. Required setups indicated by **bold letters**.
 
-## <a name="upload-a-per-tenant-extension-pte"></a>Upload a per-tenant extension (PTE)
+## Upload a per-tenant extension (PTE)
 
 You upload a PTE by using the **Extension Management** page. On the **Extension Management** page, go to **Manage**, then choose **Upload Extension**. On the **Upload and Deploy Extension** page, specify the .app file to upload. To proceed, choose the **Accept** button, and then the **Deploy** button, which will start the process of deploying the PTE.
 
 If the PTE contains breaking schema changes, it's possible to *force* an upload of it. To do that, in **Schema Sync Mode** choose the **Force** option. You'll get a confirmation dialogue to accept before proceeding.  
 
-## <a name="uninstall-an-app"></a>Uninstall an app
+## Uninstall an app
 
 You uninstall an app by using the **Extension Management** page. To uninstall an app, select it on the page, then select the **Uninstall** action. If you uninstall an app, and you then change your mind, you can install the app again.
 
@@ -92,7 +92,7 @@ By default, when you uninstall an app that you've been using your data isn't del
 > * If you turn on the **Delete Extension Data** toggle, uninstalling the app will delete all data for the app *plus* data for all dependent apps. The action can't be undone.
 > * Some apps are required and you can't delete them on the **Extension Management** page.  
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Customise Business Central](ui-customizing-overview.md)  
 [Business Central Extensions by Other Providers](ui-extensions-other.md)  

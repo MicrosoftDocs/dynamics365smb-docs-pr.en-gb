@@ -1,16 +1,16 @@
 ---
 title: Update Custom Report Layouts
 description: 'Learn how to update a custom report layout used on a report when there are design changes to the report''s data set, for example.'
-author: jswymer
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '9652, 9650'
 ms.date: 06/24/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="legacy-update-custom-report-layouts"></a>(Legacy) Update Custom Report Layouts
+# (Legacy) Update Custom Report Layouts
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -22,7 +22,7 @@ You also have the option to test updates without applying the required changes t
 
 Not all report dataset changes can be automatically updated in the report layouts. Some changes will require that you manually edit the report layout. For more information, see [Limitations of the Custom Report Layout Update](ui-update-report-layouts.md#UpdateLimitations).  
 
-## <a name="to-update-one-or-more-custom-report-layouts"></a>To update one or more custom report layouts
+## To update one or more custom report layouts  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.  
 
@@ -30,7 +30,7 @@ Not all report dataset changes can be automatically updated in the report layout
 
 If no errors occur, then the updates is applied to the report layouts. If errors occur, then a message that contains the errors appears. You will then have to manually edit the custom report layout to fix the error. For more information, see [Fixing Errors](ui-update-report-layouts.md#FixErrors).  
 
-## <a name="to-test-custom-report-layout-updates"></a>To test custom report layout updates
+## To test custom report layout updates  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.  
 
@@ -38,7 +38,7 @@ If no errors occur, then the updates is applied to the report layouts. If errors
 
  Changes to the report layouts are tested but not applied to the actual report layouts. A **Report Layout Update Log** page appears that provides the status a potential updates for each report layout. If there are errors for a report layout, you can access the report layout directly for editing from the message to fix any issues. For more information, see [Fixing Errors](ui-update-report-layouts.md#FixErrors).  
 
-## <a name="limitations-of-the-custom-report-layout-update"></a><a name="UpdateLimitations"></a>Limitations of the Custom Report Layout Update
+##  <a name="UpdateLimitations"></a> Limitations of the Custom Report Layout Update  
  There are several types of changes that the automatic update can apply to custom report layouts, for example, a field that is used in the layout has been removed from the report data set. However, the automatic update cannot handle the following changes to a report dataset.  
 
 1.  Deleted fields, labels, or data items.  
@@ -49,7 +49,7 @@ If no errors occur, then the updates is applied to the report layouts. If errors
 
  If the update process detects any one of these issues, the update cannot be applied. You will have to fix the issues manually, for example by editing the report layout in Word, or programmatically by using upgrade codeunits.  
 
-## <a name="fixing-errors"></a><a name="FixErrors"></a>Fixing Errors
+##  <a name="FixErrors"></a> Fixing Errors  
  If you get an error message when you update or test report layout updates, you most likely will have to modify the report layout to fix the problem. Read the error message to help determine the cause of the problem.  
 
  The most typical problem occurs when a field that is used on the layout has been removed from the report dataset. In this case, you will see a line in the error message that states that an item has been removed. To fix this issue, you will have to modify the layout and remove the field in question.  
@@ -58,9 +58,9 @@ If no errors occur, then the updates is applied to the report layouts. If errors
 
 After you modify the layout, try to update the layout again.  
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/index)
+## See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>See Also
+## See Also  
  [Managing Report Layouts](ui-manage-report-layouts.md)  
  [Work with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
 

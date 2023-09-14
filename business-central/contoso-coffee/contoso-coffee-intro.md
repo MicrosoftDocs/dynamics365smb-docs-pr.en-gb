@@ -5,16 +5,16 @@ ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: 4760
-author: edupont04
-ms.author: andreipa
+author: brentholtorf
+ms.author: bholtorf
 ---
 
-# <a name="introduction-to-contoso-coffee-demo-data"></a>Introduction to Contoso Coffee Demo Data
+# Introduction to Contoso Coffee Demo Data
 
 Contoso Coffee is a fictitious company that produces consumer and commercial coffee makers. The **Contoso Coffee** apps for Business Central add demo data that you can use to learn how to use the capabilities in Business Central.  
 
 
-## <a name="set-up-contoso-coffee-data"></a>Set up Contoso Coffee data
+## Set up Contoso Coffee data
 
 To use the Contoso Coffee demo data, you must install two apps in the relevant company in [!INCLUDE [prod_short](../includes/prod_short.md)]:  
 
@@ -31,7 +31,7 @@ You then should complete:
  - The [Manufacturing Setup](manufacturing/contoso-coffee-manufacturing-intro.md) to prepare for use of the [Manufacturing Scenarios](#manufacturing-scenarios)
  - The [Warehousing Setup](warehousing/contoso-coffee-warehousing-intro.md) to prepare for use of the [Warehousing Scenarios](#warehousing-scenarios)
 
-## <a name="manufacturing-scenarios"></a>Manufacturing Scenarios
+## Manufacturing Scenarios
 
 The Contoso Coffee demo data currently supports the following manufacturing scenarios for test and training:
 
@@ -49,7 +49,7 @@ Read the steps for each scenario in the relevant article.
 > [!IMPORTANT]
 > The Manufacturing walkthroughs require that the user experience is set to *Premium* in the **Company Information** page.
 
-## <a name="warehousing-scenarios"></a>Warehousing Scenarios
+## Warehousing Scenarios
 
 The Contoso Coffee demo data currently supports the following warehousing scenarios for test and training:
 
@@ -59,7 +59,7 @@ The Contoso Coffee demo data currently supports the following warehousing scenar
 
 Read the steps for each scenario in the relevant article.
    
-## <a name="see-also"></a>See also
+## See also 
 
 [Manufacturing](../production-manage-manufacturing.md)  
 [Warehousing](../warehouse-manage-warehouse.md)  

@@ -1,7 +1,7 @@
 ---
 title: Reconcile Bank Accounts and Apply Payments
 description: 'Outlines tasks to reconcile your bank, receivables, and payables accounts, post cash receipts or expenses, and apply payments automatically.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'payment process, direct payment posting, reconcile payment, expenses, cash receipts'
 ms.search.form: '1290, 1291, 1293, 1294'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Applying Payments Automatically and Reconciling Bank Accounts
+# Applying Payments Automatically and Reconciling Bank Accounts
 You must regularly reconcile your bank, receivables, and payables accounts by applying payments recorded in the bank to their related open (unpaid) invoices and credit memos or other open entries in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 You can perform this task on the **Payment Reconciliation Journal** page, for example, by importing a bank statement file or feed to quickly register the payments. Payments are applied to open customer or vendor ledger entries based on matches between payment text and entry information. You can review and change automatic applications before you post the journal. You can choose to close any open bank account ledger entries related to the applied ledger entries when you post the journal. The bank account is automatically reconciled when all payments are applied.
@@ -37,9 +37,9 @@ The following table describes a sequence of tasks, with links to the topics that
 | Link text on payments to specific customer, vendor, or general ledger accounts to always post recurring cash receipts or expenses to those accounts when no documents exist to apply to. |[Map Text on Recurring Payments to Accounts for Automatic Reconciliation](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md) |
 |Set up the rules to govern how payments/bank transactions should be automatically applied to their related open ledger entries when you use the **Apply Automatically** function on the **Payment Reconciliation Journal** page.|[Set Up Rules for Automatic Application of Payments](receivables-how-set-up-payment-application-rules.md)|
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/use-journals-dynamics-365-business-central/index)
+## See related [Microsoft training](/training/modules/use-journals-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>See Also
+## See Also
 [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  

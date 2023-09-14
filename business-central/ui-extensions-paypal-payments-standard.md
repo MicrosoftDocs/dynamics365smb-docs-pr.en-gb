@@ -1,7 +1,7 @@
 ---
 title: Using the PayPal Payments Standard Extension
 description: This topic describes how to use the standard extension to enable customers to make payments with PayPal.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'app, add-in, manifest, customize'
 ms.search.form: '1070, 1071, 1073, 1074'
 ms.date: 06/23/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="the-paypal-payments-standard-extension"></a>The PayPal Payments Standard Extension
+# The PayPal Payments Standard Extension
 
 Customers continuously require higher customer service, both in terms of product quality but also in terms of delivery and payment options. The PayPal Payments Standard service helps you increase your customer service.
 
@@ -29,7 +29,7 @@ The PayPal Payments Standard service provides the following benefits:
 
 For more information, see [Enable Customer Payment Through PayPal](sales-how-enable-payment-service-extensions.md).
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
 [Setting Up Sales](sales-setup-sales.md)  

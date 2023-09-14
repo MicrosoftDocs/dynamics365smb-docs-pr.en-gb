@@ -2,7 +2,7 @@
 title: Relationship Management
 description: The relationship management features support your sales efforts and let you access information about contacts and prospects to serve customers efficiently.
 documentationcenter: ''
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,9 +10,9 @@ ms.workload: na
 ms.search.keywords: 'contact, prospect, client'
 ms.search.forms: '9076, 9026'
 ms.date: 06/22/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="managing-relationships"></a>Managing Relationships
+# Managing Relationships
 The relationship management features of [!INCLUDE[prod_short](includes/prod_short.md)] help you manage and support your sales efforts. With these features, you have access to complete and accurate information so you can focus your interactions on preferred customer/contact segments.
 
 Good sales and marketing practices are all about how to make the best decisions at the right time. [!INCLUDE[prod_short](includes/prod_short.md)] provides a precise and timely overview of your contact information so that you can serve your prospective customers more efficiently and increase customer satisfaction.

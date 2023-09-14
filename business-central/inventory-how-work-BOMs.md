@@ -1,7 +1,7 @@
 ---
 title: Work with Bills of Material
 description: You create an assembly BOM or production BOM to specify the components or resources required to put together the item that the BOM represents.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,13 +9,13 @@ ms.workload: na
 ms.search.keywords: 'bills of material, assembly BOM, production BOM,'
 ms.search.form: null
 ms.date: 09/26/2022
-ms.author: a-reishima
+ms.author: bholtorf
 ---
-# <a name="work-with-bills-of-material"></a>Work with Bills of Material
+# Work with Bills of Material
 
 You use bills of materials (BOMs) to structure parent items that must be assembled from other items or produced by resources or machine centres from components.
 
-## <a name="assembly-boms-or-production-boms"></a>Assembly BOMs or production BOMs
+## Assembly BOMs or production BOMs
 
 [!INCLUDE[prod_short](includes/prod_short.md)] supports two different types of BOMs:
 
@@ -36,7 +36,7 @@ The concept of resources in production is much more advanced than in assembly ma
 
 Both assembly orders and production orders may be linked directly to sales orders. However, you can only use assembly orders to customise the end item directly for a customer request with the sales order.
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Work with Assembly BOMs](assembly-how-work-assembly-boms.md)  
 [Create Production BOMs](production-how-to-create-production-boms.md)  

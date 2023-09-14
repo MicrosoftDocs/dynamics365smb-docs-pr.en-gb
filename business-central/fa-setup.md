@@ -1,7 +1,7 @@
 ---
 title: Set Up Fixed Assets
 description: 'Learn about the sequence of tasks you must do to set up fixed assets, such as machinery or buildings.'
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'machinery, buildings'
 ms.search.form: 5607
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="setting-up-fixed-assets"></a>Setting Up Fixed Assets
+# Setting Up Fixed Assets
 
 Before you can work with Fixed Assets, you need to define a few things:  
 
@@ -36,9 +36,9 @@ The following table describes a sequence of tasks, with links to the topics that
 | Learn about different fixed asset depreciation methods. |[Depreciation Methods](fa-depreciation-methods.md) |
 | Learn about how to apply user-defined depreciation methods. |[Set Up User-Defined Depreciation Methods](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/set-up-fixed-assets-management/)
+## See related [Microsoft training](/training/paths/set-up-fixed-assets-management/)
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Fixed Assets](fa-manage.md)  
 [Finance](finance.md)  

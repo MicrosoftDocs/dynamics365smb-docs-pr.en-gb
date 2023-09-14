@@ -1,16 +1,16 @@
 ---
 title: Multiple Contracts | Microsoft Docs
 description: 'Depending on your service level agreements with a customer, you may have to handle a service item under more than one service contract.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="multiple-contracts"></a>Multiple Contracts
+# Multiple Contracts
 Depending on your service level agreements with a customer, you may have to handle a service item under more than one service contract.  
   
 By handling a service item under multiple contracts, you can do the following:  
@@ -25,18 +25,18 @@ By handling a service item under multiple contracts, you can do the following:
   
 You can consider the following examples of using the multiple contracts functionality.  
   
-## <a name="creating-multiple-contracts-per-service-item"></a>Creating Multiple Contracts per Service Item
+## Creating Multiple Contracts per Service Item  
 You can manually create a service contract or contract quote for service items already registered in non-cancelled contracts owned by the same customer. To do this, follow the standard procedure of creating service contracts and service contract quotes. For more information, see [Work with Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes.md).  
   
 When you add a service item on a contract line that is registered in other service contracts or contract quotes, a warning message is displayed stating that the service item already belongs to one or more service contracts or contract quotes. If you confirm this message, all relevant service item information is copied to a newly created contract line.  
   
-## <a name="copying-documents"></a>Copying Documents
+## Copying Documents  
 You can automatically create a service contract or contract quote for service items that are already registered in other service contracts or contract quotes by using the **Copy from Document** action.  
   
-## <a name="creating-service-orders-for-multiple-contracts"></a>Creating Service Orders for Multiple Contracts
+## Creating Service Orders for Multiple Contracts  
 You can manually create a service order for a service item that is registered in multiple active contracts. A service contract is active when it is signed and not expired.  
   
-## <a name="see-also"></a>See Also
+## See Also  
 [Fulfilling Service Contracts](service-fulfill-service-contracts.md)  
 [Create Service Orders](service-how-to-create-service-orders.md)  
 

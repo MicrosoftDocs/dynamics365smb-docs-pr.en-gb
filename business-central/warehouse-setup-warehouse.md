@@ -1,16 +1,16 @@
 ---
 title: Configure Warehouse Processes
 description: 'A company''s distribution strategy is reflected in the configuration of its warehouse processes, for example the warehouse locations.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366'
 ms.date: 06/25/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="setting-up-warehouse-management"></a>Setting Up Warehouse Management
+# Setting Up Warehouse Management
 
 A company's distribution strategy is reflected in the configuration of its warehouse processes. This includes defining how different items are handled in different warehouse locations, such as the degree of bin control and the extend of workflow required between warehouse activities.  
 
@@ -35,9 +35,9 @@ The following table describes a sequence of tasks, with links to the topics that
 |Get tips on how to reorganize locations, bins, or zones to obtain more efficient warehouse activities.|[Restructure Warehouses](warehouse-how-to-restructure-warehouses.md)|
 |Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/set-up-warehouse-management/)
+## See related [Microsoft training](/training/paths/set-up-warehouse-management/)
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Inventory](inventory-manage-inventory.md)  
 [Assembly Management](assembly-assemble-items.md)  

@@ -1,7 +1,7 @@
 ---
 title: Overview of Tasks to Manage Accounts Payable
 description: 'Outlines tasks to manage accounts payable, for example, paying creditors or applying outgoing payments to ledger entries to close invoices or credit memos.'
-author: edupont04
+author: brentholtorf
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'vendor payment, creditor, debt, balance due, AP'
 ms.search.form: '161, 254, 256, 347, 574, 599, 9002'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="managing-payables"></a>Managing Payables
+# Managing Payables
 
 A big part of managing accounts payable is paying your vendors, or reimbursing your employees for expenses. You can use functions to add payments lines for purchase invoices that are due on the **Payment Journal** page. To send transactions to your bank, you can export multiple payment journal lines to a file, and then upload the file to your bank. You can also make payments by cheque, including transmitting cheques as electronic payments.
 
@@ -29,16 +29,16 @@ The following table describes a sequence of tasks within accounts payable, with 
 |Ensure correct inventory valuation by assigning added item costs, such as freight, physical handling, insurance, and transportation that you incur when purchasing.|[Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)|
 |Reimburse employees for personal expenses during business activities by making payment to their bank account.|[Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)|
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
+## See related [Microsoft training](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
 
-## <a name="see-also"></a>See Also
+## See Also
 [Purchasing](purchasing-manage-purchasing.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
 [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)  
 [General Business Functionality](ui-across-business-areas.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

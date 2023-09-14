@@ -1,16 +1,16 @@
 ---
 title: About Inventory Costing
 description: 'Managing inventory costs is all about recording and reporting business operating costs, including the reporting of manufacturing costs and inventory costs.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 06/16/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="about-inventory-costing"></a>About Inventory Costing
+# About Inventory Costing
 Managing inventory costs is concerned with recording and reporting business operating costs. It includes the reporting of manufacturing costs and inventory costs, that is, the value of items.  
 
  Central principles to understand are that costing methods define how items are valued when they leave inventory, that cost adjustment updates the cost of goods sold with related purchase costs posted after the sale, and that inventory values must be posted to dedicated G/L accounts at regular intervals.  
@@ -31,7 +31,7 @@ Managing inventory costs is concerned with recording and reporting business oper
 |Read how inventory periods help a company to control inventory value over time by defining shorter periods that can be closed for posting as the fiscal year progresses.|[Work with Inventory Periods](finance-how-to-work-with-inventory-periods.md)|  
 |Understand all mechanisms in the costing engine, including what happens when you post assembly and production transactions.|[Design Details: Inventory Costing](design-details-inventory-costing.md)|  
 
-## <a name="see-also"></a>See Also
+## See Also
 [Managing Inventory Costs](finance-manage-inventory-costs.md)    
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

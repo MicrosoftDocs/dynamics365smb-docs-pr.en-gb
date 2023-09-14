@@ -1,16 +1,16 @@
 ---
 title: Design Details - Variance | Microsoft Docs
 description: 'Variance is defined as the difference between the actual cost and the standard cost, as described in the following formula.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 06/08/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="design-details-variance"></a>Design Details: Variance
+# Design Details: Variance
 Variance is defined as the difference between the actual cost and the standard cost, as described in the following formula.  
 
  actual cost – standard cost = variance  
@@ -20,7 +20,7 @@ Variance is defined as the difference between the actual cost and the standard c
 > [!NOTE]  
 >  Revaluation does not affect the variance calculation, because revaluation only changes the inventory value.  
 
-## <a name="example"></a>Example
+## Example  
  The following example illustrates how variance is calculated for purchased items. It is based on the following scenario:  
 
 1.  The user purchases an item at LCY 90.00, but the standard cost is LCY 100.00. Accordingly, the purchase variance is LCY –10.00.  
@@ -33,7 +33,7 @@ Variance is defined as the difference between the actual cost and the standard c
 
  ![Purchase variance calculation.](media/design_details_inventory_costing_11_purchase_variance.png "Purchase variance calculation")  
 
-## <a name="determining-the-standard-cost"></a>Determining the Standard Cost
+## Determining the Standard Cost  
  The standard cost is used when calculating variance and the amount to capitalise. Since the standard cost can be changed over time because of manual update calculation, you need a point in time when the standard cost is fixed for variance calculation. This point is when the inventory increase is invoiced. For produced or assembled items, the point when standard cost is determined is when the cost is adjusted.  
 
  The following table shows how different cost shares are calculated for produced and assembled items when you use the Calculate Standard Cost function.  
@@ -52,7 +52,7 @@ Variance is defined as the difference between the actual cost and the standard c
 |**Rolled-up Capacity Ovhd. Cost**|Not applicable|![Equation 8.](media/design_details_inventory_costing_11_equation_8.png "Equation 8")|  
 |**Rolled-up Mfg. Ovhd. Cost**|Not applicable|![Equation 9.](media/design_details_inventory_costing_11_equation_9.png "Equation 9")|  
 
-## <a name="see-also"></a>See Also
+## See Also  
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   
  [Design Details: Costing Methods](design-details-costing-methods.md) [Managing Inventory Costs](finance-manage-inventory-costs.md)  
  [Finance](finance.md)  

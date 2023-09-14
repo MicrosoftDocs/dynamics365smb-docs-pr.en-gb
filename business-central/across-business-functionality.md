@@ -1,7 +1,7 @@
 ---
 title: Business Functionality Supported by Business Central
 description: 'Provides a feature overview of all the business functions and departments supported by application areas, such as finance, inventory, and project management.'
-author: SorenGP
+author: brentholtorf
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 09/13/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="business-functionality"></a>Business Functionality
+# Business Functionality
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides functionality for common business processes in small and medium-sized companies, mainly within wholesale and professional services. However, more complex processes, such as assembly, manufacturing, service, and directed warehouse management are also supported. [Learn how to get a free trial here](trial-signup.md).  
 
@@ -39,7 +39,7 @@ ms.author: edupont
 |Enable users to exchange data with external sources during daily tasks, such as sending/receiving electronic documents, importing/exporting bank files, and updating currency exchange rates.|[Exchanging Data Electronically](across-data-exchange.md)|
 |Record external documents in [!INCLUDE[prod_short](includes/prod_short.md)], including their file attachments, then manually create the related documents or automatically convert the files to electronic documents.|[Incoming Documents](across-income-documents.md)|
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Administration](admin-setup-and-administration.md)    
 [Explore Dynamics 365 Business Central capabilities](https://dynamics.microsoft.com/business-central/capabilities/)  

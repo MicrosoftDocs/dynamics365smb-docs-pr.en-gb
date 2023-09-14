@@ -1,7 +1,7 @@
 ---
 title: Setting Up Inventory
 description: 'Describes how to set up your stock and inventory processes, including transfer routes and locations, such as warehouses.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'warehouse, stock'
 ms.search.form: '30, 461'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="setting-up-inventory"></a>Setting Up Inventory
+# Setting Up Inventory
 Before you can manage warehouse activities and inventory costing, you must configure the rules and values that define the company's inventory policies.
 
 You can provide better customer service and optimise your supply chain by organising your inventory at different addresses. You can then buy, store, or sell items at different locations and transfer inventory between them.
@@ -32,9 +32,9 @@ When you have set up your inventory, you can manage various processes related to
 |Import multiple item pictures in one go from a zip file where the files are named according to item numbers.|[Import Multiple Item Pictures](inventory-how-import-item-pictures.md)|
 |Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/trade-get-started-dynamics-365-business-central/)
+## See related [Microsoft training](/training/paths/trade-get-started-dynamics-365-business-central/)
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Managing Inventory](inventory-manage-inventory.md)  
 [Managing Purchasing](purchasing-manage-purchasing.md)  

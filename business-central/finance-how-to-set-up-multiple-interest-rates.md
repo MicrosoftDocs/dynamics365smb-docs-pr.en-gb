@@ -1,16 +1,16 @@
 ---
 title: Set Up Multiple Interest Rates for Delayed Payment
 description: This topic tells you how to calculate finance charges with multiple interest rates for a specific period.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '6, 431, 432, 572'
 ms.date: 06/16/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="set-up-multiple-interest-rates-for-delayed-payment"></a>Set Up Multiple Interest Rates for Delayed Payment
+# Set Up Multiple Interest Rates for Delayed Payment
 
 You can use different interest rates for different periods for delayed payments in trade transactions. [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)]
 
@@ -18,7 +18,7 @@ For example, a government specifies the maximum interest to be levied for a cons
 
 When you create finance charge terms and reminder terms, for delayed payment penalty, you can specify multiple interest rates so that the penalty fee is calculated from different interest rates in different periods.  
 
-## <a name="to-set-up-multiple-interest-rates"></a>To set up multiple interest rates
+## To set up multiple interest rates
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Finance Charge Terms**, and then choose the related link.  
 2. On the **Finance Charge Terms** page, select the required finance term, and then choose the **Interest Rates** action.  
@@ -30,7 +30,7 @@ When you create finance charge terms and reminder terms, for delayed payment pen
 
 When you issue a finance charge memo, the memo shows the finance charges with multiple interest rates for a specific time period. The memo also contains the contact details of the customer, the company issuing the memo, the additional amount, and the total amount. The opening entry on the memo is displayed in bold. The finance charges are calculated with multiple interest rates for a specific time period and are printed after the opening entry of the memo.  
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
 [Setting Up Finance](finance-setup-finance.md)

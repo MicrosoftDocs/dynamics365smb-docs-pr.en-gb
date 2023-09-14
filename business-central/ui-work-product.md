@@ -1,16 +1,16 @@
 ---
 title: Working with Business Central  (contains video)
 description: 'Describes the general functionality you use to interact with data in Business Central, such as entering values, sorting data, and changing views.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 'RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 06/25/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="work-with-"></a>Work with [!INCLUDE[prod_short](includes/prod_short.md)]
+# Work with [!INCLUDE[prod_short](includes/prod_short.md)]
 
 When performing business tasks, you interact with data in different ways, such as creating records and entering data, sorting and filtering data, writing notes, and outputting data to other applications.
 
@@ -18,14 +18,14 @@ For example, you can adjust the size and position of any page, expand the width 
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="tips-and-tricks"></a><a name="cheatsheet"></a>Tips and Tricks
+## <a name="cheatsheet"></a>Tips and Tricks
 
 > [!TIP]
 > For a print-friendly overview of the most used functions, choose the following image and download the PDF file.
 >
 > [ ![Icon for the PDF file.](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Icon that opens a PDF")
 
-## <a name="links-to-learn-more"></a>Links to Learn More
+## Links to Learn More
 
 The following table lists some of the general functionality with links to topics that describe them.
 
@@ -51,12 +51,12 @@ The following table lists some of the general functionality with links to topics
 | Manage the content and format of reports and documents, including which data fields of a report dataset appear on the report and how they are arranged, text style, images, and more.|[Managing Report and Document Layouts](ui-manage-report-layouts.md) |
 |Learn about features and capabilities that make [!INCLUDE[prod_short](includes/prod_short.md)] readily available to people with disabilities.|[Accessibility and Keyboard Shortcuts](ui-accessibility.md)|
 
-## <a name="getting-around-in-business-central"></a>Getting Around in Business Central
+## Getting Around in Business Central
 Here's a short video about how to get around in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
 
-## <a name="choosing-a-desktop-browser"></a>Choosing a desktop browser
+## Choosing a desktop browser
 
 [!INCLUDE[prod_short](includes/prod_short.md)] supports multiple browsers that each offer a variety of features and capabilities. The browser plays a significant role in the responsiveness and fluidity of the user interface. See the list of supported, recommended browsers for [Business Central online](./product-requirements.md) and browsers for [Business Central on-premises](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v15).
 
@@ -65,7 +65,7 @@ Here's a short video about how to get around in [!INCLUDE[prod_short](includes/p
     Internet Explorer is no longer supported. For more information, see [Microsoft Edge documentation](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Keep your browser always updated to the latest version.
 
-## <a name="action-bars"></a>Action bars
+## Action bars
 
 Inside [!INCLUDE [prod_short](includes/prod_short.md)], you do most of your work in a list, a document, or a card. All three types of pages have a bar with actions that are relevant to the particular page, and the actions are almost the same for the individual card or document and for the list of entities. This way, you can manage an individual sales order in the **Sales Order** page and in the **Sales Orders** list, including posting it and invoicing it.  
 
@@ -80,9 +80,9 @@ When you search for an open a list page, such as the **Sales Orders** list, it i
 
 But when you open the same list page from your home page, the **Manage** action is not present. Instead, to open an individual sales order, you just choose the **Number** field. In this view, you cannot pin the action bar.  
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/paths/work-pro-data-dynamics-365-business-central/)
+## See related [Microsoft training](/training/paths/work-pro-data-dynamics-365-business-central/)
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Setting Up Business Central](setup.md)  

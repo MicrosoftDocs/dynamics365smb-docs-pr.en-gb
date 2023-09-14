@@ -1,16 +1,16 @@
 ---
 title: Setup Best Practices - Planning Parameters
 description: This topic outlines best practices on how to set up selected planning parameter fields with the Planning FastTab on the item card.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 06/23/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="setup-best-practices-planning-parameters"></a>Setup Best Practices: Planning Parameters
+# Setup Best Practices: Planning Parameters
 
 The **Planning** FastTab on the item card is the centre of a company’s supply chain. Setting the correct planning parameters is very important for cost-effective inventory control and high customer service.  
 
@@ -34,7 +34,7 @@ The **Planning** FastTab on the item card is the centre of a company’s supply 
 >
 > If companies plan for demand at different locations, then it is strongly advised to define SKUs for each location and that all demand is created by using a value in the **Location Code** field. Learn more at [Design Details: Planning With or Without Locations](production-planning-with-without-locations.md).  
 
-## <a name="see-also"></a>See Also
+## See Also  
 [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)  
 [Design Details: Supply Planning](design-details-supply-planning.md)  
 [Set Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  

@@ -1,22 +1,22 @@
 ---
 title: Delete Cost Budget Entries
 description: You use the Delete Cost Budget Entries batch job to cancel cost budget entries from the cost budget register.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 1115
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="delete-cost-budget-entries"></a>Delete Cost Budget Entries
+# Delete Cost Budget Entries
 
 You use the **Delete Cost Budget Entries** batch job to cancel cost budget entries from the cost budget register.  
 
 To prevent any gaps in the cost budget entries and cost register entries, you cannot delete a single entry or a batch of entries in the middle of the list of register entries.  
 
-## <a name="to-delete-a-cost-budget-entry"></a>To delete a cost budget entry
+## To delete a cost budget entry  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Cost Budget Entries**, and then choose the related link.  
 
@@ -28,7 +28,7 @@ To prevent any gaps in the cost budget entries and cost register entries, you ca
 > [!NOTE]  
 > To avoid an accidental deletion of cost budget entries, you can close register entries by marking the lines as **Closed** in the **Closed** field on the **Cost Budget Registers** page.  
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Accounting for Costs](finance-manage-cost-accounting.md)
 [Creating Cost Budgets](finance-create-cost-budgets.md)  

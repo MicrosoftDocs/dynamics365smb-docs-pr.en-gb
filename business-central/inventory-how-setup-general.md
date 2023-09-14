@@ -9,13 +9,13 @@ ms.workload: na
 ms.search.keywords: 'warehouse, stock'
 ms.search.form: '30, 456, 461'
 ms.date: 07/28/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="set-up-general-inventory-information"></a>Set Up General Inventory Information
+# Set Up General Inventory Information
 
 You specify your general inventory setup on the **Inventory Setup** page.
 
-## <a name="to-set-up-general-inventory-information"></a>To set up general inventory information
+## To set up general inventory information
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.
 2. On the **Inventory Setup** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -31,7 +31,7 @@ If you want to include warehouse handling time in the order promising calculatio
 >
 > Alternatively, you can manually adjust costs at regular intervals with the Adjust Cost - Item Entries batch job. You can also turn off automatic cost posting or set the **Automatic Cost Adjustment** field to *Never*. In both cases, a notification displays from which you can start an assisted setup guide to help you schedule tasks for the job queue. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Set Up Inventory](inventory-setup-inventory.md)  
 [Design Details: Costing Methods](design-details-costing-methods.md)  

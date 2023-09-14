@@ -1,16 +1,16 @@
 ---
 title: Manage Saved Settings for Reports and Batch jobs
 description: Describes hwo the admin can set up predefined options and filters for a report and share those settings with one or all users.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'customization, personalization'
 ms.date: 12/21/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Manage Saved Settings for Reports and Batch jobs
+# Manage Saved Settings for Reports and Batch jobs
 
 When running reports, users are typically presented with a page that lets them select options and set filters to change the data that is included in the generated report. This page is called the *request page*. A report can include one or more *saved settings* that users can apply to the report from the request page. *Saved settings* are basically predefined options and filters. Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data. For more information, see [Use saved settings](ui-work-report.md#SavedSettings).
 
@@ -19,7 +19,7 @@ When running reports, users are typically presented with a page that lets them s
 
 If you have the proper permissions, you can view, create, and modify the saved settings for all reports for all users in a company. You can assign saved settings for a report to individual users or to all users in the company.
 
-## <a name="manage-saved-settings"></a>Manage saved settings
+## Manage saved settings
 
 You manage saved settings on the **Reports Settings** page. There are two ways to open this page:
 
@@ -35,7 +35,7 @@ The **Report Settings** page displays all the existing saved settings entries fo
 >
 > However, in some cases, settings cannot be shared, and the admin cannot change them either. Most batch jobs do not support shared settings.  
 
-## <a name="create-or-modify-saved-settings-for-all-users"></a>Create or modify saved settings for all users
+## Create or modify saved settings for all users
 
 From the **Report Settings** page, you can:
 
@@ -49,7 +49,7 @@ From the **Report Settings** page, you can:
 > [!NOTE]
 > The ability to save settings is available only on reports where the [SaveValues property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-savevalues-property) of the report's request page is set to **Yes**. The **SaveValues** property is set by the developer.  
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Work with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
 

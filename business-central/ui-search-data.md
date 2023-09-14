@@ -12,14 +12,14 @@ ms.date: 09/20/2022
 ms.author: bholtorf
 ---
 
-# <a name="search-for-a-record-in-your-data"></a>Search for a Record in Your Data
+# Search for a Record in Your Data
 
 When you want to find a particular record or value, use the **Search for Data** feature to look for it. Start a search on your Role Centre in the following ways:
 
 * Use the **Search for Data** action
 * Use the <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F</kbd> shortcut key combination.
 
-## <a name="how-search-works"></a>How search works
+## How search works
 
 After you enter your keywords, [!INCLUDE[prod_short](includes/prod_short.md)] starts your search in the background and goes through each table one at a time. Search results begin to appear after it finished each table. 
 
@@ -32,11 +32,11 @@ Each time you choose a search result you increase the popularity of the table, a
 > [!NOTE]
 > Headers on sales, purchase, and service documents actually represent different document types, such as quotes, invoices, and orders. Headers are treated as if they were tables. If your keyword was found in a line on one of these documents, when you choose the search result the page for the document displays, and not just the line.
 
-## <a name="getting-started"></a>Getting started
+## Getting started
 
 You can speed up results by choosing the fields on the tables that you want to include in your searches. The tables and fields that you can choose from vary, depending on your Role Centre. By default, all tables and fields are chosen, which can slow down the search. We recommend that you exclude as many tables and fields as you can.
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Finding Pages and Information with Tell Me](ui-search.md)  
 [Entering Data](ui-enter-data.md)  

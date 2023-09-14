@@ -1,7 +1,7 @@
 ---
 title: Set Up Banking
 description: 'You use bank account cards to keep track of your bank accounts and set up bank feeds, such as Yodlee, to exchange data.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'Yodlee, feed, stream, data exchange, AMC, link'
 ms.search.form: 1200
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="setting-up-banking"></a>Setting Up Banking
+# Setting Up Banking
 
 Using bank account cards, you can keep track of all your bank accounts, in any currency. After you have set up the bank accounts, you can also use the cheque printing option.
 
@@ -25,7 +25,7 @@ To use electronic banking services to import bank statements and  export payment
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
