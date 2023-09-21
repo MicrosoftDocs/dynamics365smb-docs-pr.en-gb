@@ -16,7 +16,7 @@ A customer ledger entry with the **On Hold** field filled in will not prompt the
 
 After you have created reminders and made any needed modifications, you can either print test reports or issue the reminders, typically as email.
 
-### <a name="to-create-a-reminder-automatically"></a>To create a reminder automatically
+### To create a reminder automatically
 
 A reminder is similar to an invoice. When you create a reminder, a reminder header as well as one or more reminder lines must be filled in. You can use a function to create reminders for all customers automatically.
 
@@ -25,7 +25,7 @@ A reminder is similar to an invoice. When you create a reminder, a reminder head
 3. On the **Create Reminders** page, fill in the fields to define how and to whom the reminders are created.
 4. Choose the **OK** button.
 
-### <a name="to-create-a-reminder-manually"></a>To create a reminder manually
+### To create a reminder manually
 
 On the **Reminder** page, you can fill in the **General** FastTab manually and then have the lines filled in automatically.
 
@@ -42,7 +42,7 @@ On the **Reminder** page, you can fill in the **General** FastTab manually and t
 
 8. Choose the **OK** button.
 
-### <a name="to-replace-reminder-texts"></a>To replace reminder texts
+### To replace reminder texts
 
 There are several ways you can determine the text that appears on the printed reminder. In some cases, you may want to replace the beginning and ending texts that have been defined for the current level with those from a different level.
 
@@ -51,7 +51,7 @@ There are several ways you can determine the text that appears on the printed re
 3. On the **Update Reminder Text** page, enter the required level in the **Reminder Level** field.
 4. Choose the **OK** button to update the beginning and ending texts.
 
-### <a name="to-issue-a-reminder"></a>To issue a reminder
+### To issue a reminder
 
 After you have created reminders and made any needed modifications, you can either print test reports or issue the reminders.
 
@@ -76,7 +76,7 @@ In addition, issuing the reminder may result in VAT entries.
 
 The reminder is either printed for sent to an specified email as a PDF attachment.
 
-### <a name="to-cancel-an-issued-reminder"></a>To cancel an issued reminder
+### To cancel an issued reminder
 
 If reminders were issued in error, you can cancel them before they are sent out. You can do this either one by one or as a batch.
 
