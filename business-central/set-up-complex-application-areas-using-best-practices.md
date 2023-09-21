@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Set Up Complex Application Areas Using Best Practices
+# <a name="set-up-complex-application-areas-using-best-practices"></a>Set Up Complex Application Areas Using Best Practices
 Entering the correct setup values from the start is important to the success of any new business software.  
 
  Whether you use Rapid Start to implement setup values or you manually enter them in the new company, you can support your setup decisions with some general recommendations for selected setup fields that are known to potentially cause the solution to be inefficient if defined incorrectly.  
@@ -21,7 +21,7 @@ Entering the correct setup values from the start is important to the success of 
 
 -   [Setup Best Practices: Costing Method](setup-best-practices-costing-method.md)  
 
-## See Also  
+## <a name="see-also"></a>See Also
 [Design Details: Supply Planning](design-details-supply-planning.md)   
 [Design Details: Costing Methods](design-details-costing-methods.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

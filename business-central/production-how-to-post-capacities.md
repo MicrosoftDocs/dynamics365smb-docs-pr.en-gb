@@ -10,11 +10,11 @@ ms.search.form: '5832, 99000802, 99000820'
 ms.date: 03/08/2023
 ms.author: bholtorf
 ---
-# Post Capacities
+# <a name="post-capacities"></a>Post Capacities
 
 In the capacity journal, you post consumed capacities that are not assigned to the production order. For example, maintenance work must be assigned to capacity, but not to a production order.  
 
-## To post capacities  
+## <a name="to-post-capacities"></a>To post capacities
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Capacity Journals**, and then choose the related link.  
 2. Fill in the **Posting Date** and **Document No.** fields.  
@@ -25,7 +25,7 @@ In the capacity journal, you post consumed capacities that are not assigned to t
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## To view work centre ledger entries  
+## <a name="to-view-work-center-ledger-entries"></a>To view work centre ledger entries
 
 In the **Work Centre Card** and **Machine Centre Card** pages, you can view the posted capacities as a result of finished production orders.    
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Centres**, and then choose the related link.  
@@ -33,7 +33,7 @@ In the **Work Centre Card** and **Machine Centre Card** pages, you can view the 
 
     The **Capacity Ledger Entries** page displays the posted entries from the work centre in the order they were posted.   
 
-## See Also  
+## <a name="see-also"></a>See Also
 
 [Manufacturing](production-manage-manufacturing.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
