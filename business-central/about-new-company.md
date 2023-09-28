@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'company, setup wizard'
 ms.search.form: '1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ---
-# Create New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="create-new-companies-in-"></a>Create New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], the container for business data that belongs to a business unit or legal entity is referred to as a *company*. When you sign up for [!INCLUDE[prod_short](includes/prod_short.md)], you're given a demonstration company and an empty company, *My Company*. Switching between the companies is easy: just go to **My Settings** and move to the other company. But you can also create new companies in [!INCLUDE[prod_short](includes/prod_short.md)] depending on your business needs.  
 
@@ -21,7 +21,7 @@ When you create a new company, an assisted setup guide helps you get the basics 
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## Choose the right template
+## <a name="choose-the-right-template"></a>Choose the right template
 
 If you decide to add a company to your [!INCLUDE[prod_short](includes/prod_short.md)], you can use the **Create New Company** assisted setup guide to get started. The setup guide is available from the **Companies** page and from the lookup in the **Company** field on the **My Settings** page.  
 
@@ -43,7 +43,7 @@ During your 30 day trial, you can create any number of new companies, but they'l
 
 Your administrator can learn more about trials and subscriptions [here](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions).  
 
-## Copy a company
+## <a name="copy-a-company"></a>Copy a company
 
 On the **Companies** page, you can use the **Copy** action to create a second company based on the contents of an existing company. That's useful, for example, when you want to test a company without disrupting production data.
 
@@ -52,7 +52,7 @@ On the **Companies** page, you can use the **Copy** action to create a second co
 
 [!INCLUDE [email-copy-company](includes/email-copy-company.md)]
 
-## Set up the company
+## <a name="set-up-the-company"></a>Set up the company
 
 When you sign in to a new company, the **Company Setup** wizard runs automatically and helps you get started. You'll be asked for information about your business, such as the address, bank details, and inventory costing method. We ask for this information because it's used as a basis for many areas in [!INCLUDE[prod_short](includes/prod_short.md)] that you'll then not have to set up manually later.  
 
@@ -60,24 +60,24 @@ For example, [!INCLUDE [prod_short](includes/prod_short.md)] includes your compa
 
 Once you have the basics in place, you can set up remaining core areas. Then, you're ready to add business data, such as customers and vendors. For more information, see [Set Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
-## Companies and environments
+## <a name="companies-and-environments"></a>Companies and environments
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
 For more information, see [Switching to Another Company or Environment](ui-organization-switch.md). For more information about environments, see [Understanding the Infrastructure of Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology) (in English only).  
 
-## Changing a company's name
+## <a name="changing-a-companys-name"></a>Changing a company's name
 
 Once a company has been created, you can't change its name. But you can change its **Display Name**, which is text that will be shown for the company throughout the application.  
 
 > [!TIP]
 > You can rename a company if you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises.
 
-## Add Contoso Coffee
+## <a name="add-contoso-coffee"></a>Add Contoso Coffee
 
 The Contoso Coffee app provides demonstration data to help you explore the advanced capabilities of [!INCLUDE [prod_short](includes/prod_short.md)]. Find the app in AppSource, and install it in an empty company, for example a company in a sandbox environment. For more information, see [Introduction to Contoso Coffee Demo Data](contoso-coffee/contoso-coffee-intro.md).  
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Customising Business Central](ui-customizing-overview.md)  
 [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
