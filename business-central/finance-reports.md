@@ -30,8 +30,6 @@ The following articles describe some of the key tasks for analysing the state of
 * [Create Reports with XBRL](bi-create-reports-with-xbrl.md)  
 * [Manage Database Access Intent](admin-data-access-intent.md)  
 
-## See related [Microsoft training](/training/paths/create-financial-reports-dynamics-365-business-central/)
-
 ## See also 
 
 [Creating Cost Budgets](finance-create-cost-budgets.md)  

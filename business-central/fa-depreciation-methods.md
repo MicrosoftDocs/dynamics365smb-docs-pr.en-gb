@@ -10,7 +10,7 @@ ms.search.form: '5629, 5633'
 ms.date: 08/08/2023
 ms.custom: bap-template
 ---
-# <a name="depreciation-methods-for-fixed-assets"></a>Depreciation Methods for Fixed Assets
+# Depreciation Methods for Fixed Assets
 
 There are eight methods of depreciation available in [!INCLUDE [prod_short](includes/prod_short.md)]:  
 
@@ -32,7 +32,7 @@ There are eight methods of depreciation available in [!INCLUDE [prod_short](incl
   > [!NOTE]  
   > This method depreciates a fixed asset by the same amount each year.  
 
-## <a name="straight-line-depreciation"></a>Straight-Line depreciation
+## Straight-Line depreciation
 
 When you use the straight-line method, you must specify one of the following options in the fixed asset depreciation book:  
 
@@ -41,7 +41,7 @@ When you use the straight-line method, you must specify one of the following opt
 * A fixed yearly amount  
 * Depreciation period  
 
-### <a name="depreciation-period"></a>Depreciation period
+### Depreciation period
 
 If you enter the depreciation period (the number of depreciation years, the number of depreciation months, or the depreciation ending date), the following formula calculates the depreciation amount:  
 
@@ -51,19 +51,19 @@ Remaining depreciation days are calculated as the number of depreciation days mi
 
 Book value may be reduced by posted appreciation, write-down, custom 1 or custom 2 amounts, depending on whether the **Include in Depr. Calculation** field is deactivated and whether the **Part of Book Value** field is activated on the **FA Posting Type Setup** page. This calculation ensures that the fixed asset is fully depreciated at the depreciation ending date.  
 
-### <a name="fixed-yearly-percentage"></a>Fixed yearly percentage
+### Fixed yearly percentage
 
 If you enter a fixed yearly percentage, [!INCLUDE [prod_short](includes/prod_short.md)] uses the following formula to calculate the depreciation amount:  
 
 *Depreciation Amount = (Straight-Line % x Depreciable Basis x Number of Depr. Days) / (100 x 360)*  
 
-### <a name="fixed-yearly-amount"></a>Fixed yearly amount
+### Fixed yearly amount
 
 If you enter a fixed yearly amount, [!INCLUDE [prod_short](includes/prod_short.md)] uses the following formula to calculate the depreciation amount:  
 
 * *Depreciation Amount = (Fixed Depreciation Amount x Number of Depreciation Days) / 360*  
 
-### <a name="example---straight-line-depreciation"></a>Example - Straight-Line depreciation
+### Example - Straight-Line depreciation
 
 A fixed asset has an acquisition cost of LCY 100,000. The estimated life is eight years. The **Calculate Depreciation** batch job is run biannually.  
 
@@ -79,7 +79,7 @@ For this example, the fixed asset ledger entry looks like this:
 | 06/30/27 |Depreciation |180 |-6,250.00 |6,250.00 |
 | 12/31/27 |Depreciation |180 |-6,250.00 |0 |
 
-## <a name="declining-balance-1-depreciation"></a>Reducing-Balance depreciation
+## Reducing-Balance depreciation
 
 This depreciation method allocates the largest part of an asset's cost to the early years of its useful lifetime. If you use this method, you must enter a fixed yearly percentage.  
 
@@ -91,7 +91,7 @@ The depreciable basis is calculated as the book value at the beginning of the ye
 
 The posted depreciation amount can contain entries with various posting types (write-down, custom1, and custom2) posted since the starting date of the current fiscal year. These posting types are included in the posted depreciation amount if there are check marks in the **Depreciation Type** and the **Part of Book Value** fields on the **FA Posting Type Setup** page.  
 
-### <a name="example-1---declining-balance-1-depreciation"></a>Example 1 - Reducing-Balance depreciation
+### Example 1 - Reducing-Balance depreciation
 
 A fixed asset has an acquisition cost of LCY 100,000. The **Declining-Balance %** field is 25. The **Calculate Depreciation** batch job is run biannually.  
 
@@ -121,13 +121,13 @@ Calculation method:
 
 The calculation continues until the book value equals the final rounding amount or the salvage value that you entered.  
 
-### <a name="example-2---declining-balance-1-depreciation"></a>Example 2 - Reducing-Balance depreciation
+### Example 2 - Reducing-Balance depreciation
 
 An asset's book value is 100,000 on 12/31/2022. You post a depreciation of 1,778 on 2/2/23, which is the expected (proportional) amount of the year's depreciation at 32 days. If you run depreciation on 6/30/2023 [!INCLUDE [prod_short](includes/prod_short.md)] will suggest 8,222, because there are 148 days from 2/2/2023 until 6/30/2023. The expected remaining depreciation for 6/30/2023 is calculated using the following formula:
 
 * *148/360 x 0.20 x 100,000 = 8,222*
 
-### <a name="example-3---declining-balance-1-depreciation"></a>Example 3 - Reducing-Balance depreciation
+### Example 3 - Reducing-Balance depreciation
 
 If you post an amount that doesn't align with the Declining Balance 1 depreciation method, for example, 5,000, [!INCLUDE [prod_short](includes/prod_short.md)] will suggest the remainder of the expected amount.
 
@@ -135,7 +135,7 @@ An asset's book value is 100,000 on 12/31/2022. You post a depreciation of 5,000
 
 * *148/360 x 0.20 x 100,000 = 8,222*
 
-### <a name="example-4---declining-balance-1-depreciation"></a>Example 4 - Reducing-Balance depreciation
+### Example 4 - Reducing-Balance depreciation
 
 An asset's book value is 100,000 on 12/31/2023. You post a depreciation of 95,000 on 2/2/2023, which exceeds the allowed depreciation amount for the year. If you run depreciation on 6/30/2023, [!INCLUDE [prod_short](includes/prod_short.md)] will suggest 5000, because there are 148 days from 2/2/2023 until 6/30/2023. The expected remaining depreciation for 6/30/2023 is calculated using the following formula: 
 
@@ -143,11 +143,11 @@ An asset's book value is 100,000 on 12/31/2023. You post a depreciation of 95,00
 
 However, the remaining book value is only 5,000, so [!INCLUDE [prod_short](includes/prod_short.md)] will suggest 5,000 because a book value can't be negative.
 
-## <a name="declining-balance-2-depreciation"></a>Double Declining-Balance depreciation
+## Double Declining-Balance depreciation
 
 The Reducing Balance and Double Declining-Balance methods calculate the same total depreciation amount for each year. However, if you run the **Calculate Depreciation** batch job more than once a year, the Declining-Balance 1 method will result in equal depreciation amounts for each depreciation period. The Double Declining-Balance method, on the other hand, will result in depreciation amounts that decline for each period.  
 
-### <a name="example---declining-balance-2-depreciation"></a>Example - Double Declining-Balance depreciation
+### Example - Double Declining-Balance depreciation
 
 A fixed asset has an acquisition cost of LCY 100,000. The **Declining-Balance %** field is 25. The **Calculate Depreciation** batch job is run biannually. The fixed asset ledger entries look like this:  
 
@@ -180,7 +180,7 @@ The depreciation values are:
 | 06/30/21 |DA = 75,000.00 x (1 - (1 - 0.25)<sup>0.5</sup>) = 10,048.09 |
 | 12/31/21 |DA = 64,951.91 x (1 - (1 - 0.25)<sup>0.5</sup>) = 8,701.91 |
 
-## <a name="db1sl-depreciation"></a>Sum of Digits depreciation
+## Sum of Digits depreciation
 
 Sum of Digits is an abbreviated combination of Reducing-Balance and Straight-Line. The calculation continues until the book value equals the final rounding amount, or the salvage value that you entered.  
 
@@ -190,7 +190,7 @@ You can use various percentages to calculate declining-balance.
 
 If you use this method, you must enter the estimated useful lifetime and a declining balance percentage on the **FA Depreciation Books** page.  
 
-### <a name="example---db1-sl-depreciation"></a>Example - DB1-SL depreciation
+### Example - DB1-SL depreciation
 
 A fixed asset has an acquisition cost of LCY 100,000. On the **FA Depreciation Books** page, the **Declining-Balance %** field contains 25 and the **No. of Depreciation Years** field contains 8. The **Calculate Depreciation** batch job is run biannually.  
 
@@ -236,7 +236,7 @@ Calculation method:
 
     The straight-line amount is used because it is the greater amount.  
 
-## <a name="half-year-convention-depreciation"></a>Half-Year Convention depreciation
+## Half-Year Convention depreciation
 
 The Half-Year Convention method will only be applied if you have placed a check mark in the **Use Half-Year Convention** field in the fixed **FA Depreciation Book** page.  
 
@@ -251,7 +251,7 @@ When you apply the Half-Year Convention, a fixed asset has six months of depreci
 > [!NOTE]  
 > The estimated life of the fixed asset that is remaining after the first fiscal year will always contain a half-year using the Half-Year Convention Method. Thus, for the Half-Year Convention method to be applied correctly, the **Depreciation Ending Date** field on the **FA Depreciation Book** page must always contain a date which is exactly six months before the final date of the fiscal year in which the fixed asset will fully depreciate.  
 
-### <a name="example---half-year-convention-depreciation"></a>Example - Half-Year Convention depreciation
+### Example - Half-Year Convention depreciation
 
 A fixed asset has an acquisition cost of LCY 100,000. The **Depreciation Starting Date** is 03/01/20. The estimated life is five years, so the **Depreciation Ending Date** must be 06/30/25. The **Calculate Depreciation** batch job is run annually. This example is based on a calendar fiscal year.  
 
@@ -267,7 +267,7 @@ The fixed asset ledger entries look like this:
 | 12/31/24 |Depreciation |360 |-20,000.00 |10,000.00 |
 | 12/31/25 |Depreciation |180 |-10,000.00 |0.00 |
 
-## <a name="example---db1sl-depreciation-using-half-year-convention"></a>Example - Sum of Digits depreciation using Half-Year Convention
+## Example - Sum of Digits depreciation using Half-Year Convention
 
 A fixed asset has an acquisition cost of LCY 100,000. The **Depreciation Starting Date** is 11/01/20. The estimated life is five years, so the **Depreciation Ending Date** must be 06/30/25. On the **FA Depreciation Books** page, the **Declining-Balance %** field contains 40. The **Calculate Depreciation** batch job is run annually. This example is based on a calendar fiscal year.  
 
@@ -303,7 +303,7 @@ Calculation method:
 
     The straight-line amount is used because it is the greater amount.  
 
-## <a name="duplicating-entries-to-more-depreciation-books"></a>Duplicating entries to more depreciation books
+## Duplicating entries to more depreciation books
 
 If you have three depreciation books, B1, B2 and B3, and you want to duplicate entries from B1 to B2 and B3, you can select the **Part of Duplication List** checkbox on the depreciation book cards for B2 and B3. For example, this setting can be useful in the following situations:
 
@@ -318,9 +318,7 @@ When you make an entry in B1 in the fixed asset G/L journal, and select the **Us
 > [!NOTE]  
 > You can't use the same number series in the fixed asset G/L journal and the fixed asset journal. When you post entries in the fixed asset G/L journal, you must leave the **Document No.** field empty. If you enter a number in the field, the number is duplicated in the fixed asset journal. You'll have to manually change the document number before you can post the journal.  
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/configure-depreciation-books/)
-
-## <a name="see-also"></a>See also
+## See also 
 
 [Fixed Assets](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  

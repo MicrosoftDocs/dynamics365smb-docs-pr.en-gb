@@ -26,8 +26,6 @@ You use the following pages to create and analyse cost budgets. Choose the ![Lig
 |See cost budget registers and cost budget entries.|**Cost Budget Registers** page|  
 |Print cost budget comparisons using various reports.|**Cost Acctg. Balance-Budget** report<br /><br /> **Cost Acctg. Statement-Budget** report<br /><br /> **Cost Budget by Cost Centre** report<br /><br /> **Cost Budget by Cost Object** report|  
 
-## See related [Microsoft training](/training/modules/cost-accounting-reports-dynamics-365-business-central/)
-
 ## See also 
 
 [Accounting for Costs](finance-manage-cost-accounting.md)  

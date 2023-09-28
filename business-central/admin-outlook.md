@@ -11,7 +11,7 @@ ms.search.form: '1831, 1832'
 ms.date: 04/27/2022
 ms.author: jswymer
 ---
-# <a name="get-the-business-central-add-in-for-outlook"></a>Get the Business Central Add-in for Outlook
+# Get the Business Central Add-in for Outlook
 
 With [!INCLUDE[prod_short](includes/prod_short.md)], you can manage business interactions with your customers and vendors, directly in Microsoft Outlook. With the [!INCLUDE[prod_short](includes/prod_short.md)] Outlook add-in, you'll  see financial data related to customers and vendors. You can also create and send financial documents, such as quotes and invoices.  
 
@@ -21,7 +21,7 @@ There are two ways to get the Business Central add-in for Outlook installed, dep
 
 - As any user, install the add-in for your own use, if your admin hasn't already deployed it for you.
 
-## <a name="about-the-business-central-add-in-for-outlook"></a>About the Business Central add-in for Outlook
+## About the Business Central add-in for Outlook
 
 The Business Central add-in for Outlook consists of two smaller add-ins:
 
@@ -40,20 +40,20 @@ Each add-in is provided as an XML file, called a *manifest*, which must be insta
 > [!IMPORTANT]
 > Working with multiple environments? The Business Central add-in for Outlook is designed to work with a single Business Central environment. When the add-in is installed, the name of the environment is included in the add-in's manifest. This configuration means that the add-in will only connect to the environment that it was installed from. To use the add-in with a different environment, you'll open the environment and install the add-in again.
 
-## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>Deploy the add-in by using Centralised Deployment as an admin
+## Deploy the add-in by using Centralised Deployment as an admin
 
 Centralised Deployment is a feature in Microsoft 365 admin centre that you use to automatically install add-ins in users' Office apps, like Outlook. It's the recommended way for admins to deploy for Office add-ins to users and groups within your organisation.
 
 > [!NOTE]
 > For Business Central on-premises, see [Setting Up the Add-In for Outlook Integration with Business Central On-Premises](/dynamics365/business-central/dev-itpro/administration/setting-up-office-add-ins-outlook-inbox) in the administration content (English only).
 
-### <a name="prerequisites"></a>Prerequisites
+### Prerequisites
 
 - A Microsoft 365 subscription  
 - Users are assigned a Microsoft 365 licence  
 - Your Microsoft 365 account has the *Global Administrator* or *Exchange Administrator* role
 
-### <a name="deploy-the-add-in"></a>Deploy the add-in
+### Deploy the add-in
 
 1. In Business Central, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.
 2. Choose **Outlook Add-in Centralised Deployment** to start the assisted setup guide.
@@ -83,7 +83,7 @@ Centralised Deployment is a feature in Microsoft 365 admin centre that you use t
 
 When finished, you can always change the deployment in Microsoft 365 admin centre, like assigning more users. For more information about deploying add-ins in the admin centre, see [Deploy add-ins in the admin centre](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true).
 
-## <a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>Install the add-in for your own use
+## <a name="install"></a>Install the add-in for your own use
 
 If your organisation allows it, you can install the Business Central add-in for just yourself. Contact your administrator if you're not sure.
 
@@ -94,7 +94,7 @@ If your organisation allows it, you can install the Business Central add-in for 
 
 Business Central will connect to your email server and install the add-in in your Outlook. This won't take long. You're now ready to start using the add-in in Outlook.
 
-### <a name="for-business-central-on-premises"></a><a name="onprem"></a>For Business Central on-premises
+### <a name="onprem"></a>For Business Central on-premises
 
 If you're using Business Central on-premises, installing the add-in may be slightly different.
 
@@ -116,9 +116,7 @@ If you're using Business Central on-premises, installing the add-in may be sligh
 
 You're now ready to start using the add-in in Outlook.
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
-
-## <a name="see-also"></a>See Also
+## See Also
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Getting Business Central on my Mobile Device](install-mobile-app.md)  

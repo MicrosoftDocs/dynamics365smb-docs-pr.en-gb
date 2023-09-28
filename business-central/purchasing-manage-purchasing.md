@@ -43,12 +43,10 @@ The following table describes a sequence of tasks, with links to the topics that
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## See related [Microsoft training](/training/paths/purchase-items-services-dynamics-365-business-central/)
-
 ## See also 
 
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
-[Register New Suppliers](purchasing-how-register-new-vendors.md)  
+[Register New Vendors](purchasing-how-register-new-vendors.md)  
 [Managing Payables](payables-manage-payables.md)  
 [Managing Projects](projects-manage-projects.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

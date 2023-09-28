@@ -115,12 +115,10 @@ When your company uses the supply planning processes in [!INCLUDE [prod_short](i
 
 For examples of how you can use the fields on the **Planning** FastTab, see [Setup Best Practices: Planning Parameters](setup-best-practices-planning-parameters.md).  
 
-## See related [Microsoft training](/training/modules/create-items/)
-
 ## See also 
 
 [Inventory](inventory-manage-inventory.md)  
-[Set Up Units of Measurement](inventory-how-setup-units-of-measure.md)  
+[Set Up Units of Measure](inventory-how-setup-units-of-measure.md)  
 [Manage Product Variants](inventory-item-variants.md)  
 [Set Up Intrastat Reporting](finance-how-setup-report-intrastat.md#other-intrastat-configurations)  
 [Reconcile Stock Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
