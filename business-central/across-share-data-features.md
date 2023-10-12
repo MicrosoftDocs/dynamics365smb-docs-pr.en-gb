@@ -8,13 +8,13 @@ ms.search.keywords: null
 ms.date: 09/21/2022
 ms.author: jswymer
 ---
-# Sharing Business Data from Business Central
+# <a name="sharing-business-data-from-business-central"></a>Sharing Business Data from Business Central
 
 Collaboration among people inside and outside an organisation is integral part of most businesses. [!INCLUDE[prod_short](includes/prod_short.md)] offers several features for sharing business data, like a list of records, specific records, or documents. <!--, with others&mdash;even those people who don't have a Business Central license in some cases.-->
 
 With all these features, access to data is protected by the licence and permissions of Business Central.
 
-## Copying a link
+## <a name="copying-a-link"></a>Copying a link
 
 ![Supported](media/check.png) Business Central Online ![Supported](media/check.png) Business Central On-premises
 
@@ -33,22 +33,22 @@ When you paste the URL into a rich text editor, like Word, Outlook, or Teams, in
 > [!TIP]
 > A similar naming convention is used on browser tabs.
 
-### Share data analysis
+### <a name="share-data-analysis"></a>Share data analysis
 If you're viewing a page or query in the data analysis mode, you can share a specific analysis tab by selecting the down arrowhead on the tab, and then selecting **Copy link**. [Learn more about data analysis mode](analysis-mode.md). 
 
-### Modify the page link
+### <a name="modify-the-page-link"></a>Modify the page link
 
 After you copy a link, before you send it, you can modify the URL to manipulate what shows when the page opens. You can, for example, add filters or specify a different company.
 
 [Learn more about the web client URL](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls).
 
-### About filtered lists
+### <a name="about-filtered-lists"></a>About filtered lists
 
 Using the filter pane on list pages, you can apply filters to narrow-down the records shown in the list. If you use the **Copy Link** action or copy the URL from the browser, the page link won't include your filter changes. Users that open the link see the full collection. The way to keep the filtering on a collection page link is to save the filtered page as a **View** first. Then, open the view and copy the link from there.
 
 [Learn more about sorting, searching, and filtering](ui-enter-criteria-filters.md).
 
-## Sharing to Teams
+## <a name="sharing-to-teams"></a>Sharing to Teams
 
 ![Supported](media/check.png) Business Central Online ![Not Supported](media/x-icon.png) Business Central On-premises
 
@@ -56,7 +56,7 @@ Directly from most collection pages and details pages, you can send a link to th
 
 [Learn more about sharing records and page links in Teams](across-working-with-teams.md).
 
-## Sharing Through OneDrive
+## <a name="sharing-through-onedrive"></a>Sharing Through OneDrive
 
 ![Supported](media/check.png) Business Central Online ![Supported](media/check.png) Business Central On-premises
 
@@ -64,7 +64,7 @@ Business Central makes it easy to store, manage, and share files with other peop
 
 [Learn more about sharing files in OneDrive](across-share-onedrive.md).
 
-## Opening in Excel
+## <a name="opening-in-excel"></a>Opening in Excel
 
 ![Supported](media/check.png) Business Central Online ![Supported](media/check.png) Business Central On-premises
 
@@ -72,7 +72,7 @@ For list pages and lists embedded on a page, you can use the **Open in Excel** a
 
 [Learn more about viewing and editing in Excel](across-work-with-excel.md).
 
-## Sharing rows or tables
+## <a name="sharing-rows-or-tables"></a>Sharing rows or tables
 
 ![Supported](media/check.png) Business Central Online ![Supported](media/check.png) Business Central On-premises
 
@@ -80,7 +80,7 @@ You can share one or more records in a list. Just select the <kbd>Ctrl</kbd>+<kb
 
 [Learn more about copy and paste in theFAQ](faq-copy-paste.yml).
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Business Central and OneDrive Integration](across-onedrive-overview.md)  
 [Managing OneDrive Integration with Business Central](admin-onedrive-integration.md)  

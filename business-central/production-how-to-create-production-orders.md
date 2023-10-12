@@ -10,7 +10,7 @@ ms.search.form: '9325, 99000815, 99000829, 9900083'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Create Production Order Headers
+# <a name="create-production-order-headers"></a>Create Production Order Headers
 
 You can create a production order manually, and the first step is to create a production order header.
 
@@ -18,7 +18,7 @@ Production orders are typically created automatically by a planning function to 
 
 In the following procedure, a firm planned production order is created. You can also create production orders with a different status.  
 
-## To create a production order header
+## <a name="to-create-a-production-order-header"></a>To create a production order header
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.  
 2. Choose the **New** action.  
@@ -31,7 +31,7 @@ In the following procedure, a firm planned production order is created. You can 
 
 When production requirements change, such as components or operations, you can quickly replan the production order. For more information, see [Replan or Refresh Production Orders Directly](production-how-to-replan-refresh-production-orders.md).  
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Manufacturing](production-manage-manufacturing.md)
 [Setting Up Manufacturing](production-configure-production-processes.md)  

@@ -10,7 +10,7 @@ ms.date: 09/19/2023
 ms.custom: bap-template
 ms.search.forms: '7375,'
 ---
-# Put Items Away with Inventory Put-aways
+# <a name="put-items-away-with-inventory-put-aways"></a>Put Items Away with Inventory Put-aways
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], you receive items and put them away using one of four methods, as described in the following table.
 
@@ -36,29 +36,29 @@ You can create a inventory put-away in three ways:
 * Create inventory put-aways for several source documents at the same time by using a batch job.  
 * Create the put-away in two steps by first by releasing the source document to make the items available to be put away. You can create the inventory put-away based on the source document by using the **Inventory Put-away** page.  
 
-## To create a inventory put-away from the source document
+## <a name="to-create-an-inventory-put-away-from-the-source-document"></a>To create a inventory put-away from the source document
 
 1. In the source document, which can be a purchase order, sales return order, or inbound transfer order, choose the **Create Inventory Put-away/Pick** action.  
 2. Select the **Create Invt. Put-away** checkbox.
 3. Choose the **OK** button. A new inventory put-away is created.
 
-## To create multiple inventory put-aways with a batch job
+## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>To create multiple inventory put-aways with a batch job
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Inventory Put-away/Pick/Movement**, and then choose the related link. 
 2. On the **Warehouse Request** FastTab, use the **Source Document** and **Source No.** fields to filter on certain types of documents or ranges of document numbers. For example, you can create put-aways for purchase orders only.
 3. On the **Options** FastTab, select the **Create Invt. Put-away** checkbox.
 4. Choose the **OK** button. The specified inventory put-aways are created.
 
-## To create the put-away in two steps
+## <a name="to-create-the-put-away-in-two-steps"></a>To create the put-away in two steps
 
-### To request a inventory put-away by releasing the source document
+### <a name="to-request-an-inventory-put-away-by-releasing-the-source-document"></a>To request a inventory put-away by releasing the source document
 
 When you release purchase orders, sales return orders, and inbound transfer orders, the items on the orders become available to be put away. The following steps describe how to make the items on a purchase order ready to be put away.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.
 2. Select the purchase order that you want to release, and then choose the **Release** action.  
 
-### To create a inventory put-away based on the source document
+### <a name="to-create-an-inventory-put-away-based-on-the-source-document"></a>To create a inventory put-away based on the source document
 
 A warehouse employee can create a new inventory put-away based on the released source document.
 
@@ -69,7 +69,7 @@ A warehouse employee can create a new inventory put-away based on the released s
 5. Alternatively, choose the **Get Source Document** action to select the document from a list of inbound source documents that are ready for put-away at the location.  
 6. Choose the **OK** button to fill the put-away lines according to the selected source document.  
 
-## To record the inventory put-away
+## <a name="to-record-the-inventory-put-away"></a>To record the inventory put-away
 
 1. On the **Inventory Put-aways** page, open a previously created put-away document.  
 2. In the **Bin Code** field on the put-away lines, the bins where the items must be put away are suggested based on the items' default bin. You can change the bin if needed.  
@@ -83,7 +83,7 @@ A warehouse employee can create a new inventory put-away based on the released s
 
     [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  
