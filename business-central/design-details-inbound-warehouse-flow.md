@@ -1,21 +1,23 @@
 ---
 title: Design Details - Inbound Warehouse Flow
-description: The inbound warehouse flow begins when items arrive at the company warehouse and are registered and matched to inbound source documents.
+description: 'Learn how to receive items at your warehouse, and register and match them to inbound source documents.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: null
-ms.date: 11/14/2022
+ms.search.keywords: warehouse
+ms.date: 09/18/2023
 ms.author: bholtorf
 ---
-# <a name="design-details-inbound-warehouse-flow"></a>Design Details: Inbound Warehouse Flow
+# Design details: Inbound warehouse flow
 
-The inbound flow in a warehouse begins when items arrive in the warehouse of the company location, either received from external sources or from another company location. In principle, the process of receiving inbound orders consists of two activities:
+The inbound flow in a warehouse begins when items arrive in the warehouse of the company location, either received from external sources or from another company location. You can receive physical and non-inventory items. To learn more about receiving non-inventory items, go to [Post non-inventory items](#post-non-inventory-items).
 
-* Receive items at the warehouse receiving dock, where you identify the items, match them to a source document, and record the received quantity. 
-* Put items away in stock, and record the place you put them.
+In principle, the process of receiving inbound orders consists of two activities:
+
+* Receive items at the dock, identify them, match them to a source document, and record the received quantity.
+* Put away items in stock, and record the place you put them.
 
 The source documents for inbound warehouse flow are:
 
@@ -48,7 +50,7 @@ In methods A, B, and C, receiving and putting away are combined in one step when
 > * The inventory put-away used in method B, together with registering put-away information, also posts the receipt of the source document.
 > * The warehouse put-away used in method D can't be posted and only registers the put-away. The registration makes the items available for the further processing but doesn't post the receipt. In the inbound flow, the warehouse put-away requires a warehouse receipt.
 
-## <a name="no-dedicated-warehouse-activity"></a>No dedicated warehouse activity
+## No dedicated warehouse activity
 
 The following articles provide information about how to process receipts for source documents if you don't have dedicated warehouse activities.
 
@@ -56,56 +58,56 @@ The following articles provide information about how to process receipts for sou
 * [Transfer Orders](inventory-how-transfer-between-locations.md)
 * [Process Sales Return Orders](sales-how-process-sales-returns-orders.md)
 
-## <a name="basic-warehouse-configurations"></a>Basic warehouse configurations
+## Basic warehouse configurations  
 
-In a basic warehouse configuration, the **Require Put-away** toggle is turned on, but the **Require Receipt** toggle is turned off on the Location Card page for the location.
+In a basic warehouse configuration, the **Require Put-away** toggle is turned on, but the **Require Receipt** toggle is turned off on the **Location Card** page for the location.
 
 The following diagram illustrates the inbound warehouse flows by document type in basic warehouse configurations. The numbers in the diagram correspond with the steps in the sections following the diagram.  
 
 :::image type="content" source="media/design_details_warehouse_management_inbound_basic_flow.png" alt-text="The basic inbound flow in a warehouse.":::
 
-### <a name="1-release-a-source-document-to-create-a-request-for-an-inventory-put-away"></a>1: Release a source document to create a request for an inventory put-away
+### 1: Release a source document to create a request for an inventory put-away  
 
-When you receive items, release the source document, such as a purchase order or an inbound transfer order. Releasing the document makes the items available to be put away. You can also create inventory put-away documents for individual order lines, in a push fashion, based on specified bins and quantities to handle.  
+When you receive items, release the source document, such as a purchase order or an inbound transfer order. Releasing the document makes the items available to be put away. You can also create inventory put-away documents for individual order lines, in a push fashion, based on bins and quantities to handle.  
 
-### <a name="2-create-an-inventory-put-away"></a>2: Create an inventory put-away
+### 2: Create an inventory put-away  
 
 On the **Inventory Put-away** page, in a pull fashion, you can get the pending source document lines based on inbound warehouse requests. In a push fashion, you can also create inventory put-away lines when you create the source document.  
 
-### <a name="3-post-an-inventory-put-away"></a>3: Post an inventory put-away
+### 3: Post an inventory put-away  
 
 On each line for items that have been put away, partially or fully, fill in the **Quantity** field and then post the inventory put-away. Source documents that are related to the inventory put-away are posted as received.  
 
-* Positive item ledger entries are created
+* Positive item ledger entries are created.
 * Warehouse entries are created for locations that require a bin code on all item transactions.
 * The put-away request is deleted, if it's fully handled. For example, the **Quantity Received** field on the inbound source document line is updated.
 * A posted receipt document is created that reflects the purchase order, for example, and the received items.  
 
-## <a name="advanced-warehouse-configurations"></a>Advanced warehouse configurations
+## Advanced warehouse configurations  
 
-In an advanced warehouse configuration, the **Require Receipt** toggle is turned on on the Location Card page for the location. The **Require Put-away** toggle is optional.
+To use an advanced warehouse configuration, turn on the **Require Receipt** toggle on the Location Card page for the location. The **Require Put-away** toggle is optional.
 
 The following diagram illustrates the inbound warehouse flow by document type. The numbers in the diagram correspond with the steps in the sections following the diagram.  
 
 :::image type="content" source="media/design_details_warehouse_management_inbound_advanced_flow.png" alt-text="The advanced inbound flow in a warehouse.":::
 
-### <a name="1-release-the-source-document"></a>1: Release the source document
+### 1: Release the source document  
 
 When you receive items, release the source document, such as the purchase order or an inbound transfer order. Releasing the document makes the items available to be put away. The put away will contain references to the source document type and number.
 
-### <a name="2-create-a-warehouse-receipt"></a>2: Create a warehouse receipt
+### 2: Create a warehouse receipt  
 
-On the **Warehouse Receipt** page, get the inbound source document lines. You can combine several source document lines in one warehouse receipt document. Fill in the **Qty. to Handle** field and select the receiving zone and bin, if required.  
+On the **Warehouse Receipt** page, get the inbound source document lines. You can combine several source document lines in one warehouse receipt document. Fill in the **Qty. to Handle** field and select the receiving zone and bin, if necessary.  
 
-### <a name="3-post-the-warehouse-receipt"></a>3: Post the warehouse receipt
+### 3: Post the warehouse receipt  
 
 Post the warehouse receipt to create positive item ledger entries. The **Quantity Received** field on the inbound source document line is updated.  
 
 If the **Require Put-away** toggle is not turned on on the location card, this is where the process stops. Otherwise, posting the inbound source document makes the items available to be put away. The put away contains references the source document type and number.  
 
-### <a name="4-optional-generate-put-away-worksheet-lines"></a>4: (Optional) Generate put-away worksheet lines
+### 4: (Optional) Generate put-away worksheet lines
 
-Get warehouse put-away lines in the **Put-away Worksheet** based on posted warehouse receipts or operations that produce output. Choose the lines to put-away, and specify the following information:
+Get warehouse put-away lines in the **Put-away Worksheet** based on posted warehouse receipts or operations that produce output. On the lines you'll put-away, specify the following information:
 
 * The bins to take items from.
 * The bins to put items in.
@@ -113,35 +115,38 @@ Get warehouse put-away lines in the **Put-away Worksheet** based on posted wareh
 
 The bins can be predefined by the setup of the warehouse location or the resource that performed the operation.  
 
-When all put-aways are planned and assigned to warehouse workers, generate the warehouse put-away documents. Fully-assigned put-away lines are deleted from the **Put-away Worksheet**.  
+When all put-aways are planned and assigned to warehouse workers, generate the warehouse put-away documents. Fully assigned put-away lines are deleted from the **Put-away Worksheet**.  
 
 > [!NOTE]  
 > If the **Use Put-away Worksheet** toggle is not turned on on the location card, warehouse put-away documents are created directly based on posted warehouse receipts. In that case, this step isn't needed.  
 
-### <a name="5-create-a-warehouse-put-away-document"></a>5: Create a warehouse put-away document
+### 5: Create a warehouse put-away document
 
 Create a warehouse put-away document in a pull fashion, based on the posted warehouse receipt. Alternatively, create the warehouse put-away document and assign it to a warehouse worker in a push fashion.  
 
-### <a name="6-register-a-warehouse-put-away"></a>6: Register a warehouse put-away
+### 6: Register a warehouse put-away
 
 On each line for items that have been put away, partially or fully, fill in the **Quantity** field on the **Warehouse Put-away** page, and then register the warehouse put-away.  
 
 * Warehouse entries are created for locations that require a bin code on all item transactions.
-* The warehouse put-away lines are deleted, if fully handled.
-* The warehouse put-away document remains open until the full quantity of the related posted warehouse receipt is registered.
+* The warehouse put-away lines are deleted, if they're fully handled.
+* The warehouse put-away document remains open until you register the full quantity of the related posted warehouse receipt.
 * The **Qty. Put Away** field on posted warehouse receipt order lines is updated.
 
-## <a name="related-tasks"></a>Related tasks
+## Related tasks
 
-The following table describes a sequence of tasks, with links to the topics that describe them.
+The following table describes a sequence of tasks, with links to the articles that describe them.
 
 |**To**|**See**|  
 |------------|-------------|  
-|Record the receipt of items at warehouse locations with a warehouse receipt, in case of semi or fully automated warehouse processing at the location.|[Receive Items](warehouse-how-receive-items.md)|
-|Put items away on an order-by-order basis and post the receipt in one activity in basic warehouse configurations.|[Put Items Away with Stock Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
+|Receive items at warehouse locations with a warehouse receipt for fully or partially automated warehouse processing.|[Receive Items](warehouse-how-receive-items.md)|
+|Put away items on an order-by-order basis and post the receipt in one activity in basic warehouse configurations.|[Put Items Away with Stock Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
 |Put away items received from multiple purchases, sales returns, transfers orders in an advanced warehouse configuration.|[Put Items Away with Warehouse Put-aways](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)|  
 
+## Post non-inventory items
 
-## <a name="see-also"></a>See Also
+[!INCLUDE [post-non-inventory-items](includes/post-non-inventory-items.md)]
+
+## See also 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

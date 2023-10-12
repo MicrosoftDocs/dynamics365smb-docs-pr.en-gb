@@ -11,7 +11,7 @@ ms.search.form: 1123
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="accounting-for-costs"></a>Accounting for Costs
+# Accounting for Costs
 Cost accounting is used to help you understand the costs of running a business. To get started with cost accounting, see the following topics.  
 
 |To|See|  
@@ -24,7 +24,7 @@ Cost accounting is used to help you understand the costs of running a business. 
 |Learn the processes in creating cost budgets.|[Creating Cost Budgets](finance-create-cost-budgets.md)|
 |Cancel cost budget entries from the cost budget register.|[Deleting Cost Budget Entries](finance-how-to-delete-cost-budget-entries.md)|
 
-## <a name="see-also"></a>See Also
+## See Also  
 [Finance](finance.md)  
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
 
-# <a name="synchronize-items-and-inventory"></a>Synchronise Items and Inventory
+# Synchronise Items and Inventory
 
 The **Items** in [!INCLUDE[prod_short](../includes/prod_short.md)] are equivalent to the *products* in Shopify and include physical goods, digital downloads, services, and gift cards that you sell. There are two main reasons to synchronise items:
 
@@ -21,7 +21,7 @@ The preceding two scenarios are always enabled.
 
 A third scenario is to manage data in Shopify but import those items in bulk to [!INCLUDE[prod_short](../includes/prod_short.md)]. This scenario can be useful for data migration events, such as when you want to connect an existing online shop with a new [!INCLUDE[prod_short](../includes/prod_short.md)] environment.
 
-## <a name="define-item-synchronizations"></a>Define item synchronisations
+## Define item synchronisations
 
 1. Choose the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon and enter **Shopify Shop**. Open the shop for which you want to configure the item synchronisation.
 2. From the **Sync item** field, select the required option.
@@ -37,7 +37,7 @@ A third scenario is to manage data in Shopify but import those items in bulk to 
 > [!NOTE]
 > Changing **Sync Item** from **From Shopify** to **To Shopify** won't have an effect unless you enable **Can Update Shopify Products**. 
 
-## <a name="import-items-from-shopify"></a>Import items from Shopify
+## Import items from Shopify
 
 First, import items either in bulk from Shopify or together with orders to add them to the **Shopify Product** and **Shopify Variant** tables. Then map imported products and variants to items and variants in [!INCLUDE[prod_short](../includes/prod_short.md)]. Manage the process using the following settings:
 
@@ -50,7 +50,7 @@ First, import items either in bulk from Shopify or together with orders to add t
 |**Variant Prefix**|Use together with **SKU Mapping** set to either the **Variant Code** or **Item No. + Variant Code** option as a fallback function when the SKU coming from Shopify is empty.<br>If you want to create the item variant in [!INCLUDE[prod_short](../includes/prod_short.md)] automatically, you'll need to enter a value in **Code**. By default, the value defined in the SKU field imported from Shopify is used. However, if the SKU is empty, it will generate code starting with the defined variant prefix and "001".|
 |**Shopify Can Update Item**|Choose this option if you want to update items and/or variants automatically.|
 
-### <a name="effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central"></a>Effect of Shopify product SKUs and barcodes on mapping and creating items and variants in Business Central
+### Effect of Shopify product SKUs and barcodes on mapping and creating items and variants in Business Central
 
 When products are imported from Shopify to **Shopify Products** and **Shopify Variants** tables, [!INCLUDE[prod_short](../includes/prod_short.md)] tries to find existing records.
 
@@ -74,7 +74,7 @@ The following table outlines the effects of the **Barcode** field.
 > [!NOTE]  
 > You can trigger mapping of the selected products/variants by choosing **Try Find Product Mapping** or of all the imported unmapped products by choosing **Try Find Mappings**.
 
-## <a name="export-items-to-shopify"></a>Export items to Shopify
+## Export items to Shopify
 
 Choose the elements from your item list to be exported to Shopify. Use the **Add Item** action on the **Shopify Products** page to add items to the Shopify products list. 
 
@@ -89,13 +89,13 @@ You manage the process of exporting items using these settings:
 |**Sync Item Attributes**|Select this field to sync the item attributes. Attributes are formatted as a table and included in the **Description** field in Shopify.|
 |**Sync Item Marketing Text**|Select this field to sync marketing text for the item. Although marketing text is a kind of description, it's different than item's **Description** field. The **Description** field is typically used as a concise display name to quickly identify the product. The marketing text, on the other hand, is more rich and descriptive. Its purpose is to add marketing and promotional content. This text can then be published with the item in Shopify. There are two ways to create the marketing text. Use Copilot, which suggests AI-generated text for you, or start from scratch.|
 |**Language Code**|Select this field if you want the translated versions used for title, attributes, and extended text.|
-|**SKU Mapping**|Choose how you want to populate the SKU field in Shopify. Supported options are:<br> - **Item No.** to use the item no. for both products and variants.<br> - **Item No.+ Variant Code**  to create an SKU by concatenating values of two fields. For items without variants, the item number only is used.<br>- **Item Vendor No.** to use the item vendor number defined in the **Item Card** for both products and variants.<br> - **Barcode** to use the barcode type of **Item Reference**. This option respects variants.|
+|**SKU Mapping**|Choose how you want to populate the SKU field in Shopify. Supported options are:<br> - **Item No.** to use the item no. for both products and variants.<br> - **Item No.+ Variant Code**  to create an SKU by concatenating values of two fields. For items without variants, the item number only is used.<br>- **Item Vendor No.** to use the item vendor number defined in the **Item Card** for both products and variants.<br> - **Barcode** to use the barcode type of **Item Reference**. This option respects variants.<br>If  **Can Update Shopify Products** is enabled, changes in the **SKU Mapping** field will be propogated to Shopify after next sync for all products and variants listed in the **Shopify Products** page for selected shop.|
 |**SKU Field Separator**|Define a separator for the **Item. No + Variant Code** option.|
 |**Inventory Tracked**| Choose how the system should populate the **Track Inventory** field for products exported to Shopify. You can update availability information from [!INCLUDE[prod_short](../includes/prod_short.md)] for products in Shopify whose track inventory is enabled. Learn more in the [Inventory](synchronize-items.md#sync-inventory-to-shopify) section.|
-|**Default Inventory Policy**|Choose *Deny* to prevent negative stock on the Shopify side.|
+|**Default Inventory Policy**|Choose *Deny* to prevent negative stock on the Shopify side. <br>If  **Can Update Shopify Products** is enabled, changes in the **Default Inventory Policy** field will be propogated to Shopify after next sync for all products and variants listed in the **Shopify Products** page for selected shop.|
 |**Can Update Shopify Products**|Define this field if [!INCLUDE[prod_short](../includes/prod_short.md)] can only create items or can update items as well. Select this option if, after the initial sync is triggered by the **Add Item** action, you plan to update products manually using the **Sync Product** action or using the job queue for recurring updates. Remember to select **To Shopify** in the **Item Sync** field.<br>**Can Update Shopify Products** doesn't have impact on synchronisation of prices, images or inventory levels, which are configured by independent controls.<br>If **Can Update Shopify Products** is enabled, following fields on Shopify side will be updated on product and if needed variant level: **SKU**, **Barcode**, **Weight**. The **Title**, **Product Type**, **Vendor**, **Description** on product will be also updated if exported values are not empty. For description this means you need to enable any of the **Sync Item Extended Text**, **Sync Item Marketing Text**, **Sync Item Attributes** toggles and  attributes, extended or marketing text must have values. If product uses variants, then variant will be added or removed if necessary. <br>Note that if the product on Shopify configured to use variant matrix that combines two or more options the Shopify Connector cannot create variant for that product. In [!INCLUDE[prod_short](../includes/prod_short.md)] there is no way to define option matrix, that's why connector uses the **Variant Code** as the only option. However Shopify expects several options and refuses to create variant if information about second and other options is missing. |
 
-### <a name="fields-mapping-overview"></a>Fields-mapping overview
+### Fields-mapping overview
 
 |Shopify|Source when exported from [!INCLUDE[prod_short](../includes/prod_short.md)]|Target when imported to [!INCLUDE[prod_short](../includes/prod_short.md)]|
 |------|-----------------|-----------------|
@@ -111,24 +111,27 @@ You manage the process of exporting items using these settings:
 |Cost per item|**Unit Cost**|**Unit Cost**. The unit cost is only imported to newly created items, and it won't be updated in later synchronisations.|
 |SKU|Learn about SKUs under **SKU Mapping** in the [Export items to Shopify](synchronize-items.md#export-items-to-shopify) section.|Learn about SKUs in the [Effect of Shopify product SKUs and barcodes on mapping and creating items and variants in Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central) section.|
 |Barcode|**Item References** of the barcode type.|**Item References** of the barcode type.|
+|Inventory will be stocked at| Depends on Shopify Shop Locations. If **Business Central Fulfilment Services** has **Default** field enabled, then inventory will be stocked and shipped from **Business Central Fulfilment Services** otherwise Shopify primary location or multiple locations will be used.
+| Not used.|
 |Track quantity|According to the **Inventory Tracked** field on the **Shopify Shop Card** page. Learn more in the [Inventory](synchronize-items.md#sync-inventory-to-shopify) section. Only used when you export a product for the first time.|Not used.|
-|Continue selling when out of stock|According to the **Default Inventory Policy** in the **Shopify Shop Card**. Only used when you export a product for the first time.|Not used.|
+|Continue selling when out of stock|According to the **Default Inventory Policy** in the **Shopify Shop Card**.|Not used.|
 |Type|**Description** of **Item Category Code**. If the type isn't specified in Shopify, it is added as a custom type.|**Item Category Code**. Mapping by description.|
 |Vendor|**Name** of vendor from **Vendor No.**|**Vendor No.** Mapping by name.|
 |Weight|**Gross Weight**.|Not used.|
 |Taxable|Fixed value: enabled.|Not used.|
 |Tax codes|**Tax Group Code**. Only relevant for sales taxes. Learn more at [Set up Taxes](setup-taxes.md).|Not used.|
 
-### <a name="tags"></a>Tags
+
+### Tags
 
 Review the imported tags in the **Tags** FactBox on the **Shopify Product** page. On the same page, to edit tags, choose the **Tags** action.
 If the **To Shopify** option is selected in the **Sync Item** field, assigned tags are exported to Shopify at the next synchronisation.
 
-## <a name="run-item-synchronization"></a>Run item synchronisation
+## Run item synchronisation
 
 Full or partial item synchronisation can be performed in many different ways.
 
-### <a name="initial-sync-of-items-from-business-central-to-shopify"></a>Initial sync of items from Business Central to Shopify
+### Initial sync of items from Business Central to Shopify
 
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Products**, and choose the related link.
 2. Choose the **Add Items** action.
@@ -139,7 +142,7 @@ Full or partial item synchronisation can be performed in many different ways.
 
 The resulting items are automatically created in Shopify with prices. Depending on choices you made, images and inventory levels might be included. The operation might take some time if a large number of items are added.
 
-### <a name="sync-products-from-shopify-to-business-central"></a>Sync products from Shopify to Business Central
+### Sync products from Shopify to Business Central
 
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
 2. Select the shop for which you want to synchronise items to open the **Shopify Shop Card** page.
@@ -149,11 +152,11 @@ Alternatively, use the **Sync Products** action on the **Shopify Products** page
 
 You can schedule the task to be performed in an automated manner. Learn more at [Schedule recurring tasks](background.md#to-schedule-recurring-tasks).
 
-### <a name="url-and-preview-url"></a>URL and Preview URL
+### URL and Preview URL
 
 Item added to Shopify or imported from Shopify might have the **URL** or **Preview URL** populated. The **URL** field will be empty if product is not published to the online store, for example because its status is draft. The **URL** will be empty if store is password protected, for example because this is development store. In most cases you can use **Preview URL** to check how the product will look once published.
 
-### <a name="ad-hoc-updates-of-shopify-products"></a>Ad-hoc updates of Shopify products
+### Ad-hoc updates of Shopify products
 
 When the records are updated in the **Shopify Product** table, the following changes are synchronised with Shopify.
 
@@ -171,7 +174,7 @@ Based on the value in **Action for Removed Products** on the **Shopify Shop Card
 * **Status to Draft** - The status of the product in Shopify is set to *Draft*.
 * **Status to Archived** - The product is archived in Shopify.
 
-## <a name="sync-item-images"></a>Sync item images
+## Sync item images
 
 Synchronisation of images can be configured for synchronised items. Choose from the following options:
 
@@ -181,24 +184,24 @@ Synchronisation of images can be configured for synchronised items. Choose from 
 
 Image synchronisation can be initialised in the two ways described below.
 
-### <a name="sync-product-images-from-the-shopify-shop-page"></a>Sync product images from the Shopify shop page
+### Sync product images from the Shopify shop page
 
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and choose the related link.
 2. Select the shop for which you want to synchronise images to open the **Shopify Shop Card** page.
 3. Choose the **Sync Product Images** action.
 
-### <a name="sync-product-images-from-the-shopify-products-page"></a>Sync product images from the Shopify products page
+### Sync product images from the Shopify products page
 
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Products**, and choose the related link.
 2. Choose the **Sync Product Images** action.
 
-### <a name="image-synchronization-remarks"></a>Image synchronisation remarks
+### Image synchronisation remarks
 
 * When you export images from [!INCLUDE[prod_short](../includes/prod_short.md)] to Shopify, the images replace those you exported previously. The earlier images are no longer avialble.
 * If you delete an image in [!INCLUDE[prod_short](../includes/prod_short.md)], the image in Shopify isn't also deleted. You'll need to manually delete the old images in the **Shopify Admin**.
 * Images you export to Shopify must comply with Shopify's requirements. Otherwise, you can't import them. To learn more about media requirements, go to [product media types on help.shopify.com](https://help.shopify.com/en/manual/products/product-media/product-media-types#images).
 
-## <a name="sync-prices-with-shopify"></a>Sync prices with Shopify
+## Sync prices with Shopify
 
 You manage the process of exporting prices using these settings:
 
@@ -213,24 +216,24 @@ You manage the process of exporting prices using these settings:
 
 You can export prices for synchronised items in the two ways described below.
 
-### <a name="sync-prices-from-the-shopify-products-page"></a>Sync prices from the Shopify products page
+### Sync prices from the Shopify products page
 
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Products**, and choose the related link.
 2. Choose the **Sync Prices to Shopify** action.
 
-### <a name="price-calculation-remarks"></a>Price calculation remarks
+### Price calculation remarks
 
 * When determining a price, [!INCLUDE[prod_short](../includes/prod_short.md)] uses the "lowest price" logic. However, the lowest price logic ignores the unit price defined on the item card if a price is defined in the price group. This is true even if the unit price from the item card price is lower.
 * To calculate prices, the connector creates a temporary sales quote for the item with a quantity of 1, and uses standard price calculation logic. Only prices and discounts that are applicable for quantity 1 are used. You can't export different prices or discounts based on quantity.
 
-## <a name="sync-inventory-to-shopify"></a>Sync inventory to Shopify
+## Sync inventory to Shopify
 
 Inventory synchronisation can be configured for already synchronised items. There are two conditions that must be met:
 
 1. Inventory tracking must be enabled for a product in Shopify. If items are exported to Shopify, consider enabling the **Inventory Tracked** toggle on the **Shopify Shop** page. Learn more in the [Export items to Shopify](synchronize-items.md#export-items-to-shopify) section.
 2. Inventory sync must be enabled for **Shopify Locations**.
 
-### <a name="to-enable-inventory-sync"></a>To enable inventory sync
+### To enable inventory sync
 
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
 2. Select the shop for which you want to synchronise inventory to open the **Shopify Shop Card** page.
@@ -238,29 +241,31 @@ Inventory synchronisation can be configured for already synchronised items. Ther
 4. Choose the **Get Shopify Locations** action to import all the locations defined in Shopify. You can find them in the [**Locations**](https://www.shopify.com/admin/settings/locations) settings in your **Shopify Admin**.
 5. In the **Location Filter** field, add locations if you want to include inventory from specific locations only. So, you could enter *EAST|WEST* to make the inventory from only these two locations available for sales via the online shop.
 6. Select the stock calculation method to use for the selected Shopify locations.
+7. Enable **Default** if you want location to be used for creation of Inventory records and participate in the invenotry synchronisation. Activate **Default** for **Business Central Fulfilment Services** to create Inventory record representing fulfilment service, otherwise inventory record will be created for primary shopify location and all normal locations where **Default** is turned on.
+
 
 You can initialise inventory synchronisation in the two ways described below.
 
-### <a name="sync-inventory-from-the-shopify-shop-page"></a>Sync inventory from the Shopify shop page
+### Sync inventory from the Shopify shop page
 
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and choose the related link.
 2. Select the shop for which you want to synchronise inventory to open the **Shopify Shop Card** page.
 3. Choose the **Sync inventory** action.
 
-### <a name="sync-inventory-from-the-shopify-products-page"></a>Sync inventory from the Shopify products page
+### Sync inventory from the Shopify products page
 
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Products**, and choose the related link.
 2. Choose the **Sync inventory** action.
 
-### <a name="inventory-remarks"></a>Inventory remarks
+### Inventory remarks
 
-* The standard stock calculation method is **Projected Available Balance at date**. With extensibility, you can add more options. To learn more about extensibility, go to [examples](https://github.com/microsoft/ALAppExtensions/blob/main/Apps/W1/Shopify/extensibility_examples.md). 
+* The standard stock calculation method is **Projected Available Balance at date**. With extensibility, you can add more options. To learn more about extensibility, go to [examples](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify#stock-calculation). 
 * You can inspect the stock information received from Shopify on the **Shopify Inventory FactBox** page. In this FactBox, you get an overview of the Shopify stock and the last calculated inventory in [!INCLUDE[prod_short](../includes/prod_short.md)]. There's one record per location.
 * If the stock information in Shopify is different than the **Projected Available Balance** in [!INCLUDE[prod_short](../includes/prod_short.md)], then the stock will be updated in Shopify.
 * When you add a new location in Shopify, you also need to add inventory records for it. Shopify doesn't do that automatically for existing products and variants and the connector won't synchronise inventory levels for such items in new location. To learn more, go to [Assigning inventory to locations](https://help.shopify.com/manual/locations/assigning-inventory-to-locations).
-* Inventory and shipment on **Business Central Fulfilment Services** are not suported, use normal locations instead.
+* Both **Business Central Fulfilment Services** and normal locations are supoprted and can be used for shipping and inventory.
 
-#### <a name="example-of-calculation-of-projected-available-balance"></a>Example of calculation of projected available balance
+#### Example of calculation of projected available balance
 
 There are 10 pieces of item A available on hand and two outstanding sales orders. One for Monday with quantity *One* and one for Thursday with quantity *Two*. Depending on when you sync inventory, the system will update stock level in Shopify with different quantities:
 
@@ -269,6 +274,6 @@ There are 10 pieces of item A available on hand and two outstanding sales orders
 |Tuesday|9|Inventory 10 minus sales order set to ship on Monday|
 |Friday|7|Inventory 10 minus both sales orders|
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Get Started with the Connector for Shopify](get-started.md)  

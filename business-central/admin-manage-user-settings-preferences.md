@@ -2,7 +2,7 @@
 title: Manage user settings and preferences as the administrator
 description: Manage user settings and preferences in Dynamics 365 Business Central.
 author: sorenfriisalexandersen
-ms.topic: get-started-article
+ms.topic: get-started
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -12,7 +12,7 @@ ms.search.form: '9204,'
 ms.date: 04/01/2021
 ms.author: soalex
 ---
-# <a name="manage-user-settings-and-preferences"></a>Manage user settings and preferences
+# Manage user settings and preferences
 
 As an administrator, you can configure user settings in [!INCLUDE[prod_short](includes/prod_short.md)], similar to how individual users can manage their own preferences in the **My Settings** page.  
 
@@ -23,7 +23,7 @@ Get an overview of all users in the **Users** list, and change individual settin
 
 The **User Settings Card** page is similar to the **My Settings** page that each user has access to, and it is a powerful tool for you as the administrator for setting default settings and clearing personalised pages, for example.  
 
-## <a name="types-of-user-settings"></a>Types of user settings
+## Types of user settings
 
 *User settings* is not the same as *user setup*, which is about the user as an entity and the user's access in the system. Furthermore, user settings has nothing to do with a user's personalisation, such as lightweight changes to the user interface. User settings determine the predefined settings for each user in various aspects of the way the application presents itself to the user. The following paragraph lists the five types of user settings and preferences that can be set by the individual or centrally by the administrator:
 
@@ -59,21 +59,21 @@ The **User Settings Card** page is similar to the **My Settings** page that each
 > [!NOTE]
 > If a Microsoft 365 user synchronisation is made while users are logged into [!INCLUDE[prod_short](includes/prod_short.md)], these users must refresh the browser or log out and back in to [!INCLUDE[prod_short](includes/prod_short.md)] to see a potential different language set by the synchronisation action.
 
-## <a name="overview-of-all-user-specific-changes"></a>Overview of all user-specific changes
+## Overview of all user-specific changes
 
 As the administrator, you can get an overview of individual changes to [!INCLUDE [prod_short](includes/prod_short.md)] that each user might have made to various pages in [!INCLUDE [prod_short](includes/prod_short.md)]. As users make changes to their experience in [!INCLUDE [prod_short](includes/prod_short.md)], these changes will be reflected in the **User Personalisations** list. <!--Administrators can also set these settings for users before they log in the first time, so users do not have to do it themselves, providing them a better *getting started* experience.-->
 
 <!-- >[!NOTE]
 > User personalizations do not have anything to do with the *personal* lightweight changes a user can make to the user experience.-->
 
-## <a name="to-review-or-delete-user-personalizations"></a>To review or delete user personalisations
+## To review or delete user personalisations
 
 1. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Personalised Pages**, and then choose the related link.
 2. This shows the list of users and their personalised pages. To clear a user's personalisation, click the relevant row, or choose **Manage**, and then choose **Delete**.
 
 This deletes the personalisation, and the user's experience of the relevant page returns to the default state.
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

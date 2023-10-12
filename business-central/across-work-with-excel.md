@@ -70,8 +70,6 @@ When **Edit in Excel** is used on list pages for tables with many columns, the r
 
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
 
-## See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
-
 ## See Also
 
 [Analysing Financial Statements in Microsoft Excel](finance-analyze-excel.md)  

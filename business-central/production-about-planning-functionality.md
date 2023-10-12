@@ -1,16 +1,15 @@
 ---
 title: About Planning Functionality
-description: 'Planning takes all demand and supply data into account, nets the results, and creates suggestions for balancing the supply to meet the demand.'
+description: Learn how planning uses demand and supply data to suggest how to balance supply to meet demand.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.form: 5430
-ms.date: 08/30/2022
 ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: conceptual
+ms.search.form: '5430,'
+ms.date: 09/19/2023
+ms.custom: bap-template
 ---
-# <a name="about-planning-functionality"></a>About Planning Functionality
+# About Planning Functionality
 
 The planning system takes all demand and supply data into account, nets the results, and creates suggestions for balancing the supply to meet the demand.  
 
@@ -19,16 +18,16 @@ For more information, see [Design Details: Supply Planning](design-details-suppl
 > [!NOTE]  
 > For all the fields that are mentioned in this topic, read the tooltip to understand their function. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="demand-and-supply"></a>Demand and Supply
+## Supply and demand
 
-Planning has two elements: demand and supply. These must be held in balance to ensure that the demand is met in a timely and cost-efficient manner.  
+Planning has two elements: demand and supply. These must balance to ensure that the demand is met.  
 
-- Demand is the common term used for any kind of gross requirement such as a sales order, service order, component need from assembly or production orders, outbound transfer, blanket order or forecast. In addition to these, application allows some other technical types of demand - such as a negative production or purchase order, negative inventory, and purchase return.  
+- Demand is any kind of gross requirement, such as a sales order, service order, or a component need for assembly or production orders, outbound transfer, blanket order, or forecast. Additionally, there other technical types of demand, such as a negative production or purchase order, negative inventory, and purchase return.  
 - Supply refers to any kind of replenishment such as inventory, a purchase order, assembly order, production order, or inbound transfer. Correspondingly, there can be a negative sales or service order, negative component need or sales return that also represent supply.  
 
 Another goal of the planning system is to ensure that the inventory does not grow unnecessarily. In the case of decreasing demand, the planning system will suggest that you postpone, decrease in quantity, or cancel existing replenishment orders.  
 
-## <a name="planning-calculation"></a>Planning Calculation
+## Planning calculation
 
 The planning system is driven by anticipated and actual customer demand, as well as inventory reordering parameters. Running the planning calculation will result in application suggesting specific actions ([Action Messages](production-how-to-run-mps-and-mrp.md#action-messages)) to take concerning possible replenishment from vendors, transfers between warehouses, or production. If replenishment orders already exist, the suggested actions could be to increase or expedite the orders to meet the changes in demand.  
 
@@ -37,15 +36,15 @@ The basis of the planning routine is in the gross-to-net calculation. Net requir
 > [!TIP]
 > The planning system relies on how your organisation uses locations. For more information, see [Planning With or Without Locations](production-planning-with-without-locations.md).
 
-## <a name="planning-with-manual-transfer-orders"></a>Planning with Manual Transfer Orders
+## Planning with manual transfer orders
 
-As you can see from the **Replenishment System** field on a SKU card, the planning system can be set up to create transfer orders to balance supply and demand across locations.  
+In the **Replenishment System** field on a SKU card, you can set up the planning system to create transfer orders to balance supply and demand across locations.  
 
 In addition to such automatic transfer orders, you may sometimes need to perform a general move of inventory quantities to another location, irrespective of existing demand. For this purpose you would manually create a transfer order for the quantity to move. To ensure that the planning system does not try to manipulate this manual transfer order, you must set the **Planning Flexibility** on the transfer line(s) to None.  
 
 Contrarily, if you do want the planning system to adjust the transfer order quantities and dates to existing demand, you must set the **Planning Flexibility** field to the default value, Unlimited.
 
-## <a name="planning-parameters"></a>Planning Parameters
+## Planning parameters
 
 The planning parameters control when, how much, and how to replenish based on the various settings on the item card (or stockkeeping unit - SKU), and the manufacturing setup.  
 
@@ -84,18 +83,18 @@ Global planning setup fields on the **Manufacturing Setup** page include:
 - Default Dampener Period  
 - Default Dampener Quantity  
 
-For more information, see [Design Details: Planning Parameters](design-details-planning-parameters.md)  
+To learn more, go to [Design Details: Planning Parameters](design-details-planning-parameters.md)  
 
-## <a name="other-important-planning-fields"></a>Other Important Planning Fields
+## Other important planning fields
 
-### <a name="planning-flexibility"></a>Planning Flexibility
+### Planning Flexibility
 
 On most supply orders, such as production orders, you can select **Unlimited** or **None** in the **Planning Flexibility** field on the lines.
 
 This specifies whether the supply represented by the production order line is considered by the planning system when calculating action messages.
 If the field contains **Unlimited**, then the planning system includes the line when calculating action messages. If the field contains **None**, then the line is firm and unchangeable, and the planning system does not include the line when calculating action messages.
 
-### <a name="warning"></a>Warning
+### Warning
 
 The **Warning** information field on the **Planning Worksheet** page informs you of any planning line created for an unusual situation with a text, which the user can choose to read additional information. The following warning types exist:
 
@@ -104,7 +103,7 @@ The **Warning** information field on the **Planning Worksheet** page informs you
 - Attention
 - Emergency
 
-The emergency warning is displayed in two situations:
+The emergency warning displays in two situations:
 
 - The inventory is negative on the planning starting date.
 - Back-dated supply or demand events exist.
@@ -113,20 +112,20 @@ If an item's inventory is negative on the planning starting date, the planning s
 
 Any document lines with due dates before the planning starting date are consolidated into one emergency supply order for the item to arrive on the planning starting date.
 
-### <a name="exception"></a>Exception
+### Exception
 
-The exception warning is displayed if the projected available inventory drops below the safety stock quantity.
+The exception warning displays if the projected available inventory drops below the safety stock quantity.
 
 The planning system will suggest a supply order to meet the demand on its due date. The warning text states the item's safety stock quantity and the date on which it is violated.
 
-Violating the safety stock level is considered an exception because it should not occur if the reorder point has been set correctly.
+Violating the safety stock level is considered an exception because it shouldn't occur if the reorder point has been set correctly.
 
 > [!NOTE]
 > Supply on planning lines with Exception warnings is normally not modified according to planning parameters. Instead, the planning system only suggests a supply to cover the exact demand quantity. However, you can set the planning run up to respect certain planning parameters for planning lines with certain warnings. For more information, see the description for the **Respect Planning Parameters for Exception Warnings** field in the [Run Full Planning, MPS or MRP](production-how-to-run-mps-and-mrp.md) article.
 
-### <a name="attention"></a>Attention
+### Attention
 
-The attention warning is displayed in two situations:
+The attention warning displays in two situations:
 
 - The planning starting date is earlier than the work date.
 - The planning line suggests to change a released purchase or production order.
@@ -134,11 +133,13 @@ The attention warning is displayed in two situations:
 > [!NOTE]
 > In planning lines with warnings, the **Accept Action Message** field is not selected, because the planner is expected to further investigate these lines before carrying out the plan.
 
-## <a name="planning-worksheets-and-requisition-worksheets"></a>Planning worksheets and requisition worksheets
+## Planning worksheets and requisition worksheets
 
 As described in [Planning](production-planning.md), you can choose between two worksheets for most planning activities, the planning worksheet and the requisition worksheet. Most processes are described based on the planning worksheet, but there are a couple of scenarios where the requisition worksheet is preferred.
 
-### <a name="requisition-worksheet"></a>Requisition worksheet
+[!INCLUDE [edit-in-excel](includes/edit-in-excel.md)]
+
+### Requisition worksheet
 
 The **Requisition Worksheet** page lists items that you want to order. You can enter items in the worksheet in the following ways:
 
@@ -159,7 +160,7 @@ For details about planning with locations and transfers, see [Planning With or W
 > [!TIP]
 > When you're working on the **Requisition Worksheet** or **Planning Worksheet** pages, you can organise the lines by sorting on a column name. This is especially useful on the Planning Worksheet page because they it can be used for multilevel production orders. By default, lines are sorted by the **Item No.** field. To group lines for a multilevel order, sort by the **Ref. Order No.** field. Also, the **MPS Order** and **Planning Level** fields can help show the hierarchy of the lines.
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Design Details: Supply Planning](design-details-supply-planning.md)  
 [Planning](production-planning.md)  

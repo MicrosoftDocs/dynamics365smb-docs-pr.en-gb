@@ -11,7 +11,7 @@ ms.search.form: '189, 190, 191'
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# <a name="receive-and-convert-electronic-documents"></a>Receive and Convert Electronic Documents
+# Receive and Convert Electronic Documents
 
 The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] supports receiving electronic invoices and credit memos in the PEPPOL format, which is supported by the largest providers of document exchange services. To receive an invoice from a vendor as an electronic PEPPOL document, you process the document in the Incoming Documents page to convert it to a purchase invoice or general journal line in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -34,7 +34,7 @@ You can either start the conversion of electronic documents manually, as describ
 
 The following procedure describes how to receive a vendor invoice and convert it to a purchase invoice in [!INCLUDE[prod_short](includes/prod_short.md)]. The procedure is the same when you convert a vendor invoice to a general journal line.  
 
-### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>To receive and convert an electronic invoice to a purchase invoice
+### To receive and convert an electronic invoice to a purchase invoice
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents**, and then choose the related link.  
 
@@ -52,7 +52,7 @@ The following procedure describes how to receive a vendor invoice and convert it
 
     Any validation errors, typically related to wrong or missing master data in [!INCLUDE[prod_short](includes/prod_short.md)] will be shown on the **Error Messages** FastTab.  
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Managing Payables](payables-manage-payables.md)  
 [Incoming Documents](across-income-documents.md)  
