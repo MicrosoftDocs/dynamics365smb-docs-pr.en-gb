@@ -9,7 +9,7 @@ ms.workload: na
 ms.date: 05/22/2023
 ms.author: jswymer
 ---
-# <a name="welcome-to-"></a>Welcome to [!INCLUDE[prod_long](includes/prod_long.md)]
+# Welcome to [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is a business management solution for small and mid-sized organisations that automates and streamlines business processes and helps you manage your business. Highly adaptable and rich with features, [!INCLUDE[prod_short](includes/prod_short.md)] enables companies to manage their business, including finance, manufacturing, sales, shipping, project management, services, and more. Companies can easily add functionality that is relevant to the region of operation, and that is customised to support even highly specialised industries. [!INCLUDE[prod_short](includes/prod_short.md)] is fast to implement, easy to configure, and simplicity guides innovations in product design, development, implementation, and usability.  
 
@@ -22,7 +22,7 @@ If you already have [!INCLUDE[prod_short](includes/prod_short.md)], then sign in
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-## <a name="microsoft-learn"></a>Microsoft Learn
+## Microsoft Learn
 
 In the navigation panel to the left, you can find information about using [!INCLUDE[prod_short](includes/prod_short.md)] in your company. Find links to descriptions of the most commonly used capabilities in the [Business Processes](#business-processes) section. See also the [Learn more using the product documentation](product-help-and-support.md#learn-more-using-the-product-documentation) section.
 
@@ -35,7 +35,7 @@ You can also [visit our video library](across-videos.md), or begin with the [Get
 
 The following sections point to key articles that can help you get familiar with [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## <a name="business-processes"></a>Business Processes
+## Business Processes
 
 - [Getting Ready for Doing Business](ui-get-ready-business.md)
 - [Setting up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)
@@ -62,7 +62,7 @@ The following sections point to key articles that can help you get familiar with
   - [General Business Functionality](ui-across-business-areas.md)
   - [Local Functionality](about-localization.md)
 
-## <a name="development-and-administration-content"></a>Development and administration content
+## Development and administration content
 
 - [Development and Administration](/dynamics365/business-central/dev-itpro/index)
 - [Trials and Subscriptions](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
@@ -70,13 +70,13 @@ The following sections point to key articles that can help you get familiar with
 - [AL Development Environment](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
 - [Rules and Guidelines for AL Code](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)
 
-## <a name="microsoft-learn-training"></a>Microsoft Learn training
+## Microsoft Learn training
 
 Find free e-learning content for [!INCLUDE[prod_short](includes/prod_short.md)] at [Microsoft Learn training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).
 
 You can also view videos of new and commonly used capabilities in our video library. For more information, see [Visit Our Video Library](across-videos.md).  
 
-## <a name="community-resources"></a>Community Resources
+## Community Resources
 
 - [Microsoft Dynamics 365 Business Central community forum](https://community.dynamics.com/forums/thread/?groupid=e78817ab-a926-4d31-96cc-aef040a4eb04)  
 - [Microsoft Dynamics 365 Business Central on the Dynamics 365 blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)  
@@ -84,11 +84,11 @@ You can also view videos of new and commonly used capabilities in our video libr
 - [Microsoft Dynamics 365 Business Central Roadmap](https://dynamics.microsoft.com/roadmap/business-central/)  
 - [Microsoft Partner Network \(requires Microsoft Partner Network membership account\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)  
 
-## <a name="get-notified-about-changes-through-an-rss-feed"></a>Get notified about changes through an RSS feed
+## Get notified about changes through an RSS feed
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]  
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Dynamics 365 Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Business Central quickstarts](quick-start-business-central.md)  

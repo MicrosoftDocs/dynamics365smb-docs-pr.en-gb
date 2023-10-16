@@ -11,11 +11,11 @@ ms.search.form: 39
 ms.date: 04/29/2021
 ms.author: bholtorf
 ---
-# <a name="transfer-bank-funds"></a>Transfer Bank Funds
+# Transfer Bank Funds
 
 You may sometimes need to transfer an amount from one bank account in [!INCLUDE[prod_short](includes/prod_short.md)] to another. To do this, you must post the transaction on the **General Journal** page. The task varies depending on whether the bank accounts use the same currency or different currencies.
 
-## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>To post a transfer between bank accounts with the same currency code
+## To post a transfer between bank accounts with the same currency code
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journal**, and then choose the related link.
 2. On a journal line, fill in the **Posting Date** and **Document No.** fields.
@@ -28,7 +28,7 @@ You may sometimes need to transfer an amount from one bank account in [!INCLUDE[
 7. In the **Bal. Account No.** field, select the bank account to which you want to transfer the funds.
 8. Post the journal.
 
-## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>To post a transfer between bank accounts with different currency codes
+## To post a transfer between bank accounts with different currency codes
 
 To transfer funds between bank accounts that use different currencies, you must post two general journal lines.
 
@@ -65,7 +65,7 @@ To transfer funds between bank accounts that use different currencies, you must 
     > An amount without a sign is a debit, and an amount with a minus sign is a credit.
 10. Post the journal.
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
 [Setting Up Banking](bank-setup-banking.md)  
