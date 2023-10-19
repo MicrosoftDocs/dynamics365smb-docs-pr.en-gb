@@ -10,13 +10,13 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: bholtorf
 ---
-# Design Details: Searching for Dimension Combinations
+# <a name="design-details-searching-for-dimension-combinations"></a>Design Details: Searching for Dimension Combinations
 When you close a page after you edit a set of dimensions, [!INCLUDE[prod_short](includes/prod_short.md)] evaluates whether the edited set of dimensions exists. If the set does not exist, a new set is created and the dimension combination ID is returned.  
 
-## Building Search Tree  
+## <a name="building-search-tree"></a>Building Search Tree
  Table 481 **Dimension Set Tree Node** is used when [!INCLUDE[prod_short](includes/prod_short.md)] evaluates whether a set of dimensions already exists in table 480 **Dimension Set Entry** table. The evaluation is performed by recursively traversing the search tree starting at the top level numbered 0. The top level 0 represents a dimension set with no dimension set entries. The children of this dimension set represent dimension sets with only one dimension set entry. The children of these dimension sets represent dimension sets with two children, and so on.  
 
-### Example 1  
+### <a name="example-1"></a>Example 1
  The following diagram represents a search tree with six dimension sets. Only the distinguishing dimension set entry is displayed in the diagram.  
 
  ![Example of dimension tree structure.](media/nav2013_dimension_tree.png "Example of dimension tree structure")  
@@ -33,14 +33,14 @@ When you close a page after you edit a set of dimensions, [!INCLUDE[prod_short](
 |Set 5|AREA 40|  
 |Set 6|AREA 40, PROJ VW|  
 
-### Example 2  
+### <a name="example-2"></a>Example 2
  This example shows how [!INCLUDE[prod_short](includes/prod_short.md)] evaluates whether a dimension set that consists of the dimension set entries AREA 40, DEPT PROD exists.  
 
  First, [!INCLUDE[prod_short](includes/prod_short.md)] also updates the **Dimension Set Tree Node** table to make sure that the search tree looks like the following diagram. Thus dimension set 7 becomes a child of the dimension set 5.  
 
  ![Example of dimension tree structure in NAV 2013.](media/nav2013_dimension_tree_example2.png "Example of dimension tree structure in NAV 2013")  
 
-### Finding Dimension Set ID  
+### <a name="finding-dimension-set-id"></a>Finding Dimension Set ID
  At a conceptual level, **Parent ID**, **Dimension**, and **Dimension Value**, in the search tree, are combined and used as the primary key because [!INCLUDE[prod_short](includes/prod_short.md)] traverses the tree in the same order as the dimension entries. The GET function (record) is used to search for dimension set ID. The following code example shows how to find the dimension set ID when there are three dimension values.  
 
 ```  
@@ -65,7 +65,7 @@ EXIT(DimSet.ID);
 
 ```  
 
-## See Also
+## <a name="see-also"></a>See Also
     
  [Design Details: Dimension Set Entries](/dynamics365/business-central/design-details-dimension-set-entries-overview)   
  [Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)   

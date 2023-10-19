@@ -9,19 +9,19 @@ ms.date: 04/04/2023
 ms.custom: bap-template
 ---
 
-# Manage Access to Business Central
+# <a name="manage-access-to-business-central"></a>Manage Access to Business Central
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 This article gives administrators and application developers a high-level overview of how to control access to [!INCLUDE [prod_short](includes/prod_short.md)] and its features. Use the links to go to other articles that provide more details about the subjects.
 
-## Layered access
+## <a name="layered-access"></a>Layered access
 
 [!INCLUDE [prod_short](includes/prod_short.md)] uses a layered approach to application security, as outlined in the following diagram. To learn more about each layer, go to [Application Security in Business Central](/dynamics365/business-central/dev-itpro/security/security-application).
 
 :::image type="content" source="media/security-overview.png" alt-text="Layered application security in Business Central.":::
 
-## Licences
+## <a name="licenses"></a>Licences
 
 Assign [!INCLUDE [prod_short](includes/prod_short.md)] users to a **Dynamics 365 Business Central** licence so they can view, modify, and act on their business data from any user interface. To learn more about licences, go to [Licensing in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/licensing).
 
@@ -29,7 +29,7 @@ However, folks who occasionally need read-only access to information in [!INCLUD
 
 For comprehensive information about the different types of licences and how licensing works in [!INCLUDE[prod_short](includes/prod_short.md)], [download the Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
-## Business Central administrator tasks
+## <a name="business-central-administrator-tasks"></a>Business Central administrator tasks
 
 The following table lists how administrators can control access to [!INCLUDE [prod_short](includes/prod_short.md)] and the features people will use. Some of the tasks also help keep access settings up to date.
 
@@ -44,7 +44,7 @@ The following table lists how administrators can control access to [!INCLUDE [pr
 |An Azure service tag represents a group of IP addresses that traffic for a service can come from or go to. Use service tags to set up firewalls to allow traffic only from certain services. The **Dynamics365BusinessCentral** tag lets you use firewall and network security group rules to restrict traffic to and from [!INCLUDE [prod_short](includes/prod_short.md)].| [Azure security service tags](/dynamics365/business-central/dev-itpro/security/security-service-tags)|
 |When using Microsoft Entra authentication with [!INCLUDE [prod_short](includes/prod_short.md)], we recommend you take advantage of [Microsoft Entra ID Multi-Factor Authentication (MFA)](/azure/active-directory/authentication/concept-mfa-howitworks). MFA further safeguards access to the application and data.|[Multi-Factor Authentication for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/security/multifactor-authentication)|
 
-## Business Central developer tasks
+## <a name="business-central-developer-tasks"></a>Business Central developer tasks
 
 There's also a developer story for managing access to [!INCLUDE [prod_short](includes/prod_short.md)]. For example, developers and administrators can build and connect applications to [!INCLUDE [prod_short](includes/prod_short.md)] that benefit the business:  
 
@@ -58,6 +58,6 @@ The following table links to information about how to give apps and extensions a
 |--|--|
 |The two main concepts for defining access to features are entitlements and permissions. Entitlements give broad access to objects according to licences or Microsoft Entra roles. Permissions and permission sets let you fine-tune access to objects. |[Entitlements and Permission Sets Overview](/dynamics365/business-central/dev-itpro/developer/devenv-entitlements-and-permissionsets-overview)|
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Security in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection)

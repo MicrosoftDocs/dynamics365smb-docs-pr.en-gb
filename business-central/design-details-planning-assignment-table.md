@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: bholtorf
 ---
-# Design Details: Planning Assignment Table
+# <a name="design-details-planning-assignment-table"></a>Design Details: Planning Assignment Table
 All items should be planned for, however, there is no reason to calculate a plan for an item unless there has been a change in the demand or supply pattern since the last time a plan was calculated.  
 
 If the user has entered a new sales order or changed an existing one, there is reason to recalculate the plan. Other reasons include a change in forecast or the desired safety stock quantity. Changing a bill of material by adding or removing a component would most likely indicate a change, but for the component item only.  
@@ -55,7 +55,7 @@ When calculating an MPS or an MRP, the following restrictions apply:
 * MPS: The planning system checks that the item carries a demand forecast or a sales order. If not, the item is not included in the plan.  
 * MRP: If the planning system detects that the item is being replenished by an MPS planning line or MPS supply order, the item will be left out of the planning. However, any demand from relevant components is included.  
 
-## See Also  
+## <a name="see-also"></a>See Also
 [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)   
 [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)   
 [Design Details: Transfers in Planning](design-details-transfers-in-planning.md)   
