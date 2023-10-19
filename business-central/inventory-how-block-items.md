@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.search.keywords: 'item, variant, product'
 ms.date: 08/22/2023
 ---
-# <a name="block-items-or-item-variants-from-sales-or-purchasing"></a>Block Items or Item Variants from Sales or Purchasing
+# Block Items or Item Variants from Sales or Purchasing
 
 You can block items and item variants from being entered on lines in sales or purchase documents, and you can block them from being posted in transactions. For example, this is useful when an item has a known defect. If someone chooses a blocked item or variant on a sales or purchase document a message will inform them that the item is blocked.
 
@@ -25,7 +25,7 @@ The following table describes what occurs when items or variants are blocked.
 
 When you use the **Copy from Document** action to create new documents based on existing documents, you're notified if items or variants on the source document lines are blocked. The blocked document lines are excluded from the new document, and a notification shows an overview of all document lines that are blocked in the source document.
 
-## <a name="to-block-an-item"></a>To block an item
+## To block an item  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2. Depending on what you want to do, select the item, and then choose one or more of the following checkboxes:
@@ -33,7 +33,7 @@ When you use the **Copy from Document** action to create new documents based on 
     * **Sales Blocked**
     * **Purchasing Blocked**  
 
-## <a name="to-block-an-item-variant"></a>To block an item variant
+## To block an item variant  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2. Select the item that that has a variant you want to block, choose **Variants**, and then choose one or more of the following checkboxes:  
@@ -41,7 +41,7 @@ When you use the **Copy from Document** action to create new documents based on 
     * **Sales Blocked**
     * **Purchasing Blocked**
 
-## <a name="see-also"></a>See Also
+## See Also  
 
 [Register New Items](inventory-how-register-new-items.md)  
 [Inventory](inventory-manage-inventory.md)  

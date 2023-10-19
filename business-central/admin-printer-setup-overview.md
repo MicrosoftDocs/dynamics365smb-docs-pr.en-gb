@@ -6,15 +6,17 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics365-business-central
 ms.topic: overview
-ms.date: 02/10/2023
+ms.date: 09/28/2023
 ms.custom: bap-template
 ---
 
-# <a name="printer-setup-and-management-overview"></a>Printer Setup and Management Overview
+# Printer Setup and Management Overview
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Printing documents and reports from [!INCLUDE[prod_short](includes/prod_short.md)] is an important task for business users. You'll typically want to send print jobs directly to one of your organisation's printers&mdash;no matter the [!INCLUDE[prod_short](includes/prod_short.md)] client or app you're using. Because [!INCLUDE[prod_short](includes/prod_short.md)] online is a cloud service, it can't directly reach local printers connected to users' devices, but you can connect it to cloud-enabled printers.
 
-## <a name="what-are-your-printer-possibilities-in-business-central"></a>What are your printer possibilities in Business Central
+## What are your printer possibilities in Business Central
 
 To support your print needs, [!INCLUDE[prod_short](includes/prod_short.md)] offers the following features:
 
@@ -27,15 +29,15 @@ To support your print needs, [!INCLUDE[prod_short](includes/prod_short.md)] offe
 Most of the work for setting up printers can be done from the **Printer Management** page in [!INCLUDE[prod_short](includes/prod_short.md)]. Although with Universal Print printers, you may also have to work in in Microsoft 365 admin centre or the Azure Portal.
 
 > [!IMPORTANT]
-> For Business Central on-premises, Universal Print and Email Print require that Azure Active Directory (AD) or NavUserPassword authentication is used.
+> For Business Central on-premises, Universal Print and Email Print require that Microsoft Entra ID or NavUserPassword authentication is used.
 
-## <a name="custom-printer-extensions"></a>Custom printer extensions
+## Custom printer extensions
 
 [!INCLUDE[prod_short](includes/prod_short.md)] supports other custom printer extensions that add even more print features. So if you have any custom printer extensions installed, your application may include print features not described in this article.
 
 If you're an AL developer and want to learn about how to create printer extensions, go to [Developing Printer Extensions in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-reports-printing).
 
-## <a name="next-steps"></a>Next steps
+## Next steps
 
 - [Set Up Universal Print Printers](admin-printer-setup-universal-print.md)  
 - [Set Up Email Printers](admin-printer-setup-email.md)  
