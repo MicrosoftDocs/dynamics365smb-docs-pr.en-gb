@@ -7,10 +7,10 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5841
-ms.date: 04/01/2021
+ms.date: 10/11/2023
 ms.author: bholtorf
 ---
-# <a name="update-standard-costs"></a>Update Standard Costs
+# Update Standard Costs
 You must periodically update the standard costs of components and roll the new costs up to the parent item. The process typically consists of the following four steps:  
 
 1.  Update costs at the component and capacity levels. For more information, see the **Suggest Item Standard Cost** batch job.  
@@ -20,11 +20,11 @@ You must periodically update the standard costs of components and roll the new c
 
 For more information, see [About Calculating Standard Cost](finance-about-calculating-standard-cost.md).
   
-## <a name="to-update-standard-costs"></a>To update standard costs
+## To update standard costs
 
-1.  Run the **Adjust Cost-Item Entries** batch job.  
-2.  Run the **Post Inventory Cost to G/L** batch job.  
-3.  Open the **Standard Cost Worksheet** and use one or more of the following functions:  
+1.  Run the **Adjust Cost-Item Entries** batch job. To start the batch job, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Adjust Cost - Item Entries**, and then choose the related link. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Review the results and make changes as necessary.  
+2.  Run the **Post Inventory Cost to G/L** batch job. To start the batch job, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Post Inventory Cost to G/L**, and then choose the related link. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Review the results and make changes as necessary.  
+3.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Standard Cost Worksheet**, and then use one or more of the following actions:
 
     1.  Run the **Suggest Item Standard Cost** batch job.  
     2.  Review the results and make changes as necessary.  
@@ -35,11 +35,12 @@ For more information, see [About Calculating Standard Cost](finance-about-calcul
     7.  Run the **Implement Standard Cost Changes** batch job.  
 4.  Review and post the **Revaluation Journal** page, which has been populated with entries from the previous steps in this process.  
 
-## <a name="see-also"></a>See Also
+## See Also
 
  [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)   
  [Managing Inventory Costs](finance-manage-inventory-costs.md)   
- [Design Details: Costing Methods](design-details-costing-methods.md) [Finance](finance.md)  
+ [Design Details: Costing Methods](design-details-costing-methods.md)   
+ [Finance](finance.md)  
  [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
