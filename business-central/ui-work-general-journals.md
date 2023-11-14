@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.search.keywords: 'journals, recurring, accrual, renumber, bulk-post'
 ms.search.form: '39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022'
 ---
-# <a name="work-with-general-journals"></a>Work with General Journals
+# Work with General Journals
 
 Most financial transactions are posted to the general ledger through documents such as purchase invoices and sales orders. However, you can also process business activities such as:
 
@@ -33,11 +33,11 @@ The information that you enter in a journal is temporary and can be changed whil
 > [!NOTE]
 > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]  
 
-## <a name="add-context-to-general-journal-transactions"></a>Add context to general journal transactions
+## Add context to general journal transactions
 
 When you create a journal, you can add links that give context to its transactions. When you post the journal, [!INCLUDE [prod_short](includes/prod_short.md)] copies the links to the posted journal and ledger entries the journal creates. For example, providing links can make life easier for your auditor. If you keep images of your expense receipts on your company's Sharepoint site, you can add links to the files. When you post the journal to submit your expenses, your auditor can quickly get to the receipt files.
 
-## <a name="use-journal-templates-and-batches"></a>Use journal templates and batches
+## Use journal templates and batches
 
 There are several general journal templates. Each journal template is represented by a dedicated page with particular functions and the fields that are required to support those functions, such as the **Payment Reconciliation Journal** page to process bank payments and the **Payment Journal** page to pay your vendors or reimburse your employees. Learn more at [Make Payments](payables-make-payments.md) and [Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries](receivables-how-apply-sales-transactions-manually.md).
 
@@ -49,7 +49,7 @@ For each journal template, you can set up your own personal journal as a journal
 > [!TIP]
 > You can add or remove fields in journals by personalising them. Learn more at [Personalise Your Workspace](ui-personalization-user.md).
 
-### <a name="validating-general-journal-batches"></a>Validating General Journal Batches
+### Validating General Journal Batches
 
 You can turn on a background check that will help prevent delays when posting. The check will notify you when a mistake in the financial journal you're working on will prevent you from posting the journal. On the **General Journal Batch** page, you can choose **Background Error Check** to have [!INCLUDE[prod_short](includes/prod_short.md)] validate finance journals, such as general or payment journals, while you're working on them.
 
@@ -59,20 +59,20 @@ You can use the **Show Lines with Issues** and **Show All Lines** actions to tog
 
 [!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]  
 
-## <a name="understanding-main-accounts-and-balancing-accounts"></a>Understanding main accounts and balancing accounts
+## Understanding main accounts and balancing accounts
 
 If you have set up default balancing accounts for the journal batches on the **General Journals** page, the balancing account will be filled in automatically when you fill in the **Account No.** field. Otherwise, fill in both the **Account No.** and **Bal. Account No.** fields manually. A positive amount in the **Amount** field is debited to the main account and credited to the balancing account. A negative amount is credited to the main account and debited to the balancing account.
 
 > [!NOTE]  
 > VAT is calculated separately for the main account and the balancing account, so they can use different VAT percentage rates.
 
-## <a name="work-with-recurring-journals"></a>Work with recurring journals
+## Work with recurring journals
 
 A recurring journal is a general journal with specific fields for managing transactions that you often post with few, if any, changes. For example, transactions for expenses such as rent, subscriptions, electricity, and heat. Using recurring journals lets you post fixed and variable amounts, and specify automatic reversal entries for the day after the posting date. Allocation keys let you divide the recurring entries among various accounts. Learn more at [Allocating Recurring Journal Amounts to Several Accounts](#allocating-recurring-journal-amounts-to-several-accounts).
 
 With a recurring journal, you create the entries that will be posted regularly only one time. For example, the accounts, dimensions, dimension values, and so on, stay in the journal after posting. If changes are needed, you can make them each time you post.
 
-### <a name="recurring-method-field"></a>Recurring Method field
+### Recurring Method field
 
 The **Recurring Method** field is important. It determines how to treat the amount on the journal line after posting. For example, if you'll use the same amount every time you post the line, you can let the amount remain. If you'll use the same accounts and text on the line, but the amount will vary every time you post, you can choose to delete the amount after posting.
 
@@ -90,11 +90,11 @@ The **Recurring Method** field is important. It determines how to treat the amou
 > [!NOTE]  
 > The VAT fields can be filled in on either the recurring journal line or on the allocation journal line but not on both. That is, they can be filled in on the **Allocations** page only if the corresponding lines in the recurring journal are not filled in.
 
-### <a name="recurring-frequency-field"></a>Recurring Frequency field
+### Recurring Frequency field
 
 This date formula field determines how often to post the entry on the journal line, and it must be filled in. Learn more at [Use Date Formulas](ui-enter-date-ranges.md#use-date-formulas).
 
-#### <a name="examples"></a>Examples
+#### Examples
 
 If the journal line must be posted every month, enter "1M". After every posting, the date in the **Posting Date** field will be updated to the same date in the next month.
 
@@ -104,7 +104,7 @@ If you want to post an entry on the last day of every month, you can do one of t
 
 * Post the first entry on any day of the month by entering 1M+CM. With this formula, the posting date will be after one full month + the remaining days of the current month.
 
-### <a name="expiration-date-field"></a>Expiration Date field
+### Expiration Date field
 
 This field determines the date on which the line will be posted for the last time. The line won't be posted after this date.
 
@@ -112,7 +112,7 @@ The advantage of using the Expiration Date field is that the line won't be delet
 
 If the field is blank, the line will be posted every time until it's deleted from the journal.
 
-### <a name="allocating-recurring-journal-amounts-to-several-accounts"></a>Allocating recurring journal amounts to several accounts
+### Allocating recurring journal amounts to several accounts
 
 On the **Recurring General Journal** page, you can choose the **Allocations** action to specify how to allocate amounts on the recurring journal line to several accounts and dimensions. Allocation acts as balancing account line for the recurring journal line.
 
@@ -130,7 +130,7 @@ For example, your company has a couple of business units and a handful of depart
 > [!NOTE]
 > Dimensions that you set on allocation lines are not automatically calculated, and you must specify which dimension values must be set on the allocation accounts. In case you want to preserve the link between the source account dimension and the allocation account dimension, we recommend that you use the [Cost Accounting](finance-about-cost-accounting.md) capabilities instead.
 
-#### <a name="example-allocating-rent-payments-to-different-departments"></a>Example: Allocating Rent Payments to Different Departments
+#### Example: Allocating Rent Payments to Different Departments
 
 You pay rent monthly, so you've entered the amount on the cash account on a recurring journal line. On the **Allocations** page, you can use the Department dimension to divide the expense among several departments. For example, according to the number of square feet that each department occupies. The calculation is based on the allocation percentage on each line. You can allocate in different ways:
 
@@ -139,11 +139,11 @@ You pay rent monthly, so you've entered the amount on the cash account on a recu
 
 [!INCLUDE [rev-general-journal](includes/rev-general-journal.md)]
 
-### <a name="calculate-the-reversal-date"></a>Calculate the reversal date
+### Calculate the reversal date
 
 When using recurring general journals to post accruals at the end of a period, it's important to have full control over reversal entries. On the **Recurring General Journals** page, the **Reversal Date Calculation** field lets you control the date that reversal entries will be posted when reversal recurring methods are used.
 
-#### <a name="example"></a>Example
+#### Example
 
 Accruals are typically posted with **Fixed**, **Variable**, or **Balance** recurring methods on the journal line. The posting date of the posted amount on the account on journal line is calculated using the recurring frequency. The posting date for the balancing entry is calculated using the **Reversal Date Calculation** field, as follows:
 
@@ -153,7 +153,7 @@ Accruals are typically posted with **Fixed**, **Variable**, or **Balance** recur
 > [!NOTE]
 > By default, the **Reversal Date Calculation** field is not available on the **Recurring General Journals** page. To use the field, you must add it by personalising the page. For more information, see [Personalise Your Workspace](ui-personalization-user.md).
 
-## <a name="work-with-standard-journals"></a>Work with standard journals
+## Work with standard journals
 
 When you've created journal lines that you know you're likely to create again later, you can save them as a standard journal before you post the journal. The same applies for item journals and general journals.
 
@@ -163,7 +163,7 @@ When you've created journal lines that you know you're likely to create again la
 > [!NOTE]  
 > The following procedures refer to the item journal, but the information also applies to the general journal.
 
-### <a name="to-save-a-standard-journal"></a>To save a standard journal
+### To save a standard journal
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link.
 2. Enter one or more journal lines.
@@ -179,7 +179,7 @@ When you've created journal lines that you know you're likely to create again la
 
 When you save the standard item journal, the Item Journal page displays so you can post it.
 
-### <a name="to-reuse-a-standard-journal"></a>To reuse a standard journal
+### To reuse a standard journal
 
 > [!NOTE]
 > Standard journals don't always have the same fields as general journals. When you use the Get Standard Journals action to copy the fields to the general journal, the general journal might have less information than if you created it manually. 
@@ -203,7 +203,7 @@ When you save the standard item journal, the Item Journal page displays so you c
 5. Select the item journal lines you want to adjust, and then choose the **Recalculate Unit Amount** action. This action will update the Unit Amount field with the current unit cost of the item.
 6. Choose the **Post** action.
 
-## <a name="to-renumber-document-numbers-in-journals"></a>To renumber document numbers in journals
+## To renumber document numbers in journals
 
 To avoid posting errors caused by the document number, you can use the **Renumber Document Numbers** action before you post a journal.
 
@@ -215,7 +215,7 @@ This function also works on filtered views.
 
 Any renumbering of document numbers will respect related applications, such as a payment application made from the document on the journal line to a vendor account. Accordingly, the **Applies-to ID** and **Applies-to Doc. No.** fields will be updated on the ledger entries.
 
-### <a name="to-renumber-documents-in-journals"></a>To renumber documents in journals
+### To renumber documents in journals
 
 The following procedure is based on the **General Journal** page, but applies to all other journals that are based on the general journal, such as the **Payment Journal** page.
 
@@ -224,7 +224,7 @@ The following procedure is based on the **General Journal** page, but applies to
 
 Values in the **Document No.** field are changed, where required, so that the document number on individual or grouped journal lines are in sequential order. After documents are renumbered, you can post the journal.
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)  
 [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md)  

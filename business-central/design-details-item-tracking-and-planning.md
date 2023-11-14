@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: bholtorf
 ---
-# <a name="design-details-item-tracking-and-planning"></a>Design Details: Item Tracking and Planning
+# Design Details: Item Tracking and Planning
 Because they are stored in the reservation system, item tracking numbers are fully coordinated with order tracking records. This means that items with order tracking records can be assigned item tracking numbers. Conversely, items that have item tracking numbers can become order tracking records. For more information, see [Design Details: Item Tracking Design](design-details-item-tracking-design.md).
 
 For more information about the integrated systems, see [Design Details: Reservations, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md).
@@ -35,7 +35,7 @@ For items that use specific item tracking, all demand carrying serial or lot num
 
 For more information, see [Design Details: Transfers in Planning](design-details-transfers-in-planning.md).
 
-## <a name="balancing-demand-and-supply"></a>Balancing Demand and Supply
+## Balancing Demand and Supply
 If an item requires specific item tracking, then an order tracking link is made from all the item’s item tracking demand to any corresponding item tracking supply, with the sole limitation that supply should come before demand. If, under those circumstances, no item tracking supply can be found that corresponds to the item tracking-specific demand, then a new item tracking supply is created immediately and without considering order sizing, planning parameters, or rescheduling of existing supply of the same serial or lot number.
 
 If item tracking numbers are assigned on the demand side or on the supply side without requiring specific item tracking, then an order track link is made from the demand to that supply, based on the most suitable timing and quantity, as in the usual balancing procedure. The specified item tracking number goes into the order tracking record in the same way that any specified item tracking quantity defines one end of the order tracking link. This means that the item tracking number that is entered is preserved while it is also part of the order tracking record.
@@ -44,7 +44,7 @@ If item tracking numbers are assigned on the supply side without requiring speci
 
 For more information, see [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md).  
 
-## <a name="see-also"></a>See Also
+## See Also  
 [Design Details: Item Tracking Design](design-details-item-tracking-design.md)  
 [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)  
 [Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md)   

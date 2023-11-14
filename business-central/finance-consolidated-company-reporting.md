@@ -11,7 +11,7 @@ ms.search.keywords: 'consolidation, subsidiaries, consolidate'
 ms.search.form: '1826, 1827'
 ---
 
-# <a name="consolidating-financial-data-from-multiple-companies"></a>Consolidating Financial Data from Multiple Companies
+# Consolidating Financial Data from Multiple Companies
 
 Some organisations use [!INCLUDE [prod_short](includes/prod_short.md)] in multiple business units or legal entities. Others use [!INCLUDE [prod_short](includes/prod_short.md)] in subsidiaries that must report into parent organisations. [!INCLUDE [prod_short](includes/prod_short.md)] gives accountants tools that help them transfer general ledger entries from two or more companies (subsidiaries) into a consolidated company.  
 
@@ -35,11 +35,11 @@ You set up the consolidated company in the same way that you set up other compan
 > [!TIP]
 > Consolidating financial data can be especially relevant for intercompany processes. To learn more about intercompany features, go to [Managing Intercompany Transactions](intercompany-manage.md).
 
-## <a name="consolidate-data"></a>Consolidate data
+## Consolidate data
 
 Before you consolidate, it's a good idea to test your data before you transfer it to the consolidated company. [!INCLUDE[prod_short](includes/prod_short.md)] looks for differences in the information in the business units and the consolidated company. For example, whether account numbers or dimension codes are different. Correct any errors you find before you run the report. You can test the database or, if you're importing data from an XML file, the file.
 
-### <a name="test-the-data-before-you-consolidate"></a>Test the data before you consolidate
+### Test the data before you consolidate
 
 1. Open the consolidated company.  
 2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Business Units**, and then choose the related link.  
@@ -48,7 +48,7 @@ Before you consolidate, it's a good idea to test your data before you transfer i
     * To test a file, choose the **Test File** action, enter the name of the file to test, and then choose **Print**.  
     * To test the database, choose **Test Database**.  
 
-### <a name="run-the-consolidation"></a>Run the consolidation
+### Run the consolidation
 
 After you've tested the data, you can transfer it to the consolidated company. An assisted setup guide will help you through the process.
 
@@ -59,7 +59,7 @@ After you've tested the data, you can transfer it to the consolidated company. A
 2. On the **Business Units** page, choose the **Consolidate** action.  
 3. Fill in the required fields.  
 
-## <a name="use-the-consolidated-trial-balance-report"></a>Use the Consolidated Trial Balance report
+## Use the Consolidated Trial Balance report
 
 The **Consolidated Trial Balance** report can give you an overview of the overall financial health of your business. The report combines general ledger entries from each of your companies in a new company that you created for the consolidated data. The consolidated company is just a container for the consolidated data, and doesn't have any live business data. The companies that you include in the consolidated company become **Business Units** in the report. If you have four business units or fewer, you can also use the **Consolidated Trial Balance (4)** report.  
 
@@ -70,7 +70,7 @@ The report shows a line for each account, and follows the structure of the chart
 * The eliminations made in the consolidated company. Eliminations always show for a period corresponding to the consolidated company's fiscal year.
 * The total for the consolidated company after the eliminations show either as a net change or the balance to date.
 
-## <a name="eliminate-repeated-transactions"></a>Eliminate repeated transactions
+## Eliminate repeated transactions
 
 After you consolidate the companies, you must find and eliminate any transactions that are recorded more than once across companies. Processing consolidation eliminations is a manual process.  
 
@@ -95,7 +95,7 @@ A line is created for each account, following the structure of the chart of acco
 * The posting text copied from the general journal.
 * The consolidated company's total after the eliminations, if they're posted.
 
-## <a name="export-and-import-consolidated-data-between-databases"></a>Export and import consolidated data between databases
+## Export and import consolidated data between databases
 
 If data for a business unit is in another database, you can do a manual file-based transfer or automate the process by using an API. To learn more about the API, go to [Use our API to automatically share data across environments](#use-our-api-to-automatically-share-data-across-environments).
 
@@ -115,11 +115,11 @@ The exported entries contain the following fields: **Account No.**, **Posting Da
 3. The dimension value exported for the entry will be the consolidated company dimension value that is specified in the **Consolidation Code** field for that dimension value. If a consolidated company dimension value hasn't been entered in the **Consolidated Code** field for the dimension value, the dimension value itself will be exported to the line.  
 4. The XML files also contain the currency exchange rates in the consolidation period. These rates are included in a separate section at the beginning of the file.  
 
-## <a name="use-our-api-to-automatically-share-data-across-environments"></a>Use our API to automatically share data across environments
+## Use our API to automatically share data across environments
 
 [!INCLUDE [prod_short](includes/prod_short.md)] provides an API that let's you automate the process of sharing financial data from business units to the consolidated company. The API is free to use and easy to set up. It even let's you share data across [!INCLUDE [prod_short](includes/prod_short.md)] environments. For example, you might need to share across environments when business units are not in the same Azure geographies. To learn more about using the API to automate the consolidation process, go to [Set Up Company Consolidation](finance-consolidated-company-reporting-setup.md#busunit).
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Set Up Company Consolidation](finance-consolidated-company-reporting-setup.md)  
 [Managing Intercompany Transactions](intercompany-manage.md)  

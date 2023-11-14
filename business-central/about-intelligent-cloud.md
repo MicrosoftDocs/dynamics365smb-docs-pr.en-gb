@@ -13,13 +13,13 @@ ms.date: 04/12/2021
 ms.author: bholtorf
 ---
 
-# <a name="intelligent-insights-in--online"></a>Intelligent Insights in [!INCLUDE[prod_short](includes/prod_short.md)] Online
+# Intelligent Insights in [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 As a user of [!INCLUDE[prod_short](includes/prod_short.md)] online, you have full access to scenarios that are based on the intelligent cloud, such as KPIs that are based on machine learning, or when you view your data in Power BI.  
 
 However, if you use [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, you do not have access to the same insights. If you want to benefit from online scenarios, you must migrate to [!INCLUDE [prod_short](includes/prod_short.md)] online. For more information, see [Migrating On-Premises Data to Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) in the administration content for [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="viewing-insights-in--online"></a>Viewing Insights in [!INCLUDE[prod_short](includes/prod_short.md)] Online
+## Viewing Insights in [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] online, the **Intelligent Cloud Insights** page shows four key points of interest for most businesses:
 
@@ -35,7 +35,7 @@ Next to the KPI charts, you get insights into potential areas of concern, includ
 
 The page also connects to Power BI for even more insights. Optionally, connect to Azure AI for even more intelligent insights. For more information, see [The Sales and Inventory Forecast Extension](ui-extensions-sales-forecast.md).  
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Welcome to Business Central](welcome.md)  
 [Cloud Migration Extensions](ui-extensions-data-replication.md)  

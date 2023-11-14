@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/11/2021
 ms.author: bholtorf
 ---
-# <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Use XML Schemas to Prepare Data Exchange Definitions
+# Use XML Schemas to Prepare Data Exchange Definitions
 
 To enable import/export of data in XML files through the data exchange framework in [!INCLUDE[prod_short](includes/prod_short.md)], you can use XML schemas to define which data elements you want to exchange with [!INCLUDE[prod_short](includes/prod_short.md)]. You perform this work on the **XML Schema Viewer** page by loading the XML schema file, selecting the relevant data elements, and then initialising a data exchange definition.  
 
@@ -24,7 +24,7 @@ To enable import/export of data in XML files through the data exchange framework
 
 - To generate a data exchange definition that is based on an XML schema  
 
-## <a name="to-load-an-xml-schema-file"></a>To load an XML schema file
+## To load an XML schema file
 
 1. Make sure that the relevant XML schema file is available. The file extension is .xsd.  
 
@@ -48,7 +48,7 @@ To enable import/export of data in XML files through the data exchange framework
     > [!NOTE]  
     >  The tree of the loaded XML schema is collapsed by default. You expand each node by choosing the **+** button on the node. To expand all nodes, choose **Expand All** on the ribbon.  
 
-### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>To select or clear nodes in an XML schema
+### To select or clear nodes in an XML schema  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **XML Schema Viewer**, and then choose the related link.  
 
@@ -86,7 +86,7 @@ To enable import/export of data in XML files through the data exchange framework
 
      The **Choice** field specifies that the node has two or more sibling nodes that function as options.  
 
-### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>To generate a data exchange definition that is based on an XML schema
+### To generate a data exchange definition that is based on an XML schema  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter  **XML Schemas**, and then choose the related link.  
 
@@ -104,7 +104,7 @@ To enable import/export of data in XML files through the data exchange framework
 > [!NOTE]
 > In 2019 release wave 1 and earlier versions, you could generate an XMLport that was based on the schema and then import that into your solution. This is no longer supported.
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)  
 [Export Payments to a Bank File](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  

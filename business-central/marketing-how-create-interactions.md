@@ -10,13 +10,13 @@ ms.custom: bap-template
 ms.search.keywords: 'relationship, prospect'
 ms.search.forms: '5077, 5078, 5074, 5076, 5186, 5075, 5079'
 ---
-# <a name="create-interactions-on-contacts-and-segments"></a>Create Interactions on Contacts and Segments
+# Create Interactions on Contacts and Segments
 
 You can create interactions to track the communications you have with a single contact, or with multiple contacts in your segments. To make it easy to create interactions, [!INCLUDE [prod_short](includes/prod_short.md)] provides the **Create Interaction** assisted setup guide. The guide helps you capture the important details about the interaction.
 
 Before you create interactions though, you must set up interaction templates. To learn more about interaction templates, go to [Set Up Interaction Templates](marketing-interactions.md).
 
-## <a name="to-create-an-interaction-with-a-contact"></a>To create an interaction with a contact
+## To create an interaction with a contact
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, **Salesperson**, or **Interaction Log Entry**, and then choose the related link.
 2. Choose the **Create Interaction** action.
@@ -25,7 +25,7 @@ Before you create interactions though, you must set up interaction templates. To
 > [!NOTE]  
 > If you need to stop before you've finished the interaction, you can choose **Cancel** and then specify whether you want to save your settings so you can continue later. To learn more about postponed interactions, go to [To finish setting up a postponed interaction](#to-finish-setting-up-a-postponed-interaction).
 
-## <a name="to-create-an-interaction-on-a-segment"></a>To create an interaction on a segment
+## To create an interaction on a segment
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Segments**, and then choose the related link.
 2. Choose the **Create Interaction** action.
@@ -40,12 +40,12 @@ Before you create interactions though, you must set up interaction templates. To
 
 An interaction is recorded for each contact within the segment in the **Interaction Log Entry** table, and the segment is logged. Logged segments are available on the **Logged Segment** page.
 
-## <a name="to-finish-setting-up-a-postponed-interaction"></a>To finish setting up a postponed interaction
+## To finish setting up a postponed interaction
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Postponed Interactions**, and then choose the related link.
 2. Choose the interaction you want to finish, and then choose the **Resume** action.
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Recording Interactions](marketing-interactions.md)  
 [Managing Contacts](marketing-contacts.md)  

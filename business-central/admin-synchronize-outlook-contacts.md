@@ -11,20 +11,20 @@ ms.search.form: '6700, 5320, 5300, 5301, 5302, 5303, 5304, 5305, 5306, 5307, 530
 ms.date: 03/17/2023
 ms.author: bholtorf
 ---
-# <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Synchronise Contacts in Business Central with Contacts in Microsoft Outlook
+# Synchronise Contacts in Business Central with Contacts in Microsoft Outlook
 
 You can set up contact synchronisation so that your contacts in [!INCLUDE[prod_short](includes/prod_short.md)] have the same information as your contacts in Microsoft Outlook. For example, if you're a sales person, you might work in Outlook and [!INCLUDE[prod_short](includes/prod_short.md)] at the same time. If the contacts are the same in both places, your work is more straightforward.  
 
 By default, the contacts you're syncing are kept in a **Business Central** folder in your Favourites on the Folder Pane in Outlook. The Business Central folder can make it easier to identify which contacts you're syncing. You can set filters to sync only specific contacts from [!INCLUDE[prod_short](includes/prod_short.md)] to Outlook. After you've set up synchronisation, you can synchronise manually or automate the process to synchronise on a scheduled basis.  
 
-## <a name="prerequisites"></a>Prerequisites
+## Prerequisites
 
 - You user profile in [!INCLUDE[prod_short](includes/prod_short.md)] must specify your Microsoft 365 email account.
 
   You can check this setting in the **Microsoft 365 Authentication** section of your user profile in the **Users** list.
 - With [!INCLUDE[prod_short](includes/prod_short.md)], you've set up contact synchronisation as described in [Set Up Contact Synchronisation with Outlook for Business Central On-premises](admin-contact-sync-setup-onprem.md)
 
-## <a name="set-up-synchronization"></a>Set Up Synchronisation
+## Set Up Synchronisation
 
 You set up how you want to synchronise contacts with Outlook on the **Exchange Sync. Setup** page in [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
@@ -34,7 +34,7 @@ Each of your coworkers can also set up their own Exchange synchronisation and se
 
 After you set up synchronisation, you can sync changes to the contact manually, or you can automate the process by setting up a job queue entry. For more information about automation, see the next section in this article.
 
-### <a name="automate-synchronization"></a>Automate synchronisation
+### Automate synchronisation
 
 You can create a job queue entry that will synchronise contacts according to a schedule that you define. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md). 
 
@@ -45,7 +45,7 @@ The following table lists the settings on the **Job Queue Entry Card** page that
 |Object Type to Run|Codeunit|
 |Object ID to Run|6700|
 
-## <a name="synchronize-contacts"></a>Synchronise Contacts
+## Synchronise Contacts
 
 If you're used to working with contacts in [!INCLUDE[prod_short](includes/prod_short.md)], you'll find it easy to sync manually from the **Contacts** list whenever it suits you. You can synchronise contacts in two ways:
 
@@ -62,7 +62,7 @@ In both cases, contacts are only synchronised from Outlook if they have the requ
 > [!NOTE]
 > If you delete a contact in Outlook, but keep it in [!INCLUDE[prod_short](includes/prod_short.md)], the contact will be recreated in Outlook the next time you sync. 
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Finance](finance.md)  
