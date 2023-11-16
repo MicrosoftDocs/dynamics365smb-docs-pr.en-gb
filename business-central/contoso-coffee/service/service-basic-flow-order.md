@@ -9,7 +9,7 @@ ms.date: 05/31/2023
 ms.custom: bap-template
 ---
 
-# Walkthrough of Service Orders for Service Items
+# <a name="walkthrough-of-service-orders-for-service-items"></a>Walkthrough of Service Orders for Service Items
 
 This walkthrough demonstrates several core processes:
 
@@ -17,13 +17,13 @@ This walkthrough demonstrates several core processes:
 - Provide a Loaner Item to customer for a time of repair
 - Post and Invoice the Service Order
     
-## Creating a Service Order
+## <a name="creating-a-service-order"></a>Creating a Service Order
 
-### Scenario  
+### <a name="scenario"></a>Scenario
 
 Charles, the service manager, will create a Service Order for a repair scenario, lend a Loaner to the customer for time of repair.
 
-### Steps
+### <a name="steps"></a>Steps
 
 1. Create the Service Order manually for the Item that requires repair.
    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders**
@@ -40,20 +40,20 @@ Charles, the service manager, will create a Service Order for a repair scenario,
    1. In the Lines, select **LOANER1** as the Loaner No. Confirm the issuance of the Loaner by selecting **Yes** to lend the Loaner out. 
    2. Choose the Functions action **Get Std. Service Codes**, select standard code associated with service group and click **Ok**.
    
-### Results
+### <a name="results"></a>Results
 
 - A Service Order will be created for the Item
 - The Service Order's Service Document Log will show the Loaner activities.
 - The Loaner will have a Ledger Entry to reflect the lending.
    
 
-## Regsiter performed work, mark loaner as returned.
+## <a name="regsiter-performed-work-mark-loaner-as-returned"></a>Regsiter performed work, mark loaner as returned.
 
-### Scenario  
+### <a name="scenario-1"></a>Scenario
 
 The service technician marks loaner as returned, registers performed work.
 
-### Steps
+### <a name="steps-1"></a>Steps
 
 1. Locate the Service task and register time 
    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Tasks**, and then choose the related link.
@@ -73,13 +73,13 @@ The service technician marks loaner as returned, registers performed work.
    3. Choose the **Receive** action 
    4. Confirm the return of the Loaner by selecting **Yes** to return the Loaner.
       
-### Results
+### <a name="results-1"></a>Results
 
 - The service order's **Service Document Log** will show the Loaner activities.
 - The Loaner will have a Ledger Entry to reflect the receipt.
 
 
-### Scenario  
+### <a name="scenario-2"></a>Scenario
 
 Charles, the service manager, post the finished service order.
 
@@ -90,9 +90,9 @@ Charles, the service manager, post the finished service order.
 2. On the Service Order, Post the Invoice
    1. Choose the **Post** action to complete the Service Order, select the **Ship and Invoice** action, and then choose the **OK** button.
    2. Confirm the opening of the posted invoice by selecting **Yes**. 
-### Results
+### <a name="results-2"></a>Results
 
 - the **Posted Service Invoice** is created.
 - the **Service Ledger Entries** associated with the Item and Resource are created
 
-## See also 
+## <a name="see-also"></a>See also
