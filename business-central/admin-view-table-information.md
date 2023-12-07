@@ -11,13 +11,13 @@ ms.date: 10/11/2023
 ms.author: jswymer
 ---
 
-# Viewing table information
+# <a name="viewing-table-information"></a>Viewing table information
 
 The **8700 Table Information** page provides information about the number of records in all system and business tables in [!INCLUDE[prod_short](includes/prod_short.md)], and how much data each table contains.
 
 This information is useful for troubleshooting performance problems, because let's you see the distribution of data size across tables.
 
-## View table information
+## <a name="view-table-information"></a>View table information
 
 To open this page, select the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Table Information**, and then choose the related link.
 
@@ -42,7 +42,7 @@ The following table describes the information provided for each table:
 > The **Table Information** page shows data and index sizes, and the sum of table sizes will not match the total capacity used, because it displays the data size, not the actual allocated size. Allocated space is always larger than used space to avoid having to allocate space on every insert, which would limit performance significantly
 
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Inspecting Pages](across-inspect-page.md)  
 [Performance Articles For Developers](/dynamics365/business-central/dev-itpro/performance/performance-developer)  

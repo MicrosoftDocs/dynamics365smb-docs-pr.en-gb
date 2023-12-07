@@ -12,7 +12,7 @@ ms.date: 10/05/2023
 ms.author: altotovi
 ---
 
-# Set up e-documents
+# <a name="set-up-e-documents"></a>Set up e-documents
 
 > [!IMPORTANT]
 > The E-Documents core module is a framework. By default, there's no **Document Format** or **Service Integration** field. These details are part of localisation apps, because they're both specific to local requirements.
@@ -22,7 +22,7 @@ ms.author: altotovi
 
 The first step in the configuration of electronic documents (e-documents) is to set up the E-Documents Service where you configure the complete behaviour of your system as it's related to e-document communication.
 
-## Set up the E-Document Service
+## <a name="set-up-the-e-document-service"></a>Set up the E-Document Service
 
 Follow these steps to set up the E-Document Service.
 
@@ -61,7 +61,7 @@ If you've configured the **Data Exchange Definition** format in your localisatio
 
 Eventually, if you don't use the **Data Exchange Definition** format, you can configure formats through the **Export Mapping** and **Import Mapping** lines, where you can locate the tables and fields to use and configure transformation rules if applicable.
 
-## Set up a document sending profile
+## <a name="set-up-a-document-sending-profile"></a>Set up a document sending profile
 
 You can set up a preferred method of sending sales documents for each customer. In this way, you don't have to select a sending option every time that you select the **Post and Send** action. On the **Document Sending Profiles** page, you can set up different sending profiles and then select among them in the **Document Sending Profile** field on a customer card. You can select the **Default** checkbox to specify that a document sending profile is the default profile for all customers, except customers where the **Document Sending Profile** field is set to a different sending profile.
 
@@ -83,7 +83,7 @@ Follow these steps to set up a document sending profile.
     > [!NOTE]
     > If you select **Extended E-Document Service Flow** in the **Electronic Document** field, you must already have the workflow configured for your e-documents.
 
-## Set up the workflow
+## <a name="set-up-the-workflow"></a>Set up the workflow
 
 Follow these steps to set up the workflow that's used in e-document functionality.
 
@@ -98,7 +98,7 @@ Follow these steps to set up the workflow that's used in e-document functionalit
 > [!NOTE]
 > You can create your own workflow for e-documents without using predefined workflow templates. If you have more services, you can use different workflows.
 
-## Set up a retention policy for e-documents
+## <a name="set-up-a-retention-policy-for-e-documents"></a>Set up a retention policy for e-documents
 
 E-documents can be a subject of different local legislations that are related to the period that the e-documents are kept for. Therefore, we have added a retention policy setup for all important information that's related to e-documents. Administrators can define retention policies that specify how frequently Dynamics 365 Business Central deletes outdated records that are related to e-documents. To learn more about retention policies, see [Define Retention Policies](admin-data-retention-policies.md).
 
@@ -112,7 +112,7 @@ To set up e-document-related retention policies, follow these steps.
     - E-Document Mapping Log
     - E-Document Data Storage
 
-## See also 
+## <a name="see-also"></a>See also
 
 [How to use e-documents in Business Central](finance-how-use-edocuments.md)  
 [How to extend e-documents in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  

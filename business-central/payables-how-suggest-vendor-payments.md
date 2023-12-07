@@ -29,14 +29,14 @@ To benefit fully from payment suggestions, you must first prioritise your vendor
 > * Overdue vendor entries that are not prioritised.  
 > * Open vendor entries that qualify for payment discounts. The entries are arranged by vendor number.  
 
-## <a name="to-use-the-suggest-vendor-payments-function"></a>To use the Suggest Vendor Payments function
+## <a name="use-the-suggest-vendor-payments-action"></a>To use the Suggest Vendor Payments function
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
 2. Open the journal, and then choose the **Suggest Vendor Payments** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Choose the **OK** button.  
 
-## <a name="to-insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>To insert the due date as posting date on payment journal lines
+## <a name="insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>To insert the due date as posting date on payment journal lines
 
 When you use the **Suggest Supplier Payments** batch job to create payment lines for your vendors, you can fill two special fields to make sure that the generated lines use the due date to calculate the posting date. These fields are **Calculate Posting Date from Applies-to-Doc Due Date** and **Applies-to-Doc Due Date Offset**.  
 

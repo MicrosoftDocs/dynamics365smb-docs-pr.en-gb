@@ -99,7 +99,7 @@ When the requested quantity exceeds the quantity that is available in inventory,
 
 Learn more about variants at [Manage Product Variants](inventory-item-variants.md).  
 
-## <a name="deleting-item-cards"></a>Deleting item cards
+## <a name="delete-item-cards"></a>Deleting item cards
 
 If you've posted a transaction for an item, you can't delete the card because the ledger entries may be needed for inventory valuation or auditing. To delete item cards with ledger entries, contact to Microsoft partner to do so through code.  
 

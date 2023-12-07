@@ -73,7 +73,7 @@ Charles, the service manager, then creates a Service Contract to invoice for reg
 - A Signed Service Contract will be created, with Ledger Entries
 - A Posted Service Invoice will be created
 
-## <a name="creating-a-service-order-for-a-service-contract-and-assign-resources"></a>Creating a Service Order for a Service Contract and Assign Resources
+## <a name="create-a-service-order-for-a-service-contract-and-assign-resources"></a>Creating a Service Order for a Service Contract and Assign Resources
 
 ### <a name="scenario-2"></a>Scenario
 

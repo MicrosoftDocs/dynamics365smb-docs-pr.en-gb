@@ -22,7 +22,7 @@ When you receive the inventory items or the purchased service is complete, post 
 > [!CAUTION]  
 > Do not post a purchase invoice for physical items until you receive the items and know the final cost of the purchase, including any additional charges. Otherwise, your stock value and profit figures may be skewed.
 
-### <a name="create-a-and-post-purchase-invoice"></a>Create a and post purchase invoice
+### <a name="create-and-post-a-purchase-invoice"></a>Create a and post purchase invoice
 
 The following describes how to create a purchase invoice. The steps are similar for a purchase order. The main difference is that purchase orders have additional fields and actions for physical handling of items.
 
