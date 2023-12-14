@@ -12,31 +12,31 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ---
 
-# <a name="bookmark-a-page-or-report-on-your-role-center"></a>Bookmark a Page or Report on Your Role Centre
+# Bookmark a Page or Report on Your Role Centre
 Using the bookmark icon, you can add an action that opens a page or report from the navigation menu of your Role Centre. Bookmarks allow you to quickly reach your favourite content or business tasks. You add the bookmark from the target page or report, meaning the screen that you want the link on the Role Centre to open.
 
 The bookmark icon is shown in the top-right corner of a page and also in the **Tell Me** window where you can efficiently bookmark multiple pages or reports. If a bookmark already exists for the page, then the icon is dark, and the tooltip says "Bookmarked".
 
-## <a name="to-bookmark-the-target-page"></a>To bookmark the target page
+## To bookmark the target page
 1. Open any page that you want a link for on your Role Centre.
 2. Choose the ![Bookmark.](media/ui_bookmark_icon.png "Bookmark") icon.
 
 An action named after the page is now added to the navigation menu on your Role Centre.
 
-## <a name="to-bookmark-the-target-report"></a>To bookmark the target report
+## To bookmark the target report
 1. Open any report request page that you want a link for on your Role Centre.
 2. Choose the ![Bookmark.](media/ui_bookmark_icon.png "Bookmark") icon.
 
 An action named after the report is now added to the navigation menu on your Role Centre.
 
-## <a name="to-bookmark-a-page-or-report-from-the-tell-me-window"></a>To bookmark a page or report from the Tell Me window
+## To bookmark a page or report from the Tell Me window
 1. Open the **Tell Me** window and enter, for example, **Sales Orders**.
 2. Hover over the search result for the **Sales Orders** page or report, and then choose the ![Bookmark.](media/ui_bookmark_icon.png "Bookmark") icon.
 
 An action named after the page or report is now added to the navigation menu on your Role Centre.
 
 
-## <a name="frequently-asked-questions"></a>Frequently Asked Questions
+## Frequently Asked Questions  
 
 - **Can I reorganise my bookmarks?**  
 Yes. You can personalise your Role Centre and move actions into a more optimal sequence or move them into existing groups or subgroups.  
@@ -76,7 +76,7 @@ When you add a new action, any translated text that was available at the time is
 - **Why can't I add text in a page right after opening it with the bookmark?**<br> When a page is bookmarked, the page will always open in the view mode from the bookmark&mdash;even if it was in the edit mode when it was bookmarked. Selecting the **Make changes on the page** icon ![Shows the pencil icon for editing the page.](media/edit-pencil.png) will let you add text in the fields that are editable.
 
 
-## <a name="see-also"></a>See Also
+## See Also
 [Personalise Your Workspace](ui-personalization-user.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  

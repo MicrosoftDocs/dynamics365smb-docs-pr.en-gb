@@ -11,17 +11,17 @@ ms.date: 09/30/2021
 ms.author: bholtorf
 ---
 
-# <a name="set-up-customer-price-groups"></a>Set Up Customer Price Groups
+# Set Up Customer Price Groups
   
 Sales prices can be made dependent on the customer groups to which you sell. These are called customer price groups.
 
 Before you set up customer price groups, you must decide how many groups you want and which customers will belong to each group.  
 
-## <a name="how-to-create-sales-prices-for-a-group-of-customers"></a>How to create sales prices for a group of customers
+## How to create sales prices for a group of customers  
 
 When you have agreed on the prices that the group of customers will pay for certain items, you register the agreement for the individual items on the lines in the **Sales Prices** page.
 
-### <a name="to-create-sales-prices-for-a-group-of-customers"></a>To create sales prices for a group of customers
+### To create sales prices for a group of customers
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer Price Groups**, and then choose the related link.  
 
@@ -43,11 +43,11 @@ When you have agreed on the prices that the group of customers will pay for cert
 
 Repeat steps 4 through 8 for each item that you want to create a Sales Price for.
 
-## <a name="how-to-enter-customer-price-group-codes-on-customer-cards"></a>How to enter customer price group codes on customer cards
+## How to enter customer price group codes on customer cards  
 
 After you have set up the customer price groups, you can enter the customer price group codes on the customer cards.
 
-### <a name="to-enter-customer-price-group-codes-on-a-customer-card"></a>To enter customer price group codes on a customer card
+### To enter customer price group codes on a customer card  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
 
@@ -56,7 +56,7 @@ After you have set up the customer price groups, you can enter the customer pric
 3. On the **Invoicing** FastTab, in the **Customer Price Group** field, select the **Customer Price Group** code.  
 
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  

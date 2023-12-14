@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 01/11/2023
 ms.custom: bap-template
 ---
-# <a name="administration-tasks"></a>Administration Tasks
+# Administration Tasks
 
 Central administration tasks are usually performed by one role in the company. The scope of these tasks can depend on the company's size and the administrator's job responsibilities. These tasks can include managing database synchronisation of job and email queues, setting up users, and customising the user interface.  
 
@@ -43,7 +43,7 @@ The following table describes a sequence of tasks, with links to the articles th
 |Connect Dynamics 365 Sales with [!INCLUDE[prod_short](includes/prod_short.md)] to obtain seamless integration between customer relations and order processing in the lead-to-cash process.|[Integrate with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Change which fields and actions are shown in the user interface to fit your company's business processes and extend the solution with apps.|[Customise [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)|
 
-## <a name="administration-in-the-admin-center"></a>Administration in the admin centre
+## Administration in the admin centre
 
 Internal and delegated admins have access to the [!INCLUDE [prod_short](includes/prod_short.md)] admin centre where they can configure, monitor, and troubleshoot [!INCLUDE [prod_short](includes/prod_short.md)] environments. The following table describes some of the key tasks, with links to the articles that describe them.  
 
@@ -54,7 +54,7 @@ Internal and delegated admins have access to the [!INCLUDE [prod_short](includes
 |Manage user sessions, including cancelling a session if the user is blocked.|[Manage Sessions](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions)|
 |Configure the tenant to send telemetry data to Azure Application Insights for better analysis and troubleshooting.|[Enable Sending Telemetry to Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Business Functionality](across-business-functionality.md)  
 [General Business Functionality](ui-across-business-areas.md)  

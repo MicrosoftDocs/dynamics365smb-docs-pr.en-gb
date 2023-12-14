@@ -12,17 +12,17 @@ ms.date: 10/05/2023
 ms.author: altotovi
 ---
 
-# <a name="set-up-e-documents"></a>Set up e-documents
+# Set up e-documents
 
 > [!IMPORTANT]
-> The E-Documents core module is a framework. By default, there's no **Document Format** or **Service Integration** field. These details are part of localisation apps, because they're both specific to local requirements.
+> The E-Documents core module is a framework. By default, there's no **Service Integration** field. If you find the **Document Format** options by default, be aware that they're offered as an example, and that localisation must provide a detailed format. These details are part of localisation apps, because they're specific to local requirements.
 
 > [!NOTE]
-> As of version 23.1, a standard PEPPOL document format is added as a global format in the **Document Format** field.
+> As of version 23.2, a standard PEPPOL document format is added as a global format in the **Document Format** field. Keep in mind that you probably can't use this format as is. It's a W1 format that's provided to show how to use this feature. We recommend that you test the existing PEPPOL format before you start to use this format.
 
 The first step in the configuration of electronic documents (e-documents) is to set up the E-Documents Service where you configure the complete behaviour of your system as it's related to e-document communication.
 
-## <a name="set-up-the-e-document-service"></a>Set up the E-Document Service
+## Set up the E-Document Service
 
 Follow these steps to set up the E-Document Service.
 
@@ -33,11 +33,11 @@ Follow these steps to set up the E-Document Service.
     |-------|-------------|
     | Code | Select the electronic export setup code. |
     | Description | Enter a brief description of the electronic export setup. |
-    | Document Format | <p>The export format of the electronic export setup.</p><p>By default, there are no options in this field in Wave 1.</p> |
+    | Document Format | <p>The export format of the electronic export setup.</p><p>By default, there are two options in this field. You can select **PEPPOL BIS 3** as a generic code-based format or **Data Exchange** when you must set up pre-documents of specific formats on the **Data Exchange Definition** FastTab.</p> |
     | Service Integration | Select the integration code for the electronic export setup. In Wave 1, the only option is **No integration**. |
     | Use Batch Processing | Specify whether the service uses batch processing for export. |
 
-4. On the **Imported Parameters** FastTab, configure the fields as described in the following table.
+3. On the **Imported Parameters** FastTab, configure the fields as described in the following table.
 
     | Field | Description |
     |-------|-------------|
@@ -57,11 +57,22 @@ Follow these steps to set up the E-Document Service.
     | Batch Start Time | Specify the start time for import jobs. |
     | Minutes between runs | Specify the number of minutes between import job runs. |
 
-If you've configured the **Data Exchange Definition** format in your localisation, you can add a line for every document type that you need. However, you must first select the **Document Type** option for each line that you need. For each data type, select the **Import Data Exchange Def. Code** or **Export Data Exchange Def. Code** value that you want to use.
+4. If you selected **Data Exchange** in the **Document Format** field on the **General** FastTab, use the **Data Exchange Definition** FastTab to set the following fields.
 
-Eventually, if you don't use the **Data Exchange Definition** format, you can configure formats through the **Export Mapping** and **Import Mapping** lines, where you can locate the tables and fields to use and configure transformation rules if applicable.
+    | Field | Description |
+    |-------|-------------|
+    | Document Type | Specify the document type that uses data exchange to import and export the data. Examples include **Sales Invoice**, **Sales Credit memo**, and **Purchase Invoice**. |
+    | Import Data Exchange Def. Code | Specify the data exchange code that's used to import the data. Use this field only to receive a document in the purchase process. |
+    | Export Data Exchange Def. Code | Specify the data exchange code that's used to export the data. Use this field only to deliver documents in the sales process. |
 
-## <a name="set-up-a-document-sending-profile"></a>Set up a document sending profile
+> [!NOTE]
+> There are prepared data exchange definitions for the PEPPOL format that are related to the standard sales and purchase document. However, you likely can't use these definitions as is. They're all W1 formats that are provided to show how to use this feature. We recommend that you test the existing PEPPOL format before you start to use them.
+
+If you've configured the **Data Exchange Definition** format in your localisation, you can add a line for every document type that you need. Add lines that match the default data exchange example for the W1 PEPPOL format. However, first select the **Document Type** option for each line that you need. For each data type, select the **Import Data Exchange Def. Code** or **Export Data Exchange Def. Code** value that you want to use.
+
+If you don't use the **Data Exchange Definition** format, you can create and configure formats by using the [interface](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Adjust the information on the **Export Mapping** and **Import Mapping** lines, where you can find the tables and fields to configure transformation rules. In this case, you must add a new option in the **Document Format** field that's related to your format.
+
+## Set up a document sending profile
 
 You can set up a preferred method of sending sales documents for each customer. In this way, you don't have to select a sending option every time that you select the **Post and Send** action. On the **Document Sending Profiles** page, you can set up different sending profiles and then select among them in the **Document Sending Profile** field on a customer card. You can select the **Default** checkbox to specify that a document sending profile is the default profile for all customers, except customers where the **Document Sending Profile** field is set to a different sending profile.
 
@@ -83,7 +94,7 @@ Follow these steps to set up a document sending profile.
     > [!NOTE]
     > If you select **Extended E-Document Service Flow** in the **Electronic Document** field, you must already have the workflow configured for your e-documents.
 
-## <a name="set-up-the-workflow"></a>Set up the workflow
+## Set up the workflow
 
 Follow these steps to set up the workflow that's used in e-document functionality.
 
@@ -98,7 +109,11 @@ Follow these steps to set up the workflow that's used in e-document functionalit
 > [!NOTE]
 > You can create your own workflow for e-documents without using predefined workflow templates. If you have more services, you can use different workflows.
 
-## <a name="set-up-a-retention-policy-for-e-documents"></a>Set up a retention policy for e-documents
+To use more workflows, configure them through the document sending profiles for different customers. When you set up the workflow, specify the document sending profile in the **On Condition** column on the **Workflow Steps** FastTab, because you can't have two services that use the same document sending profile in workflows.
+
+When you configure your workflow on the **Workflow** page, point to the **On Condition** field on the **Workflow Steps** FastTab. On the **Event Conditions** page, in the **Filter** field, select the document sending profile that you want to use.
+
+## Set up a retention policy for e-documents
 
 E-documents can be a subject of different local legislations that are related to the period that the e-documents are kept for. Therefore, we have added a retention policy setup for all important information that's related to e-documents. Administrators can define retention policies that specify how frequently Dynamics 365 Business Central deletes outdated records that are related to e-documents. To learn more about retention policies, see [Define Retention Policies](admin-data-retention-policies.md).
 
@@ -112,7 +127,7 @@ To set up e-document-related retention policies, follow these steps.
     - E-Document Mapping Log
     - E-Document Data Storage
 
-## <a name="see-also"></a>See also
+## See also 
 
 [How to use e-documents in Business Central](finance-how-use-edocuments.md)  
 [How to extend e-documents in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  

@@ -9,13 +9,13 @@ ms.search.forms: '7200, 7201'
 ms.date: 09/28/2023
 ms.author: bholtorf
 ---
-# <a name="connect-to-microsoft-dataverse"></a>Connect to Microsoft Dataverse
+# Connect to Microsoft Dataverse
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 This article describes how to set up a connection between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Typically, businesses create the connection to integrate and synchronise data with another Dynamics 365 business app, such as [!INCLUDE[crm_md](includes/crm_md.md)].  
 
-## <a name="before-you-start"></a>Before you start
+## Before you start
 
 There are a few pieces of information to have ready before you create the connection:  
 
@@ -31,7 +31,7 @@ There are a few pieces of information to have ready before you create the connec
 > These steps describe the procedure for [!INCLUDE[prod_short](includes/prod_short.md)] online.
 > If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises and are not using a Microsoft Entra account to connect to [!INCLUDE [cds_long_md](includes/cds_long_md.md)], you must also specify a user name and password of a user account for the integration. This account is referred to as the "integration user" account. If you're using a Microsoft Entra account, the integration user account is not required or displayed. The integration user will be set up automatically and does not require a licence.
 
-## <a name="allow-for-different-currencies"></a>Allow for different currencies
+## Allow for different currencies
 
 [!INCLUDE [prod_short](includes/prod_short.md)] companies can connect to a [!INCLUDE [cds_long_md](includes/cds_long_md.md)] environment that has a base currency that's different than their local currency.
 
@@ -54,7 +54,7 @@ Because currency synchronisation is unidirectional, from [!INCLUDE [prod_short](
 * If in the [!INCLUDE [cds_long_md](includes/cds_long_md.md)] base currency, amounts convert to the [!INCLUDE [prod_short](includes/prod_short.md)] local currency based on the latest exchange rate synchronised from [!INCLUDE [prod_short](includes/prod_short.md)].
 * If in the [!INCLUDE [prod_short](includes/prod_short.md)] local currency, amounts synchronise with the [!INCLUDE [prod_short](includes/prod_short.md)] local currency in one of the additional, non-base currencies in [!INCLUDE [cds_long_md](includes/cds_long_md.md)].
 
-## <a name="set-up-a-connection-to-"></a>Set up a connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
+## Set up a connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 For all authentication types other than Microsoft 365 authentication, you set up your connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] on the **Dataverse Connection Setup** page. For Microsoft 365 authentication, we recommend that you use the **Dataverse Connection Setup** assisted setup guide. The guide makes it easier to set up the connection and specify advanced features, such as the ownership model and initial synchronisation.  
 
@@ -67,7 +67,7 @@ For all authentication types other than Microsoft 365 authentication, you set up
 >
 > By giving consent on behalf of organisation, the administrator is entitling the registered Azure application called [!INCLUDE[prod_short](includes/prod_short.md)] Integration to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] to synchronise data using automatically created [!INCLUDE[prod_short](includes/prod_short.md)] Integration application user's credentials.
 
-### <a name="to-use-the-dataverse-connection-setup-assisted-setup-guide"></a>To use the Dataverse Connection Setup assisted setup guide
+### To use the Dataverse Connection Setup assisted setup guide
 
 The Dataverse Connection Setup guide can make it easier to connect the applications, and can even help you run an initial synchronisation. If you choose to run initial synchronisation, [!INCLUDE[prod_short](includes/prod_short.md)] will review the data in both applications and provide recommendations for how to approach initial synchronisation. The following table describes the recommendations.
 
@@ -87,7 +87,7 @@ The Dataverse Connection Setup guide can make it easier to connect the applicati
 > [!NOTE]
 > If you aren't prompted to sign in with your administrator account, it's probably because pop-ups are blocked. To sign in, allow pop-ups from `https://login.microsoftonline.com`.
 
-### <a name="to-create-or-maintain-the-connection-manually"></a>To create or maintain the connection manually
+### To create or maintain the connection manually
 
 The following procedure describes how to set up the connection manually on the **Dataverse Connection Setup** page. The **Dataverse Connection Setup** page is where you manage integration settings.
 
@@ -115,7 +115,7 @@ The following procedure describes how to set up the connection manually on the *
 5. If [!INCLUDE[cds_long_md](includes/cds_long_md.md)] synchronisation is not already set up, you will be asked whether you want to use the default synchronisation setup. Depending on whether you want to keep records aligned in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] and [!INCLUDE[prod_short](includes/prod_short.md)], choose **Yes** or **No**.
 
 <!--
-## <a name="show-me-the-process"></a>Show Me the Process
+## Show Me the Process
 
 The following video shows the steps to connect [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. <br>
   
@@ -123,7 +123,7 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 -->
 
-## <a name="customize-the-match-based-coupling"></a>Customise the match-based coupling
+## Customise the match-based coupling
 
 Starting in 2021 release wave 2, an administrator can enter criteria to couple records based on matches. You can start the algorithm for matching records from the following places in [!INCLUDE [prod_short](includes/prod_short.md)]:
 
@@ -155,7 +155,7 @@ In all three cases, the **Select Coupling Criteria** page opens so that you can 
 
 * Specify whether to create a new entity instance in [!INCLUDE [cds_long_md](includes/cds_long_md.md)] in case no unique uncoupled match can be found by using the match criteria. To activate this capability, choose the **Create New if Unable to Find a Match** action.  
 
-### <a name="view-the-results-of-the-coupling-job"></a>View the results of the coupling job
+### View the results of the coupling job
 
 To view the results of the coupling job, open the **Integration Table Mappings** page, select the relevant mapping, choose the **Coupling** action, and then choose the **Integration Coupling Job Log** action.  
 
@@ -182,7 +182,7 @@ Typically, coupling fails for the following reasons:
 > [!TIP]
 > To help you get an overview over the progress of the coupling, the **Coupled to Dataverse** field shows whether a record is coupled to a [!INCLUDE [cds_long_md](includes/cds_long_md.md)] entity. You can use the **Coupled to Dataverse** field to filter the list of records you're synchronising.
 
-## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Upgrade connections from Business Central online to use certificate-based authentication
+## Upgrade connections from Business Central online to use certificate-based authentication
 
 > [!NOTE]
 > This section is relevant only for [!INCLUDE[prod_short](includes/prod_short.md)] online tenants that are hosted by Microsoft. Online tenants hosted by ISVs, and on-premises installations, are not affected.
@@ -191,7 +191,7 @@ In April 2022, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] is deprecating t
 
 To avoid disrupting integrations, _you must upgrade_ the connection to use certificate-based authentication. Although the change is scheduled for March 2022, we strongly recommend that you upgrade as soon as possible. The following steps describe how to upgrade to certificate-based authentication. 
 
-### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>To upgrade your Business Central online connection to use certificate-based authentication
+### To upgrade your Business Central online connection to use certificate-based authentication
 
 1. Depending on whether you integrate with Dynamics 365 Sales, do one of the following:
    * If you do, open the **Microsoft Dynamics 365 Connection Setup** page.
@@ -202,13 +202,13 @@ To avoid disrupting integrations, _you must upgrade_ the connection to use certi
 > [!NOTE]
 > You must repeat these steps in each [!INCLUDE[prod_short](includes/prod_short.md)] environment, including both production and sandbox environments, and in each company where you have a connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
-## <a name="connecting-on-premises-versions"></a>Connecting on-premises versions
+## Connecting on-premises versions
 
 To connect [!INCLUDE[prod_short](includes/prod_short.md)] on-premises to [!INCLUDE[cds_long_md](includes/cds_long_md.md)], you must specify some information on the **Dataverse Connection Setup** page.
 
 To connect using a Microsoft Entra account, you must register an application in Microsoft Entra ID. You'll have to provide the application ID, key vault secret, and the redirect URL to use. The redirect URL is pre-populated and should work for most installations. You must set up your installation to use HTTPS. For more information, see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). If you're setting up your server to have a different home page, you can change the URL. The client secret will be saved as an encrypted string in your database. 
 
-### <a name="to-register-an-application-in-microsoft-entra-id-for-connecting-from-business-central-to-dataverse"></a>To register an application in Microsoft Entra ID for connecting from Business Central to Dataverse
+### To register an application in Microsoft Entra ID for connecting from Business Central to Dataverse
 
 The following steps assume that you use Microsoft Entra ID to manage identities and access. For more information about registering an application in Microsoft Entra ID, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app). 
 
@@ -231,12 +231,12 @@ The following steps assume that you use Microsoft Entra ID to manage identities 
    > [!NOTE]
    > If you aren't prompted to sign in with your administrator account, it is probably because pop ups are blocked. To sign in, allow pop-ups from `https://login.microsoftonline.com`.
 
-### <a name="to-disconnect-from-"></a>To disconnect from [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
+### To disconnect from [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Dataverse Connection Setup**, and then choose the related link.
 2. On the **Dataverse Connection Setup** page, turn off the **Enabled** toggle.  
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [View the Status of a Synchronisation](admin-how-to-view-synchronization-status.md)  
 

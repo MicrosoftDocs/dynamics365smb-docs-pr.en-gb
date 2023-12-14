@@ -8,11 +8,11 @@ ms.topic: conceptual
 ms.date: 08/18/2023
 ms.custom: bap-template
 ---
-# <a name="united-kingdom-local-functionality-in-the-british-version"></a>United Kingdom Local Functionality in the British Version
+# United Kingdom Local Functionality in the British Version
 
 The following topics describe local functionality that is unique to the United Kingdom version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## <a name="feature-availability"></a>Feature Availability
+## Feature Availability
 
 * VAT & Tax
     * [Making Tax Digital - VAT Returns submission](making-tax-digital-submit-vat-return.md) **Available Now**
@@ -35,13 +35,13 @@ The following topics describe local functionality that is unique to the United K
     * [The GetAddress.io UK Postcodes Extension](ui-extensions-getaddressio.md) **Available Now**
     * [Set Up the GetAddress.io UK Postcodes Extension](uk-setup-postal-code-service.md) **Available Now**
 
-## <a name="future-legislation-requirements-being-investigated"></a>Future legislation requirements being investigated
+## Future legislation requirements being investigated
 
 * Functionality to resubmit a VAT Return **2024 Wave 1**
 
 If you are aware of any upcoming regulatory features, please submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Use Business Central after the United Kingdom Has Left the European Union](united-kingdom-leaving-eu.md)  
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
