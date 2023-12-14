@@ -10,11 +10,11 @@ ms.custom: bap-template
 ms.search.form: '30118, 30119, 30120, 30101, 30102'
 ---
 
-# Troubleshooting the Shopify and Business Central Synchronisation
+# <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Troubleshooting the Shopify and Business Central Synchronisation
 
 You might run into situations where you need to troubleshoot issues when synchronising data between Shopify and [!INCLUDE[prod_short](../includes/prod_short.md)]. This page defines troubleshooting steps for some typical scenarios.
 
-## Run tasks in the foreground
+## <a name="run-tasks-in-the-foreground"></a>Run tasks in the foreground
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
 2. Select the shop for which you want to troubleshoot to open the **Shopify Shop Card** page.
@@ -22,7 +22,7 @@ You might run into situations where you need to troubleshoot issues when synchro
 
 Now, when the sync action is triggered the task runs in the foreground. If an error occurs, you get an error dialogue with a **Copy details** link. Use the link to copy information to a text editor for further analysis.
 
-## Logs
+## <a name="logs"></a>Logs
 
 The logging features can make it easier to identify why an error occurred. On the **Shopify Shop Card** page, in the **Logging Mode** field, you can specify the level of detail you want to capture about errors. The field provides the following options:
 
@@ -30,7 +30,7 @@ The logging features can make it easier to identify why an error occurred. On th
 - **Error Only** - Log only the error message, without the request/response pairs. This setting is the default for new shops.
 - **All** - Log the request/response pairs for all transactions, including those that were successful. Logging all errors continuously can slow down [!INCLUDE [prod_short](../includes/prod_short.md)]. Use this mode when the data exchange doesn't result in error, but you want to get more insights about the data that was actaully sent and received. Note that some data is always logged, regardless of whether logging is turned on. For more information, see [Data capture](#data-capture).
 
-### To review logs
+### <a name="to-review-logs"></a>To review logs
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Log Entries**, and choose the related link.
 2. Select the related log entry, and then open the **Shopify Log Entry** page.
@@ -41,13 +41,13 @@ The logging features can make it easier to identify why an error occurred. On th
 
 You can download the request and response values as files in a text format.
 
-### Manage log entry data
+### <a name="manage-log-entry-data"></a>Manage log entry data
 
 To help keep the size of your database under control, log entries are included in a data retention policy named **Shpfy Log Entry**. Retention policies let you specify how long you want to store different types of data. By default, Shopify log entries are kept for one month. To learn more about retention policies, go to [Define Retention Policies](../admin-data-retention-policies.md).
 
 Also, on the **Shopify Log Entries** page, you can delete all log entries, or just the entries that are older than seven days.
 
-## Data capture
+## <a name="data-capture"></a>Data capture
 
 Regardless of whether logging is turned on, some Shopify responses are always logged. You can inspect or download the logs from the **Data Capture List** page.
 
@@ -66,13 +66,13 @@ Choose the **Retrieved Shopify Data** action on one of the following pages:
 - **Shopify payment transactions**
 - **Shopify transactions**
 
-## Reset sync
+## <a name="reset-sync"></a>Reset sync
 
 For optimal performance, the connector imports only customers, products, and orders that were created or changed after the last synchronisation. On the **Shopify Shop Card** page, there are functions that change the date/time of the last synchronisation, or completely reset it. This function ensures that all data synchronises, rather than just the changes since the last sync.
 
 This function only applies to syncs from Shopify to [!INCLUDE[prod_short](../includes/prod_short.md)]. It can be useful if you need to restore deleted data such as products, customers, or deleted orders.
 
-## Request the access token
+## <a name="request-the-access-token"></a>Request the access token
 
 If [!INCLUDE[prod_short](../includes/prod_short.md)] won't connect to your Shopify account, try to request the access token from Shopify. You might need to request a new token if there were changes to the security keys or required permissions (application scopes).
 
@@ -83,7 +83,7 @@ If [!INCLUDE[prod_short](../includes/prod_short.md)] won't connect to your Shopi
 
 The **Has AccessKey** toggle is turned on.
 
-## Verify and enable permissions to make HTTP requests in a non-production environment
+## <a name="verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment"></a>Verify and enable permissions to make HTTP requests in a non-production environment
 
 To work correctly, the Shopify Connector extension requires permission to make HTTP requests. HTTP requests are prohibited for all extensions when you run tests in sandbox environments.
 
@@ -92,26 +92,26 @@ To work correctly, the Shopify Connector extension requires permission to make H
 3. Choose the **Configure** action to open the **Extension Setting** page.
 4. Make sure that the **Allow HTTPClient Requests** toggle is enabled.
 
-## Rotate the Shopify access token
+## <a name="rotate-the-shopify-access-token"></a>Rotate the Shopify access token
 
 The following procedures describe how to rotate the access token used by the Shopify connector to access your Shopify online shop.
 
-### In Shopify
+### <a name="in-shopify"></a>In Shopify
 
 1. From your **Shopify Admin**, go to [Apps](https://www.shopify.com/admin/apps).
 2. Select **Delete** in the row with the **Dynamics 365 Business Central** app.
 3. Select **Delete** in the message that appears.
 
-### In [!INCLUDE[prod_short](../includes/prod_short.md)]
+### <a name="in-"></a>In [!INCLUDE[prod_short](../includes/prod_short.md)]
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify shops**, and then choose the related link.
 2. Select the shop for which you want to rotate the access token to open the **Shopify Shop Card** page.
 3. Choose the **Request Access** action.
 4. If prompted, sign in to your Shopify account, review privacy and permissions, and then choose the **Install App** button.
 
-## Known issues
+## <a name="known-issues"></a>Known issues
 
-### Error: The Sales Header does not exist. Identification fields and values: Document Type='Quote',No.='YOUR SHOPIFY STORE'
+### <a name="error-the-sales-header-does-not-exist-identification-fields-and-values-document-typequotenoyour-shopify-store"></a>Error: The Sales Header does not exist. Identification fields and values: Document Type='Quote',No.='YOUR SHOPIFY STORE'
 
 To calculate prices, the Shopify Connector creates a temporary sales document (quote) for a temporary customer (Shop Code) and uses the standard price calculation logic. If a third-party extension subscribes to events on a temporary sales document, the header might not be available. We recommend that you contact the extension provider. Ask them to modify their code to check for temporary records. In some cases, they just need to add the `IsTemporary` method ìn the right place. To learn more about `IsTemporary`, go to [IsTemporary](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-istemporary-method). 
 
@@ -133,30 +133,30 @@ AL call stack:
 
 Remember to the share AL call stack information with the supplier of the extension.
 
-### Error: Gen. Bus. Posting Group must have a value in Customer: 'YOUR SHOPIFY STORE'. It cannot be zero or empty
+### <a name="error-gen-bus-posting-group-must-have-a-value-in-customer-your-shopify-store-it-cannot-be-zero-or-empty"></a>Error: Gen. Bus. Posting Group must have a value in Customer: 'YOUR SHOPIFY STORE'. It cannot be zero or empty
 
 On the **Shopify Shop Card** page, in the **Customer Template Code** field, choose the template that has **Gen. Bus. Posting Group** populated. The customer template is used to create customers and to calculate sales prices on sales documents.
 
-### Error: Importing data to your Shopify shop isn't enabled. Go to the shop card to enable it
+### <a name="error-importing-data-to-your-shopify-shop-isnt-enabled-go-to-the-shop-card-to-enable-it"></a>Error: Importing data to your Shopify shop isn't enabled. Go to the shop card to enable it
 
 On the **Shopify Shop Card** page, turn on the **Allow Data Sync to Shopify** toggle. This setting helps protect the online shop from getting demo data from [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-### Error: Oauth error invalid_request: Could not find Shopify API application with api_key
+### <a name="error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key"></a>Error: Oauth error invalid_request: Could not find Shopify API application with api_key
 
 It seems you use the [Embed App](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), where the client URL has the format: `https://[application name].bc.dynamics.com`. The Shopify connector doesn't work for Embed Apps. To learn more, go to [Which Microsoft products are the Shopify connector available for?](shopify-faq.md#which-microsoft-products-are-the-shopify-connector-available-for).
 
-### Error: Internal Error. Looks like Something Went Wrong on Our End. Request ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX
+### <a name="error-internal-error-looks-like-something-went-wrong-on-our-end-request-id-xxxxxxxx-xxxx-xxxx-xxxx-xxxx"></a>Error: Internal Error. Looks like Something Went Wrong on Our End. Request ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX
 
 Contact Shopify support within seven days of experiencing this error, and provide the Request ID. To learn more, go to [Support options for Shopify](shopify-faq.md#shopify).
 
-### Error: Oauth error invalid_request: Your account does not have permission to grant the requested access for this app. 
+### <a name="error-oauth-error-invalid_request-your-account-does-not-have-permission-to-grant-the-requested-access-for-this-app"></a>Error: Oauth error invalid_request: Your account does not have permission to grant the requested access for this app.
 
 It seems that user which requests access doesn’t have rights to manage apps (ability to manage and install apps and channels, as well as potentially approve app charges). You may be able to resolve this issue by installing the app as the account owner. Alternatively you can check the **App permission** for the user in the [**User and permissions**](https://www.shopify.com/admin/settings/account) settings in your **Shopify admin**.  
 
-### [{"message":"Access denied for FIELD field.","locations":[{"line":0,"column":0}],"path":["path"],"extensions":{"code":"ACCESS_DENIED","documentation":https://shopify.dev/api/usage/access-scopes}}]
+### <a name="messageaccess-denied-for-field-fieldlocationsline0column0pathpathextensionscodeaccess_denieddocumentationhttpsshopifydevapiusageaccess-scopes"></a>[{"message":"Access denied for FIELD field.","locations":[{"line":0,"column":0}],"path":["path"],"extensions":{"code":"ACCESS_DENIED","documentation":https://shopify.dev/api/usage/access-scopes}}]
 
 Request a new token because the updated version of the connector requires more permissions (application scopes). To learn more, go to [Request access token](#request-the-access-token).
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Get Started with the Connector for Shopify](get-started.md)

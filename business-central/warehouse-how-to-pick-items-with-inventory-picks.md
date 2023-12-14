@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.forms: '931, 7377'
 ---
-# Pick Items with Inventory Picks
+# <a name="pick-items-with-inventory-picks"></a>Pick Items with Inventory Picks
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], you pick and ship items using one of four methods, as described in the following table.
 
@@ -42,29 +42,29 @@ You can create an inventory pick in in three ways:
 
 The inventory pick can then be created from the **Inventory Pick** page based on the source document.  
 
-## To create a inventory pick from the source document
+## <a name="to-create-an-inventory-pick-from-the-source-document"></a>To create a inventory pick from the source document
 
 1. In the source document, which can be a sales order, purchase return order, or outbound transfer order, choose the **Create Inventory Put-away/Pick** action.
 2. Select the **Create Invt. Pick** checkbox.  
 3. Choose the **OK** button. A new inventory pick will be created.
 
-## To create multiple inventory picks with a batch job
+## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>To create multiple inventory picks with a batch job
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Inventory Put-away/Pick/Movement**, and then choose the related link.  
 2. On the **Warehouse Request** FastTab, use the **Source Document** and **Source No.** fields to filter on certain types of documents or ranges of document numbers. For example, you can create picks only for sales orders.  
 3. On the **Options** FastTab, select the **Create Invt. Pick** checkbox.
 4. Choose the **OK** button.
 
-## To create the pick in two steps
+## <a name="to-create-the-pick-in-two-steps"></a>To create the pick in two steps
 
-### To request a inventory pick by releasing the source document
+### <a name="to-request-an-inventory-pick-by-releasing-the-source-document"></a>To request a inventory pick by releasing the source document
 
 For sales orders, purchase return orders, and outbound transfer orders, you create the warehouse request by releasing the order. Releasing the order makes the items available for picking.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
 2. Select the sales order that you want to release, and then choose the **Release** action.
 
-### To create a inventory pick based on the source document
+### <a name="to-create-an-inventory-pick-based-on-the-source-document"></a>To create a inventory pick based on the source document
 
 After you release an order, the warehouse employee can create an inventory pick.
 
@@ -75,7 +75,7 @@ After you release an order, the warehouse employee can create an inventory pick.
 5. Alternatively, choose the **Get Source Document** action to create a list of all outbound source documents that are ready for picking at the location.  
 6. Choose the **OK** button to fill the pick lines according to the selected source documents.  
 
-## To record inventory picks
+## <a name="to-record-inventory-picks"></a>To record inventory picks
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Pick**, and then choose the related link.  
 2. In the **Bin Code** field on the pick lines, the bin that the items must be picked from is suggesting per the item's default bin. You can change the bin in this page if necessary.  
@@ -90,7 +90,7 @@ After you release an order, the warehouse employee can create an inventory pick.
 
     [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## Handling assemble-to-order items with inventory picks
+## <a name="handling-assemble-to-order-items-with-inventory-picks"></a>Handling assemble-to-order items with inventory picks
 
 You can also use the **Inventory Pick** page to pick and ship for sales where items must be assembled before they can be shipped. Learn more at [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).
 
@@ -120,7 +120,7 @@ In scenarios where a part of the quantity is assembled and another must be picke
 > [!NOTE]  
 > If items are assembled to order, the inventory pick for the linked sales order till create an inventory movement for all of the assembly components.  
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

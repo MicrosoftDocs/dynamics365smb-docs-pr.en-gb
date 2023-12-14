@@ -12,7 +12,7 @@ ms.search.forms: '5132, 5101, 5103, 5102, 5146, 5199, 5197, 5198, 5137, 5086, 50
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# Managing Sales Opportunities
+# <a name="managing-sales-opportunities"></a>Managing Sales Opportunities
 Any incoming lead can be considered a sales opportunity. You can create opportunities and associate them to a salesperson so that you can keep track of potential sales.
 
 Before you can start using opportunity management, you must set up sales cycles and sales cycle stages. As you create opportunities, you should provide information about the contact, salesperson, sales cycle, and dates, as well as your estimates for the sales value of the opportunity and your estimation of the chances of its success.
@@ -25,7 +25,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Create sales opportunities that you have from your contacts. |[Create Opportunities](marketing-how-create-opportunities.md) |
 | Move a sales opportunity through the sales cycle to completion. |[Process Sales Opportunities](marketing-processing-sales-opportunities.md) |
 
-## See Also
+## <a name="see-also"></a>See Also
 [Sales](sales-manage-sales.md)  
 [Creating and Managing Contacts](marketing-contacts.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
