@@ -11,7 +11,7 @@ ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 900
 ms.date: 09/14/2023
 ms.author: jswymer
 ---
-# <a name="personalize-your-workspace"></a>Personalise your workspace
+# Personalise your workspace
 
 You can personalise your workspace to suit your work and preferences. Change pages so that they display only the information you need, where you need it. Personalisation affects only your workspace. It doesn't change how others work. You can personalise all types of pages, including the [role centre](ui-change-basic-settings.md#role-center) page. 
 
@@ -23,13 +23,13 @@ You can make various changes, such as move or hide fields, columns, actions, and
 > Administrators can make the same layout changes as users by customising profile (role) that multiple users are assigned. To learn more about pages for Roles, go to [Customise Pages for Roles](ui-personalization-manage.md)<br /><br />
 Administrators can also override or disable users' personalisation, and they can define which features are even available for users to see in all or specific companies. For more information, see [Customising Business Central](ui-customizing-overview.md).
 
-## <a name="video"></a>Video
+## Video
 
 The following video shows some of the ways in which you can personalise your Role Centre.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
 
-## <a name="change-the-width-of-a-column"></a>Change the width of a column
+## Change the width of a column
 
 You can easily resize columns on any list. Just drag the boundary between two columns to the left or the right.  
 
@@ -38,7 +38,7 @@ You can easily resize columns on any list. Just drag the boundary between two co
 
 As for other personalisation, the changes you make to column width are stored on your account and follow you no matter which device you sign into.
 
-## <a name="start-personalizing-by-using-the-personalization-mode"></a>Start personalising by using the personalisation mode
+## Start personalising by using the personalisation mode
 
 1. Open any page that you want to personalise.
 1. In the upper-right corner, select the ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role centre") icon, and then choose the **Personalise** action.
@@ -56,7 +56,7 @@ As for other personalisation, the changes you make to column width are stored on
 
 For more information, see [What You Can Personalise](#What).
 
-## <a name="what-you-can-personalize"></a><a name="What"></a>What you can personalise
+## <a name="What"></a>What you can personalise
 
 |What do you want to do|How to do it|Remarks|
 |----|------------|-------|
@@ -73,7 +73,7 @@ For more information, see [What You Can Personalise](#What).
 |Add a new action to a page or report on your Role Centre.|From the target page, report request page, or Tell Me window, choose the bookmark icon.|[Learn more about bookmarking pages and reports](ui-bookmarks.md)|
 |Always start a list as expanded or collapsed|Choose the **Expand All** or **Collapse All** button in the top-left corner of the list. Alternatively, choose the **Expand All** or **Collapse All** action in the menu of the first column. |Applies to collapsible hierarchy lists|
 
-## <a name="personalize-action-bar-and-menus"></a><a name="Actions"></a>Personalise action bar and menus
+## <a name="Actions"></a>Personalise action bar and menus
 
 Personalisation lets you decide which actions to show on the navigation and action bars and on Role Centres, and where to show them. You can show, hide, or move individual actions or action groups.
 
@@ -92,7 +92,7 @@ A *promoted category* is an action group that appears before the vertical line `
 > [!NOTE]  
 > To clear personalisation, select the arrowhead around the part's designer menu, and then choose **Clear personalisation**.
 
-### <a name="remove-hide-and-show-actions-and-action-groups"></a>Remove, hide, and show actions and action groups
+### Remove, hide, and show actions and action groups
 
 When you want to show or hide an action, the options under the arrowhead define what can do depending on the action's state. 
 
@@ -105,7 +105,7 @@ When you want to show or hide an action, the options under the arrowhead define 
 |**Hide**|This option appears if the action or action group isn't located anywhere else on the navigation bar or action bar. Like **Remove**, choosing this option makes the action or action group disappear from the navigation bar or action bar. However, in personalising mode, the action or action group are still shown in the current position, except that it appears dimmed.|
 |**Show**|This option appears if the action or action group has been previously hidden (dimmed). Choosing this option makes the action or action group appear on the navigation bar or action bar.|
 
-### <a name="move-actions-and-action-groups"></a>Move actions and action groups
+### Move actions and action groups
 
 Where you can drop actions or actions groups is indicated by a horizontal line between two actions or a border around an action group. The following limitations exist:
 
@@ -115,7 +115,7 @@ Where you can drop actions or actions groups is indicated by a horizontal line b
 1. To move an action or action group, drag and drop it to the desired position, like you do with fields and columns.
 2. To move an action or action group into another action group that is empty, drag the action or action group to the new group and drop it in the **Drop an action here** box.
 
-### <a name="about-the-automate-menu"></a>About the Automate menu
+### About the Automate menu
 
 - You can't hide or move the **Automate** menu or the **Power Automate** submenu and its actions.
 - You can move flows included under the **Automate** item, but you can't hide them using personalisation. Moving the flow makes a copy the flow to the destination, it doesn't remove it from the **Automate** item.
@@ -123,7 +123,7 @@ Where you can drop actions or actions groups is indicated by a horizontal line b
 > [!TIP]
 > As an administrator, you can hide the **Automation** item from users. Learn more at [Set Up Power Automate Integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## <a name="personalize-parts"></a><a name="Parts"></a>Personalise parts
+## <a name="Parts"></a>Personalise parts
 
 Point to or select <kbd>Alt</kbd>+<kbd>Up Arrow</kbd> Parts are areas on a page that are typically composed of multiple fields, charts or other content. A part shows a coloured border when you focus on the part. For example, a Role Centre home screen has multiple parts. Because of their well-defined boundary, you can personalise the entire part and its contents.
 
@@ -133,7 +133,7 @@ Point to or select <kbd>Alt</kbd>+<kbd>Up Arrow</kbd> Parts are areas on a page 
 
 You can clear all personalisation changes that you have made within a single part by choosing the **Clear personalisation** option under the part's arrowhead. Clearing personalisation of a part only affects changes to the contents of the part, not the placement or visibility of the part on the page.  
 
-## <a name="work-with-fields-and-columns"></a><a name="fields"></a>Work with fields and columns
+## <a name="fields"></a> Work with fields and columns
 
 When personalising a page, you use **Add field to page** pane to show fields that are currently hidden on the page. You open this pane by selecting the **+ Field** action near the top of the page. Unlike other elements, hidden fields aren't indicated on the page itself in personalisation mode. However, you can identify hidden fields by using the **Add field to page** pane.
 
@@ -149,14 +149,14 @@ To make working with fields easier, here are some general guidelines to follow w
 - Some pages have multiple page fields that map to the same source table. The pane will show both/all of those page fields independently. Showing/Hiding/moving those fields is also independent without one affecting the other.
 
 
-### <a name="make-a-hidden-field-visible"></a>Make a hidden field visible
+### Make a hidden field visible
 
 There are two ways to show a field that's currently hidden on the page:
 
 - Drag the field to the desired position. A thick horizontal or vertical line indicates the target location.
 - Select the field in the list, then go to the shaded field on the page and select the **Show** option.
 
-## <a name="clear-personalization"></a>Clear personalisation
+## Clear personalisation
 
 At some point, you might want to undo some or all of the personalisation changes that you have made to a page over time.
 
@@ -173,7 +173,7 @@ At some point, you might want to undo some or all of the personalisation changes
 |**Only Fields and Columns**|Clears any personalisation changes that you have ever made to the page except changes on the navigation or action bar. Such changes include changes to fields, columns, parts, and tiles. |
 |**All**|Clears all personalisation changes that you have made to the page so it looks like it did originally. Such changes include changes to navigation and action bars, fields, columns, parts, and tiles.|
 
-## <a name="tips-and-other-points-of-interest"></a>Tips and other points of interest
+## Tips and other points of interest
 
 To help you better understand personalisation, here are some pointers.
 
@@ -184,9 +184,9 @@ To help you better understand personalisation, here are some pointers.
 - Some pages have multiple page fields that map to the same source table. The pane will show both/all of those page fields independently. Showing/Hiding/moving those fields is also independent without one affecting the other.
 - If a part or group is hidden, ghosted fields will still show inside it, but you cannot drag-drop or add/show that field until you make the group/part visible.
 
-## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## See related [Microsoft training](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>See Also
+## See Also
 [Customise Pages for Profiles](ui-personalization-manage.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
