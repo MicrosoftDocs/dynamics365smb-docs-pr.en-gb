@@ -9,7 +9,7 @@ ms.search.forms: '6503, 6515, 6513, 6512, 6502, 6506, 6501, 6510, 6507, 6500, 65
 ms.date: 12/19/2023
 ms.custom: bap-template
 ---
-# Track Items with Serial, Lot, and Package Numbers
+# <a name="track-items-with-serial-lot-and-package-numbers"></a>Track Items with Serial, Lot, and Package Numbers
 
 You can assign serial numbers, lot numbers, and package numbers to any outbound or inbound document, and its posted item tracking entries display on the related item ledger entries. You track items on the **Item Tracking Lines** page, which you can open from inbound or outbound documents.
 
@@ -20,7 +20,7 @@ The quantity fields at the top of the **Item Tracking Lines** page display the q
 > [!NOTE]  
 > In order for the features described in this article to work, you must set up item tracking. To learn more, go to [Set Up Item Tracking with Serial, Lot, and Package Numbers](inventory-how-setup-item-tracking.md).
 
-## Item tracking availability
+## <a name="item-tracking-availability"></a>Item tracking availability
 
 When you work with serial, lot, and package numbers, [!INCLUDE[prod_short](includes/prod_short.md)] calculates availability information and shows it on various item tracking pages. It shows how much of a lot, package, or serial number is used on other documents. This information helps reduce errors and uncertainty caused by double allocations.
 
@@ -41,7 +41,7 @@ The **Lot No./Serial No.-List**, **Lot No./Serial No.-Availability**, and the **
 
 If you work on the **Item Tracking Lines** page for a long time, or if there's a lot of activity with the item you're working with, you can choose the **Refresh Availability** action. Also, the availability of the item is automatically rechecked when you close the page to confirm that there aren't availability problems.
 
-## To assign serial or lot numbers during an inbound transaction
+## <a name="to-assign-serial-or-lot-numbers-during-an-inbound-transaction"></a>To assign serial or lot numbers during an inbound transaction
 
 You might want to track items from the moment they arrive. In that case, the purchase order is often the central document. However, you can do item tracking from any inbound document and its posted entries display in the related item ledger entries.
 
@@ -72,7 +72,7 @@ The quantity fields in the header dynamically display the quantities and sums of
 
 When you post the document, the item tracking entries transfer to the item ledger entries.
 
-### To handle serial and lot numbers when getting receipt lines from a purchase invoice
+### <a name="to-handle-serial-and-lot-numbers-when-getting-receipt-lines-from-a-purchase-invoice"></a>To handle serial and lot numbers when getting receipt lines from a purchase invoice
 
 When you get posted receipt or shipment lines from related invoices or credit memos, item tracking lines on the warehouse documents transfer automatically. However, they're processed in a special way.
 
@@ -100,14 +100,14 @@ In these cases, the item tracking lines transfer to the invoice or credit memo, 
 
 You can't change the **Serial No.** and **Lot No.** fields. However, you can delete complete lines or change the quantities to match changes on the source line.  
 
-## To assign a serial or lot number during an outbound transaction
+## <a name="to-assign-a-serial-or-lot-number-during-an-outbound-transaction"></a>To assign a serial or lot number during an outbound transaction
 
 Outbound handling of serial or lot numbers is a frequent task in different warehouse processes. There are two ways to add serial and lot numbers to outbound transactions:  
 
 - Select from existing serial or lot numbers. This applies when item tracking numbers are already assigned in an inbound transaction.
 - Assign new serial or lot numbers for outbound transactions. This applies when item tracking numbers aren't assigned to items until they're sold and ready to ship.
 
-### To select from existing serial or lot numbers  
+### <a name="to-select-from-existing-serial-or-lot-numbers"></a>To select from existing serial or lot numbers
 
 When you work with items that require item tracking, and you're creating outbound transactions, you'll typically need to select lot or serial numbers that already exist.
 
@@ -126,7 +126,7 @@ The quantity fields in the header dynamically display the quantities and sums of
 
 When you post the document line, the item tracking information transfers to the associated item ledger entries.
 
-### To assign new serial or lot numbers  
+### <a name="to-assign-new-serial-or-lot-numbers"></a>To assign new serial or lot numbers
 
 This process applies when items don't have serial or lot numbers while they're in inventory. Instead, you assign item tracking numbers when the items are sold and ready to be shipped. In this case, you'll typically assign numbers from a predefined number series.
 
@@ -147,11 +147,11 @@ The quantity fields at the top dynamically display the quantities and sums of th
 
 When the document is posted, the item tracking entries transfer to the item ledger entries.
 
-### Assign tracking numbers on source documents
+### <a name="assign-tracking-numbers-on-source-documents"></a>Assign tracking numbers on source documents
 
 Some companies define specific serial or lot numbers on source document, such as sales orders. For example, if a customer requests a specific lot. When you create the inventory pick or warehouse pick document from an outbound source document where serial or lot numbers are already defined, you can't change any fields on the **Item Tracking Lines** page under the inventory pick. The one exception is the **Qty. to Handle** field. In that case, the inventory pick lines specify the item tracking numbers on individual take and place lines. The quantity is already split into unique serial or lot number combinations because the sales order specifies the item tracking numbers to ship.
 
-## To handle serial and lot numbers on transfer orders
+## <a name="to-handle-serial-and-lot-numbers-on-transfer-orders"></a>To handle serial and lot numbers on transfer orders
 
 Procedures for handling serial and lot numbers that are being transferred between different locations are similar to those applied when items are sold and purchased.  
 
@@ -167,7 +167,7 @@ However, transfer orders are unique in that shipment and receipt are both done f
 
 During the transfer, you can't change values on the **Item Tracking Lines** page.  
 
-## To record additional serial or lot number information
+## <a name="to-record-additional-serial-or-lot-number-information"></a>To record additional serial or lot number information
 
 If you need to link special information to an item tracking number, for example, for quality assurance, you can do so on a serial or lot number information card.
 
@@ -185,7 +185,7 @@ Alternatively, you can create an information card when you post journals or docu
 
 You can modify created serial or lot information cards later.
 
-## To modify existing serial or lot number information
+## <a name="to-modify-existing-serial-or-lot-number-information"></a>To modify existing serial or lot number information
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2. Select an item that has an item tracking code and has serial or lot number information.
@@ -196,7 +196,7 @@ You can modify created serial or lot information cards later.
 
 You can't change the serial or lot numbers or quantities. To do that, you must reclassify the item ledger entry. To learn more about reclassification, go to [To reclassify lot or serial numbers](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
 
-## To reclassify serial or lot numbers
+## <a name="to-reclassify-serial-or-lot-numbers"></a>To reclassify serial or lot numbers
 
 Reclassifying item tracking for an item means changing a lot or serial number to a new lot or serial number, or changing the expiration date to a new expiration date. If you use lots, you can also merge multiple lots into one. Use an item reclassification journal to do these tasks.
 
@@ -226,7 +226,7 @@ Reclassifying item tracking for an item means changing a lot or serial number to
 8. If you want to modify the existing information for the lot or serial number, you can record lot or serial information.  
 9. Post the journal to link the renewed item tracking numbers or expiration dates to the associated item ledger entry
 
-## Scan barcodes with the Business Central mobile app
+## <a name="scan-barcodes-with-the-business-central-mobile-app"></a>Scan barcodes with the Business Central mobile app
 
 [!INCLUDE [barcode-mobile-app](includes/barcode-mobile-app.md)]
 
@@ -243,7 +243,7 @@ The following tables list the pages that support barcode scanning for item track
 |Warehouse Activity Line     |* Serial No.<br><br>* Lot No.<br><br>* Package No.<br><br>**Note**: The following pages use the Warehouse Activity Line page:<br><br>* page 5780 "Whse. Pick Subform"<br><br>* page 7378 "Invt. Pick Subform"<br><br>* page 5771 "Whse. Putaway Subform"<br><br>* page 7316 "Warehouse Movement Subform"<br><br>* page 7376 "Invt. Putaway Subform"<br><br>* page 7383 "Invt. Movement Subform"        |
 |Whse. Phys. Invt. Journal     |* Serial No.<br><br>* Lot No.<br><br>* Package No.         |
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Set Up Item Tracking with Serial, Lot, and Package Numbers](inventory-how-setup-item-tracking.md)  
 [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)  
