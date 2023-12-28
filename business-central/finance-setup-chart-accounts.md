@@ -10,14 +10,14 @@ ms.search.form: '16, 17, 18, 118, 386, 391'
 ms.date: 12/19/2023
 ms.custom: bap-template
 ---
-# Set Up or Change the Chart of Accounts
+# <a name="set-up-or-change-the-chart-of-accounts"></a>Set Up or Change the Chart of Accounts
 
 The chart of accounts (COA) shows the ledger accounts that store your financial data. [!INCLUDE[prod_short](includes/prod_short.md)] includes a standard COA that is ready to support your business. You can, however, change the default accounts, and you can add new accounts.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## Add or change accounts
+## <a name="add-or-change-accounts"></a>Add or change accounts
 
 From the COA, you can open each general ledger (G/L) account and add or change settings. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
@@ -28,7 +28,7 @@ For accounts of the **Total** account type, you must fill in the **Totalling** f
 > [!IMPORTANT]
 > If you have entered definitions in the **Totalling** fields for **End-Total** accounts before executing the indent function, you must enter them again because the function overwrites the values in all **End-Total** fields.
 
-## Delete accounts
+## <a name="delete-accounts"></a>Delete accounts
 
 You can delete a general ledger account. However, before you delete it, the following must be true:  
 
@@ -42,13 +42,13 @@ You can also specify when to allow people to delete accounts. On the **General L
 
 Turning on the **Block Deletion of G/L Accounts** field is often a best practice, as is setting the date in the **Check G/L Acc. Deletion After** field, for example, to the date through which regulations require you to store finance data.  
 
-### Video guidance
+### <a name="video-guidance"></a>Video guidance
 
 This video shows how to specify whether, and when, people can delete G/L accounts.
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1g3oY]
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
