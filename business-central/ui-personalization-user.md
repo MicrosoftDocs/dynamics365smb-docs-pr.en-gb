@@ -1,5 +1,5 @@
 ---
-title: Personalising Pages (contains video)
+title: Personalising pages (contains video)
 description: Learn how to customise the user interface and personalise your workspace to suit your way of working and personal preferences in Business Central.
 author: jswymer
 ms.topic: conceptual
@@ -8,12 +8,16 @@ ms.custom: bap-template
 ms.reviewer: jswymer
 ms.search.keywords: 'customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width'
 ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
-ms.date: 09/14/2023
+ms.date: 12/05/2023
 ms.author: jswymer
 ---
 # Personalise your workspace
 
-You can personalise your workspace to suit your work and preferences. Change pages so that they display only the information you need, where you need it. Personalisation affects only your workspace. It doesn't change how others work. You can personalise all types of pages, including the [role centre](ui-change-basic-settings.md#role-center) page. 
+You can personalise your workspace to suit your work and preferences. Change pages so that they display only the information you need, where you need it. Personalisation affects only your workspace. It doesn't change how others work. You can personalise all types of pages, including the [role centre](ui-change-basic-settings.md#role-center) page.
+
+> [!NOTE]
+> Due to restrictions on design capabilities in the web client, it's currently not possible to customise or personalise the controls within the grid syntax.
+It applies to all design modes, not just personalisation.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
@@ -184,9 +188,8 @@ To help you better understand personalisation, here are some pointers.
 - Some pages have multiple page fields that map to the same source table. The pane will show both/all of those page fields independently. Showing/Hiding/moving those fields is also independent without one affecting the other.
 - If a part or group is hidden, ghosted fields will still show inside it, but you cannot drag-drop or add/show that field until you make the group/part visible.
 
-## See related [Microsoft training](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
-## See Also
+## See also 
 [Customise Pages for Profiles](ui-personalization-manage.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
