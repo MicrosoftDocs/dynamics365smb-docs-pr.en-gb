@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# <a name="send-electronic-documents"></a>Send Electronic Documents
+# Send Electronic Documents
 
 > [!NOTE]
 > The content in this article is only applicable for versions of Dynamics 365 Business Central that were released before 2023 release wave 2. In 2023 release wave 2, new functionality for E-Documents is included. To learn more, see [Set up e-documents](finance-how-setup-edocuments.md).  
@@ -21,7 +21,7 @@ The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] supports s
 
  To send a sales invoice as an electronic PEPPOL document, you select the **Electronic Document** option in the **Post and Send** dialogue box. You can also set up the customer's default document sending profile from that dialogue box. First, you must set up various master data, such as company information, customers, items, and units of measurement. These are used to identify the business partners and items when converting data in fields in [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md).  
 
-### <a name="to-send-an-electronic-sales-invoice"></a>To send an electronic sales invoice
+### To send an electronic sales invoice
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
 
@@ -46,7 +46,7 @@ The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] supports s
     > [!NOTE]  
     >  You can also send a posted sales invoice as an electronic document. The procedure is the same as described in this topic for non-posted sales documents. On the **Posted Sales Invoice** page, choose the **Activity Log** action to view the status of the electronic document.  
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Invoice Sales](sales-how-invoice-sales.md)  
 [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md)  
