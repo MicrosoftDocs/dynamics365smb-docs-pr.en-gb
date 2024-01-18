@@ -10,7 +10,7 @@ ms.search.keywords: 'marketing, relationship, prospect, contact, client, custome
 ms.date: 12/12/2023
 ms.author: jswymer
 ---
-# Recording interactions with contacts automatically
+# <a name="recording-interactions-with-contacts-automatically"></a>Recording interactions with contacts automatically
 You can set up the application to automatically record interactions for sales, purchase and service documents, cover sheets, emails, phone calls, such as:
 
 * Print sales or purchase quotes, orders, invoices, credit memos, cover sheets.
@@ -22,7 +22,7 @@ You can set up the application to automatically record interactions for sales, p
 To set up the automatic recording of these interactions, you specify interaction templates for these documents and actions by using the **Interaction Template Setup** page.  
 To open the **Interaction Template Setup** page, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Interaction Template Setup**, and then choose the related link.
 
-## See also 
+## <a name="see-also"></a>See also
 [Recording Interactions With Contacts](marketing-interactions.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

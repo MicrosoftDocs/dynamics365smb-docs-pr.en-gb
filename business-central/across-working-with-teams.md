@@ -11,14 +11,14 @@ ms.author: jswymer
 ms.custom: bap-template
 ---
 
-# Sharing Business Central records and page links in Microsoft Teams
+# <a name="sharing-business-central-records-and-page-links-in-microsoft-teams"></a>Sharing Business Central records and page links in Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 [!INCLUDE [prod_short](includes/prod_short.md)] offers a couple ways to share data from Business Central directly in a Microsoft Teams conversation:
 
 <!-- 
-## Overview
+## <a name="overview"></a>Overview
 In this article, you'll learn how to use the app to share [!INCLUDE [prod_short](includes/prod_short.md)] records, like a customer, sales order, or invoice, with coworkers in a Teams conversation.
 The [!INCLUDE [prod_short](includes/prod_short.md)] app lets you:
 [!INCLUDE [prod_short](includes/prod_short.md)] offers an app that connects Microsoft Teams to your business data in [!INCLUDE [prod_short](includes/prod_short.md)], so you can quickly share details across team members and respond faster to inquiries. In this article, you'll learn how to use the app to share [!INCLUDE [prod_short](includes/prod_short.md)] records, like a customer, sales order, or invoice, with coworkers in a Teams conversation.
@@ -36,13 +36,13 @@ The [!INCLUDE [prod_short](includes/prod_short.md)] app lets you:
 
 The following sections describe the different ways in detail.
 
-## Include and view a Business Central card in a Teams conversation
+## <a name="include-and-view-a-business-central-card-in-a-teams-conversation"></a>Include and view a Business Central card in a Teams conversation
 
 With the Business Central app for Teams, you can copy a link from any Business Central record, like a customer or sales order, and paste the link into a Teams conversation. The app connects Microsoft Teams to your business data in [!INCLUDE [prod_short](includes/prod_short.md)]\. It then expands the link into a compact, interactive card that displays information about the record. Once in the conversation, you and coworkers can view more details about the record, edit data, and take action&mdash;without leaving Teams.
 
 [![Teams integration with Business Central.](media/teams-intro-vBC20.png)](media/teams-intro-vBC20.png#lightbox)
 
-### Prerequisites
+### <a name="prerequisites"></a>Prerequisites
 
 - You have access to Microsoft Teams.
 - You've installed the [!INCLUDE [prod_short](includes/prod_short.md)] app in Teams. For more information, see [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)
@@ -50,7 +50,7 @@ With the Business Central app for Teams, you can copy a link from any Business C
 > [!NOTE]
 > All participants in a Teams conversation will be able to view cards for Business Central records that you submit to the conversation. But to view more details about records, by using the **Details** or **Pop out** buttons on a card, they'll need access to [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Managing Microsoft Teams Integration](admin-teams-integration.md#minimum-requirements-1).
 
-### Include a Business Central card in a Teams conversation
+### <a name="include-a-business-central-card-in-a-teams-conversation"></a>Include a Business Central card in a Teams conversation
 
 1. Sign in to [!INCLUDE [prod_short](includes/prod_short.md)] using your browser.
 2. Open the record that you want to share.
@@ -79,7 +79,7 @@ With the Business Central app for Teams, you can copy a link from any Business C
     > After the card appears, and before you select **Send**, you can delete the pasted URL if you like.
 9. To view more details or make changes to the record shown in the card, select **Details**. For more information, see the next section.
 
-### View card details
+### <a name="view-card-details"></a>View card details
 
 Once a card's been sent to a conversation, all participants with the [proper permissions](admin-teams-integration.md#permissions) can select **Details** to open a window that displays more information about the record&mdash;and possibly make changes to the record. It doesn't matter if you're the one sending the card or the one receiving the card. The **Details** feature is especially useful to recipients, because it quickly provides them with concise, targeted information about the record.
 
@@ -92,20 +92,20 @@ Here are a couple things to keep in mind when working with the card details:
 
 To learn more about working with cards and card details, see [Teams FAQ](teams-faq.md).
 
-## <a name="share-link"></a>Share a link to page from Business Central to Teams
+## <a name="share-a-link-to-page-from-business-central-to-teams"></a><a name="share-link"></a>Share a link to page from Business Central to Teams
 
 Directly from most collection pages, like the **Items** page, and details pages, like the **Items** card, you can send a link to the page to specific recipients in a Teams conversation. For example, you can share a link to a filtered view of your records. Recipients can then select the link to open the page in [!INCLUDE [prod_short](includes/prod_short.md)]\.
 
 [![!The Share menu displayed on a card.](media/teams-share-link-v2.png "The Share menu displayed on a card.")](media/teams-share-link-v2.png#lightbox)
 
-### Prerequisites
+### <a name="prerequisites-1"></a>Prerequisites
 
 - You have access to Microsoft Teams.
 - (Optional) You've installed the [!INCLUDE [prod_short](includes/prod_short.md)] app in Teams. 
 
   With the app installed, messages you send with the link will also include a compact card for the page. For more information about how to install the app, see [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md).
 
-### Share a link
+### <a name="share-a-link"></a>Share a link
 
 1. In [!INCLUDE [prod_short](includes/prod_short.md)]\, open the page that you want to share.
 2. At the top of the page, choose the ![!Share to other apps action on pages.](media/share-icon.png) icon, then **Share to Teams**.
@@ -116,7 +116,7 @@ Directly from most collection pages, like the **Items** page, and details pages,
    Add any more information if you like, then choose **Share**.
 6. The link has now been shared. If you want to go to the conversation, choose **Go to Teams**.
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Business Central and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)  
