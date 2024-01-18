@@ -1,24 +1,24 @@
 ---
-title: Create a Firm Planned Production Order and Change It
+title: Create a firm planned production order and change it
 description: Walkthrough for a production planner at Contoso Coffee who wants to create a firm planned production order and then modify it.
-ms.date: 04/01/2022
+ms.date: 12/12/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-create-a-firm-planned-production-order-and-change-it"></a>Walkthrough: Create a Firm Planned Production Order and Change It
+# Walkthrough: Create a firm planned production order and change it
 
 In this article, we take you through the steps to use the Contoso Coffee demo data to work with production orders.  
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Eduardo, the production planner at Contoso Coffee, must create a new production order for 10 units of the item **SP-SCM1009, Airpot** that must be due on April 28. Eduardo backward schedules this and confirms that they can start the order on April 27.  
 
 Shortly after finishing this task, Eduardo is asked to increase the order to 50 units. On doing this, the backward scheduling functionality pushes the order start date too early. So Eduardo forward schedules the order from April 23 in order to determine a more realistic finish date.  
 
-## <a name="steps"></a>Steps
+## Steps
 
 1. Create the initial production order for 10 units of the item **SP-SCM1009, Airpot**.
 
@@ -45,7 +45,7 @@ Shortly after finishing this task, Eduardo is asked to increase the order to 50 
 
 3. Choose the **Refresh Production Order** action.  
 
-    The start date has now been pushed back to April 20. This is not an acceptable date for Eduardo.
+    The start date is now pushed back to April 20. This isn't an acceptable date for Eduardo.
 
 4. Trigger a forward scheduling of the production order.
 
@@ -58,6 +58,6 @@ Shortly after finishing this task, Eduardo is asked to increase the order to 50 
 
 The new production order is now set up, and Eduardo's requirements are met.  
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Introduction to Contoso Coffee Demo Data](../contoso-coffee-intro.md)  

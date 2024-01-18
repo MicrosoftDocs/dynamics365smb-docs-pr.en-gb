@@ -7,10 +7,10 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 40
-ms.date: 04/01/2021
+ms.date: 12/12/2023
 ms.author: bholtorf
 ---
-# <a name="close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal"></a>Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal
+# Close open item ledger entries resulting from fixed application in the Item Journal
 
 You can use the **Applies-from Entry** field on the **Item Journal** page to create a fixed application between an inbound transaction and the original outbound transaction. For example, to correct the outbound transaction or to process its return.  
 
@@ -23,16 +23,16 @@ You can change and reapply application entries under certain conditions by using
 
 The following procedure shows how to close such entries by performing two corrective postings in the item journal.  
 
-## <a name="to-close-open-item-ledger-entries-that-result-from-a-fixed-application-in-the-item-journal"></a>To close open item ledger entries that result from a fixed application in the item journal
+## To close open item ledger entries that result from a fixed application in the item journal  
 
 1. Use the **Applies-from Entry** field to post a positive adjustment with the corresponding quantity. This closes the original negative entry with a fixed application.  
 
     The **Applies-from Entry** field specifies the number of the outbound item ledger entry whose cost is forwarded to the inbound item ledger entry when you post an inbound transaction of type **Positive Adjmt.** or **Purchase** with the item journal.  
 2. Use the **Applies-to Entry** field to post a negative adjustment. This closes the original corrective positive entry with a fixed application.  
 
-    The **Applies-to Entry** field specifies if the quantity in the item journal line should be applied to an already-posted document. If this is the case, enter the entry number of the item ledger entry to which the item journal line should be applied.
+    The **Applies-to Entry** field specifies if the quantity in the item journal line should be applied to an already-posted document. If so, enter the entry number of the item ledger entry to which the item journal line should be applied.
 
-## <a name="see-also"></a>See Also
+## See also 
 
 [Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)  
 [Process Sales Returns and Cancellations](sales-how-process-sales-returns-cancellations.md)  

@@ -1,5 +1,5 @@
 ---
-title: How to Post Service Orders
+title: How to post service Orders
 description: 'When you have created a service order, filled in all the necessary information and made any modifications, you can post the service order.'
 author: brentholtorf
 ms.topic: conceptual
@@ -7,10 +7,10 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
-ms.date: 06/23/2021
+ms.date: 12/13/2023
 ms.author: bholtorf
 ---
-# <a name="post-service-orders-and-credit-memos"></a>Post Service Orders and Credit Memos
+# Post service orders and credit memos
 When you have created a service order, filled in all the necessary information and made any modifications, you can post the service order. The order must contain at least one service item line and one service line before you can post it. Should the order contain more than one service line, all the lines are posted at one time.  
 
 If you have a large number of service orders, you can save time by using a batch job to post them at the same time. You can run the batch job from any service order.
@@ -18,7 +18,7 @@ If you have a large number of service orders, you can save time by using a batch
 > [!Tip]
 > Before you post a service document, it's a good idea to use the **Test Report** action to to check for any errors or missing information. If there are errors, you must correct the problem. You can print a new test report to verify the fix, and then post the document.
 
-## <a name="to-post-a-service-order"></a>To post a service order
+## To post a service order    
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders**, and then choose the related link.  
 2. Open the relevant service order.  
 3. On the **Service Order** page, choose one of the following actions.  
@@ -43,44 +43,44 @@ You can post consumption only if the line contains a quantity that has shipped b
 
 When posting the order, the corresponding ledger entries and posted documents are created. The relevant fields are updated in the service order document.  
 
-## <a name="to-batch-post-service-orders"></a>To batch post service orders
+## To batch post service orders
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders**, and then choose the related link.  
 2. Choose the **Post Batch** action.  
 3.  You can set a filter to select specific service order numbers or an interval of order numbers for the batch job to process.  
 4.  Choose **OK** to start the batch job.  
 
-## <a name="to-post-a-service-credit-memo"></a>To post a service credit memo
+## To post a service credit memo  
 When you have created a service credit memo and filled it in, you can post the credit memo. If there are errors or a lack of information on the credit memo while posting, the process will be interrupted by an error message.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Credit Memos**, and then choose the related link.  
 2. Create a new service credit memo. Choose the **New** action.  
 3. Fill in the necessary fields.  
-4. Choose the **Post** action. If you want to print the credit memo at the same time as you post, choose the **Post and Print** action instead.  
+4. Choose the **Post** action. If you want to print the credit memo at the same time as your post, choose the **Post and Print** action instead.  
 5. To test credit memos before you post them, choose **Test Report**. When you run the report, the posting dates specified in the document are verified.  
 6. To post several service credit memos at the same time. run the **Batch Post Service Cr. Memos** batch job. This can be an advantage if you have a large number of credit memos that must be posted.  
 
 > [!NOTE]  
 >  It is important to enter all the necessary information on the credit memos before they are batch posted. Otherwise, it is possible that they will not be posted. When the batch job has finished posting, a message is displayed that shows how many of the service credit memos have been posted.  
 
-## <a name="to-post-consumption-from-a-service-order"></a>To post consumption from a service order
-The following procedure describes how to post the items, resource hours, and or costs used for a specific service operation for which you will not charge your customer. Note that you can post consumed items, hours, or costs only for a posted shipment that has no posted invoices or consumption.  
+## To post consumption from a service order  
+The following procedure describes how to post the items, resource hours, and or costs used for a specific service operation for which you won't charge your customer. You can post consumed items, hours, or costs only for a posted shipment that has no posted invoices or consumption.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders**, and then choose the related link.  
 2. Open the service order to post consumption for.  
 3. Choose the service item. Choose the **Service Lines** action.  
-4. Find the required entries, and specify the quantities for which you will post consumption in the **Qty. to Consume** field. The quantity cannot be larger than the quantity already shipped and the quantity remaining but not invoiced after partial invoicing of this shipment.  
+4. Find the required entries, and specify the quantities for which you'll post consumption in the **Qty. to Consume** field. The quantity can't be larger than the quantity already shipped and the quantity remaining but not invoiced after partial invoicing of this shipment.  
 
     > [!NOTE]  
     >  To register consumption with respect to a job, fill in the **Job No.**, **Job Task No.**, and the **Job Line Type** fields on the service line.  
 
 5. Choose the lines to post, and then choose the **Post** action. On the page that opens, select **Ship and Consume**.  
 
-The service is posted as consumed either partially or fully, depending on the value in the **Qty. to Consume** field, and the relevant ledger entries are created. In addition,previously posted service shipment documents are updated chronologically with the consumed quantities. The relevant quantities will be updated on the service lines of the order.  
+The service is posted as consumed either partially or fully, depending on the value in the **Qty. to Consume** field, and the relevant ledger entries are created. In addition, previously posted service shipment documents are updated chronologically with the consumed quantities. The relevant quantities are updated on the service lines of the order.  
 
-## <a name="to-post-shipments-from-service-orders"></a>To post shipments from service orders
+## To post shipments from service orders  
 After specifying the details of a service, you can adjust and post the quantities of items used, time spent, and costs incurred. As a result, [!INCLUDE[prod_short](includes/prod_short.md)] makes the necessary changes to reflect the new state of your inventory and current status of the specific order processing.  
 
-The following procedure shows how to post shipment of service line items in locations that are not set up to require warehouse handling.  
+The following procedure shows how to post shipment of service line items in locations that aren't set up to require warehouse handling.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Order**, and then choose the related link. 2. on the page for the selected service order, choose **Actions**, **Order**, **Service Lines**.  
 3. On the **Service Lines** page, find the required entries and specify the quantity to be posted in the **Qty. to Ship** field.  
@@ -96,7 +96,7 @@ If the location is set up to require warehouse handling, then the shipping and m
 
 To learn more about shipping service line items in advanced warehouse configurations, go to picking Items for Warehouse Shipment](warehouse-how-to-pick-items-for-warehouse-shipment.md).  
 
-## <a name="to-undo-posted-consumption"></a>To undo posted consumption
+## To undo posted consumption  
 You can cancel the consumption on the service orders. For example, because it was posted by mistake.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Service Shipments**, and then choose the related link.  
@@ -112,17 +112,17 @@ You can cancel the consumption on the service orders. For example, because it wa
 >    * The service order has been closed.  
 >    * It has been posted to the Jobs area, so there are job ledger entries linked to it.  
 
-## <a name="to-post-service-lines"></a>To post service lines
-If you have to work on a service order for a considerable time without posting it, you may want to post some of the service lines linked to it as a way, for example, of keeping your inventory updated. You can post by specifying the relevant quantities on the lines to be posted. You may choose to post the lines one by one or by selecting several lines at a time.  
+## To post service lines  
+If you have to work on a service order for a considerable time without posting it, you might want to post some of the service lines linked to it as a way, for example, of keeping your inventory updated. You can post by specifying the relevant quantities on the lines to be posted. You might choose to post the lines one by one or by selecting several lines at a time.  
 
 The following procedure describes shipment posting directly from a service order in locations without warehouse handling set up. If the location is set up to require warehouse handling, then shipment posting happens in a different warehouse document, depending on the location setup.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders**, and then choose the related link.  
 2. Open the service order, and then choose the **Service Lines** action.  
-4. On the lines you are going to post, fill in the **Qty. to Ship**, **Qty. to Invoice**, and **Qty. to Consume** fields, depending on how you will post the lines.  
+4. On the lines you're going to post, fill in the **Qty. to Ship**, **Qty. to Invoice**, and **Qty. to Consume** fields, depending on how you post the lines.  
 5. Choose the **Post** action.
 
-## <a name="see-also"></a>See Also
+## See also   
 [Posting in Service Management](service-service-posting.md)  
 [Create a Service Order](service-how-to-create-service-orders.md)  
 

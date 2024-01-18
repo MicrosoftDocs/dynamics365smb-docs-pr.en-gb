@@ -11,13 +11,13 @@ ms.search.form: '5194,'
 ms.custom: bap-template
 ---
 
-# <a name="introduction-to-contoso-coffee-demo-data"></a>Introduction to Contoso Coffee Demo Data
+# Introduction to Contoso Coffee Demo Data
 
 Contoso Coffee is a fictitious company that produces consumer and commercial coffee makers. The **Contoso Coffee** apps for [!INCLUDE [prod_short](../includes/prod_short.md)] add demo data that you can use to learn how to use the capabilities in [!INCLUDE [prod_short](../includes/prod_short.md)].  
 
-## <a name="set-up-contoso-coffee-data"></a>Set up Contoso Coffee data
+## Set up Contoso Coffee data
 
-[!INCLUDE [contoso-coffee-app-install](contoso-coffee-app-install.md)].
+[!INCLUDE [contoso-coffee-app-install](../includes/contoso-coffee-app-install.md)]
 
 When the apps are installed, on the **Contoso Demo Tool** page, use the **Configure** action to prepare the following modules. You can choose to install all available data, which includes set up and production data, or setup data only.
 
@@ -39,7 +39,7 @@ The following table describes the settings:
 
 After you configure the modules you want to try out, choose the **Generate** action to create demonstration data for them.
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Manufacturing](../production-manage-manufacturing.md)  
 [Warehousing](../warehouse-manage-warehouse.md)  

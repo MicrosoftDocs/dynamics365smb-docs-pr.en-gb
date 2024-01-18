@@ -9,7 +9,7 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="introduction-to-contoso-coffee-warehousing"></a>Introduction to Contoso Coffee Warehousing
+# Introduction to Contoso Coffee Warehousing
 
 Contoso Coffee is a fictitious company that produces consumer and commercial coffee makers. The **Contoso Coffee** apps for Business Central add demo data that you can use to learn how to use the warehousing capabilities in Business Central. You can configure warehouse features in various ways, see [Overview of different configuration options](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
@@ -27,9 +27,9 @@ The app provides three locations that are optimised for different scenarios:
 
   This Location uses the Advanced Warehouse configuration with directed put-aways and picks, which enables more advanced rules to how items move throughout Warehouse.
 
-## <a name="set-up-contoso-coffee-warehousing-data"></a>Set up Contoso Coffee Warehousing data
+## Set up Contoso Coffee Warehousing data
 
-[!INCLUDE [contoso-coffee-app-install](../contoso-coffee-app-install.md)].
+[!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
 Once the relevant apps are installed, go to the [Contoso Demo Tool](https://businesscentral.dynamics.com/?page=5194) page in [!INCLUDE [prod_short](../../includes/prod_short.md)], select the *Warehouse Module* line and use the **Configure** action to prepare the  modules. The following tables describes the settings:  
 
@@ -50,7 +50,7 @@ Once you're ready, choose the **Create Demo Data** action. It takes a few minute
 > [!IMPORTANT]
 > If you are running the Scenarios, you may want to verify that your user has been added as for selected locations. For more information, see [Set Up Warehouse Employees](../../warehouse-how-to-set-up-warehouse-employees.md).
 
-## <a name="scenarios"></a>Scenarios
+## Scenarios
 
 The Contoso Coffee warehousing demo data currently supports the following scenarios for test and training:
 
@@ -60,7 +60,7 @@ The Contoso Coffee warehousing demo data currently supports the following scenar
 
 Read the steps for each scenario in the relevant article.  
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Setting Up Inventory](../../inventory-setup-inventory.md) 
 [How to Setup Locations](../../inventory-how-setup-locations.md) 
