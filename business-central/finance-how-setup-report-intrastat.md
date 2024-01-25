@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.search.keywords: 'electronic document, Intrastat, trade, EU, European Union'
 ms.search.form: '308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8451, 12202, 31077'
 ---
-# Set up Intrastat reporting
+# <a name="set-up-intrastat-reporting"></a>Set up Intrastat reporting
 
 All companies in the European Union (EU) must report their trade with other EU countries/regions. Companies must report the movement of goods to the statistics authorities in their country/region every month, and the report must be delivered to the tax authorities. Intrastat is the system that's used to collect trade statistics about goods within these countries/regions. Use the Intrastat report to complete periodic Intrastat reporting by collecting, recording, and reporting the trade of goods according to local legislation.
 
@@ -27,7 +27,7 @@ Intrastat reporting is based on basic EU regulations that apply to all countries
 >
 > Read the previous version's Intrastat setup and usage article, [Set Up and Report Intrastat](finance-how-setup-report-intrastat-v20.md).
 
-## Enable the new Intrastat experience
+## <a name="enable-the-new-intrastat-experience"></a>Enable the new Intrastat experience
 
 In 2022 release wave 2, [!INCLUDE[prod_short](includes/prod_short.md)] includes a redesigned Intrastat experience that provides extended features. If the new Intrastat functionality isn't enabled in your environment, an administrator can enable it on the **Feature Management** page.
 
@@ -44,11 +44,11 @@ In 2022 release wave 2, [!INCLUDE[prod_short](includes/prod_short.md)] includes 
     > [!NOTE]
     > Depending on your company location, it will be enough to enable the previously described feature. For countries/regions that have specific features for Intrastat reporting, enable the country/region specific Intrastat app in addition to the core extension.
 
-## Intrastat configuration
+## <a name="intrastat-configuration"></a>Intrastat configuration
 
 Before you can use Intrastat reports, there are several configurations that must be set up.
 
-### Intrastat reporting setup
+### <a name="intrastat-reporting-setup"></a>Intrastat reporting setup
 
 Use the **Intrastat Reporting Setup** page to enable and set the default behaviour for Intrastat reporting. You can specify whether you need to report Intrastat from shipments (dispatches), receipts (arrivals), or both, depending on thresholds that are set by your local regulations. You can also set default transaction nature codes for the regular and return documents that are used for transaction reporting.
 
@@ -92,7 +92,7 @@ Follow these steps to set up Intrastat reporting.
 
 6. On the **Numbering** FastTab, enter a value in the **Intrastat Nos** field.
 
-### Set up a reporting file
+### <a name="set-up-a-reporting-file"></a>Set up a reporting file
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Exchange Definitions**, and then select the related link.
 2. Select **New**, and then, on the **General** FastTab, enter information about the data exchange definition, data file type, column separator, related codeunits, XMLport, and other fields as needed.
@@ -115,7 +115,7 @@ Follow these steps to set up Intrastat reporting.
 > [!NOTE]
 > [!INCLUDE[prod_long](includes/prod_long.md)] comes with the preconfigured data exchange definition for Intrastat for all localised countries/regions. To learn more about how to create a new data exchange definition, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).
 
-### Set mandatory fields with the Intrastat report checklist
+### <a name="set-mandatory-fields-with-the-intrastat-report-checklist"></a>Set mandatory fields with the Intrastat report checklist
 
 In some countries/regions, the authorities require that Intrastat reports include, for example, the shipment method for purchases or other values when sales are over a certain threshold.
 
@@ -139,7 +139,7 @@ To set mandatory fields or values on the **Intrastat Report** page, follow these
 >
 > Be careful when you set up validation rules, because they can differ between countries/regions.
 
-## Use custom codeunits in Intrastat reporting
+## <a name="use-custom-codeunits-in-intrastat-reporting"></a>Use custom codeunits in Intrastat reporting
 
 If you want to change how Intrastat works, and the default configuration isn't enough, you can customise the system by extending the standard features. If you need to further change the Intrastat behaviour, you can develop your own codeunits. When you create codeunits, you need to make additional changes to use them. To configure the system to use your own objects, follow these steps.
 
@@ -155,7 +155,7 @@ If you want to change how Intrastat works, and the default configuration isn't e
 > [!IMPORTANT]
 > This line must be empty if you use the standard codeunits. You should only create a line and configure it if you have developed custom codeunits.
 
-## Other Intrastat configurations
+## <a name="other-intrastat-configurations"></a>Other Intrastat configurations
 
 Customer and vendor cards include the **Intrastat Partner Type** field, which has the same option values as the **Partner Type** field: 
 
@@ -193,21 +193,21 @@ Optionally, you can also set up:
 * **Entry/exit points**: Specify the locations where you ship or receive items to or from other countries/regions. An airport is an example of an entry or exit point. You enter entry or exit points on sales and purchase documents on the **Foreign Trade** FastTab. This information is copied from the item entries when you create the Intrastat journal.
 * **Supplementary unit of measure**: The quantity of goods for Intrastat reporting can be either net weight (in kilograms) or a supplementary unit. If supplementary units are required, you must configure them for items and fixed assets.
 
-#### Set up transport methods
+#### <a name="set-up-transport-methods"></a>Set up transport methods
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transport Methods**, and then select the related link.
 2. Fill in the field information as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-#### Set up transaction nature codes
+#### <a name="set-up-transaction-nature-codes"></a>Set up transaction nature codes
 
 1. select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transaction Nature Codes**, and then select the related link.
 2. Fill in the field information as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### Other related configurations
+### <a name="other-related-configurations"></a>Other related configurations
 
 Before you use the Intrastat reporting feature, you must define fields on the item, fixed asset, customer, and vendor cards.
 
-#### Item cards
+#### <a name="item-cards"></a>Item cards
 
 Follow these steps to set up all the necessary information that's related to Intrastat on item cards.
 
@@ -223,7 +223,7 @@ Follow these steps to set up all the necessary information that's related to Int
 > [!NOTE]
 > When you add the commodity code to a unit of measure that's defined for the item, [!INCLUDE [prod_short](includes/prod_short.md)] automatically fills in the **Supplementary Unit of Measure** field, based on the commodity code configuration. You can change the **Supplementary Unit of Measure** field value as needed.
 
-#### Set up fixed assets for Intrastat
+#### <a name="set-up-fixed-assets-for-intrastat"></a>Set up fixed assets for Intrastat
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then select the related link.
 2. Select the fixed asset you want to configure.
@@ -232,7 +232,7 @@ Follow these steps to set up all the necessary information that's related to Int
 > [!NOTE]
 > You can use different units of measure as your supplementary unit of measure. But whatever **Unit of Measure Code** you choose, its **Quantity** in Intrastat reports will always be 1.
 
-#### Set up vendors for Intrastat
+#### <a name="set-up-vendors-for-intrastat"></a>Set up vendors for Intrastat
 
 Before you can include a vendor in Intrastat reporting, enter their information on the **Vendor Card** page. For example, specify a **Country/Region Code** value and a **VAT Registration No.** value.
 
@@ -241,7 +241,7 @@ Before you can include a vendor in Intrastat reporting, enter their information 
 3. On the **Intrastat** FastTab, in the **Default Trans. Type**, **Default Trans. Type - Returns**, and **Default Transport Method** fields, set a default value for each field.
 4. On the **Payments** FastTab, in the **Intrastat Partner Type** field, specify whether the vendor is a person or a company.
 
-#### Set up customers for Intrastat
+#### <a name="set-up-customers-for-intrastat"></a>Set up customers for Intrastat
 
 Before you can include a customer in Intrastat reporting, enter their information on the **Customer Card** page. For example, you must specify a **Country/Region Code** value and a **VAT Registration No.** value.
 
@@ -250,22 +250,22 @@ Before you can include a customer in Intrastat reporting, enter their informatio
 3. On the **Intrastat** FastTab, in the **Default Trans. Type**, **Default Trans. Type - Returns**, and **Default Transport Method** fields, set the default value for each field.
 4. On the **Payments** FastTab, in the **Intrastat Partner Type** field, specify whether the vendor is a person or a company.
 
-#### Exclude items and fixed assets from Intrastat reporting
+#### <a name="exclude-items-and-fixed-assets-from-intrastat-reporting"></a>Exclude items and fixed assets from Intrastat reporting
 
 If there's a reason to exclude a specific item or fixed asset from Intrastat reporting, change the option on its card marking the **Exclude from Intrastat Report** field. Use this field on the **Item Template** card to create more items excluded from the Intrastat reporting. 
 
-##### Exclude an item from Intrastat reporting
+##### <a name="exclude-an-item-from-intrastat-reporting"></a>Exclude an item from Intrastat reporting
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then select the related link.
 2. Select the item that you want to configure, and then, on the **Cost & Posting** FastTab, select the **Exclude from Intrastat Report** checkbox.
 
-##### Exclude a fixed asset from Intrastat reporting
+##### <a name="exclude-a-fixed-asset-from-intrastat-reporting"></a>Exclude a fixed asset from Intrastat reporting
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then select the related link.
 2. Select the fixed asset you want to configure.
 3. On the **Intrastat** FastTab, select the **Exclude from Intrastat Report** checkbox.
 
-#### Set up commodity codes
+#### <a name="set-up-tariff-numbers"></a>Set up commodity codes
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Commodity Codes**, and then select the related link.  
 2. On the **Commodity Codes** page, enter information in the fields described in the following table.
@@ -283,11 +283,11 @@ If there's a reason to exclude a specific item or fixed asset from Intrastat rep
 > 
 > When you add a commodity code that has a defined **Unit of Measure** value to the item, [!INCLUDE [prod_short](includes/prod_short.md)] automatically adds a new unit of measure to the **Item Units of Measure** value for the item. The **Qty. per Unit of Measure** value is based on the **Quantity Rounding Precision** field.
 
-## Enter country/region Intrastat settings
+## <a name="enter-countryregion-intrastat-settings"></a>Enter country/region Intrastat settings
 
 Intrastat requirements are similar in all member states of the EU, though there are important exceptions. In theory, the rules should be uniformly applied in all member states. However, there are differences in implementations, because some member states provide guidelines about how to apply the principles in specific situations (for example, commercial samples and returns of goods). These guidelines can produce different results for various situations. Therefore, the information that countries/regions must enter can differ, as can the file format that they must use for reporting.
 
-### Austria
+### <a name="austria"></a>Austria
 
 Intrastat reporting in Austria requires two different files for receipts and shipments. To verify that your setup is correct, follow these steps.
 
@@ -299,11 +299,11 @@ The process of working with Intrastat reports is the same as the global feature.
 
 <!-- ### Belgium-->
 
-### Czech Republic
+### <a name="czech-republic"></a>Czech Republic
 
 The new Intrastat report experience for the Czech Republic will be available in 2023 release wave 1. In the meantime, continue to use the **Intrastat Journal** feature.
 
-### Finland
+### <a name="finland"></a>Finland
 
 In Finland, there are a few additional steps to set up Intrastat. Intrastat reporting in Finland requires two different files for receipts and shipments. You will also find that there are two separate **Data Exch. Def. Code** values configured.
 
@@ -321,13 +321,13 @@ The process of working with Intrastat Reports is the same as the global feature.
 
 <!-- ### Germany-->
 
-### Italy
+### <a name="italy"></a>Italy
 
 A new Intrastat report experience for Italy will be available starting in February 2023. In a meantime, continue to use the **Intrastat Journal** feature.
 
 <!-- ### France-->
 
-### Sweden
+### <a name="sweden"></a>Sweden
 
 Intrastat reporting in Sweden requires two different files for receipts and shipments. To verify that your setup is correct, follow these steps.
 
@@ -338,7 +338,7 @@ The process of working with Intrastat reports is the same as in global feature.
 
 <!-- ### United Kingdom-->
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Intrastat Reporting in Business Central](finance-how-report-intrastat.md)  
 [Financial Management](finance.md)  

@@ -10,13 +10,13 @@ ms.date: 12/04/2023
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
-# Working with RDLC Layouts
+# <a name="working-with-rdlc-layouts"></a>Working with RDLC Layouts
 
 RDLC layouts are based on report definition layout files (.rdl or .rdlc file types). The design concepts for RDLC layouts are similar to other layout types. The layout determines what fields to show and how they're arranged. However, designing RDLC layouts is more advanced than Word and Excel layouts.
 
 [![Shows the different elements of an RDLC layout.](media/rdlc-layout.png)](media/rdlc-layout.png#lightbox)
 
-## Required tools
+## <a name="required-tools"></a>Required tools
 
 To modify RDL layouts, you can use either Microsoft SQL Server Report Builder or Microsoft Visual Studio with the RDLC Report Designer extension.
 
@@ -24,7 +24,7 @@ To modify RDL layouts, you can use either Microsoft SQL Server Report Builder or
 
 - RDLC Report Designer is an extension for Visual Studio 2019 and later. You can download and install RDLC Report Designer from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftRdlcReportDesignerforVisualStudio-18001).
 
-## Create and modify RDLC layouts
+## <a name="create-and-modify-rdlc-layouts"></a>Create and modify RDLC layouts
 
 Creating and modifying RDLC layouts is an advanced task, which is typically done by power users or developers. The basic concepts aren't specific to Business Central report layouts. For this reason, we refer you to the following documentation:
 
@@ -39,7 +39,7 @@ Creating and modifying RDLC layouts is an advanced task, which is typically done
 > [!NOTE]
 > Report Builder only recognises the .rdl file type, not .rdlc. Layout files exported from Business Central are .rdlc file types. So to modify these layout in Report Builder, rename the file type to .rdl.
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Managing Report Layouts](ui-manage-report-layouts.md)  
 [Set the Layout Used by a Report](ui-set-report-layout.md)  

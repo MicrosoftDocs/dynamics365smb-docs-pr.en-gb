@@ -12,7 +12,7 @@ ms.date: 04/26/2023
 ms.custom: bap-template
 ---
 
-# Set up non-deductible VAT
+# <a name="set-up-non-deductible-vat"></a>Set up non-deductible VAT
 
 Non-deductible value-added tax (VAT) is the VAT that's payable by a purchaser but that isn't deductible from the purchaser's own VAT liability. Companies can usually recover VAT on the purchase of goods and services that are related to their business activities. However, in some situations, a business incurs VAT that isn't deductible. These situations are typically related to the local regulations and can differ among countries/regions. However, the model of using non-deductible or partially deductible VAT is similar. You can use proportional VAT to calculate VAT when there's deductible and non-deductible VAT.
 
@@ -26,7 +26,7 @@ Because it can be difficult to know where and how an item is used, you must cont
 > [!IMPORTANT]
 > This global feature is available in all countries with enabled VAT **except for Belgium, Italy, and Norway**. These localisations already have existing local feature and will be upgraded in the future. Don't run this feature in these countries because the upgrade procedure doesn't exist.
 
-## Use non-deductible VAT
+## <a name="use-non-deductible-vat"></a>Use non-deductible VAT
 
 1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Setup**, and then select the related link.
 2. Select the **Enable Non-Deductible VAT** checkbox.
@@ -41,7 +41,7 @@ Because it can be difficult to know where and how an item is used, you must cont
     3. Select the **Use For Job Cost** checkbox to specify that the non-deductible VAT must be added to the job cost when you purchase items for the job. Otherwise, the non-deductible VAT won't have an influence on the job cost, and the full amount will be recorded only at the general ledger level.
     4. Select the **Show Non-Ded. VAT In Lines** checkbox to specify that the non-deductible VAT must be shown on document line pages for easier manipulation of VAT amounts.
 
-## Use the non-deductible VAT percentage
+## <a name="use-the-non-deductible-vat-percentage"></a>Use the non-deductible VAT percentage
 
 1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Setup**, and then select the related link.
 2. On the **VAT Posting Setup** page, set the fields as described in the following table.
@@ -62,7 +62,7 @@ Because it can be difficult to know where and how an item is used, you must cont
 >
 > Don't use the same **VAT identifier** value for both normal VAT where the **Non-Deductible VAT %** field is set to **0** (zero) and normal VAT where the **Non-Deductible VAT %** field is set to a non-zero value. Otherwise, the total non-deductible VAT amount will be incorrectly calculated.
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Financial Management](finance.md)  
 [Design details: Non-deductible VAT](design-details-nondeductible-vat.md)  

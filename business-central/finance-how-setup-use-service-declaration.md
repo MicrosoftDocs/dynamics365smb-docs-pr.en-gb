@@ -11,11 +11,11 @@ ms.custom: bap-template
 ms.search.keywords: 'electronic document, Intrastat, trade, EU, service, declaration,'
 ms.search.form: '30, 76, 5010, 5022, 5023, 5024, 5800'
 ---
-# The Service Declaration Extension
+# <a name="the-service-declaration-extension"></a>The Service Declaration Extension
 
 In some EU countries/regions, authorities require that businesses report the export of services to other EU countries/regions. The **Service Declaration** extension lets you collect information about service trade in the EU and report it to the authorities. Although it's named **Service Declaration**, you can also use it as **Intrastat for Services**. This extension is available for all EU countries/regions as a W1 version, and it can be used as-is in Belgium. For other countries/regions, an extension based on country/region will be required. If a country/region only needs a different format, you can use the report configuration in the **Data Exchange Framework** to change the format.
 
-## Enable the Service Declaration extension
+## <a name="enable-the-service-declaration-extension"></a>Enable the Service Declaration extension
 
 After you install the extension in your environment, you need to enable it.
 
@@ -26,11 +26,11 @@ After you install the extension in your environment, you need to enable it.
 5. Before you start, check the **Total number of codes** to understand how many services transaction nature codes have already been specified.
 6. Choose **Finish** in the last step to finish the configuration.
 
-## Set up the Service Declaration extension
+## <a name="set-up-the-service-declaration-extension"></a>Set up the Service Declaration extension
 
 You can set up the extension manually, or by using a reporting file in Data Exchange Definitions.
 
-### To set up Service Declaration manually
+### <a name="to-set-up-service-declaration-manually"></a>To set up Service Declaration manually
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Declaration Setup**, and then choose the related link.
 2. On the **General** FastTab, configure the fields described in the following table:
@@ -47,7 +47,7 @@ You can set up the extension manually, or by using a reporting file in Data Exch
 3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Transaction Nature Codes**, and then choose the related link.
 4. On the lines, specify **Codes** and **Descriptions** for the service transaction nature codes you'll use.
 
-### Set up a reporting file
+### <a name="set-up-a-reporting-file"></a>Set up a reporting file
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Exchange Definitions**, and then choose the related link.
 2. Choose the **New** action.
@@ -66,11 +66,11 @@ You can set up the extension manually, or by using a reporting file in Data Exch
 > [!NOTE]
 > [!INCLUDE[prod_long](includes/prod_long.md)] comes with a preconfigured data exchange definition for **Service Declaration** for all localised countries/regioins. Learn more about creating a new data exchange definition at [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).
 
-## Other related configurations
+## <a name="other-related-configurations"></a>Other related configurations
 
 Before using the Service Declaration extension, configure some fields for items, resources, and item charges.
 
-### Items
+### <a name="items"></a>Items
 
 Set up information related to Service Declaration on Item Card pages:
 
@@ -81,7 +81,7 @@ Set up information related to Service Declaration on Item Card pages:
    2. In the **Service Transaction Nature Code** field, specify the code for a **Service transaction nature code**.
    3. If you don’t want to include this service item in service declarations, choose the **Exclude From Service Declaration** field.
 
-### Resources
+### <a name="resources"></a>Resources
 
 Set up information related to Service Declaration on Resource Card pages:
 
@@ -91,7 +91,7 @@ Set up information related to Service Declaration on Resource Card pages:
    1. In the **Service Transaction Nature Code** field, specify the code for a **Service transaction nature code**.
    2. If you don’t want to include this resource in service declarations, choose the **Exclude From Service Declaration** field.
 
-### Item Charges
+### <a name="item-charges"></a>Item Charges
 
 Set up information related to Service Declaration for item charges:
 
@@ -100,7 +100,7 @@ Set up information related to Service Declaration for item charges:
 3. In the **Service Transaction Nature Code** field, specify the code for a **Service transaction nature code**.
 4. If you don’t want to include this item charge in service declarations, select the **Exclude From Service Declaration** field.
 
-## Create new service declaration
+## <a name="create-new-service-declaration"></a>Create new service declaration
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Declarations**, and then choose the related link.
 2. Choose the **New** action.
@@ -111,7 +111,7 @@ Set up information related to Service Declaration for item charges:
 
 The batch job retrieves all entries from applicable purchase and sales documents in the required period and adds them on the service declaration lines. Hover over fields in lines to read a short description.
 
-## Modify a service declaration
+## <a name="modify-a-service-declaration"></a>Modify a service declaration
 
 If needed, you can modify the lines or add new ones.
 
@@ -120,11 +120,11 @@ If needed, you can modify the lines or add new ones.
 3. Based on the **Document Type**, fill in the **Document No.** field.
 4. Fill in the remaining fields.
 
-## Overview the service declaration lines
+## <a name="overview-the-service-declaration-lines"></a>Overview the service declaration lines
 
 After you create a service declaration, use the **Overview** action to get an overview of the service declaration lines. You can group and summarise the lines in the same way as the exported file. You can also open the lines in Excel.
 
-## Report Service Declaration in a file
+## <a name="report-service-declaration-in-a-file"></a>Report Service Declaration in a file
 
 You can submit the service declaration as a file based on different local authorities' requirements. To create a file:
 
@@ -134,17 +134,17 @@ You can submit the service declaration as a file based on different local author
 4. Choose the **Create File** action.
 5. The service declaration file will be saved in the required format.
 
-## Other considerations
+## <a name="other-considerations"></a>Other considerations
 
 When you're using the **Service Declaration** extension, there are a few more things to consider. For example, it's important that your groups match requirements from authorities. It's also important that services are included correctly on sales and purchase documents.
 
-### Grouping lines
+### <a name="grouping-lines"></a>Grouping lines
 
 On service declaration lines, there is no grouping by any field. All entries are copied from the original document as a source.
 
 Grouping required by authorities will be provided in the exported file. You must configure the groups in the **Data Exchange Definition**, which is fully configurable. Learn more at [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).
 
-### Using services in document lines
+### <a name="using-services-in-document-lines"></a>Using services in document lines
 
 When you create a purchase, sales, or service  invoice, you'll find two fields related to service declarations on their lines. Both fields are filled in with the default values from your item, resource, or item charge set ups.
 
@@ -155,7 +155,7 @@ You can change the values in these fields, but if you select the **Applicable Fo
 
 If you specify a value in the **Service Transaction Nature Code** field but don’t select the **Applicable For Service Declaration** field, you can post the document, but the line won't be calculated when you do.
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Set Up Intrastat Reporting](finance-how-setup-report-intrastat.md)
 [Intrastat Reporting in Business Central](finance-how-report-intrastat.md)  
