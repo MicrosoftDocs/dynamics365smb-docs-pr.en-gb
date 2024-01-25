@@ -4,13 +4,13 @@ description: Learn how to use your automatic data capture system (ADCS) to regis
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.form: '7700, 7703, 7704, 7706, 7707, 7710, 9813, 9814'
 ---
-# <a name="use-automated-data-capture-systems-adcs-foundation"></a>Use Automated Data Capture Systems (ADCS) foundation
+# Use Automated Data Capture Systems (ADCS) foundation
 
 > [!Important]
 > The Automated Data Capture System (ADCS) solution provides a way for [!INCLUDE[prod_short](includes/prod_short.md)] to communicate with handheld devices through web services. You must work with a Microsoft partner who can provide the link between the web service and the specific handheld device. 
@@ -25,11 +25,11 @@ Based on the needs of your warehouse, you define the amount of information displ
 - Text information.  
 - Messages to show confirmations or errors about activities performed and registered by the handheld device user.
 
-## <a name="to-enable-web-services-for-adcs"></a>To enable Web Services for ADCS
+## To enable Web Services for ADCS
 
 To use Automated Data Capture System, you must enable the ADCS web service. You must work with a Microsoft partner who can implement a web service that can connect ADCS and a specific handheld device. You can learn more about the web service for ADCS by examining codeunit 7714. 
  
-## <a name="to-set-up-a-warehouse-to-use-adcs"></a>To set up a warehouse to use ADCS
+## To set up a warehouse to use ADCS  
 
 To use ADCS, you must specify which warehouse locations use the technology.  
 
@@ -40,7 +40,7 @@ To use ADCS, you must specify which warehouse locations use the technology.
 2. Select the warehouse for which you want to enable ADCS, and then choose the **Edit** action.
 3. On the **Location Card** page, turn on the **Use ADCS** toggle.  
 
-## <a name="to-specify-an-item-to-use-adcs"></a>To specify an item to use ADCS
+## To specify an item to use ADCS  
 
 Each warehouse item that you want to use with ADCS must be assigned an identifier code to link it with its item number. For example, you can use the item's bar code as the identifier code. An item can also have multiple identifier codes. You may find this useful in the case where an item is available in various units of measures, such as pieces and pallets. In this case, assign an identifier code to each.
 
@@ -56,7 +56,7 @@ Each warehouse item that you want to use with ADCS must be assigned an identifie
 7. Choose the **OK** button.  
 8. To review the information, choose the **Identifier Code** field to open the **Item Identifiers** page.
 
-## <a name="to-add-an-adcs-user"></a>To add an ADCS user
+## To add an ADCS user  
 
 You can add any user to an ADCS. When you do, the user must provide a password. Optionally, you can also provide a connection that identifies the ADCS user as a warehouse employee. The ADCS user password can be different from their sign-in password. Learn more at [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
 
@@ -65,7 +65,7 @@ You can add any user to an ADCS. When you do, the user must provide a password. 
 3. In the **Name** field, enter a name for the user. The name can't have more than 20 characters, including spaces.  
 4. In the **Password** field, enter a password.  
 
-### <a name="to-specify-that-a-warehouse-employee-is-an-adcs-user"></a>To specify that a warehouse employee is an ADCS user
+### To specify that a warehouse employee is an ADCS user  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
 2. If needed, add a new warehouse employee. Learn more at [Set Up Warehouse Employees](warehouse-how-to-set-up-warehouse-employees.md).  
@@ -75,7 +75,7 @@ You can add any user to an ADCS. When you do, the user must provide a password. 
 > [!NOTE]  
 > The default warehouse for the employee must be one that uses ADCS.
 
-## <a name="to-create-and-customize-miniforms"></a>To create and customise miniforms
+## To create and customise miniforms
 
 You use miniforms to describe the information that you want to present on a handheld device. For example, you can create miniforms to support the warehouse activity of picking items. After you create a miniform, you can add functions to it for the common actions that a user takes with handheld devices, such as moving up or down a line.  
 
@@ -87,7 +87,7 @@ You use miniforms to describe the information that you want to present on a hand
 > * 7712
 > * 7713  
 
-### <a name="to-create-a-miniform-for-adcs"></a>To create a miniform for ADCS
+### To create a miniform for ADCS  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Miniforms**, and then choose the related link.  
 2. Choose the **New** action.  
@@ -99,14 +99,14 @@ You use miniforms to describe the information that you want to present on a hand
 
 When you have created a miniform, the next steps are to create functions and to associate functionality for various keyboard inputs.  
 
-### <a name="to-customize-miniform-functions"></a>To customise miniform functions
+### To customise miniform functions
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Miniforms**, and then choose the related link.  
 2. Select a miniform from the list, and then choose the **Edit** action.  
 3. Choose the **Functions** action.  
 4. In the **Function Code** drop-down list, select a code to represent the function that you want to associate with the miniform. For example, you can select **ESC** to associate functionality with the **ESC** key.  
 
-## <a name="see-also"></a>See Also
+## See Also  
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

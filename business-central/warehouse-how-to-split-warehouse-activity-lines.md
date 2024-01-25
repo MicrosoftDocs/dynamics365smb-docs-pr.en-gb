@@ -4,13 +4,13 @@ description: Learn how to split warehouse activity lines if the available capaci
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.forms: '931, 9314, 9313, 9315, 9330'
 ---
-# <a name="split-warehouse-activity-lines"></a>Split Warehouse Activity Lines
+# Split Warehouse Activity Lines
 
 In warehouse put-aways, movements, or picks, and in inventory put-aways and inventory picks, bins are suggested for picking or putting away items. The quantity that's actually in the suggested bin may not be sufficient, or there isn't enough room in the bin to put away the required quantity. In these cases, you can split the line so that the items for one line are either taken from or placed in more than one bin.  
 
@@ -23,7 +23,7 @@ The following procedure applies to the following warehouse documents:
 * Inventory movements
 * Inventory picks  
 
-## <a name="to-split-warehouse-activity-lines"></a>To split warehouse activity lines
+## To split warehouse activity lines  
 
 1. Open a warehouse activity line where you are trying to handle an insufficient quantity.  
 2. In the **Qty. to Handle** field, enter the reduced quantity that you're able to handle.  
@@ -33,7 +33,7 @@ The following procedure applies to the following warehouse documents:
 > [!NOTE]  
 > If the location uses directed put-away and pick and you split the lines, you must be familiar with the warehouse and be able to choose a bin that matches the storage requirements of the item and that fulfills the general requirements of the warehouse document. For example, you would not split a line on a pick document and place some items in bulk storage.  
 
-## <a name="see-also"></a>See Also
+## See Also  
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

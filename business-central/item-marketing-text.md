@@ -5,17 +5,19 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 11/17/2023
+ms.date: 12/13/2023
 ms.custom: bap-template
+ms.collection:
+  - bap-ai-copilot
 ---
 
-# <a name="add-marketing-text-to-items"></a>Add marketing text to items
+# Add marketing text to items
 
 For any item registered in Business Central, you can write *marketing text* about the item. Although marketing text is a kind of description, it's different than an item's **Description** field. The **Description** field is typically used as a concise display name to quickly identify the product. The marketing text, on the other hand, is a more rich and descriptive text. Its purpose is to add marketing and promotional content, also known as *copy*. This text can then be published with the item if it's published on a web shop, like Shopify, or pasted into emails or other communications with your customers.
 
 There are two ways to create the marketing text. The easiest way to get started is to use Copilot, which suggests AI-generated text for you. The other way is to start from scratch. 
 
-## <a name="get-marketing-text-suggestions-with-copilot"></a><a name=copilot></a>Get marketing text suggestions with Copilot
+## <a name=copilot></a>Get marketing text suggestions with Copilot
 
 With Copilot, you quickly get a text suggestion that's automatically generated for you. The AI-generated text is tailored to the item and provides a good starting point. The text is based in part on the following information:
 
@@ -26,7 +28,7 @@ With Copilot, you quickly get a text suggestion that's automatically generated f
 
 Copilot is designed to save you time and help you write creative and engaging text that reflects your brand and is consistent across your product line. Start by generating a suggestion, then change the suggested text as needed.
 
-### <a name="prerequisites"></a>Prerequisites
+### Prerequisites
 
 - Marketing text suggestions feature is enabled and activated on your environment. This task is typically done by an admin. For more information, go to [Configure Copilot and AI capabilities](enable-ai.md).
 - You're using one of the languages currently supported by the marketing text suggestions.
@@ -36,7 +38,7 @@ Copilot is designed to save you time and help you write creative and engaging te
   To change the language, in the upper-right corner, select the **Settings** icon ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role centre") > **My Settings** > **Language**. For more information, go to [Change Basic Settings](ui-change-basic-settings.md#language).
 - Review the [FAQ for marketing text suggestions](faqs-marketing-text.md) to learn how AI is applied.
 
-### <a name="create-first-draft-with-copilot"></a>Create first draft with Copilot
+### Create first draft with Copilot
 
 Complete the following steps to add marketing text to an existing item. To learn how to create a new item, go to [Register new items](inventory-how-register-new-items.md).
 
@@ -67,7 +69,7 @@ Complete the following steps to add marketing text to an existing item. To learn
    You can now get more suggestions, try to improve the suggestions you get, edit text, and more. Go to [Review, edit, and save](#review-edit-and-save-text) for details.
 
 
-### <a name="review-edit-and-save-text"></a>Review, edit, and save text
+### Review, edit, and save text
 
 Once you have the first draft, you must review it and make changes to the text to get it ready for publishing. This work is done from the Copilot editor, which lets you get more suggestions, change preferences to influence the suggestions, and manually make changes and style the text.
 
@@ -90,7 +92,7 @@ Use the following guidelines to finalise and save the marketing text.
    - If you want to save the text, select **Keep it**. 
    - If you don't want to save, select the discard button (trash can) ![Shows the trash can icon for deleting all Copilot proposal for bank account reconciliation](media/copilot-delete-trash-can.png).
 
-### <a name="improve-and-tailor-text-suggestions"></a>Improve and tailor text suggestions
+### Improve and tailor text suggestions
 
 There are a few steps you can do to improve the text suggestions and tweak them to suit your personal or company's preferences.
 
@@ -113,11 +115,11 @@ There are a few steps you can do to improve the text suggestions and tweak them 
 
    Copilot finds words and phrases that are related to the category and work them into the suggested text.
 
-### <a name="working-with-multiple-languages"></a>Working with multiple languages
+### Working with multiple languages 
 
 Text is always generated in the language defined by your user [settings](ui-change-basic-settings.md#language). If your organisation operates and enters data into Business Central using a different language, or if Business Central is connected to your online store such as with Shopify, this might result in publishing content that doesn't match similar marketing content.
 
-## <a name="create-text-from-scratch"></a>Create text from scratch
+## Create text from scratch
 
 1. In Business Central, open the item that you want to modify as follows:
 
@@ -131,7 +133,7 @@ Text is always generated in the language defined by your user [settings](ui-chan
 3. Make changes to text directly in the **Marketing Text** box. Use the tool bar along the bottom of the box to format and style text, add links, and more.
 4. Select **OK** when done to save the text.
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Marketing text suggestions overview](ai-overview.md)  
 [Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)  
