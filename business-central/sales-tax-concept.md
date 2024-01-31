@@ -10,9 +10,10 @@ ms.search.keywords: 'tax, posting, sales tax'
 ms.search.form: '10, 315, 466, 467, 468, 469, 10015, 10016, 10101'
 ms.date: 07/21/2022
 ms.author: altotovi
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="sales-tax-in-the-default-version-of-business-central"></a>VAT in the Default Version of Business Central
+# VAT in the Default Version of Business Central
 
 A **sales tax** is a tax that applies to the purchase of goods and services for consumers and to the sale of goods and services for businesses. VAT, ideally, should apply to all final consumption with few exemptions. Exemptions in final consumptions depend on local authorities but, generally speaking, business-to-business transactions are exempted from VAT.  
 
@@ -23,7 +24,7 @@ Typically, sales taxes apply to the retail sale of goods and services and are a 
 > [!IMPORTANT]
 > Although VAT is available in the default version, Microsoft supports the use of VAT in the United Kingdom only.
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Report VAT in the United Kingdom](localfunctionality/UnitedStates/us-sales-tax.md)  
 [Report VAT in the United Kingdom](localfunctionality/canada/ca-sales-tax.md)  

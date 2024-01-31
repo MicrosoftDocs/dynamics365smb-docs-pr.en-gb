@@ -3,13 +3,13 @@ title: Send Documents and Emails
 description: 'You can define content to insert into the body of an email message, for example, a PayPal link. You can also attach documents to email messages.'
 author: brentholtorf
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords: 'SMTP, mail, Microsoft 365, cover, body, PayPal, layout'
 ms.search.form: '41,'
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="send-documents-and-emails"></a>Send Documents and Emails
+# Send Documents and Emails
 
 You can easily share information and documents, such as sales and purchase orders and invoices, by email directly from [!INCLUDE[prod_short](includes/prod_short.md)], without having to open an email app.  
 
@@ -22,7 +22,7 @@ To enable emails from within [!INCLUDE[prod_short](includes/prod_short.md)], sta
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] supports only outbound email communications. You cannot also receive replies from within the app.
 
-## <a name="to-send-documents-by-email"></a>To send documents by email
+## To send documents by email
 
 This procedure describes how attach a posted sales invoice to an email as a PDF file, and with document-specific email text. The steps are the same for other documents.
 
@@ -44,14 +44,14 @@ This procedure describes how attach a posted sales invoice to an email as a PDF 
 > [!NOTE]  
 > If you do not want to specify email settings each time you email a document, you can select the **Yes (Use Default Settings)** option in the **Email** field on the **Send Document to** page. In that case, the **Send Email** page will not open. See Step 4. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).  
 
-## <a name="to-compose-and-send-an-email"></a>To compose and send an email
+## To compose and send an email
 
 You can quickly compose emails for contacts, customers, vendors, salespeople/purchasers, and bank accounts directly from the pages for those entities. Just choose **Process**, and then **Send Email** to open the email editor. For bank accounts, the **Send Email** action is under **Actions**.
 
 > [!TIP]
 > If you often send email messages that are similar in nature, or want to send a bulk communication, for example, to advertise a sales campaign, using Word templates with email can speed up the process. You can create a template for an entities such as customers, vendors, and contacts, that will generate the content of an email message for you, and even personalise the content for the recipient based on data in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Use Word Templates for Bulk Communication](ui-mail-merge.md).  
 
-### <a name="attach-a-document-to-an-email"></a>Attach a document to an email
+### Attach a document to an email
 
 There are several ways to attach documents to emails.
 
@@ -63,11 +63,11 @@ To attach a file yourself, in the email editor, use the following actions:
 * Choose **Add files from default selection** to manually add a file that's associated with the email scenario.
 * Choose **Add file from source document** to choose a file that's attached to the document you're working with. The files are either attached to the document itself, or one or more of its lines.
 
-## <a name="documents-marked-as-printed-when-they-are-sent"></a>Documents marked as printed when they are sent
+## Documents marked as printed when they are sent
 
 Some documents in [!INCLUDE[prod_short](includes/prod_short.md)] have a field that specifies how many times the document has been printed. The number in that field <!--"that field?" need a name...--> is also updated if you send the document by email because a PDF file is generated for it. The number is updated even if you don't send the email. <!--guessing this is because emails are technically reports, so the counter bumps up whenever someone creates an email. Need to verify.-->
 
-## <a name="sent-emails-and-your-email-outbox"></a>Sent emails and your email outbox
+## Sent emails and your email outbox
 
 [!INCLUDE[prod_short](includes/prod_short.md)] stores the emails that you send on the **Sent Items** page. That's to let you resend emails, or forward them to someone else. If you can't find an email in your sent items, look for it on the **Email Outbox** page. 
 
@@ -76,7 +76,7 @@ Some documents in [!INCLUDE[prod_short](includes/prod_short.md)] have a field th
 
 The **Email Outbox** is where you'll find the emails that you saved as drafts, and emails that failed to send, for example, if the email address was invalid. For messages that failed to send, you can choose **Show Error** or **Investigate Error** to troubleshoot the problem.  
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
 [Set up Email](admin-how-setup-email.md)  

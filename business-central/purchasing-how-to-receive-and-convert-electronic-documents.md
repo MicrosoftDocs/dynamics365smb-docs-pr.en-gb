@@ -3,15 +3,14 @@ title: Receive and Convert Electronic Documents
 description: This topic describes how to receive electronic documents directly from trading partners or from an OCR service.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '189, 190, 191'
 ms.date: 06/23/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="receive-and-convert-electronic-documents"></a>Receive and Convert Electronic Documents
+# Receive and Convert Electronic Documents
 
 > [!NOTE]
 > The content in this article is only applicable for versions of Dynamics 365 Business Central that were released before 2023 release wave 2. In 2023 release wave 2, new functionality for E-Documents is included. To learn more, see [Set up e-documents](finance-how-setup-edocuments.md). 
@@ -38,7 +37,7 @@ You can either start the conversion of electronic documents manually, as describ
 
 The following procedure describes how to receive a vendor invoice and convert it to a purchase invoice in [!INCLUDE[prod_short](includes/prod_short.md)]. The procedure is the same when you convert a vendor invoice to a general journal line.  
 
-### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>To receive and convert an electronic invoice to a purchase invoice
+### To receive and convert an electronic invoice to a purchase invoice
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents**, and then choose the related link.  
 
@@ -56,7 +55,7 @@ The following procedure describes how to receive a vendor invoice and convert it
 
     Any validation errors, typically related to wrong or missing master data in [!INCLUDE[prod_short](includes/prod_short.md)] will be shown on the **Error Messages** FastTab.  
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Managing Payables](payables-manage-payables.md)  
 [Incoming Documents](across-income-documents.md)  

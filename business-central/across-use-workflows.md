@@ -3,15 +3,14 @@ title: Using Approval Workflows
 description: You can set up and use workflows to connect business-process tasks such as automatic posting or requesting and granting approval for new records.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '1500, 1501, 1503, 1504, 1505'
 ms.date: 09/13/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="use-approval-workflows"></a>Use Approval Workflows
+# Use Approval Workflows
 
 A workflow is a sequence of tasks triggered by an action, a condition, or a rule. Workflows are usually implemented to integrate business logic into an organisation, such as the separation of duties, unifying processes, or to apply best practices.
 
@@ -64,7 +63,7 @@ Before you can begin using workflows, you must set up workflow users, create the
 | View workflow step instances with **Completed** status. | [View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md) |
 | Delete an approval workflow that will no longer be used. | [Delete Approval Workflows](across-how-to-delete-workflows.md) |
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Setting Up Approval Workflows](across-set-up-workflows.md)  
 [Workflow](across-workflow.md)  

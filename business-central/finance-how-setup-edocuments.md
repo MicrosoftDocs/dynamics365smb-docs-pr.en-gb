@@ -3,16 +3,15 @@ title: Set up e-documents
 description: Learn how to set up e-documents functionality.
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice'
 ms.search.form: '359, 360, 6103, 6133'
 ms.date: 10/05/2023
 ms.author: altotovi
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="set-up-e-documents"></a>Set up e-documents
+# Set up e-documents
 
 > [!IMPORTANT]
 > The E-Documents core module is a framework. By default, there's no **Service Integration** field. If you find the **Document Format** options by default, be aware that they're offered as an example, and that localisation must provide a detailed format. These details are part of localisation apps, because they're specific to local requirements.
@@ -22,7 +21,7 @@ ms.author: altotovi
 
 The first step in the configuration of electronic documents (e-documents) is to set up the E-Documents Service where you configure the complete behaviour of your system as it's related to e-document communication.
 
-## <a name="set-up-the-e-document-service"></a>Set up the E-Document Service
+## Set up the E-Document Service
 
 Follow these steps to set up the E-Document Service.
 
@@ -72,11 +71,11 @@ If you've configured the **Data Exchange Definition** format in your localisatio
 
 If you don't use the **Data Exchange Definition** format, you can create and configure formats by using the [interface](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Adjust the information on the **Export Mapping** and **Import Mapping** lines, where you can find the tables and fields to configure transformation rules. In this case, you must add a new option in the **Document Format** field that's related to your format.  
 
-### <a name="supported-document-types"></a>Supported document types
+### Supported document types 
 
 Supported document types are based on the chosen **Document Format**. To check which document types are supported, on the **E-Document Service** page, run the **Supported Document Types** action. The **E-Document Service Supported Source Document Types** opens and in the **Source Document Type** column, you can find all the supported document types.  
 
-## <a name="set-up-a-document-sending-profile"></a>Set up a document sending profile
+## Set up a document sending profile
 
 You can set up a preferred method of sending sales documents for each customer. In this way, you don't have to select a sending option every time that you select the **Post and Send** action. On the **Document Sending Profiles** page, you can set up different sending profiles and then select among them in the **Document Sending Profile** field on a customer card. You can select the **Default** checkbox to specify that a document sending profile is the default profile for all customers, except customers where the **Document Sending Profile** field is set to a different sending profile.
 
@@ -98,7 +97,7 @@ Follow these steps to set up a document sending profile.
     > [!NOTE]
     > If you select **Extended E-Document Service Flow** in the **Electronic Document** field, you must already have the workflow configured for your e-documents.
 
-## <a name="set-up-the-workflow"></a>Set up the workflow
+## Set up the workflow
 
 Follow these steps to set up the workflow that's used in e-document functionality.
 
@@ -117,7 +116,7 @@ To use more workflows, configure them through the document sending profiles for 
 
 When you configure your workflow on the **Workflow** page, point to the **On Condition** field on the **Workflow Steps** FastTab. On the **Event Conditions** page, in the **Filter** field, select the document sending profile that you want to use.
 
-## <a name="set-up-a-retention-policy-for-e-documents"></a>Set up a retention policy for e-documents
+## Set up a retention policy for e-documents
 
 E-documents can be a subject of different local legislations that are related to the period that the e-documents are kept for. Therefore, we have added a retention policy setup for all important information that's related to e-documents. Administrators can define retention policies that specify how frequently Dynamics 365 Business Central deletes outdated records that are related to e-documents. To learn more about retention policies, see [Define Retention Policies](admin-data-retention-policies.md).
 
@@ -131,7 +130,7 @@ To set up e-document-related retention policies, follow these steps.
     - E-Document Mapping Log
     - E-Document Data Storage
 
-## <a name="see-also"></a>See also
+## See also 
 
 [How to use e-documents in Business Central](finance-how-use-edocuments.md)  
 [How to extend e-documents in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  

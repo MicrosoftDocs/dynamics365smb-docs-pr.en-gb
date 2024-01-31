@@ -3,21 +3,20 @@ title: View table information
 description: Learn how you can view information about the database tables in Business Central.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 8700
 ms.date: 10/11/2023
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="viewing-table-information"></a>Viewing table information
+# Viewing table information
 
 The **8700 Table Information** page provides information about the number of records in all system and business tables in [!INCLUDE[prod_short](includes/prod_short.md)], and how much data each table contains.
 
 This information is useful for troubleshooting performance problems, because let's you see the distribution of data size across tables.
 
-## <a name="view-table-information"></a>View table information
+## View table information
 
 To open this page, select the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Table Information**, and then choose the related link.
 
@@ -42,7 +41,7 @@ The following table describes the information provided for each table:
 > The **Table Information** page shows data and index sizes, and the sum of table sizes will not match the total capacity used, because it displays the data size, not the actual allocated size. Allocated space is always larger than used space to avoid having to allocate space on every insert, which would limit performance significantly
 
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Inspecting Pages](across-inspect-page.md)  
 [Performance Articles For Developers](/dynamics365/business-central/dev-itpro/performance/performance-developer)  

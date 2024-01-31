@@ -3,15 +3,14 @@ title: Create a Job Sales Invoice to Invoice a Job
 description: Describes how to invoice customers for job expenses as a project progresses and costs accumulate.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: project invoice
 ms.search.form: '1002, 1007,'
 ms.date: 06/22/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="invoice-jobs"></a>Invoice Jobs
+# Invoice Jobs
 
 During the project, job costs from resource usage, materials, and job-related purchases can accumulate. As the job progresses, these transactions get posted to the job journal. It is important that all costs get recorded in the job journal before you invoice the customer.
 
@@ -25,7 +24,7 @@ You can invoice the whole job from the **Job Task Lines** page or only invoice s
 
 You can also invoice a company that is not the end customer. Sometimes the party that a project is for is different from the party that is paying the bill. On the **Jobs** page, you can specify the customer who will benefit from the project in the **Sell-to** fields, and the party to invoice in the **Bill-to** fields. 
 
-## <a name="to-create-multiple-job-sales-invoices"></a>To create multiple job sales invoices
+## To create multiple job sales invoices
 
 You can create an invoice for a job or for one or more job tasks for a customer when either the work to be invoiced is complete or the date for invoicing based on an invoicing schedule has been reached.
 
@@ -41,7 +40,7 @@ You can review and post created invoices in the **Sales Invoices** window.
 > [!NOTE]
 > Alternatively, invoice a customer by selecting the job, and then choosing the **Create Job Sales Invoice** action. 
 
-## <a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a>To create and post job sales invoice from job planning lines
+## To create and post job sales invoice from job planning lines
 
 You can create an invoice from a job planning lines, and indicate at that time the quantity of the item, resource, or general ledger account that you want to invoice.
 
@@ -60,7 +59,7 @@ You can create an invoice from a job planning lines, and indicate at that time t
 > [!NOTE]  
 >   The above procedure is similar for creating, reviewing, and posting a job-related sales credit memo.
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Managing Projects](projects-manage-projects.md)  
 [Finance](finance.md)  

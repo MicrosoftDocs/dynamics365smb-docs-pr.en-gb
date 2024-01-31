@@ -3,14 +3,13 @@ title: Use Reports in Daily Work
 description: Provides a overview of all the Business Intelligence and Reporting features that are supported in the Business Central product.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: feature overview
 ms.date: 09/22/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="use-reports-in-daily-work"></a>Use Reports in Daily Work
+# Use Reports in Daily Work
 
 A report in [!INCLUDE[prod_short](includes/prod_short.md)] gathers information based on a specified set of criteria. It organises and presents the information in an easy-to-read format you can print or save as a file.  
 
@@ -25,7 +24,7 @@ A report in [!INCLUDE[prod_short](includes/prod_short.md)] gathers information b
 | Learn how to change the default layout for a report. | [Changing the Default Report Layout](ui-how-change-layout-currently-used-report.md) |
 | View and analyse data from a report dataset in Microsoft Excel. | [Save Report Dataset to Excel From the Request Page](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Report Overview](reports-available-reports.md)  
 [Business Intelligence and Reporting Overview](ui-work-report.md)  

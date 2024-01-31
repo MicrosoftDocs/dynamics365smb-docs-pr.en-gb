@@ -3,15 +3,14 @@ title: Changing Company and Other Settings in Teams
 description: Learn about how to change Business Central connection settings from Microsoft Teams.
 author: jswymer
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search'
 ms.date: 04/12/2021
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="changing-company-and-other-settings-in-teams"></a>Changing Company and Other Settings in Teams
+# Changing Company and Other Settings in Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -27,7 +26,7 @@ There are two ways to open the **Settings** page: 1) from the message compose bo
 
    ![Settings for Business Central from message box.](media/teams-settings-command-box.png)
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Business Central and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)  

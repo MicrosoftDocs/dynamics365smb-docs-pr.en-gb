@@ -7,22 +7,23 @@ ms.search.keywords: reporting
 ms.search.form: 'Report_5871, Report_5872, Report_99000753, Report_99000756, Report_99000757, Report_99000758, Report_99000791, Report_99000780, Report_99000783, Report_99000784, Report_99000788, Report_99000767'
 ms.date: 06/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="production-reports-and-analytics-in-business-central"></a>Production Reports and Analytics in Business Central
+# Production Reports and Analytics in Business Central
 
 Production reporting in [!INCLUDE [prod_short](includes/prod_short.md)] allows production and business professionals to get insights and statistics about current and past production activities.  
 
-## <a name="reports"></a>Reports
+## Reports
 [!INCLUDE [production_reports](includes/production-reports-include.md)]
 
-## <a name="tasks"></a>Tasks
+## Tasks
 
 The following articles describe some of the key tasks for analysing the state of your business:
 
 * [View Load on Work and Machine Centres](production-how-to-view-the-load-on-work-centers.md)  
 * [View the Availability of Items](inventory-how-availability-overview.md)
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)  

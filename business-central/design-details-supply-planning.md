@@ -8,8 +8,9 @@ ms.topic: conceptual
 ms.date: 02/23/2023
 ms.custom: bap-template
 ms.search.keywords: 'design, supply, planning, reordering, replenishment'
+ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-supply-planning"></a>Design Details: Supply Planning
+# Design Details: Supply Planning
 
 This section provides detailed technical insight to the concepts and principles in the supply planning features in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -20,7 +21,7 @@ The articles explain how the planning system works:
 * Describes the logic of the central mechanism, which is supply balancing
 * Explain how to use reordering policies in inventory planning  
 
-## <a name="in-this-section"></a>In This Section
+## In This Section  
 
 [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)  
 [Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md)  

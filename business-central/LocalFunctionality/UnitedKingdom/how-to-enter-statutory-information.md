@@ -3,18 +3,17 @@ title: 'Enter Statutory Information [UK]'
 description: 'To comply with legal requirements, statutory information is available on the Statutory FastTab on the Company Information page.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 1
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="enter-statutory-information-in-the-british-version"></a>Enter Statutory Information in the British Version
+# Enter Statutory Information in the British Version
 
 To comply with legal requirements, statutory information is available on the **Statutory** FastTab on the **Company Information** page in the British version of Business Central.  
 
-## <a name="to-enter-statutory-information"></a>To enter statutory information
+## To enter statutory information  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
 2.  On the **Statutory** FastTab, fill in the fields as described in the following table.  
@@ -33,7 +32,7 @@ To comply with legal requirements, statutory information is available on the **S
 
 3.  Choose the **OK** button.  
 
-## <a name="see-also"></a>See Also
+## See Also  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)
 
 

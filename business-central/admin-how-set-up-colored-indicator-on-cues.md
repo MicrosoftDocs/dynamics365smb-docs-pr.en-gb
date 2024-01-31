@@ -3,14 +3,13 @@ title: Set up your customised coloured indicators for a Cue's activity
 description: 'As an administrator, you can set up Cues that appear on the users'' Role Centres to include an indicator that changes colour based on the data values in the Cues.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '9701, 9702'
 ms.date: 04/01/2021
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Set Up a Coloured Indicator on Cues for the Company or Individual Users
+# Set Up a Coloured Indicator on Cues for the Company or Individual Users
 
 As an administrator, you can set up Cues that appear on the users' Role Centres to include an indicator that changes colour based on the data values in the Cues.  
 
@@ -20,7 +19,7 @@ From the **Cue Setup** page, you set up indicators for all the Cues that are ava
 
 To set up the indicator, you specify up to two threshold values that define three ranges of data values (low, middle, and high) to which you can apply a different colour (or style).  
 
-### <a name="to-set-up-colored-indicators-on-cues"></a>To set up coloured indicators on Cues
+### To set up coloured indicators on Cues  
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cue Setup**, and then choose the related link.  
 
      The **Cue Setup** page appears. The page lists the indicators that are currently setup up on Cues. Indicators that apply to all users in the company have a blank **User Name** field. Indicators that apply to a specific user include the user's name in the **User Name** field.  
@@ -57,7 +56,7 @@ To set up the indicator, you specify up to two threshold values that define thre
     |**Ambiguous**|Yellow|  
     |**Subordinate**|Grey|  
 
-## <a name="see-also"></a>See Also
+## See Also
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

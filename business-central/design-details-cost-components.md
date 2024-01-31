@@ -3,14 +3,13 @@ title: Design Details - Cost Components | Microsoft Docs
 description: Cost components are different types of costs that make up the value of an inventory increase or decrease.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-cost-components"></a>Design Details: Cost Components
+# Design Details: Cost Components
 Cost components are different types of costs that make up the value of an inventory increase or decrease.  
 
  The following table shows the different cost components and any subordinate cost components that they consist of.  
@@ -33,7 +32,7 @@ Cost components are different types of costs that make up the value of an invent
 > [!NOTE]  
 >  Freight and insurance costs are item charges that can be added to an item’s cost at any time. When you run the **Adjust Cost - Item Entries** batch job, the value of any related inventory decreases are updated accordingly.  
 
-## <a name="see-also"></a>See Also
+## See Also  
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   
  [Design Details: Variance](design-details-variance.md) [Managing Inventory Costs](finance-manage-inventory-costs.md)  
  [Finance](finance.md)  
