@@ -3,9 +3,7 @@ title: Analyse Actual Amounts Versus Budgeted Amounts
 description: 'This article describes how to analyse actual amounts versus budgeted amounts as a means of gathering, analysing, and sharing your company data.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'bi, power BI, analysis, KPI'
 ms.search.form: '120, 121, 422'
 ms.date: 09/14/2022

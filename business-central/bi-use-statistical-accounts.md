@@ -9,8 +9,9 @@ ms.date: 03/07/2023
 ms.custom: bap-template
 ms.search.keywords: 'bi, power BI, analysis, KPI, financial report'
 ms.search.form: '2632, 2631, 2633, 2623, 2634'
+ms.service: dynamics-365-business-central
 ---
-# <a name="analyze-data-with-statistical-accounts"></a>Analyse Data with Statistical Accounts
+# Analyse Data with Statistical Accounts
 
 Use statistical accounts to supplement information in financial reports. Statistical accounts let you add metrics that are based on non-transactional data. You add the non-transactional data as number-based units, such as:
 
@@ -26,12 +27,12 @@ In terms of how they work, statistical accounts are similar to posting accounts.
 
 There are a couple of key differences between statistical accounts and posting accounts. Statistical accounts are separate entities, and aren't included in trial balance reports. Also, you don't need to balance debit and credit amounts when you use statistical account journals to post entries to a statistical account. You just post the amount.
 
-## <a name="set-up-a-statistical-account"></a>Set up a statistical account
+## Set up a statistical account
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Statistical Accounts**, then choose the related link.
 1. On the **General** FastTab, fill in the fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="post-amounts-to-a-statistical-account"></a>Post amounts to a statistical account
+## Post amounts to a statistical account
 
 1. To post the amounts you want to track, on the **Statistical Accounts** page, choose the **Statistical Accounts Journal** action.
 1. In the **Posting date** field, enter the last date of the posting period that you want to post amounts for.
@@ -41,11 +42,11 @@ There are a couple of key differences between statistical accounts and posting a
 1. In the **Amount** field, enter the amount to post. 
 1. Optional: If you'll want to include the statistical account in more advanced analyses, specify dimensions in the **Department Code** and **Customergroup Code** fields. To learn more about dimensions, go to [Analyse Data by Dimensions](bi-how-analyze-data-dimension.md).
 
-## <a name="verify-statistical-account-amounts"></a>Verify statistical account amounts
+## Verify statistical account amounts
 
 On the **Statistical Accounts** page, use the **Statistical Accounts Balance** action to verify that the registered amounts are correct for each period.  
 
-## <a name="include-the-statistical-account-in-a-financial-report"></a>Include the statistical account in a financial report
+## Include the statistical account in a financial report
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, then choose the related link.
 1. Create a new financial report in one of the following ways:
@@ -61,7 +62,7 @@ On the **Statistical Accounts** page, use the **Statistical Accounts Balance** a
 1. In the **Row Type** field, choose whether to view the balance on the posting date or the beginning of the posting period, or to show the change to the amount during the period.
 1. Fill in the remaining fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Financial Business Intelligence](bi.md)  
 [Financial Reports and Analytics in Business Central](finance-reports.md)

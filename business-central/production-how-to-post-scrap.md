@@ -3,21 +3,20 @@ title: Post Scrap Manually
 description: 'If scrap is produced during processing, it can be entered in the output journal. Note that the scrap quantity does not increase the output quantity.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 99000823
 ms.date: 03/08/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="post-scrap-manually"></a>Post Scrap Manually
+# Post Scrap Manually
 
 If scrap is produced during processing, it can be entered in the output journal.  
 
 > [!NOTE]
 > The scrap quantity does not increase the output quantity.  
 
-## <a name="to-post-scrap-manually"></a>To post scrap manually
+## To post scrap manually
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -27,7 +26,7 @@ If scrap is produced during processing, it can be entered in the output journal.
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]    
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Manufacturing](production-manage-manufacturing.md)
 [Setting Up Manufacturing](production-configure-production-processes.md)  

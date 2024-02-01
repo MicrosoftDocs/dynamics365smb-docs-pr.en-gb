@@ -7,8 +7,9 @@ ms.reviewer: bnielse
 ms.topic: how-to
 ms.date: 03/28/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
-# <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Reverse Journal Postings and Undo Receipts/Shipments
+# Reverse Journal Postings and Undo Receipts/Shipments
 
 Reverse journal postings are useful, for example, for correcting errors and for clearing out an old accruals entry before entering a new one. A reverse entry is the same as the original entry, but has an opposite sign in the **Amount** field. The reverse entry must have the same document number and posting date as the original entry. After you reverse an entry, you must make the correct entry.
 
@@ -20,7 +21,7 @@ If you've posted an incorrect negative quantity, such as a purchase order with t
 
 If you've posted an incorrect positive quantity, such as a sales shipment or a purchase return shipment with the wrong number of items, as shipped but not invoiced, you can undo the posting.
 
-## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>To reverse the journal posting of a general ledger entry
+## To reverse the journal posting of a general ledger entry
 
 You can reverse entries from all **Ledger Entries** pages. The following procedure is based on the **General Ledger Entries** page.
 
@@ -34,7 +35,7 @@ You can reverse entries from all **Ledger Entries** pages. The following procedu
 3. On the **Reverse Transaction Entries** page, choose the **Reverse** action.
 4. Choose **Yes** to confirm the reversal.
 
-## <a name="to-post-a-negative-entry"></a>To post a negative entry
+## To post a negative entry  
 
 Use the **Correction** field to post a negative debit instead of a credit, or to post a negative credit instead of a debit on an account. By default, the field is available in all journals. The **Debit Amount** and **Credit Amount** fields include both the original entry, and the corrected entry. These fields have no effect on the account balance.  
 
@@ -44,7 +45,7 @@ Use the **Correction** field to post a negative debit instead of a credit, or to
 4. In the journal line that you want to activate for negative entries, select the **Correction** check box.  
 5. To post the journal, choose the **Post** action, and then choose the **Yes** button.
 
-## <a name="to-undo-a-quantity-on-a-posted-purchase-receipt"></a>To undo a quantity on a posted purchase receipt
+## To undo a quantity on a posted purchase receipt  
 
 The following steps describe how to undo a posted receipt of items or resources. The steps are similar for posted shipments.
 
@@ -57,7 +58,7 @@ A corrective line is added under the selected receipt line. If the quantity was 
 
 The **Quantity Received** and **Qty. Rcd. Not Invoiced** fields on the related purchase order are set to zero.
 
-## <a name="to-undo-and-then-redo-a-quantity-posting-on-a-posted-return-shipment"></a>To undo and then redo a quantity posting on a posted return shipment
+## To undo and then redo a quantity posting on a posted return shipment
 
 The following steps describe how to:
 
@@ -83,7 +84,7 @@ The steps are similar for posted return receipts.
 
 [!INCLUDE [rev-general-journal](includes/rev-general-journal.md)]
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Undo Assembly Posting](assembly-how-to-undo-assembly-posting.md)  
 [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)  

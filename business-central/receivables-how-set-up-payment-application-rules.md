@@ -3,15 +3,14 @@ title: Rules for Automatic Application of Payments
 description: Read about how to set Up Rules for the Automatic Application of Payments on the Payment Application Rules page.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'payment process, direct payment posting, reconcile payment, expenses, cash receipts'
 ms.search.form: '1290, 1294, 1287'
 ms.date: 06/25/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-rules-for-automatic-application-of-payments"></a>Set Up Rules for Automatic Application of Payments
+# Set Up Rules for Automatic Application of Payments
 
 On the **Payment Application Rules** page, you set up rules to govern how payment text (on a bank transaction) is automatically matched with text on related open (unpaid) invoices, credit memos, or other entries when you use the **Apply Automatically** function on the **Payment Reconciliation Journal** page. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 
@@ -29,7 +28,7 @@ In addition to the matching criteria, the following applies concerning the sign 
 - For negative amounts, a match is made first against open entries representing customer invoices and then against vendor credit memos.
 - For positive amounts, a match is made first against open entries representing vendor invoices and then against customer credit memos.
 
-## <a name="to-set-up-a-payment-application-rule"></a>To set up a payment application rule
+## To set up a payment application rule
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Application Rules**, and then choose the related link.
 2. Define a new or edited payment application rule by filling the fields on a line as described in the following table.
 
@@ -74,7 +73,7 @@ The following table describes the standard payment application rules in [!INCLUD
 | Low              | 4        | No                    | No                             | One Match                      |
 | Low              | 5        | No                    | No                             | Multiple Matches               |
 
-## <a name="see-also"></a>See Also
+## See Also
 [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  

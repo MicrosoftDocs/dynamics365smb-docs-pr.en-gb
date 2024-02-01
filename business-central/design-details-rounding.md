@@ -3,9 +3,7 @@ title: Design Details - Rounding
 description: Rounding residuals can occur when you value the cost of a inventory decrease measured in a different quantity than the corresponding inventory increase.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: bholtorf

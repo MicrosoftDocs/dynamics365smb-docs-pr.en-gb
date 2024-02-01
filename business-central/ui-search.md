@@ -7,8 +7,9 @@ ms.search.keywords: 'find, Tell Me, search'
 ms.search.form: 'TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 06/14/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="finding-pages-and-information-with-tell-me"></a>Finding Pages and Information with Tell Me
+# Finding Pages and Information with Tell Me
 
 This article describes how the in-product search, *Tell me what you want to do*, can help you: 
 
@@ -31,24 +32,24 @@ At the bottom of the **Tell me what you want to do** page, the **exploring pages
 
 The **Tell me what you want to do** page categorises results based on the data that you enter and the page you're working on. The following sections describe the categories.
 
-## <a name="find-an-action-on-the-current-page"></a>Find an action on the current page
+## Find an action on the current page
 
 The **On current page** section lets you find actions on the page you have open. For example, if the **Sales Quote** page is open and you type "customer," the section includes an action that opens the Customer Card page for the customer chosen on the sales quote.
 
 > [!NOTE]  
 > The list includes only actions that are available on the navigation bar at the top of the page. Actions on FastTabs are not included.  
 
-## <a name="find-a-page-or-a-task"></a>Find a page or a task
+## Find a page or a task
 
 The results in the **Go to Pages and Tasks** section provide access to other pages and let you perform tasks or look up information. If you use these pages often, you can choose the bookmark icon to add a link to any page onto your Role Centre. For more information, see [Add a Page Action to Your Role Centre](ui-bookmarks.md).
 
 The pages and tasks that are listed depend on the user experience you chose for your company. The **Essential** experience gives access to fewer pages and tasks than the **Premium** experience does. The first time you sign in, you use the **Essential** experience. To learn more about user experiences, go to [Customising Your [!INCLUDE[prod_short](includes/prod_short.md)] Experience](ui-experiences.md).
 
-## <a name="find-a-report-or-archived-information"></a>Find a report or archived information
+## Find a report or archived information
 
 The **Go to Reports and Analysis** section offers access to reporting tools. For example, you can open the **Balance Sheet** report from the list, or access archived documents and other information.  
 
-## <a name="find-a-record-or-search-the-documentation"></a>Find a record or search the documentation
+## Find a record or search the documentation
 
 The **Search for \<keyword\>** section [!INCLUDE [prod_short](includes/prod_short.md)] offers a couple of ways to search:
 
@@ -58,7 +59,7 @@ The **Search for \<keyword\>** section [!INCLUDE [prod_short](includes/prod_shor
   > [!NOTE]  
   > Your search results won't include documentation for third-party extensions.
 
-### <a name="use-tell-me-what-you-want-to-do"></a>Use Tell me what you want to do
+### Use Tell me what you want to do
 
 Use the ![Tell me what you want to do.](media/ui-search/search.png "Search for Page or Report") **Search** icon to search for data across [!INCLUDE [prod_short](includes/prod_short.md)]. For example, you can find a customer by entering their name or address, or even find a specific record, such as a sales order. You can also use it to find information in our documentation.
 
@@ -72,22 +73,22 @@ Just enter at least three characters of a keyword, and then choose either **Sear
 
 [!INCLUDE [ui-how-search-works](includes/ui-how-search-works.md)]
 
-## <a name="get-more-functionality-from-apps"></a>Get more functionality from apps
+## Get more functionality from apps
 
 Our partner community is busily developing apps that add capabilities to [!INCLUDE[prod_short](includes/prod_short.md)]. The **Get from Microsoft AppSource** section lists apps for [!INCLUDE[prod_short](includes/prod_short.md)] that are available on Microsoft AppSource and are related to the keyword you searched for.
 
-### <a name="use-search-on-list-pages"></a>Use Search on list pages
+### Use Search on list pages
 
 It isn't related to Tell me what you want to do, but there's another way to search for specific data. When you're using a list page, you can use the ![Search list](media/ui-search/search-list.png "Search list icon") **Search** field in the left corner of list page headers to search for data on the page. The search applies only to the list you're viewing. To learn more about working with data on list pages, go to [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md).  
 
 > [!TIP]
 > You can search for posted document lines, such as invoice lines, credit memo lines, shipment lines, and receipt lines. Search for the type of document lines that you want to find, and then bookmark the links to the documents on your home page for easy access to the original or a filtered view. Learn more at [Add a Page Action to Your Role Centre](ui-bookmarks.md).
 
-## <a name="questions"></a>Questions?
+## Questions?
 
 We've shown search to a range of stakeholders, noted the questions that they had in common, and turned our notes into a list of frequently asked questions. If you're interested, go to [Tell Me FAQ](ui-search-faq.md).
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Work with Business Central](ui-work-product.md)  
 [Add a Page Action to Your Role Centre](ui-bookmarks.md)  

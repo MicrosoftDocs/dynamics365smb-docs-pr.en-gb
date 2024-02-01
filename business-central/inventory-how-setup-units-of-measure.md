@@ -3,9 +3,7 @@ title: How to Set Up Item Units of Measurement | Microsoft Docs
 description: You can set up multiple units of measurement for an item so that you can assign units of measurement to the item.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: UOM
 ms.date: 10/16/2023
 ms.author: bholtorf

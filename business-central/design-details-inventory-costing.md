@@ -3,21 +3,20 @@ title: Design Details - Inventory Costing
 description: This documentation provides detailed technical insight to the concepts and principles that are used within the Inventory Costing features in Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'design, inventory, costing'
 ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-inventory-costing"></a>Design Details: Inventory Costing
+# Design Details: Inventory Costing
 
 This documentation provides detailed technical insight to the concepts and principles that are used within the Inventory Costing features in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Inventory costing, also referred to as cost management, is concerned with recording and reporting business operating costs.  
 
-## <a name="in-this-section"></a>In This Section
+## In This Section
 
 [Design Details: Costing Methods](design-details-costing-methods.md)  
 [Design Details: Item Application](design-details-item-application.md)  

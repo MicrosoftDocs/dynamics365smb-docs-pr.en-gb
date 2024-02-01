@@ -3,9 +3,7 @@ title: Optional Activities for Closing Periods
 description: This topic outlines the optional processes and activities for closing accounting periods in Business Central.
 author: jswymer
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments'
 ms.date: 08/29/2022
 ms.author: jswymer

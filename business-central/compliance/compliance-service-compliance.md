@@ -3,15 +3,14 @@ title: Service Compliance and SLA
 description: From a service perspective Business Central lives up to the strict requirements and SLA compliance in several ISO and industry specific certifications.
 author: sorenfriisalexandersen
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.reviewer: bholtorf
 ms.date: 06/14/2021
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
-# <a name="service-compliance"></a>Service Compliance
+# Service Compliance
 
 This content contains information about service compliance in relation to [!INCLUDE[prod_short](../includes/prod_short.md)] online  
 
@@ -21,11 +20,11 @@ Please find the detailed list of [Cloud compliance offerings for Business Centra
 
 If you are interested in the complete list of compliance offerings from Microsoft, see [Microsoft Trust Centre](https://www.microsoft.com/trustcenter/compliance/complianceofferings).
 
-## <a name="service-terms"></a>Service Terms
+## Service Terms
 
 [!INCLUDE [service-terms](../includes/service-terms.md)]
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Compliance](compliance-overview.md)  
 [Application Compliance](compliance-application-compliance.md)  

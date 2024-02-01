@@ -3,9 +3,7 @@ title: Use the Manufacturing Batch Unit of Measurement
 description: This topic gives an overview of how to work with manufacturing batch units of measurement in Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: bholtorf
