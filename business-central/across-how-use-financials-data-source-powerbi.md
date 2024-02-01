@@ -10,13 +10,13 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# Building Power BI Reports to Display [!INCLUDE [prod_long](includes/prod_long.md)] Data
+# <a name="building-power-bi-reports-to-display--data"></a>Building Power BI Reports to Display [!INCLUDE [prod_long](includes/prod_long.md)] Data
 
 You can make your [!INCLUDE[prod_long](includes/prod_long.md)] data available as a data source in Power BI Desktop and build powerful reports of the state of your business.
 
 This article describes how to get started using Power BI Desktop to create reports that display [!INCLUDE[prod_long](includes/prod_long.md)] data.  After you create reports, you can publish them to your Power BI service, or share them with all users in your organisation. Once these reports are in the Power BI service, users that are set up for it, can then view the reports in [!INCLUDE[prod_long](includes/prod_long.md)].
 
-## Get ready
+## <a name="get-ready"></a>Get ready
 
 - Sign up for the Power BI service.
 
@@ -45,7 +45,7 @@ This article describes how to get started using Power BI Desktop to create repor
 
 [!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
-## <a name="getdata"></a>Add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in Power BI Desktop
+## <a name="add--as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>Add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in Power BI Desktop
 
 The first task in creating reports is to add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in Power BI Desktop. Once connected, you can start to build the report.
 
@@ -99,39 +99,39 @@ Once the data is loaded, you can see it in the right navigation on the page. At 
 > [!TIP]
 > For more information about using Power BI Desktop, see [Get started with Power BI Desktop](/power-bi/fundamentals/desktop-getting-started).
 
-## Creating accessible reports
+## <a name="creating-accessible-reports"></a>Creating accessible reports
 
 It's important to make your reports usable for as many people as possible. Try to design reports so that they don't require any special adaption to meet specific needs of different users. Make sure the design lets users take advantage of standard assistive technologies, like screen readers. Power BI includes various accessibility features, tools, and guidelines to help you achieve this goal. For more information, [Design Power BI reports for accessibility](/power-bi/create-reports/desktop-accessibility-creating-reports) in the Power BI documentation.
 
-## Creating reports to display data associated with a list
+## <a name="creating-reports-to-display-data-associated-with-a-list"></a>Creating reports to display data associated with a list
 
 You can create reports that display in a FactBox of a [!INCLUDE [prod_short](includes/prod_short.md)] list page. The reports can contain data about the record selected in the list. Creating these reports is similar to other reports, except there are a few things you'll have to do to make sure the reports display as expected. For more information, see [Creating Power BI Reports for Displaying List Data in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
 
-## <a name="theme"></a>Using the [!INCLUDE [prod_short](includes/prod_short.md)] report theme (optional)
+## <a name="using-the--report-theme-optional"></a><a name="theme"></a>Using the [!INCLUDE [prod_short](includes/prod_short.md)] report theme (optional)
 
 Before building your report, we recommend that you download and import the [!INCLUDE [prod_short](includes/prod_short.md)] theme file. The theme file creates a colour palette so you can build reports with the same colour styling as the [!INCLUDE [prod_short](includes/prod_short.md)] apps, without requiring you to define custom colours for each visual.
 
 > [!NOTE]
 > This task is optional. You can always create your reports, and then download and apply the style template later.
 
-### Download the theme
+### <a name="download-the-theme"></a>Download the theme
 
 The theme file is available as a json file on Microsoft Power BI Community Themes Gallery. To download the theme file, do the following steps:
 
 1. Go to [Microsoft Power BI Community Themes Gallery for Microsoft Dynamics 365 Business Central](https://community.powerbi.com/t5/Themes-Gallery/Microsoft-Dynamics-365-Business-Central/m-p/385875).
 2. Select the download attachment **Microsoft Dynamics Business Central.json**.
 
-### Import the theme on a report
+### <a name="import-the-theme-on-a-report"></a>Import the theme on a report
 
 After you've downloaded the [!INCLUDE [prod_short](includes/prod_short.md)] report theme, you can import it to your reports. To import the theme, Select the **View** > **Themes** > **Browse for themes**. For more information, see [Power BI Desktop - Import custom report themes](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
 
-## Publish reports
+## <a name="publish-reports"></a>Publish reports
 
 After you've created or modified a report, you can publish the report to your Power BI service and also share it with others in your organisation. Once published, you'll see the report in Power BI. The report also becomes available for selection in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 To publish a report, select **Publish** on the **Home** tab of the ribbon or from the **File** menu. If you're signed into Power BI service, the report is published to this service. Otherwise, you're prompted to sign in. 
 
-## Distribute or share a report
+## <a name="distribute-or-share-a-report"></a>Distribute or share a report
 
 There are a couple ways to get reports to your coworkers and others:
 
@@ -146,9 +146,9 @@ There are a couple ways to get reports to your coworkers and others:
 
     If you have a Power BI Pro licence, you can share the report to others, directly from your Power BI service. For more information, see [Power BI - Share a dashboard or report](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
-## Fixing problems
+## <a name="fixing-problems"></a>Fixing problems
 
-### "Cannot insert a record. Current connection intent is Read-Only." error connecting to custom API page
+### <a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"Cannot insert a record. Current connection intent is Read-Only." error connecting to custom API page
 
 > **APPLIES TO:** Business Central online
 
@@ -179,7 +179,7 @@ Starting in February 2022, new reports that use Business Central data will conne
 9. Select **Done**.
 10. Select **Close & Apply** from the ribbon to save the changes and close Power Query Editor.
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Enabling Your Business Data for Power BI](admin-powerbi.md)  
 [Business Intelligence](bi.md)  

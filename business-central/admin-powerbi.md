@@ -11,7 +11,7 @@ ms.author: jswymer
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Introduction to [!INCLUDE[prod_short](includes/prod_short.md)] and Power BI
+# <a name="introduction-to--and-power-bi"></a>Introduction to [!INCLUDE[prod_short](includes/prod_short.md)] and Power BI
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -19,7 +19,7 @@ It's easy to get insights into your [!INCLUDE[prod_short](includes/prod_short.md
 
 ![Power BI and Business Central.](media/power-bi-intro.png)
 
-## What you can do with Power BI and [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="what-you-can-do-with-power-bi-and-"></a>What you can do with Power BI and [!INCLUDE[prod_short](includes/prod_short.md)]
 
 There are various features for working with [!INCLUDE[prod_short](includes/prod_short.md)] and Power BI. Some things you can do from Power BI, while other things are done from [!INCLUDE[prod_short](includes/prod_short.md)]. Also, some features are only available with [!INCLUDE[prod_short](includes/prod_short.md)] online, not on-premises. The following table gives you an overview.
 
@@ -33,7 +33,7 @@ There are various features for working with [!INCLUDE[prod_short](includes/prod_
 
 <a name="onprem"><sup>*</sup></a> This feature requires a registered application for Business Central in Microsoft Azure. For more information, see [Registering Business Central on-premises in Microsoft Entra ID for integrating with other services](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
-## Get ready to use Power BI
+## <a name="get-ready-to-use-power-bi"></a>Get ready to use Power BI
 
 There are a few tasks that must be done before you can start using Power BI with [!INCLUDE[prod_short](includes/prod_short.md)]. <!-- Some of the tasks are typically only done by administrators or super users.--> The tasks will depend on your role in your organisation, and what you want to do with Power BI:
 
@@ -48,7 +48,7 @@ There are a few tasks that must be done before you can start using Power BI with
 |Expose Business Central data to Power BI||![it's a checkmark.](media/check.png)|![again a checkmark](media/check.png)|[Expose data through API pages or OData web services](admin-powerbi-setup.md#exposedata)
 |Enable Power BI integration<br />(on-premises only)||![it's a checkmark.](media/check.png)||[Set up Business Central on-premises for Power BI integration](admin-powerbi-setup.md#setup)|
 
-## Track your business KPIs with Power BI metrics
+## <a name="track-your-business-kpis-with-power-bi-metrics"></a>Track your business KPIs with Power BI metrics
 
 If you use Power BI on [!INCLUDE[prod_short](includes/prod_short.md)] data, it's easy to track KPIs or metrics that are important to you. 
 
@@ -68,12 +68,12 @@ Learn more about Power BI metrics at [Get started with metrics in Power BI](/pow
 > [!NOTE]
 > Starting with Business Central 2023 release wave 2, it's possible to embed scorecards from Power BI metrics in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Next steps
+## <a name="next-steps"></a>Next steps
 
 - If you're an admin who needs to set up Power BI in [!INCLUDE[prod_short](includes/prod_short.md)], go to [Enabling Power BI Integration](admin-powerbi-setup.md).
 - If Power BI is already set up, and you want to try the features, go to [Work with Power BI Reports in Business Central](across-working-with-powerbi.md).
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Business Intelligence](bi.md)  
 [Set Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  

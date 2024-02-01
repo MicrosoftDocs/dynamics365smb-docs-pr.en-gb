@@ -9,7 +9,7 @@ ms.date: 02/27/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations
+# <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], you receive items and put them away using one of four methods, as described in the following table.
 
@@ -24,7 +24,7 @@ Learn more at [Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)
 
 The following walkthrough demonstrates method B in the previous table.  
 
-## About this walkthrough  
+## <a name="about-this-walkthrough"></a>About this walkthrough
 
 In basic warehouse configurations where your location is set up to require put-away processing but not receive processing, use the **Inventory Put-away** page to record and post put-away and receipt information for your inbound source documents. The following documents are inbound source documents:
 
@@ -51,7 +51,7 @@ This walkthrough demonstrates the following tasks:
 > [!NOTE]
 > [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
-## Roles  
+## <a name="roles"></a>Roles
 
 The following user roles perform the tasks that this walkthrough demonstrates:  
 
@@ -59,7 +59,7 @@ The following user roles perform the tasks that this walkthrough demonstrates:
 * Purchasing Agent  
 * Warehouse Worker  
 
-## Prerequisites  
+## <a name="prerequisites"></a>Prerequisites
 
 To complete this walkthrough, you'll need:  
 
@@ -71,15 +71,15 @@ To complete this walkthrough, you'll need:
     3. In the **Location Code** field, choose **SILVER**.  
     4. Select the **Default** checkbox.  
 
-## Story  
+## <a name="story"></a>Story
 
 Ellen, the warehouse manager at CRONUS International Ltd., creates a purchase order for 10 units of item LS-75 and 30 units of item LS-81 from vendor 10000 to be delivered to SILVER Warehouse. When the delivery arrives at the warehouse, John, the warehouse worker, puts the items away in the default bins defined for the items. When John posts the put-away, the items are posted as received into inventory and available for sale or other demand.  
 
-## Setting up the location  
+## <a name="setting-up-the-location"></a>Setting up the location
 
 Settings on the **Location Card** page define the company's warehouse flows.  
 
-### To set up the location  
+### <a name="to-set-up-the-location"></a>To set up the location
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
 2. Open the SILVER location card.  
@@ -96,11 +96,11 @@ Settings on the **Location Card** page define the company's warehouse flows.
 7. Select the **Fixed** and the **Default** fields.  
 8. In the **Item No.** field, enter **LS-81**.  
 
-## Create the purchase order  
+## <a name="create-the-purchase-order"></a>Create the purchase order
 
 Purchase orders are the most common type of inbound source document.  
 
-### To create the purchase order  
+### <a name="to-create-the-purchase-order"></a>To create the purchase order
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
 2. Choose the **New** action.  
@@ -120,11 +120,11 @@ Purchase orders are the most common type of inbound source document.
 
     The delivery of loudspeakers from vendor 10000 has arrived at SILVER warehouse, and John proceeds to put them away.  
 
-## Receive and put the items away  
+## <a name="receive-and-put-the-items-away"></a>Receive and put the items away
 
 Use the **Inventory Put-away** page to manage all inbound warehouse activities for a specific source document, such as a purchase order.  
 
-### To receive and put the items away  
+### <a name="to-receive-and-put-the-items-away"></a>To receive and put the items away
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Put-aways**, and then choose the related link.  
 2. Choose the **New** action.  
@@ -141,7 +141,7 @@ Use the **Inventory Put-away** page to manage all inbound warehouse activities f
 
     The 40 loudspeakers are now registered as put away in bin S-01-0001, and a positive item ledger entry is created reflecting the posted purchase receipt.  
 
-## See Also  
+## <a name="see-also"></a>See Also
 
 [Put Items Away with Stock Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md)  
 [Set Up Basic Warehouses with Operations Areas](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)  

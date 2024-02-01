@@ -10,11 +10,11 @@ ms.date: 12/28/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Process Sales Opportunities
+# <a name="process-sales-opportunities"></a>Process Sales Opportunities
 
 After you create an opportunity, there are several features for managing the opportunity and moving it through to completion.
 
-## View opportunities
+## <a name="view-opportunities"></a>View opportunities
 
 Existing sale opportunities are available on the **Opportunity List** page. The following table describes ways to access the page to process sales opportunities.
 
@@ -26,7 +26,7 @@ Existing sale opportunities are available on the **Opportunity List** page. The 
 
 Each of these tasks opens the **Opportunity List** page.
 
-## Close opportunities
+## <a name="close-opportunities"></a>Close opportunities
 
 You can close opportunities when the negotiations are over. When you close an opportunity, you can specify whether it was won or lost, and the reasons for closing it. To specify a reason, you must set up closed opportunity codes.
 
@@ -37,7 +37,7 @@ You can close opportunities when the negotiations are over. When you close an op
 
    In the **Close Opportunity Code** field, you can choose from one of the existing close opportunity codes or add a new code. To add a new code, from the drop-down list, choose **Select from full list**, and then choose **new**. On the new blank line, fill in the **Code**, **Type**, and **Description** fields, and then choose the **OK** button.
 
-## Create quotes for opportunities
+## <a name="create-quotes-for-opportunities"></a>Create quotes for opportunities
 
 > [!NOTE]
 > You can only create sales quotes from opportunities where the contact type is Company.
@@ -45,7 +45,7 @@ You can close opportunities when the negotiations are over. When you close an op
 1. On the **Opportunity List** page, select the opportunity, and then choose the **Assign Sales Quote** action. The **Sales Quote** page opens.
 2. Fill in the relevant fields.
 
-## Create sales orders for opportunities
+## <a name="create-sales-orders-for-opportunities"></a>Create sales orders for opportunities
 
 You can make sales orders from the sales quotes that you have created for your opportunities. Before you can create sales orders for your contacts, you must create the contact as a customer. For more information, see [Create Contacts](marketing-create-contact-companies.md).
 
@@ -55,7 +55,7 @@ You can make sales orders from the sales quotes that you have created for your o
 
 When handling sales opportunities, you may need to create a quote for the contact that the opportunity is linked to.
 
-## Delete opportunities
+## <a name="delete-opportunities"></a>Delete opportunities
 
 You can delete opportunities, for example, after you conclude a deal. However, you can only delete closed opportunities. There are two ways to delete closed opportunities. You can delete individual closed opportunities from the **Opportunity List** page or you can run the **Delete Opportunities** batch job to delete multiple opportunities based on specified criteria.
 
@@ -69,7 +69,7 @@ To delete closed opportunities by using the **Delete Opportunities** batch job, 
 
 After you delete an opportunity, it's removed it from the **Opportunity List** page.
 
-## Move an opportunity through sales cycle stages
+## <a name="move-an-opportunity-through-sales-cycle-stages"></a>Move an opportunity through sales cycle stages
 
 If an opportunity follows a sales cycle, you can move it to the next or previous stage, and even skip a stage.
 
@@ -82,7 +82,7 @@ If an opportunity follows a sales cycle, you can move it to the next or previous
    * **Update** enables you to change information (such as to modify your evaluation of their chances of success and estimated values) without moving to another stage.
 3. Fill in the other fields as needed, and then choose the **OK** button.
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Sales](sales-manage-sales.md)  
 [Creating and Managing Contacts](marketing-contacts.md)  

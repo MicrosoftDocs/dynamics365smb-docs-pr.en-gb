@@ -12,7 +12,7 @@ ms.author: altotovi
 ms.reviewer: kfend
 ---
 
-# Audit file export
+# <a name="audit-file-export"></a>Audit file export
 
 Export of bookkeeping information from the system is a common request by some local authorities or auditors. Exports of formats and required information can differ. Entries for export are usually General ledger (G/L) entries or value-added tax (VAT) entries. However, other information is sometimes required.
 
@@ -21,7 +21,7 @@ Export of bookkeeping information from the system is a common request by some lo
 > [!NOTE]
 > Currently, you can select SIE (Sweden), FEC (France), and SAF-T format as an additional app. Partners can also develop a custom format. The number of available formats will increase over time.
 
-## Set up audit file export
+## <a name="set-up-audit-file-export"></a>Set up audit file export
 
 1. Select the search button ![Magnifying glass button that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), enter **Audit File Export Setup**, and then select the related link.
 2. On the **Audit File Export Setup** page, follow these steps:
@@ -42,7 +42,7 @@ Export of bookkeeping information from the system is a common request by some lo
     2. In the **Audit File Name** field, specify the default file name or the file name template for the audit file that you want to export.
     3. Select the **Archive to Zip** checkbox to automatically zip exported files.
 
-## Provide the G/L account mapping for audit file export
+## <a name="provide-the-gl-account-mapping-for-audit-file-export"></a>Provide the G/L account mapping for audit file export
 
 Most formats that are required by authorities for G/L accounts require a specific standard chart of accounts. Therefore, after you configure your G/L accounts, your exported file will be based on the mappings. You can use more mappings in your system.
 
@@ -67,7 +67,7 @@ Follow these steps to provide the G/L account mapping for audit file export.
     1. To generate lines on the **G/L Account Mapping** page, based on an existing chart of accounts, select **Initialise Source for Mapping**. To copy the G/L account mapping from some another mapping code, select **Copy from Another Mapping**. When you've finished creating lines, all G/L accounts that have posted entries will be marked in green.
     2. To mark only G/L accounts that have entries, select **Update G/L Entry Availability**. If the **Include Incoming Balance** option is enabled, all posted G/L entries are considered for calculation. Otherwise, only G/L entries of the reporting period are considered.
 
-## Export the audit file
+## <a name="export-the-audit-file"></a>Export the audit file
 
 1. Select the search button ![Magnifying glass button that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), enter **Audit File Export Documents**, and then select the related link.
 2. On the **Audit File Export Documents** page, select **New**.
@@ -95,7 +95,7 @@ Follow these steps to provide the G/L account mapping for audit file export.
 > [!IMPORTANT]
 > If you have multiple entries to export, we don't recommend that you export them in the current session, because of possible performance issues. Instead, we recommend that you use parallel processing during non-working days or hours.
 
-## See also 
+## <a name="see-also"></a>See also
 [Financial Management](finance.md)  
 [Understanding the General Ledger and Chart of Accounts](finance-general-ledger.md)  
 [Work with Dimensions](finance-dimensions.md)  

@@ -9,14 +9,14 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Set Up Contacts
+# <a name="set-up-contacts"></a>Set Up Contacts
 When creating contacts, you can enter specific information, such as the industry that the contact belong to and your business relationship with the contacts.
 
 Before you create contacts and record details about your business relationships, you must set up the different codes that you will use to assign this information to your contact companies and people. Codes can be set up for mailing groups, industry groups, business relationships, Web sources, organisational levels and job responsibilities. You can set these up by choosing the **New** action as you look up to the lists from the contact card.  
 
 By having this information set up, creating contacts is much more organised and being able to find all contacts based on a certain group will be more efficient. Every group at your company will be able to find the is information making communication with the contacts more successful.
 
-## To assign industry groups to a contact
+## <a name="to-assign-industry-groups-to-a-contact"></a>To assign industry groups to a contact
 You use industry groups to indicate the type of industry to which your contacts belong, for example, the retail industry or the automobile industry.
 
 > [!NOTE]
@@ -34,7 +34,7 @@ The number of industry groups that you have assigned to the contact is displayed
 
 After you have assigned industry groups to your contacts, you can use this information to select contacts for your segments. For more information, see [Add Contacts to Segments](marketing-add-contact-segment.md).
 
-## To assign mailing groups to a contact
+## <a name="to-assign-mailing-groups-to-a-contact"></a>To assign mailing groups to a contact
 You can use mailing groups to identify groups of contacts that you want to receive the same information. For example, you can set up a mailing group for the contacts that you want to send a notification of an office move, or another group for sending holiday gifts.
 
 The mailing group code defines the type or category of the group, such as MOVE for office move, or GIFT for holiday gift. You can have several industry group codes. To define the industry groups, you use the **Mailing Groups** page.
@@ -49,7 +49,7 @@ The number of mailing groups you have assigned to the contact is displayed in th
 
 After you have assigned mailing groups to your contacts, you can use this information to select contacts for your segments. For more information, see [Add Contacts to Segments](marketing-add-contact-segment.md).
 
-## To define a contact's alternate address
+## <a name="to-define-a-contacts-alternate-address"></a>To define a contact's alternate address
 You can assign an alternate address where your contact sometimes wants to receive mail and information, for example, their summer cottage. You can also assign one or several date ranges to each alternate address you have entered for your contacts to specify when each address is valid.
 
 1. Open the relevant contact card.
@@ -60,7 +60,7 @@ You can assign an alternate address where your contact sometimes wants to receiv
 
 Repeat these steps to assign as many alternate addresses as you want. For each alternate address you may want to specify one or several date ranges.
 
-## To assign job responsibilities to a contact
+## <a name="to-assign-job-responsibilities-to-a-contact"></a>To assign job responsibilities to a contact
 You can add information about the job responsibilities of contact persons to indicate what the contact person is responsible for within their company, for example, IT, management, or production. You can use this information when entering information about your contacts.
 
 > [!NOTE]
@@ -78,7 +78,7 @@ The number of job responsibilities you have assigned to the contact is displayed
 
 After you have assigned job responsibilities to your contacts, you can use this information to select contacts for your segments. For more information, see [Add Contacts to Segments](marketing-add-contact-segment.md).
 
-## To assign organisational levels to a contact
+## <a name="to-assign-organizational-levels-to-a-contact"></a>To assign organisational levels to a contact
 You can use organisational levels on your contacts to specify which position they have in the company, for example, top management. You can use this information when entering information about your contacts.
 
 > [!NOTE]
@@ -93,7 +93,7 @@ After you have assigned organisational levels to your contacts, you can use this
 
 After you have assigned job responsibilities to your contacts, you can use this information to select contacts for your segments. For more information, see [Add Contacts to Segments](marketing-add-contact-segment.md).
 
-## To assign web sources to a contact
+## <a name="to-assign-web-sources-to-a-contact"></a>To assign web sources to a contact
 You can use web sources with your contact companies to identify, for example, search engines and web sites, on the Internet that you want to use to search for information about the contacts. When assigning web sources, you specify which search engine and search word the application will use to find the requested information.
 
 > [!NOTE]
@@ -108,7 +108,7 @@ When assigning web sources, you specify which search engine and search word that
 
 Repeat these steps to assign as many web sources as you want.
 
-## To assign business relations to a contact
+## <a name="to-assign-business-relations-to-a-contact"></a>To assign business relations to a contact
 You can use business relations to indicate the business relationship you have with your contacts, for example, a prospect, bank, consultant, service supplier, and so on.
 
 > [!NOTE]
@@ -124,29 +124,29 @@ The number of business relations you have assigned to the contact is displayed i
 
 After you have assigned business relations to your contacts, you can use this information to select contacts for your segments. For more information, see [Add Contacts to Segments](marketing-add-contact-segment.md).
 
-## Automatically Copying Specific Information from Contact Companies to Contact Persons
+## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a>Automatically Copying Specific Information from Contact Companies to Contact Persons
 Some information about contact companies is identical to the information about the contact persons working within these companies, for example, the address details. On the **Inheritance** FastTab on the **Marketing Setup** page, you can specify which fields on the contact card for a company is copied to the contact card for a person each time you create a contact person for the contact company.
 
 When you modify one of these fields on the contact company card, the same fields on the contact person card are updated, unless you have manually modified the field on the contact person card.
 
 For more information, see [Create Contacts](marketing-create-contact-companies.md).
 
-## Use Predefined Defaults on New Contacts
+## <a name="use-predefined-defaults-on-new-contacts"></a>Use Predefined Defaults on New Contacts
 You can decide that the application automatically assigns a specific language code, county code, salesperson code, and country/region code as defaults to each new contact you create. You can also enter a default sales cycle code that application automatically assigns to each new opportunity you create. You set this up on the On the **Defaults** FastTab on the **Marketing Setup** page
 
 The inheritance of fields overwrites the default values you have set up. For example, if you have set up English as the default language, but the contact company's language is German, application will automatically assign German as the language code for the contact persons recorded for that company.
 
-## Synchronising Contacts with Customers, Vendors, and Bank Accounts
+## <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Synchronising Contacts with Customers, Vendors, and Bank Accounts
 In order to synchronise the contact card with a linked customer, vendor, or bank account card, you must fill in the relevant field in the **Bus. Relation Code for** section on the **Interactions** FastTab on the **Marketing Setup** page.  
 
 For more information, see [Synchronising contacts with customers, vendors, and bank accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
 
-## Searching for Duplicate Contacts
+## <a name="searching-for-duplicate-contacts"></a>Searching for Duplicate Contacts
 You can choose to have application automatically search for duplicates each time you create a contacts, or you can choose to search manually after you have created contacts. You can also choose to have application update the search strings automatically each time you modify contact information or create a contact. You can decide the search hit percentage, that is, the percentage of identical strings two contacts must have for application to consider them as duplicates. You set this up on the **Duplicates** FastTab on the **Marketing Setup** page.
 
 When you have found a duplicate contact, you can use the **Merge Duplicate** page to merge it into an existing contact record that you want to keep. For more information, see [Merge Duplicate Records](sales-how-merge-duplicate-records.md).
 
-## See Also
+## <a name="see-also"></a>See Also
 [Managing Contacts](marketing-contacts.md)  
 [Create Contacts](marketing-create-contact-companies.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  

@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# The Basic Experience extension
+# <a name="the-basic-experience-extension"></a>The Basic Experience extension
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -23,7 +23,7 @@ This extension is intended for small businesses and can support up to three user
 > [!NOTE]
 > As of now, this extension is available only to customers in Denmark and Iceland.
 
-## What's available
+## <a name="whats-available"></a>What's available
 
 The following table describes the capabilities that are available if you install the Basic Experience extension.
 
@@ -35,7 +35,7 @@ The following table describes the capabilities that are available if you install
 |**Project Management** |Jobs, job pricing, time sheets, assignments, tasks, resources |
 |**Inventory** |Basic inventory, item substitutions, item cross reference |
 
-## Getting started
+## <a name="getting-started"></a>Getting started
 
 This extension is a bit different than most, and you'll need help from a Microsoft partner to install and set it up. So that you know what to expect, here's a high-level view of what the Microsoft partner does.
 
@@ -46,11 +46,11 @@ This extension is a bit different than most, and you'll need help from a Microso
 5. Add the **Demo RapidStart** package. <!--what does the package contain?-->
 6. Download and install the Basic Experience extension from AppSource.
 
-## Migrating data
+## <a name="migrating-data"></a>Migrating data
 
 Bring your Dynamics C5 data along. After your Microsoft partner installs the Basic Experience extension, you'll have an empty company. An easy way to move your data from Dynamics C5 to Basic Experience is to use the C5 Data Migration extension, which is included in [!INCLUDE[prod_short](includes/prod_short.md)]. The extension migrates customers, vendors, items, and your general ledger accounts and their entries.
 
-## See also 
+## <a name="see-also"></a>See also
 
 [The C5 Data Migration Extension](ui-extensions-c5-data-migration.md)  
 

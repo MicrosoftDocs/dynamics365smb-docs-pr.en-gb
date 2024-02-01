@@ -11,7 +11,7 @@ ms.date: 06/10/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Edit Posted Documents
+# <a name="edit-posted-documents"></a>Edit Posted Documents
 
 Sometimes you have to update a posted document because information that is relevant to the document has changed. On a posted sales document, this can be the shipping agent's package tracking number, for example. On a posted purchase document, this can be a payment reference text.
 
@@ -31,7 +31,7 @@ The following additional documents can be edited in the specified countries or r
 - RU: Posted Sales Credit Memo
 - IT: Posted Transfer Shipment, Posted Service Shipment
 
-## To edit a posted sales shipment
+## <a name="to-edit-a-posted-sales-shipment"></a>To edit a posted sales shipment
 
 The following explains how to edit a posted sales shipment. The steps are similar for the other supported documents.
 
@@ -42,7 +42,7 @@ The following explains how to edit a posted sales shipment. The steps are simila
 
 The posted sales shipment is updated.
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Posting Documents and Journals](ui-post-documents-journals.md)  
 [Find Related Entries for Documents](ui-find-entries.md)  

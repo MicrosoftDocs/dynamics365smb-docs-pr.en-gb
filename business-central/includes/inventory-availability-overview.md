@@ -26,11 +26,11 @@ The information also respects other factors that affect availability. For exampl
 > [!NOTE]
 > This capability requires that you turn on the **Directed Put-away and Pick** toggle for the locations you use in your picking process.
 
-### Set up previews
+### <a name="set-up-previews"></a>Set up previews
 
 To get details on what's being picked and what isn't, turn on the **Show Summary (Directed Put-away and Pick)** toggle on the **Whse.-Source - Create Document** or **Whse.-Shipment - Create Pick** request pages.
 
-### Determine the quantity you can pick
+### <a name="determine-the-quantity-you-can-pick"></a>Determine the quantity you can pick
 
 On lines on the **Create Warehouse Pick Summary** page, the **Qty. to Handle (Base)** field shows which, and how many, items [!INCLUDE [prod_short](prod_short.md)] tried to pick. The **Summary** FactBox provides more details.
 
@@ -57,7 +57,7 @@ The following image illustrates the maximum quantity considered for picking.
 |B     |Bins with content of type Pick with blocked outbound movement         |
 |O     |Other bins         |
 
-### Reservations
+### <a name="reservations"></a>Reservations
 
 If there are reservations for the item being picked, then calculation continues. The idea is that reserved demand has higher priority than non-reserved, which means that picking for non-reserved demand shouldn't prevent picking for reserved demand later.
 
@@ -75,7 +75,7 @@ These quantities might be available, but you might not be able to pick them yet.
 
 The difference between **Avail. Qty. Excluding Shipment Bin** and reserved quantity in warehouse is the quantity available for picking without impacting reserved stock.
 
-### Other details
+### <a name="other-details"></a>Other details
 
 If items require item tracking, you can also find the quantity in blocked lots or serial numbers, which causes the following reductions:
 

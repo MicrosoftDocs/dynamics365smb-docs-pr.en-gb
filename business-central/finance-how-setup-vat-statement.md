@@ -10,11 +10,11 @@ ms.date: 06/16/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Set Up VAT Statement Templates and VAT Statement Names
+# <a name="set-up-vat-statement-templates-and-vat-statement-names"></a>Set Up VAT Statement Templates and VAT Statement Names
 
 Tax authorities can, and do, change their requirements for posting VAT. VAT Statement templates and VAT statement names can help you prepare for upcoming changes and make a smooth transition to the new requirements. You can use VAT statement templates to setup different Reports when choosing to print the statement. Each VAT Statement Template can have multiple Vat Statement names which in turn define the calculations, and you can create a new VAT statement name when requirements change. For example, one name might calculate VAT for this year based on the current requirements, and another might calculate VAT based on requirements for next year. Names are also a way to keep a history of VAT statement formats, for example, so that you can look back to see how you calculated VAT in previous years.
 
-## To define a VAT statement
+## <a name="to-define-a-vat-statement"></a>To define a VAT statement
 
 VAT statements let you calculate your VAT settlement amount for a certain period, for example, a quarter.
 
@@ -26,7 +26,7 @@ VAT statements let you calculate your VAT settlement amount for a certain period
 > You can filter the information that the statement will include, depending on what you choose in the **Type** field. **Account Totalling** is useful when you want the VAT from a specific account.
 **VAT Entry Totalling** gets VAT from the accounts assigned to the selections in the **Gen. Posting Type**, **VAT Bus. Posting Group**, and/or the **VAT Prod. Posting Group** fields. **Row Totalling** lets you enter a value or quick filter criteria in the **Row Totalling** field. For more information, see [Searching, filtering, and Sorting Data](ui-enter-criteria-filters.md). **Description** is often used to add a note to the statement. For example, you could use it as a heading when you've used row totalling.
 
-## To preview the VAT statement
+## <a name="to-preview-the-vat-statement"></a>To preview the VAT statement
 
 After you define a VAT statement, you can preview it to make sure it meets your needs.
 > [!Tip]
@@ -38,7 +38,7 @@ After you define a VAT statement, you can preview it to make sure it meets your 
 4. On the lines where the **Type** field contains **VAT Entry Totalling** you can see a list of VAT entries by choosing the amount in the **Column Amount** field.
 5. You can use personalisation to show more fields in the lines. For example the Unrealised Base Amount and Unrealised VAT Amount, if you are using Unrealised VAT.
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Set Up Value-Added Tax](finance-setup-vat.md)  
 [Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)  

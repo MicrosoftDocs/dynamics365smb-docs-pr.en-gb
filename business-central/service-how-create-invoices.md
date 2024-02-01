@@ -9,10 +9,10 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Create Service Invoices or Credit Memos
+# <a name="create-service-invoices-or-credit-memos"></a>Create Service Invoices or Credit Memos
 Ease in invoicing your service orders is a key feature of [!INCLUDE[prod_short](includes/prod_short.md)]. You can set up your [!INCLUDE[prod_short](includes/prod_short.md)] so that a service technician in the field can create an invoice for a service that is not connected to a contract or order. Alternatively, set up [!INCLUDE[prod_short](includes/prod_short.md)] so that you invoice service contracts periodically. The invoice period for each contract defines how often you invoice it.
 
-## To invoice several service contracts
+## <a name="to-invoice-several-service-contracts"></a>To invoice several service contracts
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Service Contract Invoices**, and then choose the related link.  
 2. Set the filters you want to apply.  
@@ -23,7 +23,7 @@ Ease in invoicing your service orders is a key feature of [!INCLUDE[prod_short](
   
 You can also invoice a service contract directly from the **Service Contract** page, if the next invoice date on the contract is earlier than the working date.
 
-## To invoice a service contract from the Service Contract page   
+## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>To invoice a service contract from the Service Contract page
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Contracts**, and then choose the related link.  
 2. Choose the service contract to invoice, and open the contract card.  
 3. Choose **Create Service Invoice** action. 
@@ -32,7 +32,7 @@ You can also invoice a service contract directly from the **Service Contract** p
   > [!NOTE]  
   > You cannot create service invoices for the service contract when the **Change Status** field value is set to **Open**.  
 
-## To post an invoice from a service order  
+## <a name="to-post-an-invoice-from-a-service-order"></a>To post an invoice from a service order
 The following procedure describes how to define the part of service that you will charge the customer for.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders**, and then choose the related link.  
@@ -51,7 +51,7 @@ The following procedure describes how to define the part of service that you wil
   
  When you post the order with the **Invoice** option, a posted service invoice is created along with the corresponding ledger entries and updates to the relevant fields on the service lines of the order. In addition, previously posted shipment documents are updated with the quantities that have been invoiced. If you select the **Ship and Invoice** posting option, a posted shipment is created.
 
-## To create a service invoice manually  
+## <a name="to-create-a-service-invoice-manually"></a>To create a service invoice manually
 Typically, after you post a service order with the **Invoice** or **Ship and Invoice** option, a service invoice is posted automatically. Yet, you may need to issue an invoice that is not linked either to a service contract or to a service order. This procedure explains how to issue an invoice at the same time that the customer receives the service.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Invoices**, and then choose the related link.  
@@ -69,7 +69,7 @@ Typically, after you post a service order with the **Invoice** or **Ship and Inv
 6. Fill in the **Document Date** field. The date you enter here will appear on the printed invoice and will be used to calculate the due date.  
 7. Fill in the service lines of the invoice. Fill in the **Type**, **No.**, and **Quantity** fields to register items, resources and costs that have been used in servicing. 
 
-## To create an invoice that combines posted shipment lines from one or more service orders 
+## <a name="to-create-an-invoice-that-combines-posted-shipment-lines-from-one-or-more-service-orders"></a>To create an invoice that combines posted shipment lines from one or more service orders
 You might need to create a service invoice for the service that has already been shipped, either from one or several service orders, but not yet invoiced or consumed. You can fill in the invoice lines automatically with the selected posted shipment lines for a specific customer.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Invoices**, and then choose the related link.  
@@ -79,7 +79,7 @@ You might need to create a service invoice for the service that has already been
   
  The posted service invoice and the corresponding ledger entries are created. Previously posted shipment documents are updated with the invoiced quantities and the relevant quantities on the service lines of the source orders.  
 
-## To create a service credit memo  
+## <a name="to-create-a-service-credit-memo"></a>To create a service credit memo
 A service credit memo document is typically used when a customer returns an item, but it can also be used to give a customer some compensation or to correct an erroneous invoice.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Credit Memos**, and then choose the related link.  
@@ -87,7 +87,7 @@ A service credit memo document is typically used when a customer returns an item
 3. The **Posting Date** and **Document Date** fields display the work date. If needed, you can change it.    
 4. On the credit memo lines, enter information about the items that have been returned or removed, or the compensation that will be given to the customer.  
 
-## See Also
+## <a name="see-also"></a>See Also
 [Post Service Invoices](service-how-to-post-service-orders.md)  
 [Setting Up Service Management](service-setup-service.md)  
 [Service Posting](service-service-posting.md)  

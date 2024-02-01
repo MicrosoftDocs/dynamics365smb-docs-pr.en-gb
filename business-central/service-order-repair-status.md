@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Set Up Statuses for Service Orders and Repairs
+# <a name="set-up-statuses-for-service-orders-and-repairs"></a>Set Up Statuses for Service Orders and Repairs
 
 You must set up repair status options that identify the progress of repair and maintenance of service items in service orders. You must set up at least nine repair status options that identify situations or actions taken when servicing service items.  
 
@@ -19,7 +19,7 @@ When you change the repair status of a service item in a service order, the serv
 
 Before you can set up a repair status, you must set up service status priorities.
 
-## To set up service status priorities
+## <a name="to-set-up-service-status-priorities"></a>To set up service status priorities
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Order Status**, and then choose the related link.  
 2. Select the service order status you want to set a priority for.  
@@ -27,7 +27,7 @@ Before you can set up a repair status, you must set up service status priorities
 
 Repeat steps 2 and 3 until you have set the priority for each of the four status options: **Pending**, **In Progress**, **Finished**, and **On Hold**.  
 
-## To set up a repair status
+## <a name="to-set-up-a-repair-status"></a>To set up a repair status
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Repair Status**, and then choose the related link.
 2. Create a new repair status.  
@@ -40,7 +40,7 @@ Repeat steps 2 and 3 until you have set the priority for each of the four status
 
 Repeat these steps for each of the repair status options you want to create.
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Service Order Status and Repair Status](service-service-order-status-and-repair-status.md)  
 [Setting Up Service Management](service-setup-service.md)  

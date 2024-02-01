@@ -9,7 +9,7 @@ ms.date: 07/06/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Send Remittance Advice
+# <a name="send-remittance-advice"></a>Send Remittance Advice
 
 Where remittance advice is used to notify vendors of payments being made, you can now email remittance advice in bulk from the payment journal as well as resend after payments are made from vendor ledger entries by using document sending profiles.
 
@@ -21,7 +21,7 @@ You can send remittance advice in two different ways:
 * In the **Payment Journal** page, choose **Related**, **Payments**, **Send Remittance Advice** to email remittance advice for one or multiple payment journal lines
 * In the **Supplier Ledger Entries** page, choose **Actions**, **Functions**, **Send Remittance Advice** to email remittance advice after posting of vendor payments, for one or multiple vendor ledger entries
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Suggest Supplier Payments](payables-how-suggest-vendor-payments.md)  
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions ](ui-extensions.md)  

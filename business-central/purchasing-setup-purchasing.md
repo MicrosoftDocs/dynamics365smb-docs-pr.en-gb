@@ -10,7 +10,7 @@ ms.date: 08/30/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Setting Up Purchasing
+# <a name="setting-up-purchasing"></a>Setting Up Purchasing
 
 Before you can manage purchase processes, you must configure the rules and values that define the company's purchase policies.
 
@@ -20,11 +20,11 @@ A separate series of tasks related to registering new vendors is to record any s
 
 Finance-related purchase setup, such as payment methods and currencies, are covered in the finance setup section. Learn more at [Setting Up Finance](finance-setup-finance.md). Similarly, inventory-related purchase setup, such as units of measure and item tracking codes, can be found in the [Inventory Setup section](inventory-setup-inventory.md).
 
-## Purchases and payables setup
+## <a name="purchases-and-payables-setup"></a>Purchases and payables setup
 
 Before working with purchases and payables, specify on the **Purchases & Payables Setup** page how purchase values are posted and the number series used for vendors and purchase documents.
 
-### General settings
+### <a name="general-settings"></a>General settings
 
 On the **General** FastTab, you specify options such as how you want to calculate and post discounts and whether you want to round invoices. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
@@ -36,15 +36,15 @@ Also, some fields change their behaviour or depend on how other fields are set. 
 
 Read details about the [**Ext. Doc. No. Mandatory**](#external-document-number) and [**Exact Cost Reversing Mandatory**](#exact-cost-reversing) fields below.
 
-### Number series settings
+### <a name="number-series-settings"></a>Number series settings
 
 On the **Number Series** FastTab, you must specify unique identification codes that will be used for vendors, invoices, and other purchase documents. Numbering is important not only for internal processes but may also need to follow local regulations. So it might be worth considering setting up all series in the **No. Series** page beforehand instead of creating new ones from the **Purchases & Payables Setup**. Learn more at [Create Number Series](ui-create-number-series.md).
 
-## External document number
+## <a name="external-document-number"></a>External document number
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## Exact cost reversing
+## <a name="exact-cost-reversing"></a>Exact cost reversing
 
 The **Exact Cost Reversing Mandatory** function helps ensure returned goods are valued at the same cost as when they were originally drawn from inventory, using a fixed application instead of following an average or first-in, first-out (FIFO) costing method. Learn more in the [Design Details: Fixed Application](design-details-item-application.md#fixed-application) section. If an additional cost is later added to the original purchase, the program updates the value of the respective purchase return.
 
@@ -52,7 +52,7 @@ With the feature enabled, a return transaction can only be posted by specifying 
 
 [!INCLUDE[local-functionality](includes/local-functionality.md)]
 
-## More purchasing setups
+## <a name="more-purchasing-setups"></a>More purchasing setups
 
 | To | See |
 | --- | --- |
@@ -69,7 +69,7 @@ With the feature enabled, a return transaction can only be posted by specifying 
 | Specify default reports to be used for different document types. |[Report Selection in Business Central](across-report-selections.md)|
 |Specify whether users are allowed to post purchase invoices, and whether they must post them together with a shipment. |[Define an invoice posting policy for users](admin-setup-invoice-posting-policy.md)|
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Purchasing](purchasing-manage-purchasing.md)  
 [Set Up Overview](setup.md)  

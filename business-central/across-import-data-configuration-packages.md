@@ -9,7 +9,7 @@ ms.date: 05/10/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Import Business Data from Other Finance Systems
+# <a name="import-business-data-from-other-finance-systems"></a>Import Business Data from Other Finance Systems
 
 When you sign up for [!INCLUDE[prod_short](includes/prod_short.md)], you can choose to create an empty company so that you can upload your own data and to test your new [!INCLUDE[prod_short](includes/prod_short.md)] company. Depending on the finance solution that your business uses today, you can transfer information about customers, vendors, inventory, and bank accounts.  
 
@@ -20,11 +20,11 @@ From the Role Centre, you can start an assisted setup guide that helps you trans
 > [!TIP]  
 > We recommend that you use data migration wizards to import data from Dynamics GP, Dynamics NAV, or QuickBooks. For more information, see [Migrate On-Premises Data to Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) in the administration content, or [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md).
 
-## Work with Data in Excel
+## <a name="work-with-data-in-excel"></a>Work with Data in Excel
 
 You can use the Excel add-in to prepare existing content for use in [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Viewing and Editing in Excel From Business Central](across-work-with-excel.md).  
 
-## Import Data from Configuration Packages
+## <a name="import-data-from-configuration-packages"></a>Import Data from Configuration Packages
 
 For larger implementation work, you can set up solution-specific configuration packages. For more information, see [Set Up Company Configuration Packages](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages) (in English only) in the administration content.  
 
@@ -41,7 +41,7 @@ When you export the default configuration package to Excel, the generated workbo
 > [!NOTE]
 > Fields of type Blob cannot be exported/imported using Excel.
 
-### Tables in the Default Configuration Package
+### <a name="tables-in-the-default-configuration-package"></a>Tables in the Default Configuration Package
 
 The default configuration package supports the following tables:
 
@@ -72,7 +72,7 @@ The default configuration package supports the following tables:
 - Sales Price
 - Purchase Price
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Migrating On-Premises Data to Business Central Online (in English only)](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Set Up Company Configuration Packages](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages)  

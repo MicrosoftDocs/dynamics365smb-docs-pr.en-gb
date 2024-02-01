@@ -9,27 +9,27 @@ ms.date: 06/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Walkthrough: Planning Supplies Manually
+# <a name="walkthrough-planning-supplies-manually"></a>Walkthrough: Planning Supplies Manually
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 This walkthrough demonstrates the process of planning supply orders to fulfill new demand. You can initiate supply planning at fixed intervals, for example, every morning or every Monday, or when you are notified by sales or production, depending on the type of demand. In this walkthrough you will use the **Order Planning** page, a simple supply planning tool that is based on manual decision-making instead of parameter-based automatic planning.  
 
-## About This Walkthrough  
+## <a name="about-this-walkthrough"></a>About This Walkthrough
  This walkthrough illustrates the following tasks:  
 
 -   Planning a purchase order for manufacturing components.  
 -   Planning a transfer order to fulfill sales demand.  
 -   Planning a production order for a multilevel item.  
 
-## Roles  
+## <a name="roles"></a>Roles
  This walkthrough demonstrates tasks performed by the following user roles:  
 
 -   Production Planner  
 -   Purchasing Agent  
 -   Sales Order Processor  
 
-## Prerequisites  
+## <a name="prerequisites"></a>Prerequisites
  Before you begin this walkthrough, you must install the [!INCLUDE[prod_short](includes/prod_short.md)]. The following modifications must be made to the database:  
 
 -   Delete all existing sales orders for bicycles.  
@@ -38,17 +38,17 @@ This walkthrough demonstrates the process of planning supply orders to fulfill n
 
  As a rule, use the suggested data in this walkthrough because this data has the necessary records.  
 
-## Story  
+## <a name="story"></a>Story
  Eduardo, the Production Planner of a small manufacturing company, is about to plan production and purchase orders to fulfill new sales demand.  
 
  Because the products have few BOM levels and the flow of orders is relatively low, Eduardo uses the **Order Planning** page to manually create supply orders, one product level at a time.  
 
  In a more complex manufacturing environment, the planning worksheet is used to plan supply based on item parameters such as rescheduling period, safety lead time, reorder point, and batch calculations of consolidated demand from all product levels.  
 
-## Setting Up the Sample Data  
+## <a name="setting-up-the-sample-data"></a>Setting Up the Sample Data
  The standard CRONUS demonstration company currently has lots of unplanned demand. During the different planning tasks in this walkthrough, you will have to deviate from the realistic business flow by ignoring demand with close due dates and instead use demand with later due dates.  
 
-## Use the Order Planning Page  
+## <a name="use-the-order-planning-page"></a>Use the Order Planning Page
 
 The **Order Planning** page can be accessed from several different locations:  
 
@@ -57,7 +57,7 @@ The **Order Planning** page can be accessed from several different locations:
 -   Purchase, Planning  
 -   In addition, you can open this page for a specific production order by choosing the **Planning** action.
 
-### To use the Order Planning page  
+### <a name="to-use-the-order-planning-page"></a>To use the Order Planning page
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Order Planning**, and then choose the related link.  
 
@@ -81,10 +81,10 @@ The **Order Planning** page can be accessed from several different locations:
 
      Orders that do not have availability problems are not shown. If no orders exist when a plan is calculated, a message will display and no planning lines will appear.  
 
-## Planning a Purchase Order to Fulfill Component Demand  
+## <a name="planning-a-purchase-order-to-fulfill-component-demand"></a>Planning a Purchase Order to Fulfill Component Demand
  In this procedure, you create a purchase order for needed manufacturing components.  
 
-### To plan a purchase order to fulfill component need in production  
+### <a name="to-plan-a-purchase-order-to-fulfill-component-need-in-production"></a>To plan a purchase order to fulfill component need in production
 
 1.  Expand the first line (choose the + symbol).  
 2.  Choose the first demand line, with item **LSU-15**, and then choose the **Show Document** action.  
@@ -121,10 +121,10 @@ The **Order Planning** page can be accessed from several different locations:
 
      The purchase orders are now created and saved as the last orders in the list of purchase orders.  
 
-## Planning a Transfer Order to Fulfill Sales Demand  
+## <a name="planning-a-transfer-order-to-fulfill-sales-demand"></a>Planning a Transfer Order to Fulfill Sales Demand
  In this procedure, you will plan for demand from a sales order. Demand lines represent sales lines and not component lines, as in production demand.  
 
-### To plan a transfer order to fulfill sales demand  
+### <a name="to-plan-a-transfer-order-to-fulfill-sales-demand"></a>To plan a transfer order to fulfill sales demand
 
 1.  Move the pointer to the planning line for order **2008**.  
 2.  Expand the line and move the pointer to the demand line.  
@@ -149,10 +149,10 @@ The **Order Planning** page can be accessed from several different locations:
 
      The transfer order is now created and saved in the list as the last order in the list of open transfer orders.  
 
-## Planning a Multilevel Production Order to Fulfil Sales Demand  
+## <a name="planning-a-multilevel-production-order-to-fulfill-sales-demand"></a>Planning a Multilevel Production Order to Fulfil Sales Demand
  In this procedure, you will plan to fulfil sales demand for a produced item with multiple product levels, each creating dependent production demand.  
 
-### To plan multilevel production to fulfill sales demand  
+### <a name="to-plan-multilevel-production-to-fulfill-sales-demand"></a>To plan multilevel production to fulfill sales demand
 
 1.  Select the planning line with sales demand for order **1001**, created earlier as prerequisite data.  
 
@@ -171,7 +171,7 @@ The **Order Planning** page can be accessed from several different locations:
 
  As a production planner you now must plan a specific production order.  
 
-### To plan a specific production order  
+### <a name="to-plan-a-specific-production-order"></a>To plan a specific production order
 
 1.  Open the production order **101001**, for ten bicycles, that you just created by using the **Make Orders** function.  
 2.  Open the **Prod. Order Components** page to check that the extra bell is reflected on the production order.  
@@ -221,7 +221,7 @@ The **Order Planning** page can be accessed from several different locations:
 
      On the **Firm Planned Prod. Orders** page review how start times and end times of individual orders are scheduled according to the product structure. The lowest-level components are produced first. Therefore, you must plan multilevel orders as demonstrated in this planning workflow.  
 
-## See Also  
+## <a name="see-also"></a>See Also
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)   
 <!--  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 

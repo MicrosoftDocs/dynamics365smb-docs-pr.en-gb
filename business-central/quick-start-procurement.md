@@ -11,11 +11,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Procurement Quick Start
+# <a name="procurement-quick-start"></a>Procurement Quick Start
 
 To be able to buy products and services, you must first set up vendors. Once that is done, you can start registering purchase orders and receiving invoices.  
 
-## Set up vendors
+## <a name="set-up-vendors"></a>Set up vendors
 
 The following video shows you how to set up a vendor in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -23,13 +23,13 @@ The following video shows you how to set up a vendor in [!INCLUDE[prod_short](in
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
-### Set up a new vendor
+### <a name="set-up-a-new-vendor"></a>Set up a new vendor
 
 [!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
 For more information and additional things you can do when you register suppliers, see [Register New Suppliers](purchasing-how-register-new-vendors.md).  
 
-## Create new purchase orders
+## <a name="create-new-purchase-orders"></a>Create new purchase orders
 
 When you buy something from a vendor you have two options. The first, and simplest, is to just create a purchase invoice. However, you must use purchase orders if your purchasing process requires that you record partial receipts of an order quantity, for example, because the full quantity was not available at the vendor.
 
@@ -39,7 +39,7 @@ The following video shows you how to create a purchase order in [!INCLUDE[prod_s
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
 
-### To create a purchase order  
+### <a name="to-create-a-purchase-order"></a>To create a purchase order
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
 
@@ -65,11 +65,11 @@ The following video shows you how to create a purchase order in [!INCLUDE[prod_s
 
 For more information and additional things you can do when creating a purchase order, see [Purchasing](purchasing-manage-purchasing.md).  
 
-## Create a purchase invoice  
+## <a name="create-a-purchase-invoice"></a>Create a purchase invoice
 
 You create a purchase invoice to record the cost of purchases and to track accounts payable. Creating a purchase invoice is similar to creating a purchase order.
 
-### How to create and post a purchase invoice  
+### <a name="how-to-create-and-post-a-purchase-invoice"></a>How to create and post a purchase invoice
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
 2. On the **Purchase Invoice** page, select the **New** action to create a new Purchase Invoice.
@@ -94,7 +94,7 @@ The purchase is now reflected in inventory, resource ledgers, and financial reco
 
 For more information and additional things you can do when creating a purchase invoice, see [Record Purchases with Purchase Invoices](purchasing-how-record-purchases.md).
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Business Central Quick Starts](quick-start-business-central.md)  
 [Purchasing Overview](Purchasing-manage-purchasing.md)  

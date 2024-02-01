@@ -9,7 +9,7 @@ ms.search.form: null
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Posting Documents and Journals
+# <a name="posting-documents-and-journals"></a>Posting Documents and Journals
 
 Posting represents the accounting action of recording business transactions in the various company ledgers.
 
@@ -26,7 +26,7 @@ The following table describes related tasks, with links to the topics that descr
 | Preview, in a page, the entries that will be created when you post. |[Preview Posting Results](ui-how-preview-post-results.md) |
 | Preview, in a report, the entries that will be created when you post. |[View Test Reports Before Posting](ui-how-view-test-reports-posting.md) |
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Edit Posted Documents](across-edit-posted-document.md)  
 [Find Related Entries for Documents](ui-find-entries.md)  

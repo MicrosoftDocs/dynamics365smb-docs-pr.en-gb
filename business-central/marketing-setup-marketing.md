@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Setting Up Relationship Management
+# <a name="setting-up-relationship-management"></a>Setting Up Relationship Management
 
 Before you get started working with your contacts and marketing interests, there are a few decisions and steps that you should take to set up how the marketing area manages certain aspects of your contacts. For example, you can decide whether to synchronise the contact card with the customer card, vendor card, and bank account card, how number series are defined, or what the standard salutation should be when writing to your contacts.
 
@@ -18,39 +18,39 @@ Managing your contacts and having a strategy in place to identify, attract, and 
 
 You set up the marketing and contact management from the **Marketing Setup** page. To open the **Marketing Setup** page, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Marketing Setup**, and then choose the related link.
 
-## Automatically Copying Specific Information from Contact Companies to Contact Persons
+## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a>Automatically Copying Specific Information from Contact Companies to Contact Persons
 Some information about contact companies is identical to the information about the contact persons working within these companies, for example, the address details. In the **Inheritance** section of the **Marketing Setup** page, you can set the application to automatically copy specific fields from the contact company card to the contact person card each time you create a contact person for a contact company. For example, you can select to copy the salesperson code, address details (address, address 2, city, postcode, and county), communication details (fax number, telex answer back, and phone number), and more.
 
 When you modify one of these fields on the contact company card, application will automatically modify the field on the contact person card (unless you have manually modified the field on the contact person card).
 
 For more information, see [Create Contacts](marketing-create-contact-companies.md).
 
-## Use Predefined Defaults on New Contacts
+## <a name="use-predefined-defaults-on-new-contacts"></a>Use Predefined Defaults on New Contacts
 You can decide that the application automatically assigns a specific language code, county code, salesperson code, and country/region code as defaults to each new contact you create. You can also enter a default sales cycle code that application automatically assigns to each new opportunity you create.
 
 The inheritance of fields overwrites the default values you have set up. For example, if you have set up English as the default language, but the contact company's language is German, application will automatically assign German as the language code for the contact persons recorded for that company.
 
 <!--You can also setup a default salutation that application automatically assigns to your contacts. You can use these salutations in your interaction template attachments (for example, Microsoft Word documents). When setting up a default salutation, you can enter a salutation text and a salutation format. For example, if the salutation text is Dear, and the salutation format is Salutation Text + Title + Name, application will automatically enter Dear Mr. John Smith as a salutation for a contact called John Smith.-->
 
-## Automatically Recording Interactions
+## <a name="automatically-recording-interactions"></a>Automatically Recording Interactions
 [!INCLUDE[prod_short](includes/prod_short.md)] can automatically record sales and purchase documents as interactions (for example, orders, invoices, receipts, and so on), as well as emails, phone calls, and cover sheets.
 
 For more information, see [Automatically Record Interactions with Contacts](marketing-auto-record-interactions.md).
 
-## Synchronising Contacts with Customers and More
+## <a name="synchronizing-contacts-with-customers-and-more"></a>Synchronising Contacts with Customers and More
 In order to synchronise the contact card with the customer card, the vendor card and the bank account card, you must select a business relation code for customers, vendors, and bank accounts. For example, you can only link a contact with an existing customer if you have selected a business relation code for customers on the **Marketing Setup** page.
 
 For more information, see [Synchronising Contacts with Customers, Suppliers, and Bank Accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).  
 
-## Assigning a Number Series to Contacts and Opportunities
+## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Assigning a Number Series to Contacts and Opportunities
 You can set up a number series for contacts and opportunities. If you have set up a number series for contacts, when you create a contact, and select <kbd>Enter</kbd> in the No. field on the contact card, application automatically enters the next available contact number.
 
 For more information about number series, see [Create Number Series](ui-create-number-series.md).
 
-## Searching for Duplicate Contacts when Contacts are Created
+## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Searching for Duplicate Contacts when Contacts are Created
 You can choose to have application automatically search for duplicates each time you create a contact company, or you can choose to search manually after you have created contacts. You can also choose to have application update the search strings automatically each time you modify contact information or create a contact. You can decide the search hit percentage, that is, the percentage of identical strings two contacts must have for application to consider them as duplicates.
 
-## See Also
+## <a name="see-also"></a>See Also
 [Managing Contacts](marketing-contacts.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

@@ -11,13 +11,13 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# Validate VAT Registration Numbers
+# <a name="validate-vat-registration-numbers"></a>Validate VAT Registration Numbers
 
 It is important that the VAT registration numbers you have for customers, vendors, and contacts are valid, if you use [!INCLUDE [prod_short](includes/prod_short.md)] in a country/region that uses VAT. For example, companies sometimes change their tax liability status, and in some countries/regions tax authorities might ask you to provide reports, such as the **EC Sales List** report, that list the VAT registration numbers you use when you do business.
 
 The European Commission provides the VIES VAT Number Validation service on its website, which is public and free. [!INCLUDE [prod_short](includes/prod_short.md)] can save you a step and let you use the VIES service to validate and track VAT numbers and other company information for customers, vendors, and contacts. The service in [!INCLUDE [prod_short](includes/prod_short.md)] is named **EU VAT Reg. No. Validation Service**. The service is available on the **Service Connections** page, and you can start using it right away. The service connection is free, and additional sign up is not required.
 
-## Configure the service to verify VAT registration numbers automatically
+## <a name="configure-the-service-to-verify-vat-registration-numbers-automatically"></a>Configure the service to verify VAT registration numbers automatically
 
 To enable the **EU VAT Reg. No. Validation Service**, open the entry in the **Service Connection** page. If the **Service Endpoint** field is not already filled in, use the **Set Default Endpoint** action. Then set the **Enabled** field, and you are good to go.  
 
@@ -38,7 +38,7 @@ There are a couple of things to note about the VIES VAT Number Validation servic
 > [!IMPORTANT]
 > It is your responsibility to check that the data is valid. On occasion, data with errors is returned by the VIES VAT Number Validation service. If validation fails, validate the VAT registration numbers on the [web site](https://ec.europa.eu/taxation_customs/vies/), print the result or save it to a shared location, and then add the link to the record for your customer, vendor, or contact. For more information, see [Manage Attachments, Links, and Notes on Cards and Documents](ui-how-add-link-to-record.md).
 
-## Validation templates
+## <a name="validation-templates"></a>Validation templates
 
 You can use the VIES service to also check other company information, such as the address, as well as the VAT registration number. In the **VAT Reg. No. Validation Templates** page, create an entry for each country/region that you want to get further validation for, and then specify the information that you want to get validated automatically.  
 
@@ -49,7 +49,7 @@ For example, add an entry for Spain where you want to get validation for name, s
 
 The next time that you specify a VAT registration number, the service validates the number and any additional data as determined by your validation templates. If the specified values are different from the values that are returned by the service, you will see the details in the **Validation Details** page where you can accept or reset the values.  
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Set Up Value-Added Tax](finance-setup-vat.md)  
 [Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)  

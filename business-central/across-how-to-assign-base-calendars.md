@@ -9,11 +9,11 @@ ms.date: 06/11/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Set Up Base Calendars
+# <a name="set-up-base-calendars"></a>Set Up Base Calendars
 
 You can assign a base calendar to your company and its business partners, such as customers, vendors, or locations. Delivery and receipt dates on future sales order, purchase order, transfer order, and production order lines are calculated according to the calendar’s specified working days. The main task in setting up a new base calendar is to specify and define the non-working days that you want to apply.  
 
-## To set up a base calendar
+## <a name="to-set-up-a-base-calendar"></a>To set up a base calendar
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Base Calendar**, and then choose the related link.  
 2.  Choose the **New** action.  
@@ -35,7 +35,7 @@ When you make an entry, the **Nonworking** field is selected. You can choose to 
 >  Any base calendar defined for the vendor or the location affects how the dates are calculated and rounded to working days.
 Specifies a date formula for the time that it takes to replenish the item. It is used to calculate the **Planned Receipt Date** field, if calculating forward, and **Order Date** field, if calculating backwards. See [Lead Time Calculation](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
-## Lead Time Calculation
+## <a name="lead-time-calculation"></a>Lead Time Calculation
 
 Any base calendar defined for the vendor or the location affects how the dates are calculated and rounded to working days. Accordingly, the two date fields on purchase order lines are calculated as follows under different conditions.
 
@@ -52,7 +52,7 @@ Any base calendar defined for the vendor or the location affects how the dates a
 
 The contents of the **Lead Time Calculation** field is copied from either the item card or the SKU card, if the lead time is defined for the item, or on the **Item Supplier Catalogue** page, if the lead time is defined for the vendor.
 
-## To customise a calendar
+## <a name="to-customize-a-calendar"></a>To customise a calendar
 The main task in customizing a base calendar for your company, or one of its business partners, is to enter any changes to working and nonworking day status.
 
 For example, while a base calendar would typically list all Saturdays as non-working days, the customised calendar for a particular location may list all Saturdays during the months of November and December, and leading up to the holiday season, as working days.
@@ -85,7 +85,7 @@ If you do not fill in the **Shipping Agent Code** field on the order line, your 
 > [!NOTE]  
 > If you make changes to a base calendar for which customised calendar changes exist, all existing customised calendars are updated automatically.
 
-## To assign a base calendar  
+## <a name="to-assign-a-base-calendar"></a>To assign a base calendar
 The following procedure schedules delivery dates on sales order lines for a customer as an example.
 
 Base calendars are assigned to your own company, customers, vendors, locations, and shipping agents as follows:  
@@ -107,7 +107,7 @@ Base calendars are assigned to your own company, customers, vendors, locations, 
 > [!NOTE]  
 >  Before you can make customized calendar entries, you must first assign a base calendar to the company.  
 
-## See Also
+## <a name="see-also"></a>See Also
 [Purchasing](purchasing-manage-purchasing.md)  
 [Manufacturing](production-manage-manufacturing.md)    
 [Inventory](inventory-manage-inventory.md)  

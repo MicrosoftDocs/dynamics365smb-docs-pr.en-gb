@@ -10,11 +10,11 @@ ms.custom: bap-template
 ms.search.form: '7328, 7348'
 ms.service: dynamics-365-business-central
 ---
-# Set Up Warehouse Employees
+# <a name="set-up-warehouse-employees"></a>Set Up Warehouse Employees
 
 You must set up each user who performs warehouse activities as a warehouse employee and assign them to a default location. [!INCLUDE [prod_short](includes/prod_short.md)] filters warehouse activities to the employee's default location. They can only perform the warehouse activities at the location. You can also assign a user to other locations. They can access but not perform activities at those locations.
 
-## To set up warehouse employees  
+## <a name="to-set-up-warehouse-employees"></a>To set up warehouse employees
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
 2. Choose the **New** action.  
@@ -26,9 +26,9 @@ You must set up each user who performs warehouse activities as a warehouse emplo
 > [!TIP]
 > You can also use the **Add me as warehouse employee** action to quickly add yourself to the list of warehouse employees. For example, this is useful when you're testing the capabilities.
 
-## See related [Microsoft training](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training"></a>See related [Microsoft training](/training/modules/get-started-warehouse-management/)
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Remove and Reapply Item Ledger Entries
+# <a name="remove-and-reapply-item-ledger-entries"></a>Remove and Reapply Item Ledger Entries
 On the **Application Worksheet** page, you can view and manually change certain item application entries that are created automatically during inventory transactions.  
 
 When you post a transaction where items are moved in or out of inventory, an item application is created between each inventory increase and inventory decrease. These applications determine the flow of costs from the goods that are received in inventory to the cost of goods going out of inventory. Because of the way the unit cost is calculated, an incorrect item application could lead to a skewed average cost and a skewed unit cost. For more information, see Design Details: Item Application.
@@ -32,7 +32,7 @@ If you cannot use a document to reapply, such as when you have to correct a fixe
     - It is possible to remove applications from more than one entry at a time in the application worksheet. However, because applying entries affects the set of entries that are available for application, you cannot create an application for more than one entry at a time.
     - The application worksheet cannot make an application in the following situation: If there is not enough quantity on stock to apply, the application worksheet cannot make an application when you are trying to apply inventory decrease entry without item tracking information to a stock increase entry with item tracking information.
 
-## To remove an item application by using the Application Worksheet
+## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>To remove an item application by using the Application Worksheet
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Application Worksheet**, and then choose the related link.  
 2.  The **Application Worksheet** page opens displaying existing item ledger entries for all items.  
@@ -49,7 +49,7 @@ If you cannot use a document to reapply, such as when you have to correct a fixe
 >   
 >  **You cannot perform this action because entries for item \<item\> are unapplied in the Application Worksheet by user \<user\>.**  
 
-## To reapply an item application by using the Application Worksheet
+## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>To reapply an item application by using the Application Worksheet
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature 2.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Application Worksheet**, and then choose the related link.  
 2.  The **Application Worksheet** page opens displaying existing item ledger entries for all items.  
@@ -66,7 +66,7 @@ If you cannot use a document to reapply, such as when you have to correct a fixe
     >  If you have chosen to make an application that would create an infinite loop in the cost adjustment process, then the application that you proposed is not made. This can occur when the original entries created negative stock. The application is not made. Therefore, you must select a different entry for the application.  
 6.  If the **Automatic Cost Adjustment** field in the **Inventory Setup** is set to **Always**, then the cost adjustment batch job is automatically run after you make a reapplication. Otherwise, run the **Adjust Cost - Item Entries** batch job to make sure that all costs are up to date.  
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
  [Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md)  

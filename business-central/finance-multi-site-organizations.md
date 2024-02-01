@@ -10,14 +10,14 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Business Central for Multi-Site and International Organisations
+# <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central for Multi-Site and International Organisations
 Organisations that have multiple sites often use a hub-and-spoke business model where a parent company, or headquarters, manages the overall operations of the business while each site functions as a single, standalone entity. Sites are often geographically distributed and have different needs for sharing information with the headquarter company. Additionally, sites typically don't need the same level of complexity, and often lack the resources to maintain a large system.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] gives small and mid-sized businesses a business management solution that's easy-to-use and maintain at a low cost of ownership.
 
 This article introduces some of the ways in which [!INCLUDE[prod_short](includes/prod_short.md)] supports a hub-and-spoke business model.
 
-## Integrating the Headquarter Company and the Sites
+## <a name="integrating-the-headquarter-company-and-the-sites"></a>Integrating the Headquarter Company and the Sites
 
 [!INCLUDE[prod_short](includes/prod_short.md)] can integrate with the headquarter company's accounting system while meeting the varying needs of different sites, regardless of size, location, or type of business.
 
@@ -25,7 +25,7 @@ The following diagram is an example of different sites integrated with a headqua
 
 ![Diagram Description automatically generated.](media/multisite-headquarter-sites.png)
 
-## Meet the Needs of Domestic and International Sites
+## <a name="meet-the-needs-of-domestic-and-international-sites"></a>Meet the Needs of Domestic and International Sites
 
 Business needs at sites often differ based on industry, business methods, or their relationship to the headquarter company. [!INCLUDE[prod_short](includes/prod_short.md)] can be easily adapted and extended for various types of businesses and locales. Microsoft AppSource offers a wealth of apps from Microsoft and our partners, and partners can quickly deploy [!INCLUDE[prod_short](includes/prod_short.md)] with minimal disruption to daily operations.
 
@@ -44,7 +44,7 @@ A network of more than 4,000 Microsoft partners world-wide provides local expert
 | Handle multiple languages and currencies. | Support for multiple languages and currencies helps meet local needs. | [Multi-language capabilities](about-locale-language.md)<br></br>[Multi-currency capabilities](finance-how-setup-additional-currencies.md) |
 
 
-## Consolidate Financial Data
+## <a name="consolidate-financial-data"></a>Consolidate Financial Data
 
 A core facet of the hub-and-spoke business model is the ability for the headquarter company and sites to exchange financial data, even when the headquarter company and sites use different systems, accounting structures, languages, and currencies.
 
@@ -54,7 +54,7 @@ A core facet of the hub-and-spoke business model is the ability for the headquar
 | Integrate accounting structures. | Transfer consolidation data from different accounting structures to your own. Built-in file format for F&O (Available with Wave 2, 2020) | [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)<br></br>[Prepare general ledger accounts for consolidation](finance-consolidated-company-reporting-setup.md#glacc) |
 | Transact in multiple currencies. | Help ensure that financial statements in different currencies are accurate and use correct exchange rates. | [Update Currency Exchange Rates](finance-how-update-currencies.md) |
 
-## Share Business Insight with Integrated Analytics
+## <a name="share-business-insight-with-integrated-analytics"></a>Share Business Insight with Integrated Analytics
 
 Align the organisation with your business goals by providing a common understanding of the current reality. Integrated analytics can help people base their decisions on the same set of facts.
 
@@ -66,7 +66,7 @@ Align the organisation with your business goals by providing a common understand
 | Analyse data in Excel. | Fact-find, troubleshoot, and do ad hoc analyses in Microsoft Excel. | [Analyse Financial Statements in Excel](finance-analyze-excel.md) |
 
 
-## Exchange Data Using APIs and XMLports
+## <a name="exchange-data-using-apis-and-xmlports"></a>Exchange Data Using APIs and XMLports
 
 APIs and XMLports simplify the process of connecting instances of [!INCLUDE[prod_short](includes/prod_short.md)], including those that have been customised for each site.
 
@@ -81,7 +81,7 @@ APIs and XMLports simplify the process of connecting instances of [!INCLUDE[prod
 | Connect to 3<sup>rd</sup> party solutions and services. | APIs establish a point-to-point connection between Business Central and 3<sup>rd</sup> party solutions and services. | [API v2.0](/dynamics-nav/api-reference/v2.0/) |
 
 
-## Promote an Efficient Intercompany Supply Chain
+## <a name="promote-an-efficient-intercompany-supply-chain"></a>Promote an Efficient Intercompany Supply Chain
 
 Sites often need access to the supply chain, and the ability to manage certain aspects of it. For example, sites might use the same vendor, but manage their assets and physical locations separately.
 
@@ -90,7 +90,7 @@ Sites often need access to the supply chain, and the ability to manage certain a
 | Treat inter-divisional transactions as normal sales and purchase transactions. | Use inter-company postings to create sales and purchase documents and general ledger entries for entire workflows, and for more than one company at a time to eliminate duplicate data entry. | [Managing Inter-company Transactions](intercompany-manage.md) |
 | Use paperless processes. | Avoid the cost of sending, receiving, and printing documents. | [Incoming Documents](across-income-documents.md)<br><br> [Manage Attachments, Links, and Notes on Cards and Documents](ui-how-add-link-to-record.md) |
 
-## Respond Quickly to New Business Conditions
+## <a name="respond-quickly-to-new-business-conditions"></a>Respond Quickly to New Business Conditions
 
 The headquarter company must be able to react quickly to business changes at each site. Combined with Power Automate, [!INCLUDE[prod_short](includes/prod_short.md)] can serve as an early warning mechanism.
 
@@ -101,7 +101,7 @@ The headquarter company must be able to react quickly to business changes at eac
 | Automatically generate email alerts. | Set up alerts in Power Automate that will generate emails to inform you of critical business conditions at sites or supply chain partners. | [Business Central and Power BI](admin-powerbi.md) |
 | Use standard or custom alerts. | Use 12 different templates included for Business Central or set up your own alerts to suit your business. | [Use Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md) |
 
-## See Also
+## <a name="see-also"></a>See Also
 [Administration of Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

@@ -10,11 +10,11 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Set Up Finance Charge Terms
+# <a name="set-up-finance-charge-terms"></a>Set Up Finance Charge Terms
 
 When a customer does not pay by the due date, you can have finance charges calculated automatically and add them to the overdue amounts on the customer's account. You can inform customers of the added charges by sending finance charge memos. But first, you must set up a code that represents each finance charge calculation. Then you can enter this code in the Fin. Charge Terms Code field on customer cards.  
 
-## Finance charge terms
+## <a name="finance-charge-terms"></a>Finance charge terms
 
 You must set up finance charge terms for each finance charge calculation, and then assign the terms to the customer in the **Fin. Charge Terms Code** field on the **Customer** page.
 
@@ -32,7 +32,7 @@ Finance charges can be calculated using either the average daily balance or the 
 
 Additionally, each term in the Finance Charge Terms table is linked to a subtable, the Finance Charge Text table. For each set of finance charge terms, you can define a beginning and/or an ending text to include on the finance charge memo.
 
-### To set up finance charge terms
+### <a name="to-set-up-finance-charge-terms"></a>To set up finance charge terms
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Finance Charge Terms**, and then choose the related link.  
 2. Fill in the fields as necessary.
@@ -61,7 +61,7 @@ Additionally, each term in the Finance Charge Terms table is linked to a subtabl
 |%8|Content of the **Currency Code** field on the finance charge memo header|  
 |%9|Content of the **Posting Date** field on the finance charge memo header|  
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
 [Set Up Reminder Terms and Levels](finance-setup-reminders.md)  

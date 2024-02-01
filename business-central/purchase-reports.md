@@ -9,21 +9,21 @@ ms.date: 06/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Purchase Reports and Analytics in Business Central
+# <a name="purchase-reports-and-analytics-in-business-central"></a>Purchase Reports and Analytics in Business Central
 
 Purchase reporting in [!INCLUDE [prod_short](includes/prod_short.md)] allows procurement and business professionals to get insights and statistics about current and past purchase activities.  
 
-## Reports
+## <a name="reports"></a>Reports
 [!INCLUDE [purchase_reports](includes/purchase-reports-include.md)]
 
-## Tasks
+## <a name="tasks"></a>Tasks
 The following articles describe some of the key tasks for analysing the state of your business:
 
 * [Create Analysis Reports](bi-how-create-analysis-views-reports.md)  
 * [View the Availability of Items](inventory-how-availability-overview.md)  
 
 
-## See also 
+## <a name="see-also"></a>See also
 [Setting Up Purchase](purchasing-setup-purchasing.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 

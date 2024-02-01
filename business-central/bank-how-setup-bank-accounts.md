@@ -11,7 +11,7 @@ ms.date: 08/03/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Set Up Bank Accounts
+# <a name="set-up-bank-accounts"></a>Set Up Bank Accounts
 
 You use bank accounts in [!INCLUDE[prod_short](includes/prod_short.md)] to keep track of your banking transactions. Accounts can be denominated in your local currency or a foreign currency. After you have set up bank accounts, you can also use the cheque printing option. The bank accounts include extra functionality for [payment reconciliation](receivables-apply-payments-auto-reconcile-bank-accounts.md), [bank reconciliation](bank-how-reconcile-bank-accounts-separately.md), and the import and export of bank files. The bank accounts can also be included in transactions in the general journals. Each bank account is linked to an account in the chart of accounts through the assigned bank account posting group. Using a bank account in a payment transaction will automatically create an entry in both the bank account and the connected general ledger (G/L) account.  
 
@@ -81,7 +81,7 @@ See in the video below the basic steps to set up a bank account in [!INCLUDE[pro
 > [!WARNING]
 > Some fields may contain sensitive data, such as the **Bank Sort Code**, **Bank Account No.**, **SWIFT Code**, and **IBAN Code** fields. Learn more at [Monitor Sensitive Fields](across-log-changes.md#monitor-sensitive-fields).
 
-## To set up bank accounts
+## <a name="to-set-up-bank-accounts"></a>To set up bank accounts
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, then choose the related link.
 2. On the **Bank Accounts** page, choose the **New** action.
@@ -151,7 +151,7 @@ The following table explains key fields.
 |Payment Export Format|Specifies the format of the bank file that is exported when you choose **Export Payments to File** on the **Payment Journal** page.|
 -->
 
-## To enter an opening balance
+## <a name="to-enter-an-opening-balance"></a>To enter an opening balance
 
 To fill the **Balance** field in with an opening balance, you must post a bank account ledger entry with the amount in question. You can do this by performing a bank account reconciliation. Learn more at [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md).  
 >
@@ -160,7 +160,7 @@ To fill the **Balance** field in with an opening balance, you must post a bank a
 > [!IMPORTANT]
 > Do not post the opening balance directly to the general ledger. Having entries in the G/L account that were posted directly to it typically results in you not being able to reconcile the bank account. With foreign currency bank accounts, such a practice results in differences accumulating as you post more bank reconciliations. Usually you post the opening bank balance directly to the bank account, and the amount ends up in the G/L account. Alternatively, later you can reverse it out of the G/L account you use to balance the opening general ledger balance. In either case, you must balance any direct posting to the G/L account before you start your first bank reconciliation&mdash;especially if the bank account is in a foreign currency.
 
-## To set up your bank account for import or export of bank files
+## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>To set up your bank account for import or export of bank files
 
 The fields related to the import and export of bank feeds and files are on the **Transfer** FastTab on the **Bank Account Card** page. Learn more at [Using the AMC Banking 365 Fundamentals Extension](ui-extensions-amc-banking.md) and [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).
 
@@ -213,13 +213,13 @@ The illustration below shows the route of outbound payments (numbers in the desc
   :::column-end:::
 :::row-end:::
 
-## To set up vendor bank accounts for export of bank files
+## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a>To set up vendor bank accounts for export of bank files
 
 Fields on the **Transfer** FastTab on the **Vendor Bank Account Card** page are related to the export of bank feeds and files. Learn more at [Use the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md) and [Export Payments to a Bank File](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
 [!INCLUDE[purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
-## Changing your bank account
+## <a name="changing-your-bank-account"></a>Changing your bank account
 
 To use a different bank account for your business, you must create the new bank account in [!INCLUDE[prod_short](includes/prod_short.md)]. We recommend that you do not simply replace the information about the account you are currently using because that can cause incorrect data. For example, your opening balance might be incorrect or your bank feed might stop working correctly. It's important that you keep the current and new accounts separate.
 
@@ -230,7 +230,7 @@ After you create the new bank account, you should also create a new bank posting
 
 To get a more condensed view of your cash accounts in financial reporting, use the **Begin-Total** and **End-Total** accounts in your chart of accounts, the **Totalling** rows in financial reports, or G/L account categories. Learn more at [Business Intelligence and Financial Reporting](bi.md) section.
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Setting Up Banking](bank-setup-banking.md)  
 [Setting Up Posting Groups](finance-posting-groups.md)  

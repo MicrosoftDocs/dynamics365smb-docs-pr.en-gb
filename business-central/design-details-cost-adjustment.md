@@ -9,7 +9,7 @@ ms.date: 06/14/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Design Details: Cost Adjustment
+# <a name="design-details-cost-adjustment"></a>Design Details: Cost Adjustment
 
 The main purpose of cost adjustment is to forward cost changes from cost sources to cost recipients, according to an item’s costing method, to provide correct inventory valuation.  
 
@@ -26,7 +26,7 @@ The following are secondary purposes, or functions, of cost adjustment:
 
 Inventory costs must be adjusted before the related value entries can be reconciled with the general ledger. For more information, see [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md).  
 
-## Detecting the Adjustment
+## <a name="detecting-the-adjustment"></a>Detecting the Adjustment
 
 The task of detecting if cost adjustment should occur is primarily performed by the Item Jnl.-Post Line routine, while the task of calculating and generating cost adjustment entries is performed by the **Adjust Cost – Item Entries** batch job.  
 
@@ -36,21 +36,21 @@ To be able to forward costs, the detection mechanism determines which sources ha
 * Average Cost Adjustment Entry Point  
 * Order Level  
 
-### Item Application Entry
+### <a name="item-application-entry"></a>Item Application Entry
 
 This detection function is used for items that use FIFO, LIFO, Standard, and Specific costing methods and for fixed applications scenarios. The function works as follows:  
 
 * Cost adjustment is detected by marking the source item ledger entries as *Applied Entry to Adjust* whenever an item ledger entry or value entry is posted.  
 * Cost is forwarded according to the cost chains that are recorded in the **Item Application Entry** table.  
 
-### Average Cost Adjustment Entry Point
+### <a name="average-cost-adjustment-entry-point"></a>Average Cost Adjustment Entry Point
 
 This detection function is used for items that use the Average costing method. The function works as follows:  
 
 * Cost adjustment is detected by marking a record in the **Avg. Cost Adjmt. Entry Point** table whenever a value entry is posted.  
 * Cost is forwarded by applying the costs to value entries with a later valuation date.  
 
-### Order Level
+### <a name="order-level"></a>Order Level
 
 This detection function is used in conversion scenarios, production and assembly. The function works as follows:  
 
@@ -63,7 +63,7 @@ The Order Level function is used to detect adjustments in assembly posting. The 
 
 For more information, see [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md).  
 
-## Manual versus Automatic Cost Adjustment
+## <a name="manual-versus-automatic-cost-adjustment"></a>Manual versus Automatic Cost Adjustment
 
 Cost adjustment can be performed in two ways:  
 
@@ -78,25 +78,25 @@ Regardless if you run the cost adjustment manually or automatically, the adjustm
 
 The new adjustment and rounding value entries have the posting date of the related invoice. Exceptions are if the value entries fall in a closed accounting period or inventory period or if the posting date is earlier than the date in the **Allow Posting From** field on the **General Ledger Setup** page. If this occurs, the batch job assigns the posting date as the first date of the next open period.  
 
-## Adjust Cost - Item Entries Batch Job
+## <a name="adjust-cost---item-entries-batch-job"></a>Adjust Cost - Item Entries Batch Job
 
 When you run the **Adjust Cost - Item Entries** batch job, you have the option to run the batch job for all items or for only certain items or categories.  
 
 > [!NOTE]  
 > We recommend that you always run the batch job for all items and only use the filtering option to reduce the runtime of the batch job, or to fix the cost of a certain item.  
 
-### Example
+### <a name="example"></a>Example
 
 The following example shows if you post a purchased item as received and invoiced on 01-01-20. You later post the sold item as shipped and invoiced on 01-15-20. Then, you run the **Adjust Cost - Item Entries** and **Post Inventory Cost to G/L** batch jobs. The following entries are created.  
 
-#### Value Entries (1) 
+#### <a name="value-entries-1"></a>Value Entries (1)
 
 |Posting Date|Item Ledger Entry Type|Cost Amount (Actual)|Cost Posted to G/L|Invoiced Quantity|Entry No.|  
 |------------|----------------------|--------------------|------------------|-----------------|---------|  
 |01-01-20|Purchase|10.00|10.00|1|1|  
 |01-15-20|Sale|-10.00|-10.00|-1|2|  
 
-#### Relation Entries in the G/L – Item Ledger Relation Table (1)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-1"></a>Relation Entries in the G/L – Item Ledger Relation Table (1)
 
 |G/L Entry No.|Value Entry No.|G/L Register No.|  
 |-------------|---------------|----------------|  
@@ -105,7 +105,7 @@ The following example shows if you post a purchased item as received and invoice
 |3|2|1|  
 |4|2|1|  
 
-#### General Ledger Entries (1)
+#### <a name="general-ledger-entries-1"></a>General Ledger Entries (1)
 
 |Posting Date|G/L Account|Account No. (En-US Demo)|Amount|Entry No.|  
 |------------------|------------------|---------------------------------|------------|---------------|  
@@ -116,14 +116,14 @@ The following example shows if you post a purchased item as received and invoice
 
 Later, you post a related purchase item charge for 2.00 LCY invoiced on 02-10-20. You run the **Adjust Cost - Item Entries** batch job and then run the **Post Inventory Cost to G/L** batch job. The cost adjustment batch job adjusts the cost of the sale by -2.00 LCY accordingly, and the **Post Inventory Cost to G/L** batch job posts the new value entries to the general ledger. The result is as follows.  
 
-#### Value Entries (2)  
+#### <a name="value-entries-2"></a>Value Entries (2)
 
 |Posting Date|Item Ledger Entry Type|Cost Amount (Actual)|Cost Posted to G/L|Invoiced Quantity|Adjustment|Entry No.|  
 |------------|----------------------|--------------------|------------------|-----------------|----------|---------|  
 |02-10-20|Purchase|2.00|2.00|0|No|3|  
 |01-15-20|Sale|-2.00|-2.00|0|Yes|4|  
 
-#### Relation Entries in the G/L – Item Ledger Relation Table (2)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-2"></a>Relation Entries in the G/L – Item Ledger Relation Table (2)
 
 |G/L Entry No.|Value Entry No.|G/L Register No.|  
 |-------------|---------------|----------------|  
@@ -132,7 +132,7 @@ Later, you post a related purchase item charge for 2.00 LCY invoiced on 02-10-20
 |7|4|2|  
 |8|4|2|  
 
-#### General Ledger Entries (2)
+#### <a name="general-ledger-entries-2"></a>General Ledger Entries (2)
 
 |Posting Date|G/L Account|Account No. (En-US Demo)|Amount|Entry No.|  
 |------------|-----------|------------------------|------|---------|  
@@ -141,7 +141,7 @@ Later, you post a related purchase item charge for 2.00 LCY invoiced on 02-10-20
 |01-15-20|[Inventory Account]|2130|-2.00|7|  
 |01-15-20|[COGS Account]|7290|2.00|8|  
 
-## Automatic Cost Adjustment
+## <a name="automatic-cost-adjustment"></a>Automatic Cost Adjustment
 
 To set up cost adjustment to run automatically when you post a inventory transaction, use the **Automatic Cost Adjustment** field on the **Inventory Setup** page. This field enables you to select how far back in time from the current work date that you want automatic cost adjustment to be performed. The following options exist.  
 
@@ -157,7 +157,7 @@ To set up cost adjustment to run automatically when you post a inventory transac
 
 The selection that you make in the **Automatic Cost Adjustment** field is important for performance and the accuracy of your costs. Shorter time periods, such as **Day** or **Week**, affect system performance less, because they provide the stricter requirement that only costs posted in the last day or week can be automatically adjusted. This means that the automatic cost adjustment does not run as frequently and therefore affects system performance less. However, it also means that unit costs may be less accurate.  
 
-### Example
+### <a name="example-1"></a>Example
 
 The following example shows an automatic cost adjustment scenario:  
 
@@ -169,7 +169,7 @@ If you have set up the automatic cost adjustment to apply to postings that occur
 
 If you have set up the automatic cost adjustment to apply to postings that occur within a day or a week from the current work date, then the automatic cost adjustment does not run, and the cost of the purchase is not forwarded to the sale until you run the **Adjust Cost - Item Entries** batch job.  
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Adjust Item Costs](inventory-how-adjust-item-costs.md)  
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  

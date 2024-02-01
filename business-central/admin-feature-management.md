@@ -10,7 +10,7 @@ ms.author: mikebc
 ms.service: dynamics-365-business-central
 ---
 
-# Enabling New and Upcoming Features Ahead of Time
+# <a name="enabling-new-and-upcoming-features-ahead-of-time"></a>Enabling New and Upcoming Features Ahead of Time
 
 Some new features can be enabled ahead of time, letting you take advantage of them as early as possible. Enabling features early gives you the time to test and prepare your organisation for change.
 
@@ -18,7 +18,7 @@ When Microsoft releases features or feature design improvements as part of minor
 
 Learn more about [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).  
 
-## See also 
+## <a name="see-also"></a>See also
 
 [New and planned features](/dynamics365-release-plan/2021wave1/)  
 

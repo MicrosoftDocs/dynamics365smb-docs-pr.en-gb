@@ -12,7 +12,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# The Essential Business Insights extension
+# <a name="the-essential-business-insights-extension"></a>The Essential Business Insights extension
 
 The Essential Business Insights extension finds interesting business facts in your company data and displays them as newspaper-like headlines in Role Centres. Depending on what the extension finds in the data, the insights are from the last week, month, or three months from the current date. The insights update every 10 minutes.  
 
@@ -31,7 +31,7 @@ The following table describes the insights that this extension provides for each
 |Project Manager| Displays a greeting, and link to product information.|
 |Administrator| Displays a greeting, and link to product information.|
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)
 

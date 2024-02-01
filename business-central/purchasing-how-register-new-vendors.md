@@ -10,7 +10,7 @@ ms.date: 09/05/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Register New Vendors
+# <a name="register-new-vendors"></a>Register New Vendors
 
 Vendors provide the products you sell. Each vendor you purchase from must be registered with a vendor card.
 
@@ -21,7 +21,7 @@ Vendor cards hold the information required to buy products from each vendor. Lea
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
-## Adding new vendors
+## <a name="adding-new-vendors"></a>Adding new vendors
 
 You can add new vendors manually, by filling out the **Vendor Card** page, or you can use templates that contain predefined information. For example, you can create templates for different types of vendor profiles. Using templates saves time when adding new vendors, and helps ensure the information is correct each time.
 
@@ -39,7 +39,7 @@ Remit-to addresses are used when you print cheques to pay your vendors, and vend
 
 You specify remit-to addresses on Vendor Card pages, and on the Shipping & Payments FastTab on purchase orders and invoices. When you create payment journal lines using the Pay Vendor or Create Payment actions on the Vendors list page or Vendor Card page, or the Apply Entries action on a payment journal, the remit-to code on the vendor ledger entry is assigned. You can overwrite this value.
 
-### To create a new vendor
+### <a name="to-create-a-new-vendor"></a>To create a new vendor
 
 [!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
@@ -50,7 +50,7 @@ The vendor is now registered, and the vendor card is ready to use on purchase do
 
 If you want to use this vendor card as a template when you create new vendor cards, you can save it as a vendor template. Learn more in the [To save the vendor card as a template](#to-save-the-vendor-card-as-a-template) section.
 
-### Deleting and editing vendor information
+### <a name="deleting-and-editing-vendor-information"></a>Deleting and editing vendor information
 
 You can edit the information on vendor cards at any time. However, if you have posted a transaction for a vendor, you cannot delete the card because the ledger entries may be needed for auditing. To delete vendor cards with ledger entries, contact your Microsoft partner to do so through code.
 
@@ -60,7 +60,7 @@ You can edit the information on vendor cards at any time. However, if you have p
 > [!TIP]
 > You can add alternative addresses on vendor cards by choosing the **Order Addresses** action.
 
-## To save the vendor card as a template
+## <a name="to-save-the-vendor-card-as-a-template"></a>To save the vendor card as a template
 
 1. On the **Vendor Card** page, choose the **Save as Template** action. The **Supplier Template** page opens showing the vendor card as a template.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -69,7 +69,7 @@ You can edit the information on vendor cards at any time. However, if you have p
 5. When you have completed the new vendor template, choose **OK**.  
    The vendor template is added to the list of vendor templates, so you can use it to create new vendor cards.
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Merge Duplicate Records](sales-how-merge-duplicate-records.md)  
 [Create Number Series](ui-create-number-series.md)  

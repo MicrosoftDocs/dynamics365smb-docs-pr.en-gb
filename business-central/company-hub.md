@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Manage Work across Multiple Companies in the Company Hub
+# <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Manage Work across Multiple Companies in the Company Hub
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -24,7 +24,7 @@ You can access the company hub by switching to the **Company Hub** role in My Se
 > [!NOTE]
 > You can connect the company hub to as many companies as you need. However, you can only connect the company hub to companies that are hosted in [!INCLUDE [prod_short](includes/prod_short.md)] online.
 
-## Company hub home page
+## <a name="company-hub-home-page"></a>Company hub home page
 
 If you use the **Company Hub** role, your home page shows a list of companies that you have access to, including information about key point of interest (KPI) data, and links to open each company. <!--You can customize the dashboard to show the data points that you want to see by adding or removing columns. For example, you might want to see taxes that are due, how many open sales documents each company has, or the number of purchase invoices that are due next week. You can configure the view to suit your needs. If you have added many companies, you can use filters to sort your view.--> Choose the **Company Hub** action to open the company hub, where you can work more closely with each company.  
 
@@ -52,13 +52,13 @@ In the **Company Hub** page, you can see more information about each company by 
 
 Otherwise, close the details pane and continue to the next company.  -->
 
-## Assigned tasks
+## <a name="assigned-tasks"></a>Assigned tasks
 
 In [!INCLUDE [prod_short](includes/prod_short.md)], you can assign tasks to yourself and others, and others can assign tasks to you. The company hub gives you an overview of assigned tasks for each company, and you can also access a list of all assigned tasks by choosing **My User Tasks** on the **Home** page.  
 
 <!--In the client company, you also have cues that call out tasks assigned to you in this particular client.  -->
 
-### My user tasks
+### <a name="my-user-tasks"></a>My user tasks
 
 The **My User Tasks** list helps you prioritise your day by showing more information about tasks assigned to you across all your companies.  
 
@@ -70,7 +70,7 @@ When you have completed a task, mark it as completed.
 
 For more information about companies and environments, see [Environment links](company-hub-add-company.md#environment-links).  
 
-## Access the company hub
+## <a name="access-the-company-hub"></a>Access the company hub
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -81,7 +81,7 @@ In order to access the company hub, you must have access through either the *D36
 
 If you cannot find the company hub and you know that you have been granted access to it, then check with your administrator if the company hub is listed in the **Extension Management** page. For more information, see [Customising Business Central Using Extensions](ui-extensions.md).  
 
-## Set up the company hub
+## <a name="set-up-the-company-hub"></a>Set up the company hub
 
 To start using the company hub, you must add one or more companies to your dashboard. For more information, see [Add Companies to Your Company Hub](company-hub-add-company.md).  
 
@@ -91,7 +91,7 @@ For example, if you are an accountant, your clients can invite you to their [!IN
 
 Administrators can use the same assisted setup guide to add you to their [!INCLUDE [prod_short](includes/prod_short.md)], or they can add you to the relevant Microsoft Entra account in the Microsoft 365 admin centre. For more information, see [Manage users and groups](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Add companies to your company hub](company-hub-add-company.md)  
 [Accountant Experiences in Business Central](finance-accounting.md)  

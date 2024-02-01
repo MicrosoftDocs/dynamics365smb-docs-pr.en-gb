@@ -11,11 +11,11 @@ ms.date: 12/05/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Specify posting periods
+# <a name="specify-posting-periods"></a>Specify posting periods
 
 Use posting periods to specify when users can post to the general ledger.  
 
-## To specify posting periods
+## <a name="to-specify-posting-periods"></a>To specify posting periods
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
 2. On the **General Ledger Setup** page, define the period by entering dates in the **Allow Posting From** and **Allow Posting To** fields.  
@@ -23,13 +23,13 @@ Use posting periods to specify when users can post to the general ledger.
 > [!NOTE]  
 > These posting periods apply to the company and to all users. To allow for exceptions, you can define different posting periods for specific users on the **User Setup** page. These posting periods overrule those specified on the **General Ledger Setup** page. For more information, see [To set up time constraints for users](ui-define-granular-permissions.md#to-set-up-time-constraints-for-users).
 
-## Video guidance
+## <a name="video-guidance"></a>Video guidance
 
 When you're closing an accounting period, you might want to prevent new posts from coming in, or allow only certain people to post transactions. The following video shows how to control when, and who, can post transactions to your general ledger.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1fAB8]
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Finance](finance.md)  
 [Completing Period-End Processes](year-how-complete-period-end-processes.md)  

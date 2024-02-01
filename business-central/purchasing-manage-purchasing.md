@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Purchasing
+# <a name="purchasing"></a>Purchasing
 
 You create a purchase invoice or purchase order to record the cost of purchases and to track accounts payable. If you need to control an inventory, purchase invoices are also used to dynamically update inventory levels so that you can minimise your inventory costs and provide better customer service. The purchasing costs, including service expenses, and inventory values that result from posting purchase invoices contribute to profit figures and other financial KPIs on your Role Centre.
 
@@ -38,11 +38,11 @@ The following table describes a sequence of tasks, with links to the topics that
 |Resolve confusion when two or more records exist for the same vendor.|[Merge Duplicate Records](sales-how-merge-duplicate-records.md)|
 |Manage your commitment to a vendor to purchase large quantities delivered in several shipments over time.|[Work With Blanket Purchase Orders](sales-how-to-create-blanket-sales-orders.md)|
 
-## External document numbers
+## <a name="external-document-numbers"></a>External document numbers
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
 [Register New Vendors](purchasing-how-register-new-vendors.md)  

@@ -10,7 +10,7 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Enable Customer Payments Through Payment Services
+# <a name="enable-customer-payments-through-payment-services"></a>Enable Customer Payments Through Payment Services
 
 As an alternative to collecting payments through bank transfer or credit cards, your customers can pay you through their account with payment services, such as PayPal or WorldPay.  
 
@@ -21,7 +21,7 @@ The PayPal Payments Standard and WorldPay Payments Standard extensions are insta
 > [!CAUTION]
 > The WorldPay Payments Standard extension will be deprecated. The code is market as obsolete starting in 2023 release wave 2. The app will be active for the next three major releases and then it will be removed.   
 
-## To enable a payment service in [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="to-enable-a-payment-service-in-"></a>To enable a payment service in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Services**, and then choose the related link.  
 2. On the **Payment Services** page, choose the **New** action.  
@@ -30,7 +30,7 @@ The PayPal Payments Standard and WorldPay Payments Standard extensions are insta
 5. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 6. Close the page.  
 
-## To select a payment service on a sales invoice
+## <a name="to-select-a-payment-service-on-a-sales-invoice"></a>To select a payment service on a sales invoice
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
 2. Open the sales invoice that you want to pay by using the payment service.  
@@ -39,7 +39,7 @@ The PayPal Payments Standard and WorldPay Payments Standard extensions are insta
     > [!NOTE]  
     > The **Payment Service** field is available only if you've enabled the payment service.  
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Setting Up Sales](sales-setup-sales.md)  
 [Sales](sales-manage-sales.md)  

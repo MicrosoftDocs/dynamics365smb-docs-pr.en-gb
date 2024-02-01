@@ -9,7 +9,7 @@ ms.date: 08/03/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Create Jobs
+# <a name="create-jobs"></a>Create Jobs
 
 When you start a new project, you must create a job card with integrated job tasks and job planning lines, structured in two layers.  
 
@@ -28,7 +28,7 @@ Sometimes the party that is receiving a service is different from the party that
 * Add information about external references to simplify communication about the project.
 * Overwrite the standard financial terms of the project.
 
-## To create a job card
+## <a name="to-create-a-job-card"></a>To create a job card
 
 You create a job card and then create job task lines and job planning lines for it.
 
@@ -47,7 +47,7 @@ Optionally, mark actions on project as blocked using the **Blocked** field. the 
 |Posting    |You can work with planning lines, but the job is blocked for posting. Choosing this option means that you cannot post any usage or sale on the job.|
 |All  |All actions are blocked.|
 
-## To create tasks for a job
+## <a name="to-create-tasks-for-a-job"></a>To create tasks for a job
 
 A key part of creating a job is to specify the various tasks involved in the job. You specify tasks by creating one line per task on the **Tasks** FastTab on the **Job Card** page. Every job must have at least one task.
 
@@ -58,7 +58,7 @@ A key part of creating a job is to specify the various tasks involved in the job
 5. Repeat steps 3 and 4 for all the tasks that you need for the job.
 6. To specify the job tasks with information on other job tasks, choose the **Copy Job Tasks from** action, fill in the fields as necessary, and then choose the **OK** button.
 
-## To create planning lines for a job
+## <a name="to-create-planning-lines-for-a-job"></a>To create planning lines for a job
 
 You can refine your new job tasks on job planning lines. A planning line can capture the information that you want to track for a job. For example, you can track the resources the job requires, or the items that are needed. For example, you have a task to get a customer to approve a job. You associate the task with planning lines for items such as meeting the customer and assigning a resource.  
 
@@ -79,7 +79,7 @@ A job planning line can have one of the following types.
 4. On the **Job Planning Lines** page, on a new line, fill in the fields as necessary.
 5. Repeat steps 3 and 4 for all planning lines that you need for the job task.
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Project Management](projects-manage-projects.md)  
 [Video: How to create a job in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

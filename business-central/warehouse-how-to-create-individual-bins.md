@@ -9,37 +9,37 @@ ms.date: 12/13/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Create bins
+# <a name="create-bins"></a>Create bins
 
 The most effective way to create the bins of your warehouse is to generate groups of similar bins in the bin creation worksheet, but you can also create your bins individually from the location card. You can also use a function on the **Bin Creation Worksheet** page to create bins automatically.  
 
-## To create a bin from the location card
+## <a name="to-create-a-bin-from-the-location-card"></a>To create a bin from the location card
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and choose the related link.  
 2.  Select the location that you want to create a bin from, and then choose the **Bins** action.  
 3. Choose the **New** action.
 4. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### The dedicated field
+### <a name="the-dedicated-field"></a>The dedicated field
 
 The **Dedicated** field on the **Bins** page specifies that quantities in the bin are protected from being picked for other demands. However, quantities in dedicated bins can still be reserved. Accordingly, the quantities in dedicated bins are included in the **Total Available Quantity** field on the **Reservation** page.
 
 Making a bin dedicated results in similar functionality in basic warehousing to using bin types, which is only available in advanced warehousing. For more information, see [Set Up Bin Types](warehouse-how-to-set-up-bin-types.md).
 
-### Example
+### <a name="example"></a>Example
 
 A work centre is set up with a bin code in the **To-Production Bin Code** field. Production order component lines with that bin code require that forward-flushed components are placed there. However, until the components are consumed from that bin, other component demands might pick or consume from that bin because they're still considered available bin contents. To make sure that bin content is only available to component demand that uses that to-production bin, you must select the **Dedicated** field on the line for that bin code.
 
 > [!Caution]
 > Items in dedicated bins are not protected when they are picked and consumed as production or assembly components with the **Inventory Pick** page. For more information, see [Pick for Production or Assembly in Basic Warehouse Configurations](warehouse-how-to-pick-for-production.md).
 
-## To create bins individually in the bin creation worksheet
+## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>To create bins individually in the bin creation worksheet
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bin Creation Worksheet**, and choose the related link.  
 2.  Fill in on each line the fields that are necessary to name and characterise the bins you're creating.  
 3.  Choose the **Create Bins** action.  
 
-## To make bins automatically in the bin creation worksheet
+## <a name="to-make-bins-automatically-in-the-bin-creation-worksheet"></a>To make bins automatically in the bin creation worksheet
 
 Before you start creating bins automatically, you should determine the kind of bins that are essential for your operations, and the most practical flow of items through the physical structure of your warehouse.  
 
@@ -69,7 +69,7 @@ To work with the **Bin Creation Worksheet** page, you must be set up as a wareho
 
 Repeat the process for another set of bins until you create all the bins in your warehouse.  
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Warehouse Management Overview](design-details-warehouse-management.md)  
 [Inventory](inventory-manage-inventory.md)  

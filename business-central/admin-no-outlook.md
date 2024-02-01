@@ -9,14 +9,14 @@ ms.date: 12/11/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Use Business Central without Outlook
+# <a name="use-business-central-without-outlook"></a>Use Business Central without Outlook
 [!INCLUDE[prod_short](includes/prod_short.md)] has deep integration with Microsoft 365, and you can use [!INCLUDE[prod_short](includes/prod_short.md)] as your business inbox in Outlook. But if you don't have Outlook, you can work with [!INCLUDE[prod_short](includes/prod_short.md)] in the browser or on your mobile device.  
 
-## Sending email
+## <a name="sending-email"></a>Sending email
 You can send documents such as invoices as email using your business email address. From your Role Centre, you can access an assisted setup guide that helps you set up email. If you don't use a Microsoft 365 email account, you must specify technical information about your mail server. If you don't have this information available, please contact your IT support staff.  
 
 
-## See also 
+## <a name="see-also"></a>See also
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Use Business Central as your Business Inbox in Outlook](admin-outlook.md)  
 [Getting Business Central on my Mobile Device](install-mobile-app.md)  

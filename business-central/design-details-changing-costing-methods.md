@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Design Details: Change the Costing Method for Items
+# <a name="design-details-change-the-costing-method-for-items"></a>Design Details: Change the Costing Method for Items
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], you cannot change a costing method for an item after you have included the item in a transaction. For example, after you have bought or sold the item. If an incorrect costing method was assigned to the item or items, you might not discover the issue until you do your financial reporting.
 
@@ -23,7 +23,7 @@ This topic describes how to resolve this situation. The recommended approach is 
 > [!TIP]
 > To become familiar with the process, we recommend that you start the conversion process with a single item or a small set of items.
 
-## About Costing Methods
+## <a name="about-costing-methods"></a>About Costing Methods
 
 Costing methods control cost calculations when goods are purchased, received in inventory, and sold. Costing methods affect the timing of amounts recorded in COGS that affect gross profit. It is this flow that calculates COGS. The cost of goods sold (COGS) and revenue are used to determine gross profit, as follows:
 
@@ -39,7 +39,7 @@ When you set up inventory items, you must assign a costing method. The method ca
 
 For more information, see [Design Details: Costing Methods](design-details-costing-methods.md).
 
-## Use Assembly Orders to Change Costing Method Assignments
+## <a name="use-assembly-orders-to-change-costing-method-assignments"></a>Use Assembly Orders to Change Costing Method Assignments
 
 This section describes the following steps for changing the costing method assigned to an item:
 
@@ -52,21 +52,21 @@ This section describes the following steps for changing the costing method assig
 7. Handle inventory quantities that are allocated to demand.
 8. Block the original item from further use.  
 
-### Define a default costing method
+### <a name="define-a-default-costing-method"></a>Define a default costing method
 
 To help avoid future mistakes you can specify a default costing method for new items. Whenever someone creates a new item, [!INCLUDE[prod_short](includes/prod_short.md)] will suggest the default costing method. You specify the default method in the **Default Costing Method** field on the **Inventory Setup** page. 
 
-### Identify the items to change the costing method for and renumber them
+### <a name="identify-the-items-to-change-the-costing-method-for-and-renumber-them"></a>Identify the items to change the costing method for and renumber them
 
 You may want to give your new items the same numbers as those they are replacing. To do that, change the numbers of the existing items. For example, if the existing item number is "P1000," you might change it to "X-P1000." This is a manual change that you must make for each item.
 
-### Create new items with the old numbering scheme and copy the master data in a batch
+### <a name="create-new-items-with-the-old-numbering-scheme-and-copy-the-master-data-in-a-batch"></a>Create new items with the old numbering scheme and copy the master data in a batch
 
 Create the new items using the current number scheme. With the exception of the **Costing Method** field, the new items should contain the same master data as the existing items. To transfer the master data for the item, and related data from other features, use the **Copy Item** action on the **Item Card** page. For more information, see [Copy Existing Items to Create New Items](inventory-how-copy-items.md).
 
 After you create the new items and transfer the master data, assign the correct costing method.
 
-### Manually copy related master data from the original item to the new item
+### <a name="manually-copy-related-master-data-from-the-original-item-to-the-new-item"></a>Manually copy related master data from the original item to the new item
 
 To make the new items fully useful you must manually copy some master data from other areas, as described in the following table.
 
@@ -88,7 +88,7 @@ To make the new items fully useful you must manually copy some master data from 
 > [!IMPORTANT]
 > If the new costing method is Standard you should enter a value in the **Standard Cost** field on the **Item Card** page. You can use the **Standard Cost Worksheet** page to set the cost shares accordingly. For more information, see [Update Standard Costs](finance-how-to-update-standard-costs.md).
 
-### Determine the inventory quantity to convert from the original item to the new item
+### <a name="determine-the-inventory-quantity-to-convert-from-the-original-item-to-the-new-item"></a>Determine the inventory quantity to convert from the original item to the new item
 
 > [!NOTE]
 > This step does not consider quantities that are included in unshipped orders. For more information, see [Handle inventory quantities that are allocated to demand](design-details-changing-costing-methods.md#handle-inventory-quantities-that-are-allocated-to-demand). 
@@ -100,13 +100,13 @@ Use a physical inventory journal to produce a list of the quantities in inventor
 
 Both journals can calculate the inventory quantity of the item, including the location, variant, bin, and storage location. For more information, see [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md).
 
-### Transfer the inventory to the new item
+### <a name="transfer-the-inventory-to-the-new-item"></a>Transfer the inventory to the new item
 
 Create and post assembly orders to transfer the cost and inventory quantity from the original item to the new item. Assembly orders can convert one item to another while preserving the costs. This helps ensure that the net totals for the inventory account and COGS are not affected (except when the new costing method is Standard, in which case costs may be distributed to variance accounts). For more information, see [Assembly Management](assembly-assemble-items.md).
 
 When creating assembly orders, use the information from the Physical Invt. journal or Whse. Phys. Invt. journal. The following tables describe the information in the reports to enter in the header and lines on the assembly order.
 
-#### Header
+#### <a name="header"></a>Header
 
 |Field  |Value to enter  |
 |---------|---------|
@@ -117,7 +117,7 @@ When creating assembly orders, use the information from the Physical Invt. journ
 |Unit of Measurement Code |The same as in physical inventory journal. |
 |Bin Code |The same as in physical inventory journal. |
 
-#### Lines
+#### <a name="lines"></a>Lines
 
 |Field  |Value to enter  |
 |---------|---------|
@@ -134,7 +134,7 @@ When creating assembly orders, use the information from the Physical Invt. journ
 > [!NOTE]
 > For a warehouse location, you might have to create picks before you can post the assembly order. To investigate that, review the setup for picking on the **Location Card** page. For more information, see [Set Up Items and Locations for Directed Put-away and Pick](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md).
 
-### Handle inventory quantities that are allocated to demand
+### <a name="handle-inventory-quantities-that-are-allocated-to-demand"></a>Handle inventory quantities that are allocated to demand
 
 Ideally, the inventory for the original item should go to zero after you transfer the inventory quantities. However, there can be outstanding orders, worksheets, and journals (see the table below) that still require a quantity of the original item. The quantity could also be blocked by a reservation or item tracking.
 
@@ -157,11 +157,11 @@ The following table lists functional areas where there might be outstanding quan
 |Service |Service documents and service contracts |
 |Production |Production orders (planned, firm planned, and released) |
 
-### Block the original item from further use
+### <a name="block-the-original-item-from-further-use"></a>Block the original item from further use
 
 When the inventory for the original item is zero, you can block the item to prevent it fom being used in new transactions. To block the item, on the **Item Card** page, turn on the **Blocked** toggle. For more information, see [Block Items from Sales or Purchasing](inventory-how-block-items.md).
 
-## Summary
+## <a name="summary"></a>Summary
 
 Changing the costing method on items that have been used in transactions is a process, and not a standard action in [!INCLUDE[prod_short](includes/prod_short.md)]. You can use the steps described in this topic as a template for the process.
 
@@ -172,7 +172,7 @@ We recommend the following:
 1. Assess the feasibility of the process by taking one, or maybe a few, representative items through the entire process.
 2. Consider contacting an experienced partner who can help you with the process.
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Design Details: Costing Methods](design-details-costing-methods.md)  
 [Overview](design-details-inventory-costing.md)

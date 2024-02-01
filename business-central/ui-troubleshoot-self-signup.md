@@ -8,15 +8,15 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Troubleshooting Self-Service Sign-Up
+# <a name="troubleshooting-self-service-sign-up"></a>Troubleshooting Self-Service Sign-Up
 Signing up for [!INCLUDE[prod_short](includes/prod_short.md)] is easy and can be done very quickly. You can create a free account even if you are an existing organisation. This article addresses issues that you may have during signup.
 
-## What email address can I use with Business Central?
+## <a name="what-email-address-can-i-use-with-business-central"></a>What email address can I use with Business Central?
 [!INCLUDE[prod_short](includes/prod_short.md)] requires that you use a work, or school, email address to sign up. [!INCLUDE[prod_short](includes/prod_short.md)] does not support email addresses provided by consumer email services or telecommunication providers. This includes outlook.com, hotmail.com, gmail.com, and others.
 
 If you try to sign up with a personal email address, you will get a message indicating to use a work or school email address.
 
-## Troubleshooting
+## <a name="troubleshooting"></a>Troubleshooting
 In many cases, registering for [!INCLUDE[prod_short](includes/prod_short.md)] can be achieved by following the sign-up process. However, there are several reasons why you may not be able to complete self-service signup. The table below summarises some of the most common reasons you may not be able to complete signup and ways you can workaround these issues.
 
 | Symptom/Error Message | Cause and Workaround |
@@ -28,13 +28,13 @@ In many cases, registering for [!INCLUDE[prod_short](includes/prod_short.md)] ca
 | Email address is not a Microsoft 365 ID. You receive a message like the following during signup:<br /><br />**We can't find you at contoso.com. Do you use a different ID at work or school? Try signing in with that, and if it doesn't work, contact your IT department.** |Your organisation uses IDs to sign in to Microsoft 365 and other Microsoft services that are different than your email address. For example, your email address might be Nancy.Smith@contoso.com but your ID is nancys@contoso.com. To complete signup, use the ID that your organisation has assigned to for signing in to Microsoft 365 or other Microsoft services. If you do not know what this is, contact your IT administrator. If you still cannot sign up and are able to complete a more advanced setup process, you can register for a new Microsoft 365 trial subscription and use that email address to sign up. |
 | If your Microsoft 365 account is registered to a supported country, and you are signing up for [!INCLUDE[prod_short](includes/prod_short.md)] while in a different country, you receive a message like the following during signup:<br /><br />**That didn't work, we don't support your country or region yet.**| Your organisation's Microsoft 365 subscription is registered to a specific country in the Microsoft 365 administration portal. The signup experience for [!INCLUDE[prod_short](includes/prod_short.md)] uses the language and locale that your current browser uses, and as a result, you can get the error message even though you are in a supported country. Ask your IT administrator to verify the country that is specified in the organisation profile in the [Microsoft 365 administration portal](https://portal.office.com/adminportal/home#/companyprofile). You may have to use a different account for [!INCLUDE[prod_short](includes/prod_short.md)].|
 
-## Regional Availability
+## <a name="regional-availability"></a>Regional Availability
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is available in a number of countries or regions with localisation provided either by Microsoft or an approved localisation partner. For a complete list of supported countries and regions, see [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
 For an overview of currently supported markets across Dynamics 365, see the [International availability of Microsoft Dynamics 365](/dynamics365/get-started/availability) deck. For an overview of local functionality in [!INCLUDE[prod_short](includes/prod_short.md)], see the [Local Functionality](about-localization.md) landing page.  
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Sign up for a free Dynamics 365 Business Central trial](trial-signup.md)  
 [Dynamics 365 Business Central trial FAQ](trial-faq.md)  

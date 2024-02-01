@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Manage Human Resources
+# <a name="manage-human-resources"></a>Manage Human Resources
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], you can keep detailed records of your employees. You can register and maintain employee information, such as employment contracts, confidential information, qualifications, and employee contacts.
 
@@ -25,7 +25,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Register new employees or edit records for existing employees, and attach related information, such as contracts and articles. |[Register Employees](hr-how-register-employees.md) |
 | Record employees' absence and view absence statistics by various filters. |[Manage Employee Absence](hr-how-manage-absence.md) |
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Finance](finance.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -11,7 +11,7 @@ ms.date: 12/04/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Suggest Vendor Payments
+# <a name="suggest-vendor-payments"></a>Suggest Vendor Payments
 
 On the **Payment Journal** page, you can use the **Suggest Vendor Payments** batch job to suggest payment lines. Based on your settings, [!INCLUDE [prod_short](includes/prod_short.md)] suggests lines for:
 
@@ -30,14 +30,14 @@ To benefit fully from payment suggestions, you must prioritise your vendors. To 
 > * Overdue vendor entries that aren't prioritised.  
 > * Open vendor entries that qualify for payment discounts. The entries are arranged by vendor number.  
 
-## Use the Suggest Vendor Payments action
+## <a name="use-the-suggest-vendor-payments-action"></a>Use the Suggest Vendor Payments action
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then select the related link.  
 2. Open the journal, and then select the **Suggest Vendor Payments** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Select the **OK** button.  
 
-## Insert the due date as posting date on payment journal lines
+## <a name="insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>Insert the due date as posting date on payment journal lines
 
 When you use the **Suggest Vendor Payments** batch job to create payment lines for your vendors, you can fill two special fields to ensure that the generated lines use the due date to calculate the posting date. These fields are **Calculate Posting Date from Applies-to-Doc Due Date** and **Applies-to-Doc Due Date Offset**.  
 
@@ -51,7 +51,7 @@ You can also manually create payment lines using the due date to calculate the p
 > [!NOTE]  
 > If the purchase invoice is overdue, the posting date is set to the work date and the font on the line changes to red.  
 
-## See also 
+## <a name="see-also"></a>See also
 
 - [Managing Payables](payables-manage-payables.md)  
 - [Making Payments](payables-make-payments.md)  

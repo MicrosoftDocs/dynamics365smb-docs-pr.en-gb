@@ -10,11 +10,11 @@ ms.date: 02/09/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Send Reminders of Outstanding Balances
+# <a name="send-reminders-of-outstanding-balances"></a>Send Reminders of Outstanding Balances
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
 [Set Up Multiple Interest Rates for Delayed Payment](finance-how-to-set-up-multiple-interest-rates.md)  

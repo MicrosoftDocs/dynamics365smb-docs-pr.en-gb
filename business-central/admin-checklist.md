@@ -9,11 +9,11 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Onboard Users with Checklists
+# <a name="onboard-users-with-checklists"></a>Onboard Users with Checklists
 
 The first time a user signs into a new [!INCLUDE [prod_short](includes/prod_short.md)] company, they can see a banner that encourages them to start the **Get started** checklist to help them set up key information and get ready for business. As the administrator or reselling partner, you can customise the predefined checklists, and you can set up your own steps.
 
-## To add an item to the checklist
+## <a name="to-add-an-item-to-the-checklist"></a>To add an item to the checklist
 
 1. Sign in to [!INCLUDE[prod_short](includes/prod_short.md)] at [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).
 
@@ -26,7 +26,7 @@ The first time a user signs into a new [!INCLUDE [prod_short](includes/prod_shor
     > [!TIP]
     > If the step is for a setup guide, the **Task** field specifies the setup guide. If the step is for learning more, the **Task** field specifies the link to the article or e-learning module.
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Administration](admin-setup-and-administration.md)  

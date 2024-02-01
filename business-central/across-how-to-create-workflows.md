@@ -9,7 +9,7 @@ ms.date: 04/24/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Create Workflows to Connect Tasks in Business Processes
+# <a name="create-workflows-to-connect-tasks-in-business-processes"></a>Create Workflows to Connect Tasks in Business Processes
 
 You can create workflows that connect tasks in business processes that are performed by different users. You can include system tasks, such as automatic posting, as steps in workflows that are preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps.  
 
@@ -43,7 +43,7 @@ A workflow is divided into three sections:
 
 The options for events and responses are system-defined. To add new options, you'll need to develop an extension.
 
-## To create a workflow
+## <a name="to-create-a-workflow"></a>To create a workflow
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, then choose the related link.  
 2. Choose the **New** action. The **Workflow** page opens.  
@@ -114,7 +114,7 @@ The options for events and responses are system-defined. To add new options, you
 > [!TIP]  
 > To explore the relations between the tables used in workflows, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, then enter **Workflow – Table Relations**.  
 
-## Example of creating a new workflow using existing events
+## <a name="example-of-creating-a-new-workflow-using-existing-events"></a>Example of creating a new workflow using existing events
 
 The following example creates a workflow to approve a change to the name of a vendor:
 
@@ -173,7 +173,7 @@ The following illustration provides an overview of the result of this procedure.
 
 Next, test the workflow by opening an existing vendor card and changing their name. Verify that an approval request is sent after changing the vendor name.
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)  
 [Set Up Approval Users](across-how-to-set-up-approval-users.md)  

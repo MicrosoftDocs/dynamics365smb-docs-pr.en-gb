@@ -10,11 +10,11 @@ ms.date: 12/15/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Define Retention Policies
+# <a name="define-retention-policies"></a>Define Retention Policies
 
 This article describes how administrators can define retention policies to specify how often to delete outdated data in tables that contain log entries and archived records. For example, cleaning up log entries can make it easier to work with the more relevant data. Policies can delete data based on an expiration date, or you can add filters to include only certain expired data.
 
-## Required setups and permissions
+## <a name="required-setups-and-permissions"></a>Required setups and permissions
 
 Before you can create retention policies, you must set up the tables to include and the periods of time to keep data.
 
@@ -28,14 +28,14 @@ Additionally, you must have the **SUPER** user permissions or the **Retention Po
 > [!NOTE]
 > If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, and you want to try out retention policies in the the Cronus demonstration database, there are a few things you need to do. The demonstration company doesn't contain tables that you can use with retention policies, so you need to add them. To do that, create a new, blank company in the demonstration database. In the new company, import the RapidStart configuration package for your country/region that corresponds to the standard NAV17.0.W1.ENG.STANDARD.rapidstart package. The setup data for retention policies will be available in the new company.
 
-### Create retention periods
+### <a name="create-retention-periods"></a>Create retention periods
 
 Retention periods can be as long or as short as you want. To create retention periods, on the **Retention Policies** page, use the **Retention Period** action. The periods you define are available for all policies.
 
 > [!NOTE]
 > For compliance reasons, we have defined a minimum retention period for some tables. If you set a retention period that's shorter than minimum required, a message displays the mandatory period.
 
-### Set up a retention policy
+### <a name="set-up-a-retention-policy"></a>Set up a retention policy
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Retention Policies**, and choose the related link.
 2. In the **Table ID** field, choose the table that you want to include in the policy.
@@ -45,13 +45,13 @@ Retention periods can be as long or as short as you want. To create retention pe
    > [!NOTE]
    > Each line has its own retention period. If you specify different retention periods for the same data, the longest period is used. Also, some tables contain filters that you can't change or remove. To help you identify these filters, they appear in a lighter colour font.
 
-#### Video guidance
+#### <a name="video-guidance"></a>Video guidance
 
 This video provides an example of how to set up a retention policy.
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1fLeJ]
 
-## Apply retention policies
+## <a name="apply-retention-policies"></a>Apply retention policies
 
 You can use a job queue entry to apply retention policies to delete data automatically, or you can manually apply policies.
 
@@ -59,11 +59,11 @@ To apply a retention policy automatically, just create and enable a policy. When
 
 You can manually apply a policy by using the **Apply Manually** action on the **Retention Policies** page. If you want to always apply a policy manually, turn on the **Manual** toggle. The job queue entry will disregard the policy when it runs.
 
-## View retention policy log entries
+## <a name="view-retention-policy-log-entries"></a>View retention policy log entries
 
 You can view activity related to retention policies in the **Retention Policy Log** page. For example, entries are created when a policy is applied, or if errors occurred.
 
-## Include your extension in a retention policy (requires help from a developer)
+## <a name="include-your-extension-in-a-retention-policy-requires-help-from-a-developer"></a>Include your extension in a retention policy (requires help from a developer)
 
 By default, retention policies cover only [!INCLUDE[prod_short](includes/prod_short.md)] in the list we provide. You can remove default tables from the list, and you can add tables that you own. That is, you can't add a table that you did not create yourself. For example, you can't add other tables from [!INCLUDE[prod_short](includes/prod_short.md)] or from an extension that you have purchased.
 
@@ -107,7 +107,7 @@ The following example includes a mandatory filter.
 
 After a developer has added tables to the list, an administrator can include them in a retention policy. 
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Analysing Retention Policy Trace Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-retention-policy-trace)  
 [Auditing Changes in Business Central](across-log-changes.md)  

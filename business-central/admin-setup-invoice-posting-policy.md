@@ -11,11 +11,11 @@ ms.search.forms: '119, 9807,'
 ms.service: dynamics-365-business-central
 ---
 
-# Define an invoice posting policy for users
+# <a name="define-an-invoice-posting-policy-for-users"></a>Define an invoice posting policy for users
 
 Companies often have unique processes for posting sales and purchase invoices and shipments. For example, processes can vary from one person posting everything on a purchase order, to multiple employees. You can restrict users from posting invoices, or require that invoices are posted together with shipments or receipts.
 
-## To specify a posting policy
+## <a name="to-specify-a-posting-policy"></a>To specify a posting policy
 
 On the **User Setup** page, in the **Sales Invoice Posting Policy** and **Purch. Invoice Posting Policy** fields, choose one of the following options:
 
@@ -23,7 +23,7 @@ On the **User Setup** page, in the **Sales Invoice Posting Policy** and **Purch.
 * **Prohibited** - Prevent the user from posting invoices. Business Central will show a confirmation dialogue that provides only the **Ship** or **Receive** options.
 * **Mandatory** - Allow the user to post invoices together with receipts or shipments. Business Central will show a confirmation dialogue with the **Ship and Invoice** or **Receive and Invoice** options.
 
-## Effect on documents
+## <a name="effect-on-documents"></a>Effect on documents
 
 The following table describes how invoice posting policies affect documents.
 
@@ -47,7 +47,7 @@ The following table describes how invoice posting policies affect documents.
    > [!Note]
    > The setting doesn't affect posting of general journal lines where you can select **Invoice** in the **Document Type** field.
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Invoice Sales](sales-how-invoice-sales.md)  
 [Record Purchases with Purchase Invoices and Orders](purchasing-how-record-purchases.md)  

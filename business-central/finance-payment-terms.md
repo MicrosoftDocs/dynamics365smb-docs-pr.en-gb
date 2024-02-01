@@ -8,7 +8,7 @@ ms.date: 09/05/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Set up payment terms
+# <a name="set-up-payment-terms"></a>Set up payment terms
 
 Payment terms determine how you manage due dates and payment discounts. You can set up any number of payment term codes and use date formulas to define the payment terms. When you first sign up for [!INCLUDE [prod_short](includes/prod_short.md)], the demonstration company provides a few payment methods that businesses often use. You can, however, add as many as you need.  
 
@@ -20,7 +20,7 @@ Similarly, when you post a credit memo, [!INCLUDE [prod_short](includes/prod_sho
 
 If you want to send your customers reminders of overdue payments, you must set up reminder levels and terms. To learn more about reminders, go to [Set Up Reminder Terms and Levels](finance-setup-reminders.md).  
 
-## To set up payment terms
+## <a name="to-set-up-payment-terms"></a>To set up payment terms
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Terms**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -32,7 +32,7 @@ After you set up the payment terms, you assign them to customers and vendors. Op
 >
 > In some countries/regions, you *can* set up payment terms with partial payments. To learn whether your country/region supports this capability, go to the **Local Functionality** section in the table of contents on the left side of a [Microsoft Learn](about-localization.md) article.
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Set Up Payment Methods](finance-payment-methods.md)  
 [Set Up Prepayments](finance-set-up-prepayments.md)  

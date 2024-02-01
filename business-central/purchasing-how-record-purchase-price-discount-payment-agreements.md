@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Record Special Purchase Prices and Discounts
+# <a name="record-special-purchase-prices-and-discounts"></a>Record Special Purchase Prices and Discounts
 
 > [!NOTE]
 > In 2020 release wave 2 we released streamlined processes for setting up and managing prices and discounts. If you're a new customer using that version, you're using the new experience. If you're an existing customer, whether you are using the new experience depends on whether your administrator has enabled the **New sales pricing experience** feature update in **Feature Management**. For more information, see [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -30,7 +30,7 @@ Concerning discounts, you can set up and use two types of purchase discounts:
 
 Because purchase line discounts and purchase prices are based on a combination of item and vendor, you can also enter this configuration from the item card, where the rules and values are defined. For more information, see [Register New Items](inventory-how-register-new-items.md).
 
-## To set up a special purchase price for a vendor
+## <a name="to-set-up-a-special-purchase-price-for-a-vendor"></a>To set up a special purchase price for a vendor
 
 #### [Current Experience](#tab/current-experience)
 
@@ -53,7 +53,7 @@ Because purchase line discounts and purchase prices are based on a combination o
 
 ---
 
-## To set up a line discount for a vendor
+## <a name="to-set-up-a-line-discount-for-a-vendor"></a>To set up a line discount for a vendor
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
 2. Open the relevant vendor card, and then choose the **Line Discounts** action.
@@ -62,7 +62,7 @@ Because purchase line discounts and purchase prices are based on a combination o
 3. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Fill a line for each combination for which the vendor grants you a purchase line discount.
 
-## To set up an invoice discount for a vendor
+## <a name="to-set-up-an-invoice-discount-for-a-vendor"></a>To set up an invoice discount for a vendor
 
 When your vendors have informed you which invoice discounts they grant, enter the invoice discount code on the vendor cards and set up the terms for each code.
 
@@ -82,7 +82,7 @@ When your vendors have informed you which invoice discounts they grant, enter th
 
 The invoice discount is now set up and assigned to the vendor in question. When you select the vendor code in the **Invoice Disc. Code** field on other vendor cards, the same invoice discount is assigned to those vendors.
 
-## To choose a principle for posting purchase discounts
+## <a name="to-choose-a-principle-for-posting-purchase-discounts"></a>To choose a principle for posting purchase discounts
 
 When you post a purchase invoice that includes one or more discounts, you can choose between two principles for posting discount amounts. You can post discounts separately or you can subtract discounts from invoice discounts.  
 
@@ -98,7 +98,7 @@ Before you can do this, you must have already set up the necessary accounts for 
 |**Line Discounts**|Subtracted|Posted separately|  
 |**No Discounts**|Subtracted|Subtracted|  
 
-## Purchase invoice discounts and service charges
+## <a name="purchase-invoice-discounts-and-service-charges"></a>Purchase invoice discounts and service charges
 
 If you have fixed terms for invoice discounts with any vendors, you can enter them for those vendors. Then the discount will be calculated when you fill in a purchase invoice.  
 
@@ -115,7 +115,7 @@ You can choose to have [!INCLUDE[prod_short](includes/prod_short.md)] automatica
 > [!TIP]  
 > Before you enter this information, it is a good idea to prepare an outline of the discount structure that you want to use. This makes it easier to see which vendors can be linked to the same invoice discount page. The fewer pages that you have to set up, the faster that you can enter the basic information.
 
-## Best price calculation
+## <a name="best-price-calculation"></a>Best price calculation
 
 When you have recorded special prices and line discounts for sales and purchases, [!INCLUDE[prod_short](includes/prod_short.md)] ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents and on job and item journal lines.
 
@@ -138,7 +138,7 @@ The best price is the lowest permissible price with the highest permissible line
 
 If no special price can be calculated for the item on the line, then either the last direct cost or the unit price from the item card is inserted.
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

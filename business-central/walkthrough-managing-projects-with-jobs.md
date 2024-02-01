@@ -9,7 +9,7 @@ ms.date: 06/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Walkthrough: Managing Projects with Jobs
+# <a name="walkthrough-managing-projects-with-jobs"></a>Walkthrough: Managing Projects with Jobs
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
@@ -17,11 +17,11 @@ This walkthrough introduces you to the project management features in jobs. Jobs
 
  This walkthrough covers the setup of a new job in addition to some common tasks such as handling fixed pricing, making payment by installments, posting invoices from jobs, and copying jobs.  
 
-## About This Walkthrough
+## <a name="about-this-walkthrough"></a>About This Walkthrough
 
  This walkthrough demonstrates the following tasks:  
 
-### Setting Up a Job
+### <a name="setting-up-a-job"></a>Setting Up a Job
 
  With the budget structure set up for jobs, creating a job is straightforward. This walkthrough covers the following procedures:  
 
@@ -29,14 +29,14 @@ This walkthrough introduces you to the project management features in jobs. Jobs
 - Creating job-specific prices for items, resources, and general ledger accounts.  
 - Invoicing from a job.  
 
-### Handling Fixed Prices
+### <a name="handling-fixed-prices"></a>Handling Fixed Prices
 
  In jobs, you can handle fixed prices and the prices for services or goods that are agreed upon in advance with customers. In this walkthrough, you can do the following:  
 
 - See how contract and invoice values are determined.  
 - Allow for extra work in the schedule that has not been invoiced.  
 
-### Copying a Job
+### <a name="copying-a-job"></a>Copying a Job
 
  This part of the walkthrough focuses on how to copy part or all of a job in order to reduce manual data entry and improve accuracy. It includes the following:  
 
@@ -44,7 +44,7 @@ This walkthrough introduces you to the project management features in jobs. Jobs
 - Copying job-specific prices.  
 - Copying planning lines.  
 
-### Making Payment by Installment
+### <a name="making-payment-by-installment"></a>Making Payment by Installment
 
  When a large, expensive project lasts for a long period, the customer often makes an agreement with the company to pay by installments. This scenario shows how you set up payment by installments and covers:  
 
@@ -52,31 +52,31 @@ This walkthrough introduces you to the project management features in jobs. Jobs
 - Invoicing payments to customers.  
 - Accounting for usage in a job set up for payment by installments.  
 
-## Roles
+## <a name="roles"></a>Roles
 
  This walkthrough includes tasks for the following roles:  
 
 - Project Manager  
 - Project Team Member  
 
-## Prerequisites
+## <a name="prerequisites"></a>Prerequisites
 
  Before you can perform the tasks in the walkthrough, you must do the following:  
 
 - Install the CRONUS demonstration database.
 - Create sample data by using the steps in the following section.  
 
-## Story
+## <a name="story"></a>Story
 
 This walkthrough focuses on CRONUS, a design and consultancy firm that designs and fits new infrastructures, such as conference halls and offices, with furniture, accessories, and storage units. Most of its work is project oriented. Prakash, a project manager at CRONUS uses jobs to get an overview of each ongoing job that CRONUS has started, as well as the jobs that are completed. Prakash is usually the one who sets up deals with customers and enters the core of the job, which is task and planning lines in addition to prices, into [!INCLUDE[prod_short](includes/prod_short.md)]. Prakash finds that creating, maintaining, and reviewing information is straightforward. Prakash also likes the way [!INCLUDE[prod_short](includes/prod_short.md)] enables copying jobs and payment by installments.
 
  Tricia, a project team member who reports to Prakash, is responsible for monitoring the job day-to-day. Tricia enters her own work in addition to the work performed by technicians on every task, records the items that they have used, and the costs that they have incurred.  
 
-## Preparing Sample Data
+## <a name="preparing-sample-data"></a>Preparing Sample Data
 
  To prepare for this walkthrough, you must add Tricia as a new resource.  
 
-### To prepare the sample data  
+### <a name="to-prepare-the-sample-data"></a>To prepare the sample data
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resources**, and then choose the related link.  
 2.  Choose the **New** action to create a new resource card.  
@@ -99,7 +99,7 @@ This walkthrough focuses on CRONUS, a design and consultancy firm that designs a
 
 In the next procedure, you create a job journal batch for Tricia in order to post their usage.  
 
-### To create a Job Journal batch  
+### <a name="to-create-a-job-journal-batch"></a>To create a Job Journal batch
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
 2.  On the **Job Journal** page, choose the **Batch Name** field. The **Job Journal Batches** page opens.  
@@ -111,11 +111,11 @@ In the next procedure, you create a job journal batch for Tricia in order to pos
 
 4.  Choose the **OK**  button to save the changes.
 
-## Setting Up a Job
+## <a name="setting-up-a-job-1"></a>Setting Up a Job
 
  In this scenario, CRONUS has won a contract with a customer, Progressive Home Furnishings, to design a conference and dining hall. The customer is based in the United States and the project will require special software. The project manager reaches an agreement with the customer and creates a job that covers the agreement.  
 
-### To set up a job  
+### <a name="to-set-up-a-job"></a>To set up a job
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2.  Choose the **New** action to create a new card.  
@@ -135,7 +135,7 @@ In the next procedure, you create a job journal batch for Tricia in order to pos
 
  You can customise the pricing for customers on a per job basis, depending on the agreements you have set up. In the next procedure, the project manager specifies a cost for Tricia's time, sets the price for the required software, and adds in the travel costs that the customer has agreed to pay.  
 
-### To customise pricing  
+### <a name="to-customize-pricing"></a>To customise pricing
 
 1.  From the job card, choose the **Resource** action.  
 2.  On the **Job Resource Prices** page, enter the following information:  
@@ -161,7 +161,7 @@ In the next procedure, you create a job journal batch for Tricia in order to pos
 
  The final steps in setting up a job are adding the job tasks and the planning lines that are part of each task. The planning lines determine what is invoiced to the customer.  
 
-### To add job tasks  
+### <a name="to-add-job-tasks"></a>To add job tasks
 
 1.  On the **Job** card for the new job, choose the **Job Task Lines** action.  
 2.  The following table describes the information that you should enter in the fields.  
@@ -183,7 +183,7 @@ In the next procedure, you create a job journal batch for Tricia in order to pos
 
  In this walkthrough, the project manager uses **Both Budget and Billable**. They create three planning lines for task 1010, and two planning lines for task 1020.  
 
-### To create planning lines  
+### <a name="to-create-planning-lines"></a>To create planning lines
 
 1. Select line 1010, and then choose the **Job Planning Lines** action.  
 
@@ -205,11 +205,11 @@ In the next procedure, you create a job journal batch for Tricia in order to pos
 
 4. Close the page. Totals are updated on the **Job Task Lines** page.  
 
-## Calculating Remaining Usage
+## <a name="calculating-remaining-usage"></a>Calculating Remaining Usage
 
  Tricia, the team project member, has been working on the job for a while and wants to register their hours and usage on the job. Tricia has not worked more hours than was agreed upon with the customer in advance. Tricia uses the **Calculate Remaining Usage** batch job to calculate remaining usage for the job in a job journal. For each task, the batch job calculates the difference between scheduled usage of items, resources, and general ledger expenses and the actual usage posted in job ledger entries. The remaining usage is then displayed in the job journal from where she can post it.  
 
-### To calculate remaining usage  
+### <a name="to-calculate-remaining-usage"></a>To calculate remaining usage
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
 2.  On the **Job Journal** page, in the **Batch Name** field, open the **Job Journals Batches** list. Select the **Tricia** job journal batch.  
@@ -223,11 +223,11 @@ In the next procedure, you create a job journal batch for Tricia in order to pos
 
 The lines are now posted.  
 
-## Creating and Posting a Job Sales Invoice
+## <a name="creating-and-posting-a-job-sales-invoice"></a>Creating and Posting a Job Sales Invoice
 
  Next, Tricia can create a new invoice for the whole job or for part of a job. Tricia can also attach the invoice to another invoice for the same customer for the same job. In this case, Tricia invoices for the whole job, because the project is now completed.  
 
-### To create a job sales invoice  
+### <a name="to-create-a-job-sales-invoice"></a>To create a job sales invoice
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2.  Select the job that you created earlier, and then choose the **Create Job Sales Invoice** action.  
@@ -237,13 +237,13 @@ The lines are now posted.
 
  After creating the invoice, Tricia can access it from the **Sales Order Processor** Role Centre, for example. 
 
-### To post a new sales invoice  
+### <a name="to-post-a-new-sales-invoice"></a>To post a new sales invoice
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
 2.  Open the invoice for Customer No. 01445544. You can see the information that was entered from the planning lines.  
 3.  Choose the **Post** action. Choose **Yes** to confirm the posting.  
 
-### To view the posted invoice  
+### <a name="to-view-the-posted-invoice"></a>To view the posted invoice
 
 1.  Open the job, and then choose the **Job Planning Lines** action.  
 2.  Select any of the planning lines that have been invoiced, and then choose the **Sales Invoice/Credit Memo** action.
@@ -251,17 +251,17 @@ The lines are now posted.
 
  Tricia has a question about the prices, costs, and profits that are relevant to this particular job, so Tricia accesses that information on the **Statistics** page.  
 
-### To open the Statistics page  
+### <a name="to-open-the-statistics-page"></a>To open the Statistics page
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2.  Choose the **Statistics** action. You can review detailed information about the job prices, costs, and profits in both local and foreign currencies.  
 3.  Choose the **Close** button to close the **Job Statistics** page.  
 
-## Handling Fixed Prices
+## <a name="handling-fixed-prices-1"></a>Handling Fixed Prices
 
  CRONUS has been contracted to set up conference rooms. As the project manager, Prakash wants a good overview of the tasks required for the job with the associated budgeted and incurred costs for each task. In addition, Prakash wants to know the total contracted price for the job and the amount that has been invoiced to this point. They have reached an agreement with the customer regarding fixed pricing for the job.  
 
-### To manage fixed pricing in jobs  
+### <a name="to-manage-fixed-pricing-in-jobs"></a>To manage fixed pricing in jobs
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2. Select the **Guildford** job number, and then choose the **Jobs Task Lines** action.  
@@ -281,7 +281,7 @@ The lines are now posted.
 
 After being added to the schedule for this task line, Tricia works 25 hours on the job, and enters these hours into the job journal.  
 
-### To enter hours in the Job Journal  
+### <a name="to-enter-hours-in-the-job-journal"></a>To enter hours in the Job Journal
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
 2. On a new line, enter the following information:  
@@ -336,13 +336,13 @@ After being added to the schedule for this task line, Tricia works 25 hours on t
 
 In the total price for the contract, only the original contracted 30 hours are included, because this is what was agreed upon with the customer.  
 
-## Copying Jobs
+## <a name="copying-jobs"></a>Copying Jobs
 
 Prakash has reached an agreement with a customer, Selagorian Ltd, to set up 10 conference rooms. The agreement resembles an earlier job. Therefore, it will save time to copy that earlier job.  
 
 On the **Copy Job** page, you can select the job and task lines that you want to copy. You can also select to copy the source job ledger entries, which creates planning lines based on actual usage, or you can copy the source job planning lines, which copies the original planning lines to the new job. You can then choose what planning line or ledger entry line type that you want to include, selecting only what is relevant to this new job. Finally, you can select the job that you want to copy to and define whether prices and quantities should be copied as well.  
 
-### To copy a job  
+### <a name="to-copy-a-job"></a>To copy a job
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2. Choose the **New** action to create a new job. Enter the following information:  
@@ -364,11 +364,11 @@ On the **Copy Job** page, you can select the job and task lines that you want to
 
 By comparing prices, job task lines, and job planning lines for the two jobs, you can see that the information was successfully copied.  
 
-## Making Payments by Installments
+## <a name="making-payments-by-installments"></a>Making Payments by Installments
 
 CRONUS has just landed a large project that will take a year to be completed. Because it requires the dedication of many resources, the project manager sets up the contract so that the customer pays part of the price up front, part when the project is halfway completed, and the final payment upon completion.  
 
-### To set up a new account  
+### <a name="to-set-up-a-new-account"></a>To set up a new account
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
 2. On the **Chart of Accounts** page, choose the **New** action to create a new card.  
@@ -382,7 +382,7 @@ CRONUS has just landed a large project that will take a year to be completed. Be
 
 The following procedures show how to create a new job, set pricing, and then set up payment by installment. In the job task lines, you can create specific lines dedicated to the payment by installments. All work completed on the job that is added to the schedule will be entered on the usage lines. For each payment task line on the planning lines, the line type is **Billable**, which means that the customer will be invoiced. Enter a new line for the down payment. On the usage task line, you can enter the information for the items and resources that have been used in this project, which will increase the schedule, such as employee hours and items used on the job.  
 
-### To make a payment by installment  
+### <a name="to-make-a-payment-by-installment"></a>To make a payment by installment
 
 1. Create a new job.  
 2. On the new **Job** card, fill in the following information:  
@@ -443,17 +443,17 @@ The following procedures show how to create a new job, set pricing, and then set
 
  Now that the task and planning lines have been entered, Prakash creates an invoice for the first payment. Prakash does this from the job task lines to make sure that the invoice only contains the lines for the first payment. You can open the sales order from the planning lines or the task lines.  
 
-### To create an invoice  
+### <a name="to-create-an-invoice"></a>To create an invoice
 
 1.  On the **Job Task Lines** page, select line 1000, and then choose the **Create Sales Invoice** action.  
 2.  On the **Create Sales Invoice** page, set today's date as the posting date, specify **Per Task**, and choose the **OK** button to create an invoice with the default information. Choose the **OK** button to close the confirmation page.  
 3.  Choose the **Sales Invoice/Credit Memo** action. On the sales invoice, you can see that only the down payment is included in the invoice. You can now send this to the customer as agreed.  
 
-## Next Steps
+## <a name="next-steps"></a>Next Steps
 
  This walkthrough has taken you through some of the basic steps of working with jobs in [!INCLUDE[prod_short](includes/prod_short.md)]. You have learned about how to create a new job, how to copy a job, and how to handle payments. Also, you have seen a demonstration of how to track hours and create invoices.  
 
-## See also 
+## <a name="see-also"></a>See also
 
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
  [Setting Up Project Management](projects-setup-projects.md)  
