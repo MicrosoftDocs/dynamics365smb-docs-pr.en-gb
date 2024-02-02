@@ -12,11 +12,11 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# <a name="faq-for-marketing-text-suggestions-with-copilot"></a>FAQ for marketing text suggestions with Copilot
+# FAQ for marketing text suggestions with Copilot
 
 These frequently asked questions (FAQ) describe the AI impact of the [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] feature in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="what-is-item-marketing-text-suggestions"></a>What is item marketing text suggestions?
+## What is item marketing text suggestions?
 
 Copilot provides writing assistance for users responsible for authoring marketing text (also known as copy) on items in [!INCLUDE[prod_short](includes/prod_short.md)]. This feature is known as [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]. The [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] feature provides writing assistance for users responsible for authoring marketing text (also known as *copy*) on items in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -33,20 +33,20 @@ Some key benefits of this feature include:
 - Unlocks creativity to provide more engaging product descriptions.
 - Improves consistency of marketing material for product lines.
 
-## <a name="what-are-the-systems-capabilities"></a>What are the system's capabilities?
+## What are the system's capabilities?
 
 The [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] feature uses [Microsoft's Azure OpenAI Service](/azure/cognitive-services/openai/overview) to access powerful language models that analyse and generate natural language. These models have been trained on a wide body of text datasets. As a result, Copilot can generate suggested, personalised responses in English based on a minimal amount of input data, like an item's attributes, category, or description. 
 
-## <a name="what-is-the-systems-intended-use"></a>What is the system's intended use?
+## What is the system's intended use?
 
 This feature is intended to assist users in creating marketing text for items in [!INCLUDE[prod_short](includes/prod_short.md)]. Writers use the feature to quickly get compelling and engaging text suggestions, which are then reviewed and edited for accuracy. 
 
-## <a name="how-was-item-marketing-text-evaluated-what-metrics-are-used-to-measure-performance"></a>How was item marketing text evaluated? What metrics are used to measure performance?
+## How was item marketing text evaluated? What metrics are used to measure performance?
 
 - The feature underwent extensive testing where numerous texts in different languages were evaluated by language experts against various criteria. Testing was based on [!INCLUDE[prod_short](includes/prod_short.md)]'s demonstration data and other fictitious product catalogues.
 - This feature is built in accordance with Microsoft's Responsible AI Standard. [Learn more about responsible AI from Microsoft](https://aka.ms/RAI).
 
-## <a name="how-does-microsoft-monitor-the-quality-of-generated-content"></a>How does Microsoft monitor the quality of generated content?
+## How does Microsoft monitor the quality of generated content?
 
 Microsoft has various systems in place to ensure Copilot capabilities remain operational and generate content of the highest quality.
 
@@ -68,7 +68,7 @@ Microsoft has various systems in place to ensure Copilot capabilities remain ope
 
    For more information, consult [Data, privacy, and security for Azure OpenAI Service](/legal/cognitive-services/openai/data-privacy#abuse-and-harmful-content-generation).
 
-## <a name="is-there-a-logging-and-human-review-process-as-part-of-azure-openai-service-and-if-so-can-i-opt-out"></a>Is there a logging and human review process as part of Azure OpenAI Service, and if so, can I opt out?
+## Is there a logging and human review process as part of Azure OpenAI Service, and if so, can I opt out?  
 
 As part of providing the Azure OpenAI service, Microsoft will process and store customer data submitted to the service, as well as output content, for purposes of monitoring for and preventing abusive or harmful uses or outputs of the service; and for developing, testing, and improving capabilities designed to prevent abusive use of or harmful outputs from the service. 
 
@@ -76,13 +76,13 @@ Authorised Microsoft personnel may review data that has triggered our automated 
 
 For Microsoft to safeguard the service and its customers, it's not possible to opt out of logging and human review processes.
 
-## <a name="what-data-does-the-capability-collect-how-is-the-data-used"></a>What data does the capability collect? How is the data used?
+## What data does the capability collect? How is the data used?
 
 The marketing text suggestions capability collects the minimum data required by Business Central to offer the service. For more information, see [Dynamics 365 terms for Azure OpenAI-powered features](https://go.microsoft.com/fwlink/?linkid=2236010).
 
 The capability also collects data from the feedback user's can provide using the like (thumbs up) or dislike (thumbs down) icons at the top of the **Copilot** page. The data is anonymous and includes the choice of like ot dislike, the dislike reason if provided, and the Copit feature the feedback applies to. We use this data to evaluate and improve the quality of the capability.
 
-## <a name="what-are-the-limitations-of--how-can-users-minimize-the-impact-of-the-includefeature-marketing-text-suggestions-limitations-when-using-the-system"></a>What are the limitations of [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]? How can users minimise the impact of the [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] limitations when using the system?
+## What are the limitations of [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]? How can users minimise the impact of the [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] limitations when using the system?
 
 - Because the underlying technology behind the feature uses AI that has been trained on a wide range of sources, the generated content isn't always factual or suitable. Some suggestions may even include questionable or inappropriate content. It's your responsibility to review and edit generated suggestions to ensure it's accurate and appropriate.
 - [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
@@ -90,7 +90,7 @@ The capability also collects data from the feedback user's can provide using the
   Inaccurate responses might be returned when users interact with the system in languages other than the supported languages. Also, inaccurate text might be generated when the user's language and primary data language in the [!INCLUDE[prod_short](includes/prod_short.md)] database aren't identical.
 
 
-## <a name="what-operational-factors-and-settings-allow-for-effective-and-responsible-use-of-the-system"></a>What operational factors and settings allow for effective and responsible use of the system?
+## What operational factors and settings allow for effective and responsible use of the system?
 
 There are a few things you can do to get the most out of the feature:
 
@@ -105,7 +105,7 @@ To learn more, go to [Improve and tailor text suggestions](item-marketing-text.m
 > Always review the suggestions for accuracy before saving them and publishing them for public consumption.
 
 
-## <a name="see-also"></a>See also
+## See also 
 
 - [Marketing text suggestions](ai-overview.md)
 
