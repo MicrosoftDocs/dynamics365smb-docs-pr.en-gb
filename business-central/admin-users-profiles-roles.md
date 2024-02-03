@@ -10,7 +10,7 @@ ms.date: 01/11/2023
 ms.custom: bap-template
 ms.search.form: 9171
 ---
-# Manage user profiles
+# <a name="manage-user-profiles"></a>Manage user profiles
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -34,11 +34,11 @@ For more information about user settings and Role Centres, see [Change Basic Set
 
 Before you can manage user profiles, you must create and add the users through the Microsoft 365 Admin Centre. You can then assign permissions to each user or user group. Permissions define the features that users can access. For more information about permission settings, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
 
-## Page customisation
+## <a name="page-customization"></a>Page customisation
 
 You can customise page layouts for a profile so that all users assigned the profile sees the customised pages. As an administrator, you customise pages by using the same functionality as users do when they personalise. For more information about customise page layouts, see [Customise Pages for Profiles](ui-personalization-manage.md).
 
-## To create a profile
+## <a name="to-create-a-profile"></a>To create a profile
 
 If you can't copy an existing profile, you can create a new one manually.
 
@@ -49,7 +49,7 @@ If you can't copy an existing profile, you can create a new one manually.
 > [!TIP]
 > If you want a particular profile to be available only for very specific users, you can set the **Description** field to `Navigation menu only.`. This way, the profile is excluded from the list of available roles in **My Settings**.
 
-## To copy a profile
+## <a name="to-copy-a-profile"></a>To copy a profile
 
 To save time, you can create a new profile by copying an existing one. Copy one that has similar settings to the one you want to create.
 
@@ -59,14 +59,14 @@ When you copy a profile, all the involved page customisations are copied as well
 2. Fill in the **Profile ID** and **Display Name** fields, and then choose the **OK** button.
 3. On the **Profiles (Roles)** page, open the newly created profile card, and then edit other fields as necessary.
 
-## To edit a profile
+## <a name="to-edit-a-profile"></a>To edit a profile
 
 You can edit a profile by changing the fields on the **Profiles (Roles)** page. However, the changes aren't visible to the user assigned the profile until they sign out and back in.
 
 > [!Caution]
 > Do not rename a profile while users assigned the profile are signed in as users may experience that the product freezes and must be restarted.
 
-## To assign a profile to a user
+## <a name="to-assign-a-profile-to-a-user"></a>To assign a profile to a user
 
 Users can assign themselves a role (representing a profile) by choosing the **Role** field on the **My Settings** page. As an administrator, you can do the same through the **Profiles (Roles)** page.
 
@@ -76,7 +76,7 @@ Users can assign themselves a role (representing a profile) by choosing the **Ro
 
 If you assign another profile to a user, any personalisations made by the user with the previous profile are preserved.
 
-## To define user settings for a profile
+## <a name="to-define-user-settings-for-a-profile"></a>To define user settings for a profile
 
 On the **My Settings** page, users can define basic behaviour of their account, such as the Role Centre, the language, and which notifications they get. For more information about user settings, see [Change Basic Settings](ui-change-basic-settings.md).
 
@@ -87,7 +87,7 @@ As an administrator, you can define settings for a profile. The settings apply t
 3. On the **User Personalisations** page, open the card for the user whose settings you want to change.
 4. On the **User Personalisation Card** page, edit the fields as necessary.
 
-## To activate a profile
+## <a name="to-activate-a-profile"></a>To activate a profile
 
 When you create a profile, you can define if, where, and how the profile and its information are available to users.
 
@@ -98,7 +98,7 @@ On the **Profiles (Roles)** page, select the following checkboxes:
 * **Disable personalisation** to specify if users of the related role can personalise their workspace.
 * **Show in Role Explorer** to specify if actions to business features included in the profile are shown in the extended view of the role explorer, a feature overview. For more information about role explorer, see [Finding Pages with the Role Explorer](ui-role-explorer.md).
 
-## To export profiles
+## <a name="to-export-profiles"></a>To export profiles
 
 You can export profiles from [!INCLUDE[prod_short](includes/prod_short.md)] and reuse them in another tenant. The profiles are exported to a zip file that contains Application Language (AL) files. You can reuse the AL files to develop extensions. For more information about exporting profiles, see [Use the Client to Create Profiles and Page Customisations](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
@@ -106,7 +106,7 @@ You can export profiles from [!INCLUDE[prod_short](includes/prod_short.md)] and 
 
     This action exports a zip file that contains AL files for all profiles.
 
-## To import profiles
+## <a name="to-import-profiles"></a>To import profiles
 
 You can import profiles that are exported from Business Central. The steps are more or less the opposite of the steps to export profiles.
 
@@ -118,7 +118,7 @@ You can import profiles that are exported from Business Central. The steps are m
 
     This action imports a zip file that contains AL files for the selected profiles.
 
-## To delete a profile
+## <a name="to-delete-a-profile"></a>To delete a profile
 
 You can delete a profile by choosing the **Delete** action on the **Profiles (Roles)** page. However, the following limitations apply:
 
@@ -126,7 +126,7 @@ You can delete a profile by choosing the **Delete** action on the **Profiles (Ro
 * You can't delete profiles that originate from extensions. The extension must first be uninstalled.
 * You can only delete one profile at a time.
 
-## To delete all personalisations made by a user
+## <a name="to-delete-all-personalizations-made-by-a-user"></a>To delete all personalisations made by a user
 
 You can delete all changes that a user makes to pages. Deleting changes can be useful, for example, if an employee changes role and no longer needs them. The profile defines the page layout and deletions restore it back to that definition.
 
@@ -141,7 +141,7 @@ The user will see the changes the next time they sign in.
 
 You can also delete all page customisations for a profile. For more information, see [To delete all customisations for a profile](ui-personalization-manage.md#delete-all-customizations-for-a-profile).
 
-## To delete personalisations for specific pages
+## <a name="to-delete-personalizations-for-specific-pages"></a>To delete personalisations for specific pages
 
 You can delete personalisations that one or more users make to specific pages. Deleting personalisations can be useful, for example, if a business process change means that a personalisation can't be used. Deletions restore the page layout back to what the profile defines.
 
@@ -157,13 +157,13 @@ The user will see the changes the next time they sign-in.
 
 You can also delete individual page customisations for a profile. For more information, see [To delete customisation for specific pages for a profile](ui-personalization-manage.md#delete-customization-for-specific-pages-for-a-profile).
 
-## Managing user sessions
+## <a name="managing-user-sessions"></a>Managing user sessions
 
 As the administrator of [!INCLUDE[prod_short](includes/prod_short.md)] online, you can manage user sessions in the administration centre. For more information, see [Managing Sessions][def] in the administration content.  
 
 For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you can manage sessions using SQL Server Management Studio, for example. For more information, see [SQL Server technical documentation](/sql/sql-server).  
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
 [Customise Pages for Profiles](ui-personalization-manage.md)  

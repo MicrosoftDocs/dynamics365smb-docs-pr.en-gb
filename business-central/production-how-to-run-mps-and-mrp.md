@@ -10,7 +10,7 @@ ms.reviewer: andreipa
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Run Full Planning, MPS, or MRP
+# <a name="run-full-planning-mps-or-mrp"></a>Run Full Planning, MPS, or MRP
 
 The terms "running the planning worksheet" or "running MRP" refer to calculating the master production schedule and material requirements. The calculation is based on actual and forecasted demand. The planning system can calculate either Master Production Schedule (MPS) or Material Requirements Planning (MRP) on request, or both at the same time.  
 
@@ -23,7 +23,7 @@ You can track the links that the planning creates between demand and supply on t
 
 Proper planning results depend on the set up done on item cards, assembly BOMs, production BOMs, and routings.  
 
-## Methods for generating a plan  
+## <a name="methods-for-generating-a-plan"></a>Methods for generating a plan
 
 - **Calculate Regenerative Plan:** Process or regenerate the material plan. This process starts by deleting all planned supply orders that are currently loaded. All items in the database are replanned.  
 - **Calculate Net Change Plan**: Process a net change plan. Items are considered in net change planning from two types of changes:  
@@ -38,7 +38,7 @@ With each planned method, [!INCLUDE[prod_short](includes/prod_short.md)] generat
 >
 > You can run the Get Action Messages Plan between regenerative and net change planning runs to obtain an immediate view of the effect of schedule changes. However, it isn't meant to replace the full regenerative or net change planning processes.  
 
-## To calculate the planning worksheet
+## <a name="to-calculate-the-planning-worksheet"></a>To calculate the planning worksheet
   
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheets**, and then choose the related link.  
 2. Choose the **Calculate Regenerative Plan** action to open the **Calculate Plan** page.  
@@ -58,7 +58,7 @@ With each planned method, [!INCLUDE[prod_short](includes/prod_short.md)] generat
 4. On the **Item** FastTab, set filters to run the planning based on the item, item description, or location.  
 5. Choose the **OK** button. The batch job runs and planning lines are added to the planning worksheet.  
 
-## To perform action messages
+## <a name="to-perform-action-messages"></a>To perform action messages
   
 1. On the **Planning Worksheet** page, choose the **Carry Out Action Message** action.  
 2. On the **Options** FastTab, specify how to create the supplies. Fill in the fields as described in the following table.  
@@ -77,7 +77,7 @@ With each planned method, [!INCLUDE[prod_short](includes/prod_short.md)] generat
 
 The batch job deletes the lines in the planning worksheet after it has performed the action message. The other lines remain in the planning worksheet until they are either accepted at a later date or else deleted. You can also delete the lines manually.  
 
-## Action messages
+## <a name="action-messages"></a>Action messages
   
 Action messages are issued by the order tracking system when balance is unattainable in the existing order network. The messages can be viewed as a suggestion for you to process changes that reestablish balance between supply and demand.  
 
@@ -100,7 +100,7 @@ In response to any supply/demand imbalances, the following action messages are g
 |**Resch. & Chg. Qty.**|If both the dates and quantities of an order change, you must change plans with regard to both. Action messaging gathers both actions in one message, **Resched. and Chg. Qty.**, to ensure that the order network returns to balance.|  
 |**Cancel**|If a demand that has been covered on an order-to-order basis is deleted, an action message is generated to cancel the related supply order. If the relationship isn't order-to-order, an action message is generated to change in order to reduce the supply. If through other factors, such as inventory adjustments, a supply order isn't required at the time you generate the action messages, [!INCLUDE[prod_short](includes/prod_short.md)] suggests an action message of **Cancel** in the worksheet.|  
 
-## See also   
+## <a name="see-also"></a>See also
 
 [Planning](production-planning.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
