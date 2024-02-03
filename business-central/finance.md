@@ -10,7 +10,7 @@ ms.date: 12/19/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="financial-management"></a>Financial Management
+# Financial Management
 
 [!INCLUDE[prod_short](includes/prod_short.md)] includes a standard configuration for most financial processes, but you can change it to suit your business needs. Learn more at [Setting Up Finance](finance-setup-finance.md).
 
@@ -48,13 +48,13 @@ The following table describes a sequence of tasks, with links to the topics that
 | Work with financial statements and overviews in Microsoft Excel. |[Analyzing Financial Statements in Excel](finance-analyze-excel.md) |
 |Learn how to use the Accountant Role Centre, engage an external accountant, and use the Company Hub to manage accounts of multiple clients.|[Accountant Experiences in Business Central ](finance-accounting.md)|  
 
-## <a name="take-a-video-tour"></a>Take a video tour
+## Take a video tour
 
 This video introduces some of the key capabilities for managing finances. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Setting Up Finance](finance-setup-finance.md)  
 [Sales](sales-manage-sales.md)  
