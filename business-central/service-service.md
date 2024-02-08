@@ -3,14 +3,13 @@ title: Service Management
 description: Learn to use features in Business Central designed manage and track services to support repair shop and field service operations.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="service-management"></a>Service Management
+# Service Management
 > [!NOTE]
 > Functionality described in this topic and sub topics is only visible in the user interface if you have the **Premium** experience. For more information, see [Change Which Features are Displayed](ui-experiences.md).
 
@@ -36,7 +35,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Create and manage contractual agreements between you and your customers.|[Fulfilling Service Contracts](service-fulfill-service-contracts.md)|  
 |Provide service to customers, and invoice service orders.|[Delivering Service](service-deliver-service.md)|  
 
-## <a name="see-also"></a>See Also
+## See Also  
 [Managing Receivables](receivables-manage-receivables.md)   
 [Jobs](projects-how-create-jobs.md)   
 [Welcome to [!INCLUDE[prod_long](includes/prod_long.md)] ](welcome.md)
