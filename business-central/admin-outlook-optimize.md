@@ -9,34 +9,34 @@ ms.date: 12/06/2023
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Optimise Outlook for your Business Inbox 
+# <a name="optimize-outlook-for-your-business-inbox"></a>Optimise Outlook for your Business Inbox
 
 This article discusses things you can do to get the best possible experience with the Business Inbox in Microsoft Outlook. 
 
-## Update Outlook
+## <a name="update-outlook"></a>Update Outlook
 
 Update to Outlook version 2012 or newer.
 
 > [!NOTE]
 > If you are unable to update Outlook to version 2012 or later, make sure that you at least update to version 1905. This prevents the Outlook Add-in from running using legacy Internet Explorer components
 
-### How to check your version of Outlook
+### <a name="how-to-check-your-version-of-outlook"></a>How to check your version of Outlook
 
 Whether you use Office 2019 or Microsoft 365, follow this Microsoft Support guide to check which version of Outlook you have:  
 
 [About Office: What version of Office am I using?](https://support.microsoft.com/office/about-office-what-version-of-office-am-i-using-932788b8-a3ce-44bf-bb09-e334518b8b19)
 
-### How to update Outlook
+### <a name="how-to-update-outlook"></a>How to update Outlook
 
 To update Outlook to the latest version, follow this Microsoft Support guide or contact your administrator:
 
 [Install Office updates](https://support.microsoft.com/office/install-office-updates-2ab296f3-7f03-43a2-8e50-46de917611c5)
 
-## Install Microsoft Edge WebView2
+## <a name="install-microsoft-edge-webview2"></a>Install Microsoft Edge WebView2
 
 Ensure that Microsoft Edge WebView2 is installed on your device.
 
-### How to check if Microsoft Edge WebView2 is installed 
+### <a name="how-to-check-if-microsoft-edge-webview2-is-installed"></a>How to check if Microsoft Edge WebView2 is installed
 
 To check if you have Microsoft Edge WebView2 installed on a computer, do the following steps:
 
@@ -51,7 +51,7 @@ From Control Panel:
 2. Choose **Programs** > **Programs and Features**.
 3. In the search box, type **WebView2**. If Microsoft Edge WebView2 is installed, you see an entry called **Microsoft Edge WebView2 Runtime**.
 
-### How to install Microsoft Edge WebView2 
+### <a name="how-to-install-microsoft-edge-webview2"></a>How to install Microsoft Edge WebView2
 
 1. Using your browser, go to [https://developer.microsoft.com/microsoft-edge/webview2/](https://developer.microsoft.com/microsoft-edge/webview2/).
 2. Choose **Download**.
@@ -61,11 +61,11 @@ From Control Panel:
 > [!NOTE]
 > Your organisation may have restriction on which components can be installed on your device. Contact your administrator for assistance.
 
-## Use a supported browser
+## <a name="use-a-supported-browser"></a>Use a supported browser
 
 Consider using Outlook for the Web in one of the browsers supported by Business Central. For a list of supported browsers, see [Minimum Requirements for Using Business Central](product-requirements.md#browsers).
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Getting Business Central on my Mobile Device](install-mobile-app.md)  

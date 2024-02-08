@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Set Up Resources for Projects
+# <a name="set-up-resources-for-projects"></a>Set Up Resources for Projects
 
 To correctly manage resource activities, you must set up your resources and the related costs and prices. The job-related prices, discounts, and cost factor rules are set up on the job card. You can specify the costs and prices for individual resources, resource groups, or all available resources of the company.
 
@@ -24,7 +24,7 @@ You specify the default amount per hour when the resource is created. For exampl
 >  
 > If you are posting intercompany transactions, although you can a resource to a line on a sales order, if you convert the sales order to a purchase order on the receiving side the resource will not be included. To use resources in intercompany transactions, use the **IC Purch. G/L Acc. No.** field on the resource card to specify the account to which to post the expenses.
 
-## To set up a resource
+## <a name="to-set-up-a-resource"></a>To set up a resource
 
 Create a card for each resource that you want to use in projects.
 
@@ -32,7 +32,7 @@ Create a card for each resource that you want to use in projects.
 2. Choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## To set up a resource group
+## <a name="to-set-up-a-resource-group"></a>To set up a resource group
 
 You can combine several resources in one resource group. All capacities and budgets of resource groups are accumulated from the individual resources. It is also possible to enter capacities for resource groups either independently of the accumulated values or in addition to them.
 
@@ -40,7 +40,7 @@ You can combine several resources in one resource group. All capacities and budg
 2. Choose the **New** action.
 3. Fill in the fields as necessary.
 
-## To set capacity for a resource
+## <a name="to-set-capacity-for-a-resource"></a>To set capacity for a resource
 
 To calculate how much time a resource can spend on jobs, their capacity must first be set up as available time per period on the work calendar. This setup is used when you fill in job planning lines that contain the resource. For more information, see [Create Jobs](projects-how-create-jobs.md).
 
@@ -53,7 +53,7 @@ To calculate how much time a resource can spend on jobs, their capacity must fir
 7. Choose the **Update Capacity** action. The **Resource Capacity** page is updated with the entered capacity.
 8. Close the page.
 
-## To set up alternate resource costs
+## <a name="to-set-up-alternate-resource-costs"></a>To set up alternate resource costs
 
 In addition to the cost specified on the resource card, you can set up alternate costs for each resource. For example, if you pay an employee a higher hourly rate for overtime, you can set up a resource cost for the overtime rate. The alternate cost that you set up for the resource will override the cost on the resource card when you use the resource in the resource journal.
 
@@ -64,7 +64,7 @@ In addition to the cost specified on the resource card, you can set up alternate
 
 **Note**. To set up resource costs that will apply to all resources and resource groups, open the **Resource Costs** page and fill in the fields.
 
-## To set up alternate resource prices
+## <a name="to-set-up-alternate-resource-prices"></a>To set up alternate resource prices
 
 In addition to price specified on the resource card, you can set up alternate prices for each resource. These alternate prices can be conditional. They can depend on whether the resource is used with a specific job or work type.
 
@@ -73,7 +73,7 @@ In addition to price specified on the resource card, you can set up alternate pr
 3. On the **Resource Prices** page, fill in the fields on a line as necessary.
 4. Repeat step 3 for each alternate resource price that you want to set up.
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Setting Up Project Management](projects-setup-projects.md)  
 [Project Management](projects-manage-projects.md)  

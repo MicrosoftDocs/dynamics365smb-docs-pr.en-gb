@@ -131,7 +131,7 @@ Time sheet registration is tracked in hours, the standard base unit of measureme
     > A manager might reject a time sheet line that is submitted for approval. If a line has the status **Rejected**, you can make changes to the line, and then choose **Submit** again.  
 6. Choose the **OK** button.
 
-## <a name="to-approve-or-reject-a-time-sheet"></a>To approve or reject a time sheet
+## <a name="approve-or-reject-a-time-sheet"></a>To approve or reject a time sheet
 
 A time sheet must be submitted for approval before it can be used. You can approve and reject individual lines on a time sheet or send them back to the submitter. You approve a time sheet in two ways:
 
@@ -207,7 +207,7 @@ After you have approved time sheet entries for a job, you can post them to the r
 5. Choose the **Post** action.  
 6. To verify the posting, choose the **Ledger Entries** action. The **Job Ledger Entries** page opens showing the result of posting the resource journal.
 
-## <a name="to-archive-time-sheets"></a>To archive time sheets
+## <a name="archive-time-sheets"></a>To archive time sheets
 
 After you post time sheets, you can archive them for future reference. You must post all lines on a time sheet before you can archive it.
 

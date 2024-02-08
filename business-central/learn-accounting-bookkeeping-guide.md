@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Accounting and bookkeeping
+# <a name="accounting-and-bookkeeping"></a>Accounting and bookkeeping
 
 Accounting is a critical function in any enterprise resource planning (ERP) solution, and also in most businesses. Accounting represents the process of recording and cataloging a company's financial transactions, and then retrieving, measuring, summarising, and presenting the results by using different reports that are often required by local legislation. The primary goal of this process is to help the company's management understand the financials of the business and measure the results of the company's economic activities.
 
@@ -99,7 +99,7 @@ The following table describes a sequence of tasks and provides links to the arti
 | Enable global financial reporting to international accounting organisations by using the eXtensible Business Reporting Language (XBRL) standard. | [Create Reports with XBRL](bi-create-reports-with-xbrl.md) |
 | Change the database access intent on reports, pages of the API type, and queries to help reduce load and improve performance. | [Manage Database Access Intent](admin-data-access-intent.md) |
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Setting Up Finance](finance-setup-finance.md)  
 [Sales](sales-manage-sales.md)  

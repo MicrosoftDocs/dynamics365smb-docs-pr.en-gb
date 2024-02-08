@@ -10,7 +10,7 @@ ms.date: 08/23/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Setting Up Cash Flow Analysis
+# <a name="setting-up-cash-flow-analysis"></a>Setting Up Cash Flow Analysis
 
 If you want some help to decide what to do with your cash, have a look at the charts on the Accountant Role Centre:
 
@@ -24,7 +24,7 @@ This article describes where the data in the charts comes from and, if necessary
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mJhc?rel=0]
 
-## The Cash Cycle and Income & Expense charts
+## <a name="the-cash-cycle-and-income--expense-charts"></a>The Cash Cycle and Income & Expense charts
 
 The **Cash Cycle** and **Income & Expense** charts are ready to go, based on the Chart of Accounts and financial reports. The accounts are where the data comes from, and financial reports calculate the relationship between sales and receivables. Some accounts and financial reports are provided. You can use them as-is, change them, and add new ones. If you add G/L accounts to your chart of accounts, for example, by importing them from QuickBooks, you'll need to map to the accounts on the **Financial Reports** page for the following reports:
 
@@ -43,7 +43,7 @@ Enter accounts in the **Totalling** field for **Total Revenue**, **Total Receiva
 > [!TIP] 
 > Verify your mapping by choosing the **Overview** action.  
 
-## Set up the Cash Flow chart
+## <a name="set-up-the-cash-flow-chart"></a>Set up the Cash Flow chart
 
 The Cash Flow chart is based on:  
 
@@ -54,7 +54,7 @@ To help you get going, some accounts and cash flow setups are provided. You can 
 
 To set up the accounts, search for **Chart of Cash Flow Accounts**, choose the link, and then fill in the fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Repeat these steps for **Cash Flow Setup**.
 
-## Set up cash flow forecasts
+## <a name="set-up-cash-flow-forecasts"></a>Set up cash flow forecasts
 
 The **Cash Flow Forecast** chart uses cash flow accounts, cash flow setups, and cash flow forecasts. Some are provided, however, you can set up your own by using an assisted setup guide. The guide helps you specify things like how often to update the forecast, the accounts to base it on, information about when you pay taxes, and whether to turn on [Azure AI](https://azure.microsoft.com/overview/ai-platform/).  
 
@@ -79,7 +79,7 @@ To use a manual process:
 > [!TIP]  
 > Consider the length of the periods that the service will use in its calculations. The more data you provide, the more accurate the predictions will be. Also, watch out for large variances in periods. They will also impact predictions. If Azure AI does not find enough data, or the data varies a lot, the service will not make a prediction.  
 
-## Design details
+## <a name="design-details"></a>Design details
 
 Subscriptions for [!INCLUDE[prod_short](includes/prod_short.md)] come with access to several predictive web services in all regions where [!INCLUDE[prod_short](includes/prod_short.md)] is available. Learn more at the Microsoft Dynamics 365 Business Central Licensing Guide. The guide is available for download on the [Business Central](https://dynamics.microsoft.com/business-central/overview/) website.
 
@@ -89,11 +89,11 @@ These web services are stateless, meaning they use data only to calculate predic
 >
 > You can use your own predictive web service instead of ours. For more information, see [Create and use your own predictive web service for cash flow forecasts](#AnchorText).
 
-### Data required for forecast
+### <a name="data-required-for-forecast"></a>Data required for forecast
 
 To make predictions about future revenue and expenses, web services require historical data from receivables, payables, and taxes.
 
-#### Receivables
+#### <a name="receivables"></a>Receivables
 
 **Due Date**, **Amount (LCY)** fields of the **Customer Ledger Entries** page, where:
 
@@ -102,7 +102,7 @@ To make predictions about future revenue and expenses, web services require hist
 
 Before using the predictive web-service, [!INCLUDE[prod_short](includes/prod_short.md)] compresses transactions by **Due Date** based on the value in the **Period Type** field on the **Cash Flow Setup** page.
 
-#### Payables
+#### <a name="payables"></a>Payables
 
 **Due Date**, **Amount (LCY)** fields on the **Vendor Ledger Entries** page, where:
 
@@ -111,7 +111,7 @@ Before using the predictive web-service, [!INCLUDE[prod_short](includes/prod_sho
 
 Before using the predictive web-service, [!INCLUDE[prod_short](includes/prod_short.md)] compresses transactions by **Due Date** based on the value in the **Period Type** field on the **Cash Flow Setup** page.
 
-#### VAT
+#### <a name="tax"></a>VAT
 
 **Document Date**, **Amount** fields on the **VAT (Tax) Ledger Entries** page, where:
 
@@ -120,7 +120,7 @@ Before using the predictive web-service, [!INCLUDE[prod_short](includes/prod_sho
 
 Before using the predictive web-service, [!INCLUDE[prod_short](includes/prod_short.md)] compresses transactions by **Document Date** based on value in the **Period Type** field in the **Cash Flow Setup** page.
 
-## <a name="AnchorText"></a>Create and use your own predictive web service for cash flow forecasts
+## <a name="create-and-use-your-own-predictive-web-service-for-cash-flow-forecasts"></a><a name="AnchorText"></a>Create and use your own predictive web service for cash flow forecasts
 
 You can also create your own predictive web service based on a public model named **Forecasting model for Microsoft Business Central**. This predictive model is available online in the Azure AI Gallery. To use the model, follow these steps:  
 
@@ -133,7 +133,7 @@ You can also create your own predictive web service based on a public model name
 7. Expand the **Azure AI** FastTab, and then fill in the fields, including the API URL and API key provided from Azure Machine Learning studio. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 8. In the Accountant Role Centre, choose the **Recalculate Forecast** action under the **Cash Flow Forecast** chart.
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Analyzing Cash Flow in Your Company](finance-analyze-cash-flow.md)  
 [Setting Up Finance](finance-setup-finance.md)  

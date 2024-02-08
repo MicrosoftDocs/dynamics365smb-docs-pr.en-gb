@@ -9,7 +9,7 @@ ms.date: 12/06/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Walkthrough: Planning supplies automatically
+# <a name="walkthrough-planning-supplies-automatically"></a>Walkthrough: Planning supplies automatically
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
@@ -22,7 +22,7 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 
  The planning result is calculated partly from the demand-supply sets in the database and partly by the setup of stockkeeping unit cards or item cards, production BOMs, and routings.  
 
-## About this walkthrough  
+## <a name="about-this-walkthrough"></a>About this walkthrough
  This walkthrough demonstrates how to use the supply planning system to automatically plan all the purchase and production orders required to produce 15 touring bicycles demanded on different sales orders. To provide a clear and realistic walkthrough, the number of planning lines is delimited by filtering out all other demand-supply sets in the CRONUS demonstration company except the sales demand at location EAST.  
 
  This walkthrough illustrates the following tasks:  
@@ -32,18 +32,18 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 -   Automatically creating the suggested supply orders.  
 -   Creating new sales demand and replanning accordingly.  
 
-## Roles  
+## <a name="roles"></a>Roles
 
 -   Production Planner  
 -   Purchasing Agent  
 
-## Prerequisites  
+## <a name="prerequisites"></a>Prerequisites
  To complete this walkthrough, you need:  
 
 -   The CRONUS International Ltd. demonstration company.  
 -   To change various item setup values by following the steps in the "Preparing Sample Data" section, later in this walkthrough.  
 
-## Story  
+## <a name="story"></a>Story
  The customer, Cannon Group PLC, orders five touring bikes for shipment on 02-05-2021 (February 5).  
 
  Eduardo, the production planner, performs the routine supply planning for the first week of February 2021. Eduardo filters on their own location, EAST, and enters a planning interval of the work date (01-23-2021) to 02-07-2021 before calculating an initial supply plan.  
@@ -54,17 +54,17 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 
  During the various planning steps, Eduardo looks up the involved orders, and uses the Order Tracking feature to see which demand is covered by which supply.  
 
-## Preparing sample data  
+## <a name="preparing-sample-data"></a>Preparing sample data
  Create stockkeeping units (SKUs) for the touring bike and a selection of its components, item numbers 1001 to 1300. (Some components are excluded to simplify the procedures.) Adjust the planning parameters of the selected components to provide a more transparent planning result.  
 
-### To create stockkeeping units  
+### <a name="to-create-stockkeeping-units"></a>To create stockkeeping units
 
 1.  Open the item card for item 1001, Touring Bicycle.  
 2.  Choose the **Create Stockkeeping Unit** action.  
 3.  On the **Create Stockkeeping Unit** page, leave all options and filters unchanged, and then choose the **OK** button.  
 4.  Repeat steps 1 through 3 for all items in the number range between 1100 and 1300.  
 
-### To change selected planning parameters  
+### <a name="to-change-selected-planning-parameters"></a>To change selected planning parameters
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Stockkeeping Units**, and then choose the related link.  
 2.  Open the EAST stockkeeping unit card for item 1100, Front Wheel.  
@@ -78,10 +78,10 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 
  This completes the preparation of sample data for the walkthrough.  
 
-## Creating a regenerative supply plan  
+## <a name="creating-a-regenerative-supply-plan"></a>Creating a regenerative supply plan
  In reaction to a new sales order for five touring bikes, Ricardo begins the planning process by setting options, filters, and planning interval to exclude all other demand except that of the first week of February at location EAST. Ricardo begins by calculating a master production schedule (MPS), and then proceeds to calculate a complete supply plan for all lower-level demand (MRP).  
 
-### To create the sales order  
+### <a name="to-create-the-sales-order"></a>To create the sales order
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2.  Choose the **New** action.  
@@ -93,7 +93,7 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 
 4.  Accept the availability warning and choose the **Yes** button to record the new demand quantity.  
 
-### To create a regenerative plan to fulfill demand at location EAST  
+### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-east"></a>To create a regenerative plan to fulfill demand at location EAST
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
 2.  Choose the **Calculate Regenerative Plan** action.  
@@ -116,7 +116,7 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 
 7.  Close the **Sales Order** and **Order Tracking** pages.  
 
-### To calculate MRP to include underlying component needs  
+### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>To calculate MRP to include underlying component needs
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
 2.  Choose the **Calculate Regenerative Plan** action.  
@@ -130,14 +130,14 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 
      A total of 14 planning lines are created suggesting supply orders for all the demand that the touring bike sales order at EAST location represents.  
 
-## Analyse the planning result  
+## <a name="analyze-the-planning-result"></a>Analyse the planning result
  To analyse the suggested quantities, Eduardo drills down on selected planning lines to view order tracking entries and planning parameters.  
 
  On the **Planning Worksheet** page, note in the **Due Date** column that the suggested supply orders are scheduled backward from the due date of the sales order, 02-05-2021. The timeline begins on the top planning line with the production order to produce the finished touring bikes. The timeline ends on the bottom planning line with the purchase order for one of the lowest-level items, 1255, Socket Back, due on 01-30-2021. Like the planning line for item 1251, Axle Back Wheel, this line represents a purchase order for components that are due on the starting date of its produced parent, subassembly item 1250, which in turn is due on 02-03-2014. Throughout the worksheet, you can see that all underlying items are due on the starting date of their parents.  
 
  The planning line for item 1300, Chain Assy, suggests ten pieces. This deviates from the five pieces that we expect to need to fulfill the sales order. Proceed to view the order tracking entries.  
 
-### To view order tracking entries for item 1300  
+### <a name="to-view-order-tracking-entries-for-item-1300"></a>To view order tracking entries for item 1300
 
 1.  Select the planning line for item 1300, and then choose the **Order Tracking** action.  
 
@@ -147,7 +147,7 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 
      The **Untracked Planning Elements** page shows that item 1300 uses a planning parameter, Minimum Order Quantity, of 10.00. Therefore, the planning line is for ten pieces in total, of which only five can be tracked to a demand. The last five pieces are an untracked quantity to satisfy the planning parameter. Proceed to review the planning parameter.  
 
-### To check the planning parameter  
+### <a name="to-check-the-planning-parameter"></a>To check the planning parameter
 
 1.  On the **Untracked Planning Elements** page, select the order tracking line for item 1300.  
 2.  Choose the **Item No.** field, and then choose the **Advanced** action.  
@@ -156,7 +156,7 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 5.  On the **Planning** FastTab, note that the **Minimum Order Quantity** field contains 10.  
 6.  Close all pages except the **Planning Worksheet** page.  
 
-### To view more order tracking entries  
+### <a name="to-view-more-order-tracking-entries"></a>To view more order tracking entries
 
 1.  Select the planning line for item 1110, Rim, and then choose the **Order Tracking** action.  
 
@@ -178,10 +178,10 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 
  This completes the analysis of the initial supply plan. Notice that the **Accept Action Message** check box is selected in all planning lines indicating that they're ready to be converted to supply orders.  
 
-## Carrying out action messages  
+## <a name="carrying-out-action-messages"></a>Carrying out action messages
  Next, Eduardo converts the suggested planning lines to supply orders by using the **Carry Out Action Msg.** function.  
 
-### To automatically create the suggested supply orders  
+### <a name="to-automatically-create-the-suggested-supply-orders"></a>To automatically create the suggested supply orders
 
 1.  Select the **Accept Action Message** check box on all planning lines with a warning of type Exception.  
 2.  Choose the **Carry Out Action Message** action.  
@@ -196,12 +196,12 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 
  This completes the initial calculation, analysis, and creation of a supply plan for demand at location EAST in the first week of February. In the following section, another customer orders ten touring bikes, and Eduardo must replan.  
 
-## Creating a net change plan  
+## <a name="creating-a-net-change-plan"></a>Creating a net change plan
  The next day, before any supply orders are started or posted, a new sales order arrives from Libros S.A. for ten touring bikes to be shipped on 02-12-2021. Eduardo is notified of the new demand, and proceeds to replan in order to adjust the current supply plan. Eduardo uses the Net Change Plan function to calculate only the changes that are made to demand or supply since the last planning run. In addition, Eduardo expands the planning period to 02-14-2021 to include the new sales demand on 02-12-2014.  
 
  The planning system calculates the best way to cover the demand for these two identical products, such as to consolidate some purchase and production orders, reschedule other orders, and create new orders where it's required.  
 
-### To create the new sales, demand and replan accordingly  
+### <a name="to-create-the-new-sales-demand-and-replan-accordingly"></a>To create the new sales, demand and replan accordingly
 
 1.  Choose the **New** action.  
 2.  On the **Sales Order** page, fill in the fields as described in the following table.  
@@ -228,12 +228,12 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 
  All other planning lines have an action message of **Resched. & Chg. Qty.**. This means that apart from being increased in quantity, the due dates are moved in relation to the supply plan to include the extra quantity in the available production time (capacity). Purchased components are rescheduled and increased to supply the production orders. Proceed to analyse the new plan.  
 
-## Analyse the changed planning result  
+## <a name="analyze-the-changed-planning-result"></a>Analyse the changed planning result
  Because all lot-for-lot-planned items within the filter, 1100 to 1300, have a rescheduling period of two weeks, their existing supply orders are all modified to meet the new demand, which occurs within the specified two weeks.  
 
  Several planning lines are multiplied by three to provide 15 touring bikes instead of 5, and the due dates are moved back in time to provide the increased quantities by the shipment date of the sales order to the Cannon Group. For these planning lines, all quantities can be tracked. The remaining planning lines are increased by ten pieces in addition to moving their due dates. For these planning lines, a part of the quantities are untracked due to different planning parameters. Proceed to view some of these order tracking entries.  
 
-### To view order tracking entries for item 1250  
+### <a name="to-view-order-tracking-entries-for-item-1250"></a>To view order tracking entries for item 1250
 
 1.  Select the planning line for item 1250, and then choose the **Order Tracking** action.  
 
@@ -247,7 +247,7 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 
 3.  Close all pages except the **Planning Worksheet** page.  
 
-### To view an existing order  
+### <a name="to-view-an-existing-order"></a>To view an existing order
 
 1.  In the planning line for item 1250, choose the **Ref. Order No.** field.  
 2.  On the **Firm Planned Prod. Order** page for the Back Hub. The existing order for ten pieces, which you created in the first planning run, opens.  
@@ -255,7 +255,7 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 
  This completes the walkthrough of how the planning system is used to automatically detect demand, calculate the appropriate supply orders according to demand and planning parameters, and then automatically create different types of supply orders with the appropriate dates and quantities.  
 
-## See also   
+## <a name="see-also"></a>See also
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)   
 <!--  [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)    -->
  [Design Details: Supply Planning](design-details-supply-planning.md)

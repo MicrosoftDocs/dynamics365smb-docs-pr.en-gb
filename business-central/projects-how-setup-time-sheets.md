@@ -59,7 +59,7 @@ At the end of the setup guide, you can choose to let [!INCLUDE [prod_short](incl
 
 The following sections describe how to set up time sheets if you don't use the **Set Up Time Sheets** assisted setup guide.  
 
-### <a name="to-set-up-general-information-for-time-sheets-manually"></a>To set up general information for time sheets manually
+### <a name="set-up-general-information-for-time-sheets-manually"></a>To set up general information for time sheets manually
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resources Setup**, and then choose the related link.  
 1. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -74,7 +74,7 @@ The following sections describe how to set up time sheets if you don't use the *
 | **Always** |The user in the **Person Responsible** field on the job card approves the time sheet. |
 | **Machine Only** |If the machine time sheet is linked with a job, then the user in the **Person Responsible** field on the job card approves the time sheet. If the machine time sheet is linked with a resource, then the user in the **Time Sheet Approver User ID** field on the resource card approves the time sheet. |
 
-### <a name="to-assign-a-time-sheet-administrator-manually"></a>To assign a time sheet administrator manually
+### <a name="assign-a-time-sheet-administrator-manually"></a>To assign a time sheet administrator manually
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Setup**, and then choose the related link.  
 3. Select the user who will be the time sheet administrator, and then select the **Time Sheet Admin.** checkbox.  
@@ -82,7 +82,7 @@ The following sections describe how to set up time sheets if you don't use the *
 > [!TIP]  
 > We recommend that you designate only one user as the time sheet administrator for a company. In the following procedure, you set up a time sheet owner and approver where the time sheet approver is assigned for each resource.  
 
-### <a name="to-assign-a-time-sheets-owner-and-approver-manually"></a>To assign a time sheets owner and approver manually
+### <a name="assign-a-time-sheets-owner-and-approver-manually"></a>To assign a time sheets owner and approver manually
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resources**, and then choose the related link.
 2. Select the resource for which you want to set up the ability to use time sheets, and then select the **Use Time Sheet** checkbox.  
