@@ -9,7 +9,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Introduction to Contoso Coffee Jobs and Project Management
+# <a name="introduction-to-contoso-coffee-jobs-and-project-management"></a>Introduction to Contoso Coffee Jobs and Project Management
 
 Contoso Coffee is a fictitious company that produces consumer and commercial coffee makers. The **Contoso Coffee** apps for Business Central add demo data that you can use to learn how to use the Jobs and Project Management capabilities in Business Central.
 
@@ -22,7 +22,7 @@ This app provides several elements that are used for the main walkthroughs:
 > Before you run any of the scenarios for Contoso Coffee, post any item journal lines with opening balances. For more requirements, see the [Set up Contoso Coffee data](#set-up-contoso-coffee-jobs-and-project-management-data) section.
 >
 > 
-## Set up Contoso Coffee Jobs and Project Management data
+## <a name="set-up-contoso-coffee-jobs-and-project-management-data"></a>Set up Contoso Coffee Jobs and Project Management data
 
 [!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
@@ -47,4 +47,4 @@ Once the relevant apps are installed, go to the [Contoso Coffee Jobs Demo Data](
 
 Once you're ready, choose the **Create Demo Data** action. It takes a few minutes to add the data to the underlying database, but then you're ready to run the various scenarios.  
 
-## See also 
+## <a name="see-also"></a>See also

@@ -11,14 +11,14 @@ ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.service: dynamics-365-business-central
 ---
-# Understanding Assemble to Order and Assemble to Stock
+# <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Understanding Assemble to Order and Assemble to Stock
 
 [!INCLUDE [prod_short](includes/prod_short.md)] lets you supply assembly items in the following ways:
 
 * Assemble to order  
 * Assemble to stock  
 
-## Assemble to order
+## <a name="assemble-to-order"></a>Assemble to order
 
 Use the assemble-to-order process for items that you don't want to stock. For example, for the following reasons:
 
@@ -44,7 +44,7 @@ When you enter an assemble-to-order item on a sales order line, an assembly orde
 
 To specify that an item is assembled-to-order, in the **Assembly Policy** field on the **Item Card** page for the item, choose **Assemble-to-Order**.  
 
-## Assemble to stock
+## <a name="assemble-to-stock"></a>Assemble to stock
 
 Use the assemble-to-stock process for items that you assemble and store for future sales. Assemble-to-stock items are standard items, such as packaged kits, that you don't customise. You can also consume these items as subassembly components. The items are picked and processed as single items and are treated as finished production items. To learn more about assembly items, go to [Assemble Items](assembly-how-to-assemble-items.md).  
 
@@ -55,7 +55,7 @@ When you specify an assemble-to-stock item on a sales line, the item is treated 
 
 To specify that an item is assembled-to-stock, in the **Assembly Policy** field on the **Item Card** page for the item, choose **Assemble-to-Stock**.  
 
-## Combination scenarios
+## <a name="combination-scenarios"></a>Combination scenarios
 
 When assemble-to-order and inventory quantities are combined on a sales order, assemble-to-order quantities must be shipped first.  
 
@@ -97,7 +97,7 @@ Based on this example, you can modify the **Quantity to Assemble** field as foll
 * The minimum quantity you can enter is 1. You must assemble at least one unit to be able to sell the four units, assuming that the remaining three are available in inventory.  
 * The maximum quantity that you can enter is 4. This limit ensures that you don't assemble more of the item than you need for the sale.  
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Assembly Management](assembly-assemble-items.md)  
 [Work with Assembly BOMs](assembly-how-work-assembly-boms.md)  
