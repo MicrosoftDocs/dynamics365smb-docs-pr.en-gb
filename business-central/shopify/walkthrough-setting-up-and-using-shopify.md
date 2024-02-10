@@ -10,13 +10,13 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-set-up-and-use-the-shopify-connector"></a>Walkthrough: Set up and use the Shopify Connector
+# Walkthrough: Set up and use the Shopify Connector
 
 This section demonstrates some typical scenarios and takes you through the steps to test or train users on the workflow of the integrated [!INCLUDE[prod_short](../includes/prod_short.md)] and the Shopify store.
 
-## <a name="prerequisites"></a>Prerequisites
+## Prerequisites 
 
-### <a name="shopify"></a>Shopify
+### Shopify
 
 You must have:
 
@@ -25,13 +25,13 @@ You must have:
 
 Learn more about how to create Shopify trials and recommended settings at [Creating and Setting Up Shopify Account](shopify-account.md).
 
-### <a name="business-central"></a>Business Central
+### Business Central
 
 You must have a [!INCLUDE[prod_short](../includes/prod_short.md)] account. 
 
 For example, you can create demo account or start trial. Learn more at [Prepare Demonstration Environments of Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment) and [Sign up for the trial](../trial-signup.md). 
 
-## <a name="connect-business-central-to-the-shopify-shop"></a>Connect Business Central to the Shopify shop
+## Connect Business Central to the Shopify shop
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)], do the following steps:
 
@@ -62,13 +62,13 @@ Configure location mapping:
 4. Turn on the **Default Product Location** toggle.
 5. Select *Projected Available Balance at Today* in the **Stock Calculation** field to enable inventory sync for selected Shopify location.
 
-## <a name="walkthrough-start-selling-products-online"></a>Walkthrough: Start selling products online
+## Walkthrough: Start selling products online
 
-### <a name="scenario"></a>Scenario
+### Scenario
 
 Let's say that you want to try Shopify as an online store without spending much time on setting up things, especially because you already maintain your items in [!INCLUDE[prod_short](../includes/prod_short.md)] properly. After you launch your Shopify online store, you immediately get new customers who are happy with your shop and their buying experience. So, they decide to leave tips at checkout.
 
-### <a name="steps"></a>Steps
+### Steps
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)] go through the following steps:
 
@@ -130,13 +130,13 @@ Now physical and financial data is registered in [!INCLUDE[prod_short](../includ
 
 In **Shopify Admin** notice that the order is now marked as *Fulfilled*. You can also review Shipment details and see the Tracking URL there. If you run **Sync Orders From Shopify** again, the order will be archived in both systems.
 
-## <a name="walkthrough-invite-your-customers-to-your-new-online-store"></a>Walkthrough: Invite your customers to your new online store
+## Walkthrough: Invite your customers to your new online store
 
-### <a name="scenario-1"></a>Scenario
+### Scenario
 
 After a successful quick launch of your new online store, you want your current customers to visit it and start placing orders.
 
-### <a name="steps-1"></a>Steps
+### Steps
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)], do the following steps:
 
@@ -146,13 +146,13 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)], do the following steps:
 
 In **Shopify Admin** notice that the customers were imported. Open one of the customers and notice that the first and last names of the customer are coming from the **Contact Name** field of the **Customer Card**. The company name can be found in the default address, linked to the customer. Choose **Send account invite** to invite the customer.
 
-## <a name="walkthrough-fine-tuning-of-item-management"></a>Walkthrough: Fine tuning of item management
+## Walkthrough: Fine tuning of item management
 
-### <a name="scenario-2"></a>Scenario
+### Scenario 
 
 You'll like to add more flexibility and control to your processes around items management. You want to improve product description and like to add more review steps before products become available to end-customer.
 
-### <a name="steps-2"></a>Steps
+### Steps
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)], do the following steps:
 
@@ -239,19 +239,19 @@ Notice that Inventory for ANTWERP Conference Table is 100, because we configured
 
 In the **Shopify online store** open the product catalogue, find the *ATHENS Desk*  product. Notice that different options are available. For different options, prices are different. Pay attention to discount information.
 
-## <a name="walkthrough-import-items-from-shopify"></a>Walkthrough: Import items from Shopify
+## Walkthrough: Import items from Shopify
 
-### <a name="scenario-3"></a>Scenario
+### Scenario 
 
 You already have a successful online store and would like to start using [!INCLUDE[prod_short](../includes/prod_short.md)] as business management software. You would like to import as much data from Shopify as possible. 
 
-### <a name="steps-3"></a>Steps
+### Steps
 
 This is a continuation of [Walkthrough: Start selling products online](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). You can also try with your own data, for example your Shopify store or sandbox.
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)], do the following steps:
 
-#### <a name="prepare-data"></a>Prepare data
+#### Prepare data
 
 1. Switch to a free 30-day trial without sample data. For more information, see [Add your own data to an empty trial](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions#add-your-own-data-to-an-empty-trial-company).
 2. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and then choose the related link.
@@ -270,7 +270,7 @@ Configure the Shopify shop as described below in the next steps:
 12. Select *All Customers* in the **Customer Import from Shopify**.
 13. Enable the **Auto Create Unknown Customers** toggle.
 
-#### <a name="run-the-synchronization"></a>Run the synchronisation
+#### Run the synchronisation
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and choose the related link.
 2. Select the *DEMO2* Shop for which you want to synchronise data to open the **Shopify Shop Card** page.
@@ -278,7 +278,7 @@ Configure the Shopify shop as described below in the next steps:
 4. Choose the **Sync Product Images** action.
 5. Choose the **Sync Customers** action.
 
-### <a name="results"></a>Results
+### Results
 
 * Shopify Products are imported. To verify, choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Products**, and choose the related link.
 * Items with images are created. To verify, choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item**, and choose the related link.
@@ -286,6 +286,6 @@ Configure the Shopify shop as described below in the next steps:
 * Customers are created. To verify, choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and choose the related link.
 
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Get Started with the Shopify Connector](get-started.md)  
