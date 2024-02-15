@@ -11,7 +11,7 @@ ms.search.keywords: 'Dataverse, integration, sync, synchronize, mapping'
 ms.service: dynamics-365-business-central
 ---
 
-# Synchronising Data in Business Central with Microsoft Dataverse
+# <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Synchronising Data in Business Central with Microsoft Dataverse
 
 When you integrate [!INCLUDE[prod_short](includes/cds_long_md.md)] with [!INCLUDE[prod_short](includes/prod_short.md)], you can decide whether to synchronise data in selected fields of [!INCLUDE[prod_short](includes/prod_short.md)] (such as customers, contacts, and sales people) with equivalent rows in [!INCLUDE[prod_short](includes/cds_long_md.md)] (such as accounts, contacts, and users). Depending on the type of row, you can synchronise data from [!INCLUDE[prod_short](includes/cds_long_md.md)] to [!INCLUDE[prod_short](includes/prod_short.md)], or vice versa. For more information, see [Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 
@@ -35,7 +35,7 @@ When synchronisation is set up you can couple [!INCLUDE[prod_short](includes/pro
 > [!NOTE]
 > The synchronisation between [!INCLUDE[prod_short](includes/cds_long_md.md)] and [!INCLUDE[prod_short](includes/prod_short.md)] is based on the scheduled execution of job queue entries and does not guarantee real time data consistency between two services. For real time data conistency you should explore [Business Central Virtual Tables](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-overview) or Business Central APIs.   
 
-## Standard table mapping for synchronisation
+## <a name="standard-table-mapping-for-synchronization"></a>Standard table mapping for synchronisation
 
 Tables in [!INCLUDE[prod_short](includes/cds_long_md.md)], such as accounts, are integrated with equivalent types of tables in [!INCLUDE[prod_short](includes/prod_short.md)], such as customers. To work with [!INCLUDE[prod_short](includes/cds_long_md.md)] data you set up links, called couplings, between tables in [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
@@ -55,11 +55,11 @@ The following table lists the standard mapping between tables in [!INCLUDE[prod_
 > [!NOTE]
 > The **Dataverse** actions will not be available on pages, for example, the Customer Card page, for records that do not respect the table filter on the integration table mapping.
 
-### Tip for admins: viewing table mappings
+### <a name="tip-for-admins-viewing-table-mappings"></a>Tip for admins: viewing table mappings
 
 You can view the mapping between the tables in [!INCLUDE[prod_short](includes/cds_long_md.md)] and [!INCLUDE[prod_short](includes/prod_short.md)] on the **Integration Table Mappings** page, where you can also apply filters. You define the mapping between the fields in [!INCLUDE[prod_short](includes/prod_short.md)] tables and the columns in [!INCLUDE[prod_short](includes/cds_long_md.md)] tables on the **Integration Field Mapping** page, where you can add additional mapping logic. For example, this can be useful if you need to troubleshoot synchronisation.
 
-## Use virtual tables to get more data
+## <a name="use-virtual-tables-to-get-more-data"></a>Use virtual tables to get more data
 
 When you're setting up your integration, you can use virtual tables to make more data available in [!INCLUDE[prod_short](includes/cds_long_md.md)], without help from a developer.
 
@@ -81,11 +81,11 @@ After you install the app, you can enable virtual tables from one of the followi
 * From the **Dataverse Connection Setup**, **Virtual Tables**, and **Available Virtual Tables** pages.  
 * From the Power App Maker Portal.
 
-## Synchronise data from multiple companies or environments
+## <a name="synchronize-data-from-multiple-companies-or-environments"></a>Synchronise data from multiple companies or environments
 
 You can synchronise data from multiple [!INCLUDE [prod_short](includes/prod_short.md)] companies or environments with a [!INCLUDE[prod_short](includes/cds_long_md.md)] environment. In multi-company synchronisation scenarios, there are several things to consider.
 
-### Set company IDs
+### <a name="set-company-ids"></a>Set company IDs
 
 When you synchronise records, we set a company ID on the [!INCLUDE[prod_short](includes/cds_long_md.md)] entity to clarify the [!INCLUDE [prod_short](includes/prod_short.md)] company the records came from. Integration table mappings have integration table filter fields that take the company ID into account. To include a table mapping in a multi-company setup, on the **Integration Table Mapping** page, choose the **Multi-Company Synchronisation Enabled** checkbox. The setting optimises how integration table filter fields filter company IDs in a multi-company setup.
 
@@ -93,15 +93,15 @@ For integration table mappings that synchronise documents, such as orders, quote
 
 For all other integration table mappings, choosing the **Multi-Company Synchronisation Enabled** checkbox removes the filter on company ID. The synchronisation will consider related entities, regardless of their company ID.
 
-### Specify the synchronisation direction
+### <a name="specify-the-synchronization-direction"></a>Specify the synchronisation direction
 
 If you enable multi-company support on an integration table mapping, we recommend that you set the direction of the mapping to **FromIntegration**. If you set the direction to **ToIntegration** or **Bidirectional**, it's a good idea to use **Table Filter** and **Integration Table Filter** to control which entities synchronise with which company. It's also a good idea to use match-based coupling to avoid creating duplicate records. To learn more about match-based coupling, go to [Customise the match-based coupling](/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection#customize-the-match-based-coupling).
 
-### Use unique numbers
+### <a name="use-unique-numbers"></a>Use unique numbers
 
 If your number series doesn't guarantee that primary key values are unique to each company, we recommend that you use prefixes. To start using prefixes, create a transformation rule on the integration field mapping. To learn more about transformation rules, go to [Handle differences in field values](admin-how-to-modify-table-mappings-for-synchronization.md#handle-differences-in-field-values).
 
-## See Also  
+## <a name="see-also"></a>See Also
 
 [Couple and Synchronise Records Manually](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Schedule a Synchronisation](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   

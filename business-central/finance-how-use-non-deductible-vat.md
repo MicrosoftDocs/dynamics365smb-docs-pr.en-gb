@@ -12,11 +12,11 @@ ms.date: 04/26/2023
 ms.custom: bap-template
 ---
 
-# Use non-deductible VAT
+# <a name="use-non-deductible-vat"></a>Use non-deductible VAT
 
 This article explains how to use and report non-deductible VAT.
 
-## Create a purchase invoice with non-deductible VAT
+## <a name="create-a-purchase-invoice-with-non-deductible-vat"></a>Create a purchase invoice with non-deductible VAT
 
 1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then select the related link.
 2. Select **New** to create a purchase invoice, and enter the appropriate information on the invoice header.
@@ -27,7 +27,7 @@ This article explains how to use and report non-deductible VAT.
 
 5. Post the invoice.
 
-## Create a purchase order with non-deductible VAT
+## <a name="create-a-purchase-order-with-non-deductible-vat"></a>Create a purchase order with non-deductible VAT
 
 1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders** and then select the related link.
 2. Select **New** to create a purchase order, and enter the appropriate information on the document header.
@@ -38,7 +38,7 @@ This article explains how to use and report non-deductible VAT.
 
 5. Post the purchase order.
 
-## Adjust rounded VAT amounts before document posting
+## <a name="adjust-rounded-vat-amounts-before-document-posting"></a>Adjust rounded VAT amounts before document posting
 
 If VAT amounts aren't rounded in the same way in your environment and in the external accounting system (the original invoice document), you can adjust the VAT amount before you post the document. To make this adjustment, follow these steps before you post the document.
 
@@ -61,7 +61,7 @@ You can adjust the values of the **VAT Amount** and **Non-Deductible VAT Amount*
 > [!IMPORTANT]
 > You can't use non-deductible VAT on the prepayment invoices.
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Financial Management](finance.md)
 

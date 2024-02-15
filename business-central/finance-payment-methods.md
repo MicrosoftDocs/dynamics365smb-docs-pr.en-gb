@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Set Up Payment Methods
+# <a name="set-up-payment-methods"></a>Set Up Payment Methods
 
 Payment methods define the way you prefer for customers to pay you, and how you like to pay your vendors. The method can vary for each customer or vendor. Examples of typical payment methods are **bank**, **cash**, **cheque**, or **account**.
 
@@ -22,7 +22,7 @@ Credit memos for returns, however, are exceptions because money is flowing in th
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE476Ys?rel=0]
 
-## To set up a payment method
+## <a name="to-set-up-a-payment-method"></a>To set up a payment method
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides a few payment methods that businesses often use. You can, however, add as many as you need.
 
@@ -31,12 +31,12 @@ Credit memos for returns, however, are exceptions because money is flowing in th
 
 Optionally, add payment terms to your payment method. For more information, see [Set Up Payment Terms](finance-payment-terms.md).  
 
-## To assign a payment method to a customer or vendor
+## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>To assign a payment method to a customer or vendor
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer** or **Vendor**, and then choose the related link.
 2. In the **Payment Method Code** field, choose the method to use by default for the customer or supplier.
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Register New Customers](sales-how-register-new-customers.md)  
 [Set Up Payment Terms](finance-payment-terms.md)  

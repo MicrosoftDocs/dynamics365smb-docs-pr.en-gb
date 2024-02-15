@@ -9,19 +9,19 @@ ms.date: 12/04/2023
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Setting up and troubleshooting your browser to work with Business Central Web Client
+# <a name="setting-up-and-troubleshooting-your-browser-to-work-with-business-central-web-client"></a>Setting up and troubleshooting your browser to work with Business Central Web Client
 
 This article explains how to set up your browser so that the [!INCLUDE[web_client](includes/web_client.md)] and all its features work properly. Read this article if you're having problems opening the [!INCLUDE[web_client](includes/web_client.md)], your browser's settings can be the cause of some problems.
 
 The article provides details for setting up Microsoft Edge, but the requirements for JavaScript, cookies, and pop-ups are the same for all supported browsers. For other browsers, refer to the instructions provided by the manufacturer.  
 
-## Use a supported browser
+## <a name="use-a-supported-browser"></a>Use a supported browser
 
 Make sure to use a one of the supported browsers. See [Minimum Requirements for Using Business Central](product-requirements.md#browsers).
 
 We recommend that you use a stable channel version of a web browser as it's the most reliable and stable version that has undergone extensive testing and bug fixing. This ensures that you have the best experience and are less likely to encounter any issues while using the web client.  
 
-## Allow JavaScript from Business Central
+## <a name="allow-javascript-from-business-central"></a>Allow JavaScript from Business Central
 
 *Problem:*
 
@@ -38,7 +38,7 @@ The resource you are looking for has been removed, had its name changed, or is t
     - Move the **Allowed** toggle to the left (Off). Then, select **Add** and type the address (URL) for [!INCLUDE[prod_short](includes/prod_short.md)] in the **Site** box. Select **Add** when done.
     - Move the **Allowed** toggle to the right (On).
 
-## Allow cookies from Business Central
+## <a name="allow-cookies-from-business-central"></a>Allow cookies from Business Central
 
 *Problem:*
 
@@ -51,7 +51,7 @@ If the browser doesn't allow cookies, you get the following error:
 1. In Microsoft Edge, go to **Settings** > **Cookies and site permissions** > **Cookies and site data**.
 2. Move the **Allow sites to save and read cookie data** toggle to the right (On).  
 
-## <a name="popup"></a>Allow pop-ups from Business Central
+## <a name="allow-pop-ups-from-business-central"></a><a name="popup"></a>Allow pop-ups from Business Central
 
 [!INCLUDE[prod_short](includes/prod_short.md)] integrates with several products. In some cases, like with Microsoft Teams, [!INCLUDE[prod_short](includes/prod_short.md)] opens, or "pop-ups," within the product. This capability requires that your browser allows pop-ups from [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -76,7 +76,7 @@ Try again
 2. Move the **Blocked** toggle to the right (On).
 3. Select **Add**. In the **Site** box, type `https://businesscentral.dynamics.com`, then select **Add**.
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Troubleshooting Teams](admin-teams-troubleshooting.md)  
 

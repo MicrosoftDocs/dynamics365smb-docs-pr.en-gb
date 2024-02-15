@@ -10,7 +10,7 @@ ms.date: 03/07/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# (Legacy) Set the Layout Used by a Report
+# <a name="legacy-set-the-layout-used-by-a-report"></a>(Legacy) Set the Layout Used by a Report
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -23,7 +23,7 @@ When custom report layouts are defined, you can select them from customer and ve
 > [!TIP]  
 > Document reports (not lists) that use a Word report layout are typically faster than those that use an RDLC report layout. So if you have the option to choose between a Word or RDLC report layout for a document report, use the Word report layout for the best performance.
 
-## To change which report layout to use for a report or document
+## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>To change which report layout to use for a report or document
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.
   
@@ -42,7 +42,7 @@ When custom report layouts are defined, you can select them from customer and ve
 
 If you selected a built-in RDLC or Word report layout, then no further action is required, and the layout will be used the next time the report is run.
 
-## To change the custom layout to use for a report layout
+## <a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a>To change the custom layout to use for a report layout
 
 You may also want to change the currently used custom layout. For more information, see [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md).
 
@@ -55,7 +55,7 @@ The name of the selected custom layout is now shown in the **Custom Layout Descr
 
 You can now go to your customer and vendor cards to specify which of the layouts to use for different documents that you crate for the customer or vendor in question, such as order confirmations or payment reminders. For more information, see [Define Document Layouts for Customers and Suppliers](ui-define-customer-vendor-document-layouts.md).
 
-## See Also
+## <a name="see-also"></a>See Also
 [Managing Report Layouts](ui-manage-report-layouts.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

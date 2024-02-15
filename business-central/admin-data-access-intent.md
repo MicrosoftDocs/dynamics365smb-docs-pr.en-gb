@@ -9,11 +9,11 @@ ms.date: 04/01/2021
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Managing Database Access Intent
+# <a name="managing-database-access-intent"></a>Managing Database Access Intent
 
 As a super user or administrator, you can change the database access intent on reports, pages of the type API, and queries to improve performance of the service.
 
-## Overview
+## <a name="overview"></a>Overview
 
 [!INCLUDE[prod_short](includes/prod_short.md)] can be set up to use read-only replicas of the primary (read-write) database. Using the database replica reduces the load on the primary database. In some cases, it will also improve the performance when viewing data in the client. Replicas are beneficial for objects, like reports, queries, and API pages, that are used for viewing data only, not modifying data.
 
@@ -23,7 +23,7 @@ The **Database Access Intent List** page lets you override the predefined databa
 
 In database terms, this feature is commonly known as *read scale-out*. For more information about read-scale out and data access intent in [!INCLUDE[prod_short](includes/prod_short.md)], see [Utilising Read Scale-Out for Better Performance](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) in the [!INCLUDE[prod_short](includes/prod_short.md)] Developer and Administration help.
 
-## To change the database access intent
+## <a name="to-change-the-database-access-intent"></a>To change the database access intent
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Database Access Intent List**, and then choose the related link.
 
@@ -42,7 +42,7 @@ In database terms, this feature is commonly known as *read scale-out*. For more 
     > [!NOTE]
     > If an object that is editable, like the Customer Card, is set to **Read Only**, the primary database will still be used, regardless of the access intent, allowing users to make changes as normal.
 
-## See Also
+## <a name="see-also"></a>See Also
 [Business Functionality](across-business-functionality.md)  
 [General Business Functionality](ui-across-business-areas.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

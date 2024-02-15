@@ -9,7 +9,7 @@ ms.date: 06/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Walkthrough Conducting a Sales Campaign
+# <a name="walkthrough-conducting-a-sales-campaign"></a>Walkthrough Conducting a Sales Campaign
 
 A campaign is any kind of activity that involves several contacts. An important part of setting up a campaign involves selecting the target audience for your campaign. For this purpose, in [!INCLUDE[prod_short](includes/prod_short.md)], you create a segment, or a group of contacts using filters.  
 
@@ -17,7 +17,7 @@ A campaign is any kind of activity that involves several contacts. An important 
 
  The Campaign and Segment features with their automated processes enable you to plan, organize, and keep track of your marketing activities. This will increase the chances of winning new customers and retaining existing customers.  
 
-## About This Walkthrough
+## <a name="about-this-walkthrough"></a>About This Walkthrough
 
  This walkthrough demonstrates the process for following up on a trade show and targeting potential customers (contacts) in a follow-up campaign.  
 
@@ -30,18 +30,18 @@ A campaign is any kind of activity that involves several contacts. An important 
 - Sending letters to contacts.  
 - Registering campaign responses.  
 
-## Roles
+## <a name="roles"></a>Roles
 
  This walkthrough demonstrates tasks that are performed by the following user roles:  
 
 - Marketing Manager or Sales Manager  
 - Marketing Staffer  
 
-## Prerequisites
+## <a name="prerequisites"></a>Prerequisites
 
  Before you can perform the tasks in the walkthrough, you must install the [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## Story
+## <a name="story"></a>Story
 
  The marketing manager in the Sales department of CRONUS is responsible for planning campaigns and for executing them. The marketing manager also makes decisions about which trade shows to participate in and evaluates campaign progress.  
 
@@ -55,11 +55,11 @@ A campaign is any kind of activity that involves several contacts. An important 
 
  The staffer helps send out thank you letters to all the contacts who left their cards with the staff at the stand, and finally, the manager records all the responses they receive from the prospective customers.  
 
-## Setting Up a Campaign
+## <a name="setting-up-a-campaign"></a>Setting Up a Campaign
 
  As soon as the staffer has entered the business cards received at the trade show, the marketing manager sets up a campaign card to manage the activities involved in the campaign.  
 
-### To set up a campaign  
+### <a name="to-set-up-a-campaign"></a>To set up a campaign
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Campaigns**, and then choose the related link.  
 2. Choose the **New** action to create a new campaign. On the campaign card, select <kbd>Enter</kbd> to have a campaign number automatically inserted.  
@@ -67,13 +67,13 @@ A campaign is any kind of activity that involves several contacts. An important 
 4. Choose the **Status Code** field, and select the status code "1-PLAN". 
 5. Fill in the **Starting Date** and **Ending Date** fields of the campaign as appropriate.  
 
-## Selecting the Target Audience
+## <a name="selecting-the-target-audience"></a>Selecting the Target Audience
 
  The marketing manager creates a segment to select the contacts that they want to interact with.  
  
  When you create a segment, you can use a variety of criteria to select the contacts that must be targets for the segment. For example, you can select contact persons who work at a customer site or a prospective customer site who are responsible for purchases at their company. You use filters to add contacts according to the criteria that best fit your purposes. For example, you can choose to filter by the job responsibility of the contact person or the business relation or industry of the contact company. For this walkthrough, we'll choose the **Job Responsibility** filter to select contacts.
 
-### To create a segment with the relevant contacts  
+### <a name="to-create-a-segment-with-the-relevant-contacts"></a>To create a segment with the relevant contacts
 
 1. Choose the **Navigate** action, and then choose **Segments**.  
 2. Choose the **New** action to create a new segment. On the segment card, select **Enter** to have a segment number automatically inserted.  
@@ -86,18 +86,18 @@ The **Segment** page now contains a list of contacts based on the filter you ent
 > [!NOTE]  
 > You can save your segmentation criteria to be reused at a later stage.
 
-### To save your segmentation criteria
+### <a name="to-save-your-segmentation-criteria"></a>To save your segmentation criteria
 
 1. On the **Segment** page, choose **Actions**.
 2. Choose **Functions**, then **Segment**, and then choose the **Save Criteria** action.  
 3. On the **Save Segment Criteria** page, enter a code for the segment. In the **Description** field, enter a description of the segment criteria.
 4. Choose the **OK** button.  
 
-## Mining the Data
+## <a name="mining-the-data"></a>Mining the Data
 
  The marketing manager takes a closer look at the segmented list of contacts and realises that the list is much too big. The manager decides to reduce the list based on actual, prospective customers to focus on the correct target group. This process of refining and reducing the data is also referred to as data mining.  
 
-### To remove contacts from the segment  
+### <a name="to-remove-contacts-from-the-segment"></a>To remove contacts from the segment
 
 1. On the **Segment** page, choose **Actions**.
 2. In the menu bar below, choose **Functions**, choose **Contacts**, and the choose **Reduce Contacts**.  
@@ -110,28 +110,28 @@ The **Segment** page now contains a list of contacts based on the filter you ent
  > [!NOTE]  
  > If you have to reverse this removal of a group of contacts, you can do this using the **Go Back** function. In other words, you can undo your last segmentation.  
 
-### To bring back the removed contacts
+### <a name="to-bring-back-the-removed-contacts"></a>To bring back the removed contacts
 
 1. On the **Segment** page, choose the **Segment** action.
 2. Choose the **Go Back** action.
 
 The contacts that you just removed are added back to the list of contacts.
 
-## Linking a Segment to a Campaign
+## <a name="linking-a-segment-to-a-campaign"></a>Linking a Segment to a Campaign
 
 The marketing manager decides that the reduced list is the final list of contacts that they want to be part of the campaign. They therefore link this segment to the campaign FUTURUS trade show.  
 
-### To link a segment to the campaign  
+### <a name="to-link-a-segment-to-the-campaign"></a>To link a segment to the campaign
 
 1. On the **Segment** page, on the **Campaign** FastTab, choose the **Campaign No.** field to select the campaign that you want the segment to be attached to, for example, **CP0001**.
 2. Select **Yes**.  
 3. Since this segment is the target of the campaign, select the **Campaign Target** check box and choose **Yes**.  
 
-## Sending Letters and Email Messages to Contacts
+## <a name="sending-letters-and-email-messages-to-contacts"></a>Sending Letters and Email Messages to Contacts
 
  The marketing staffer helps the marketing manager send out correspondence to the prospective customers, in which they thank them for visiting the trade show.
 
-### To use a segment to send a letter to a contact  
+### <a name="to-use-a-segment-to-send-a-letter-to-a-contact"></a>To use a segment to send a letter to a contact
 
 > [!NOTE]  
 > In this procedure you have to attach a Word document. You can add attachments in any language.
@@ -159,7 +159,7 @@ After the segment is logged, each letter that is sent is recorded as an interact
 
 Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Interaction Log Entries**, and then choose the related link. There is an entry for each sent letter.  
 
-### To send an email message to a contact  
+### <a name="to-send-an-email-message-to-a-contact"></a>To send an email message to a contact
 
 1. On the **Interaction** FastTab, in the **Interaction Template Code** field, select the Business Letter template, code **BUS**.  
 2. In the **Subject (Default)** field, enter the following example text: **Thank you for visiting the trade show**.  
@@ -172,13 +172,13 @@ Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_s
 
  The letters are automatically sent by email, and the segment is logged. Because the segment has been logged, it is no longer in the list of segments but is saved in the list of logged segments. To see that list, Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Logged Segments**, and then choose the related link.  
 
-## Registering Campaign Responses
+## <a name="registering-campaign-responses"></a>Registering Campaign Responses
 
  During the next couple of weeks, the prospective customers respond to the letter. The marketing manager wants to keep track of the responses and record these interactions.  
 
  For this purpose, set up a segment for the contacts who have responded to the letter.  
 
-### To register campaign responses  
+### <a name="to-register-campaign-responses"></a>To register campaign responses
 
 1. On the **Segment** page, on the **Interaction** FastTab, choose the **Interaction Template Code** field.  
 
@@ -192,7 +192,7 @@ Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_s
 7. On the **Segment** page, choose the **Log** action.  
 8. On the **Log Segment** page, clear the **Send Attachments** check box. Then choose the **OK** button to confirm the message that the segment has been logged.  
   
-## See Also  
+## <a name="see-also"></a>See Also
 [Relationship Management](marketing-relationship-management.md)  
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
  [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
