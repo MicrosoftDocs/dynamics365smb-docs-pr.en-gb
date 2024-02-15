@@ -3,14 +3,13 @@ title: Best practices for global planning setup | Microsoft Docs
 description: The Planning FastTab in the Manufacturing Setup page contains several fields that define global rules for supply planning.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="setup-best-practices-global-planning-setup"></a>Setup Best Practices: Global Planning Setup
+# Setup Best Practices: Global Planning Setup
 The **Planning** FastTab on the **Manufacturing Setup** page contains several fields that define global rules for supply planning.  
 
  The following table provides best practices on how to set up selected global planning parameter fields. For more information about a field, choose the link in the **Setup field** column.  
@@ -23,7 +22,7 @@ The **Planning** FastTab on the **Manufacturing Setup** page contains several fi
 |Default Dampener Period|Set between 1D and 5D.<br /><br /> If new to planning in [!INCLUDE[prod_short](includes/prod_short.md)], then set a longer period.|When users are more familiar with the different reasons for action messages, then shorten the dampener period to allow more change suggestions.|  
 |Default Dampener Quantity %|Set between 5 and 20 percent of the item’s lot size.||  
 
-## <a name="see-also"></a>See Also
+## See Also  
  [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)   
  [Design Details: Supply Planning](design-details-supply-planning.md)   
  [Set Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  

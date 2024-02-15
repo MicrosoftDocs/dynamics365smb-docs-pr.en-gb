@@ -3,15 +3,14 @@ title: Process Sales Returns or Cancellations
 description: 'Describes how to create a sales credit memo to process a return, cancellation, or reimbursement for items or services you have received payment for.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'undo, credit memo, return'
 ms.search.form: '44, 134, 143, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646'
 ms.date: 09/27/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="process-sales-returns-or-cancellations"></a>Process Sales Returns or Cancellations
+# Process Sales Returns or Cancellations
 
 If a customer wants to return items or be reimbursed for items or services that you have sold and received payment for, you must create and post a sales credit memo that specifies the requested change. To include the correct sales invoice information, you can do the following:  
 
@@ -30,7 +29,7 @@ The credit memo posting will also revert any item charges that were assigned to 
 > [!NOTE]
 > The bookkeeping aspects of sales returns, such as the payments to customers as reimbursement, is considered bookkeeping work and not described here. For more information, see [Managing Payables](payables-manage-payables.md).
 
-## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>To create a sales credit memo from a posted sales invoice
+## To create a sales credit memo from a posted sales invoice  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.  
 2. On the **Posted Sales Invoices** page, select the posted sales invoice that you want to reverse, choose the **Cancel** action, and then choose the **Create Corrective Credit Memo** action.
@@ -53,7 +52,7 @@ The **Post and Send Confirmation** dialogue box opens showing the preferred send
 
 The posted sales documents that you applied the credit memo to are now reversed, and a refund payment can be created for the customer. The sales credit memo is removed and replaced with a new document in the list of posted sales credit memos.
 
-## <a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a>To create a sales credit memo by copying a posted sales invoice
+## To create a sales credit memo by copying a posted sales invoice
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Credit Memos**, and then choose the related link.
 2. Choose the **New** action to open a new empty sales credit memo.
@@ -65,7 +64,7 @@ The posted sales documents that you applied the credit memo to are now reversed,
 8. Choose the **OK** button. The copied invoice lines are inserted in the sales credit memo.
 9. Complete the sales credit memo as explained in [To create a sales credit memo from a posted sales invoice](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-from-a-posted-sales-invoice).
 
-## <a name="to-create-a-sales-allowance"></a>To create a sales allowance
+## To create a sales allowance
 You can send a customer a credit memo with a price reduction if the customer has received slightly damaged items or received the items late.  
 You can post this reduced price as an item charge in a credit memo or a return order and assign it to the posted shipment. The following describes it for a sales credit memo, but the same steps apply to a sales return order.
 
@@ -81,7 +80,7 @@ You can post this reduced price as an item charge in a credit memo or a return o
 
 When you post the sales return order, the sales allowance is added to the relevant sales entry amount. In this way, you can maintain accurate inventory valuation.
 
-## <a name="to-combine-return-receipts"></a>To combine return receipts
+## To combine return receipts
 You can combine return receipts if your customer returns several items that are covered by different sales return orders.  
 
 When you receive the items into your warehouse, post the relevant sales return orders as received. This creates posted return receipts.  
@@ -90,7 +89,7 @@ When you are ready to invoice this customer, instead of invoicing each sales ret
 
 To combine return receipts, the **Combine Shipments** check box must be selected on the **Customer Card** page.  
 
-### <a name="to-manually-combine-return-receipts"></a>To manually combine return receipts
+### To manually combine return receipts  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Credit Memos**, and then choose the related link.  
 2. Choose the **New** action.
@@ -104,7 +103,7 @@ To combine return receipts, the **Combine Shipments** check box must be selected
 6.  If an incorrect shipment line was selected or you want to start over, you can simply delete the lines on the credit memo and re-run the **Get Return Receipt Lines** function.  
 7.  Post the invoice.  
 
-### <a name="to-automatically-combine-return-receipts"></a>To automatically combine return receipts
+### To automatically combine return receipts
 
 You can automatically combine return receipts and have the option of automatically posting the credit memos using the  **Combine Return Receipts** function.  
 
@@ -113,7 +112,7 @@ You can automatically combine return receipts and have the option of automatical
 3. Select the **Post Credit Memos** check box. If not, you must manually post the resulting purchase credit memos.
 4. Choose the **OK** button.  
 
-### <a name="to-remove-a-received-and-invoiced-return-order"></a>To remove a received and invoiced return order
+### To remove a received and invoiced return order
 
 When you invoice return receipts in this way, the return orders from which the return receipts were posted still exist, even if they have been fully received and invoiced.  
 
@@ -125,7 +124,7 @@ When return receipts are combined on a credit memo and posted, a posted sales cr
 
 Alternatively, delete individual sales return orders manually.  
 
-## <a name="inventory-costing"></a>Inventory Costing
+## Inventory Costing
 
 To preserve correct inventory valuation, you typically want to put returned items back in inventory at the unit cost that they were sold at, not at their current unit cost. This is referred to as exact cost reversing.
 
@@ -140,7 +139,7 @@ To assign exact cost reversing manually, you must choose the **Appl.-from Item E
 
 For more information, see [Design Details: Inventory Costing](design-details-inventory-costing.md).
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  
