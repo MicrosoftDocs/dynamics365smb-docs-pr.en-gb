@@ -11,7 +11,7 @@ ms.date: 09/19/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Reserve Items
+# <a name="reserve-items"></a>Reserve Items
 
 You can reserve items for sales orders, purchase orders, service orders, assembly orders, transfer orders, and production orders. You can also reserve items in inventory or inbound on open document or journal lines. You do this on the **Reservation** page.
 
@@ -22,7 +22,7 @@ Each line you open to reserve items on the **Reservation** page displays informa
 >
 > The **Reserved from stock** field can help you understand whether you can ship or pick for a specific order or order line. For lines, the Reserved from stock field is available on FactBoxes. To access the information for the entire order, the field is on the **Statistics** page.
 
-## Reserve items for sales
+## <a name="reserve-items-for-sales"></a>Reserve items for sales
 
 The following procedure describes how to reserve items from a sales order. The steps are similar for purchase, service, transfer, and assembly orders.
   
@@ -41,7 +41,7 @@ The following procedure describes how to reserve items from a sales order. The s
 > [!NOTE]  
 > If item tracking lines exist for the sales order, the reservation system will take you through special steps. Learn more in the [To reserve a specific serial or lot number](inventory-how-to-reserve-items.md#reserve-a-specific-serial-or-lot-number) section.  
 
-## Reserve an item for a production order line
+## <a name="reserve-an-item-for-a-production-order-line"></a>Reserve an item for a production order line
 
 You can reserve items for production orders. You have to distinguish between production order lines, meaning the parent item, and production order components.
 
@@ -55,7 +55,7 @@ In the following procedure, a firm planned production order is used.
 
 The quantity you entered in the firm planned production order line is now reserved.
 
-## Reserve items for production order components
+## <a name="reserve-items-for-production-order-components"></a>Reserve items for production order components
 
 You can reserve items for production orders. You have to distinguish between production order lines, meaning the parent item, and production order components.
 
@@ -71,7 +71,7 @@ In the following procedure, a firm planned production order is used.
 
 The quantity you entered in the firm planned production component line is now reserved.
 
-## Reserve items in bulk
+## <a name="reserve-items-in-bulk"></a>Reserve items in bulk
 
 Use the **Reservation Worksheet** page to reserve and allocate incoming goods in bulk. For example, bulk reservations can help ensure that quantities are available for your sales and production orders. You can have multiple batches for different purposes. For example, you might allocate production orders on a weekly basis but reserve daily for sales.
 
@@ -89,7 +89,7 @@ Use the **Reservation Worksheet** page to reserve and allocate incoming goods in
 
 6. To reserve all lines where **Accept** is turned on, choose the **Make reservation** action.
     
-## Change a reservation
+## <a name="change-a-reservation"></a>Change a reservation
 
 You can change an item reservation.
 
@@ -98,7 +98,7 @@ You can change an item reservation.
 3. On the **Reservation Entries** page, update the **Quantity** field on the line you want to change.
 4. Confirm the subsequent message by choosing the **OK** button.
 
-## Cancel a reservation
+## <a name="cancel-a-reservation"></a>Cancel a reservation
 
 You can cancel an item reservation.
 
@@ -107,7 +107,7 @@ You can cancel an item reservation.
 3. On the **Reservation Entries** page, choose the **Cancel Reservation** action.  
 4. Confirm the subsequent message by choosing the **Yes** button.  
 
-## Reserve a specific serial or lot number
+## <a name="reserve-a-specific-serial-or-lot-number"></a>Reserve a specific serial or lot number
 
 From outbound documents for item-tracked items, such as sales orders or production component lists, you can reserve specific serial or lot numbers. For example, reserving specific serial or lot numbers can be useful in the following situations:
 
@@ -129,7 +129,7 @@ The following procedure is based on a sales order.
 7. Choose the **OK** button to open the **Reservation** page showing only supply with the specified item tracking number. If there are any non-specific reservations on any of the item tracking numbers you've specified for this line, you're informed of the quantity that has already been reserved.  
 8. Choose either the **Auto Reserve** or the **Reserve from Current Line** action to create the reservation of the specific item tracking numbers.
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Inventory](inventory-manage-inventory.md)  
 [Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md)  
