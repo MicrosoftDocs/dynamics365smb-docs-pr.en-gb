@@ -273,7 +273,7 @@ When entering filter criteria, you can also type words that have special meaning
 > [!TIP]
 > Your organisation may use custom tokens. To learn about the complete set of tokens available to you or to add more custom tokens, talk to your administrator. For technical information see [Adding Filter Tokens](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
 
-#### <a name="me-or-userid-records-assigned-to-you"></a>(%me or %userid) Records Assigned to You
+#### <a name="me-or-user-records-assigned-to-you"></a>(%me or %userid) Records Assigned to You
 
 Use `%me` or `%userid` when filtering fields that contain the user ID, such as **Assigned to User ID** field, to display all records that are assigned to you.
 
