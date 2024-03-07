@@ -10,7 +10,7 @@ ms.date: 09/19/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# About Planning Functionality
+# <a name="about-planning-functionality"></a>About Planning Functionality
 
 The planning system takes all demand and supply data into account, nets the results, and creates suggestions for balancing the supply to meet the demand.  
 
@@ -19,7 +19,7 @@ For more information, see [Design Details: Supply Planning](design-details-suppl
 > [!NOTE]  
 > For all the fields that are mentioned in this topic, read the tooltip to understand their function. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Supply and demand
+## <a name="supply-and-demand"></a>Supply and demand
 
 Planning has two elements: demand and supply. These must balance to ensure that the demand is met.  
 
@@ -28,7 +28,7 @@ Planning has two elements: demand and supply. These must balance to ensure that 
 
 Another goal of the planning system is to ensure that the inventory does not grow unnecessarily. In the case of decreasing demand, the planning system will suggest that you postpone, decrease in quantity, or cancel existing replenishment orders.  
 
-## Planning calculation
+## <a name="planning-calculation"></a>Planning calculation
 
 The planning system is driven by anticipated and actual customer demand, as well as inventory reordering parameters. Running the planning calculation will result in application suggesting specific actions ([Action Messages](production-how-to-run-mps-and-mrp.md#action-messages)) to take concerning possible replenishment from vendors, transfers between warehouses, or production. If replenishment orders already exist, the suggested actions could be to increase or expedite the orders to meet the changes in demand.  
 
@@ -37,7 +37,7 @@ The basis of the planning routine is in the gross-to-net calculation. Net requir
 > [!TIP]
 > The planning system relies on how your organisation uses locations. For more information, see [Planning With or Without Locations](production-planning-with-without-locations.md).
 
-## Planning with manual transfer orders
+## <a name="planning-with-manual-transfer-orders"></a>Planning with manual transfer orders
 
 In the **Replenishment System** field on a SKU card, you can set up the planning system to create transfer orders to balance supply and demand across locations.  
 
@@ -45,7 +45,7 @@ In addition to such automatic transfer orders, you may sometimes need to perform
 
 Contrarily, if you do want the planning system to adjust the transfer order quantities and dates to existing demand, you must set the **Planning Flexibility** field to the default value, Unlimited.
 
-## Planning parameters
+## <a name="planning-parameters"></a>Planning parameters
 
 The planning parameters control when, how much, and how to replenish based on the various settings on the item card (or stockkeeping unit - SKU), and the manufacturing setup.  
 
@@ -86,16 +86,16 @@ Global planning setup fields on the **Manufacturing Setup** page include:
 
 To learn more, go to [Design Details: Planning Parameters](design-details-planning-parameters.md)  
 
-## Other important planning fields
+## <a name="other-important-planning-fields"></a>Other important planning fields
 
-### Planning Flexibility
+### <a name="planning-flexibility"></a>Planning Flexibility
 
 On most supply orders, such as production orders, you can select **Unlimited** or **None** in the **Planning Flexibility** field on the lines.
 
 This specifies whether the supply represented by the production order line is considered by the planning system when calculating action messages.
 If the field contains **Unlimited**, then the planning system includes the line when calculating action messages. If the field contains **None**, then the line is firm and unchangeable, and the planning system does not include the line when calculating action messages.
 
-### Warning
+### <a name="warning"></a>Warning
 
 The **Warning** information field on the **Planning Worksheet** page informs you of any planning line created for an unusual situation with a text, which the user can choose to read additional information. The following warning types exist:
 
@@ -103,7 +103,7 @@ The **Warning** information field on the **Planning Worksheet** page informs you
 - Exception
 - Attention
 
-### Emergency
+### <a name="emergency"></a>Emergency
 
 The emergency warning displays in two situations:
 
@@ -114,7 +114,7 @@ If an item's inventory is negative on the planning starting date, the planning s
 
 Any document lines with due dates before the planning starting date are consolidated into one emergency supply order for the item to arrive on the planning starting date.
 
-### Exception
+### <a name="exception"></a>Exception
 
 The exception warning displays if the projected available inventory drops below the safety stock quantity.
 
@@ -125,7 +125,7 @@ Violating the safety stock level is considered an exception because it shouldn't
 > [!NOTE]
 > Supply on planning lines with Exception warnings is normally not modified according to planning parameters. Instead, the planning system only suggests a supply to cover the exact demand quantity. However, you can set the planning run up to respect certain planning parameters for planning lines with certain warnings. For more information, see the description for the **Respect Planning Parameters for Exception Warnings** field in the [Run Full Planning, MPS or MRP](production-how-to-run-mps-and-mrp.md) article.
 
-### Attention
+### <a name="attention"></a>Attention
 
 The attention warning displays in two situations:
 
@@ -135,13 +135,13 @@ The attention warning displays in two situations:
 > [!NOTE]
 > In planning lines with warnings, the **Accept Action Message** field is not selected, because the planner is expected to further investigate these lines before carrying out the plan.
 
-## Planning worksheets and requisition worksheets
+## <a name="planning-worksheets-and-requisition-worksheets"></a>Planning worksheets and requisition worksheets
 
 As described in [Planning](production-planning.md), you can choose between two worksheets for most planning activities, the planning worksheet and the requisition worksheet. Most processes are described based on the planning worksheet, but there are a couple of scenarios where the requisition worksheet is preferred.
 
 [!INCLUDE [edit-in-excel](includes/edit-in-excel.md)]
 
-### Requisition worksheet
+### <a name="requisition-worksheet"></a>Requisition worksheet
 
 The **Requisition Worksheet** page lists items that you want to order. You can enter items in the worksheet in the following ways:
 
@@ -162,7 +162,7 @@ For details about planning with locations and transfers, see [Planning With or W
 > [!TIP]
 > When you're working on the **Requisition Worksheet** or **Planning Worksheet** pages, you can organise the lines by sorting on a column name. This is especially useful on the Planning Worksheet page because they it can be used for multilevel production orders. By default, lines are sorted by the **Item No.** field. To group lines for a multilevel order, sort by the **Ref. Order No.** field. Also, the **MPS Order** and **Planning Level** fields can help show the hierarchy of the lines.
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Design Details: Supply Planning](design-details-supply-planning.md)  
 [Planning](production-planning.md)  
