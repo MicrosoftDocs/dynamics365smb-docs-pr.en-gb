@@ -10,7 +10,7 @@ ms.date: 02/20/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Sorting, Searching, and Filtering
+# <a name="sorting-searching-and-filtering"></a>Sorting, Searching, and Filtering
 
 There are a few things that you can do that will help you scan, find, and limit records on a list or in a report or XMLport. These include sorting, searching, and filtering. You can apply some or all of these simultaneously to quickly find or analyse your data.
 
@@ -25,7 +25,7 @@ For reports and XMLports, as on lists, you can set filters to delimit which data
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
 -->
 
-## Sorting
+## <a name="sorting"></a>Sorting
 
 Sorting makes it easy for you to get a quick overview of your data. For example, if you have many customers,  you could sort them by **Customer No.**, **Currency Code**, or **Country Region Code** to get the overview you need.
 
@@ -37,7 +37,7 @@ To sort a list, you can either:
 > [!NOTE]  
 > Sorting isn't supported on images, BLOB fields, FlowFilters, and fields that do not belong to a table.  
 
-## Searching
+## <a name="searching"></a>Searching
 
 <!--## Searching by using the Quick Filter -->
 At the top of each list page, there's a ![Search list.](media/ui-search/search-list.png "Search list icon") **Search** action that provides a quick and easy way to reduce the records in a list and display only those records that contain the data that you're interested in seeing.
@@ -53,7 +53,7 @@ In general, search will attempt to match text across all fields. It doesn't dist
 > Search won't match values in images, BLOB fields, FlowFilters, FlowFields, and other fields that aren't part of a table.
 
 
-### Fine-tuning the Search with Filter criteria
+### <a name="fine-tuning-the-search-with-filter-criteria"></a>Fine-tuning the Search with Filter criteria
 
 You can make a more exact search by using filter operators, expressions, and filter tokens. Unlike filtering, these are applied across all fields when used in the search box, making them less efficient than filtering.
 
@@ -76,7 +76,7 @@ The following table provides some examples to explain how you can use the search
 |`@*man`|All records that end with **man**, regardless of the case. For example **Sportsman**, but not **Manchester** or **manual**.|
 
 
-## <a name="filtering"></a>Filtering
+## <a name="filtering"></a><a name="filtering"></a>Filtering
 
 Filtering provides a more advanced and versatile way to control which records are included in a list, report, or XMLport. There are two major differences between searching and filtering, as described in the table below.
 
@@ -89,7 +89,7 @@ Filtering enables you to display records for specific accounts or customers, dat
 
 For lists, the filters are displayed on a filter pane that appears to the left of the list when you activate it. For reports, batch jobs, and XMLports, the filters are visible directly on the request page.
 
-### Filtering with Option Fields
+### <a name="filtering-with-option-fields"></a>Filtering with Option Fields
 
 For "ordinary" fields that hold data, setup date, or business data, you can set filters both by selecting data and by typing filter values, and you can use symbols to define advanced filter criteria. For more information, see [Entering Filter Criteria](ui-enter-criteria-filters.md#entering-filter-criteria).
 
@@ -98,7 +98,7 @@ For fields of type **Option**, however, you can only set a filter by selecting o
 > [!NOTE]
 > When you select multiple options as a filter value, the relationship between the options is defined as *OR*. For example, if you select both the **Open** and the **Released** check box in the **Status** filter field on the **Sales Orders** page, it means that sales orders that are either open or released are displayed.
 
-### Setting Filters on Lists
+### <a name="setting-filters-on-lists"></a>Setting Filters on Lists
 
 On lists, you set filters by using the filter pane. To display the filter pane for a list, choose the drop-down arrow next to the name of the page, and then choose the **Show filter pane** action. Alternatively, select <kbd>Shift</kbd>+<kbd>F3</kbd>.
 
@@ -125,7 +125,7 @@ The filter pane displays the current filters for a list, and enables you to set 
 
 You can set a simple filter directly on a list within using the filter pane, namely a filter that displays only records with the same value as in the selected cell. Select a cell on the list, choose the drop-down arrow, and then choose the **Filter to This Value** action. Alternatively, select <kbd>Alt</kbd>+<kbd>F3</kbd>.
 
-### Setting Filters in Reports, Batch Jobs, and XMLports
+### <a name="setting-filters-in-reports-batch-jobs-and-xmlports"></a>Setting Filters in Reports, Batch Jobs, and XMLports
 
 For reports and XMLports, the filters are visible directly on the request page. The request page displays the last used filters according to your selection in the **Use default values from** field. For more information, see [Use Saved Settings](ui-work-report.md#SavedSettings).
 
@@ -133,7 +133,7 @@ The main **Filter** section shows the default filter fields that you use to deli
 
 In the **Filter totals by** section, you can adjust various dimensions that influence calculations in the report or XMLport. To add a filter, choose the **+ Filter** action. Then, type the name of the field that you want to filter by, or pick a field from the drop-down list.
 
-## Entering Filter Criteria
+## <a name="entering-filter-criteria"></a>Entering Filter Criteria
 
 Both in the filter pane and on a request page, you enter your filter criteria in the box under the filter field.
 
@@ -144,7 +144,7 @@ Columns that already have filters are indicated by the ![Filter icon.](media/ui-
 > [!TIP]
 > Accelerate finding and analysing your data by using combinations of keyboard shortcuts. For example, select a field, use <kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd> to add that field to the filter pane, type the filter criteria, use <kbd>Ctrl</kbd>+<kbd>Enter</kbd> to return to the rows, select another field, and use <kbd>Alt</kbd>+<kbd>F3</kbd> to filter to that value. For more information, see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
 
-### <a name="FilterCriteria"> </a>Filter Criteria and Operators
+### <a name="a-namefiltercriteria-afilter-criteria-and-operators"></a><a name="FilterCriteria"> </a>Filter Criteria and Operators
 
 When you enter criteria, you can use all the numbers and letters that you normally use in the field. But there's also a set of special symbols that you can use as operators to further filter the results. The following sections describe these symbols and how to use them as operators in filters.
 
@@ -156,7 +156,7 @@ When you enter criteria, you can use all the numbers and letters that you normal
 >
 > - If there are more than 200 operators in a single filter, the system will automatically group some expressions in parentheses `()` for the purpose of processing. This has no effect on the filter or the results.  
 
-#### (..) Interval
+#### <a name="-interval"></a>(..) Interval
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
@@ -175,62 +175,62 @@ When you enter criteria, you can use all the numbers and letters that you normal
 > [!NOTE]  
 > If the field that you filter on is of type Text, then lexiographic ordering is used to determine what's included in the interval. For such fields that are used to store integers, this can lead to the (unexpected) result that a filter on 10000..10042 also includes values 100000 and 1000042.
 
-#### (&#124;) Either/or
+#### <a name="124-eitheror"></a>(&#124;) Either/or
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`1200|1300`|Numbers with 1200 or 1300|  
 
-#### (<>) Not equal to  
+#### <a name="-not-equal-to"></a>(<>) Not equal to
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`<>0`|All numbers except 0<br /><br /> The SQL Server Option allows you to combine this symbol with a wild-card expression. For example, <>A* meaning not equal to any text that starts with A.|  
 
-#### (>) Greater than  
+#### <a name="-greater-than"></a>(>) Greater than
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`>1200`|Numbers greater than 1200|  
 
-#### (>=) Greater than or equal to  
+#### <a name="-greater-than-or-equal-to"></a>(>=) Greater than or equal to
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`>=1200`|Numbers greater than or equal to 1200|  
 
-#### (<) Less than  
+#### <a name="-less-than"></a>(<) Less than
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`<1200`|Numbers less than 1200|  
 
-#### (<=) Less than or equal to  
+#### <a name="-less-than-or-equal-to"></a>(<=) Less than or equal to
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`<=1200`|Numbers less than or equal to 1200|  
 
-#### (&) And  
+#### <a name="-and"></a>(&) And
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`>200&<1200`|Numbers greater than 200 and less than 1200|  
 
-#### ('') An exact character match  
+#### <a name="-an-exact-character-match"></a>('') An exact character match
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`'man'`|Text that matches **man** exactly and is case-sensitive.|  
 |`''`|Text that is empty.|  
 
-#### (@) Case insensitive  
+#### <a name="-case-insensitive"></a>(@) Case insensitive
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`@man*`|Text that starts with **man** and is case insensitive.|  
 
-#### (*) An indefinite number of unknown characters
+#### <a name="-an-indefinite-number-of-unknown-characters"></a>(*) An indefinite number of unknown characters
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
@@ -238,13 +238,13 @@ When you enter criteria, you can use all the numbers and letters that you normal
 |`*Co`|Text that ends with **Co"** and is case-sensitive.|  
 |`Co*`|Text that begins with **Co** and is case-sensitive.|  
 
-#### (?) One unknown character  
+#### <a name="-one-unknown-character"></a>(?) One unknown character
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`Hans?n`|Text such as **Hansen** or **Hanson**|  
 
-#### Combined format expressions  
+#### <a name="combined-format-expressions"></a>Combined format expressions
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
@@ -252,7 +252,7 @@ When you enter criteria, you can use all the numbers and letters that you normal
 |`..1299|1400..`|Include records with a number less than or equal to 1299 or a number equal to 1400 or greater (all numbers except 1300 through 1399).|  
 |`>50&<100`|Include records with numbers that are greater than 50 and less than 100 (numbers 51 through 99).|  
 
-### <a name="symbols"></a>Filtering on values that contain symbols
+### <a name="filtering-on-values-that-contain-symbols"></a><a name="symbols"></a>Filtering on values that contain symbols
 
 There may be cases where field values contain the one of the following symbols:
 
@@ -266,14 +266,14 @@ If you want to filter on any of these symbols, place the filter expression in si
 
 This requirement isn't necessary for other symbols.
 
-### <a name="FilterTokens"> </a>Filter Tokens
+### <a name="a-namefiltertokens-afilter-tokens"></a><a name="FilterTokens"> </a>Filter Tokens
 
 When entering filter criteria, you can also type words that have special meaning, called filter tokens. After entering the token word, the word is replaced by the value or values that it represents. Filter tokens make filtering easier by reducing the need to navigate to other pages to look up values you want to add to your filter. The tables below describe some of the tokens you can type as filter criteria.
 
 > [!TIP]
 > Your organisation may use custom tokens. To learn about the complete set of tokens available to you or to add more custom tokens, talk to your administrator. For technical information see [Adding Filter Tokens](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
 
-#### (%me or %user) Records Assigned to You
+#### <a name="me-or-user-records-assigned-to-you"></a>(%me or %user) Records Assigned to You
 
 Use `%me` or `%user` when filtering fields that contain the user ID, such as **Assigned to User ID** field, to display all records that are assigned to you.
 
@@ -281,7 +281,7 @@ Use `%me` or `%user` when filtering fields that contain the user ID, such as **A
 |-----------------------|-----------------------|  
 |`%me`<br />or<br />`%user`|Records that are assigned to your user account. |  
 
-#### (%mycustomers) Customers in My Customers
+#### <a name="mycustomers-customers-in-my-customers"></a>(%mycustomers) Customers in My Customers
 
 Use `%mycustomers` in the customer **No** field to display all records for customers that are included in the **My Customers** list on your Role Centre.
 
@@ -289,7 +289,7 @@ Use `%mycustomers` in the customer **No** field to display all records for custo
 |-----------------------|-----------------------|  
 |`%mycustomers`|Customers in the **My Customers** on your Role Centre. |  
 
-#### (%myitems) Items in My Items
+#### <a name="myitems-items-in-my-items"></a>(%myitems) Items in My Items
 
 Use `%myitems` in the item **No** field to display all records for items that are included in the **My Items** list on your Role Centre.
 
@@ -297,7 +297,7 @@ Use `%myitems` in the item **No** field to display all records for items that ar
 |-----------------------|-----------------------|  
 |`%myitems`|Items in the **My Items** on your Role Centre. |  
 
-#### (%myvendors) Suppliers in My Suppliers
+#### <a name="myvendors-vendors-in-my-vendors"></a>(%myvendors) Suppliers in My Suppliers
 
 Use `%myvendors` in the supplier **No** field to display all records for suppliers that are included in the **My Suppliers** list on your Role Centre.
 
@@ -305,7 +305,7 @@ Use `%myvendors` in the supplier **No** field to display all records for supplie
 |-----------------------|-----------------------|  
 |`%myvendors`|Suppliers in the **My Suppliers** on your Role Centre. |  
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Searching and Filtering FAQ](ui-search-filter-faq.yml)  
 [Save and Personalise List Views](ui-views.md)  
