@@ -6,22 +6,22 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
 ms.search.form: null
-ms.date: 04/01/2021
+ms.date: 02/23/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="walkthrough-of-inbound-and-outbound-flow-in-basic-warehouse-configurations"></a>Walkthrough of inbound and outbound flow in Basic Warehouse Configurations
+# Walkthrough of inbound and outbound flow in Basic Warehouse Configurations
 
 This walkthrough demonstrates how to complete inbound and outbound flows in the Basic: Order-by-Order configuration. For more information, see [Overview of different configuration options](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## <a name="prerequisites"></a>Prerequisites
+## Prerequisites  
 To complete this walkthrough, you need to make yourself a warehouse employee at *SILVER* location by following these steps:  
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
 2. Choose the **User ID** field, and select your own user account on the **Users** page.  
 3. In the **Location Code** field, enter *SILVER*.  
 
-## <a name="inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Inbound flow: Receiving and Putting Away in Basic Warehouse Configurations
+## Inbound flow: Receiving and Putting Away in Basic Warehouse Configurations
 
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.  
 
@@ -36,10 +36,10 @@ For more information, see [Design Details: Inbound Warehouse Flow](../../design-
 
 The following walkthrough demonstrates method B in the previous table.  
 
-### <a name="scenario"></a>Scenario
+### Scenario  
 Alicia, the purchasing agent, creates a purchase order for various roasted beans. When the delivery arrives at the warehouse, John, the warehouse worker, puts the items away in suited bins. When John posts the put-away, the items are posted as received into inventory and available for sale or other demand.  
 
-### <a name="steps"></a>Steps
+### Steps
 1. Set up the **Location Card** page to define the company's inbound warehouse flows.  
 
     1.  Choose the ![Lightbulb that opens the Tell Me feature 2.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
@@ -84,9 +84,9 @@ Alicia, the purchasing agent, creates a purchase order for various roasted beans
     When putting items to bins, John noticed default bin already contains some items, so he decided to use another bin. John also places other items to the next bins, as received quantity don't fit the capacity.
 
     1. In the first line change **Bin Code** from *S-1-01*, that was copied from the purchase order, to *S-1-02*. 
-    2.  Enter 20 in the **Qty. to Handle** field on the inventory put-away line with item WBR-1000.  
+    2.  Enter 20 in the **Qty. to Handle** field on the inventory put-away line with item WRB-1000.  
     3. In the second line, enter 20 into the **Qty to Handle** field and choose **Split Line** action. A new line appears, which is a copy of the original line, except that the **Qty. to Handle** field contains the quantity that you removed from the original line. 
-    4. Fill in bins codes for item WBR-1001:
+    4. Fill in bins codes for item WRB-1001:
 
     |Item|Bin code|Quantity|  
     |----------|-------------------|--------------|  
@@ -95,7 +95,7 @@ Alicia, the purchasing agent, creates a purchase order for various roasted beans
 
     5.  Choose the **Post** action, select the **Receive** action, and then choose the **OK** button.  
 
-### <a name="results"></a>Results
+### Results 
  - the roasted beans are now registered as put away in specified bins
  - the **Posted Invt. Put-Away** is  created
  - the **Posted Purchase Receipt** is created
@@ -103,7 +103,7 @@ Alicia, the purchasing agent, creates a purchase order for various roasted beans
  - the item **Inventory** is increased by the chosen quantity
     
 
-## <a name="outbound-flow-picking-and-shipping-in-basic-warehouse-configurations"></a>Outbound flow: Picking and Shipping in Basic Warehouse Configurations
+## Outbound flow: Picking and Shipping in Basic Warehouse Configurations
 
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], the outbound processes for picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.  
 
@@ -118,10 +118,10 @@ For more information, see [Design Details: Outbound Warehouse Flow](../../design
 
 The following walkthrough demonstrates method B in the previous table.
 
-### <a name="scenario-1"></a>Scenario
+### Scenario  
 Susan, the order processor, creates a sales order for various roasted beans and passes it to warehouse. John, the warehouse worker must make sure that the shipment is prepared and delivered to the customer. John manages all involved tasks on the **Inventory Pick** page, which automatically points to the bins where roasted beans are stored.
 
-### <a name="steps-1"></a>Steps
+### Steps
 This is a continuation of [Inbound flow: Receiving and Putting Away in Basic Warehouse Configurations](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Set up the **Location Card** page to define the company's inbound warehouse flows.  
@@ -158,7 +158,7 @@ This is a continuation of [Inbound flow: Receiving and Putting Away in Basic War
 
 5. Choose the **Post** action, select **Ship**, and then choose the **OK** button.  
 
-### <a name="results-1"></a>Results
+### Results
  - the roasted beans are now registered as picked from specified bins
  - the **Posted Invt. Pick** is created
  - the **Posted Sales Shipment** is created
@@ -166,7 +166,7 @@ This is a continuation of [Inbound flow: Receiving and Putting Away in Basic War
  - the item **Inventory** is decreased by the chosen quantity
 
 
-## <a name="see-also"></a>See Also
+## See Also
 [Put-Away Items with Inventory Put-Aways](../../warehouse-how-to-put-items-away-with-inventory-put-aways.md) 
 [Set Up Basic Warehouses with Operations Areas](../../warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md) 
 [Design Details: Inbound Warehouse Flow](../../design-details-inbound-warehouse-flow.md) 
