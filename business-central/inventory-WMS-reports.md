@@ -11,22 +11,22 @@ ms.date: 04/13/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="inventory-and-warehouse-reports-and-analytics"></a>Inventory and Warehouse Reports and Analytics
+# Inventory and Warehouse Reports and Analytics
 
 Inventory and warehouse reporting in [!INCLUDE [prod_short](includes/prod_short.md)] gives inventory and business professionals insights and statistics about current and past inventory and warehouse activities.  
 
-## <a name="reports"></a>Reports
+## Reports
 
 [!INCLUDE [inventory_WMS_reports](includes/inventory-WMS-reports-include.md)]
 
-## <a name="tasks"></a>Tasks
+## Tasks
 
 The following articles describe some of the key tasks for analysing the state of your business:
 
 * [Create Analysis Reports](bi-how-create-analysis-views-reports.md)  
 * [View the Availability of Items](inventory-how-availability-overview.md)
 
-## <a name="print-and-scan-barcodes"></a>Print and scan barcodes
+## Print and scan barcodes
 
 Using barcodes can help streamline your inbound, outbound, and internal warehouse processes. 
 
@@ -44,7 +44,7 @@ After you install the app, you can use the **Print Label** action to print 1D an
 > [!NOTE]
 > Some printers and barcode/QR code formats require a specific implementation. You might need to upload a different Word template or clone the report to create your own customised version.
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Setting Up Inventory](inventory-setup-inventory.md)  
 [Inventory](inventory-manage-inventory.md)  

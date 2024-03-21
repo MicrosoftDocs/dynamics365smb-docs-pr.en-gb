@@ -11,7 +11,7 @@ ms.date: 09/21/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="view-the-availability-of-items"></a>View the Availability of Items
+# View the Availability of Items
 
 From the context of a business task, you can get advanced information about when and where an item is available, such as when talking to a customer about a delivery date.
 
@@ -33,7 +33,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)], availability figures are typi
 > [!NOTE]  
 >   The following procedures describe how to view advanced availability information from the items list and item card. You can also access the information from sales document lines for the item on the line. For more information, see [Sell Products](sales-how-sell-products.md).
 
-## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>To view the availability of an item according to when it will be received or shipped
+## To view the availability of an item according to when it will be received or shipped
 
 You view the availability of an item according to scheduled item transactions on the **Availability by Event** page.
 
@@ -44,7 +44,7 @@ You view the availability of an item according to scheduled item transactions on
     The **Item Availability by Event** page shows how the inventory quantity of the item will develop over time according scheduled shipment and receipt events. The page gives a condensed view that shows one line of accumulated information per time interval in which inventory quantities change. Time intervals where no events occurred are not shown. You can expand each line to show details about the event or events that caused the accumulated quantity on the line.
 4. Choose the value in the **Projected Available Balance** field to view the item ledger entries or open documents that make up the value.
 
-## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>To view the availability of an item in different periods
+## To view the availability of an item in different periods
 
 You view the availability of an item over time for specified time periods on the **Item Availability by Periods** page.
 
@@ -55,7 +55,7 @@ You view the availability of an item over time for specified time periods on the
     The **Item Availability by Periods** page shows how the inventory quantity of the item will develop over time, shown for a period that you select, such as Day, Week, or Quarter.
 4. Choose the value in the **Projected Available Balance** field to view the item ledger entries or open documents that make up the value.
 
-## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>To view the availability of an item at the locations where it is stored
+## To view the availability of an item at the locations where it is stored
 
 You view the availability of an item at the different places where it is stored on the **Item Availability by Location** page.
 
@@ -67,7 +67,7 @@ You view the availability of an item at the different places where it is stored 
 4. Choose the value in the **Qty. on Hand** field to view the item ledger entries that make up the value.
 5. Choose the value in the **Projected Available Balance** field to view the item ledger entries or open documents that make up the value.
 
-## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>To view the availability of all items by the location where they are stored
+## To view the availability of all items by the location where they are stored
 
 You view the availability of all your items across all your locations on the **Items by Location** page.
 
@@ -77,7 +77,7 @@ You view the availability of all your items across all your locations on the **I
     The **Items by Location** page shows for all your items how many are available at each location.
 3. Choose the value in the **Qty. on Hand** field to view the item ledger entries that make up the value.
 
-## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms"></a>To view the availability of an item by its use in assembly or production BOMs
+## To view the availability of an item by its use in assembly or production BOMs
 
 If an item is part of assembly or production BOMs as either a parent item or a component, you can view how many units of it are required on the **Item Availability by BOM Level** page. The page shows how many units of a parent item you can make based on the availability of child items on underlying lines. Any item that has an assembly or production BOM is shown on the page as a collapsible line. You can expand this line to see the underlying components and lower-level subassemblies with their own BOMs.
 
@@ -90,7 +90,7 @@ On each line on the page for both parent items and child items, the following ke
 |**Able to Make Parent**|Shows how many units of any subassembly in the top item you can make. The field specifies how many immediate parent units you can assemble. The value is based on availability of the item on the line.|
 |**Able to Make Top Item**|Shows how many units of the top item you can make. The field specifies how many units of the top-line BOM item you can assemble. The value is based on availability of the item on the line.|
 
-### <a name="to-view-the-availability-of-an-item-according-to-demand-for-its-parent"></a>To view the availability of an item according to demand for its parent
+### To view the availability of an item according to demand for its parent
 
 The **Item Availability by BOM Level** page shows information for the item on the card or document line that the page is opened for. The item is always shown on the top line. You can view information for other items or for all items by changing the value in the **Item Filter** field.
 
@@ -99,14 +99,14 @@ The **Item Availability by BOM Level** page shows information for the item on th
 
 The **Bottleneck** field specifies which item in the BOM structure restricts you from making a larger quantity than the quantity that is shown in the **Able to Make Top Item** field. For example, the bottleneck item can be a purchased component with an expected receipt date that is too late to make additional units of the top item by the date in the **Needed by Date** field.
 
-## <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>To view the availability of an item by its units of measurement
+## To view the availability of an item by its units of measurement
 
 The **Item Availability by Unit of Measurement** page shows the availability of an item in the units of measurement that it is stored in.
 
 > [!NOTE]  
 > To keep this information accurate, you must convert item units of measurement. For example, if you purchase an item in one unit of measurement, such as boxes, and you sell items in another unit of measurement, such as pieces, you must use an item journal to convert the units of measurement, or "unbox" items. You can use a negative adjustment item journal line to reduce inventory in the purchase unit of measurement, for example boxes, and a positive adjustment to increase inventory in the sales unit of measurement, for example pieces. 
 
-## <a name="to-view-the-availability-of-an-item-by-its-variants"></a>To view the availability of an item by its variants
+## To view the availability of an item by its variants
 
 The **Item Availability by Variant** page shows the actual and projected availability of an item grouped according to variant code.
 
@@ -121,7 +121,7 @@ The **Item Availability by Variant** page shows the actual and projected availab
 
 [!INCLUDE [inventory_variant-availability](includes/inventory_variant-availability.md)]
 
-## <a name="assembly-availability-page"></a>Assembly Availability Page
+## Assembly Availability Page
 
 The **Assembly Availability** page shows detailed availability information for the assembly item. It opens:
 
@@ -137,7 +137,7 @@ The **Lines** FastTab shows detailed availability information for the assembly c
 
 If one or more assembly components are not available, then this is reflected in the **Able to Assemble** field on the line in question as a quantity less than the quantity in the **Remaining Quantity** field on the **Details** FastTab.
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Manage Inventory](inventory-manage-inventory.md)  
 [Assembly Management](assembly-assemble-items.md)  

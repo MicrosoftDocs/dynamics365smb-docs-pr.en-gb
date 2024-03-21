@@ -9,7 +9,7 @@ ms.date: 02/03/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="analyze-data-in-business-intelligence-tools"></a>Analyse Data in Business Intelligence Tools
+# Analyse Data in Business Intelligence Tools
 
 In case you prefer to use business intelligence tools that are not embedded in [!INCLUDE[prod_short](includes/prod_short.md)], this page provided guidance on tools and methods to achieve this.
 
@@ -21,7 +21,7 @@ In case you prefer to use business intelligence tools that are not embedded in [
 |Extract data to a data warehouses or a data lake. |[Extracting data to data warehouses or data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)|
 |Read Business Central data using the API.| [Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)|
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Business Intelligence and Reporting Overview](reports-use-reports.md)
 

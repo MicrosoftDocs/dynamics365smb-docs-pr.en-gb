@@ -10,7 +10,7 @@ ms.date: 08/24/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-gl-budgets"></a>Create G/L Budgets
+# Create G/L Budgets
 
 You can have multiple budgets for identical time periods by creating budgets with separate names. First, you set up the budget name and enter the budget figures. The budget name is then included on all the budget entries you create.  
 
@@ -20,7 +20,7 @@ Budgets play an important role in business intelligence. Examples include a fina
 
 In cost accounting, you work with cost budgets in a similar way. Learn more at [Creating Cost Budgets](finance-create-cost-budgets.md).  
 
-## <a name="to-create-a-new-gl-budget"></a>To create a new G/L budget
+## To create a new G/L budget
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Budgets**, and then choose the related link.  
 2. Choose the **Edit List** action, then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -35,7 +35,7 @@ In cost accounting, you work with cost budgets in a similar way. Learn more at [
 > [!NOTE]  
 > On the **Filters** FastTab, you can filter the budget information by the budget dimensions you set up under the budget name.
 
-## <a name="exporting-and-importing-gl-budgets-with-excel"></a>Exporting and importing G/L budgets with Excel
+## Exporting and importing G/L budgets with Excel
 
 As for practically all other pages, you can export data on budget pages to Microsoft Excel for further processing or analysis. Learn more at [Exporting Your Business Data to Excel](about-export-data.md).
 
@@ -44,7 +44,7 @@ As for practically all other pages, you can export data on budget pages to Micro
 
 Accordingly, when you import a G/L budget, any values on Heading lines are deleted. This is to avoid wrong totals after importing data that has been created or edited in Excel.
 
-### <a name="scenario"></a>Scenario
+### Scenario
 
 You know that the new budgeted salaries cost is going to be local currency (LCY) 1.200.000. You want to enable the Salaries department to budget for the three specific lines (of the Posting account type) for full-time employees, part-time employees, and temp help. The three lines are grouped under a Salaries heading line.
 
@@ -52,7 +52,7 @@ You enter 1.200.000 in the Heading line, export the budget to Excel, then send i
 
 The Salaries department distributes the amount on the three posting accounts. When you import back into the G/L budget, the three accounts are filled in with the new Excel data, summing to LCY 1.200.000, and the Heading line is blank.
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Exporting Your Business Data to Excel](about-export-data.md)  
 [Finance](finance.md)  

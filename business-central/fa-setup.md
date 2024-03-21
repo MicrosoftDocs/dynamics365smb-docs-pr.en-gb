@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-fixed-assets"></a>Setting Up Fixed Assets
+# Setting Up Fixed Assets
 
 Before you can work with Fixed Assets, you need to define a few things:  
 
@@ -35,7 +35,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Learn about different fixed asset depreciation methods. |[Depreciation Methods](fa-depreciation-methods.md) |
 | Learn about how to apply user-defined depreciation methods. |[Set Up User-Defined Depreciation Methods](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Fixed Assets](fa-manage.md)  
 [Finance](finance.md)  

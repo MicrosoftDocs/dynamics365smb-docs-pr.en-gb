@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-### <a name="reversing-journals-to-correct-mistakes"></a>Reversing Journals to Correct Mistakes
+### Reversing Journals to Correct Mistakes
 
 When working with journals that have many lines and something goes wrong, it's important to have an easy way to correct mistakes. The **Posted General Journal** page offers a couple of actions that can help.
 

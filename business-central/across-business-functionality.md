@@ -10,7 +10,7 @@ ms.date: 11/01/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="business-functionality"></a>Business Functionality
+# Business Functionality
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides functionality for common business processes in small and medium-sized companies, mainly within wholesale and professional services. However, more complex processes, such as assembly, manufacturing, service, and directed warehouse management are also supported. Learn how to get a free trial [here](trial-signup.md).  
 
@@ -38,7 +38,7 @@ ms.service: dynamics-365-business-central
 |Enable users to exchange data with external sources during daily tasks, such as send/receive electronic documents, import/export bank files, and update currency exchange rates.|[Exchanging Data Electronically](across-data-exchange.md)|
 |Record external documents in [!INCLUDE[prod_short](includes/prod_short.md)], including their file attachments, then manually create the related documents or automatically convert the files to electronic documents.|[Incoming Documents](across-income-documents.md)|
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Administration](admin-setup-and-administration.md)    
 [Explore Dynamics 365 Business Central capabilities](https://dynamics.microsoft.com/business-central/capabilities/)  

@@ -10,7 +10,7 @@ ms.date: 09/19/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="work-with-"></a>Work with [!INCLUDE[prod_short](includes/prod_short.md)]
+# Work with [!INCLUDE[prod_short](includes/prod_short.md)]
 
 While you're working in [!INCLUDE [prod_short](includes/prod_short.md)], you interact with data in different ways. For example, you create records, enter data, sort and filter data, write notes, and export data to other applications.
 
@@ -24,14 +24,14 @@ If you want to use the horizontal scroll bar to view all columns on a list page 
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="tips-and-tricks"></a><a name="cheatsheet"></a>Tips and Tricks
+## <a name="cheatsheet"></a>Tips and Tricks
 
 > [!TIP]
 > For a print-friendly overview of the most used functions, choose the following image and download the PDF file.
 >
 > [ ![Icon for the PDF file.](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Icon that opens a PDF")
 
-## <a name="links-to-learn-more"></a>Links to Learn More
+## Links to Learn More
 
 The following table lists some of the general functionality and provides links to articles that describe them.
 
@@ -57,13 +57,13 @@ The following table lists some of the general functionality and provides links t
 |Manage the content and format of reports and documents. Specify the field data to include, and how it appears. For example, choose a text style, add images, and more.|[Managing Report and Document Layouts](ui-manage-report-layouts.md) |
 |Learn about features that make [!INCLUDE[prod_short](includes/prod_short.md)] accessible to people with disabilities.|[Accessibility and Keyboard Shortcuts](ui-accessibility.md)|
 
-## <a name="getting-around-in-business-central"></a>Getting around in Business Central
+## Getting around in Business Central
 
 Here's a short video about how to get around in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
 
-## <a name="choosing-a-desktop-browser"></a>Choosing a desktop browser
+## Choosing a desktop browser
 
 [!INCLUDE[prod_short](includes/prod_short.md)] supports multiple browsers, and each browser offers various features. The browser plays a significant role in the responsiveness and fluidity of the user interface. Check out the list of supported, recommended browsers for [Business Central online](./product-requirements.md) and browsers for [Business Central on-premises](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v15).
 
@@ -73,7 +73,7 @@ Here's a short video about how to get around in [!INCLUDE[prod_short](includes/p
     > Internet Explorer is no longer supported. To learn more, go to [Microsoft Edge documentation](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Keep your browser up to date with the latest version.
 
-## <a name="action-bars"></a>Action bars
+## Action bars
 
 Inside [!INCLUDE [prod_short](includes/prod_short.md)], you do most of your work in a list, a document, or a card. All pages have a bar with actions that are relevant to them. The actions are almost the same for the individual card or document and the list of entities. This way, you can manage an individual sales order in the **Sales Order** page and in the **Sales Orders** list, including posting it and invoicing it.  
 
@@ -90,7 +90,7 @@ When you search for and open a list page, such as the **Sales Orders** list, it'
 
 When you open the same list page from your home page, the **Manage** action isn't available. Instead, to open an individual sales order, choose the **Number** field. In this view, you can't pin the action bar.  
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Setting Up Business Central](setup.md)  

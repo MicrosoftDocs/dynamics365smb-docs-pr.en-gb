@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="troubleshooting-accessing-camera-and-location"></a>Troubleshooting: Accessing Camera and Location
+# Troubleshooting: Accessing Camera and Location
 
 You might come across some issues when trying to access the camera and location information of a device from [!INCLUDE[prod_short](includes/prod_short.md)]. You can find the possible causes behind these problems and how to work around them listed below.
 
-## <a name="device-must-have-camera-and-location-capabilities"></a>Device must have Camera and Location Capabilities
+## Device must have Camera and Location Capabilities
 
 In order to access the camera or a user's location from a device, the device must have a physical camera or the capability to retrieve location information, respectively.
 
 If your device has camera and location capabilities but you still encounter problems, it is possible that some drivers need updating or reinstalling. Even if you are unsure, we always recommend you update your device operating system, drivers, and browser to the latest version for the best experience.
 
-## <a name="access-permissions-not-enabled"></a>Access Permissions not Enabled
+## Access Permissions not Enabled
 
 You must enable general access to camera and location from your device's privacy settings and explicitly give permission to  [!INCLUDE[prod_short](includes/prod_short.md)] to access them. For example, to see or change permissions for a device running on Windows, go to **Settings**, choose **Privacy**, and then **App permissions**. 
 
@@ -34,21 +34,21 @@ By default, the device or browser will pop up a request to access these capabili
 > [!NOTE]  
 > Some old browsers do not grant access to camera and location. For example, camera is not available in Internet Explorer or the legacy Edge browser.
 
-## <a name="web-client-connection-not-secure"></a>Web Client Connection not Secure
+## Web Client Connection not Secure
 
 The camera and location capabilities are only available when accessing the Web Client through SSL secured HTTP connections, using the `https://` URI scheme. 
 
 The only exception is connecting to `http://localhost`, used for development and test purposes.
 
 
-## <a name="work-with-virtualization-technologies"></a>Work with Virtualization Technologies
+## Work with Virtualization Technologies
 
 When connecting to [!INCLUDE[prod_short](includes/prod_short.md)] through Remote Desktop or another virtualization, the access to camera or location might not be available. If this is the case, use the physical system instead.
 
-## <a name="antivirus-software"></a>Antivirus Software
+## Antivirus Software
 Some antivirus software block access to camera and location by default. Remember to check your antivirus software settings.
 
-## <a name="see-also"></a>See Also
+## See Also
 [Implementing the Camera in AL](/dynamics365/business-central/dev-itpro/developer/devenv-implement-camera-al)  
 [Implementing the Location in AL](/dynamics365/business-central/dev-itpro/developer/devenv-implement-location-al)
 

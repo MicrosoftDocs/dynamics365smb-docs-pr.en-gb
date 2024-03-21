@@ -9,7 +9,7 @@ ms.date: 06/14/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="manage-many-incoming-document-records"></a>Manage Many Incoming Document Records
+# Manage Many Incoming Document Records
 
 As you create or process incoming document records, the number of lines on the **Incoming Documents** page may grow to an extent where you lose overview. Therefore, you can set incoming document records to *Processed* to remove them from the default view. When you choose the **Show All** action, you can view both processed and unprocessed records.
 
@@ -21,7 +21,7 @@ The **Processed** check box is automatically selected on incoming document recor
 > [!NOTE]  
 > When you open the **Incoming Documents** page with the **My Incoming Documents** action on the Role Centre, only unprocessed incoming document records are shown by default. This is referred to in this topic as "the default view".
 
-## <a name="to-remove-incoming-document-records-from-the-default-view"></a>To remove incoming document records from the default view
+## To remove incoming document records from the default view
 
 1. On the **Incoming Documents** page, select one or more lines for incoming document records that you want to remove from the default view.
 2. Choose the **Set to Processed** action.
@@ -31,13 +31,13 @@ The **Processed** check box is automatically selected on incoming document recor
 > [!NOTE]  
 > You can also perform this action for the individual record on the **Incoming Document Card** page.
 
-## <a name="to-view-all-incoming-document-records"></a>To view all incoming document records
+## To view all incoming document records
 
 1. On the **Incoming Documents** page, choose the **Show All** action.
 
 All incoming document records are displayed, including records where the **Processed** check box isn't selected.
 
-## <a name="to-add-incoming-document-records-to-the-default-view"></a>To add incoming document records to the default view
+## To add incoming document records to the default view
 
 1. On the **Incoming Documents** page, choose the **Show All** action.
 2. Select one or more lines for incoming document records that you want to appear in the default view.
@@ -46,7 +46,7 @@ All incoming document records are displayed, including records where the **Proce
 > [!NOTE]  
 > You can also perform this action for the individual record on the **Incoming Document Card** page.
 
-## <a name="see-also"></a>See also
+## See also 
   
 [Create Incoming Document Records](across-how-create-income-document-records.md)
 [Create Incoming Document Records Directly from Documents and Entries](across-how-connect-disconnect-income-document-records.md)

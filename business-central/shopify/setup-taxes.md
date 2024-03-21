@@ -8,13 +8,13 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="set-up-taxes-for-the-shopify-connection"></a>Set Up Taxes for the Shopify Connection
+# Set Up Taxes for the Shopify Connection
 
 In this article, we'll investigate how various settings in Shopify affect the storefront prices and VAT that display to customers. We'll also cover how to configure [!INCLUDE[prod_short](../includes/prod_short.md)] to support the settings in Shopify. This article is not intended to be a comprehensive taxation guide. To learn more, contact your local tax authority or a tax professional.  
 
 The article assumes that you are liable to pay VAT when you sell goods locally or internationally.
 
-## <a name="if-you-sell-domestically"></a>If you sell domestically
+## If you sell domestically
 
 After you configure your Shopify to collect VAT in your domestic country or region, you can decide how to display prices on your storefront.
 
@@ -54,13 +54,13 @@ Now define item prices in the **Item Card** or **Sales Price List** fields, with
 [!Note]
 > These settings affect the export of prices. When you import orders from Shopify, the setting for the **Prices including VAT** field comes from the **Customer Template** on the Shopify shop card, or the customer template per country/region. Even if you use the default customer for imported orders, you must fill in the **Customer Template Code**.
 
-## <a name="if-you-sell-internationally"></a>If you sell internationally
+## If you sell internationally
 
 This section explores settings for scenarios where you're required to collect taxes when selling to another country/region, such as other countries/regions in the EU.
 
 Currently, the Shopify connector only lets you export one price. Shopify automatically applies local taxes, currencies, and rounding. The **All prices include VAT** toggle results in the actions described in the following subsections.
 
-### <a name="all-prices-include-tax-is-selected"></a>All prices include tax is selected
+### All prices include tax is selected
 
 |-|Domestic sales|Foreign country/region where you're collecting taxes|Foreign country/region where you're not collecting taxes|
 |------------------------|--------|--------|--------|
@@ -70,7 +70,7 @@ Currently, the Shopify connector only lets you export one price. Shopify automat
 
 The price for the customer stays intact, regardless of their location, but your margin is affected due to differing tax rates per country/region.
 
-### <a name="all-prices-include-tax-is-not-selected"></a>All prices include tax is not selected
+### All prices include tax is not selected
 
 |-|Domestic sales|Foreign country where you're collecting taxes|Foreign country where you're not collecting taxes|
 |------------------------|--------|--------|--------|
@@ -80,7 +80,7 @@ The price for the customer stays intact, regardless of their location, but your 
 
 Shopify adds local VAT to the price defined on the product card based on where goods are shipped to.
 
-## <a name="dynamic-tax-inclusive-pricing"></a>Dynamic tax-inclusive pricing
+## Dynamic tax-inclusive pricing
 
 Countries/regions have different requirements for including tax in prices. If you want prices to automatically include VAT, you can turn on [Dynamic VAT-inclusive pricing](https://help.shopify.com/en/manual/markets/pricing/dynamic-tax-inclusive-pricing) in Shopify.
 
@@ -89,7 +89,7 @@ In your **Shopify admin**, select **Include or exclude VAT based on your custome
 > [!NOTE]
 > This setting doesn't affect prices in domestic markets, which is controlled by the **All prices include VAT** toggle.
 
-### <a name="all-prices-include-tax-is-selected-1"></a>All prices include tax is selected
+### All prices include tax is selected
 
 |-|Domestic sales|Foreign country/region where tax is included in price|Foreign country/region where tax is excluded|
 |------------------------|---------------|---------------|--------|
@@ -99,7 +99,7 @@ In your **Shopify admin**, select **Include or exclude VAT based on your custome
 
 The price for each customer changes, depending on their location.
 
-### <a name="all-prices-include-tax-is-not-selected-1"></a>All prices include tax is not selected
+### All prices include tax is not selected
 
 |-|Domestic sales|Foreign country/region where tax is included in price|Foreign country/region, where tax is excluded|
 |------------------------|--------|--------|--------|
@@ -110,7 +110,7 @@ The price for each customer changes, depending on their location.
 > [!NOTE]
 > The **All prices include VAT** toggle doesn't change how prices display to international customers.
 
-## <a name="if-you-sell-to-eu-customers"></a>If you sell to EU customers
+## If you sell to EU customers
 
 Different EU countries/regions have different local tax rates. However, if you're located in the EU and sell to other EU countries/regions, you can use your local tax rate in some cases.  
 
@@ -121,7 +121,7 @@ In your **Shopify admin**, check the **Collect VAT** checkbox in the **European 
 |Micro-business exemption|Use your domestic tax rate for all sales inside the EU|
 |One-stop shop or specific country/region registration|Use the VAT rate of your customer's country/region|
 
-### <a name="collect-vat-set-to-one-stop-shop-registration"></a>Collect VAT set to one-stop shop registration
+### Collect VAT set to one-stop shop registration
 
 In the following example, the **All prices include VAT** toggle is turned on. The price on the product card is set to *1200*.
 
@@ -131,7 +131,7 @@ In the following example, the **All prices include VAT** toggle is turned on. Th
 |Tax rate percentage|20|25|
 |Price at checkout|1200|1250|
 
-### <a name="collect-vat-set-to-micro-business-exemption"></a>Collect VAT set to micro-business exemption
+### Collect VAT set to micro-business exemption
 
 In the following example, the **All prices include VAT** toggle is turned on. The price on the product card is set to *1200*.
 
@@ -143,7 +143,7 @@ In the following example, the **All prices include VAT** toggle is turned on. Th
 
 Shopify uses the domestic tax rate and ignores the tax rate in the foreign country/region when it calculates final prices.
 
-## <a name="importing-shopify-orders-sold-to-international-customers"></a>Importing Shopify orders sold to international customers
+## Importing Shopify orders sold to international customers
 
 If you're collecting taxes from multiple countries/regions, you must define a specific country/regional setting in [!INCLUDE[prod_short](../includes/prod_short.md)]. There's a reason why this setting is required. When a sales document is created in [!INCLUDE[prod_short](../includes/prod_short.md)], [!INCLUDE [prod_short](../includes/prod_short.md)] calculates VAT instead of reusing the VAT imported from Shopify.
 
@@ -161,13 +161,13 @@ You specify country/region-specific settings on the **Shopify Customer Template*
 > [!NOTE]
 > The setting of the **Prices including VAT** field comes from the template, not from the specific customer. It's important to define the customer template.
 
-## <a name="other-tax-remarks"></a>Other tax remarks
+## Other tax remarks
 
 While the imported Shopify order contains information about taxes, the taxes get recalculated when you create the sales document. That recalculation means it's important that VAT/tax settings are correct in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 * Multiple product tax or VAT rates. For example, some product categories are eligible for reduced tax rates. You can use the [tax override](https://help.shopify.com/en/manual/taxes/tax-overrides#create-a-manual-collection-for-products-that-need-a-tax-override) feature in Shopify. When you import and create items [!INCLUDE[prod_short](../includes/prod_short.md)], they use the VAT setup specified on the item template code in the Shopify shop. Before you import orders with such items, update the VAT product posting group.  
 * Address-dependent VAT rates. Use the **Tax Area Priority** field together with **Customer Templates** table to overwrite standard logic that fills in the **Tax Area Code** in the sales document. The **Tax Area Priority** field specifies the priority regarding where the function should take the information about the country or region and state or county. Then the corresponding record in the Shopify customer templates is identified, and the **Tax Area Code**, **Tax Liable**, and **VAT Bus. Posting Group** are used when a sales document is created.  
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Get Started with the Connector for Shopify](get-started.md)  

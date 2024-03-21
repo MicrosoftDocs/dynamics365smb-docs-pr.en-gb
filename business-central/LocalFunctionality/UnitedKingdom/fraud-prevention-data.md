@@ -9,7 +9,7 @@ ms.date: 04/11/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="send-fraud-prevention-data-in-the-united-kingdom"></a>Send Fraud Prevention Data in the United Kingdom
+# Send Fraud Prevention Data in the United Kingdom
 
 Communication with His Majesty's Revenue and Customs (HMRC) without fraud prevention headers is not allowed, starting in 2021. [!INCLUDE [prod_short](../../includes/prod_short.md)] communicates with HMRC through Making Tax Digital and supports the requirement to submit data that can help prevent fraud.  
 
@@ -21,7 +21,7 @@ The admin of the company that transmits VAT data together with fraud prevention 
 > [!NOTE]
 > We recommend that it's always the same person who submits data to HMRC from the same device. This way, the fraud prevention headers contain consistent information about the device.
 
-## <a name="fraud-prevention-headers"></a>Fraud prevention headers
+## Fraud prevention headers
 
 Fraud prevention headers are sent to HMRC whenever there is communication with the APIs at HMRC. In other words, this information is sent when one of the following actions are chosen in [!INCLUDE [prod_short](../../includes/prod_short.md)]:
 
@@ -31,7 +31,7 @@ Fraud prevention headers are sent to HMRC whenever there is communication with t
 
 When you start one of these processes, you are presented with the current header content and asked for consent before the any data is sent. If you choose to cancel, no information is sent to HMRC.
 
-### <a name="headers"></a>Headers
+### Headers
 
 In this section, we provide a list of fraud prevention headers. The content is intended to help you identify any issues with fraud prevention headers for your company.  
 
@@ -58,7 +58,7 @@ The **WEB\_APP\_VIA\_SERVER** connection method assumes transmission of headers 
 | Gov-Vendor-Public-IP | The public IP address of the servers that the originating device sent its requests to. |
 | Gov-Vendor-Forwarded | A list that details the hops over the internet between services that terminate Transport Layer Security (TLS). |
 
-## <a name="populating-headers"></a>Populating headers
+## Populating headers
 
 The following table explaines how to identify all automatically populated headers. The guidance is based on an example from one of our reselling partners in the UK. The content is intended to help you set up fraud prevention headers for your company.  
 
@@ -73,7 +73,7 @@ The following table explaines how to identify all automatically populated header
 |Gov-Vendor-Public-IP|The public IP address of the servers the originating device sent their requests to.|`Gov -Vendor-Public-IP: 203.0.113.6`|Search for *what is my public ip address?*.|
 |Gov-Vendor-Forwarded|A list that details bops over the internet between services that terminate Transport Layer Security (TLS).|`Gov-vendor-Forwarded:by=203.0.113.6&for=198.51.100.0`|`by` = public ID. `for` = local IP.|
 
-## <a name="ip-addresses"></a>IP addresses
+## IP addresses
 
 Starting in 2022, you must specify an endpoint for the service that your company uses to extract and submit the IP address of the user who sends the VAT report. This is a requirement of HMRC so that they can validate the sender. The endpoint must be specified in the **User IP Address Service** field in the **VAT Report Setup** page. For more information, see [Set up VAT reporting](../../finance-setup-vat.md#set-up-vat-reporting).  
 
@@ -87,7 +87,7 @@ Your company can sign up for any of the following endpoints:
 > [!IMPORTANT]
 > The **User IP Address Service** field is available in version 20.1 and later. Your admin can manage your organisation's version of [!INCLUDE [prod_short](../../includes/prod_short.md)] in the admin centre.
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Making Tax Digital](making-tax-digital-submit-vat-return.md)  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  

@@ -11,7 +11,7 @@ ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: '605, 620, 602, 603, 601, 600, 652, 653, 606, 607, 609, 608, 621'
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-intercompany-transactions"></a>Set Up Intercompany Transactions
+# Set Up Intercompany Transactions
 
 Intercompany partnerships make it easier to handle accounting processes when two or more subsidiaries of a company frequently do business with each other. Partners can exchange transactions, such as sales and purchases, and handle them either manually or automatically. For example, when a partner sends a sales journal line to another partner, a purchase journal line is created for the receiving partner.
 
@@ -22,7 +22,7 @@ The intercompany chart of accounts can be, for example, a version of the synchro
 >
 > The tasks in this article assume that the feature switch is turned on. If you've already set up an intercompany partnership, you can continue using it.
 
-## <a name="before-you-start"></a>Before you start
+## Before you start
 
 Before you start to set up your intercompany partnership, there are a few decisions to make.
 
@@ -36,7 +36,7 @@ Before you start to set up your intercompany partnership, there are a few decisi
 |How do you want to handle item numbers?     | If intercompany lines contain items, you can either use your own item numbers, or you can set up your partner's item numbers for each item, either in the **Vendor Item No.** field or in the **Common Item No.** field on the item card. You can also use the **Item Reference** action to map your items' numbers to your intercompany partners descriptions of the items. To learn more about item references, go to [Use Item References](inventory-how-use-item-cross-refs.md).        |
 |Are resources involved?     | If intercompany sales transactions will include resources, fill in the **IC Partner Purch. G/L Acc. No.** field on the resource card for each resource. The field contains the number of the intercompany general ledger account that the amount for this resource will post to in the partner company. To learn more about resources, go to [Set Up Resources](projects-how-setup-resources.md).<br><br>**NOTE**<br>Intercompany purchase transactions that include resources, fixed assets, and item charges are not fully supported. In the partner company, the **Line Type** field will be blank on purchase document lines that include these entities. You must manually update the field.        |
 
-## <a name="overview-of-the-steps-to-get-started"></a>Overview of the steps to get started
+## Overview of the steps to get started
 
 Use the **Intercompany Setup** page to set up the following components of intercompany transactions:
 
@@ -48,7 +48,7 @@ Use the **Intercompany Setup** page to set up the following components of interc
 * The companies that are the intercompany partners.
 * The companies that are vendors or customers, or both.
 
-## <a name="set-up-a-synchronization-partner"></a>Set up a synchronisation partner
+## Set up a synchronisation partner
 
 All partners must use the same intercompany chart of accounts and, if needed, the same intercompany dimensions. You can save time when you set up the partnership by using the chart of accounts and dimensions for one of the partners as a baseline for the intercompany chart of accounts and dimensions. The company that you use as the baseline is called the *synchronisation partner*. Typically, the synchronisation partner is the headquarter company, but it doesn't have to be.
 
@@ -57,7 +57,7 @@ On the **Intercompany Setup** page, each partner specifies the synchronisation p
 > [!NOTE]
 > It's important to map accounts and dimensions in both directions. That is, both to the intercompany chart of accounts and dimensions, and from them to your own accounts and dimensions.
 
-### <a name="connect-with-partners-in-another-tenant-or-environment"></a>Connect with partners in another tenant or environment
+### Connect with partners in another tenant or environment
 
 If one or more partners' [!INCLUDE [prod_short](includes/prod_short.md)] is in another tenant or environment, there are a few extra steps to create the connection. The steps apply to all partners in another tenant or environment.
 
@@ -81,7 +81,7 @@ If one or more partners' [!INCLUDE [prod_short](includes/prod_short.md)] is in a
 
 Run the **IC Partner Cross-Environment Setup** assisted setup guide in all companies to specify the information. To start the guide, on the **Intercompany Partner** page, use the **Connect Externally Setup** action.
 
-#### <a name="create-a-registered-app-in-azure-portal"></a>Create a registered app in Azure portal
+#### Create a registered app in Azure portal
 
 This process is only necessary if you want to connect with a partners whose [!INCLUDE [prod_short](includes/prod_short.md)] is in a different tenant or environment.
 
@@ -120,7 +120,7 @@ This process is only necessary if you want to connect with a partners whose [!IN
 20. Copy the value in the **Directory (tenant) ID** field. For example, paste the value in a text editor.
 21. In the token value you copied, replace **organisations** with the value you copied from the **Directory (tenant) ID** field in the previous step.
 
-#### <a name="add-and-enable-your-registered-app-in-business-central"></a>Add and enable your registered app in Business Central
+#### Add and enable your registered app in Business Central
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Microsoft Entra Application Card**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
@@ -128,7 +128,7 @@ This process is only necessary if you want to connect with a partners whose [!IN
 4. Choose the **Grant Consent** action. 
 5. In the **Permission Set** field, choose **API - Cross Environment Intercompany** permission set.
 
-## <a name="set-up-the-intercompany-charts-of-accounts"></a>Set up the intercompany charts of accounts
+## Set up the intercompany charts of accounts
 
 All partners must use the same intercompany chart of accounts, and map the accounts in their own chart of accounts to it. If the chart of accounts for your company defines the intercompany chart of accounts for your partner companies, follow the steps in this section.
 
@@ -146,7 +146,7 @@ If you're using an XML file that contains the intercompany chart of accounts, fo
 
 The next step is to map your chart of accounts to the intercompany chart of accounts. Learn more at [Map the intercompany chart of accounts to your company's chart of accounts](#map-the-intercompany-chart-of-accounts-to-your-companys-chart-of-accounts).
 
-### <a name="import-or-export-an-intercompany-chart-of-accounts"></a>Import or export an intercompany chart of accounts
+### Import or export an intercompany chart of accounts
 
 The synchronisation company can share its chart of accounts with partners by exporting it to a file. Partners can import the file to get the chart of accounts.
 
@@ -157,7 +157,7 @@ The synchronisation company can share its chart of accounts with partners by exp
 
 The **Intercompany Chart of Accounts** page is filled with new or edited G/L account lines according to the intercompany chart of accounts in the file. Any existing, unrelated lines on the page remain unchanged.
 
-## <a name="map-the-intercompany-chart-of-accounts-to-your-companys-chart-of-accounts"></a>Map the intercompany chart of accounts to your company's chart of accounts
+## Map the intercompany chart of accounts to your company's chart of accounts  
 
 When you've defined or imported the intercompany chart of accounts, map each intercompany account with one of your accounts. On the **Intercompany Chart of Accounts** page, you specify how intercompany G/L accounts on incoming transactions map to G/L accounts from your company's chart of accounts.
 
@@ -178,7 +178,7 @@ If the intercompany accounts and your accounts have the same numbers, you can ma
     > [!TIP]
     > If you want to map many or perhaps all accounts, choose a line, choose :::image type="icon" source="media/show-more-options-icon.png" border="false":::, and then choose **Select More**.
 
-## <a name="set-up-intercompany-dimensions"></a>Set up intercompany dimensions
+## Set up intercompany dimensions
 
 If partners will exchange transactions with dimensions linked to them, agree on the dimensions that all of you will use. For example, the synchronisation company can create a simplified version of their dimensions, export them to an XML file, and then distribute the file to each partner. Each partner can import the XML file on the **Intercompany Dimensions** page and then map the intercompany dimensions to their dimensions. Learn more at [Map intercompany dimensions to your company's dimensions](#map-intercompany-dimensions-to-your-companys-dimensions).
 
@@ -197,7 +197,7 @@ If partners will use the synchronisation partner's intercompany dimensions, foll
     > [!TIP]
     > If you copy the intercompany dimensions from a synchronisation partner, you can use the **Synchronisation Setup** action to update your intercompany dimensions with any changes the partner makes to theirs.  
 
-### <a name="import-or-export-intercompany-dimensions"></a>Import or export intercompany dimensions
+### Import or export intercompany dimensions  
 
 The synchronisation company can share its dimensions with partners by exporting them to a file. Partners can import the file to get the dimensions.
 
@@ -208,7 +208,7 @@ The synchronisation company can share its dimensions with partners by exporting 
 
 The next step is to map the dimensions with the intercompany dimensions. Learn more at [Map intercompany dimensions to your company's dimensions](#map-intercompany-dimensions-to-your-companys-dimensions).
 
-### <a name="map-intercompany-dimensions-to-your-companys-dimensions"></a>Map intercompany dimensions to your company's dimensions
+### Map intercompany dimensions to your company's dimensions
 
 After you specify the dimensions you'll use, map each intercompany dimension with one of your company's dimensions, and vice versa. Use the **Intercompany Dimensions Mapping** page to specify the mapping. Afterward, repeat the process for the dimension values.
 
@@ -233,7 +233,7 @@ In the following steps, you first map intercompany dimensions to dimensions for 
 5. Choose the **Dimension Values Mapping** action.
 6. On the **Intercompany Dimension Values Mapping** page, the steps to create the mapping are similar to what you just did for dimensions.
 
-## <a name="set-up-intercompany-general-journal-templates-and-batches"></a>Set up intercompany general journal templates and batches
+## Set up intercompany general journal templates and batches
 
 You must set up a general journal template and a general journal batch to use by default for intercompany transactions. The template and batch are especially important if you automatically accept intercompany transactions from your partners. To learn more about auto-accepting transactions, go to [Auto-accept transactions from intercompany partners](#auto-accept-transactions-from-intercompany-partners).   
 
@@ -242,7 +242,7 @@ You must set up a general journal template and a general journal batch to use by
 
 To learn more about general journal templates and batches, go to [Use journal templates and batches](ui-work-general-journals.md#use-journal-templates-and-batches).
 
-## <a name="set-up-a-company-for-intercompany-transactions"></a>Set up a company for intercompany transactions
+## Set up a company for intercompany transactions
 
 The following steps assume that a synchronisation partner is set up with the chart of accounts and dimensions on which you'll base the intercompany chart of accounts and dimensions. You can set them up yourself, but it's typically faster to get started, and maintenance is easier, to you use a synchronisation partner. Learn more about the synchronisation partner, go to [Set up a synchronisation partner](#set-up-a-synchronization-partner).
 
@@ -260,7 +260,7 @@ The following steps assume that a synchronisation partner is set up with the cha
 
 The next step is to set up the partner companies.
 
-## <a name="set-up-intercompany-partners"></a>Set up intercompany partners
+## Set up intercompany partners
 
 Each partner must add all other companies in the partnership as a partner.
 
@@ -272,7 +272,7 @@ Each partner must add all other companies in the partnership as a partner.
 > [!NOTE]
 > For intercompany posting, if you turn on the **Auto. Accept Transaction** toggle on the **Intercompany Partner** page [!INCLUDE[prod_short](includes/prod_short.md)] suppresses messages that warn about purchase invoices duplicating the original purchase order. It's important to have a business process for managing duplicates. For example, by deleting such purchase orders when the purchase invoice is received from the intercompany partner.
 
-### <a name="set-up-intercompany-partners-as-customers-and-vendors"></a>Set up intercompany partners as customers and vendors
+### Set up intercompany partners as customers and vendors
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Setup**, and then choose the related link.
 2. On the **Intercompany Partners** FastTab, open the card page for the partner.
@@ -284,7 +284,7 @@ Each partner must add all other companies in the partnership as a partner.
     > [!TIP]
     > You can also specify a customer or vendor as an intercompany partner by filling in the **IC Partner Code** field on the **Customer Card** and **Vendor Card** pages.
 
-### <a name="set-up-default-intercompany-partner-general-ledger-accounts"></a>Set up default intercompany partner general ledger accounts
+### Set up default intercompany partner general ledger accounts  
 
 When you create an intercompany sales or purchase line to send as an outgoing transaction, enter an account from the intercompany chart of accounts as a default for which account in your partner's company the amount is posted to. On the **G/L Account Card** page, for accounts that you regularly use on outgoing intercompany sales or purchase lines, you can specify a default intercompany partner general ledger account. For example, for your receivables accounts, you can enter the corresponding payables accounts from the intercompany chart of accounts. The receivables and payables accounts are used as the off-setting account for the intercompany partner when you post transactions on intercompany general journals.  
 
@@ -294,7 +294,7 @@ Then, when you enter a general ledger account in the **Bal. Account No.** field 
 2. Open the G/L account that's used for intercompany transactions, and in the **Default IC Partner G/L Account** field, enter the intercompany general ledger account that your partner will post to when you post to the general ledger account on the line.
 3. Repeat step 2 for each account that you often enter in the **Bal. Account No.** field on a line in an intercompany journal or document.
 
-### <a name="auto-accept-transactions-from-intercompany-partners"></a>Auto-accept transactions from intercompany partners
+### Auto-accept transactions from intercompany partners
 
 To make it faster to process intercompany transactions, you can specify that you want to automatically create journal lines based on an intercompany partner's posts from the **IC General Journal** page. To auto-create incoming and outgoing transactions, you must turn on the following toggles for each partner:
 
@@ -310,17 +310,17 @@ The journal lines are created for you, but not posted.
 > [!NOTE]
 > If your organisation used intercompany features in [!INCLUDE [prod_short](includes/prod_short.md)] before 2022 release wave 1, to auto-accept transactions your administrator must turn on the **Automatically accept intercompany general journal transactions** feature switch on the **Feature Management** page.
 
-### <a name="specify-the-bank-accounts-to-use-for-intercompany-partners"></a>Specify the bank accounts to use for intercompany partners
+### Specify the bank accounts to use for intercompany partners
 
 To facilitate fast payments, specify one or more bank accounts to use for intercompany partners. When a partner uses an intercompany general journal to make a payment, they can specify the bank account on the line. The bank account is used as the balancing account in the receiving company, which minimises the need to manually enter transactions.
 
 * To specify the bank account to use, on the **Intercompany Partners** page, choose the **Bank Accounts** action. On the **Intercompany Bank Account Card**, enter the account information.
 
-## <a name="troubleshoot-your-intercompany-setup"></a>Troubleshoot your intercompany setup
+## Troubleshoot your intercompany setup
 
 On the **Intercompany Setup** page, the **Intercompany Setup Diagnostics** pane contains tiles that indicate whether you have set up all of the components needed to exchange intercompany transactions. The tiles are also available on the Business Manager Role Centre. Choose the tiles to find out what's missing. For an overview of the required components, go to [Overview of the steps to get started](#overview-of-the-steps-to-get-started).
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Managing Intercompany Transactions](intercompany-manage.md)  
 [Finance](finance.md)  

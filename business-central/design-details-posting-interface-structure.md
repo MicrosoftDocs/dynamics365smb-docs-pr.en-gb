@@ -9,7 +9,7 @@ ms.date: 06/15/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-posting-interface-structure"></a>Design Details: Posting Interface Structure
+# Design Details: Posting Interface Structure
 In the [!INCLUDE[prod_short](includes/prod_short.md)] posting interface structure, there are several global procedures that use the same structure:  
   
 * RunWithCheck and RunWithoutCheck call procedure Code – generic posting interface for Gen. Jnl Line.  
@@ -18,7 +18,7 @@ In the [!INCLUDE[prod_short](includes/prod_short.md)] posting interface structur
 * UnapplyCustLedgEntry – post unapply of customer application, called from codeunit 226 CustEntry-Apply Posted Entries  
 * UnapplyVendLedgEntry – post unapply of vendor application, called from codeunit 227 VendEntry-Apply Posted Entries  
   
-## <a name="see-also"></a>See Also
+## See Also  
 [Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="legacy-import-and-export-custom-report-layouts"></a>(Legacy) Import and Export Custom Report Layouts
+# (Legacy) Import and Export Custom Report Layouts
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -18,7 +18,7 @@ You can import and export an existing custom report layout as a file to and from
 > [!IMPORTANT]  
 >  You cannot import or export built-in report layouts.  
 
-### <a name="to-export-a-report-layout-to-a-file"></a>To export a report layout to a file
+### To export a report layout to a file  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.  
 
@@ -28,7 +28,7 @@ You can import and export an existing custom report layout as a file to and from
 
 4.  In the **Export File** dialogue box, choose the **Save** button, and then save the file to a location on your computer or network.  
 
-### <a name="to-import-a-report-layout-file"></a>To import a report layout file
+### To import a report layout file  
 
 1.  Make sure that the relevant file that defines the report layout is available on your computer or network.  
 
@@ -44,7 +44,7 @@ You can import and export an existing custom report layout as a file to and from
 
  The original custom report layout is replaced with the imported report layout.  
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md)   
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  

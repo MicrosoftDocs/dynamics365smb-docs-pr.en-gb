@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ---
 
 
-# <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Changing from a QuickBooks app to Dynamics 365 Business Central
+# Changing from a QuickBooks app to Dynamics 365 Business Central
 
 More growing businesses are changing from finance apps like QuickBooks Desktop and QuickBooks Online, which are designed for startups and other small businesses, to [!INCLUDE[prod_short](includes/prod_short.md)], which also supports larger, more complex organisations. 
 
@@ -26,11 +26,11 @@ For more information, read about the extension that suits your QuickBooks app:
 * [The QuickBooks Desktop Data Migration Extension](ui-extensions-quickbooks-data-migration.md)
 * [The QuickBooks Online Data Migration Extension](ui-extensions-quickbooks-online-data-migration.md)
 
-## <a name="ready-now"></a>Ready now?
+## Ready now?
 
 If you're ready to get started now, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link. Choose **Migrate business data**, and then follow the steps in the guide.
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Customising Business Central Using Extensions](ui-extensions.md)   

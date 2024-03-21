@@ -12,13 +12,13 @@ ms.date: 10/25/2023
 ms.custom: bap-template
 ---
 
-# <a name="reconcile-bank-accounts-with-copilot-preview"></a>Reconcile bank accounts with Copilot (preview)
+# Reconcile bank accounts with Copilot (preview)
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
 This article explains how to use bank account reconciliation assist to help you reconcile bank transactions with ledger entries in Business Central.
 
-## <a name="about-bank-account-reconciliation-assist"></a>About bank account reconciliation assist
+## About bank account reconciliation assist
 
 Bank account reconciliation assist is a set of AI-powered features that assist you in reconciling bank accounts. Bank account reconciliation assist offers you two distinct tasks through Copilot:
 
@@ -36,14 +36,14 @@ Bank account reconciliation assist is a set of AI-powered features that assist y
 
 
    
-## <a name="prerequisites"></a>Prerequisites
+## Prerequisites
 
 - Bank account reconciliation assist is enabled and activated. This task is done by an administrator. [Learn more about enabling Copilot and AI capabilities](enable-ai.md).
 - Bank accounts in Business Central that you want to reconcile are linked to an online bank account or set up with bank statement import format. 
 - You're familiar with bank account reconciliation in Business Central as described in [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md). 
 
 <!--H2s. Required. A how-to article explains how to do a task. The bulk of each H2 should be a procedure.-->
-## <a name="reconcile-bank-accounts-with-copilot"></a>Reconcile bank accounts with Copilot
+## Reconcile bank accounts with Copilot
 
 <!-- Similar to the **Match Automatically** capability on the **Bank Acc. Reconciliation** page, Bank account reconciliation assist can also automatically matches transactions in banks statements with bank entries. The difference is that **Match Automatically** uses a native rules-based algorithm, while Bank account reconciliation assist is based AI technology though Copilot. Bank account reconciliation assist is intended to supplement the **Match Automatically** capability. While **Match Automatically** is fairly successful at matching transactions, there are some instances where it can't&mdash;which is where Bank account reconciliation assist comes. By using the **Reconcile with Copilot** action on **Bank Acc. Reconciliation** page, you can find even more matches.-->
 
@@ -87,7 +87,7 @@ With this approach, you use Copilot either on a new bank account reconciliation 
 1. Review the proposed matches as described in the following section. 
 ---
 
-### <a name="review-save-or-discard-proposed-matches"></a>Review, save, or discard proposed matches
+### Review, save, or discard proposed matches
 
 After you run Copilot, the **Reconcile with Copilot** window shows the detailed results, including any proposed matches. At this point, no matches proposed by Copilot have been saved, so it provides you with opportunity inspect the proposals and save or discard as you like.
 
@@ -102,7 +102,7 @@ The Copilot window is divided into two sections. The upper section provides some
 |Statement Ending Balance|Specifies the ending balance shown on the bank's statement that you're reconciling with|
 |Post if fully applied|Turn on this switch if you want to automatically post the bank account reconciliation when all lines (100%) are matched and you've selected **Keep it**.|
 
-#### <a name="save-or-discard-proposed-matches"></a>Save or discard proposed matches
+#### Save or discard proposed matches
 
 In the **Matched Proposals** section, review the suggested matches line by line, and then take the appropriate action:
 
@@ -114,7 +114,7 @@ In the **Matched Proposals** section, review the suggested matches line by line,
 - To save the matches currently shown in the Copilot window, select **Keep it**.
 
 
-## <a name="transfer-unmatched-bank-transactions-to-suggested-general-ledger-accounts"></a>Transfer unmatched bank transactions to suggested general ledger accounts
+## Transfer unmatched bank transactions to suggested general ledger accounts
 
 In this section, you learn how to use Copilot to transfer unreconciled bank account statements from the bank account ledger to a general ledger account. This task can only be done from an existing reconciliation. 
 
@@ -151,11 +151,11 @@ In this section, you learn how to use Copilot to transfer unreconciled bank acco
 
       This step confirms the transfer of the currently selected proposals from the bank account ledger to the general ledger account. It posts new payments to the proposed G/L Accounts and applies corresponding lines to the resulting bank account ledger entries.
 
-## <a name="next-steps"></a>Next steps
+## Next steps
 
 [Validate your bank account reconciliation](bank-how-reconcile-bank-accounts-separately.md#validate-your-bank-reconciliation)  
 
-## <a name="see-also"></a>See also
+## See also 
 [Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)  
 [Responsible AI FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)  
 [Setting Up Banking](bank-setup-banking.md)  

@@ -10,7 +10,7 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="restructure-warehouses"></a>Restructure Warehouses
+# Restructure Warehouses
 You may want to restructure your warehouse with new bin codes and new bin characteristics. You will not undertake this kind of activity very often, but situations can occur where a reclassification is necessary to achieve or maintain a more efficient operation. For example:  
 
 - You might want to switch to bin codes that support the use of automatic data capture, for example, with hand-held devices.  
@@ -19,7 +19,7 @@ You may want to restructure your warehouse with new bin codes and new bin charac
 
 If your warehouse is set up to use bins but not directed put-away and pick, restructure your warehouse by creating the new bins that you want to use in the future.  
 
-## <a name="to-restructure-a-basic-warehouse-that-uses-bins-only"></a>To restructure a basic warehouse that uses bins only
+## To restructure a basic warehouse that uses bins only  
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
 2.  On the **Warehouse** FastTab, set the **Default Bin Selection** field to **Last-Used Bin**.  
 3.  Move all the contents of your current bins to the new bins that you have just created.  
@@ -34,7 +34,7 @@ If your warehouse is set up to use bins but not directed put-away and pick, rest
 
 You have now emptied the bins where the items used to be. The default bins for your items have now been changed to the new bins.  
 
-## <a name="to-restructure-an-advanced-warehouse-that-uses-directed-put-away-and-pick"></a>To restructure an advanced warehouse that uses directed put-away and pick
+## To restructure an advanced warehouse that uses directed put-away and pick  
 
 1.  Create the new bins that you want to use in the future. For more information, see [Create Bins](warehouse-how-to-create-individual-bins.md).  
 2.  Move all the contents of your current bins to the new bins that you just created.  
@@ -51,7 +51,7 @@ You have now emptied the bins where the items used to be. The default bins for y
 
 You have now removed the bins from the warehouse flow, and reclassified them as QC bins. QC bins have none of the activity fields on the **Bin Types** page selected and are therefore not considered by the item flow. For more information, see [Set Up Bin Types](warehouse-how-to-set-up-bin-types.md).  
 
-## <a name="to-delete-a-bin"></a>To delete a bin
+## To delete a bin  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
 2.  Select the location where you want to delete bins. Choose the **Bins** action.  
@@ -62,7 +62,7 @@ If you choose the **Yes** button, the bin is deleted for use in the future, but 
 
 If you want to rename a bin so that all records associated with the bin are also renamed, including bin contents, warehouse activity lines, registered warehouse activity lines, warehouse worksheet lines, warehouse receipt lines, posted warehouse receipt lines, warehouse shipment lines, posted warehouse shipment lines, and warehouse entries, you can do so on the **Bins** page.  
 
-## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>To rename a bin and change the bin code in all records
+## To rename a bin and change the bin code in all records  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
 2.  Select the location where you want to rename a bin or change the bin code, and then choose the **Bins** action.  
@@ -74,7 +74,7 @@ If you want to rename a bin so that all records associated with the bin are also
 >   
 >  If you are renaming a receiving bin or a shipping bin, all the posted receipts or shipments that refer to the bin in question are renamed.  
 
-## <a name="see-also"></a>See Also
+## See Also  
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     

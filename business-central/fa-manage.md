@@ -10,7 +10,7 @@ ms.date: 06/15/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="managing-fixed-assets"></a>Managing Fixed Assets
+# Managing Fixed Assets
 
 The Fixed Assets functionality in [!INCLUDE[prod_short](includes/prod_short.md)] provides an overview of your fixed assets and ensures correct periodic depreciation. It also enables you to keep track of your maintenance costs, manage insurance policies, post fixed asset transactions, and generate various reports and statistics.
 
@@ -40,13 +40,13 @@ The following table describes a sequence of tasks, with links to the topics that
 | Post disposal transactions, view disposal ledger entries, and post partial disposals. |[Dispose of or Retire Fixed Assets](fa-how-dispose-retire.md) |
 | Manage fixed asset budgets, budget acquisition costs, budget disposals of fixed assets, and budget depreciation. |[Manage Budgets for Fixed Assets](fa-how-manage-budgets.md) |
 
-## <a name="video-overview"></a>Video Overview
+## Video Overview
 
 The following video covers the basics of fixed assets.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Setting Up Fixed Assets](fa-setup.md)  
 [Change Which Features are Displayed](ui-experiences.md)  

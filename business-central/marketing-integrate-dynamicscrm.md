@@ -11,7 +11,7 @@ ms.date: 09/16/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="use-dynamics-365-sales-from-business-central"></a>Use Dynamics 365 Sales from Business Central
+# Use Dynamics 365 Sales from Business Central
 If you use Dynamics 365 Sales for customer engagement, you can enjoy seamless integration in the lead-to-cash process by using [!INCLUDE[prod_short](includes/prod_short.md)] for backend activities such as processing orders, managing inventory, and doing your finances.
 
 Before you can use the integration capabilities, your system administrator must set up the connection and define users in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
@@ -28,7 +28,7 @@ Conversely, order processors in [!INCLUDE[prod_short](includes/prod_short.md)] c
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] integrates only with [!INCLUDE[crm_md](includes/crm_md.md)]. Other Dynamics 365 applications that change the standard workflow or data model in [!INCLUDE[crm_md](includes/crm_md.md)], for example Project Service Automation, can break the integration between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[crm_md](includes/crm_md.md)].
 
-## <a name="coupling-records"></a>Coupling Records
+## Coupling Records
 The assisted setup guide lets you choose the data to synchronise. Later, you can also set up synchronisation for specific records. This is referred to as *coupling*. For example, you can couple a specific account in [!INCLUDE[crm_md](includes/crm_md.md)] with a specific customer in [!INCLUDE[prod_short](includes/prod_short.md)]. This section describes what to take into consideration when you couple records.
 
 For example, if you want to see accounts in [!INCLUDE[crm_md](includes/crm_md.md)] as customers in [!INCLUDE[prod_short](includes/prod_short.md)], you must couple the two types of records. To do that, on the **Customers** list page in [!INCLUDE[prod_short](includes/prod_short.md)], use the **Set Up Coupling** action. Then specify which [!INCLUDE[prod_short](includes/prod_short.md)] customers to match to which accounts in [!INCLUDE[crm_md](includes/crm_md.md)].
@@ -50,14 +50,14 @@ In some cases you must couple certain sets of data before other sets of data, as
 
 In [!INCLUDE[crm_md](includes/crm_md.md)], sales orders depend on information such as customers, units of measurement, currencies, customer price groups, and items and/or resources. For the integration with sales orders to work you must couple customers, units of measurement, currencies, customer price groups, and items and/or resources.
 
-## <a name="fully-synchronizing-records"></a>Fully Synchronising Records
+## Fully Synchronising Records
 At the end of the assisted setup guide you can choose the **Run Full Synchronisation** action to start synchronising all [!INCLUDE[prod_short](includes/prod_short.md)] records with all related records in [!INCLUDE[crm_md](includes/crm_md.md)]. On the **Dynamics 365 Sales Full Synch Review** page, you choose the **Start** action. Full synchronisation can take some time to complete, but you can continue to work in [!INCLUDE[prod_short](includes/prod_short.md)] while it runs in the background.
 
 To check the progress of individual jobs in a full synchronisation, on the **Dynamics 365 Sales Full Synch Review** page choose an record to view details. To update the status during synchronisation, refresh the page.
 
 From the **Microsoft Dynamics 365 Connection Setup** page, you can get details about full synchronisation at any time. From here, you can also open the **Integration Table Mappings** page to see details about the tables in [!INCLUDE[prod_short](includes/prod_short.md)] and Sales that must be synchronised.
 
-## <a name="handling-sales-order-data"></a>Handling Sales Order Data
+## Handling Sales Order Data
 Sales orders that people submit in [!INCLUDE[crm_md](includes/crm_md.md)] will be automatically transferred to [!INCLUDE[prod_short](includes/prod_short.md)] if you select the **Automatically Create Sales Orders** check box on the **Microsoft Dynamics 365 Connection Setup** page.
 Alternatively, you can manually convert submitted sales orders from [!INCLUDE[crm_md](includes/crm_md.md)] by using the **Create in [!INCLUDE[prod_short](includes/prod_short.md)]** action available on **Sales Orders - Dynamics 365 for Sales** page.
 On such sales orders, the **Name** field on the original order is transferred and mapped to the **External Document Number** field on the sales order in [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -76,7 +76,7 @@ Updates to fields on sales order headers, such as the Last Shipment Date or Requ
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 
-## <a name="handling-sales-quotes-data"></a>Handling Sales Quotes Data
+## Handling Sales Quotes Data
 Sales quotes that are activated in [!INCLUDE[crm_md](includes/crm_md.md)] will be transferred to [!INCLUDE[prod_short](includes/prod_short.md)] if you select the **Automatically Process Quotes** check box on the **Microsoft Dynamics 365 Connection Setup** page.
 Alternatively, you can manually convert activated sales quotes from [!INCLUDE[crm_md](includes/crm_md.md)] by using the **Process in [!INCLUDE[prod_short](includes/prod_short.md)]** action on the **Sales Quotes - Dynamics 365 Sales** page.
 On such sales quotes, the **Name** field on the original quote is transferred and mapped to the **External Document Number** field on the sales order in [!INCLUDE[prod_short](includes/prod_short.md)]. Also **Effective To** field on quote is transferred and mapped to the  **Quote Valid Until** field on sales quote in [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -85,12 +85,12 @@ Sales quotes go through many revisions while they are being finalised. Both manu
 
 When you choose **Process** in [!INCLUDE[prod_short](includes/prod_short.md)] for a quote that is in county **Won**, a sales order is created in [!INCLUDE[prod_short](includes/prod_short.md)] only if a corresponding sales order is submitted in [!INCLUDE[crm_md](includes/crm_md.md)]. Otherwise, the quote is only released in [!INCLUDE[prod_short](includes/prod_short.md)]. If a corresponding sales order is submitted in [!INCLUDE[crm_md](includes/crm_md.md)] later, and a sales order is created from it, the **Quote No.** is updated on the sales order and the quote is archived.
 
-## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Handling Posted Sales Invoices, Customer Payments, and Statistics
+## Handling Posted Sales Invoices, Customer Payments, and Statistics
 After fulfilling a sales order, invoices will be created for it. When you invoice a sales order, you can transfer the posted sales invoice to [!INCLUDE[crm_md](includes/crm_md.md)] if you select the **Create Invoice in [!INCLUDE[crm_md](includes/crm_md.md)]** check box on the **Posted Sales Invoice** page. Posted invoices are transferred to [!INCLUDE[crm_md](includes/crm_md.md)] with the status, **Billed**.
 
 When the customer payment is received for the sales invoice in [!INCLUDE[prod_short](includes/prod_short.md)], the sales invoice status will be changed to **Paid** with the **Status Reason** field set to **Partial**, if partially paid, or **Complete** if completely paid, when you choose the **Update Account Statistics** action on the customer page in [!INCLUDE[prod_short](includes/prod_short.md)]. The **Update Account Statistics** function will also refresh values, such as the **Balance** and **Total Sales** fields in the **[!INCLUDE[prod_short](includes/prod_short.md)] Account Statistics** FactBox in [!INCLUDE[crm_md](includes/crm_md.md)]. Alternatively, you can have the scheduled jobs, Customer Statistics and POSTEDSALESINV-INV automatically run both of these processes in the background. 
 
-## <a name="handling-sales-prices"></a>Handling Sales Prices
+## Handling Sales Prices
 > [!NOTE]
 > In 2020 release wave 2 we released streamlined processes for setting up and managing prices and discounts. If you're a new customer using that version, you're using the new experience. If you're an existing customer, whether you are using the new experience depends on whether your administrator has enabled the **New sales pricing experience** feature update in **Feature Management**. For more information, see [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -129,7 +129,7 @@ To synchronise price lists, on the **Sales Price List** page, choose **Related**
 ---
 
 
-## <a name="see-also"></a>See Also
+## See Also
 [Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Relationship Management](marketing-relationship-management.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

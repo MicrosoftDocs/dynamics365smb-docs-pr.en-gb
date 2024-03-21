@@ -11,13 +11,13 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="work-with-calendar-dates-and-times"></a>Work with Calendar Dates and Times
+# Work with Calendar Dates and Times
 
 You can enter dates and times in multiple ways. [!INCLUDE[prod_short](includes/prod_long.md)] includes powerful features that accelerate data entry, or help you write complex calendar expressions. There are various places throughout the application where you can enter dates and times in fields. For example, on a sales order, you can set the shipment date. When filtering lists or report data, you can enter dates and times to pinpoint only the data that you're interested in.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="check-your-region-and-language-settings"></a>Check your region and language settings
+## Check your region and language settings
 
 The **My Settings** page specifies the **Region** and **Language** that you're using in the application. These settings influence how you enter dates and times.
 
@@ -32,7 +32,7 @@ The **My Settings** page specifies the **Region** and **Language** that you're u
 The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
 -->
 
-## <a name="entering-dates"></a>Entering Dates
+## Entering Dates
 
 In a date field, you can enter a date using the standard format for your region setting. Different regions can use different separators between the days, months and years. For example, some regions use dashes (mm-dd-yyyy) and others use forward slashes (mm/dd/yyyy).  
 
@@ -44,7 +44,7 @@ In a date field, you can enter a date using the standard format for your region 
 
 To work more productively with dates and times, you can use any of the methods or formats that are described in the following sections.
 
-### <a name="picking-dates-from-the-calendar"></a>Picking dates from the calendar
+### Picking dates from the calendar
 
 Any field displaying a calendar icon can be set using the calendar date picker. To display the calendar date picker, activate the calendar icon or select the <kbd>Ctrl</kbd>+<kbd>Home</kbd> keyboard shortcut in the field.
 
@@ -52,7 +52,7 @@ Any field displaying a calendar icon can be set using the calendar date picker. 
 
 See also [Keyboard Shortcuts in the calendar date picker](keyboard-shortcuts.md#calendarshortcuts).
 
-### <a name="day-week-year-pattern"></a>Day\-week\-year pattern
+### Day\-week\-year pattern
 
 You can enter a date as a weekday followed by a week number and, optionally, a year. For example, Mon25 or mon25 means Monday in week 25. If you don't enter a year, the year of the work date is used.
 
@@ -60,7 +60,7 @@ Instead of entering the entire word for the day of the week, you can enter part 
 
 The week number scheme is always ISO 8601, where week 1 is the week with 4 January in it, or the week with the first Thursday of the year.
 
-### <a name="digit-patterns"></a>Digit patterns
+### Digit patterns
 
 In a date field you can enter two, four, six, or eight digits:
 
@@ -73,17 +73,17 @@ In a date field you can enter two, four, six, or eight digits:
   > [!NOTE]
   > If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, the two-digit year range may be different. Administrators can change the range by modifying the **CalendarTwoDigitYearMax** setting of the [!INCLUDE[prod_short](includes/prod_short.md)] server. For more information, see [Configuring Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
  
-### <a name="today"></a>Today
+### Today
 
 Enter the word for _today_, in the language specified on the **My Settings** page, to set the date on a record to today's date. Instead of entering the entire word, you can enter part of the word, starting from the beginning. For example, in English, you can enter _t_ or _tod_, as long as it isn't also the start of another word.
 
-### <a name="period"></a>Period
+### Period
 
 To filter on a specific accounting period, in a date field enter the letter p, or the word period, followed by a number that identifies the accounting period, like p2 or period4. The accounting period is relative to the fiscal year of the current work date that set in your Role Centre. For example, if the work date is **03/21/22**, then _p1_, or just _p_, filters on the first accounting period of the fiscal year 2022 (such as 01/01/22..01/31/22). _p15_ filters on the 15th accounting period from the start of fiscal year 2022 (such as 03/01/23..03/31/23).
 
 The accounting periods are defined on the **Accounting Periods** page. To view or change the accounting periods, open the page [here](https://businesscentral.dynamics.com/?page=100).
 
-### <a name="work-date"></a>Work Date
+### Work Date
 
 Use a work date to specify a date that isn't today's date on records. For example, a work date is useful when you need to set a particular date for multiple records. You specify the work date on the **My Settings** page. 
 
@@ -91,13 +91,13 @@ A fast way to enter the work date on records is to enter some or all of the word
 
 If you haven't specified a work date, today's date will be used. For more information, see [Change Basic Settings, such as the Work Date](ui-change-basic-settings.md#work-date).
 
-### <a name="closing-date"></a>Closing Date
+### Closing Date
 
 When you close a fiscal year, you can use closing dates to indicate that an entry is a closing entry. A closing date technically is between two dates, for example between December 31 and January 1.
 
 To specify that a date is a closing date, put C just before the date, such as C123101. Use this format in combination with all the date patterns.
 
-### <a name="examples"></a>Examples
+### Examples
 
 The following table contains examples of dates using all the formats. It assumes region settings that format dates according to: **year.month.day.**, a week starting on Monday, and the English language.
 
@@ -122,7 +122,7 @@ The following table contains examples of dates using all the formats. It assumes
 |t 23|Tuesday of week 23 of the work date year|
 |t-1|Tuesday of week 1 of the work date year|
 
-## <a name="setting-ranges"></a><a name="BKMK_SettingDateRanges"></a>Setting Ranges
+##  <a name="BKMK_SettingDateRanges"></a> Setting Ranges
 
 On lists, totals and reports, you can set filters on dates, times and datetimes containing a start value and optionally an end value to display only the data contained in that range. The standard rules apply to the way you set date ranges.
 
@@ -134,7 +134,7 @@ On lists, totals and reports, you can set filters on dates, times and datetimes 
 
 You can use any of the valid formats in date range filters. For example, mon14 3..t 4p applied on a datetime field results in a filter from 3 AM on Monday in week 14 of the current work date year, inclusive, until today at 4PM, inclusive.
 
-## <a name="use-date-formulas"></a>Use Date Formulas
+## Use Date Formulas
 
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields or filters.
 
@@ -198,7 +198,7 @@ The following example shows how you can use a minus sign to indicate a date in t
 > [!IMPORTANT]
 > If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, 1W  means seven working days.
 <!--
-# <a name="entering-date-ranges"></a>Entering Date Ranges
+# Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
 
 ![Setting a date range in the request page for the Customer Top 10 list.](./media/ui-enter-date-ranges/customer-top10-list.png)
@@ -221,7 +221,7 @@ You can also combine the various format types.
 
 Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
-## <a name="use-date-formulas-1"></a>Use Date Formulas
+## Use Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]
@@ -286,7 +286,7 @@ The following example shows how you can use a minus sign to indicate a date in t
 
 -->
 
-## <a name="entering-times"></a>Entering Times
+## Entering Times
 
 When you enter times, you can insert any non-space separators that you want between the units. If you use double digits for each unit up to milliseconds, then it isn't required.
 
@@ -319,11 +319,11 @@ The following table lists the various ways in which times can be entered and how
 
 The word for 'time' in the language used by [!INCLUDE[prod_short](includes/prod_long.md)] will be evaluated to the current time on your computer or mobile device. You can enter any part of the word, starting from the beginning, such as t or TIM.
 
-## <a name="entering-combined-dates-and-times"></a>Entering Combined Dates and Times
+## Entering Combined Dates and Times
 
 [!INCLUDE [datetimes](includes/datetimes.md)]
 
-## <a name="entering-duration"></a>Entering Duration
+## Entering Duration
 
 Some fields in the application represent a duration, or amount of elapsed time, instead of a specific date or time. You enter a duration as a number followed by its unit of measurement.
 
@@ -344,7 +344,7 @@ To see what unit of measure is being used in a duration field, enter a number. T
 
 For example, if the unit of measurement is hours, the number 5 is converted to 5 hrs.
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Work with [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)  

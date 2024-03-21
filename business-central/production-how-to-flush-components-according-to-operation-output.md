@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="flush-components-according-to-operation-output"></a>Flush components according to operation output
+# Flush components according to operation output
 You can define different flushing strategies, to automate registering of consumption of components. 
 
 This functionality is useful for the following reasons:  
@@ -29,14 +29,14 @@ This functionality is useful for the following reasons:
 
     With the ability to automatically, flush an operation, the entire consumption and output recording process can be automated. The disadvantage of using automatic flushing is that you might not be accurately recording, or even aware of, scrap.
 
-## <a name="automatic-consumption-posting-flushing-methods"></a>Automatic consumption posting (Flushing) methods
+## Automatic consumption posting (Flushing) methods  
 
 - Forward Flush the Entire Order  
 - Forward Flushing by Operation  
 - Back Flushing by Operation  
 - Back Flushing the Entire Order  
 
-### <a name="automatic-reporting---forward-flush-the-entire-order"></a>Automatic Reporting - Forward flush the entire order
+### Automatic Reporting - Forward flush the entire order  
 If you forward flush the production order at the start of the job, the behaviour of application is similar to a manual consumption. The major difference is that consumption happens automatically.  
 
 - The entire contents of the production BOM are consumed and deducted from inventory at the time the released production order is refreshed.  
@@ -51,7 +51,7 @@ Forward flushing an entire order is suited in production environments with:
 -   A low number of operations  
 -   High component consumption in early operations  
 
-### <a name="automatic-reporting---forward-flushing-by-operation"></a>Automatic reporting - Forward flushing by operation
+### Automatic reporting - Forward flushing by operation  
 Flushing by operation allows you to deduct inventory during a specific operation in the routing of the parent item. Material is tied to the routing using routing link codes, which correspond to routing link codes applied to components in the production BOM.  
 
 The flush takes place when the operation that has the same routing link code is started. Started means that some activity is recorded in the output journal for that operation. And that activity might just be that a setup time is entered.  
@@ -62,7 +62,7 @@ This technique is best employed when there are many operations and certain compo
 
 Material can be consumed during operations by using routing link codes. Some components may not be used until final assembly operations and shouldn't be withdrawn from stock until that time.  
 
-### <a name="automatic-reporting---back-flushing-by-operation"></a>Automatic reporting - Back flushing by operation
+### Automatic reporting - Back flushing by operation  
 Back flushing by operation records consumption after the operation is posted in the output journal.  
 
 The advantage of this method is that the number of parent parts finished in the operation is known.  
@@ -71,7 +71,7 @@ Material in the production BOM is linked to the routing records using routing li
 
 The amount of the flush is for the quantity per assembly stated on the production BOM multiplied by the number of parent items that were posted as output quantity at that operation. This might be different from the expected quantity.  
 
-### <a name="automatic-reporting---back-flushing-the-entire-order"></a>Automatic reporting - Back flushing the entire order
+### Automatic reporting - Back flushing the entire order  
 This reporting method doesn't consider routing link codes.  
 
 No components are picked until the released production order status is changed to *Finished*. The amount of the flush is the quantity per assembly stated on the production BOM multiplied by the number of parent items that were finished and placed into inventory.  
@@ -82,7 +82,7 @@ Backward flushing the entire production order requires the same setup as for for
 
 For example, if a production order to produce 800 metres requires 8 kg of a component, then when you post 200 metres as output, 2 kg are automatically posted as consumption. You can achieve that by combining backward flushing method and routing link codes so that the quantity that is flushed for each operation is proportional to the actual output of the finished operation. For items that are set up with backward flushing method, the default behaviour is to calculate and post component consumption when you change the status of a released production order to **Finished**. If you also define routing link codes, then calculation and posting occurs when each operation is finished, and the quantity that was consumed in the operation is posted. For more information, see [Create Routings](production-how-to-create-routings.md).  
 
-## <a name="to-flush-components-according-to-operation-output"></a>To flush components according to operation output
+## To flush components according to operation output
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2.  Choose the **Edit** action.  
@@ -100,7 +100,7 @@ For example, if a production order to produce 800 metres requires 8 kg of a comp
 
 The consumption is posted automatically when you register output. For more information, see [Batch Post Output and Run Times](production-how-to-post-output-quantity.md)
 
-## <a name="flushing-methods"></a>Flushing methods
+## Flushing methods
 
 The following table describes the available flushing method options that you can specify on **Item** cards and **Stockkeeping Unit** cards.
 
@@ -112,7 +112,7 @@ The following table describes the available flushing method options that you can
 |Pick + Forward|Same as for Forward flushing method, except it only works for locations that use either advanced warehouse configuration or basic warehouse configuration with mandatory bins.<br><br> Consumption is calculated and posted from the bin that is defined in the **To-Production Bin Code** field on the location or machine centre after the component has been picked from the warehouse.<br><br> **Note** <br>If a component is set up with the Pick + Forward flushing method, then it can't have a routing link code to an operation that is set up with the forward flushing method. The component would then be automatically flushed when the operation starts, which makes it impossible to request the pick activity.|
 |Pick + Backward|Same as for Backward flushing method, except it only works for locations use either advanced warehouse configuration or basic warehouse configuration with mandatory bins.<br><br> Consumption is calculated and posted from the bin that is defined in the **To-Production Bin Code** field on the location or machine centre after the component has been picked from the warehouse.|
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Create Production BOMs](production-how-to-create-production-boms.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  

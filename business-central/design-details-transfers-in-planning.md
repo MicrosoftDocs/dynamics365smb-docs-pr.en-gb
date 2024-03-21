@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'design, transfer, sku, locations, warehouse'
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-transfers-in-planning"></a>Design Details: Transfers in Planning
+# Design Details: Transfers in Planning
 
 Transfer orders are also a source of supply when working at the SKU level. When using multiple locations (warehouses), the SKU replenishment system can be set to Transfer, implying that the location is replenished by transferring goods from another location. In a situation with more warehouses, you might have a chain of transfers. Supply to GREEN location is transferred from YELLOW, supply to YELLOW is transferred from RED, and so on. In the beginning of the chain, there's a replenishment system of **Prod. Order** or **Purchase**.  
 
@@ -28,7 +28,7 @@ If demand changes, it might cause a ripple effect through the chain. All transfe
 
 ![Example of supply/demand balance in transfers.](media/nav_app_supply_planning_7_transfers2.png "Example of supply/demand balance in transfers")  
 
-## <a name="why-is-a-transfer-a-special-case"></a>Why is a transfer a special case?
+## Why is a transfer a special case?  
 
 Transfer orders are similar to other orders, such as purchase and production orders. However, behind the scene they're different.  
 
@@ -38,7 +38,7 @@ One difference is that a transfer line represents both demand and supply. The ou
 
 When [!INCLUDE [prod_short](includes/prod_short.md)] changes the supply side of the transfer, it must make a similar change on the demand side.  
 
-## <a name="transfers-are-dependent-demand"></a>Transfers are dependent demand
+## Transfers are dependent demand  
 
 The demand and supply relationship is similar to components on production order lines. The difference is that components on production order lines are on the next planning level, and have a different item. The two parts of the transfer are on the same level for the same item.  
 
@@ -48,7 +48,7 @@ Unless the planning flexibility is None, a transfer line shouldn't be treated as
 
 In the planning procedure, the transfer demand should only be taken into account after the planning system has processed the supply side. Before that processing happens, the actual demand isn't known. The sequence of changes is important for transfer orders.  
 
-## <a name="planning-sequence"></a>Planning sequence
+## Planning sequence  
 
 The following image shows an example of a string of transfers.  
 
@@ -60,7 +60,7 @@ In this example, the planning system starts at the customer demand and works its
 
 ![Supply planning with transfers.](media/nav_app_supply_planning_7_transfers5.png "Supply planning with transfers")  
 
-## <a name="transfer-level-code"></a>Transfer level code
+## Transfer level code  
 
 The transfer level code of the SKU determines the sequence in which the planning system processes locations.  
 
@@ -72,7 +72,7 @@ The transfer level code will be 0 for SKUs with Purchase or Prod. Order replenis
 
 When updating a SKU, the planning system detects whether replenishment systems for SKUs have circular references.  
 
-## <a name="planning-transfers-without-sku"></a>Planning transfers without SKU
+## Planning transfers without SKU  
 
 For less advanced warehouse setups, you can use locations and make manual transfers between locations, even if you don't use SKUs. For example, the transfer might cover a sales order at that location. The planning system reacts to changes in the demand.  
 
@@ -82,7 +82,7 @@ For manual transfers, the planning system analyses transfer orders and then plan
 
 If there are several transfers to a location, the first transfer order defines the planning direction. Transfers in the opposite direction are cancelled.  
 
-## <a name="changing-quantity-with-reservations"></a>Changing quantity with reservations
+## Changing quantity with reservations  
 
 When changing quantities on a supply, the planning system takes reservations into account. The reserved quantity represents the lower limit for how much to reduce the supply.  
 
@@ -97,7 +97,7 @@ Even though the inbound side might have excess supply, you can't reduce the tran
 
 ![Reservations in transfer planning.](media/nav_app_supply_planning_7_transfers8.png "Reservations in transfer planning")  
 
-## <a name="changing-quantity-in-a-transfer-chain"></a>Changing quantity in a transfer chain
+## Changing quantity in a transfer chain  
 
 Here's an example of what happens when you change a quantity in a transfer change.
 
@@ -119,7 +119,7 @@ When the planning system runs again, it should get rid of excess supply. However
 
 The PINK-RED transfer has been reduced to 22. The inbound part of the BLUE-PINK transfer isn't reserved, but the outbound part is. The reservation means that you can't reduce the quantity below 27.  
 
-## <a name="lead-time-calculation"></a>Lead time calculation
+## Lead time calculation  
 
 When calculating the due date of a transfer order, different kinds of lead time are taken into account.  
 
@@ -150,7 +150,7 @@ The example shows the following calculations:
 * Starting Date + Shipping time = Ending Date  
 * Ending Date + Inbound Handling = Receipt Date  
 
-## <a name="safety-lead-time"></a>Safety lead time
+## Safety lead time  
 
 The **Default Safety Lead Time** field on the **Manufacturing Setup** page and the related **Safety Lead Time** field on the **Item Card** page aren't included in transfer order calculations. However, the safety lead time does influence the total plan. The safety lead time affects the replenishment order (purchase or production) at the beginning of the transfer chain. That's the point where the items were put in the location from which they'll be transferred.  
 
@@ -160,7 +160,7 @@ On the works order line, the Ending Date + Safety Lead Time + Inbound Warehouse 
 
 On the purchase order line, the Planned Receipt Date + Safety Lead Time + Inbound Warehouse Handling Time = Expected Receipt Date.  
 
-## <a name="reschedule"></a>Reschedule
+## Reschedule  
 
 When you reschedule a transfer line, the planning system finds the outbound part and changes the date-time.
 
@@ -171,11 +171,11 @@ When you reschedule a transfer line, the planning system finds the outbound part
 
 When you change the due date on a transfer line, the lead time must be calculated to update the outbound side of the transfer.  
 
-## <a name="serial-and-lot-numbers-in-transfer-chains"></a>Serial and lot numbers in transfer chains
+## Serial and lot numbers in transfer chains  
 
 If the demand uses serial or lot numbers, and you run the planning engine, it will create transfer orders. For more information about this concept, see Item Attributes. However, if serial or lot numbers are removed from the demand, the transfer orders still use the serial or lot numbers and planning will ignore them (not deleted).  
 
-## <a name="order-to-order-links"></a>Order-to-order links
+## Order-to-order links  
 
 In this example, the BLUE SKU is set up with an **Order** reordering policy. The PINK and RED SKUs have the **Lot-for-Lot** reordering policy. Creating a sales order for 27 at location RED leads to a chain of transfers. The last transfer is at location BLUE, and it's reserved with binding. In this example, the reservations aren't hard reservations created by the planner at PINK location. The planning system creates the bindings. The important difference is that the planning system can change the latter.  
 
@@ -183,7 +183,7 @@ In this example, the BLUE SKU is set up with an **Order** reordering policy. The
 
 If the demand is changed from 27 to 22, the planning system will lower the quantity through the chain. The binding reservation is also reduced.  
 
-## <a name="see-also"></a>See Also
+## See Also  
 
 [Design Details: Planning Parameters](design-details-planning-parameters.md)   
 [Design Details: Planning Assignment Table](design-details-planning-assignment-table.md)   

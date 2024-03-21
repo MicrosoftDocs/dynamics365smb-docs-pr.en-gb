@@ -9,7 +9,7 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-reconciliation-with-the-general-ledger"></a>Design Details: Reconciliation with the General Ledger
+# Design Details: Reconciliation with the General Ledger
 When you post inventory transactions, such as sales shipments, production output, or negative adjustments, the quantity and value changes to the inventory are recorded in the item ledger entries and the value entries, respectively. The next step in the process is to post the inventory values to the inventory accounts in the general ledger.  
 
 There are two ways to reconcile the inventory ledger with the general ledger:  
@@ -17,22 +17,22 @@ There are two ways to reconcile the inventory ledger with the general ledger:
 * Manually, by running the **Post Inventory Cost to G/L** batch job.  
 * Automatically, every time that you post an inventory transaction.  
 
-## <a name="post-inventory-cost-to-gl-batch-job"></a>Post Inventory Cost to G/L Batch Job
+## Post Inventory Cost to G/L Batch Job  
 When you run the **Post Inventory Cost to G/L** batch job, the general ledger entries are created based on value entries. You have the option to summarise general ledger entries for each value entry, or create general ledger entries for each combination of posting date, location code, inventory posting group, general business posting group, and general product posting group.  
 
 The posting dates of the general ledger entries are set to the posting date of the corresponding value entry, except when the value entry falls in a closed accounting period. In this case, the value entry is skipped, and you must change either the general ledger setup or the user setup to enable posting in the date range.  
 
 When you run the **Post Inventory Cost to G/L** batch job, you might receive errors because of missing setup or incompatible dimension setup. If the batch job encounters errors in the dimension setup, it overrides these errors and uses the dimensions of the value entry. For other errors, the batch job does not post the value entries and lists them at the end of the report in a section titled, **Skipped Entries**. To post these entries, you must first fix the errors. To see a list of errors before you run the batch job, you can run the **Post Invt. Cost to G/L - Test** report. This report lists all of the errors that are encountered during a test posting. You can fix the errors, and then run the inventory cost posting batch job without skipping any entries.  
 
-## <a name="automatic-cost-posting"></a>Automatic Cost Posting
+## Automatic Cost Posting  
 To set up cost posting to the general ledger to run automatically when you post an inventory transaction, select the **Automatic Cost Posting** check box on the **inventory Setup** page. The posting date of the general ledger entry is the same as the posting date of the item ledger entry.  
 
-## <a name="account-types"></a>Account Types
+## Account Types  
 During reconciliation, inventory values are posted to the inventory account in the balance sheet. The same amount, but with the reverse sign, is posted to the relevant balancing account. Usually the balancing account is an income statement account. However, when you post direct cost related to consumption or output, the balancing account is a balance sheet account. The type of the item ledger entry and value entry determines which general ledger account to post to.  
 
 The entry type indicates which general ledger account to post to. This is determined either by the sign of the quantity on the item ledger entry or the valued quantity on the value entry, since the quantities always have the same sign. For example, a sales entry with a positive quantity describes an inventory decrease caused by a sale, and a sales entry with a negative quantity describes an inventory increase caused by a sales return.  
 
-### <a name="example"></a>Example
+### Example  
 The following example shows a bike chain that is manufactured from purchased links. This example shows how the various general ledger account types are used in a typical scenario.  
 
 The **Expected Cost Posting to G/L** check box on the **Inventory Setup** page is selected, and the following setup is defined.  
@@ -60,7 +60,7 @@ The following table shows how the work centre is set up on the work centre card.
 |**Direct Unit Cost**|LCY 2.00|  
 |**Indirect Cost Percentage**|10|  
 
-##### <a name="scenario"></a>Scenario
+##### Scenario  
 1. The user purchases 150 links and posts the purchase order as received. (Purchase)  
 2. The user posts the purchase order as invoiced. This creates an overhead amount of LCY 3.00 to be allocated and a variance amount of LCY 18.00. (Purchase)  
 
@@ -109,7 +109,7 @@ The following table shows how the work centre is set up on the work centre card.
 
 For more information about the relationship between the account types and the different types of value entries, see [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md).  
 
-## <a name="see-also"></a>See Also
+## See Also  
 [Design Details: Inventory Costing](design-details-inventory-costing.md)   
 [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md)   
 [Design Details: Cost Adjustment](design-details-cost-adjustment.md)

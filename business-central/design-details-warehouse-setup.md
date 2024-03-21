@@ -9,7 +9,7 @@ ms.date: 06/15/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-warehouse-setup"></a>Design Details: Warehouse Setup
+# Design Details: Warehouse Setup
 
 Warehouse functionality in [!INCLUDE[prod_short](includes/prod_short.md)] contains different levels of complexity, as defined by licence permissions in the offered granules. The level of complexity in a warehouse solution is largely defined by the bin setup on location cards, which in turn is license-controlled so that access to bin setup fields is defined by the license. In addition, the application objects in the license govern which UI document to use for the supported warehouse activities.  
 <!--
@@ -43,7 +43,7 @@ The following table shows which granules are required to define different wareho
 
 For examples of how the UI documents are used per warehouse complexity level, see [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md).  
 
-## <a name="bin-and-bin-content"></a>Bin and Bin Content
+## Bin and Bin Content
 
 A bin is a storage device designed to contain discrete parts. It is the smallest container unit in [!INCLUDE[prod_short](includes/prod_short.md)]. Item quantities in bins are referred to as bin content. A lookup from the **Item** field or **Bin Code** field on any warehouse-related document line displays the calculated availability of the item in the bin.  
 
@@ -60,7 +60,7 @@ The Default bin property is used by the system to suggest bins for warehouse act
 
 There can only be one default bin per item per location.  
 
-## <a name="bin-type"></a>Bin Type
+## Bin Type
 
 In WMS installations, you can restrict the warehouse activities that are allowed for a bin by assigning a bin type to it. The following bin types exist:  
 
@@ -78,7 +78,7 @@ For all bin types, except PICK, PUTPICK, and PUTAWAY, no other activity is allow
 > [!NOTE]  
 > Only movement can be made to bins of type RECEIVE and QC. Similarly, only movements can be made from bins of type SHIP and QC.  
 
-## <a name="bin-ranking"></a>Bin Ranking
+## Bin Ranking
 
 In advanced warehousing, you can automate and optimise how items are collected in put-away and pick worksheets by ranking bins so that items are suggested taken or placed according to rank criteria to use warehouse space optimally.  
 
@@ -86,7 +86,7 @@ Put-away processes are optimised according to bin ranking by suggesting higher-r
 
 Bin ranking together with bin content information are the basic properties that allow users to slot items in the warehouse.  
 
-## <a name="bin-setup"></a>Bin Setup
+## Bin Setup  
 In advanced warehousing, bins can be set up with capacity values, such as quantity, total cubage, and weight to control which and how items are stored in the bin.  
 
 On each item card, you can assign a unit of measurement (UOM) for the item, such as pieces, pallets, litres, grams, or boxes. You can also have a base UOM for an item and specify larger UOMs that are based on it. For example, you can define a pallet to equal 16 pieces, the latter being the base UOM.  
@@ -98,7 +98,7 @@ Before you set capacity restrictions for bin contents on a bin, you must first m
 > [!NOTE]  
 > It is only possible to operate with multiple UOMs in WMS installations. I all other configurations, bin contents can only be in the base UOM. In all transactions with a UOM higher than the item's base UOM, the quantity is converted to the base UOM.  
 
-## <a name="zone"></a>Zone
+## Zone
 
 In advanced warehousing, bins can be grouped in zones to manage how the workflow of warehouse activities is directed.  
 
@@ -106,18 +106,18 @@ A zone could be a receiving zone or a stocking zone, and each zone can consist o
 
 Most properties assigned to a zone will by default be assigned to the bin that is created from that zone.  
 
-## <a name="class"></a>Class
+## Class  
 In advanced warehousing, you can assign warehouse class codes to items, bins, and zones to control where different item classes are stored, such as frozen goods. You can divide a zone into several warehouse classes. For example, items in the receiving zone can be stored as frozen, hazardous, or other class.  
 
 When you work with warehouse classes and a default receiving/shipping bin, you must manually fill in the appropriate bins in the warehouse receipt and shipment lines.  
 
 In inbound flows, the class code is only highlighted on inbound lines where the item class code does not match the default receiving bin. If the correct default bins are not assigned, then the quantity cannot be received.  
 
-## <a name="location"></a>Location
+## Location
 
 A location is a physical structure or place where inventory is received, stored, and shipped, potentially organised in bins. A location can be a warehouse, service car, showroom, plant, or an area in a plant.  
 
-## <a name="first-expired-first-out"></a>First Expired First Out
+## First Expired First Out
 
 If you select the **Pick According to FEFO** check box on the **Bin Policies** FastTab on the location card, then item-tracked items are picked according to their expiration date. The items with the earliest expiration dates are picked first.  
 
@@ -125,11 +125,11 @@ Warehouse activities in all pick and movement documents are sorted according to 
 
 When picking by FEFO, the available items that expire first are gathered in a temporary item tracking list based on the expiration date. If two items have the same expiration date, then the item with the lowest lot or serial number is picked first. If the lot or serial numbers are the same, then the item that was registered first is selected first. Standard criteria for selecting items in pick bins, such as Bin Ranking and Break Bulk, are applied to this temporary FEFO item tracking list.  
 
-## <a name="put-away-template"></a>Put-away Template
+## Put-away Template
 
 The put-away template can be assigned to an item and to a location. The put-away template specifies a set of prioritised rules that must be respected when creating put-aways. For example, a put-away template may require that the item is placed in a bin with bin content that matches the UOM, and if a similar bin with enough capacity cannot be found, then the item must be placed in an empty bin.  
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)

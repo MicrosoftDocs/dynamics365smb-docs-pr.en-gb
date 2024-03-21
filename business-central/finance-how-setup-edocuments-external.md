@@ -11,13 +11,13 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="set-the-e-documents-connector-with-external-endpoints"></a>Set the E-Documents connector with external endpoints
+# Set the E-Documents connector with external endpoints
 
 This article explains how to set up E-Documents functionality when it's connected to external endpoints.
 
 Before you use the functionality that's described in this article, install the **E-Documents Connector with External Endpoints** app on the top of the global **E-Document Core** app. This app can be used for default integration with the external (third-party) access points to automate the e-document flow. Because this app represents only some of the selected connectors, you aren't limited to existing integrations in it. Most of the connectors will be available on AppSource in the future.
 
-## <a name="set-up-the-connection"></a>Set up the connection
+## Set up the connection
 
 To begin your setup, follow the steps in [E-document core app](finance-how-setup-edocuments.md). After you complete those steps, return to this article, and complete the following steps:
 
@@ -44,7 +44,7 @@ To begin your setup, follow the steps in [E-document core app](finance-how-setup
     > [!NOTE]
     > Ask your service provider for all the previous details to establish a connection with their access point.
 
-## <a name="set-up-company-information"></a>Set up company information
+## Set up company information
 
 Before you start using e-documents, update your **Company Information** page by completing the following steps:
 
@@ -59,7 +59,7 @@ Before you start using e-documents, update your **Company Information** page by 
 
 3. Close the page.
 
-## <a name="set-up-customers-to-receive-e-documents"></a>Set up customers to receive e-documents
+## Set up customers to receive e-documents
 
 To enable customers to receive your e-documents, complete the following steps:
 
@@ -69,11 +69,11 @@ To enable customers to receive your e-documents, complete the following steps:
 4. Mark the **Use GLN in Electronic Documents** field to indicate whether the Global Location Number (GLN) is used as a party identification number in electronic documents.
 5. Close the page.
 
-## <a name="other-setup"></a>Other setup
+## Other setup
 
 Before you start to work with e-documents, set up the e-document **workflows** and **document sending profiles** to use your workflows. After the service connection is established, you can start to use your e-document solution.
 
-## <a name="available-service-providers"></a>Available service providers
+## Available service providers
 
 Microsoft wants to encourage access point providers to add their connectors on top of our **E-Document Core** framework.
 
@@ -81,7 +81,7 @@ Currently, Pagero is the only access point provider that's covered by this syste
 
 We will update this list as we get new e-document exchange access point providers.
 
-## <a name="see-also"></a>See also
+## See also 
 
 [How to set up e-documents in Business Central](finance-how-setup-edocuments.md)  
 [How to use e-documents in Business Central](finance-how-use-edocuments.md)  

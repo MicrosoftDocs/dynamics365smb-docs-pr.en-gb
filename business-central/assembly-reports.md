@@ -9,21 +9,21 @@ ms.date: 06/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="assembly-reports-and-analytics-in-business-central"></a>Assembly Reports and Analytics in Business Central
+# Assembly Reports and Analytics in Business Central
 
 Assembly reporting in [!INCLUDE [prod_short](includes/prod_short.md)] allows production and business professionals to get insights and statistics about current and past assembly activities.  
 
-## <a name="reports"></a>Reports
+## Reports
 
 [!INCLUDE [assembly_reports](includes/assembly-reports-include.md)]
 
-## <a name="tasks"></a>Tasks
+## Tasks
 
 The following articles describe some of the key tasks for analysing the state of your business:
 
 * [View the Availability of Items](inventory-how-availability-overview.md)
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Assembly Management](assembly-assemble-items.md)  
 [Work with Assembly BOMs](assembly-how-work-assembly-boms.md)  

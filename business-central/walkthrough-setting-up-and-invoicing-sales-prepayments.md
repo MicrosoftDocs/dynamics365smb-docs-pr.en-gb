@@ -9,7 +9,7 @@ ms.date: 12/03/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Walkthrough: Setting Up and Invoicing Sales Prepayments
+# Walkthrough: Setting Up and Invoicing Sales Prepayments
 
 This walkthrough takes you through the process of setting up and using prepayments in [!INCLUDE [prod_short](includes/prod_short.md)]. [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
@@ -17,7 +17,7 @@ This walkthrough takes you through the process of setting up and using prepaymen
 
 For example, you can send more prepayment invoices if more items are added to the order.  
 
-## <a name="about-this-walkthrough"></a>About This Walkthrough
+## About This Walkthrough  
 
 This walkthrough will take you through the following scenarios:  
 
@@ -28,7 +28,7 @@ This walkthrough will take you through the following scenarios:
 - Applying prepayments to an order  
 - Invoicing the final amount on an order with prepayment  
 
-### <a name="roles"></a>Roles
+### Roles
 
 This walkthrough includes tasks for the following roles:  
 
@@ -36,7 +36,7 @@ This walkthrough includes tasks for the following roles:
 - Order Processor (Susan)  
 - Accounts Receivable Administrator (Arnie)  
 
-## <a name="story"></a>Story
+## Story
 
  Phyllis is an accounting manager and makes decisions about which customers are required to pay a deposit before items are manufactured or shipped. Phyllis sets up [!INCLUDE[prod_short](includes/prod_short.md)] to calculate prepayments automatically.  
 
@@ -52,7 +52,7 @@ This walkthrough includes tasks for the following roles:
 
  Arnie registers the customer's payment and applies it to the invoices, and then sends the final invoice.  
 
-## <a name="set-up-prepayments"></a>Set Up Prepayments
+## Set Up Prepayments
 
 Phyllis sets up the system to handle prepayments for customers.  
 
@@ -62,13 +62,13 @@ Phyllis sets up the system to handle prepayments for customers.
 
 The following procedures describe how to complete Phyllis' tasks:  
 
-### <a name="to-set-up-number-series-for-prepayments"></a>To set up number series for prepayments
+### To set up number series for prepayments
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.  
 2. On the **Sales & Receivables Setup** page, expand the **Number Series** FastTab.  
 3. Verify that the number series for posted prepayment invoices in the **Posted Prepmt. Inv. Nos.** field is the same as for posted sales invoices (**Posted Invoice Nos.**) and the number series for posted prepayment credit memos (**Posted Prepmt. Cr. Memo Nos.**) is the same as for posted credit memos (**Posted Credit Memo Nos.**).  
 
-### <a name="to-block-shipments-for-unpaid-prepayment"></a>To block shipments for unpaid prepayment
+### To block shipments for unpaid prepayment
 
 1. On the **Sales & Receivables Setup** page, on the **General** FastTab, select the **Check Prepayment when Posting** check box.
 
@@ -78,7 +78,7 @@ By default, Phyllis requires customer 20000 to be invoiced for a 30% down paymen
 
 Phyllis requires all customers to be invoiced a 20% deposit for item 1896-S. Customer 20000 has a poor payment history, so Phyllis requires a 40% prepayment from customer 20000 for item 1896-S. The following procedure illustrates how to set up default prepayment percentages.  
 
-### <a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a>To assign default prepayment percentages to customers and items
+### To assign default prepayment percentages to customers and items
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
 2. Open the card for customer 20000 (Trey Research).
@@ -96,7 +96,7 @@ Phyllis requires all customers to be invoiced a 20% deposit for item 1896-S. Cus
 
 6. Close all pages.  
 
-### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>To specify an account for sales prepayments in general posting setup
+### To specify an account for sales prepayments in general posting setup
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Posting Setup**, and then choose the related link.  
 2. Select the line where the **Gen. Bus. Posting Group** field is set to **DOMESTIC**, and the **Gen. Prod. Posting Group** field is set to **RETAIL**.  
@@ -105,7 +105,7 @@ Phyllis requires all customers to be invoiced a 20% deposit for item 1896-S. Cus
 > [!TIP]
 > If you cannot see the field in the **General Posting Setup** page, then use the horizontal scroll bar at the bottom of the page to scroll to the right.  
 
-## <a name="create-an-order-that-requires-a-prepayment"></a>Create an Order that Requires a Prepayment
+## Create an Order that Requires a Prepayment
 
  In the following scenario, Susan, the order processor, creates an order when talking to a customer. The items the customer is ordering require a prepayment. Plus, the customer has made some late payments in the past. Susan's been instructed to require a fixed amount of **800** as a prepayment on the order.  
 
@@ -113,7 +113,7 @@ The customer asks to pay 35%, to which Susan agrees and changes the order.
 
 Susan creates the prepayment invoice and sends it to the customer.  
 
-### <a name="to-create-a-sales-order-with-a-prepayment"></a>To create a sales order with a prepayment
+### To create a sales order with a prepayment
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2. Choose the **New** action.  
@@ -150,11 +150,11 @@ Susan creates the prepayment invoice and sends it to the customer.
 12. In the warning that appears, choose the **Yes** button. A rate of 35% will be applied as the payment percentage for the whole order.  
 13. Verify that the lines have been updated correctly.  
 
-## <a name="create-a-prepayment-invoice"></a>Create a Prepayment Invoice
+## Create a Prepayment Invoice
 
 After entering the correct prepayment values on the order, Susan creates the prepayment invoice and sends it to the customer.  
 
-### <a name="to-create-a-prepayment-invoice"></a>To create a prepayment invoice
+### To create a prepayment invoice
 
 1. On the **Sales Order** page, choose **Actions**, then **Posting**, then **Prepayment** and then select **Post and Print Prepayment Invoice**
 2. Choose the **Yes** button to post the invoice.  
@@ -162,11 +162,11 @@ After entering the correct prepayment values on the order, Susan creates the pre
 > [!NOTE]  
 > Susan would now send the invoice to the customer.  
 
-## <a name="create-an-additional-prepayment-invoice"></a>Create an Additional Prepayment Invoice
+## Create an Additional Prepayment Invoice
 
 The following day, the customer calls Susan and makes changes to the order. The customer wants two of item 1896-S. Susan reopens the order, updates it, and then creates a second prepayment invoice for the order and sends it to the customer.  
 
-### <a name="to-create-an-additional-prepayment-invoice"></a>To create an additional prepayment invoice
+### To create an additional prepayment invoice
 
 1. On the **Sales Order** page, choose the **Release** action, and then **Reopen**.  
 2. On the line for item **1896-S**, in the **Quantity** field, enter **2**.  
@@ -175,11 +175,11 @@ The following day, the customer calls Susan and makes changes to the order. The 
 3. To post an invoice for the extra prepayment amount, choose **Actions**, then **Posting**, then **Prepayment** and then select **Post and Print Prepayment Invoice**
 4. Choose the **Yes** button to post the invoice.  
 
-## <a name="apply-the-prepayments"></a>Apply the Prepayments
+## Apply the Prepayments
 
 The customer pays the prepayment amount. Arnie, from the accounting department, registers the payment, and applies it to the prepayment invoices.  
 
-### <a name="to-apply-a-payment-to-the-prepayment-invoices"></a>To apply a payment to the prepayment invoices
+### To apply a payment to the prepayment invoices
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Receipt Journals**, and then choose the related link.  
 2. Fill in a journal line with the following information.  
@@ -199,11 +199,11 @@ The customer pays the prepayment amount. Arnie, from the accounting department, 
 7. To post the journal, choose the **Post/Print** action, then select **Post**.
 8. Choose the **Yes** button.
 
-## <a name="invoice-the-remaining-amount"></a>Invoice the Remaining Amount
+## Invoice the Remaining Amount
 
 Now Arnie has been informed that the items on the order have been shipped and that the order is ready for invoicing. Arnie creates the invoice for the order.  
 
-### <a name="to-invoice-the-remaining-amount"></a>To invoice the remaining amount
+### To invoice the remaining amount
 
 1. Open the sales order.
 2. Choose the **Posting** action, then **Post**.
@@ -217,11 +217,11 @@ Now Arnie has been informed that the items on the order have been shipped and th
 
 5. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.  
 
-## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>Update the Status of Prepaid Orders and Invoices Automatically
+## Update the Status of Prepaid Orders and Invoices Automatically
 
 You can speed up order and invoice processing by setting up job queue entries that automatically update the status of those documents. When a prepayment invoice is paid, the job queue entries can automatically change the document status from **Pending Prepayment** to **Released**. When you set up the job queue entries, the codeunits you'll need to use are **383 Upd. Pending Prepmt. Sales** and **383 Upd. Pending Prepmt. Purchase**. We recommend that you schedule the entries to run frequently, for example, every minute. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
 
-## <a name="next-steps"></a>Next Steps
+## Next Steps
 
 This walkthrough covered the following steps to set up [!INCLUDE[prod_short](includes/prod_short.md)] to handle prepayments. 
 
@@ -234,7 +234,7 @@ You've also posted a prepayment invoice, created a second prepayment invoice whe
 
 The prepayments capabilities make it easy to set up and enforce prepayment rules for customers and items. They also let you to post every payment against an invoice.  
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Invoicing Prepayments](finance-invoice-prepayments.md)  
 [Finance](finance.md)  

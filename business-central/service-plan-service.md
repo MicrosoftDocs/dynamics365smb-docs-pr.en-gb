@@ -9,7 +9,7 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="planning-services"></a>Planning Services
+# Planning Services
 With [!INCLUDE[prod_short](includes/prod_short.md)], you can set up the standard tasks that you need to fulfill your customer service requirements. To do this, you must determine what service items and offerings your service organisation supports, and at what price.   
 
 [!INCLUDE[prod_short](includes/prod_short.md)] also provides some statistics tools that you can use to determine how well things are going, and identify areas where you can improve.
@@ -24,7 +24,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Understand the relationship between the status of a repair, and the effect they have on allocated resources, and vice versa.|[Understanding Allocation Status and Repair Status](service-allocation-status-and-repair-status.md)|  
 |Use statistics to analyse your service processes. | [Viewing Service Statistics](service-service-statistics.md) |
 
-## <a name="see-also"></a>See Also
+## See Also
 [Fulfilling Service Contracts](service-fulfill-service-contracts.md)  
 [Delivering Service](service-deliver-service.md)  
 [Set Up Pricing and Additional Costs for Services](service-how-setup-service-costs-pricing.md)  

@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="use-e-documents-in-sales-and-purchases"></a>Use e-documents in sales and purchases
+# Use e-documents in sales and purchases
 
 You can use configured electronic documents (e-documents) with sales and purchase documents.
 
@@ -34,13 +34,13 @@ You can use the following documents with e-documents functionality:
 > [!NOTE]
 > Currently, a purchase order can be used only when you create the document from the e-document from your vendor. However, you can't update the existing document with lines that you got from your vendor.  
 
-## <a name="e-documents-in-sales"></a>E-documents in sales
+## E-documents in sales
 
 To create and send an e-invoice to a customer, you must create and post the sales invoice. To learn more about the standard process, see [Invoice Sales](sales-how-invoice-sales.md).
 
 After you post the sales document, open the **Posted Sales Invoice** page to access the related **E-Document** page.
 
-### <a name="view-e-documents"></a>View e-documents
+### View e-documents
 
 To view existing e-documents, follow these steps.
 
@@ -49,7 +49,7 @@ To view existing e-documents, follow these steps.
 3. The **Record** field shows the document number of the posted sales invoice. Select the link to open the document.
 4. In the **Electronic Document Status** field, you can view the real-time status of the document and its location in the process pipeline. If the document is posted, the status is **Processed**.
 
-### <a name="e-document-statuses-and-logs"></a>E-document statuses and logs
+### E-document statuses and logs
 
 For details about the service status level of your e-document, check the **E-Document Service Status** FastTab. On the lines, the system shows one or more services that the document used. In the most common scenario, each document uses only one service. However, a document can use multiple services.
 
@@ -73,11 +73,11 @@ If there's an issue with the service provider, and the document can't be sent, l
 
 After the issue is fixed, manually run the **Send Document** actions. If you need different actions, such as **Recreated Document**, **Cancel Document**, or **Get Approval**, you can run them.
 
-## <a name="e-documents-in-purchases"></a>E-documents in purchases
+## E-documents in purchases
 
 The receipt of purchase electronic invoices in Dynamics 365 Business Central can be done as a batch job or manually.
 
-### <a name="run-the-batch-job"></a>Run the batch job
+### Run the batch job
 
 > [!NOTE]
 > This batch job is for automated collection of your incoming invoices. It can work only in a country or region where the functionality exists.
@@ -101,7 +101,7 @@ There are two common errors:
 
 After you fix the errors and warnings, you can manually specify when the system should create a purchase invoice based on your setup by selecting **Create Document**.
 
-### <a name="manually-import-invoices"></a>Manually import invoices
+### Manually import invoices
 
 To manually import external e-documents, follow these steps.
 
@@ -112,7 +112,7 @@ To manually import external e-documents, follow these steps.
 5. When you've finished fixing issues, in the **Import Manually** group, select **Create Document**.
 6. After the document is created in Business Central, you can view it just as you do if you use a batch job.
 
-## <a name="overview-of-e-document-statuses"></a>Overview of e-document statuses
+## Overview of e-document statuses
 
 To get a better overview of all e-documents in the company, you can select the **Accountant** role centre where e-document statuses exist. There, you can find e-document activities that have the following statuses:
 
@@ -128,7 +128,7 @@ To get a better overview of all e-documents in the company, you can select the *
     - In Progress
     - Error
 
-## <a name="see-also"></a>See also
+## See also 
 
 [How to set up e-documents in Business Central](finance-how-setup-edocuments.md)  
 [How to extend e-documents in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  

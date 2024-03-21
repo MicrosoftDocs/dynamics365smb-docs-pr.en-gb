@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="getting-business-central-on-your-mobile-device"></a>Getting Business Central on your mobile device
+# Getting Business Central on your mobile device
 
 Access your [!INCLUDE[prod_short](includes/prod_short.md)] data from your mobile device. You can navigate through your business data, use features such as send to Excel or Microsoft 365, view up-to-date charts and KPIs, email sales quotes and invoices, and shoot and attach pictures with your camera. Follow the steps below to download the app and get started.
 
@@ -19,7 +19,7 @@ Access your [!INCLUDE[prod_short](includes/prod_short.md)] data from your mobile
 > [!TIP]
 > Do want an app on your Windows or macOS computer desktop? See [Get the Business Central Desktop App](install-desktop-app.md).
 
-## <a name="get-the-app-on-my-mobile-device"></a>Get the app on my mobile device
+## Get the app on my mobile device
 
 1. Install the [!INCLUDE[prod_short](includes/prod_short.md)] app on your mobile device by downloading the app from the App Store or Google Play.  
    - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
@@ -34,7 +34,7 @@ You should now have access to [!INCLUDE[prod_short](includes/prod_short.md)] and
 > [!TIP]
 > If you want to connect the app to a sandbox environment, choose the **Advanced options** button, and then choose the **Cloud sandbox** sign-in option. Then, if you have more than one sandbox environment, choose the relevant environment.
 
-## <a name="use-business-central-on-premises"></a>Use Business Central on-premises?
+## Use Business Central on-premises?
 
 If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you can also enjoy the benefits of the mobile app. The installation is similar, but with a couple of exceptions.
 
@@ -52,7 +52,7 @@ If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you 
 > [!NOTE]
 > If you're having problems getting the app to work properly, talk to your administrator. It could be a missing prerequisite or an incomplete configuration. For more information, see  [Preparing the environment for the mobile app](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) or [Troubleshooting the Business Central Mobile App On-Premises](/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app).
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Mobile Apps FAQ](ui-mobile-faq.yml)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  

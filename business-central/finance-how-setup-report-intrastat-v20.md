@@ -10,13 +10,13 @@ ms.date: 05/23/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-and-report-intrastat"></a>Set Up and Report Intrastat
+# Set Up and Report Intrastat
 
 All companies in the European Union must report their trade with other EU countries/regions. You must report the movement of goods to the statistics authorities in your country/region every month, and the report must be delivered to the tax authorities. This is referred to as Intrastat Reporting. You use the **Intrastat Journal** page to complete periodic Intrastat reports.
 
 [!INCLUDE[intrastat-2022w2](includes/intrastat-2022w2.md)]
 
-## <a name="required-and-optional-setups"></a>Required and Optional Setups
+## Required and Optional Setups
 
 > [!IMPORTANT]
 > Customer cards and Vendor cards include a field, **Intrastat Partner Type**, that has the same option values as the **Partner Type** field: *"" (blank)*, *Company*, and *Person*. The **Intrastat Partner Type** field has replaced the **Partner Type** field in Intrastat reporting. **Partner Type** is used in SEPA to define the SEPA Direct Debit Scheme (Core or B2B). **Intrastat Partner Type** is used for Intrastat reporting only. This way, you can specify different values for the two fields, if you need to.
@@ -46,7 +46,7 @@ Optionally, you can also set up:
 * **Areas**: Use these to supplement information about countries and regions.  
 * **Entry/exit points**: Use these to specify the locations where you ship or receive items to or from other countries/regions. Heathrow Airport is an example of an entry or exit point. You enter entry or exit points on sales and purchase documents on the **Foreign Trade** FastTab. This information will also be copied from the item entries when you create the Intrastat journal.  
 
-### <a name="to-set-up-intrastat-templates-and-batches"></a>To set up Intrastat templates and batches
+### To set up Intrastat templates and batches
 
 The Intrastat batch jobs include only item entries, and not general ledger entries. If you have general ledger entries that qualify for Intrastat reporting, you must enter them manually. For example, if you purchase a computer from another EU country or region, the computer is not placed in inventory, but is posted to a general ledger account. You must manually enter this type of entry in the Intrastat journal.  
 
@@ -63,12 +63,12 @@ You can export the entries to a file that you can send to your Intrastat authori
 > [!NOTE]
 > In the **Statistics Period** field, enter the statistics period as a four-digit number, where the first two digits represent the year and the next two digits represent the month. For example, enter 1706 for June, 2017.
 
-### <a name="to-set-up-transport-methods"></a>To set up transport methods
+### To set up transport methods
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transport Methods**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### <a name="to-set-up-which-intrastat-report-fields-are-mandatory"></a>To set up which Intrastat report fields are mandatory
+### To set up which Intrastat report fields are mandatory
 
 In some countries/regions, such as Spain and UK, the authorities require that Intrastat reports include, for example, the shipment method for purchases or some other values when sales are over a certain threshold. On the **Intrastat Setup** page, you can select to make **Intrastat Checklist Setup** to set mandatory fields on the **Intrastat Journal** page.
 
@@ -76,11 +76,11 @@ In some countries/regions, such as Spain and UK, the authorities require that In
 2. Choose the **Intrastat Checklist Setup** action.
 3. On the **Intrastat Checklist Setup** page, select in the **Field Name** to pick Intrastat report field you want to make mandatory.
 
-### <a name="czechia"></a>Czechia
+### Czechia
 
 Specifically for Czech businesses, you must also set up commodity codes and transaction nature codes.  
 
-#### <a name="to-set-up-commodity-codes"></a>To set up commodity codes
+#### To set up commodity codes
 
 All items that you buy or sell must have a commodity code.  
 
@@ -88,11 +88,11 @@ All items that you buy or sell must have a commodity code.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. To assign a commodity code to an item, go to the **Item Card** page, expand the **Costs & Posting** FastTab, and then enter the code in the **Commodity Code** field.
 
-### <a name="italy"></a>Italy
+### Italy
 
 Specifically for Italian businesses, you must also set up commodity codes and transaction nature codes.  
 
-#### <a name="to-set-up-transaction-nature-codes"></a>To set up transaction nature codes
+#### To set up transaction nature codes
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transaction Nature Codes**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -100,11 +100,11 @@ Specifically for Italian businesses, you must also set up commodity codes and tr
 > [!TIP]
 > If you frequently use a particular transaction nature code, you can make it the default. To do this, go to the **Intrastat Setup** page, and choose the code.
 
-## <a name="to-report-intrastat"></a>To report Intrastat
+## To report Intrastat
 
 After you fill in the Intrastat journal, you can run the **Checklist report** action to make sure that all information in the journal is correct. Mandatory fields you have set in **Intrastat Checklist Setup** page that are missing values will be shown in Errors and warning fact box on the **Intrastat Journal** page. Afterward, you can print an Intrastat report as a form, or create a file to submit to the tax authority in your country/region.  
 
-### <a name="to-fill-in-intrastat-journals"></a>To fill in Intrastat journals
+### To fill in Intrastat journals
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journal** and then choose the related link.  
 2. On the **Intrastat Journal** page, in the **Batch Name** field, choose the relevant journal batch, and then choose **OK**.  
@@ -117,7 +117,7 @@ The batch job retrieves all the item entries in the statistics period and insert
 > [!IMPORTANT]  
 > The batch job retrieves only the entries that contain a country/region code for which an Intrastat code has been entered on the **Countries/Regions** page. Therefore, you must enter Intrastat codes for the country/region codes for which you will run the batch job. The batch job sets the **Partner VAT ID** field to *QV999999999999* for private individuals or non-VAT registered businesses (customers with the **Intrastat Partner Type** field set to *Person*), and it uses the value of the **Transaction Nature Code** field on the posted item ledger entry or job ledger entry.
 
-### <a name="to-modify-intrastat-journals-lines"></a>To modify Intrastat journals lines
+### To modify Intrastat journals lines
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journal**, and then choose the related link.  
 2. On the **Intrastat Journal** page, in the **Batch Name** field, choose the relevant journal batch, and then choose **OK**.  
@@ -129,7 +129,7 @@ The batch job retrieves all the item entries in the statistics period and insert
 > [!NOTE]
 > In [!INCLUDE[prod_short](includes/prod_short.md)] versions that do not support [**Edit in Excel**](across-work-with-excel.md#edit-in-excel) for journals, you can create configuration packages to export and import Intrastat journal lines to Excel. For more information, see [Migrate On-Premises Data to Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) in the administration content.
 
-### <a name="report-intrastat-on-a-form-or-a-file"></a>Report Intrastat on a form or a file
+### Report Intrastat on a form or a file
 
 To get the information that is required on the Intrastat form from the statistical authorities, you must print the **Intrastat – Form** report. Before you can do this, you must prepare the Intrastat journal and fill it in. If you have both sales and purchase transactions, you must complete a separate form for each type, so that you must print the report two times.  
 
@@ -140,7 +140,7 @@ To get the information that is required on the Intrastat form from the statistic
 5. On the **Intrastat Jnl. Line** FastTab, add a **Type** filter and then specify whether this is a **Receipt** or a **Shipment**.  
 6. Choose **Send to** to print the report.  
 
-### <a name="report-intrastat-in-a-file"></a>Report Intrastat in a file
+### Report Intrastat in a file
 
 You can submit the Intrastat report as a file. Before creating the file, you can print a checklist that contains the same information that will be in the file.  
 
@@ -155,7 +155,7 @@ You can submit the Intrastat report as a file. Before creating the file, you can
 > [!NOTE]
 > When a line in the Intrastat report has a supplementary unit of measure, the weight of the item will not be shown, since this value is not required.
 
-## <a name="reorganize-intrastat-journals"></a>Reorganise Intrastat journals
+## Reorganise Intrastat journals
 
 Because you must submit an Intrastat report every month, and you create a new journal batch for each report, you will eventually have many journal batches. The journal lines are not deleted automatically. You may want to reorganize the journal batch names periodically. You do this by deleting the journal batches that you no longer need. The journal lines in these batches are also deleted.  
 
@@ -163,13 +163,13 @@ Because you must submit an Intrastat report every month, and you create a new jo
 2. To view the options, choose the **Batch Name** field.  
 3. Choose the journal batches to be deleted, and then choose the **Delete** button.  
 
-## <a name="tariff-numbers"></a>Commodity codes
+## Commodity codes
 
 In many countries/regions, the customs and tax authorities establish 8-digit item codes for various items. In order for item entries to contain the necessary information when the programme imports them to the Intrastat journal line, you must have entered the information about the commodity code in the **Commodity Codes** page. Find the codes for the items that your company deals with and enter them in the **Commodity Codes** page.
 
 In the **Commodity Codes** page, add all the codes that you use. You must enter the codes on the item card before you begin to post. When you have set up the codes, enter them in the **Commodity Code** field on the item card. You must also fill in the **Net Weight** field on the item card.
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Financial Management](finance.md)
 

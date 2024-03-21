@@ -11,11 +11,11 @@ ms.author: kepontop
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="developing-business-central-report-layouts-and-datasets"></a>Developing Business Central Report Layouts and Datasets
+# Developing Business Central Report Layouts and Datasets
 
 A report in [!INCLUDE[prod_short](includes/prod_short.md)] consists of a report object that defines the _dataset_ of the report (what data is available) and a number of _report layouts_ (how data is presented).  
 
-## <a name="developing-report-layouts"></a>Developing report layouts
+## Developing report layouts
 
 Maybe you want to modify existing report layouts provided in [!INCLUDE[prod_short](includes/prod_short.md)]? Depending on the technology used for the layout, this is something you might be able to do yourself (Excel and maybe also Word layouts), or maybe you need a developer to do it (pixel-perfect RDLC layouts).
 
@@ -30,7 +30,7 @@ Maybe you want to modify existing report layouts provided in [!INCLUDE[prod_shor
 | To learn how to change the default layout for a report. | [Change the default Layout](ui-how-change-layout-currently-used-report.md) |
 <!-- | To learn how to work with Excel layouts | [Work with Excel Layouts](ui-how-add-fields-word-report-layout.md) | -->
 
-## <a name="developing-report-datasets"></a>Developing report datasets
+## Developing report datasets
 
  To change the dataset definitions that define what data is available in the report, you need a developer that knows about the AL programming language and the tools to develop report objects and report extensions.
 
@@ -39,7 +39,7 @@ Maybe you want to modify existing report layouts provided in [!INCLUDE[prod_shor
 | Learn how to program reports in AL | [Report Development Guide](/dynamics365/business-central/dev-itpro/developer/devenv-reports) |
 | Learn how to make reports perform | [Report Performance Tuning Guide](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports) |
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Business Intelligence and Reporting Overview](reports-use-reports.md)
 

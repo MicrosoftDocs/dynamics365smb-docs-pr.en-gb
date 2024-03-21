@@ -9,17 +9,17 @@ ms.date: 12/19/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="financial-reports-and-analytics-in-business-central"></a>Financial Reports and Analytics in Business Central
+# Financial Reports and Analytics in Business Central
 
 Financial reporting in [!INCLUDE [prod_short](includes/prod_short.md)] gives financial and business professionals the power to create, maintain, deploy, and view financial statements. Goes beyond traditional reporting constraints to help you efficiently design various types of reports. [!INCLUDE [prod_short](includes/prod_short.md)] includes several reports, tracing functions, and tools to help auditors or controllers who are responsible for reporting to the finance department. Financial reporting includes support for dimensions, so account segments or dimensions are immediately available; no other tools or configuration steps are required.  
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
-## <a name="reports"></a>Reports
+## Reports
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-## <a name="tasks"></a>Tasks
+## Tasks
 
 The following articles describe some of the key tasks for analysing the state of your business:
 
@@ -31,7 +31,7 @@ The following articles describe some of the key tasks for analysing the state of
 * [Create Reports with XBRL](bi-create-reports-with-xbrl.md)  
 * [Manage Database Access Intent](admin-data-access-intent.md)  
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Creating Cost Budgets](finance-create-cost-budgets.md)  
 [Report VAT to Tax Authorities](finance-how-report-vat.md)  

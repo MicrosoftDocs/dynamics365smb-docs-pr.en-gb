@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="process-purchase-returns-or-cancellations"></a>Process Purchase Returns or Cancellations
+# Process Purchase Returns or Cancellations
 
 If you want to return items to your vendor or cancel services that you have purchased, then you can create and post a purchase credit memo that specifies the requested change with regard to the original purchase invoice. To include the correct purchase invoice information, you can create the purchase credit memo directly from the posted purchase invoice or you can create a new purchase credit memo with copied invoice information.
 
@@ -27,7 +27,7 @@ In addition to the original posted purchase invoice, you can apply the purchase 
 
 The credit memo posting will also revert any item charges that were assigned to the posted document, so that the item's value entries are the same as before the item charge was assigned.
 
-## <a name="inventory-costing"></a>Inventory Costing
+## Inventory Costing
 To preserve correct inventory valuation, you typically want to pick return items from inventory at the unit cost that they were purchased at, not at their current unit cost. This is referred to as exact cost reversing.
 
 Two functions exist to assign exact cost reversing automatically.  
@@ -41,7 +41,7 @@ To assign exact cost reversing manually, you must choose the **Appl.-from Item E
 
 For more information, see [Design Details: Inventory Costing](design-details-inventory-costing.md).
 
-## <a name="to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice"></a>To create a purchase credit memo from a posted purchase invoice
+## To create a purchase credit memo from a posted purchase invoice
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Purchase Invoices**, and then choose the related link.  
 2. On the **Posted Purchase Invoices** page, select the posted purchase invoice that you want to reverse, and then choose the **Create Corrective Credit Memo** action.
@@ -62,7 +62,7 @@ The posted purchase invoices that you apply the credit memo to are now reversed.
 
 The purchase credit memo is removed and replaced with a new document in the list of posted purchase credit memos.
 
-## <a name="to-create-a-purchase-credit-memo-by-copying-a-posted-purchase-invoice"></a>To create a purchase credit memo by copying a posted purchase invoice
+## To create a purchase credit memo by copying a posted purchase invoice
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Credit Memos**, and then choose the related link.
 2. Choose the **New** action to open a new empty purchase credit memo.
@@ -74,7 +74,7 @@ The purchase credit memo is removed and replaced with a new document in the list
 8. Choose the **OK** button. The copied invoice lines are inserted in the purchase credit memo.
 9. Complete the purchase credit memo as explained in [To create a purchase credit memo from a posted purchase invoice](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice).
 
-## <a name="to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents"></a>To create a purchase return order based on one or more posted purchase documents
+## To create a purchase return order based on one or more posted purchase documents
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Return Orders**, and then choose the related link.  
 2. Choose the **New** action.  
@@ -124,7 +124,7 @@ The purchase credit memo is removed and replaced with a new document in the list
 10. On the **Purchase Return Order** page, in the **Return Reason Code** field on each line, select the reason for the return.
 11. Choose the **Post** action.
 
-## <a name="to-create-a-replacement-purchase-order-from-a-purchase-return-order"></a>To create a replacement purchase order from a purchase return order
+## To create a replacement purchase order from a purchase return order
 
 You may agree with your vendor that they compensate you for a purchased item by replacing the item. The replacement item can be the same or it can be different. This situation could occur if the vendor mistakenly shipped the wrong item.  
 
@@ -133,7 +133,7 @@ You may agree with your vendor that they compensate you for a purchased item by 
 3. On the **Move Negative Purchase Lines** page, fill in the fields as necessary.
 4. Choose the **OK** button. The negative line is deleted from the purchase return order, and a new purchase order is created. For more information, see [Record Purchases](purchasing-how-record-purchases.md).  
 
-## <a name="to-create-a-purchase-allowance"></a>To create a purchase allowance
+## To create a purchase allowance
 
 If you receive items from your vendor that are not what you wanted, for example, if they are slightly damaged, the wrong colour or the wrong size, the vendor may offer you a purchase allowance.  
 
@@ -152,7 +152,7 @@ You can post this reduced purchase cost as an item charge on a credit memo or re
 
 When you post the purchase return order, the purchase allowance is added to the relevant purchase entry amount. In this way, you can maintain accurate inventory valuation.  
 
-## <a name="to-combine-return-shipments"></a>To combine return shipments
+## To combine return shipments
 
 If you want to return items covered by different purchase return orders to the same vendor, then you can use the **Combine Return Shipments** function.  
 
@@ -174,13 +174,13 @@ When return shipments are combined on a credit memo and posted, then a posted pu
     If an incorrect return shipment line was selected or you want to start over, you can just delete the lines on the purchase credit memo and then use the **Get Return Shipment Lines** function again.  
 6. Choose the **Post** action.  
 
-### <a name="to-remove-open-purchase-return-orders-after-combined-return-shipment-posting"></a>To remove open purchase return orders after combined return shipment posting
+### To remove open purchase return orders after combined return shipment posting  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Invoiced Purchase Return Orders**, and then choose the related link.  
 2. Fill in the fields as necessary, and then choose the **OK** button.  
 3. Alternatively, delete the individual purchase return orders manually.
 
-## <a name="see-also"></a>See Also
+## See Also
 [Purchasing](purchasing-manage-purchasing.md)  
 [Record Purchases](purchasing-how-record-purchases.md)  
 [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  

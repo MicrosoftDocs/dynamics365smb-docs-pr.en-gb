@@ -10,7 +10,7 @@ ms.date: 06/11/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="visit-our-video-library"></a>Visit Our Video Library
+# Visit Our Video Library
 
 You found our documentation. But some people prefer to watch content rather than read it. To that end, we're producing short, easily digestible videos. Most videos supplement our user assistance, and some of them can be viewed on their own.  
 
@@ -23,7 +23,7 @@ You can also view our "how to" videos, plus much other content, on the YouTube p
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Dynamics 365 channel on YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  

@@ -10,12 +10,12 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="set-up-pricing-and-additional-costs-for-services"></a>Set Up Pricing and Additional Costs for Services
+# Set Up Pricing and Additional Costs for Services
 You can use the [!INCLUDE[prod_short](includes/prod_short.md)] pricing features to set up and customize your application so that you apply and adjust pricing on service items, repairs, and orders. These pricing decisions are then easily transmitted to the invoicing process.  
   
 As your implementation requires, you can set up pricing groups and map them to specific time periods, customers, or currency. You can set up fixed, minimum, or maximum pricing, depending on the service contracts that you have with customers. Finally, as you adjust your prices, you can view and approve the changes before committing them to the ledger.  
 
-## <a name="to-set-up-a-service-price-group"></a>To set up a service price group
+## To set up a service price group
 You can set up groups containing service items that you want to receive the same special service pricing. You assign service price groups to service items on service item lines. You can also assign service price groups to service item groups.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Price Groups**, and then choose the related link.  
@@ -27,7 +27,7 @@ You can set up groups containing service items that you want to receive the same
  > [!Tip]
  > The **Adjustment Type** and **Amount** fields work together to specify whether an adjustment concerns a fixed amount, or applies only when the total service price exceeds or is lower than the amount in the **Amount** field.  
 
-## <a name="to-set-up-a-service-price-adjustment-group"></a>To set up a service price adjustment group
+## To set up a service price adjustment group  
 You can set up price adjustment groups to adjust service pricing of service items. For example, you can set up price adjustment groups that adjust price of freight or spare parts.  
   
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Price Adjustment Groups**, and then choose the related link.  
@@ -44,18 +44,18 @@ You can set up price adjustment groups to adjust service pricing of service item
 > [!Tip]
 > You can choose **Details** to add additional information about the adjustment group. For example, you can specify which item belongs to the service price adjustment group, and whether this is an item, a resource, a resource group, or a service charge.  
 
-## <a name="to-set-up-additional-costs-for-services"></a>To set up additional costs for services
+## To set up additional costs for services
 When you work with service items and service orders, you may need to register additional costs, such as travel costs to particular service zones or starting fees. When you create a service order, you can insert these costs and a line with the type **Cost** will be added to the order. Alternatively, if you want to apply the cost to all service orders, you can set up a default cost. For example, if you always want to apply a starting fee.
   
-### <a name="to-set-up-service-costs"></a>To set up service costs
+### To set up service costs
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Costs**, and then choose the related link. 
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-### <a name="to-specify-a-default-cost-for-service-orders"></a>To specify a default cost for service orders
+### To specify a default cost for service orders
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Setup**, and then choose the related link. 
 2. In the **Service Order Starting Fee** field, choose the appropriate service cost.
 
-## <a name="see-also"></a>See Also
+## See Also
 [Setting Up Service Management](service-setup-service.md)  
 [Service Management](service-service.md)  
 

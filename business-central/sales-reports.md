@@ -9,14 +9,14 @@ ms.date: 12/19/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="sales-reports-and-analytics-in-business-central"></a>Sales Reports and Analytics in Business Central
+# Sales Reports and Analytics in Business Central
 
 Sales reporting in [!INCLUDE [prod_short](includes/prod_short.md)] allows sales and business professionals to get insights and statistics about current and past sales activities.  
 
-## <a name="reports"></a>Reports
+## Reports
 [!INCLUDE [sales_reports](includes/sales-reports-include.md)]
 
-## <a name="tasks"></a>Tasks
+## Tasks
 
 The following articles describe some of the key tasks for analysing the state of your business:
 
@@ -24,7 +24,7 @@ The following articles describe some of the key tasks for analysing the state of
 * [View the Availability of Items](inventory-how-availability-overview.md)
 
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Setting Up Sales](sales-setup-sales.md)  
 [Sales](sales-manage-sales.md)  

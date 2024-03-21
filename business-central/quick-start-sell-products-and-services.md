@@ -10,11 +10,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sales-quick-start"></a>Sales Quick Start
+# Sales Quick Start
 
 To be able to sell products and services, you must first set up items and customers. Once that is done, you can start registering sales orders and sending out invoices.
 
-## <a name="set-up-items-to-sell"></a>Set up items to sell
+## Set up items to sell
 
 This video shows how to set up an item to sell in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -22,13 +22,13 @@ This video shows how to set up an item to sell in [!INCLUDE[prod_short](includes
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE47eLx?rel=0]
 
-### <a name="set-up-a-new-item"></a>Set up a new item
+### Set up a new item
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
 For more information and additional things you can do when setting up items, see [Register New Items](inventory-how-register-new-items.md).  
 
-## <a name="set-up-customers"></a>Set up customers
+## Set up customers
 
 This video shows how to set up a new customer in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -36,17 +36,17 @@ This video shows how to set up a new customer in [!INCLUDE[prod_short](includes/
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
-### <a name="set-up-a-new-customer"></a>Set up a new customer
+### Set up a new customer
 
 [!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
 For more information and additional things you can do when setting up customers, see [Register New Customers](sales-how-register-new-customers.md)
 
-## <a name="create-a-sales-order"></a>Create a sales order
+## Create a sales order  
 
 When you sell something to a customer, you have two options. The first, and simplest, is to just create a sales invoice. However, if your sales process is more complex, for example if you have situations where you only ship parts of an order quantity, you use a sales order.
 
-### <a name="to-create-a-sales-order"></a>To create a sales order
+### To create a sales order  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 10.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
 2. Select **New** to create a new entry.
@@ -76,11 +76,11 @@ When you sell something to a customer, you have two options. The first, and simp
 
 For more information and additional things you can do when creating customer sales orders, see [Sell Products with a Customer Sales Order](sales-how-sell-products.md).  
 
-## <a name="create-a-sales-invoice"></a>Create a sales invoice
+## Create a sales invoice
 
 When you create and post a sales invoice, you not only create the invoice document you send to the customer, you also create the related quantity and value entries in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-### <a name="to-create-and-post-a-sales-invoice"></a>To create and post a sales invoice
+### To create and post a sales invoice  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 20.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
 
@@ -106,7 +106,7 @@ When you create and post a sales invoice, you not only create the invoice docume
 
 For more information and additional things you can do when creating customer sales invoices, see [Invoice Sales](sales-how-invoice-sales.md)
 
-## <a name="see-also"></a>See Also
+## See Also
 
 [Business Central Quick Starts](quick-start-business-central.md)  
 [Sales Overview](sales-manage-sales.md)  

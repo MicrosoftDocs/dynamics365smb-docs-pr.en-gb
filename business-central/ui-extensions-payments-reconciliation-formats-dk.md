@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="the-payments-and-reconciliations-dk-extension"></a>The Payments and Reconciliations (DK) Extension
+# The Payments and Reconciliations (DK) Extension
 
 Make fast, error-free payments by exporting files that are formatted specifically for exchanges with your vendor or bank. These files speed up the payment and reconciliation processes, and eliminate errors that can happen when you manually enter the information on a bank website.  
 
@@ -19,7 +19,7 @@ This extension supports file formats for several Danish banks. When you export p
 > [!Note]
 > To use the extension, you must know the format that your bank or vendor requires. Some banks or vendors provide this information on their websites; however, you might need to contact their customer service to get the information.  
 
-## <a name="supported-bank-formats"></a>Supported Bank Formats
+## Supported Bank Formats
 This extension can apply the following file formats for payment files:  
 
 * BANKDATA-V3  
@@ -35,7 +35,7 @@ This extension can apply the following file formats for payment files:
 * SDC  
 * SDC-CSV  
 
-## <a name="to-set-up-the-extension"></a>To set up the extension
+## To set up the extension
 
 There are a few steps to get started.  
 
@@ -46,13 +46,13 @@ There are a few steps to get started.
 
 Additionally, you must assign vendors to a domestic **Gen. Bus. Posting Group** and a **Supplier Posting Group**. The Country/Region setting for the vendor must be Denmark (DK). For more information, see [Setting Up Posting Groups](finance-posting-groups.md).  
 
-### <a name="to-allow--to-export-payment-data"></a>To allow [!INCLUDE[prod_short](includes/prod_short.md)] to export payment data
+### To allow [!INCLUDE[prod_short](includes/prod_short.md)] to export payment data
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journal**, and then choose the related link.  
 2. On the **Edit Payment Journal** page, choose the **Bank** batch.  
 3. Choose the **Allow Payment Export** check box.  
 
-### <a name="to-specify-a-payment-method-for-a-vendor"></a>To specify a payment method for a vendor
+### To specify a payment method for a vendor
 
 The following table shows the combinations of FIK and Giro payment methods that [!INCLUDE[prod_short](includes/prod_short.md)] supports.
 
@@ -66,13 +66,13 @@ The following table shows the combinations of FIK and Giro payment methods that 
 2. Open the card, expand the **Payments** tab, in the **Payment Method** field choose the payment method.  
 3. Depending on your selection, you must complete other fields. See the table above for a description of the combinations.  
 
-### <a name="to-specify-the-format-to-use-for-a-bank-account"></a>To specify the format to use for a bank account
+### To specify the format to use for a bank account
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
 2. Open the card for the bank account.  
 3. In the **Payment Export Format** field, choose the format for your export file.  
 
-## <a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices"></a>Choosing the FIK or Giro payment information for vendor invoices
+## Choosing the FIK or Giro payment information for vendor invoices
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.
 2. Choose the vendor. Remember, this must be a Danish vendor with an address in Denmark.
@@ -84,7 +84,7 @@ The following table shows the combinations of FIK and Giro payment methods that 
 
 5. Post the invoice.
 
-## <a name="to-use-the-extension-to-export-payment-data"></a>To use the extension to export payment data
+## To use the extension to export payment data
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
 2. Choose the **Suggest Vendor Payment Journals** action.  
@@ -96,7 +96,7 @@ The following table shows the combinations of FIK and Giro payment methods that 
 4. In the **Bank Payment Type** field, choose **Electronic Payment**.  
 5. Choose the **Export** action.  
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Customising Business Central for [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
 [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  

@@ -9,13 +9,13 @@ ms.date: 12/13/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Walkthrough: Calculating Work in Progress for a Job
+# Walkthrough: Calculating Work in Progress for a Job
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 With jobs, you can schedule the usage of your company's resources and keep track of the various costs associated with the usage of resources on a specific project. Jobs involve the consumption of employee hours, machine hours, stock items, and other types of usage that have to be tracked as a job progresses. If a job runs over a long period, you might want to transfer these costs to a Work in Process (WIP) account on the balance sheet while the job is being completed. You can then recognise the costs and sales in your income statement accounts when it's appropriate.  
 
-## <a name="about-this-walkthrough"></a>About this walkthrough
+## About this walkthrough
 
  This walkthrough illustrates the following tasks:  
 
@@ -27,19 +27,19 @@ With jobs, you can schedule the usage of your company's resources and keep track
 
  Each step of the process calculates the value and moves the job transactions to the general ledger. The calculation and posting steps are separated to help you review your data and to make modifications before posting to the general ledger. Therefore, you should make sure that all information is correct after you run the calculation batch jobs and before you run the posting batch jobs.  
 
-## <a name="roles"></a>Roles
+## Roles
 
  This walkthrough uses the project team member (Tricia) as the persona.  
 
-## <a name="prerequisites"></a>Prerequisites
+## Prerequisites
 
  Before you can perform the tasks in the walkthrough, the [!INCLUDE[prod_short](includes/prod_short.md)] must be installed on your computer.  
 
-## <a name="story"></a>Story
+## Story
 
  This walkthrough focuses on CRONUS International Ltd., a design and consultancy firm that designs and fits new infrastructures, such as conference halls and offices, with furniture, accessories, and storage units. Most of the work at CRONUS is project-oriented and Tricia, a project team member, uses jobs to have an overview of each ongoing job that CRONUS has started and also the jobs that are completed. Some of the jobs can be lengthy and can run over months. Tricia can use a WIP account to record the work in process and to track the costs throughout the job.  
 
-## <a name="calculating-wip"></a>Calculating WIP
+## Calculating WIP
 
  CRONUS has taken on a lengthy project that has now extended across reporting periods. Tricia, a project team member, calculates the work in process (WIP) to make sure that the financial statement of the company is accurate.  
 
@@ -55,7 +55,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
 
  In the following walkthrough, Tricia applies the Cost Value method, their company standard, to calculate WIP. Tricia specifies what part of the job is included in the WIP calculation by assigning WIP-Total values to various job task lines.  
 
-### <a name="to-calculate-wip"></a>To calculate WIP
+### To calculate WIP  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2.  In the **Jobs** list, select the **Deerfield** job, and then choose the **Edit** action. This opens the job card in edit mode.  
@@ -87,7 +87,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
 
  Notice that the value for **Recog. Costs Amount** is 215.60 in the **To Post** column. This reflects the total costs of two of the items in the group of job tasks 1110 – 1130. The third item was set to **Excluded**, and therefore isn't included in the WIP calculation.  
 
-### <a name="to-review-wip-warnings"></a>To review WIP warnings
+### To review WIP warnings  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job WIP Cockpit**, and then choose the related link.  
 2.  Select the **Deerfield** job, and then choose the **Show Warnings** action.  
@@ -95,7 +95,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
 
  After the accounting period ends, Tricia has to recalculate the WIP to include completed work to this point.  
 
-### <a name="to-recalculate-wip"></a>To recalculate WIP
+### To recalculate WIP  
 
 1.  On the **Job** card, choose the **WIP Entries** action to view the WIP calculation.  
 
@@ -107,11 +107,11 @@ With jobs, you can schedule the usage of your company's resources and keep track
 > [!NOTE]  
 >  Work in Progress and Recognition is only calculated. It is not posted to the general ledger. To do so, you must run **Post WIP to G/L** batch job after you have calculated the WIP and Recognition.
 
-## <a name="posting-wip-to-general-ledger"></a>Posting WIP to general ledger
+## Posting WIP to general ledger
 
  Now that Tricia has calculated WIP for this job, they can post it to the general ledger.  
 
-### <a name="to-post-wip-to-general-ledger"></a>To post WIP to general ledger
+### To post WIP to general ledger  
 
 1.  From the **Jobs** list, select the **Deerfield** job.  
 2.  Choose the **WIP** action, and then choose the **Post WIP to G/L** action.  
@@ -131,11 +131,11 @@ With jobs, you can schedule the usage of your company's resources and keep track
 10. On the **WIP and Recognition** FastTab, notice that in the **Posted** column, the **Recog. Costs G/L Amount** field is now filled in, which indicates that WIP was posted to the general ledger successfully.  
 11. Choose the **OK** button to close the card.  
 
-## <a name="reversing-a-wip-posting"></a>Reversing a WIP posting
+## Reversing a WIP posting
 
  Tricia determines that the job tasks that were excluded from the calculation of WIP should have been calculated in WIP. Tricia can reverse the incorrect postings without having to post new WIP postings.  
 
-### <a name="to-reverse-a-wip-posting"></a>To reverse a WIP posting
+### To reverse a WIP posting  
 
 1.  From the **Jobs** list, select the **Deerfield** job.  
 2.  Choose the **WIP** action, and then choose the **Post WIP to G/L** action.  
@@ -154,11 +154,11 @@ With jobs, you can schedule the usage of your company's resources and keep track
     > [!NOTE]  
     >  Suppose Tricia calculated and posted WIP for a job with incorrect dates. Following the method that was discussed earlier, Tricia can reverse the incorrect postings, correct the dates, and repost to the general ledger.  
 
-## <a name="next-steps"></a>Next steps
+## Next steps
 
  This walkthrough has taken you through the steps of calculating WIP in [!INCLUDE[prod_short](includes/prod_short.md)]. In larger jobs, it might be useful to transfer the costs to a WIP account periodically while the job is being completed. This walkthrough has shown you how to exclude task lines from a calculation. It also shows you when you would have to recalculate. And finally, this walkthrough demonstrates how to post the WIP to the general ledger. An example of how to reverse a WIP posting to the general ledger is also included.  
 
-## <a name="see-also"></a>See also
+## See also 
 
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
  [Walkthrough: Managing Projects with Jobs](walkthrough-managing-projects-with-jobs.md)  

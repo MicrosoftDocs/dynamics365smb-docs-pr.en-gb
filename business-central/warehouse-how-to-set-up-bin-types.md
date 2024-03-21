@@ -9,13 +9,13 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-bin-types"></a>Set Up Bin Types
+# Set Up Bin Types
 
 You can direct the flow of items through bins that you have defined for particular warehouse activities. You give each bin its basic flow activities, and thereby define the way a bin is used, by assigning it a bin type.  
 
 There are six types. You can operate your warehouse with all of the six possible bin types, or you can choose to operate with just the RECEIVE, PUTPICK, SHIP and QC bin types. These four bin types enable suggestions to be made that support the flow of items and allow you to record inventory discrepancies.  
 
-## <a name="to-set-up-the-bin-types-you-want-to-use"></a>To set up the bin types you want to use
+## To set up the bin types you want to use
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bin Types**, and then choose the related link.  
 2.  On the **Bin Types** page, create a 10-character code for a bin type.  
@@ -37,7 +37,7 @@ The bin types that you can create are listed below.
 |PUTPICK|Items in bins that are suggested for both the put-away and pick functions. Bins of this type probably have different bin rankings. You can set up your bulk storage bins as this type of bin with low bin rankings compared to your ordinary pick bins or forward picking area bins.|  
 |QC|This bin is used for inventory adjustments if you specify this bin on the location card in the **Adjustment Bin Code** field. You can also set up bins of this type for defective items and items being inspected. You can move items to this type of bin if you want to make them inaccessible to the usual item flow.<br /><br /> **NOTE:** Unlike all other bin types, the **QC** bin type has none of the item handling check boxes selected by default. This indicates that any content you place in a QC bin is excluded from item flows.|  
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  

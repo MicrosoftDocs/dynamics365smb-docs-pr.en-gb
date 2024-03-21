@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sustainability-management-overview"></a>Sustainability management overview
+# Sustainability management overview
 
 >[!IMPORTANT]
 >This feature will be available in Business Central from the **2024 release wave 1**, and all reference links will be enabled once they are available.
@@ -43,7 +43,7 @@ To get started with Sustainability Management, see the following articles.
 |How to record emissions | Use this article to learn how to work with all types of Sustainability Journals. |
 
 
-## <a name="see-also"></a>See also
+## See also   
 [Finance](finance.md)    
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

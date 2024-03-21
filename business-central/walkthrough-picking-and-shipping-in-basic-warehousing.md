@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.form: '7335, 7337, 7339, 7340, 7341, 7362, 9008'
 ms.service: dynamics-365-business-central
 ---
-# <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Walkthrough: Picking and Shipping in Basic Warehouse Configurations
+# Walkthrough: Picking and Shipping in Basic Warehouse Configurations
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], you pick and ship items using one of four methods, as described in the following table.
 
@@ -25,7 +25,7 @@ Learn more at [Outbount Warehouse Flow](design-details-outbound-warehouse-flow.m
 
 The following walkthrough demonstrates method B in the previous table.  
 
-## <a name="about-this-walkthrough"></a>About This Walkthrough
+## About This Walkthrough
 
 In basic warehouse configurations where your location is set up to require pick processing but not ship processing, you use the **Inventory Pick** page to record and post pick and ship information for your outbound source documents. The outbound source document can be a sales order, purchase return order, outbound transfer order, or a production order with component need.  
 
@@ -37,7 +37,7 @@ This walkthrough demonstrates the following tasks:
 - Creating an inventory pick based on a released source document.  
 - Registering the warehouse movement from the warehouse and at the same time posting the sales shipment for the source sales order.  
 
-## <a name="roles"></a>Roles
+## Roles
 
 This walkthrough demonstrates tasks that are performed by the following user roles:  
 
@@ -52,33 +52,33 @@ To complete this walkthrough, you will need:
 - For [!INCLUDE[prod_short](includes/prod_short.md)] online, a company based on the **Advanced Evaluation - Complete Sample Data** option in a sandbox environment. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, CRONUS installed.
  -->
 
-## <a name="story"></a>Story
+## Story
 
 Ellen, the warehouse manager at CRONUS, sets up SOUTH warehouse for basic pick handling where warehouse workers process outbound orders individually. Susan, the order processor, creates a sales order for 30 units of item 1928-S to be shipped to customer 10000 from the SOUTH Warehouse. John, the warehouse worker must make sure that the shipment is prepared and delivered to the customer. John manages all involved tasks on the **Inventory Pick** page, which automatically points to the bins where 1928-S is stored.
 
 [!INCLUDE[set_up_location.md](includes/set_up_location.md)]
 
-### <a name="setting-up-the-bin-codes"></a>Setting Up the Bin Codes
+### Setting Up the Bin Codes
 
 Once you have the location set up, you must add two bins.
 
-#### <a name="to-setup-the-bin-codes"></a>To setup the bin codes
+#### To setup the bin codes
 
 1. Select the **Bins** action.
 2. Create two bins, with the codes *S-01-0001* and *S-01-0002*.
 
-### <a name="making-yourself-a-warehouse-employee-at-location-south"></a>Making Yourself a Warehouse Employee at Location SOUTH
+### Making Yourself a Warehouse Employee at Location SOUTH
 
 In order to use this functionality, you must add yourself to the location as a warehouse worker. 
 
-#### <a name="to-make-yourself-a-warehouse-employee"></a>To make yourself a warehouse employee
+#### To make yourself a warehouse employee
 
   1. Choose the ![Lightbulb that opens the Tell Me feature first.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
   2. Choose the **User ID** field, and select your own user account on the **Warehouse Employees** page.
   3. In the **Location Code** field, choose SOUTH.  
   4. Select the **Default** field, and then select the **Yes** button.  
 
-### <a name="making-item-1928-s-available"></a>Making Item 1928-S Available
+### Making Item 1928-S Available
 
 To make item 1928-S available at the SOUTH location follow these steps:  
 
@@ -95,11 +95,11 @@ To make item 1928-S available at the SOUTH location follow these steps:
   3. Choose **Actions**, then **Posting**, and then choose **Post**.  
   4. Select the **Yes** button.  
 
-## <a name="creating-the-sales-order"></a>Creating the Sales Order
+## Creating the Sales Order
 
 Sales orders are the most common type of outbound source document.  
 
-### <a name="to-create-the-sales-order"></a>To create the sales order
+### To create the sales order
 
 1. Choose the ![Lightbulb that opens the Tell Me feature third.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2. Choose the **New** action.  
@@ -115,11 +115,11 @@ Sales orders are the most common type of outbound source document.
 
     John proceeds to pick and ship the sold items.  
 
-## <a name="picking-and-shipping-items"></a>Picking and Shipping Items
+## Picking and Shipping Items
 
 On the **Inventory Pick** page, you can manage all outbound warehouse activities for a specific source document, such as a sales order. [!INCLUDE[tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
-### <a name="to-pick-and-ship-items"></a>To pick and ship items
+### To pick and ship items
 
 1. Choose the ![Lightbulb that opens the Tell Me feature fourth.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Picks**, and then choose the related link.  
 2. Choose the **New** action.  
@@ -136,7 +136,7 @@ On the **Inventory Pick** page, you can manage all outbound warehouse activities
 
     The 30 Amsterdam Lamps are now registered as picked from bins S-01-0001 and S-01-0002, and a negative item ledger entry is created reflecting the posted sales shipment.  
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md)  
 [Pick Items for Warehouse Shipment](warehouse-how-to-pick-items-for-warehouse-shipment.md)  

@@ -10,7 +10,7 @@ ms.date: 11/02/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="register-new-items"></a>Register New Items
+# Register New Items
 
 Items, among other products, are the basis of your business, the goods or services that you trade in. Each item must be registered as an item card.
 
@@ -33,7 +33,7 @@ The following procedure explains how to create an item card from scratch. You ca
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
-## <a name="to-create-a-new-item-card"></a>To create a new item card
+## To create a new item card
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
@@ -48,7 +48,7 @@ The item is now registered, and the item card is ready to be used on purchase an
 
 If you want to use this item card as a template when you create new item cards, you can save it as a template. For more information, see the following section.  
 
-### <a name="to-save-the-item-card-as-a-template"></a>To save the item card as a template
+### To save the item card as a template
 
 1. On the **Item Card** page, choose the **Save as Template** action. The **Item Template** page opens showing the item card as a template.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -58,11 +58,11 @@ If you want to use this item card as a template when you create new item cards, 
 
 The item template is added to the list of item templates, so that you can use it to create new item cards.
 
-### <a name="items-used-in-production-orders"></a>Items used in production orders
+### Items used in production orders
 
 If you want to register items that are used in production orders, you specify the replenishment system as *Prod. order* on the **Replenishment** FastTab. For more information, see [About Production Orders](production-about-production-orders.md).  
 
-## <a name="to-set-up-multiple-vendors-for-an-item"></a>To set up multiple vendors for an item
+## To set up multiple vendors for an item
 
 If you purchase the same item from more than one vendor, you must enter information about each vendor of the item, such as prices, lead time, discounts, and so on.  
 
@@ -75,11 +75,11 @@ If you purchase the same item from more than one vendor, you must enter informat
 
 The vendors appear on the **Item Vendor Catalogue** page, which you open from the item card, so that you can easily select an alternate vendor.
 
-## <a name="set-up-item-substitutions"></a>Set up item substitutions
+## Set up item substitutions
 
 You can set up items to have replacements, such as other items that can be used in place of the original item.
 
-### <a name="to-make-an-item-substitution"></a>To make an item substitution
+### To make an item substitution
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2. Find the relevant item, and then choose the **Item No.** to open the Item Card.  
@@ -92,29 +92,29 @@ When the requested quantity exceeds the quantity that is available in inventory,
 > [!NOTE]  
 > Be aware that item substitutions will not automatically cause an item to be replaced by another item, for example when creating a sales order or in a BOM. Instead, you will be alerted to the fact that a substitution is available to you.
 
-## <a name="categories-attributes-and-variants"></a>Categories, attributes, and variants
+## Categories, attributes, and variants
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
 Learn more about variants at [Manage Product Variants](inventory-item-variants.md).  
 
-## <a name="delete-item-cards"></a>Delete item cards
+## Delete item cards
 
 If you post a transaction for an item, you can't delete the card because the ledger entries might be needed for inventory valuation or auditing. To delete item cards with ledger entries, contact to Microsoft partner to do so through code.  
 
-## <a name="manage-inventory-in-warehouses"></a>Manage inventory in warehouses
+## Manage inventory in warehouses
 
 When you register a new item, you see fields that are related to warehouse management, especially on the **Warehouse** FastTab. If your organisation doesn't use the warehouse management capabilities in [!INCLUDE [prod_short](includes/prod_short.md)], then you can ignore those fields.  
 
 If your organisation later sets up warehouse management, we recommend that you make sure that each existing item has the right information in the various fields. This way, the warehouse processes can run as expected. The information can includes fields such as **Warehouse Class Code** or **Put-away Template Code**. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).  
 
-## <a name="planning"></a>Planning
+## Planning
 
 When your company uses the supply planning processes in [!INCLUDE [prod_short](includes/prod_short.md)], you must fill in the relevant fields on the **Planning** FastTab. For an introduction to the planning area, see [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md).  
 
 For examples of how you can use the fields on the **Planning** FastTab, see [Setup Best Practices: Planning Parameters](setup-best-practices-planning-parameters.md).  
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Inventory](inventory-manage-inventory.md)  
 [Set Up Units of Measure](inventory-how-setup-units-of-measure.md)  

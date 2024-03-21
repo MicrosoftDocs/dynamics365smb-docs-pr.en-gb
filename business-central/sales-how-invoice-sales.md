@@ -10,7 +10,7 @@ ms.date: 11/01/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="invoice-sales"></a>Invoice sales
+# Invoice sales
 
 You can usually create either a sales order or sales invoice to record your agreement with a customer to sell certain products on certain delivery and payment terms.  
 
@@ -24,7 +24,7 @@ In all other situations, sales orders and sales invoices work in the same way. L
 
 You can negotiate with the customer by first creating a sales quote, which you can convert to a sales invoice when you agree on the sale. Learn more at [Make Sales Quotes](sales-how-make-offers.md).
 
-## <a name="create-sales-invoices"></a>Create sales invoices
+## Create sales invoices
 
 If the customer decides to buy, you post the sales invoice to create the related quantity and value entries. When you post the sales invoice, you can also email it as a PDF attachment. You can prefill the email body with a summary of the invoice and payment information, such as providing a link to PayPal. Learn more at [Send Documents by Email](ui-how-send-documents-email.md). When the customer pays the invoice, you can register that payment in different ways, depending on the size and preferred workflows of your organisation. Learn more at [Registering Payments](#register-payments) section.  
 
@@ -32,7 +32,7 @@ Item cards can be of the **Inventory**, **Service**, or **Non-Inventory** type t
 
 You can fill customer fields on the sales invoice in one of two ways, depending on whether the customer is already registered. See step 2 in the following procedure.
 
-### <a name="to-create-a-sales-invoice"></a>To create a sales invoice
+### To create a sales invoice
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
 2. In the **Customer Name** field, enter the name of an existing customer. If, however, the customer is new and therefore not registered, follow these steps to populate standard customer information on the **Sales Invoice** page:
@@ -89,11 +89,11 @@ The **Post and Send Confirmation** dialog box displays the customer's preferred 
 
 The related item and customer ledger entries are now created in your system, and the sales invoice is output as a PDF document. The sales invoice is removed from the list of sales invoices and replaced with a new document in the list of posted sales invoices.  
 
-### <a name="calculate-invoice-discounts-on-sales"></a>Calculate invoice discounts on sales
+### Calculate invoice discounts on sales
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
-## <a name="posted-invoices"></a>Posted invoices
+## Posted invoices
 
 [!INCLUDE [posted-invoices](includes/posted-invoices.md)]
 
@@ -101,7 +101,7 @@ You can easily correct or cancel a posted sales invoice before the final payment
 
 [Open the **Posted Sales Invoices** list](https://businesscentral.dynamics.com/?page=143) in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="register-payments"></a>Register payments
+## Register payments
 
 Depending on your business needs, you can get paid and register a payment in different ways: manually, automatically, and through payment services.  
 
@@ -116,11 +116,11 @@ You can even create directly paid invoices for unregistered customers by setting
 > [!TIP]
 > If you want to send your customers reminders of overdue payments, you need to first set up reminder levels and terms. Learn more at [Set Up Reminder Terms and Levels](finance-setup-reminders.md).  
 
-## <a name="external-document-numbers"></a>External document numbers
+## External document numbers
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  

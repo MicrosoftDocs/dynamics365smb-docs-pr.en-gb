@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="managing-contacts"></a>Managing contacts
+# Managing contacts
 
 Employees in your company regularly meet prospective business relations that might develop into formal relationships. All such external contacts and their detailed information should be recorded in the system so that communication is more successful and so they can easily be converted to formal customer, vendor, or bank relationships.
 
@@ -26,7 +26,7 @@ The following table describes a sequence of tasks, with links to the articles th
 |Set up profile questionnaires that you want to use when entering information about your contacts' profiles.|[Use Profile Questionnaires to Classify Business Contacts](marketing-create-contact-profile-questionnaire.md)|
 |Resolve confusion when two or more records exist for the same contact.|[Merge Duplicate Records](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-also"></a>See also
+## See also 
 
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)  

@@ -9,13 +9,13 @@ ms.date: 06/15/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="general-journal-post-line-overview"></a>General Journal Post Line Overview
+# General Journal Post Line Overview
 
 Codeunit 12, **Gen. Jnl.-Post Line**, is the major application object for general ledger posting and is the only place to insert general ledger, VAT, and customer and vendor ledger entries. This codeunit is also used for all Apply, Unapply and Reverse operations.  
   
 In Microsoft Dynamics NAV 2013 R2, the codeunit was redesigned because it had become very large, with approximately 7,600 code lines. The architecture was changed and the codeunit has been made simpler and more maintainable. This documentation describes the changes and provides information that you will need for upgrade.  
   
-## <a name="old-architecture"></a>Old Architecture
+## Old Architecture  
 The old architecture had the following features:  
   
 * There was extensive use of global variables, which increased the possibility of hidden errors due to use of variables with the wrong scope.  
@@ -26,7 +26,7 @@ The old architecture had the following features:
 * A large part of the code in codeunit 12, approximately 30 percent, related to payment discount and tolerance calculations, although these features are not needed in many countries or regions.  
 * Posting, Apply, Unapply, Reverse, Payment Discount and Tolerance, and Exchange Rate Adjustment were married together in codeunit 12 using a long list of global variables.  
   
-### <a name="new-architecture"></a>New Architecture
+### New Architecture  
 In [!INCLUDE[prod_short](includes/prod_short.md)], codeunit 12 has had the following improvements:  
   
 * Codeunit 12 has been refactored into smaller procedures (all less than 100 code lines).  
@@ -36,7 +36,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)], codeunit 12 has had the follo
 * Many helper functions have been transferred to corresponding customer and vendor ledger entry tables.  
 * The use of global variables has been minimised, so that each procedure uses parameters and encapsulates its own application logic.  
   
-## <a name="see-also"></a>See Also
+## See Also
 
 [Design Details: Posting Interface Structure](design-details-posting-interface-structure.md)  
 [Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)  
