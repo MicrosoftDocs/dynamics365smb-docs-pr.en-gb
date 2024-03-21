@@ -11,11 +11,11 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# Managing VAT Rate Changes
+# <a name="managing-vat-rate-changes"></a>Managing VAT Rate Changes
 
 VAT rates can change depending on local legislation. Any change in VAT impacts your data in [!INCLUDE[prod_short](includes/prod_short.md)] whether or not the VAT rate is lowered, raised, or removed. VAT is connected to many entities in [!INCLUDE[prod_short](includes/prod_short.md)], such as customers, vendors, items, resources, item charges, and general ledger accounts. Changes in VAT rates usually happen at a specific date, from which point you will need to have changed the VAT setup, posting groups etc. to make sure new sales orders and purchase orders are created with the new VAT rate.
 
-## Changing VAT rates
+## <a name="changing-vat-rates"></a>Changing VAT rates
 
 The optimal approach to manage a VAT rate change is to fully post and close open orders and other documents before the VAT rate switch date, to make sure these are not impacted by the change. This is the cleanest approach that allows you to start up new orders and documents with the new VAT rate.
 
@@ -30,11 +30,11 @@ The following approach is suggested to manage a VAT rate change
 > [!NOTE]  
 > We are currently updating the VAT Rate Change tool. The functionality mentioned below may not match the functionality in your environment. The update will take place before July 1st 2020 and will not be a regular monthly update. Instead, all environments will be updated automatically (hotfix). When this update is complete, this message will no longer appear.  
 
-## The VAT Rate Change tool
+## <a name="the-vat-rate-change-tool"></a>The VAT Rate Change tool
 
 The VAT Rate Change tool can assist with conversion of VAT Rates on master data, journals and orders, to some extent. This is useful if you want to convert VAT on master data more easily or if you have orders that you cannot close before the switch date and will be processed over a longer period of time, crossing the VAT rate switch date. There are certain restrictions and limitations in the VAT Rate Change tool that applies.
 
-## Understanding the VAT rate conversion process and limitations
+## <a name="understanding-the-vat-rate-conversion-process-and-limitations"></a>Understanding the VAT rate conversion process and limitations
 
 The VAT Rate Change tool performs VAT rate conversions for master data, journals, and orders in different ways. The selected master data and journals will be updated by the new general product posting group or VAT product post group. If an order has been fully or partially shipped, the shipped items will keep the current general product posting group or VAT product posting group. A new order line will be created for the unshipped items and updated to align current and new VAT or general product posting groups. In addition, item charge assignments, configuration templates for items, reservations, and item tracking information will be updated accordingly. 
 
@@ -55,7 +55,7 @@ There are a few things that the tool does not convert:
 * Prices on Sales Prices (master data)
 * Business Posting Groups on Customers and Vendors.
 
-### To prepare VAT rate change conversions
+### <a name="to-prepare-vat-rate-change-conversions"></a>To prepare VAT rate change conversions
 
 Before you set up the VAT rate change tool, you must make the following preparations.
 
@@ -64,20 +64,20 @@ Before you set up the VAT rate change tool, you must make the following preparat
 * To reduce the number of documents that get converted, post as many documents as possible and reduce unposted documents to a minimum.  
 * Back up data.
 
-### To set up the VAT rate change tool
+### <a name="to-set-up-the-vat-rate-change-tool"></a>To set up the VAT rate change tool
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Rate Change Setup**, and then choose the related link.  
 2. On the **Master Data**, **Journals**, and **Documents** FastTabs, choose a posting group value from the option list for needed fields. For each group you can choose whether to convert VAT product posting groups or general product posting groups, or convert both values if they are available in the master data item. For some areas you can also set a filter to convert only a subset of values, for example, G/L accounts. 
 3. On the **Prices Incl. VAT** FastTab, choose which line types on orders for which you want to update unit prices. Unit prices on lines of type Item and Resource will always be updated.
 
-### To set up product posting group conversion
+### <a name="to-set-up-product-posting-group-conversion"></a>To set up product posting group conversion
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Rate Change Setup**, and then choose the related link.  
 2. On the **VAT Rate Change Setup** page, choose either the **VAT Prod. Posting Group Conv.** or **Gen Prod. Posting Group Conv.** action.  
 3. In the **From Code** field, enter the current posting group.  
 4. In the **To Code** field, enter the new posting group.  
 
-### To perform VAT rate change conversion
+### <a name="to-perform-vat-rate-change-conversion"></a>To perform VAT rate change conversion
 
 You use the VAT rate change tool to manage changes in the standard rate of VAT. You perform VAT and general posting group conversions to change VAT rates and maintain accurate VAT reporting. Depending on your setup, the following changes are made:  
 
@@ -100,7 +100,7 @@ You use the VAT rate change tool to manage changes in the standard rate of VAT. 
 > [!IMPORTANT]  
 > After the conversion, the **Converted** field in the **VAT Rate Change Log Entry** table is chosen and the **Converted Date** field in the **VAT Rate Change Log Entry** table displays the conversion date.  
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Set Up Value-Added Tax](finance-setup-vat.md)  
 [Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)  

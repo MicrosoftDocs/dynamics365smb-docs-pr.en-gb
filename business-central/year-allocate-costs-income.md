@@ -11,7 +11,7 @@ ms.date: 02/05/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Allocate recurring costs and income
+# <a name="allocate-recurring-costs-and-income"></a>Allocate recurring costs and income
 
 You can allocate an entry in a recurring general journal to several accounts when you post the journal. To learn more about recurring general journals, go to [Work with recurring journals](ui-work-general-journals.md#work-with-recurring-journals). 
 
@@ -26,7 +26,7 @@ The allocation features work with recurring general journals and in fixed asset 
 
 The following procedures describe how to prepare to allocate costs in a recurring general journal by defining allocation keys. When allocation keys are defined, you complete and post the journal like any other recurring general journal. For more information, see [Work with General Journals](ui-work-general-journals.md).
 
-## To set up allocation keys
+## <a name="to-set-up-allocation-keys"></a>To set up allocation keys
 
 You can allocate an entry in a recurring general journal to several different accounts when you post the journal. The allocation can be made by quantity, percentage, or amount.  
 
@@ -44,14 +44,14 @@ You can allocate an entry in a recurring general journal to several different ac
 10. After entering the allocations lines, choose **OK** to return to the **Recurring General Journal** page. The **Allocated Amt. (USD)** field is filled in and matches the **Amount** field.
 11. Post the journal.
 
-## To change an allocation key that has already been set up
+## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>To change an allocation key that has already been set up
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Recurring General Journal**, and then choose the related link.
 2. On the **Recurring General Journal** page, select the journal with the allocation.
 3. Choose the line with the allocation, and then choose the **Allocations** action.
 4. Change the relevant fields, and then choose **OK**.
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Closing Years and Periods](year-close-years-periods.md)  
 [Work with General Journals](ui-work-general-journals.md)    

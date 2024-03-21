@@ -9,7 +9,7 @@ ms.date: 03/08/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Batch Post Output and Run Times
+# <a name="batch-post-output-and-run-times"></a>Batch Post Output and Run Times
 
 The output quantity represents the work progress in the form of the finished quantity and used capacity of work or machine centre.
 
@@ -24,7 +24,7 @@ You can use the output journal to:
 
 The **Production Journal** page lets you do the same tasks as in the **Output Journal** page, and also do consumption posting tasks. For more information, see [Register Consumption and Output for One Released production order line](production-how-to-register-consumption-and-output.md).
 
-## To post output quantities and/or register run times for one or more production order lines
+## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>To post output quantities and/or register run times for one or more production order lines
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.  
 2. Fill in the fields with the production order data and the output data and/or run time. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -38,7 +38,7 @@ The **Production Journal** page lets you do the same tasks as in the **Output Jo
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Post Scrap Manually](production-how-to-post-scrap.md)
 [Reverse Output Posting](production-how-to-reverse-output-posting.md)

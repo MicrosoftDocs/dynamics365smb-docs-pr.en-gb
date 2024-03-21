@@ -10,7 +10,7 @@ ms.date: 02/20/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Correct or cancel unpaid sales invoices
+# <a name="correct-or-cancel-unpaid-sales-invoices"></a>Correct or cancel unpaid sales invoices
 
 You can correct or cancel an unpaid posted sales invoice, provided that it hasn't been fully shipped. This is useful if you make a mistake or if the customer requests a change before the shipment is complete. In all other scenarios, we recommend that you create a corrective sales credit memo directly. For more information, see [To create a sales credit memo from a posted sales invoice](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-from-a-posted-sales-invoice).  
 
@@ -30,7 +30,7 @@ When you correct or cancel a posted sales invoice, the corrective sales credit m
 > [!TIP]
 > If you have posted a prepayment invoice for a sales invoice that you then correct or cancel, you must correct or cancel the prepayment as well. For more information, see [Correct Prepayments](finance-how-to-correct-prepayments.md).
 
-## To cancel a posted sales invoice
+## <a name="to-cancel-a-posted-sales-invoice"></a>To cancel a posted sales invoice
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.  
 2. Select the posted sales invoice that you want to cancel.
@@ -42,11 +42,11 @@ When you correct or cancel a posted sales invoice, the corrective sales credit m
     A sales credit memo is automatically created and posted to void the initial posted sales invoice. The **Cancelled** field on the initial posted sales invoice is changed to **Yes**.
 4. Choose **Show Corrective Credit Memo** to view the posted sales credit memo that voids the initial posted sales invoice.
 
-### Partial invoice posting also supported
+### <a name="partial-invoice-posting-also-supported"></a>Partial invoice posting also supported
 
 If the cancellation is related to a partial invoice posting, then the originating sales order line is updated to reflect the cancelled invoiced quantity. The **Qty. to Invoice** and **Qty. Invoiced** fields on the related sales order line are reset to the values before the partial posting.
 
-## To correct a posted sales invoice
+## <a name="to-correct-a-posted-sales-invoice"></a>To correct a posted sales invoice
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.  
 2. Select the posted sales invoice that you want to correct.
@@ -62,7 +62,7 @@ If the cancellation is related to a partial invoice posting, then the originatin
     A sales credit memo is automatically created and posted to void the initial posted sales invoice.
 5. Choose the **Show Corrective Credit Memo** action to view the posted sales credit memo that voids the initial posted sales invoice.
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  

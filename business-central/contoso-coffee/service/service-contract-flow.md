@@ -9,7 +9,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Walkthrough of service contracts for service items
+# <a name="walkthrough-of-service-contracts-for-service-items"></a>Walkthrough of service contracts for service items
 
 This walkthrough demonstrates several core processes:
 
@@ -20,13 +20,13 @@ This walkthrough demonstrates several core processes:
 - Complete the time entry for the Service Order
 - Post and Invoice the Contract Service Order
 
-## Creation of service items
+## <a name="creation-of-service-items"></a>Creation of service items
 
-### Scenario  
+### <a name="scenario"></a>Scenario
 
 Susan, the order processor, posts a sales order selling an Item configured to generate a Service Item.  
 
-### Steps
+### <a name="steps"></a>Steps
 
 1. Check that **Item** has **Service Item Group** selected.
    
@@ -40,13 +40,13 @@ Susan, the order processor, posts a sales order selling an Item configured to ge
     2. Select the order for customer 10000. The External Orders No. is *SVC-1*.
     3. Choose the **Post** action to ship the item to the customer.
 
-### Results
+### <a name="results"></a>Results
 
 - A Service Item is created for Customer 10000
 
-##  Invoicing a service contract
+## <a name="invoicing-a-service-contract"></a>Invoicing a service contract
 
-### Scenario
+### <a name="scenario-1"></a>Scenario
 
 Charles, the service manager, then creates a Service Contract to invoice for regular maintenance visits.
 
@@ -69,18 +69,18 @@ Charles, the service manager, then creates a Service Contract to invoice for reg
    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Invoices**, and then choose the related link.
    2. Locate the Service Invoice and choose the **Post** action.
 
-### Results
+### <a name="results-1"></a>Results
 
 - A Signed Service Contract is created, with Ledger Entries
 - A Posted Service Invoice is created
 
-## Create a service order for a service contract and assign resources
+## <a name="create-a-service-order-for-a-service-contract-and-assign-resources"></a>Create a service order for a service contract and assign resources
 
-### Scenario  
+### <a name="scenario-2"></a>Scenario
 
 Charles, the service manager, creates the Service Orders for regular maintenance orders under Service Contract, then review the Dispatch Board to assign them.
 
-### Steps
+### <a name="steps-1"></a>Steps
 
 1. Run the Service Orders that fulfil the obligations of active Service Contracts.
    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Contract Service Orders**, and then choose the related link.
@@ -103,21 +103,21 @@ Charles, the service manager, creates the Service Orders for regular maintenance
     3. The Allocation is changed to a Status to Active.
     4. Refreshing the Dispatch Board shows the **No of Allocations** changed from 0 to 1 for the Service Order.
 
-### Results
+### <a name="results-2"></a>Results
 
 - Service Orders are created for the Service Contracts
 - The Service Orders are allocated to a resource to complete the work
 
-## Complete the time entry for the service order and post the service order
+## <a name="complete-the-time-entry-for-the-service-order-and-post-the-service-order"></a>Complete the time entry for the service order and post the service order
 
-### Scenario  
+### <a name="scenario-3"></a>Scenario
 
 The service technician registers their time directly against the Service Order, then mark order as finished.
 
 > [!NOTE]
 > Time Entry for Service Orders can be entered via Time Sheets. For more information, see [link to Timesheet if this note makes sense].
 
-### Steps
+### <a name="steps-2"></a>Steps
 
 1. Locate the Service Order and enter the time into the Service Line
    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders**, and then choose the related link.
@@ -132,11 +132,11 @@ The service technician registers their time directly against the Service Order, 
 2. On the Service Order, Post the consumption
    1. Choose the **Post** action to complete the Service Order, select the **Ship and Consume** action, and then choose the **OK** button.
 
-### Results
+### <a name="results-3"></a>Results
 
 - Service Ledger Entries are created associated with the Service Item, Service Contract, and Resource
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Introduction to Contoso Coffee Demo Data](../../contoso-coffee/contoso-coffee-intro.md)  
 [About Production Orders](../../production-about-production-orders.md)

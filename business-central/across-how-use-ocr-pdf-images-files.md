@@ -10,7 +10,7 @@ ms.date: 06/14/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Use OCR to Turn PDF and Image Files into Electronic Documents
+# <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Use OCR to Turn PDF and Image Files into Electronic Documents
 
 From PDF or image files that you receive from your trading partners, you can have an external OCR service (Optical Character Recognition) generate electronic documents that can be converted to document records in [!INCLUDE[prod_short](includes/prod_short.md)]. For example, when you receive an invoice in PDF format from your vendor, you can [send it to the OCR service from the **Incoming Documents** page](#to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-page).
 
@@ -25,7 +25,7 @@ The traffic of files to and from the OCR service is processed by a dedicated job
 > [!NOTE]
 > The OCR feature is provided by external providers. Choose a service package that is appropriate for your organisation and/or country/region. Find services compatible with [!INCLUDE[prod_short](includes/prod_short.md)] and details on available features at [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-## To send a PDF or image file to the OCR service from the Incoming Documents page
+## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-page"></a>To send a PDF or image file to the OCR service from the Incoming Documents page
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents**, and then choose the related link.
 2. Create a new incoming document record and attach the file. For more information, see [Create Incoming Document Records](across-how-create-income-document-records.md).  
@@ -36,7 +36,7 @@ The traffic of files to and from the OCR service is processed by a dedicated job
 
    The value in the **OCR Status** field changes to **Sent**, if no errors exist.
 
-## To send a PDF or image file to the OCR service by email
+## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-by-email"></a>To send a PDF or image file to the OCR service by email
 
 From your email application, you can forward an email to the OCR service provider with the PDF or image file attached. For information about the email address to send to, see the OCR service provider's web site.
 
@@ -45,7 +45,7 @@ Since no incoming document record exists for the file, a new record will be crea
 > [!NOTE]  
 > If you work on a tablet or phone, you can send the file to the OCR service as soon as you have taken a photo of the document, or you can create an incoming document directly. For more information, see [Create an incoming document record by taking a photo](across-how-create-income-document-records.md#create-an-incoming-document-record-by-taking-a-photo).
 
-## To receive the resulting electronic document from the OCR service
+## <a name="to-receive-the-resulting-electronic-document-from-the-ocr-service"></a>To receive the resulting electronic document from the OCR service
 
 The electronic document that is created by the OCR service from the PDF or image file is automatically received into the **Incoming Documents** page by the job queue entry that is set up when you enable the OCR service.
 
@@ -64,7 +64,7 @@ If you aren't using a job queue, or you want to receive a finished OCR document 
 
 Now you can proceed to create document records for the received electronic documents in [!INCLUDE[prod_short](includes/prod_short.md)], manually or automatically. For more information, see the next procedure. You can also [connect the new incoming document record to existing posted or non-posted documents](across-how-connect-disconnect-income-document-records.md) so that the source file is easy to access from [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## To create a purchase invoice from an electronic document received from the OCR service
+## <a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service"></a>To create a purchase invoice from an electronic document received from the OCR service
 
 The following procedure describes how to create a purchase invoice record from a vendor invoice received as an electronic document from the OCR service. The procedure is the same when you create, for example, a general journal line from an expense receipt or a sales return order from a customer.
 
@@ -77,7 +77,7 @@ A purchase invoice will be created in [!INCLUDE[prod_short](includes/prod_short.
 
 Any validation errors, typically related to wrong or missing data in [!INCLUDE[prod_short](includes/prod_short.md)], will be shown on the **Errors and Warnings** FastTab. For more information, see [Handle errors when receiving electronic documents](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents).
 
-### To map text on an incoming document to a specific vendor account
+### <a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a>To map text on an incoming document to a specific vendor account
 
 For incoming documents, you typically use the **Map Text to Account** action to define that a certain text on a vendor invoice received from the OCR service is mapped to a certain vendor account. Going forward, any part of the incoming document description that exists as a mapping text means that the **Vendor No.** field on resulting document or journal lines of type *G/L Account* are filled with the vendor in question.
 
@@ -93,7 +93,7 @@ In addition to mapping to a vendor account or G/L accounts, you can also map tex
    > Do not use the **Bal. Source Type** and **Bal. Source No.** fields in connection with incoming documents. They are used for automatic payment reconciliation only. For more information, see [Map Text on Recurring Payments to Accounts for Automatic Reconciliation](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 6. Repeat steps 2 through 5 for all text on incoming documents that you want to automatically create documents for.
 
-## To handle errors when receiving electronic documents
+## <a name="to-handle-errors-when-receiving-electronic-documents"></a>To handle errors when receiving electronic documents
 
 1. On the **Incoming Documents** page, select the line for an electronic document received from the OCR service with errors, indicated by the *Error* value in the **OCR Status** field.
 2. Choose the **Edit** action to open the **Incoming Document** page.
@@ -103,7 +103,7 @@ In addition to mapping to a vendor account or G/L accounts, you can also map tex
 6. Proceed to process the incoming electronic document by choosing the **Create Manually** action again.
 7. Repeat steps 5 and 6 for any remaining errors until the electronic document can be received successfully.
 
-## To train the OCR service to avoid errors
+## <a name="to-train-the-ocr-service-to-avoid-errors"></a>To train the OCR service to avoid errors
 
 Because OCR is based on optical recognition, the OCR service can wrongly interpret characters in your PDF or image files when it first processes documents from a certain vendor, for example. It may not interpret the company logo as the vendor's name or it may misinterpret the total amount on an expense receipt because of its layout. To avoid such errors going forward, you can correct data received by the OCR service and then send the feedback to the service.
 
@@ -119,7 +119,7 @@ The **OCR Data Correction** page, which you open from the **Incoming Document** 
 
 The fields on the **Financial Information** FastTab on the **Incoming Document** page are updated with any new values that you entered in step 4.
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Create Incoming Document Records](across-how-create-income-document-records.md)
 [Create Incoming Document Records Directly from Documents and Entries](across-how-connect-disconnect-income-document-records.md)

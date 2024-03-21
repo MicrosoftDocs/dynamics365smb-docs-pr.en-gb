@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Work with Blanket Sales Orders or Blanket Purchase Orders
+# <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Work with Blanket Sales Orders or Blanket Purchase Orders
 
 A blanket sales order represents a framework for a long-term agreement between you and your customer. Similarly, you use blanket purchase orders to manage long-term agreements between you and your vendor.
 
@@ -22,7 +22,7 @@ An example of when a blanket sales order could be used is if a customer calls an
 > [!NOTE]
 > Blanket purchase orders work in a similar way as blanket sales orders. This documentation covers blanket sales orders only.
 
-## To create a blanket sales order
+## <a name="to-create-a-blanket-sales-order"></a>To create a blanket sales order
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Blanket Sales Orders**, and then choose the related link.  
 2. Choose the **New** action.  
@@ -30,7 +30,7 @@ An example of when a blanket sales order could be used is if a customer calls an
 4. Leave the **Order Date** field blank. When the separate sales orders are created from the blanket order, the order date of the sales order is set to equal the actual work date.
 5. On the **Lines** FastTab, create separate lines for each shipment. For instance, if your customer wants 1000 units split out equally between four weeks, you would enter four separate lines of 250 units each.  
 
-## To create a sales order from a blanket sales order  
+## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>To create a sales order from a blanket sales order
 
 1. To create an order for any of the lines in the blanket sales order, remove the quantity in the **Qty. to Ship** field on all the lines that you do not wish to ship at this time.  
 2. When you are ready to create orders, choose the **Make Order** action, and then choose **Yes**. A message appears informing you that the blanket order has been assigned an order number. Note that the blanket order has not been deleted.  
@@ -49,7 +49,7 @@ The following applies to sales orders after they have been created from blanket 
 - The invoiced blanket sales order remains in the system until it is deleted, either by deleting individual blanket orders or by running the **Delete Invoiced Blanket Sales Orders** batch job.  
 - If a customer is also recorded as a contact in the Marketing application area, and if you have specified an interaction template code for blanket sales order on the **Marketing Setup** page, an interaction is recorded in the Interaction Log Entry table when you select **Print** to print the blanket sales order.
 
-## To view the status of a blanket sales order
+## <a name="to-view-the-status-of-a-blanket-sales-order"></a>To view the status of a blanket sales order
 
 You can see the status of a blanket sales order on the **Blanket Sales Order Statistics** page. This may be relevant when you start to invoice the order that is created from the blanket sales order.  
 
@@ -62,7 +62,7 @@ You can see the status of a blanket sales order on the **Blanket Sales Order Sta
 - On the **Prepayment** FastTab, you can see summary information about any prepaid amounts.  
 - On the **Supplier** FastTab, you can see certain basic information about the vendor.
 
-## To view unposted and posted blanket sales order lines
+## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>To view unposted and posted blanket sales order lines
 
 The link between the blanket sales order and the originating sales order, and any other sales document, is retained after posting as a list of posted and unposted sales order invoice lines.  
 
@@ -88,7 +88,7 @@ The link between the blanket sales order and the originating sales order, and an
 
 5. On the **Sales Lines** page, choose the **Show Document** action to view the entry.
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Sales](sales-manage-sales.md)  
 [Create Blanket Assembly Orders](assembly-how-to-create-blanket-assembly-orders.md)  

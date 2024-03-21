@@ -9,7 +9,7 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Design Details: Item Tracking Design
+# <a name="design-details-item-tracking-design"></a>Design Details: Item Tracking Design
 
 Item tracking in [!INCLUDE[prod_short](includes/prod_short.md)] started with [!INCLUDE [navnow_md](includes/navnow_md.md)]. The item tracking functionality is in a separate object structure with intricate links to posted documents and item ledger entries, and it is integrated with the reservation system, which handles reservation, order tracking, and action messaging. For more information, see [Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md) in the Supply Planning design details.  
 
@@ -32,7 +32,7 @@ Codeunit 22, **Item Jnl. – Post Line**, now splits the posting according to th
 
 For more information, see [Design Details: Item Tracking Posting Structure](design-details-item-tracking-posting-structure.md).  
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Design Details: Item Tracking](design-details-item-tracking.md)
 

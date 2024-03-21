@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Create Blanket Assembly Orders
+# <a name="create-blanket-assembly-orders"></a>Create Blanket Assembly Orders
 
 You can use assembly management to customise an assembly item to a customer's request during the sales process. For more information, see [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).  
 
@@ -19,7 +19,7 @@ You can use assembly management to customise an assembly item to a customer's re
 > [!NOTE]  
 >  Like all blanket orders, quantities on assembly blanket orders are only forecasts and are not operational until they are converted to actual assembly orders. Therefore, order functionality, such as availability calculation, reservation, and item tracking, is not active on blanket assembly orders.  
 
-## To create a blanket assembly order for an assemble\-to\-order item  
+## <a name="to-create-a-blanket-assembly-order-for-an-assemble-to-order-item"></a>To create a blanket assembly order for an assemble\-to\-order item
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Blanket Sales Orders**, and then choose the related link.  
 2. Create a new blanket sales order with one line for an assembly item. For more information, see [Create Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md).  
@@ -35,7 +35,7 @@ You can use assembly management to customise an assembly item to a customer's re
 
 The linked blanket assembly order and any customizations are linked to that new sales order to prepare for assembly of the item or items to be sold.  
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Create Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md)  
 [Assembly Management](assembly-assemble-items.md)  

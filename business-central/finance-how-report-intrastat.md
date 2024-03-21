@@ -10,7 +10,7 @@ ms.date: 01/10/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
-# Work with Intrastat reporting
+# <a name="work-with-intrastat-reporting"></a>Work with Intrastat reporting
 
 All companies in the European Union (EU) must report their trade with other EU countries/regions. You must report the movement of goods to the statistics authorities in your country/region every month, and the report must be delivered to the tax authorities. Intrastat is the system for collecting trade statistics of goods within these countries/regions. You use **Intrastat Report** to complete periodic Intrastat reporting (typically monthly), collecting, recording, and reporting trade of goods as per local government legislation.
 
@@ -26,7 +26,7 @@ Intrastat reporting is based on basic EU regulations that apply to all countries
 >
 > We currently expect this feature to be available from November 2022 as an app at [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). At that time, to use it, you must first install it on the **Extension Management** page.
 
-## Fill in the Intrastat report
+## <a name="fill-in-the-intrastat-report"></a>Fill in the Intrastat report
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat List**, and choose the related link.
 2. Choose **New** action to create a new **Intrastat Report**.
@@ -42,7 +42,7 @@ Intrastat reporting is based on basic EU regulations that apply to all countries
 
 The batch job retrieves all the item entries in the statistics period and inserts them as lines in the **Intrastat Report** lines. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Modify the Intrastat report
+## <a name="modify-the-intrastat-report"></a>Modify the Intrastat report
 
 If needed, you can modify the lines, but whenever you change a value in the Intrastat report line, the **Correction** field will be automatically marked as **Yes**. Eventually, you can add a new line manually if there's a reason for that. To add a new line manually:
 
@@ -55,13 +55,13 @@ If needed, you can modify the lines, but whenever you change a value in the Intr
 > [!NOTE]  
 > When you manually add a new line to the Intrastat report, the **Date** field in the line must be inside the **Statistic Period** range you added on the header.
 
-## Validate Intrastat lines
+## <a name="validate-intrastat-lines"></a>Validate Intrastat lines
 
 After you fill in the **Intrastat Report**, you can run the **Checklist Report** action to ensure that all information in the **Intrastat Report** is correct. Mandatory fields you have set on **Intrastat Report Checklist** page that are missing values will be shown in **Errors and warning** FactBox on the **Intrastat Report** page.
 
 Run the **Intrastat Report Checklist** report to check Intrastat lines before they're exported to the required format. The check is run inside the **Intrastat Report**.
 
-## Recalculating weight or supplementary unit of measure
+## <a name="recalculating-weight-or-supplementary-unit-of-measure"></a>Recalculating weight or supplementary unit of measure
 
 If you got the error message *'Total Weight' in Intrastat Report Line must not be blank*, it's probably because you didn't set the **Net Weight** field on the used source, item, or fixed asset. In this case, search for the item or fixed asset card and add the required value. After that, you just need to reopen the **Intrastat Report** and follow these steps:
 
@@ -73,7 +73,7 @@ If you got the error message *'Total Weight' in Intrastat Report Line must not b
     3. **Both** – to recalculate both **Total Weight** and **Supplementary Quantity**, based on the current information on the item and fixed asset cards.
 3. Choose **OK** to start the batch job.
 
-## Report Intrastat in a file
+## <a name="report-intrastat-in-a-file"></a>Report Intrastat in a file
 
 You can submit the Intrastat report as a file based on different local authorities' requirements. Before creating the file, you should run the **Checklist Report** to check if all lines contain all necessary and valid information. To create a file:
 
@@ -91,22 +91,22 @@ Once you create the file, [!INCLUDE[prod_short](includes/prod_short.md)] will au
 > [!NOTE]  
 > Next time you create a file, the **Export Date** and **Export Time** fields will only keep information about the last file you created.
 
-## Intrastat rules
+## <a name="intrastat-rules"></a>Intrastat rules
 
-### Grouping lines
+### <a name="grouping-lines"></a>Grouping lines
 
 In **Intrastat Report** lines, there's no grouping by any fields. All entries are copied from the original source, so you can quickly locate them based on the combination of **Source Type** and **Source Entry No**.
 
 Grouping required by authorities will be provided in the exported file. You need to configure this in the **Data Exchange Definition**, which is fully configurable. Learn more at [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).
 
-### Fixed assets reporting
+### <a name="fixed-assets-reporting"></a>Fixed assets reporting
 
 Fixed assets will be shown in the Intrastat lines only if:
 
 * The **FA Posting Type** in the **VAT Ledger Entry** field is **Acquisition Cost** and if the **Document Type** is **Invoice** in the case of purchases, and
 * The **FA Posting Type** in the **VAT Ledger Entry** field is **Proceeds on Disposal** and if the **Document Type** is **Invoice** in the case of sales.
 
-### Intrastat report statuses
+### <a name="intrastat-report-statuses"></a>Intrastat report statuses
 
 When you work with the **Intrastat Report** you'll see a **Status** field on the document header. You can find the following statuses together with related rules:
 
@@ -114,14 +114,14 @@ When you work with the **Intrastat Report** you'll see a **Status** field on the
 * **Released**: [!INCLUDE[prod_short](includes/prod_short.md)] automatically changes the status to *Released* when you create a file. From that moment, you can't modify your **Intrastat Report**. If you need to change something and report again, you can use the **Reopen** action to reopen the Intrastat report. Once the document is reopened, you can use the **Release** action to release the document again.
 * **Reported**: Specifies whether the entry has already been reported to the tax authorities. This isn't a regular status but an independent field, and even if you reopened the Intrastat report, it would still show that the file is already created for this report.
 
-### Locations in Intrastat reporting 
+### <a name="locations-in-intrastat-reporting"></a>Locations in Intrastat reporting
 
 [!INCLUDE[prod_short](includes/prod_short.md)] always uses the information in the **Country/Region Code** field on the **Location Card** page as the country for **send from** or for **receive to** goods. When this information doesn't exist or location wasn't used, the system uses the information from the **Company Information** page.   
 
 > [!NOTE]  
 > If the company operates from more than one country, Intrastat reporting desn't work for all countries where locations are configured. Reporting is based only for the main country, as it's not currently possible to use multi-country reporting.  
 
-### Triangular trade in Intrastat
+### <a name="triangular-trade-in-intrastat"></a>Triangular trade in Intrastat
 
 Triangular trade involves trade between three countries or regions where goods bypass the reporting company's country. In Business Central, this can be facilitated through the [Drop Shipment](sales-how-drop-shipment.md) functionality. To enable this option, activate the **Include Drop Shipment** field in the **Intrastat Report Setup**.  
 
@@ -139,7 +139,7 @@ When you enable this option, the system uses the following rules, but only if yo
 | Non-EU country | EU country different from the country in the **Company Information** | No Intrastat lines |
 | Non-EU country | Non-EU country | No Intrastat lines |   
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Set Up Intrastat Reporting](finance-how-setup-report-intrastat.md)  
 [Financial Management](finance.md)  

@@ -11,7 +11,7 @@ ms.date: 02/23/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Set up posting groups
+# <a name="set-up-posting-groups"></a>Set up posting groups
 
 Posting groups map entities to general ledger accounts. Examples of entities are customers, vendors, items, resources, and sales and purchase documents. Posting groups save time and help avoid mistakes when you post transactions. The transaction values go to the accounts specified in the posting group for that particular entity. The only requirement is that you have a chart of accounts. For more information, see [Set Up the Chart of Accounts](finance-setup-chart-accounts.md).  
 
@@ -29,7 +29,7 @@ Posting groups are covered under three umbrellas:
 
 The following sections describe the posting groups under each umbrella.  
 
-## General posting groups
+## <a name="general-posting-groups"></a>General posting groups
 
 The following table describes the general posting groups.
 
@@ -39,7 +39,7 @@ The following table describes the general posting groups.
 | General Product Posting Groups |Assign this group to items and resources to specify what you sell, and what you buy. Set up these posting groups on the **Gen. Product Posting Groups** page. When you do, consider the number of groups you need to break down sales by product (items and resources) and purchases by items. For example, divide these groups by raw materials, retail, resources, capacity, and so on. |
 | General Posting Setups |Combine business and product posting groups and choose the accounts to post to. For each combination of business and product posting groups, you can assign a set of general ledger accounts. For example, you can post the sale of the same item to different general ledger accounts because customers are assigned to different business posting groups. Set these configurations up on the **General Posting Setup** page. |
 
-## Specific posting groups
+## <a name="specific-posting-groups"></a>Specific posting groups
 
 The following table describes the posting groups that are specific to types of data.
 
@@ -51,7 +51,7 @@ The following table describes the posting groups that are specific to types of d
 | Bank Account Posting Groups |Define the general ledger accounts that bank account entries are posted to. For example, this can simplify the processes of tracing transactions and reconciling bank accounts. Set up these posting groups on the **Bank Account Posting Groups** page. We recommend that these G/L accounts have the **Direct Posting** field set to *No*. |
 | Fixed Assets Posting Groups |Define accounts for different types of expenses and costs, such as acquisition costs, accumulated depreciation amounts, acquisition costs on disposal, accumulated depreciation on disposal, gains on disposal, losses on disposal, maintenance expenses, and depreciation expenses. Set up these posting groups on the **FA Posting Groups** page. |
 
-### Allow substitute customer or vendor posting groups on documents
+### <a name="allow-substitute-customer-or-vendor-posting-groups-on-documents"></a>Allow substitute customer or vendor posting groups on documents
 
 You can let people choose other customer and vendor posting groups than the default groups when they're working with sales or purchase documents and journals.
 
@@ -63,7 +63,7 @@ After you set this up, you can choose from the allowed substitute posting groups
 
 When applying, for example, an invoice and payment that are posted with different customer or vendor posting groups (different G/L accounts), [!INCLUDE[prod_short](includes/prod_short.md)] transfers the amounts between the G/L accounts to balance them.
 
-## Tax posting groups
+## <a name="tax-posting-groups"></a>Tax posting groups
 
 The following table describes the tax-related posting groups.
 
@@ -75,7 +75,7 @@ The following table describes the tax-related posting groups.
 
 If your country/region uses value-added tax (VAT), see [Set Up Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md).  
 
-## Example of linking posting groups
+## <a name="example-of-linking-posting-groups"></a>Example of linking posting groups
 
 Here's a scenario.  
 
@@ -98,11 +98,11 @@ When you create a sales document, the sales header uses the customer card inform
 
 Your setup determines when posting happens. For example, the timing is affected by when you do periodic activities, such as posting inventory cost or adjusting cost item entries.
 
-## Copy posting setup lines
+## <a name="copy-posting-setup-lines"></a>Copy posting setup lines
 
 The more product and business posting groups you have, the more lines you'll have on the **General Posting Setup** page. While there might be many different combinations of business and product posting groups, different combinations might still post to the same general ledger accounts. To limit the amount of manual entry, copy the general ledger accounts from an existing line on the **General Posting Setup** page.
 
-## Set up posting groups on the go
+## <a name="set-up-posting-groups-on-the-go"></a>Set up posting groups on the go
 
 To get users started faster, [!INCLUDE[prod_short](includes/prod_short.md)] can show notifications of missing G/L accounts in various posting group setups. To get these notifications, make sure that the **G/L Account is missing in posting group or setup** notification is selected in the **My Notifications** page, which you can access from the **Change when I receive notifications** field in the **My Settings** page.  
 
@@ -115,7 +115,7 @@ This way, when you work on a document that uses a posting group or a setup that 
 
 Use the **Blocked** field in the **General Posting Setup** page to prevent users from mistakenly using a setup that is no longer relevant for new postings. 
 
-## Access all fields and accounts when you set up a posting group  
+## <a name="access-all-fields-and-accounts-when-you-set-up-a-posting-group"></a>Access all fields and accounts when you set up a posting group
 
 Posting groups can be complex to set up. Because some types of accounts aren't frequently used, [!INCLUDE [prod_short](includes/prod_short.md)] doesn't show them as columns on the lines. Also, to make it a bit easier to choose the right accounts, [!INCLUDE [prod_short](includes/prod_short.md)] filters the accounts that you can choose in field lookups. 
 
@@ -127,7 +127,7 @@ If you want to access all accounts on the lines and in the field lookups, there 
 > [!NOTE]
 > The **Show All Accounts** toggle might not seem to work on the **General Posting Setup** page. That's because [!INCLUDE [prod_short](includes/prod_short.md)] always shows all accounts as columns on the lines on that page.
 
-## Troubleshooting posting group errors
+## <a name="troubleshooting-posting-group-errors"></a>Troubleshooting posting group errors
 
 Posting groups are one of the more advanced concepts to set up in [!INCLUDE[prod_short](includes/prod_short.md)]. If they aren't set up correctly, errors can occur when posting documents or journal lines. For example, these errors are typically caused by a mistake in how general ledger accounts are assigned, or how posting groups are combined.
 
@@ -136,7 +136,7 @@ When something is wrong, [!INCLUDE[prod_short](includes/prod_short.md)] will dis
 > [!NOTE]
 > The error handling described above is not available on item, resource, employee, and fixed asset journals, or for G/L accounts added in local versions of posting groups.
 
-## See also 
+## <a name="see-also"></a>See also
 
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Setting Up Finance](finance-setup-finance.md)  

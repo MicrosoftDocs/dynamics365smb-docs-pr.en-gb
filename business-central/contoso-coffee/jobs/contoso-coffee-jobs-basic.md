@@ -8,7 +8,7 @@ ms.date: 05/31/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Walkthrough of Basic Jobs
+# <a name="walkthrough-of-basic-jobs"></a>Walkthrough of Basic Jobs
 
 This walkthrough demonstrates several core processes:
 
@@ -16,13 +16,13 @@ This walkthrough demonstrates several core processes:
 - Recording time and material expenses to a job
 - Invoicing a job
 
-## Adding a Job Task to a Job
+## <a name="adding-a-job-task-to-a-job"></a>Adding a Job Task to a Job
 
-### Scenario  
+### <a name="scenario"></a>Scenario
 
 Simon, the project manager, wants to be record time spend educating the customer in espresso machine product use to a separate task in the job for installing a commercial machine on-site.
 
-### Steps
+### <a name="steps"></a>Steps
 
 1. Create the Job Task  
 
@@ -38,17 +38,17 @@ Simon, the project manager, wants to be record time spend educating the customer
    1. In the Tasks area, locate the **Indent Job Tasks** action
    2. Confirm you wish to indent tasks by selecting **Yes**.
 
-### Results
+### <a name="results"></a>Results
 
  - Now time and expenses can be recorded to the new job task
 
-## Record Time and Material Expenses to a Job
+## <a name="record-time-and-material-expenses-to-a-job"></a>Record Time and Material Expenses to a Job
 
-### Scenario  
+### <a name="scenario-1"></a>Scenario
 
 Edgin, the technician installing the machine, needs to record his time and the materials used during installation to the job for billing.  He has already added the travel and materials, and now needs to add the time for teaching staff how to use the machine.
 
-### Steps
+### <a name="steps-1"></a>Steps
 
 1. Create the additional Job Journal Lines
 
@@ -64,19 +64,19 @@ Edgin, the technician installing the machine, needs to record his time and the m
    1. Choose the **Post** action
    2. Confirm you wish to post the lines by selecting **Yes**.
 
-### Results
+### <a name="results-1"></a>Results
 
  - Job Ledger Entries and Resource Ledger Entries of type *Usage* will be created
  - Item Ledger Entries will be created to negatively adjust the inventory
  - On the Job Card, the Costs and Prices in the Tasks area will reflect the new balances waiting to be invoiced
  - On the Job Card, the Job Details FactBox will reflect the totals of the prices
 
-## Creating a Sales Invoice for a Job
+## <a name="creating-a-sales-invoice-for-a-job"></a>Creating a Sales Invoice for a Job
 
-### Scenario  
+### <a name="scenario-2"></a>Scenario
 Simon needs to create and post an invoice to be sent to the customer with the time and expenses from the job.
 
-### Steps
+### <a name="steps-2"></a>Steps
 1. Create the Sales Invoice
 
     1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
@@ -89,7 +89,7 @@ Simon needs to create and post an invoice to be sent to the customer with the ti
    2. Select the last invoice to open it for review.
    3. Choose the **Post** action.
 
-### Results
+### <a name="results-2"></a>Results
 
  - Job Ledger Entries and Resource Ledger Entries of type *Sales* will be created
  - On the Job Card, the Costs and Prices in the Tasks area will reflect the new Invoiced balances

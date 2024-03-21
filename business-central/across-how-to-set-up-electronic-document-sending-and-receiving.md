@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Set Up Electronic Document Sending and Receiving
+# <a name="set-up-electronic-document-sending-and-receiving"></a>Set Up Electronic Document Sending and Receiving
 
 > [!NOTE]
 > The content in this article is only applicable for versions of Dynamics 365 Business Central that were released before 2023 release wave 2. In 2023 release wave 2, new functionality for E-Documents is included. To learn more, see [Set up e-documents](finance-how-setup-edocuments.md). 
@@ -40,7 +40,7 @@ The topic contains the following procedures:
 * To select the **PEPPOL – Invoice** data exchange definition for electronic document receiving  
 * To set up the G/L account to use on new purchase invoice lines for non\-identifiable items and non\-items  
 
-### To set up the company for electronic document sending and receiving
+### <a name="to-set-up-the-company-for-electronic-document-sending-and-receiving"></a>To set up the company for electronic document sending and receiving
 
 1. In the **Search** box, enter **Company Information**, and then choose the related link.  
 2. On the **General** FastTab, fill the fields as described in the following table.  
@@ -51,7 +51,7 @@ The topic contains the following procedures:
     |**VAT Registration No.**|Specify your company's VAT registration number.|  
     |**Responsibility Centre**|If your company is set up with a responsibility centre, make sure that the **Country/Region Code** field is filled.|  
 
-### To set up VAT posting for electronic document sending and receiving
+### <a name="to-set-up-vat-posting-for-electronic-document-sending-and-receiving"></a>To set up VAT posting for electronic document sending and receiving
 
 1. In the **Search** box, enter **VAT Posting Setup**, and then choose the related link.  
 2. For each VAT posting setup line that you will use for electronic documents, fill the field as described in the following table.  
@@ -60,7 +60,7 @@ The topic contains the following procedures:
     |---------------------------------|---------------------------------------|  
     |**Tax Category**|Specify the VAT category.<br /><br /> For example, when you send electronic invoices in the PEPPOL format, the value in this field is used to populate the **TaxApplied** element under the **AccountingSupplierParty** node in the file. The number is based on the UNCL5305 standard.|  
 
-### To set up countries/regions for electronic document sending and receiving
+### <a name="to-set-up-countriesregions-for-electronic-document-sending-and-receiving"></a>To set up countries/regions for electronic document sending and receiving
 
 1. In the **Search** box, enter **Country/Regions**, and then choose the related link.  
 2. For each country/region that you will exchange electronic documents with, fill the field as described in the following table.  
@@ -69,7 +69,7 @@ The topic contains the following procedures:
     |---------------------------------|---------------------------------------|  
     |**VAT Scheme**|Identify the national body that issues the VAT registration number for the country\/region in connection with electronic document sending.<br /><br /> For example, when you send electronic invoices in the PEPPOL format, the value in this field is used to populate the **SchemeID** attribute for the **EndPointID** element under both the **AccountingSupplierParty** node and the **AccountingCustomerParty** in the file.<br /><br /> The **VAT Scheme** field is only used if the **GLN** field on the **Company Information** page is not filled. **Note:**  The value in the **Code** field on the **Countries\/Regions** page must comply with ISO 3166\-1:Alpha2.|  
 
-### To set up items for electronic document sending and receiving
+### <a name="to-set-up-items-for-electronic-document-sending-and-receiving"></a>To set up items for electronic document sending and receiving
 
 1. In the **Search** box, enter **Items**, and then choose the related link.  
 2. For each item that you buy or sell on electronic documents, fill the field as described in the following table.  
@@ -78,7 +78,7 @@ The topic contains the following procedures:
     |---------------------------------|---------------------------------------|  
     |**GTIN**|Identifies the item in connection with electronic document sending and receiving. For the PEPPOL format, the field is used as follows:<br /><br /> If the **StandardItemIdentification\/ID** element has the **SchemeID** attribute set to **GTIN**, then the element is mapped to the **GTIN** field on the item card.|  
 
-### To set up units of measure for electronic document sending and receiving
+### <a name="to-set-up-units-of-measure-for-electronic-document-sending-and-receiving"></a>To set up units of measure for electronic document sending and receiving
 
 1. In the **Search** box, enter **Units of Measure**, and then choose the related link.  
 2. For each unit of measure that you will use for items on electronic documents, fill the field as described in the following table.  
@@ -87,7 +87,7 @@ The topic contains the following procedures:
     |---------------------------------|---------------------------------------|  
     |**International Standard Code**|Specify the unit of measure code expressed according to the UNECERec20 standard in connection with sending of electronic documents.<br /><br /> For example, when you send electronic invoices in the PEPPOL format, the value in this field is used to populate the **unitCode** attribute of the **InvoicedQuantity** element under the **InvoiceLine** node. **Note:**  If the **Unit of Measure** field on the sales line is empty, the UNECERe20 standard value for "Piece" \(H87\) is inserted by default. For more information and a list of valid unit of measure codes, see [Recommendation No. 20 \- Units of Measure used in International Trade](https://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
 
-### To set up customers for electronic document sending
+### <a name="to-set-up-customers-for-electronic-document-sending"></a>To set up customers for electronic document sending
 
 1. In the **Search** box, enter **Customers**, and then choose the related link.  
 2. For each customer who you will send electronic documents to, fill the fields as described in the following table.  
@@ -100,7 +100,7 @@ The topic contains the following procedures:
 
     You can set up each customer with a preferred method of sending business documents, so that you do not have to select a sending option every time that you send a document to the customer. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).  
 
-### To select the PEPPOL electronic document format for electronic document sending  
+### <a name="to-select-the-peppol-electronic-document-format-for-electronic-document-sending"></a>To select the PEPPOL electronic document format for electronic document sending
 1. In the **Search** box, enter **Document Sending Profiles**, and then choose the related link.  
 2. Open an existing document sending profile, or create a new one. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).  
 3. On the **Document Sending Profile** page, choose the **Electronic Format**, select the line for PEPPOL, and then choose **OK**.  
@@ -113,7 +113,7 @@ The topic contains the following procedures:
 
     You can now send the electronic document containing the converted data. For more information, see [Send Electronic Documents](sales-how-to-send-electronic-documents.md).  
 
-### To set up vendors for electronic document receiving  
+### <a name="to-set-up-vendors-for-electronic-document-receiving"></a>To set up vendors for electronic document receiving
 1. In the **Search** box, enter **Vendors**, and then choose the related link.  
 2. For each vendor that you will receive electronic documents from, fill the fields as described in the following table.  
 
@@ -123,7 +123,7 @@ The topic contains the following procedures:
     |**VAT Registration No.**|Specify the vendor's VAT registration number. **Tip:** In supported localised versions, choose the DrillDown button to use the web service that verifies if the number exists in the national company register.|  
     |**Responsibility Centre**|If the vendor is set up with a responsibility centre, make sure that the **Country/Region Code** field is filled.|  
 
-### To select the PEPPOL - Invoice data exchange definition for electronic document receiving  
+### <a name="to-select-the-peppol---invoice-data-exchange-definition-for-electronic-document-receiving"></a>To select the PEPPOL - Invoice data exchange definition for electronic document receiving
 1. In the **Search** box, enter **Incoming Documents**, and then choose the related link.  
 2. On the line for the electronic document that you want to receive and convert, choose the **Data Exchange Type** field, and then select **PEPPOLINVOICE**.  
 
@@ -131,7 +131,7 @@ The topic contains the following procedures:
 
     You can now receive the electronic document by starting the data conversion process on the **Incoming Documents** page. For more information, see [Receive and Convert Electronic Documents](purchasing-how-to-receive-and-convert-electronic-documents.md).  
 
-### To set up the G/L account to use on new purchase invoice lines for non-identifiable items and non-items  
+### <a name="to-set-up-the-gl-account-to-use-on-new-purchase-invoice-lines-for-non-identifiable-items-and-non-items"></a>To set up the G/L account to use on new purchase invoice lines for non-identifiable items and non-items
 1. In the **Search** box, enter **Purchases & Payables Setup**, and then choose the related link.  
 2. On the **Default Accounts** FastTab, fill the field as described in the following table.  
 
@@ -139,7 +139,7 @@ The topic contains the following procedures:
     |---------------------------------|---------------------------------------|  
     |**G/L Account for Non-Item Lines**|Specifies the G/L account that is automatically inserted on purchase lines that are created from electronic documents when the incoming document line does not contain an identifiable item. Any incoming document line that does not have a GTIN or the vendor's item number will be converted to a purchase line of type **G/L Account**, and the **No.** field on the purchase line will contain the account that you select in the **G/L Account for Non-Item Lines** field.<br /><br /> If you leave the **G/L Account for Non-Item Lines** field blank, and the incoming document has lines without identifiable items, then the purchase document will not be created. An error message will instruct you to fill the **G/L Account for Non-Item Lines** field before you can complete the task.|  
 
-## See Also  
+## <a name="see-also"></a>See Also
 [Exchanging Data Electronically](across-data-exchange.md)   
 [Invoice Sales](sales-how-invoice-sales.md)   
 [Record Purchases](purchasing-how-record-purchases.md)

@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Set Up Work Centres and Machine Centres
+# <a name="set-up-work-centers-and-machine-centers"></a>Set Up Work Centres and Machine Centres
 
 The application distinguishes between three types of capacities. These are arranged hierarchically. Each level contains the subordinate levels.  
 
@@ -24,7 +24,7 @@ The availability is stored in calendar entries.
 > [!IMPORTANT]
 > Before you set up work or machine centres, you must set up shop calendars. For more information, see [Create Shop Calendars](production-how-to-create-work-center-calendars.md).
 
-## To set up a work centre
+## <a name="to-set-up-a-work-center"></a>To set up a work centre
 
 The following primarily describes how to set up a work centre. The steps to set up a machine centre calendar are similar except for the **Routing Setup** FastTab.  
 
@@ -70,13 +70,13 @@ The following primarily describes how to set up a work centre. The steps to set 
 > [!NOTE]
 > Use queue times to provide a buffer between the time that a component arrives at a machine or work centre and when the operation actually starts. For example, a part is delivered to a machine Centre at 10.00 but it takes an hour to mount it on the machine so the operation does not start until 11.00. To account for that hour, the queue time would be one hour. The value of the **Queue Time** field on a machine or work centre card plus the sum of the values in the **Setup Time**, **Run Time**, **Wait Time**, and **Move Time** fields on the item routing line combine to give the production lead time of the item. This helps provide accurate overall production times.  
 
-## Considerations about capacity
+## <a name="considerations-about-capacity"></a>Considerations about capacity
 
 The capacity and efficiency that is specified for a work and machine centre not only affect the available capacity. They also impact the overall production time that consists of the setup time and run time, which are both defined on the routing line.  
 
 When a specific routing line is allocated to a work or machine centre, the system calculates how much capacity is needed and how long will it take to complete the operation.  
 
-### Run time
+### <a name="run-time"></a>Run time
 
 To calculate the run time, the system allocates the exact time that is defined in the **Run Time** field of the routing line. Neither efficiency nor capacity impact the allocated time. For example, if the run time is defined as 2 hours, then the allocated time will be 2 hours, regardless of values in the efficiency and capacity fields in the work centre.  
 
@@ -92,7 +92,7 @@ The *duration* of an operation, on the contrary, considers both efficiency and c
 
 The fractional capacity is tricky, and we will discuss it later. 
 
-### Setup time
+### <a name="setup-time"></a>Setup time
 
 Time allocation for the setup time depends on the capacity and is calculated as *Setup Time * Capacity*. For example, if the capacity is set to *2*, your allocated setup time will be doubled, because you must set up two machines for the operation.  
 
@@ -103,7 +103,7 @@ Time allocation for the setup time depends on the capacity and is calculated as 
 
 The fractal capacity is not something easy to embrace, and it is used in very specific cases.
 
-### Work centre processing multiple orders simultaneously
+### <a name="work-center-processing-multiple-orders-simultaneously"></a>Work centre processing multiple orders simultaneously
 
 Let's use a paint-spraying booth as an example. It has the same setup and run time for each processed lot. But each lot can contain multiple individual orders that are painted simultaneously.  
 
@@ -121,7 +121,7 @@ The allocated setup time for each individual order will be in reverse order of t
 In both cases, the total allocated time for all orders is two hours.
 
 
-### Efficient resource can dedicate only part of their work date to productive work
+### <a name="efficient-resource-can-dedicate-only-part-of-their-work-date-to-productive-work"></a>Efficient resource can dedicate only part of their work date to productive work
 
 > [!NOTE]
 > This scenario is not recommended. We recommend that you use efficiency instead. 
@@ -132,7 +132,7 @@ The allocated run time is two hours, and the duration is four hours.
 
 Do not use setup time for such scenarios, as the system will allocate only 50% of the time. If the setup time is set to *2*, then the allocated setup time is one hour, and the duration is two hours.
 
-### Consolidated calendar
+### <a name="consolidated-calendar"></a>Consolidated calendar
 
 When **Consolidated calendar** field is selected, then the work centre has no capacity of its own. Instead, its capacity is equal to the sum of the capacities of all the machine centres that are assigned to the work centre.  
 
@@ -144,7 +144,7 @@ For example, if you have two machine centres with an efficiency of 80 and 70, re
 > [!NOTE]
 >  Use the **Consolidated Calendar** field when you structure your routings to schedule production operations at the machine centre level, not the work centre level. When you consolidate the calendar, the **Work Centre Load** page and reports become an overview of the aggregate load in all machine centres that are assigned to the work centre.
 
-### Example - Different Machine Centres Assigned to a Work Centre
+### <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Example - Different Machine Centres Assigned to a Work Centre
 
 It is important to plan which capacities are to make up the total capacity when setting up the machine centres and work centres.
 
@@ -154,7 +154,7 @@ If, however, identical machine centres (such as 210 Packing table 1 and 220 Pack
 
 If capacities of work centres are to make no contribution to the total capacity, you can achieve this with efficiency = 0.
 
-## To set up a capacity constrained machine or work centre
+## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>To set up a capacity constrained machine or work centre
 
 You must set up production resources that you regard as critical and mark them to accept a finite load instead of the default infinite load that other production resources accept. A capacity-constrained resource can be a work centre or machine centre that you have identified as a bottleneck and would like to establish a limited, finite load for.
 
@@ -173,7 +173,7 @@ When planning with capacity-constrained resources, the system ensures that no re
 
 > In case of operation splitting, the setup time is only assigned once because it is assumed that some manual adjustment is done to optimise the schedule.
 
-## See Also
+## <a name="see-also"></a>See Also
 
 [Create Shop Calendars](production-how-to-create-work-center-calendars.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  

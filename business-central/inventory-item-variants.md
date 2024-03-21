@@ -9,18 +9,18 @@ ms.date: 09/26/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Manage Product Variants
+# <a name="manage-product-variants"></a>Manage Product Variants
 
 Item variants are a great way to keep your list of products under control. For example, you have a large number of items that are almost identical and vary only in colour. You can define each variant as a separate item. But you choose to set up one item and specify the various colours as variants of the item.  
 
 > [!TIP]
 > For a practical introduction to using variants in production, see [Walkthrough: Variants](contoso-coffee/manufacturing/variants.md) for the Contoso Coffee demo data.  
 
-## Add variants to an item
+## <a name="add-variants-to-an-item"></a>Add variants to an item
 
 If your organisation has decided to use variants, then it's easy enough to define variants for an item.  
 
-### To add variants
+### <a name="to-add-variants"></a>To add variants
 
 1. Open [the **Items List** page](https://businesscentral.dynamics.com/?page=31), open the relevant item.  
 2. On the **Item** card, choose the **Item** action, and then choose the **Variants** action.  
@@ -28,11 +28,11 @@ If your organisation has decided to use variants, then it's easy enough to defin
 
 Then, when you create a sales document and add the item, you can specify the variant of the item in the **Variant Code** field. The same applies to purchase documents.  
 
-## Item availability by variant
+## <a name="item-availability-by-variant"></a>Item availability by variant
 
 [!INCLUDE [inventory_variant-availability](includes/inventory_variant-availability.md)]
 
-## Require use of variants
+## <a name="require-use-of-variants"></a>Require use of variants
 
 Starting in 2022 release wave 2, admins can require that users specify the variant in documents and journals for items that have variants. To activate the capability, navigate to the **Inventory Setup** page, and then select the **Variant Mandatory if Exists** field. You can override this global setting for specific items.  
 
@@ -49,11 +49,11 @@ On item cards, the **Variant Mandatory if Exists** field has the following optio
 
 If the capability is switched on, users can't post an entry if the variant isn't specified.
 
-## Categories, attributes, and variants
+## <a name="categories-attributes-and-variants"></a>Categories, attributes, and variants
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Register New Items](inventory-how-register-new-items.md)  
 [Set Up General Stock Information](inventory-how-setup-general.md)  

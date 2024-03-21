@@ -12,7 +12,7 @@ ms.date: 07/27/2023
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Set up time sheets
+# <a name="set-up-time-sheets"></a>Set up time sheets
 
 Time sheets in [!INCLUDE[prod_short](includes/prod_short.md)] handle time registration in weekly increments of seven days. You can use them to track the time used on projects, and you can use them to record simple resource time registration. Before you use time sheets, you must specify which users will submit time sheets and how you want to configure time sheets.  
 
@@ -26,7 +26,7 @@ Optionally, specify whether and how time sheets are approved. Depending on the n
 
 When you have set up time sheets, you can create time sheets for resources, and the resources can post time sheet lines. Optionally, assign time sheets to job planning lines. To learn more, go to [Use Time Sheets](projects-how-use-time-sheets.md).  
 
-## Set up time sheets with the assisted setup guide
+## <a name="set-up-time-sheets-with-the-assisted-setup-guide"></a>Set up time sheets with the assisted setup guide
 
 An assisted setup guide can help you set up time sheets.  
 
@@ -55,11 +55,11 @@ At the end of the setup guide, you can choose to let [!INCLUDE [prod_short](incl
 > [!IMPORTANT]
 > If you're using 2023 release wave 1 (v22) or later, to ensure that you can manage time sheets on mobile devices, you must manually turn on the **Use New Time Sheet Experience** option for the time sheet setup, as described in the next procedure.
 
-## Set up time sheets manually
+## <a name="set-up-time-sheets-manually"></a>Set up time sheets manually
 
 The following sections describe how to set up time sheets if you don't use the **Set Up Time Sheets** assisted setup guide.  
 
-### Set up general information for time sheets manually
+### <a name="set-up-general-information-for-time-sheets-manually"></a>Set up general information for time sheets manually
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resources Setup**, and then choose the related link.  
 1. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -74,7 +74,7 @@ The following sections describe how to set up time sheets if you don't use the *
 | **Always** |The user in the **Person Responsible** field on the job card approves the time sheet. |
 | **Machine Only** |If the machine time sheet is linked with a job, then the user in the **Person Responsible** field on the job card approves the time sheet. If the machine time sheet is linked with a resource, then the user in the **Time Sheet Approver User ID** field on the resource card approves the time sheet. |
 
-### Assign a time sheet administrator manually
+### <a name="assign-a-time-sheet-administrator-manually"></a>Assign a time sheet administrator manually
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Setup**, and then choose the related link.  
 2. Select the user who will be the time sheet administrator, and then select the **Time Sheet Admin.** checkbox.  
@@ -82,7 +82,7 @@ The following sections describe how to set up time sheets if you don't use the *
 > [!TIP]  
 > We recommend that you designate only one user as the time sheet administrator for a company. In the following procedure, you set up a time sheet owner and approver where the time sheet approver is assigned for each resource.  
 
-### Assign a time sheets owner and approver manually
+### <a name="assign-a-time-sheets-owner-and-approver-manually"></a>Assign a time sheets owner and approver manually
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resources**, and then choose the related link.
 2. Select the resource for which you want to set up the ability to use time sheets, and then select the **Use Time Sheet** checkbox.  
@@ -92,7 +92,7 @@ The following sections describe how to set up time sheets if you don't use the *
 > [!NOTE]  
 > You can't change the ID of the time sheet approver if there are time sheets that haven't been processed and have the status of **Submitted** or **Open**.
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Use Time Sheets for Projects](projects-how-use-time-sheets.md)  
 [How To Create Time Sheets](projects-how-use-time-sheets.md#create-time-sheets)  

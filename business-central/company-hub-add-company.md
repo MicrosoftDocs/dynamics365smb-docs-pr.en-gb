@@ -9,7 +9,7 @@ ms.date: 09/28/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Add Companies to Your Company Hub
+# <a name="add-companies-to-your-company-hub"></a>Add Companies to Your Company Hub
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -20,7 +20,7 @@ Right in the company hub landing page, you find the **Setup** menu, from where y
 > [!NOTE]
 > You can connect the company hub to as many companies as you need. However, you can only connect the company hub to companies that are hosted in [!INCLUDE [prod_short](includes/prod_short.md)] online.
 
-## Environment links
+## <a name="environment-links"></a>Environment links
 
 An environment link is a card where you specify the [!INCLUDE [prod_short](includes/prod_short.md)] environment that hosts one or more companies that you do work in. The data in the card for each environment is specified by you, and you can change it as needed. However, the **Environment Link** field is critical - this is how you can access each company in [!INCLUDE [prod_short](includes/prod_short.md)]. Use the **Test the connection** action in the ribbon to test that you entered the right link. The link that you must enter points at environment that hosts the company that you are adding, and it must include the Microsoft Entra ID, or the organisation's domain name. For example, if they have specified a domain such as MyBusiness.com, then the link to their [!INCLUDE [prod_short](includes/prod_short.md)] is ```https://businesscentral.dynamics.com/mybusiness.com?redirectedfromsignup=1```. Otherwise, it will look something like this: ```https://businesscentral.dynamics.com/1a23b456-789c-0123-45de-678910fg12h/production?redirectedfromsignup=1```  
 
@@ -33,14 +33,14 @@ The link is used when you choose the company in the company hub.
 >
 > If you have moved to the thirty-day trial company, My Company, you can add that to the list by choosing the **Reload / Reload all Companies** action in the list.
 
-## Load companies
+## <a name="load-companies"></a>Load companies
 
 When you have added your environments, your companies show up automatically. However, if you know that a new company has been added to an environment, you can choose the **Reload all companies** action to refresh the list. Use the same action to refresh data from across your companies.  
 
 > [!TIP]
 > In order to refresh the data in the company hub, you must have access to the data in the companies that the data comes from.
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Manage Work across Multiple Companies in the Company Hub](company-hub.md)  
 [Resources for Help and Support](product-help-and-support.md)  

@@ -9,11 +9,11 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Create Bin Contents
+# <a name="create-bin-contents"></a>Create Bin Contents
 
 After you have set up your bins, you can set up the bin contents. In other words, you can set up the items you want to store in any given bin and set the rules that govern filling the bin with a particular item. You can do this manually on the **Bin Contents** page or automatically with the **Create Bin Content Worksheet** page.
 
-## To create bin content manually
+## <a name="to-create-bin-content-manually"></a>To create bin content manually
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
 2. Select the location where you want to set up bin contents,  and then choose the **Bins** action.  
@@ -30,7 +30,7 @@ If you select the **Fixed** field, you are fixing the item to the bin, meaning t
 > [!NOTE]  
 > You can set up several bin contents at the same time on the **Bin Content Creation Worksheet** page.  
 
-## To create bin content with a worksheet
+## <a name="to-create-bin-content-with-a-worksheet"></a>To create bin content with a worksheet
 
 When you have created your bins, you can create the bin content that you want for each bin in the bin content creation worksheet.
 
@@ -48,7 +48,7 @@ When you have created your bins, you can create the bin content that you want fo
 
 In this worksheet, you can work with a number of bin content lines for a number of bins and thereby obtain a good overview of what you are putting into various bins in a given zone, aisle, or rack.  
 
-## See also 
+## <a name="see-also"></a>See also
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  
